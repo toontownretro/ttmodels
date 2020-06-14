@@ -2,4 +2,5 @@
 *.bam
 *.pt
 ./built/*
-Makefile
+*Makefile*
+*.boo
