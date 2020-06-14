@@ -343,7 +343,6 @@ $[TAB]gunzip $[GUNZIP_OPTS] < $[source] > $[target]
     #define source $[flt]
 $[target] : $[source]
 $[TAB]flt2egg $[FLT2EGG_OPTS] -o $[target] $[source]
-$[TAB]egg-trans $[EGG_TRANS_OPTS] -o $[target] $[target]
 
   #end flt
 #end flt_egg
@@ -355,7 +354,6 @@ $[TAB]egg-trans $[EGG_TRANS_OPTS] -o $[target] $[target]
     #define source $[lwo]
 $[target] : $[source]
 $[TAB]lwo2egg $[LWO2EGG_OPTS] -o $[target] $[source]
-$[TAB]egg-trans $[EGG_TRANS_OPTS] -o $[target] $[target]
 
   #end lwo
 #end lwo_egg
@@ -367,7 +365,6 @@ $[TAB]egg-trans $[EGG_TRANS_OPTS] -o $[target] $[target]
     #define source $[maya]
 $[target] : $[source]
 $[TAB]$[MAYA2EGG] $[MAYA2EGG_OPTS] -o $[target] $[source]
-$[TAB]egg-trans $[EGG_TRANS_OPTS] -o $[target] $[target]
 
   #end maya
 #end maya_egg
@@ -379,19 +376,16 @@ $[TAB]egg-trans $[EGG_TRANS_OPTS] -o $[target] $[target]
     #define source $[MAYA_PREFIX]$[or $[MODEL],$[POLY_MODEL]]$[MAYA_EXTENSION]
 $[target] : $[source]
 $[TAB]$[MAYA2EGG] $[MAYA2EGG_OPTS] -p -a model -cn "$[CHAR_NAME]" -o $[target] $[source]
-$[TAB]egg-trans $[EGG_TRANS_OPTS] -o $[target] $[target]
   #elif $[NURBS_MODEL]
     #define target $[EGG_PREFIX]$[NURBS_MODEL].egg
     #define source $[MAYA_PREFIX]$[or $[MODEL],$[NURBS_MODEL]]$[MAYA_EXTENSION]
 $[target] : $[source]
 $[TAB]$[MAYA2EGG] $[MAYA2EGG_OPTS] -a model -cn "$[CHAR_NAME]" -o $[target] $[source]
-$[TAB]egg-trans $[EGG_TRANS_OPTS] -o $[target] $[target]
   #elif $[not $[or $[MODEL], $[POLY_MODEL], $[ANIMS]]]
     #define target $[EGG_PREFIX].egg
-    #define source $[MAYA_PREFIX]$[MAYA_EXTENSION]    
+    #define source $[MAYA_PREFIX]$[MAYA_EXTENSION]
 $[target] : $[source]
 $[TAB]$[MAYA2EGG] $[MAYA2EGG_OPTS] -p -a model -cn "$[CHAR_NAME]" -o $[target] $[source]
-$[TAB]egg-trans $[EGG_TRANS_OPTS] -o $[target] $[target]
   #endif
 
 #end maya_char_egg
@@ -431,7 +425,6 @@ $[TAB]multify xf $[source] -C $[DATABASE]
     #define source $[DATABASE]/SCENES/$[scene]
 $[target] : $[source]
 $[TAB]$[SOFT2EGG] $[SOFT2EGG_OPTS] $[if $[SOFTIMAGE_RSRC],-r "$[osfilename $[SOFTIMAGE_RSRC]]"] -p -M $[target] -N $[CHAR_NAME] -d $[DATABASE] -t $[DATABASE]/PICTURES -s $[scene]
-$[TAB]egg-trans $[EGG_TRANS_OPTS] -o $[target] $[target]
   #endif
   #if $[NURBS_MODEL]
     #define target $[EGG_PREFIX]$[NURBS_MODEL].egg
@@ -439,7 +432,6 @@ $[TAB]egg-trans $[EGG_TRANS_OPTS] -o $[target] $[target]
     #define source $[DATABASE]/SCENES/$[scene]
 $[target] : $[source]
 $[TAB]$[SOFT2EGG] $[SOFT2EGG_OPTS] $[if $[SOFTIMAGE_RSRC],-r "$[osfilename $[SOFTIMAGE_RSRC]]"] -n -M $[target] -N $[CHAR_NAME] -d $[DATABASE] -t $[DATABASE]/PICTURES -s $[scene]
-$[TAB]egg-trans $[EGG_TRANS_OPTS] -o $[target] $[target]
   #endif
 
 #end soft_char_egg
@@ -500,7 +492,7 @@ $[TARGET_DIR]/$[egg] : $[target] $[TARGET_DIR]/stamp
 $[TAB]$[TOUCH_CMD] $[osfilename $[TARGET_DIR]/$[egg]]
  #else
 $[TAB]$[TOUCH_CMD] $[TARGET_DIR]/$[egg]
- #endif 
+ #endif
   #end egg
 
    // And this is the actual optchar pass.
@@ -896,7 +888,7 @@ pi :
 $[TAB]egg-palettize $[PALETTIZE_OPTS] -af $[texattrib_file] -dm $[install_dir]/%g/maps -pi
 
 .PHONY: pi.txt
-pi.txt : 
+pi.txt :
 $[TAB]egg-palettize $[PALETTIZE_OPTS] -af $[texattrib_file] -dm $[install_dir]/%g/maps -pi >pi.txt
 
 #

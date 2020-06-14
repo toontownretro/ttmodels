@@ -1,6 +1,7 @@
 *.egg
 *.bam
 *.pt
-./built/*
+built/
+stamp
 *Makefile*
 *.boo
