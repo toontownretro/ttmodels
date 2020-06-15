@@ -12,6 +12,9 @@
 # requires stamping multiple copies of the texture into the palette.
 :coverage 3.0
 
+# Don't force textures to a power-of-two size.
+:powertwo 0
+
 :group phase_1 dir phase_1
 :group phase_2 dir phase_2 on phase_1
 :group phase_3 dir phase_3 on phase_2
