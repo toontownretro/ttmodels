@@ -5,5 +5,3 @@ built/
 stamp
 *Makefile*
 *.boo
-*.swatch
-*/.mayaSwatches/*
