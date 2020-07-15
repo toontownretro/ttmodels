@@ -14,7 +14,7 @@
 #begin install_egg
   #define SOURCES \
     walls.egg doors_practical.egg safe_zone_entrance_tunnel_TT.egg \
-    windows.egg cornices.egg street_modules.egg street_modules_curbless.egg street_modules_enhanced.egg \
+    windows.egg cornices.egg street_modules.egg street_modules_enhanced.egg \
     TT_A1.egg walls_basement.egg
 
   #if $[LANGUAGE]
