@@ -1,0 +1,48 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -p -a model -cn roomAnim -o roomAnim_model.egg tt_a_ara_mat_roomAnim.mb"
+}
+<Group> roomAnim {
+  <Dart> { 1 }
+  <Joint> droppingJoint {
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 15 0 1
+      }
+    }
+  }
+  <Joint> scalingJoint {
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+      }
+    }
+  }
+  <Joint> propJoint {
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+      }
+    }
+  }
+  <Joint> spotlightJoint {
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -4.41766090401505 1.99801009638915 6.02208729381926 1
+      }
+    }
+  }
+}

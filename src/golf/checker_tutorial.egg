@@ -1,0 +1,225 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -o checker_tutorial.egg checker_tutorial.mb"
+}
+<Texture> lambert5SG {
+  "../maps/board_highlight.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> lambert4SG {
+  "../maps/tutorial_page3.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> lambert3SG {
+  "../maps/tutorial_page2.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> lambert2SG {
+  "../maps/tutorial_page1.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> tutorialPage2 {
+  <Model> { 1 }
+  <Group> part1 {
+    <Model> { 1 }
+    <VertexPool> partShape1.verts {
+      <Vertex> 0 {
+        -0.0328083989501312 -0.0328083989501312 0
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        -0.0328083989501312 0.0328083989501312 0
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.0328083989501312 -0.0328083989501312 0
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        0.0328083989501312 0.0328083989501312 0
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert3SG }
+      <VertexRef> { 0 2 3 1 <Ref> { partShape1.verts } }
+    }
+  }
+}
+<Group> tutorialPage1 {
+  <Model> { 1 }
+  <Group> part1 {
+    <Model> { 1 }
+    <VertexPool> partShape1.verts.vpool1 {
+      <Vertex> 0 {
+        -0.0328083989501312 -0.0328083989501312 0
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        -0.0328083989501312 0.0328083989501312 0
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.0328083989501312 -0.0328083989501312 0
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        0.0328083989501312 0.0328083989501312 0
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert2SG }
+      <VertexRef> { 0 2 3 1 <Ref> { partShape1.verts.vpool1 } }
+    }
+  }
+  <Group> highlight {
+    <VertexPool> highlightShape.verts {
+      <Vertex> 0 {
+        -0.00871092941504451 0.00997002669206754 0.00030309978745428
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        -0.00871092941504451 0.0273918855221566 0.00030309978745428
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.00871092941504451 0.00997002669206754 0.00030309978745428
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        0.00871092941504451 0.0273918855221566 0.00030309978745428
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert5SG }
+      <VertexRef> { 0 2 3 1 <Ref> { highlightShape.verts } }
+    }
+  }
+}
+<Group> tutorialPage3 {
+  <Model> { 1 }
+  <Group> part1 {
+    <Model> { 1 }
+    <VertexPool> partShape1.verts.vpool2 {
+      <Vertex> 0 {
+        -0.0328083989501312 -0.0328083989501312 0
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        -0.0328083989501312 0.0328083989501312 0
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.0328083989501312 -0.0328083989501312 0
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        0.0328083989501312 0.0328083989501312 0
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert4SG }
+      <VertexRef> { 0 2 3 1 <Ref> { partShape1.verts.vpool2 } }
+    }
+  }
+}

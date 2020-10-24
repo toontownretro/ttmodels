@@ -1,0 +1,334 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -fri 24 -uo ft -nf -1 -p -a model -cn phone -o phone.egg prop-phone.mb"
+}
+<Texture> suit_props_cvs_PICTURES_phone_pic {
+  "../../maps/phone.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> suit_props_cvs_PICTURES_phone_face_pic {
+  "../../maps/phone_face.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> phone {
+  <Dart> { 1 }
+  <Group> phone {
+    <Group> phone_suitA {
+    }
+    <Group> phone_body {
+      <VertexPool> phone_bodyShape.verts {
+        <Vertex> 0 {
+          -3.48705006396677 1.2838800435304 0.0650664991906934
+          <UV> { -0.237999007105827 1.31852996349335 }
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 1 {
+          -3.48705006396677 2.21720993362387 0.0650664991906934
+          <UV> { -0.423110008239746 1.31852996349335 }
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 2 {
+          -3.48705006396677 0.883879999476155 -2.97695995941563
+          <UV> { -0.158665999770164 0.715197026729584 }
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 3 {
+          -3.48705006396677 0.0838813975727151 -2.97695995941563
+          <UV> { 0 0.715197026729584 }
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 4 {
+          -3.48705006396677 0.0838813975727151 2.06506996955771
+          <UV> { 0 1.71519994735718 }
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 5 {
+          -3.48705006396677 1.2838800435304 2.06506996955771
+          <UV> { -0.237999007105827 1.71519994735718 }
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 6 {
+          0.118989002673332 0.0838812020194186 2.06506996955771
+          <UV> { 0 -1 }
+          <Normal> { -5.42293960847927e-08 -0.999999999999998 -1.00578245731952e-09 }
+        }
+        <Vertex> 7 {
+          -3.48705006396677 0.0838813975727151 2.06506996955771
+          <UV> { 0.715197026729584 -1 }
+          <Normal> { -5.42293854266517e-08 -0.999999999999998 0 }
+        }
+        <Vertex> 8 {
+          -3.48705006396677 0.0838813975727151 -2.97695995941563
+          <UV> { 0.715197026729584 0 }
+          <Normal> { -5.42293960847927e-08 -0.999999999999998 -1.00578245731952e-09 }
+        }
+        <Vertex> 9 {
+          0.118988001440454 0.0838812020194186 -2.97696997174441
+          <UV> { 0 0 }
+          <Normal> { -5.42294067429338e-08 -0.999999999999998 -2.01156491463905e-09 }
+        }
+        <Vertex> 10 {
+          0.118988001440454 0.0838812020194186 -2.97696997174441
+          <UV> { 0 0 }
+          <Normal> { -2.73282466877279e-06 0 -0.999999999996266 }
+        }
+        <Vertex> 11 {
+          -3.48705006396677 0.0838813975727151 -2.97695995941563
+          <UV> { 0 0.715197026729584 }
+          <Normal> { -2.73282512352014e-06 0 -0.999999999996266 }
+        }
+        <Vertex> 12 {
+          -3.48705006396677 0.883879999476155 -2.97695995941563
+          <UV> { -0.158665999770164 0.715197026729584 }
+          <Normal> { -2.73282466877279e-06 0 -0.999999999996266 }
+        }
+        <Vertex> 13 {
+          0.118988001440454 0.883879999476155 -2.97696997174441
+          <UV> { -0.158665999770164 0 }
+          <Normal> { -2.73282421402544e-06 0 -0.999999999996266 }
+        }
+        <Vertex> 14 {
+          0.118989002673332 2.21720993362387 0.0650659007976061
+          <UV> { -0.423110008239746 -0.603334009647369 }
+          <Normal> { 1.65921790085119e-07 0 0.999999999999986 }
+        }
+        <Vertex> 15 {
+          -3.48705006396677 2.21720993362387 0.0650664991906934
+          <UV> { -0.423110008239746 -1.31852996349335 }
+          <Normal> { 1.65921775874265e-07 0 0.999999999999986 }
+        }
+        <Vertex> 16 {
+          -3.48705006396677 1.2838800435304 0.0650664991906934
+          <UV> { -0.237999007105827 -1.31852996349335 }
+          <Normal> { 1.65921790085119e-07 0 0.999999999999986 }
+        }
+        <Vertex> 17 {
+          0.118989002673332 1.2838800435304 0.0650659007976061
+          <UV> { -0.237999007105827 -0.603334009647369 }
+          <Normal> { 1.65921818506829e-07 0 0.999999999999986 }
+        }
+        <Vertex> 18 {
+          0.118989002673332 1.2838800435304 0.0650659007976061
+          <UV> { -0.237999007105827 -1.39666998386383 }
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 19 {
+          -3.48705006396677 1.2838800435304 0.0650664991906934
+          <UV> { 0.477198004722595 -1.39666998386383 }
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 20 {
+          -3.48705006396677 1.2838800435304 2.06506996955771
+          <UV> { 0.477198004722595 -1 }
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 21 {
+          0.118989002673332 1.2838800435304 2.06506996955771
+          <UV> { -0.237999007105827 -1 }
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 22 {
+          0.118989002673332 1.2838800435304 2.06506996955771
+          <UV> { -0.237999007105827 -1 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 23 {
+          -3.48705006396677 1.2838800435304 2.06506996955771
+          <UV> { -0.237999007105827 -1.71519994735718 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 24 {
+          -3.48705006396677 0.0838813975727151 2.06506996955771
+          <UV> { 0 -1.71519994735718 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 25 {
+          0.118989002673332 0.0838812020194186 2.06506996955771
+          <UV> { 0 -1 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 26 {
+          0.118989002673332 0.0838812020194186 2.06506996955771
+          <UV> { 0 -1 }
+          <Normal> { 0.99999999999998 0 -1.98576969978599e-07 }
+        }
+        <Vertex> 27 {
+          0.118988001440454 0.0838812020194186 -2.97696997174441
+          <UV> { 0 0 }
+          <Normal> { 0.99999999999998 0 -1.98576969978599e-07 }
+        }
+        <Vertex> 28 {
+          0.118988001440454 0.883879999476155 -2.97696997174441
+          <UV> { -0.158665999770164 0 }
+          <Normal> { 0.999999999999794 -6.15914530044265e-07 -1.81571621737893e-07 }
+        }
+        <Vertex> 29 {
+          0.118989002673332 2.21720993362387 0.0650659007976061
+          <UV> { -0.423110008239746 -0.603334009647369 }
+          <Normal> { 0.999999999999946 0 -3.29132575416207e-07 }
+        }
+        <Vertex> 30 {
+          0.118989002673332 1.2838800435304 0.0650659007976061
+          <UV> { -0.237999007105827 -0.603334009647369 }
+          <Normal> { 0.999999999999228 -1.23182906008783e-06 -1.64566287707985e-07 }
+        }
+        <Vertex> 31 {
+          0.118989002673332 1.2838800435304 2.06506996955771
+          <UV> { -0.237999007105827 -1 }
+          <Normal> { 0.999999999999236 -1.23182906008784e-06 -9.92884778837985e-08 }
+        }
+      }
+      <Polygon> {
+        <Normal> { -1 0 0 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_pic }
+        <VertexRef> { 0 1 2 <Ref> { phone_bodyShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { -1 0 0 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_pic }
+        <VertexRef> { 0 2 3 <Ref> { phone_bodyShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { -1 0 0 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_pic }
+        <VertexRef> { 0 3 4 <Ref> { phone_bodyShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { -1 0 0 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_pic }
+        <VertexRef> { 0 4 5 <Ref> { phone_bodyShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { -5.42293854266517e-08 -0.999999999999998 0 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_pic }
+        <VertexRef> { 6 7 8 <Ref> { phone_bodyShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { -5.42294067429338e-08 -0.999999999999998 -2.01156491463905e-09 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_pic }
+        <VertexRef> { 6 8 9 <Ref> { phone_bodyShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { -2.73282512352014e-06 0 -0.999999999996266 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_pic }
+        <VertexRef> { 10 11 12 <Ref> { phone_bodyShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { -2.73282421402544e-06 0 -0.999999999996266 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_pic }
+        <VertexRef> { 10 12 13 <Ref> { phone_bodyShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 1.65921775874265e-07 0 0.999999999999986 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_pic }
+        <VertexRef> { 14 15 16 <Ref> { phone_bodyShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 1.65921818506829e-07 0 0.999999999999986 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_pic }
+        <VertexRef> { 14 16 17 <Ref> { phone_bodyShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 1 0 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_pic }
+        <VertexRef> { 18 19 20 <Ref> { phone_bodyShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 1 0 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_pic }
+        <VertexRef> { 18 20 21 <Ref> { phone_bodyShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_pic }
+        <VertexRef> { 22 23 24 <Ref> { phone_bodyShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_pic }
+        <VertexRef> { 22 24 25 <Ref> { phone_bodyShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0.99999999999998 0 -1.98576969978599e-07 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_pic }
+        <VertexRef> { 26 27 28 <Ref> { phone_bodyShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0.999999999999946 0 -3.29132575416207e-07 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_pic }
+        <VertexRef> { 28 29 30 <Ref> { phone_bodyShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0.999999999996965 -2.46365826701557e-06 0 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_pic }
+        <VertexRef> { 28 30 31 <Ref> { phone_bodyShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0.99999999999998 0 -1.98576955767745e-07 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_pic }
+        <VertexRef> { 28 31 26 <Ref> { phone_bodyShape.verts } }
+      }
+    }
+    <Group> phone_button_face {
+      <VertexPool> phone_button_faceShape.verts {
+        <Vertex> 0 {
+          0.118988001440454 0.883879999476155 -2.99257994323891
+          <UV> { 0 0 }
+          <Normal> { -3.29115976427125e-08 0.91588737359989 -0.401435323408759 }
+        }
+        <Vertex> 1 {
+          -3.48705006396677 0.883879999476155 -2.99257994323891
+          <UV> { 1 0 }
+          <Normal> { 0 0.915887394162602 -0.401435276494279 }
+        }
+        <Vertex> 2 {
+          -3.48705006396677 2.21720993362387 0.049454900692767
+          <UV> { 1 1 }
+          <Normal> { -3.29115976427125e-08 0.91588737359989 -0.401435323408759 }
+        }
+        <Vertex> 3 {
+          0.118989002673332 2.21720993362387 0.0494542983886138
+          <UV> { 0 1 }
+          <Normal> { -6.58231937104462e-08 0.915887351685075 -0.401435373408095 }
+        }
+      }
+      <Polygon> {
+        <Normal> { 0 0.915887394162602 -0.401435276494279 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_face_pic }
+        <VertexRef> { 0 1 2 <Ref> { phone_button_faceShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { -6.58231937104462e-08 0.915887351685075 -0.401435373408095 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_phone_face_pic }
+        <VertexRef> { 0 2 3 <Ref> { phone_button_faceShape.verts } }
+      }
+    }
+  }
+}

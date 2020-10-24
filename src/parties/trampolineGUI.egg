@@ -1,0 +1,176 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -o trampolineGUI.egg trampolineGUI.mb"
+}
+<Texture> lambert4SG {
+  "../maps/trampoline_movingBar.png"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> lambert3SG {
+  "../maps/trampoline_jellyBean_1.png"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> lambert2SG {
+  "../maps/trampoline_heightGauge.png"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> trampolineGUI {
+  <Group> trampolineGUI_background {
+    <VertexPool> trampolineGUI_backgroundShape.verts {
+      <Vertex> 0 {
+        -0.131233595800525 -0.5249343832021 0
+        <UV> {
+          -2.98023223876953e-08 0.00132527505047619
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        -0.131233595800525 0.5249343832021 0
+        <UV> {
+          -2.98023223876953e-08 0.999406039714813
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.131233595800525 -0.5249343832021 0
+        <UV> {
+          0.99999988079071 0.00132527505047619
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        0.131233595800525 0.5249343832021 0
+        <UV> {
+          0.99999988079071 0.999406039714813
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert2SG }
+      <VertexRef> { 0 2 3 1 <Ref> { trampolineGUI_backgroundShape.verts } }
+    }
+  }
+  <Group> trampolineGUI_GreenJellyBean {
+    <VertexPool> trampolineGUI_GreenJellyBeanShape.verts {
+      <Vertex> 0 {
+        -0.0424260151354972 -0.00959826423114366 0
+        <UV> {
+          1 1
+          <Tangent> { -0.845706806723357 0.533647821190888 0 }
+          <Binormal> { -0.533647821190888 -0.845706806723358 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        -0.0095982564090118 0.042426030779761 0
+        <UV> {
+          1 0
+          <Tangent> { -0.845706383839031 0.533648491362909 0 }
+          <Binormal> { -0.533648491362909 -0.845706383839031 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.0095982564090118 -0.0424259994912335 0
+        <UV> {
+          0 1
+          <Tangent> { -0.845706806723357 0.533647821190888 0 }
+          <Binormal> { -0.533647821190888 -0.845706806723358 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        0.0424260229576291 0.00959823294261622 0
+        <UV> {
+          0 0
+          <Tangent> { -0.845706383839031 0.533648491362909 0 }
+          <Binormal> { -0.533648491362909 -0.845706383839031 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert3SG }
+      <VertexRef> { 3 1 0 2 <Ref> { trampolineGUI_GreenJellyBeanShape.verts } }
+    }
+  }
+  <Group> trampolineGUI_MovingBar {
+    <VertexPool> trampolineGUI_MovingBarShape.verts {
+      <Vertex> 0 {
+        -0.140594857258434 -0.417536763068572 0.00820209973753281
+        <UV> {
+          5.96046447753906e-08 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        -0.140594857258434 -0.361233683708772 0.00820209973753281
+        <UV> {
+          5.96046447753906e-08 0.999999523162842
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.132877119569954 -0.417536763068572 0.00820209973753281
+        <UV> {
+          1.00000023841858 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        0.132877119569954 -0.361233683708772 0.00820209973753281
+        <UV> {
+          1.00000023841858 0.999999523162842
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert4SG }
+      <VertexRef> { 0 2 3 1 <Ref> { trampolineGUI_MovingBarShape.verts } }
+    }
+  }
+  <Group> locators {
+    <Group> jumpLine_locator {
+      <DCS> { net }
+      <Transform> {
+        <Matrix4> {
+          1 0 0 0
+          0 1 0 0
+          0 0 1 0
+          0 -0.390255304576888 0.00820209973753281 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,210 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o DD_flats.egg DD_flats.flt"
+}
+<Texture> 2 {
+  "../maps/DD_flatprops_ropes_shipwheel2.rgba"
+  <Scalar> wrap { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 1 {
+  "../maps/DD_flat_props_nets2.rgb"
+  <Scalar> wrap { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 0 {
+  "../maps/DD_flat_props_lifesaver2.rgba"
+  <Scalar> wrap { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    -6 0 0
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 1 {
+    -6 0 4
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 2 {
+    -6 0 5
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 3 {
+    6 0 0
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 4 {
+    6 0 4
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 5 {
+    6 0 5
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 6 {
+    -5 0 0
+    <UV> {
+      0 -0.000874599849339575
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.242535625036333 0.970142500145332 }
+    }
+    <Normal> { 0 -0.970142500145332 0.242535625036333 }
+  }
+  <Vertex> 7 {
+    -5 0 0
+    <UV> {
+      0 0.00147478224243969
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.242535625036333 0.970142500145332 }
+    }
+    <Normal> { 0 -0.970142500145332 0.242535625036333 }
+  }
+  <Vertex> 8 {
+    -5 0 0
+    <UV> {
+      0 0.0172202624380589
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.242535625036333 0.970142500145332 }
+    }
+    <Normal> { 0 -0.970142500145332 0.242535625036333 }
+  }
+  <Vertex> 9 {
+    -5 1.5 6
+    <UV> {
+      0 1.00220215320587
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.242535625036333 0.970142500145332 }
+    }
+    <Normal> { 0 -0.970142500145332 0.242535625036333 }
+  }
+  <Vertex> 10 {
+    -5 1.5 6
+    <UV> {
+      0 1.00996029376984
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.242535625036333 0.970142500145332 }
+    }
+    <Normal> { 0 -0.970142500145332 0.242535625036333 }
+  }
+  <Vertex> 11 {
+    -5 1.5 6
+    <UV> {
+      0 1.01436710357666
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.242535625036333 0.970142500145332 }
+    }
+    <Normal> { 0 -0.970142500145332 0.242535625036333 }
+  }
+  <Vertex> 12 {
+    5 0 0
+    <UV> {
+      1 -0.000874599849339575
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.242535625036333 0.970142500145332 }
+    }
+    <Normal> { 0 -0.970142500145332 0.242535625036333 }
+  }
+  <Vertex> 13 {
+    5 0 0
+    <UV> {
+      1 0.00147478224243969
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.242535625036333 0.970142500145332 }
+    }
+    <Normal> { 0 -0.970142500145332 0.242535625036333 }
+  }
+  <Vertex> 14 {
+    5 0 0
+    <UV> {
+      1 0.0172202624380589
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.242535625036333 0.970142500145332 }
+    }
+    <Normal> { 0 -0.970142500145332 0.242535625036333 }
+  }
+  <Vertex> 15 {
+    5 1.5 6
+    <UV> {
+      1 1.00220215320587
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.242535625036333 0.970142500145332 }
+    }
+    <Normal> { 0 -0.970142500145332 0.242535625036333 }
+  }
+  <Vertex> 16 {
+    5 1.5 6
+    <UV> {
+      1 1.00996029376984
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.242535625036333 0.970142500145332 }
+    }
+    <Normal> { 0 -0.970142500145332 0.242535625036333 }
+  }
+  <Vertex> 17 {
+    5 1.5 6
+    <UV> {
+      1 1.01436710357666
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.242535625036333 0.970142500145332 }
+    }
+    <Normal> { 0 -0.970142500145332 0.242535625036333 }
+  }
+}
+<Group> g1 {
+  <Group> g3 {
+    <Group> prop_lifesaver {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 0 }
+        <VertexRef> { 14 16 10 8 <Ref> { vpool } }
+      }
+    }
+    <Group> prop_lifesaver_collisions {
+      <ObjectType> { barrier }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 2 0 3 5 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> g4 {
+    <Group> prop_nets {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 1 }
+        <VertexRef> { 13 15 9 7 <Ref> { vpool } }
+      }
+    }
+    <Group> prop_nets_collisions {
+      <ObjectType> { barrier }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 2 0 3 5 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> g5 {
+    <Group> prop_ship_wheel {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 2 }
+        <VertexRef> { 12 17 11 6 <Ref> { vpool } }
+      }
+    }
+    <Group> prop_shipwheel_collisions {
+      <ObjectType> { barrier }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 1 0 3 4 <Ref> { vpool } }
+      }
+    }
+  }
+}

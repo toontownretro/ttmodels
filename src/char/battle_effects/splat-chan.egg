@@ -1,0 +1,72 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -a chan -cn splat -o splat-chan.egg -sf 0 prop-splat.mb"
+}
+<Table> {
+  <Bundle> splat {
+    <Table> "<skeleton>" {
+      <Table> splat {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 24 }
+          <Char*> order { srpht }
+        }
+        <Table> joint_splat {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> i {
+              <V> {
+                1 1.05125 1.1886 1.38746 1.62322 1.87127 2.10703 2.30588
+                2.44324 2.49449
+              }
+            }
+            <S$Anim> j {
+              <V> {
+                1 1.02503 1.09212 1.18924 1.30439 1.42554 1.54069
+                1.63781 1.7049 1.72993
+              }
+            }
+            <S$Anim> x { <V> { 0.0150446 } }
+            <S$Anim> y { <V> { 0.477827 } }
+            <S$Anim> z {
+              <V> {
+                2.36569 2.56685 3.10595 3.88645 4.81177 5.78537 6.7107
+                7.49119 8.03029 8.23145
+              }
+            }
+          }
+        }
+        <Table> joint_splatter {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> i {
+              <V> {
+                0.788952 1.60709 2.3521 3.01781 3.59804 4.08661 4.47737
+                4.76412 4.9407 5.00093
+              }
+            }
+            <S$Anim> j {
+              <V> {
+                0.788952 1.46515 2.07412 2.61258 3.07723 3.46477 3.77192
+                3.99539 4.13189 4.17812
+              }
+            }
+            <S$Anim> k { <V> { 0.788952 } }
+            <S$Anim> x { <V> { 0.0150446 } }
+            <S$Anim> y { <V> { 0.00361633 } }
+            <S$Anim> z {
+              <V> {
+                0.959613 -0.519791 -1.99919 -3.4786 -4.958 -4.958 -4.958
+                -4.958 -4.958 -4.958
+              }
+            }
+          }
+        }
+      }
+    }
+    <Table> morph {
+    }
+  }
+}

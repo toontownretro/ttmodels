@@ -1,0 +1,37 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o cog_life_meter.egg cog_life_meter.flt"
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    0 0 0
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 1 {
+    0 0 1
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 2 {
+    1 0 0
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 3 {
+    1 0 1
+    <Normal> { 0 -1 0 }
+  }
+}
+<Group> lifeMeter {
+  <Group> fg {
+    <Polygon> {
+      <RGBA> { 0.426184982061386 0 0 1 }
+      <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+    }
+  }
+  <Group> bg {
+    <Polygon> {
+      <RGBA> { 0.811023592948914 0.811023592948914 0.811023592948914 1 }
+      <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+    }
+  }
+}

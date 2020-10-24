@@ -1,0 +1,166 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -fri 24 -uo ft -nf -1 -a chan -cn airplane -o SZ_airplane-wave.egg -sf 0 prop-airplane-wave.mb"
+}
+<Table> {
+  <Bundle> airplane {
+    <Table> "<skeleton>" {
+      <Table> airplane {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 24 }
+          <Char*> order { srpht }
+        }
+        <Table> banner0 {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+          }
+          <Table> banner1 {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+              <S$Anim> x { <V> { -0.379951 } }
+            }
+            <Table> banner2 {
+              <Xfm$Anim_S$> xform {
+                <Scalar> fps { 24 }
+                <Char*> order { srpht }
+                <S$Anim> x { <V> { -0.369682 } }
+                <S$Anim> y {
+                  <V> {
+                    0.150197 0.0308628 -0.072822 -0.161083 -0.174885
+                    -0.129303 -0.0591815 0.0215513 0.098965 0.157147
+                    0.150573
+                  }
+                }
+              }
+              <Table> banner3 {
+                <Xfm$Anim_S$> xform {
+                  <Scalar> fps { 24 }
+                  <Char*> order { srpht }
+                  <S$Anim> x { <V> { -0.359413 } }
+                }
+                <Table> banner4 {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                    <S$Anim> x { <V> { -0.37995 } }
+                  }
+                  <Table> banner5 {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> x { <V> { -0.369681 } }
+                      <S$Anim> y {
+                        <V> {
+                          0.0600787 -0.00379298 0.08515 0.240485
+                          0.299994 0.260331 0.163974 0.0193113 0.0174753
+                          0.0693111 0.0602928
+                        }
+                      }
+                      <S$Anim> z {
+                        <V> {
+                          0 0 0 0 8.65176e-05 0.00150382 0.0011491
+                          -0.00649387 -0.019576 -0.0235376 -0.000431752
+                        }
+                      }
+                    }
+                    <Table> banner6 {
+                      <Xfm$Anim_S$> xform {
+                        <Scalar> fps { 24 }
+                        <Char*> order { srpht }
+                        <S$Anim> x { <V> { -0.379951 } }
+                        <S$Anim> y {
+                          <V> {
+                            -0.00370188 -0.00171873 0.00709363 0.0199044
+                            0.0346828 0.049525 0.0625273 0.0717855
+                            0.0642129 0.019632 0.00022015
+                          }
+                        }
+                        <S$Anim> z {
+                          <V> {
+                            0.000370188 0.000171873 -0.000709363
+                            -0.00199043 -0.00346828 -0.0049525
+                            -0.00625272 -0.00717855 -0.00642129
+                            -0.0019632 -2.20154e-05
+                          }
+                        }
+                      }
+                      <Table> banner7 {
+                        <Xfm$Anim_S$> xform {
+                          <Scalar> fps { 24 }
+                          <Char*> order { srpht }
+                          <S$Anim> x { <V> { -0.369681 } }
+                          <S$Anim> y {
+                            <V> {
+                              -0.090118 -0.0213766 0.0663961 0.113068
+                              0.0727328 0.0066635 -0.059535 -0.111506
+                              -0.156997 -0.170117 -0.0916037
+                            }
+                          }
+                          <S$Anim> z {
+                            <V> {
+                              0 0 0 0 0.00071456 0.00471921 0.00929328
+                              0.0135301 0.0165228 0.0164763 0.000302226
+                            }
+                          }
+                        }
+                        <Table> banner8 {
+                          <Xfm$Anim_S$> xform {
+                            <Scalar> fps { 24 }
+                            <Char*> order { srpht }
+                            <S$Anim> x { <V> { -0.369681 } }
+                            <S$Anim> y {
+                              <V> {
+                                -0.000786789 -0.000365295 0.00130768
+                                -0.181053 -0.119344 0.0171384 0.097211
+                                0.0597691 0.0311995 0.0102118
+                                9.80422e-05
+                              }
+                            }
+                            <S$Anim> z {
+                              <V> {
+                                0 0 1.81893e-05 0.000241585 -0.00242135
+                                -0.00599146 -0.00873977 -0.00679879
+                                -0.00311998 -0.00102119 -9.80438e-06
+                              }
+                            }
+                          }
+                          <Table> banner9 {
+                            <Xfm$Anim_S$> xform {
+                              <Scalar> fps { 24 }
+                              <Char*> order { srpht }
+                              <S$Anim> x { <V> { -0.37995 } }
+                              <S$Anim> y {
+                                <V> {
+                                  -0.158727 -0.215022 0.0528152 0.119525
+                                  0.00324982 0.111744 0.228573
+                                  0.00416461 -0.0279347 0.225493
+                                  -0.202406
+                                }
+                              }
+                              <S$Anim> z {
+                                <V> {
+                                  0 0 9.81821e-05 0.00130403 -0.0135483
+                                  -0.0336215 -0.047877 -0.0289601
+                                  -0.00524777 -0.000471085 4.11317e-06
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    <Table> morph {
+    }
+  }
+}

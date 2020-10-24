@@ -1,0 +1,300 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o BR_windows.egg BR_windows.flt"
+}
+<Texture> 517 {
+  "../maps/window_sm_roundBR.rgba"
+  <Scalar> wrap { clamp }
+  <Scalar> wrapu { clamp }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 515 {
+  "../maps/window_sm_curvedBR.rgba"
+  <Scalar> wrap { clamp }
+  <Scalar> wrapu { clamp }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 514 {
+  "../maps/window_potholeBR.rgba"
+  <Scalar> wrap { clamp }
+  <Scalar> wrapu { clamp }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    -1.52778597101996 0 -1.76235159777528
+    <UV> {
+      0 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 1 {
+    -1.52778597101996 0 1.76235159777528
+    <UV> {
+      0 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 2 {
+    -1.20218492509754 0 -1.61436335724833
+    <UV> {
+      0 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 3 {
+    -1.20218492509754 0 1.61436335724833
+    <UV> {
+      0 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 4 {
+    -1.04713169784171 0 -1.04257020827245
+    <UV> {
+      0 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 5 {
+    -1.04713169784171 0 1.05169318741097
+    <UV> {
+      0 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 6 {
+    1.04713169784171 0 -1.04257020827245
+    <UV> {
+      1 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 7 {
+    1.04713169784171 0 1.05169318741097
+    <UV> {
+      1 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 8 {
+    1.20218492509754 0 -1.61436335724833
+    <UV> {
+      1 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 9 {
+    1.20218492509754 0 1.61436335724833
+    <UV> {
+      1 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 10 {
+    1.52778597101996 0 -1.76235159777528
+    <UV> {
+      1 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 11 {
+    1.52778597101996 0 1.76235159777528
+    <UV> {
+      1 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 12 {
+    -1.52778597101996 0 -1.76235159777528
+    <UV> {
+      1 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 13 {
+    -1.52778597101996 0 1.76235159777528
+    <UV> {
+      1 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 14 {
+    -1.20218492509754 0 -1.61436335724833
+    <UV> {
+      1 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 15 {
+    -1.20218492509754 0 1.61436335724833
+    <UV> {
+      1 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 16 {
+    -1.04713169784171 0 -1.04257020827245
+    <UV> {
+      1 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 17 {
+    -1.04713169784171 0 1.05169318741097
+    <UV> {
+      1 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 18 {
+    1.04713169784171 0 -1.04257020827245
+    <UV> {
+      0 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 19 {
+    1.04713169784171 0 1.05169318741097
+    <UV> {
+      0 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 20 {
+    1.20218492509754 0 -1.61436335724833
+    <UV> {
+      0 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 21 {
+    1.20218492509754 0 1.61436335724833
+    <UV> {
+      0 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 22 {
+    1.52778597101996 0 -1.76235159777528
+    <UV> {
+      0 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 23 {
+    1.52778597101996 0 1.76235159777528
+    <UV> {
+      0 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+}
+<Group> newwindows {
+  <Group> window_portholeBR {
+    <Group> window_porthole_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 514 }
+        <VertexRef> { 5 4 6 7 <Ref> { vpool } }
+      }
+    }
+    <Group> window_porthole_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 514 }
+        <VertexRef> { 17 16 18 19 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> window_sm_curvedBR {
+    <Group> window_sm_curved_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 515 }
+        <VertexRef> { 1 0 10 11 <Ref> { vpool } }
+      }
+    }
+    <Group> window_sm_curved_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 515 }
+        <VertexRef> { 13 12 22 23 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> window_sm_roundBR {
+    <Group> window_sm_round_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 517 }
+        <VertexRef> { 3 2 8 9 <Ref> { vpool } }
+      }
+    }
+    <Group> window_sm_round_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 517 }
+        <VertexRef> { 15 14 20 21 <Ref> { vpool } }
+      }
+    }
+  }
+}

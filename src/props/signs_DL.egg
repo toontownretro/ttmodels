@@ -1,0 +1,210 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o signs_DL.egg signs_DL.flt"
+}
+<Texture> 3 {
+  "../maps/DL_sign3.rgba"
+  <Scalar> wrap { clamp }
+  <Scalar> wrapu { clamp }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 2 {
+  "../maps/DL_sign1.rgba"
+  <Scalar> wrap { clamp }
+  <Scalar> wrapu { clamp }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 1 {
+  "../maps/DL_sign2.rgba"
+  <Scalar> wrap { clamp }
+  <Scalar> wrapu { clamp }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 0 {
+  "../maps/DL_sign4.rgba"
+  <Scalar> wrap { clamp }
+  <Scalar> wrapu { clamp }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    -7.76281660832458 0 -2.93870365094765
+    <UV> {
+      0 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 1 {
+    -7.76281660832458 0 2.93870365094765
+    <UV> {
+      0 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 2 {
+    -7.70000016689301 0 -3.30000007152557
+    <UV> {
+      0 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 3 {
+    -7.70000016689301 0 -2.67300021135808
+    <UV> {
+      0 0
+      <Tangent> { 0.999999205224509 0 0.00126077371098479 }
+      <Binormal> { -0.00126077371098479 0 0.999999205224509 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 4 {
+    -7.70000016689301 0 2.67300021135808
+    <UV> {
+      -0.00325509672984481 0.986290276050568
+      <Tangent> { 0.99999681044271 0 0.0025256888975549 }
+      <Binormal> { -0.0025256888975549 0 0.99999681044271 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 5 {
+    -7.70000016689301 0 2.67300021135808
+    <UV> {
+      0 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 6 {
+    -7.70000016689301 0 3.30000007152557
+    <UV> {
+      0 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 7 {
+    7.63718372546143 0 -2.93870365094765
+    <UV> {
+      1 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 8 {
+    7.63718372546143 0 2.93870365094765
+    <UV> {
+      1 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 9 {
+    7.70000016689301 0 -3.30000007152557
+    <UV> {
+      1 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 10 {
+    7.70000016689301 0 -2.67300021135808
+    <UV> {
+      1 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 11 {
+    7.70000016689301 0 -2.67300021135808
+    <UV> {
+      1.00331997871399 -0.00717594614252448
+      <Tangent> { 0.999996810421752 0 0.00252569719545725 }
+      <Binormal> { -0.00252569719545725 0 0.999996810421752 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 12 {
+    7.70000016689301 0 2.67300021135808
+    <UV> {
+      1 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 13 {
+    7.70000016689301 0 2.67300021135808
+    <UV> {
+      1.00006484985352 0.979114353656769
+      <Tangent> { 0.999996810442863 0 0.00252568883673963 }
+      <Binormal> { -0.00252568883673963 0 0.999996810442863 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 14 {
+    7.70000016689301 0 3.30000007152557
+    <UV> {
+      1 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+}
+<Group> g1 {
+  <Group> g2 {
+    <Group> DL_sign1 {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 2 }
+        <VertexRef> { 6 2 9 14 <Ref> { vpool } }
+      }
+    }
+    <Group> DL_sign2 {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 1 }
+        <VertexRef> { 1 0 7 8 <Ref> { vpool } }
+      }
+    }
+    <Group> DL_sign3 {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 3 }
+        <VertexRef> { 4 3 11 13 <Ref> { vpool } }
+      }
+    }
+    <Group> DL_sign4 {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 0 }
+        <VertexRef> { 5 3 10 12 <Ref> { vpool } }
+      }
+    }
+  }
+}

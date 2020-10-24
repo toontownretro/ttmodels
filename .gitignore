@@ -1,7 +1,11 @@
-*.egg
+# These are files that are generated within the model tree by the
+# ppremake system.
+Makefile
+/built/
 *.bam
-*.pt
-built/
 stamp
-*Makefile*
 *.boo
+**/pal_egg
+**/bams
+**/optchar
+**/topstrip

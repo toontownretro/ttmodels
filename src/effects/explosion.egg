@@ -1,0 +1,167 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o explosion.egg explosion.flt"
+}
+<Texture> 9 {
+  "../maps/expl008.rgba"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 8 {
+  "../maps/expl007.rgba"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 7 {
+  "../maps/expl006.rgba"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 6 {
+  "../maps/expl005.rgba"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 55 {
+  "../maps/expl010.rgba"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 5 {
+  "../maps/expl004.rgba"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 4 {
+  "../maps/expl003.rgba"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 3 {
+  "../maps/expl002.rgba"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 2 {
+  "../maps/expl001.rgba"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 10 {
+  "../maps/expl009.rgba"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    -11 0 -12
+    <UV> {
+      0 0
+      <Tangent> { 0.999995677872712 0 0.00294010814346558 }
+      <Binormal> { -0.00294010814346558 0 0.999995677872712 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 1 {
+    -11 0 8
+    <UV> {
+      0.00272156693972647 0.994936466217041
+      <Tangent> { 0.999995677920874 0 0.00294009176258671 }
+      <Binormal> { -0.00294009176258671 0 0.999995677920874 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 2 {
+    9 0 -12
+    <UV> {
+      0.99609363079071 -0.0029252334497869
+      <Tangent> { 0.999995677872854 0 0.00294010809530381 }
+      <Binormal> { -0.00294010809530381 0 0.999995677872854 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 3 {
+    9 0 8
+    <UV> {
+      0.998815178871155 0.992011249065399
+      <Tangent> { 0.999995677921015 0 0.00294009171442522 }
+      <Binormal> { -0.00294009171442522 0 0.999995677921015 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+}
+<Group> toon_explosion {
+  <Switch> { 1 }
+  <Scalar> fps { 24 }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 2 }
+    <VertexRef> { 1 0 2 3 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 3 }
+    <VertexRef> { 1 0 2 3 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 4 }
+    <VertexRef> { 1 0 2 3 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 5 }
+    <VertexRef> { 1 0 2 3 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 6 }
+    <VertexRef> { 1 0 2 3 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 7 }
+    <VertexRef> { 1 0 2 3 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 8 }
+    <VertexRef> { 1 0 2 3 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 9 }
+    <VertexRef> { 1 0 2 3 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 10 }
+    <VertexRef> { 1 0 2 3 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 55 }
+    <VertexRef> { 1 0 2 3 <Ref> { vpool } }
+  }
+}

@@ -1,0 +1,60 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -o bust_a_cog_ball_white.egg bust_a_cog_ball_white.mb"
+}
+<Texture> lambert3SG {
+  "../maps/bust_a_cog_balls.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> bust_a_move_ball_white {
+  <VertexPool> bust_a_move_ball_whiteShape.verts {
+    <Vertex> 0 {
+      -0.499999992490753 1.11022300795128e-16 -0.499999992490753
+      <UV> {
+        0.331104636192322 0.31941631436348
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 0 -1 }
+      }
+      <Normal> { 0 -1 0 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 1 {
+      -0.499999992490753 -1.11022300795128e-16 0.499999992490753
+      <UV> {
+        0.331104636192322 0.00696395104750991
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 0 -1 }
+      }
+      <Normal> { 0 -1 0 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 2 {
+      0.499999992490753 1.11022300795128e-16 -0.499999992490753
+      <UV> {
+        0.643557071685791 0.31941631436348
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 0 -1 }
+      }
+      <Normal> { 0 -1 0 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 3 {
+      0.499999992490753 -1.11022300795128e-16 0.499999992490753
+      <UV> {
+        0.643557071685791 0.00696395104750991
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 0 -1 }
+      }
+      <Normal> { 0 -1 0 }
+      <RGBA> { 1 1 1 1 }
+    }
+  }
+  <Polygon> {
+    <TRef> { lambert3SG }
+    <VertexRef> { 1 0 2 3 <Ref> { bust_a_move_ball_whiteShape.verts } }
+  }
+}

@@ -1,0 +1,38 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -a chan -cn HeartWing -o tt_m_ara_pty_heartWing.egg -sf 0 tt_m_ara_pty_heartWing.mb"
+}
+<Table> {
+  <Bundle> HeartWing {
+    <Table> "<skeleton>" {
+      <Table> prop_heartWing {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 24 }
+          <Char*> order { srpht }
+        }
+        <Table> heartWingJoint {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> y {
+              <V> {
+                0 0 0.00219435 0.00782669 0.0165131 0.0278696 0.0415124
+                0.0570574 0.0741208 0.0923186 0.111267 0.130582 0.149879
+                0.168775 0.186886 0.203828 0.219217 0.232669 0.243799
+                0.252225 0.257562 0.259427 0.258541 0.255968 0.251829
+                0.24625 0.239353 0.231262 0.222101 0.211994 0.201064
+                0.189434 0.177228 0.164571 0.151584 0.138393 0.125121
+                0.111891 0.0988269 0.0860524 0.0736912 0.0618667
+                0.0507027 0.0403227 0.0308504 0.0224094 0.0151232
+                0.00911561 0.00451012 0.00143038 0
+              }
+            }
+          }
+        }
+      }
+    }
+    <Table> morph {
+    }
+  }
+}

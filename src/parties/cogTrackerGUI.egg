@@ -1,0 +1,636 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -o cogTrackerGUI.egg cogTrackerGUI.mb"
+}
+<Texture> lambert4SG {
+  "../maps/cogPieToss_cogMeter-blueCog.png"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> lambert3SG {
+  "../maps/cogPieToss_cogMeter.png"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> cogMeterShadow_lambertSG {
+  "../maps/cogPieToss_cogMeterShadow.png"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> cog2_lambertSG {
+  "../maps/cogPieToss_cogMeter-orangeCog.png"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> cog1_lambertSG {
+  "../maps/cogPieToss_cogMeter-whiteCog.png"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> shadow {
+  <VertexPool> shadowShape.verts {
+    <Vertex> 0 {
+      -0.228075890403407 -0.18353856454684 -0.0111707522878497
+      <UV> {
+        0.00751078128814697 0.00841337163001299
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 -1 }
+    }
+    <Vertex> 1 {
+      -0.228075890403407 0.147696210956323 -0.0111707522878497
+      <UV> {
+        0.00751078128814697 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 -1 }
+    }
+    <Vertex> 2 {
+      0.200187268219595 -0.18353856454684 -0.0111707522878497
+      <UV> {
+        0.992489218711853 0.00841337163001299
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 -1 }
+    }
+    <Vertex> 3 {
+      0.200187268219595 0.147696210956323 -0.0111707522878497
+      <UV> {
+        0.992489218711853 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 -1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { cogMeterShadow_lambertSG }
+    <VertexRef> { 2 0 1 3 <Ref> { shadowShape.verts } }
+  }
+}
+<Group> tracker {
+  <Group> plane {
+    <VertexPool> planeShape.verts {
+      <Vertex> 0 {
+        -0.215989554648011 -0.172429932696926 0
+        <UV> {
+          0.992489218711853 1
+          <Tangent> { -1 0 0 }
+          <Binormal> { 0 -1 0 }
+        }
+        <Normal> { 0 0 -1 }
+      }
+      <Vertex> 1 {
+        -0.215989554648011 0.158804842806238 0
+        <UV> {
+          0.992489218711853 0.00841337163001299
+          <Tangent> { -1 0 0 }
+          <Binormal> { 0 -1 0 }
+        }
+        <Normal> { 0 0 -1 }
+      }
+      <Vertex> 2 {
+        0.212273603974991 -0.172429932696926 0
+        <UV> {
+          0.00751078128814697 1
+          <Tangent> { -1 0 0 }
+          <Binormal> { 0 -1 0 }
+        }
+        <Normal> { 0 0 -1 }
+      }
+      <Vertex> 3 {
+        0.212273603974991 0.158804842806238 0
+        <UV> {
+          0.00751078128814697 0.00841337163001299
+          <Tangent> { -1 0 0 }
+          <Binormal> { 0 -1 0 }
+        }
+        <Normal> { 0 0 -1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert3SG }
+      <VertexRef> { 1 3 2 0 <Ref> { planeShape.verts } }
+    }
+  }
+  <Group> cog1_top {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -1.7386854657434e-05 0.102435833893753 0 1
+      }
+    }
+  }
+  <Group> cog0_top {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.122318559746362 0.102435833893753 0 1
+      }
+    }
+  }
+  <Group> cog2_top {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.119150294653762 0.102435833893753 0 1
+      }
+    }
+  }
+  <Group> cog0 {
+    <DCS> { 1 }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.121351607202545 -0.00150184540610927 0.0328083989501312 1
+      }
+    }
+    <Group> cog0_orange {
+      <VertexPool> cog0_orangeShape.verts {
+        <Vertex> 0 {
+          -0.159035767783017 -0.0391860059865816 0.0328083989501312
+          <UV> {
+            0 -2.98023223876953e-08
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 1 {
+          -0.159035767783017 0.0361823151743631 0.0328083989501312
+          <UV> {
+            0 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 2 {
+          -0.0836674466220726 -0.0391860059865816 0.0328083989501312
+          <UV> {
+            1 -2.98023223876953e-08
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 3 {
+          -0.0836674466220726 0.0361823151743631 0.0328083989501312
+          <UV> {
+            1 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { cog2_lambertSG }
+        <VertexRef> { 0 2 3 1 <Ref> { cog0_orangeShape.verts } }
+      }
+    }
+    <Group> cog0_white {
+      <VertexPool> cog0_whiteShape.verts {
+        <Vertex> 0 {
+          -0.159035767783017 -0.0391860059865816 0.0328083989501312
+          <UV> {
+            0 -2.98023223876953e-08
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 1 {
+          -0.159035767783017 0.0361823151743631 0.0328083989501312
+          <UV> {
+            0 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 2 {
+          -0.0836674466220726 -0.0391860059865816 0.0328083989501312
+          <UV> {
+            1 -2.98023223876953e-08
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 3 {
+          -0.0836674466220726 0.0361823151743631 0.0328083989501312
+          <UV> {
+            1 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { cog1_lambertSG }
+        <VertexRef> { 0 2 3 1 <Ref> { cog0_whiteShape.verts } }
+      }
+    }
+    <Group> cog0_blue {
+      <VertexPool> cog0_blueShape.verts {
+        <Vertex> 0 {
+          -0.159035767783017 -0.0391860059865816 0.0328083989501312
+          <UV> {
+            0 -2.98023223876953e-08
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 1 {
+          -0.159035767783017 0.0361823151743631 0.0328083989501312
+          <UV> {
+            0 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 2 {
+          -0.0836674466220726 -0.0391860059865816 0.0328083989501312
+          <UV> {
+            1 -2.98023223876953e-08
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 3 {
+          -0.0836674466220726 0.0361823151743631 0.0328083989501312
+          <UV> {
+            1 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { lambert4SG }
+        <VertexRef> { 0 2 3 1 <Ref> { cog0_blueShape.verts } }
+      }
+    }
+  }
+  <Group> cog1 {
+    <DCS> { 1 }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.000165267957477119 -0.00110511470028735 0.0328083989501312 1
+      }
+    }
+    <Group> cog1_orange {
+      <VertexPool> cog1_orangeShape.verts {
+        <Vertex> 0 {
+          -0.0375188906674623 -0.0387892752807597 0.0328083989501312
+          <UV> {
+            0 -2.98023223876953e-08
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 1 {
+          -0.0375188906674623 0.036579045880185 0.0328083989501312
+          <UV> {
+            0 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 2 {
+          0.0378494265824165 -0.0387892752807597 0.0328083989501312
+          <UV> {
+            1 -2.98023223876953e-08
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 3 {
+          0.0378494265824165 0.036579045880185 0.0328083989501312
+          <UV> {
+            1 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { cog2_lambertSG }
+        <VertexRef> { 0 2 3 1 <Ref> { cog1_orangeShape.verts } }
+      }
+    }
+    <Group> cog1_blue {
+      <VertexPool> cog1_blueShape.verts {
+        <Vertex> 0 {
+          -0.0375188906674623 -0.0387892752807597 0.0328083989501312
+          <UV> {
+            0 -2.98023223876953e-08
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 1 {
+          -0.0375188906674623 0.036579045880185 0.0328083989501312
+          <UV> {
+            0 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 2 {
+          0.0378494265824165 -0.0387892752807597 0.0328083989501312
+          <UV> {
+            1 -2.98023223876953e-08
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 3 {
+          0.0378494265824165 0.036579045880185 0.0328083989501312
+          <UV> {
+            1 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { lambert4SG }
+        <VertexRef> { 0 2 3 1 <Ref> { cog1_blueShape.verts } }
+      }
+    }
+    <Group> cog1_white {
+      <VertexPool> cog1_whiteShape.verts {
+        <Vertex> 0 {
+          -0.0375188906674623 -0.0387892752807597 0.0328083989501312
+          <UV> {
+            0 -2.98023223876953e-08
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 1 {
+          -0.0375188906674623 0.036579045880185 0.0328083989501312
+          <UV> {
+            0 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 2 {
+          0.0378494265824165 -0.0387892752807597 0.0328083989501312
+          <UV> {
+            1 -2.98023223876953e-08
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 3 {
+          0.0378494265824165 0.036579045880185 0.0328083989501312
+          <UV> {
+            1 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { cog1_lambertSG }
+        <VertexRef> { 0 2 3 1 <Ref> { cog1_whiteShape.verts } }
+      }
+    }
+  }
+  <Group> cog2 {
+    <DCS> { 1 }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.120717537371818 -0.00110511470028735 0.0328083989501312 1
+      }
+    }
+    <Group> cog2_white {
+      <VertexPool> cog2_whiteShape.verts {
+        <Vertex> 0 {
+          0.0830333846134776 -0.0387892752807597 0.0328083989501312
+          <UV> {
+            0 -2.98023223876953e-08
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 1 {
+          0.0830333846134776 0.036579045880185 0.0328083989501312
+          <UV> {
+            0 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 2 {
+          0.158401690130159 -0.0387892752807597 0.0328083989501312
+          <UV> {
+            1 -2.98023223876953e-08
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 3 {
+          0.158401690130159 0.036579045880185 0.0328083989501312
+          <UV> {
+            1 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { cog1_lambertSG }
+        <VertexRef> { 0 2 3 1 <Ref> { cog2_whiteShape.verts } }
+      }
+    }
+    <Group> cog2_orange {
+      <VertexPool> cog2_orangeShape.verts {
+        <Vertex> 0 {
+          0.0830333846134776 -0.0387892752807597 0.0328083989501312
+          <UV> {
+            0 -2.98023223876953e-08
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 1 {
+          0.0830333846134776 0.036579045880185 0.0328083989501312
+          <UV> {
+            0 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 2 {
+          0.158401690130159 -0.0387892752807597 0.0328083989501312
+          <UV> {
+            1 -2.98023223876953e-08
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 3 {
+          0.158401690130159 0.036579045880185 0.0328083989501312
+          <UV> {
+            1 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { cog2_lambertSG }
+        <VertexRef> { 0 2 3 1 <Ref> { cog2_orangeShape.verts } }
+      }
+    }
+    <Group> cog2_blue {
+      <VertexPool> cog2_blueShape.verts {
+        <Vertex> 0 {
+          0.0830333846134776 -0.0387892752807597 0.0328083989501312
+          <UV> {
+            0 -2.98023223876953e-08
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 1 {
+          0.0830333846134776 0.036579045880185 0.0328083989501312
+          <UV> {
+            0 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 2 {
+          0.158401690130159 -0.0387892752807597 0.0328083989501312
+          <UV> {
+            1 -2.98023223876953e-08
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 3 {
+          0.158401690130159 0.036579045880185 0.0328083989501312
+          <UV> {
+            1 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { lambert4SG }
+        <VertexRef> { 0 2 3 1 <Ref> { cog2_blueShape.verts } }
+      }
+    }
+  }
+  <Group> cog1_bottom {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -1.7386854657434e-05 -0.108158493207918 0 1
+      }
+    }
+  }
+  <Group> cog0_bottom {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.122318559746362 -0.108158493207918 0 1
+      }
+    }
+  }
+  <Group> cog2_bottom {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.119150294653762 -0.108158493207918 0 1
+      }
+    }
+  }
+}

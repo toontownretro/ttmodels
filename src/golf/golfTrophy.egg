@@ -1,0 +1,288 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -o golfTrophy.egg golfTrophy.mb"
+}
+<Texture> lambert6SG {
+  "../maps/fishingTrophey.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> lambert5SG {
+  "../maps/racingTrophyTopBase.tif"
+  <Scalar> wrapu { clamp }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> lambert4SG {
+  "../maps/golfTrophyStatue.png"
+  <Scalar> wrapu { clamp }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> lambert3SG {
+  "../maps/racingTrophyColumn.tif"
+  <Scalar> wrapu { clamp }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> lambert2SG {
+  "../maps/racingTrophyBase.tif"
+  <Scalar> wrapu { clamp }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> pPlane1 {
+  <Scalar> visibility { hidden }
+  <VertexPool> pPlaneShape1.verts {
+    <Vertex> 0 {
+      -2.56479094306356 -4.21790843400641 0
+      <UV> {
+        0 0
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 1 {
+      -2.56479094306356 4.21790843400641 0
+      <UV> {
+        0 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 2 {
+      2.56479094306356 -4.21790843400641 0
+      <UV> {
+        1 0
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 3 {
+      2.56479094306356 4.21790843400641 0
+      <UV> {
+        1 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { lambert6SG }
+    <VertexRef> { 0 2 3 1 <Ref> { pPlaneShape1.verts } }
+  }
+}
+<Group> trophy {
+  <Group> trophyBase {
+    <VertexPool> trophyBaseShape.verts {
+      <Vertex> 0 {
+        -1.51224342549189 -0.104851195310588 0.025
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        -1.51224342549189 0.612272041335167 0.025
+        <UV> {
+          0.00569615187123418 0.9905064702034
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        1.51224342549189 -0.104851195310588 0.025
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        1.51224342549189 0.612272041335167 0.025
+        <UV> {
+          0.99430388212204 0.9905064702034
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert2SG }
+      <VertexRef> { 0 2 3 1 <Ref> { trophyBaseShape.verts } }
+    }
+  }
+  <Group> trophyColumn {
+    <DCS> { 1 }
+    <Transform> {
+      <Matrix4> {
+        1.32289865588426 0 0 0
+        0 2.11878001319629 0 0
+        0 0 1.26467864223734 0
+        -0.0397670158010097 0.457593097699686 0 1
+      }
+    }
+    <VertexPool> trophyColumnShape.verts {
+      <Vertex> 0 {
+        -0.701216333809166 0.457593097699686 0
+        <UV> {
+          0.00759486900642514 0.00569615233689547
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        -0.701216333809166 2.57637307907509 0
+        <UV> {
+          0.00759486900642514 0.99430388212204
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.621682302207146 0.457593097699686 0
+        <UV> {
+          0.99240517616272 0.00569615233689547
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        0.621682302207146 2.57637307907509 0
+        <UV> {
+          0.99240517616272 0.99430388212204
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert3SG }
+      <VertexRef> { 0 2 3 1 <Ref> { trophyColumnShape.verts } }
+    }
+  }
+  <Group> trophyTop {
+    <Group> trophyTopBase {
+      <DCS> { 1 }
+      <Transform> {
+        <Matrix4> {
+          2.819 0 0 0
+          0 1.28849960651063 0 0
+          0 0 4.27263071782918 0
+          -0.0169776131236448 2.57637307907509 0.025 1
+        }
+      }
+      <VertexPool> trophyTopBaseShape.verts {
+        <Vertex> 0 {
+          -1.42647759195508 2.49471301331403 0.025
+          <UV> {
+            0.00189871736802161 0.00759486900642514
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 1 {
+          -1.42647759195508 3.78321260047334 0.025
+          <UV> {
+            0.00189871736802161 0.99620258808136
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 2 {
+          1.39252236570779 2.49471301331403 0.025
+          <UV> {
+            0.99620258808136 0.00759486900642514
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 3 {
+          1.39252236570779 3.78321260047334 0.025
+          <UV> {
+            0.99620258808136 0.99620258808136
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { lambert5SG }
+        <VertexRef> { 0 2 3 1 <Ref> { trophyTopBaseShape.verts } }
+      }
+    }
+    <Group> trophyStatue {
+      <VertexPool> trophyStatueShape.verts {
+        <Vertex> 0 {
+          -1.82663998986823 3.56181775383266 0
+          <UV> {
+            0.0182305071502924 0.0136728789657354
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 1 {
+          -1.82663998986823 7.76748390584414 0
+          <UV> {
+            0.0182305071502924 0.988605976104736
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 2 {
+          1.7606424637946 3.56181775383266 0
+          <UV> {
+            0.990884780883789 0.0136728789657354
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 3 {
+          1.7606424637946 7.76748390584414 0
+          <UV> {
+            0.990884780883789 0.988605976104736
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { lambert4SG }
+        <VertexRef> { 0 2 3 1 <Ref> { trophyStatueShape.verts } }
+      }
+    }
+  }
+}

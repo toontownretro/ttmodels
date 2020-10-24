@@ -1,0 +1,60 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -o bust_a_cog_hole.egg bust_a_cog_hole.mb"
+}
+<Texture> lambert2SG {
+  "../maps/bust_a_cog_hole.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> bust_a_move_hole {
+  <VertexPool> bust_a_move_holeShape.verts {
+    <Vertex> 0 {
+      -0.499999992490753 1.11022300795128e-16 -0.499999992490753
+      <UV> {
+        0 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 0 -1 }
+      }
+      <Normal> { 0 -1 0 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 1 {
+      -0.499999992490753 -1.11022300795128e-16 0.499999992490753
+      <UV> {
+        0 0
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 0 -1 }
+      }
+      <Normal> { 0 -1 0 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 2 {
+      0.499999992490753 1.11022300795128e-16 -0.499999992490753
+      <UV> {
+        1 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 0 -1 }
+      }
+      <Normal> { 0 -1 0 }
+      <RGBA> { 1 1 1 1 }
+    }
+    <Vertex> 3 {
+      0.499999992490753 -1.11022300795128e-16 0.499999992490753
+      <UV> {
+        1 0
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 0 -1 }
+      }
+      <Normal> { 0 -1 0 }
+      <RGBA> { 1 1 1 1 }
+    }
+  }
+  <Polygon> {
+    <TRef> { lambert2SG }
+    <VertexRef> { 1 0 2 3 <Ref> { bust_a_move_holeShape.verts } }
+  }
+}

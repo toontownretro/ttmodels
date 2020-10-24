@@ -1,0 +1,736 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -fri 24 -uo ft -nf -1 -p -a model -cn cubes -o cubes-mod.egg prop-cubes.mb"
+}
+<Texture> toon_props_cvs_PICTURES_juggling_cube_3_pic {
+  "../../maps/juggling_cube_3.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> toon_props_cvs_PICTURES_juggling_cube_2_pic {
+  "../../maps/juggling_cube_2.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> cubes {
+  <Dart> { 1 }
+  <Group> blue_yellow {
+    <VertexPool> blue_yellow.verts {
+      <Vertex> 0 {
+        -0.100628996458579 0.10307299809193 0.103427997724278
+        <UV> { 0 1 }
+        <Normal> { 0 1 0 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 1 {
+        0.0993710021021485 0.10307299809193 0.103427997724278
+        <UV> { 0 2 }
+        <Normal> { 0 1 0 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 2 {
+        0.0993710021021485 0.10307299809193 -0.0965721025241641
+        <UV> { -1 2 }
+        <Normal> { 0 1 0 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 3 {
+        -0.100628996458579 0.10307299809193 -0.0965721025241641
+        <UV> { -1 1 }
+        <Normal> { 0 1 0 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 4 {
+        0.0993710021021485 -0.0969267032277866 0.103427997724278
+        <UV> { 0 -1 }
+        <Normal> { 0 0 1 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 5 {
+        0.0993710021021485 0.10307299809193 0.103427997724278
+        <UV> { 1 -1 }
+        <Normal> { 0 0 1 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 6 {
+        -0.100628996458579 0.10307299809193 0.103427997724278
+        <UV> { 1 0 }
+        <Normal> { 0 0 1 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 7 {
+        -0.100628996458579 -0.0969267032277866 0.103427997724278
+        <UV> { 0 0 }
+        <Normal> { 0 0 1 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 8 {
+        0.0993710021021485 -0.0969267032277866 -0.0965721025241641
+        <UV> { -1 -1 }
+        <Normal> { 1 0 0 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 9 {
+        0.0993710021021485 0.10307299809193 -0.0965721025241641
+        <UV> { -1 -2 }
+        <Normal> { 1 0 0 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 10 {
+        0.0993710021021485 0.10307299809193 0.103427997724278
+        <UV> { 0 -2 }
+        <Normal> { 1 0 0 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 11 {
+        0.0993710021021485 -0.0969267032277866 0.103427997724278
+        <UV> { 0 -1 }
+        <Normal> { 1 0 0 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 12 {
+        -0.100628996458579 -0.0969267032277866 -0.0965721025241641
+        <UV> { -1 -2 }
+        <Normal> { 0 0 -1 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 13 {
+        -0.100628996458579 0.10307299809193 -0.0965721025241641
+        <UV> { 0 -2 }
+        <Normal> { 0 0 -1 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 14 {
+        0.0993710021021485 0.10307299809193 -0.0965721025241641
+        <UV> { 0 -1 }
+        <Normal> { 0 0 -1 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 15 {
+        0.0993710021021485 -0.0969267032277866 -0.0965721025241641
+        <UV> { -1 -1 }
+        <Normal> { 0 0 -1 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 16 {
+        -0.100628996458579 -0.0969267032277866 0.103427997724278
+        <UV> { 0 0 }
+        <Normal> { -1 0 0 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 17 {
+        -0.100628996458579 0.10307299809193 0.103427997724278
+        <UV> { 0 1 }
+        <Normal> { -1 0 0 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 18 {
+        -0.100628996458579 0.10307299809193 -0.0965721025241641
+        <UV> { -1 1 }
+        <Normal> { -1 0 0 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 19 {
+        -0.100628996458579 -0.0969267032277866 -0.0965721025241641
+        <UV> { -1 0 }
+        <Normal> { -1 0 0 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 20 {
+        -0.100628996458579 -0.0969267032277866 -0.0965721025241641
+        <UV> { -1 0 }
+        <Normal> { 0 -1 0 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 21 {
+        0.0993710021021485 -0.0969267032277866 -0.0965721025241641
+        <UV> { -1 -1 }
+        <Normal> { 0 -1 0 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 22 {
+        0.0993710021021485 -0.0969267032277866 0.103427997724278
+        <UV> { 0 -1 }
+        <Normal> { 0 -1 0 }
+        // joint_scale_blue_yellow:1
+      }
+      <Vertex> 23 {
+        -0.100628996458579 -0.0969267032277866 0.103427997724278
+        <UV> { 0 0 }
+        <Normal> { 0 -1 0 }
+        // joint_scale_blue_yellow:1
+      }
+    }
+    <Polygon> {
+      <Normal> { 0 1 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 0 1 2 <Ref> { blue_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 1 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 0 2 3 <Ref> { blue_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 4 5 6 <Ref> { blue_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 4 6 7 <Ref> { blue_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 1 0 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 8 9 10 <Ref> { blue_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 1 0 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 8 10 11 <Ref> { blue_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 -1 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 12 13 14 <Ref> { blue_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 -1 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 12 14 15 <Ref> { blue_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { -1 0 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 16 17 18 <Ref> { blue_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { -1 0 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 16 18 19 <Ref> { blue_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 -1 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 20 21 22 <Ref> { blue_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 -1 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 20 22 23 <Ref> { blue_yellow.verts } }
+    }
+  }
+  <Group> green_yellow {
+    <VertexPool> green_yellow.verts {
+      <Vertex> 0 {
+        -0.100628996458579 0.10307299809193 0.103427997724278
+        <UV> { 0 1 }
+        <Normal> { 0 1 0 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 1 {
+        0.0993710021021485 0.10307299809193 0.103427997724278
+        <UV> { 0 2 }
+        <Normal> { 0 1 0 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 2 {
+        0.0993710021021485 0.10307299809193 -0.0965721025241641
+        <UV> { -1 2 }
+        <Normal> { 0 1 0 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 3 {
+        -0.100628996458579 0.10307299809193 -0.0965721025241641
+        <UV> { -1 1 }
+        <Normal> { 0 1 0 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 4 {
+        0.0993710021021485 -0.0969267032277866 0.103427997724278
+        <UV> { 0 -1 }
+        <Normal> { 0 0 1 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 5 {
+        0.0993710021021485 0.10307299809193 0.103427997724278
+        <UV> { 1 -1 }
+        <Normal> { 0 0 1 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 6 {
+        -0.100628996458579 0.10307299809193 0.103427997724278
+        <UV> { 1 0 }
+        <Normal> { 0 0 1 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 7 {
+        -0.100628996458579 -0.0969267032277866 0.103427997724278
+        <UV> { 0 0 }
+        <Normal> { 0 0 1 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 8 {
+        0.0993710021021485 -0.0969267032277866 -0.0965721025241641
+        <UV> { -1 -1 }
+        <Normal> { 1 0 0 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 9 {
+        0.0993710021021485 0.10307299809193 -0.0965721025241641
+        <UV> { -1 -2 }
+        <Normal> { 1 0 0 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 10 {
+        0.0993710021021485 0.10307299809193 0.103427997724278
+        <UV> { 0 -2 }
+        <Normal> { 1 0 0 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 11 {
+        0.0993710021021485 -0.0969267032277866 0.103427997724278
+        <UV> { 0 -1 }
+        <Normal> { 1 0 0 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 12 {
+        -0.100628996458579 -0.0969267032277866 -0.0965721025241641
+        <UV> { -1 -2 }
+        <Normal> { 0 0 -1 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 13 {
+        -0.100628996458579 0.10307299809193 -0.0965721025241641
+        <UV> { 0 -2 }
+        <Normal> { 0 0 -1 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 14 {
+        0.0993710021021485 0.10307299809193 -0.0965721025241641
+        <UV> { 0 -1 }
+        <Normal> { 0 0 -1 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 15 {
+        0.0993710021021485 -0.0969267032277866 -0.0965721025241641
+        <UV> { -1 -1 }
+        <Normal> { 0 0 -1 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 16 {
+        -0.100628996458579 -0.0969267032277866 0.103427997724278
+        <UV> { 0 0 }
+        <Normal> { -1 0 0 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 17 {
+        -0.100628996458579 0.10307299809193 0.103427997724278
+        <UV> { 0 1 }
+        <Normal> { -1 0 0 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 18 {
+        -0.100628996458579 0.10307299809193 -0.0965721025241641
+        <UV> { -1 1 }
+        <Normal> { -1 0 0 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 19 {
+        -0.100628996458579 -0.0969267032277866 -0.0965721025241641
+        <UV> { -1 0 }
+        <Normal> { -1 0 0 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 20 {
+        -0.100628996458579 -0.0969267032277866 -0.0965721025241641
+        <UV> { -1 0 }
+        <Normal> { 0 -1 0 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 21 {
+        0.0993710021021485 -0.0969267032277866 -0.0965721025241641
+        <UV> { -1 -1 }
+        <Normal> { 0 -1 0 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 22 {
+        0.0993710021021485 -0.0969267032277866 0.103427997724278
+        <UV> { 0 -1 }
+        <Normal> { 0 -1 0 }
+        // joint_scale_green_yellow:1
+      }
+      <Vertex> 23 {
+        -0.100628996458579 -0.0969267032277866 0.103427997724278
+        <UV> { 0 0 }
+        <Normal> { 0 -1 0 }
+        // joint_scale_green_yellow:1
+      }
+    }
+    <Polygon> {
+      <Normal> { 0 1 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_2_pic }
+      <VertexRef> { 0 1 2 <Ref> { green_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 1 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_2_pic }
+      <VertexRef> { 0 2 3 <Ref> { green_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_2_pic }
+      <VertexRef> { 4 5 6 <Ref> { green_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_2_pic }
+      <VertexRef> { 4 6 7 <Ref> { green_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 1 0 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_2_pic }
+      <VertexRef> { 8 9 10 <Ref> { green_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 1 0 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_2_pic }
+      <VertexRef> { 8 10 11 <Ref> { green_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 -1 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_2_pic }
+      <VertexRef> { 12 13 14 <Ref> { green_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 -1 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_2_pic }
+      <VertexRef> { 12 14 15 <Ref> { green_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { -1 0 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_2_pic }
+      <VertexRef> { 16 17 18 <Ref> { green_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { -1 0 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_2_pic }
+      <VertexRef> { 16 18 19 <Ref> { green_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 -1 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_2_pic }
+      <VertexRef> { 20 21 22 <Ref> { green_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 -1 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_2_pic }
+      <VertexRef> { 20 22 23 <Ref> { green_yellow.verts } }
+    }
+  }
+  <Group> orange_yellow {
+    <VertexPool> orange_yellow.verts {
+      <Vertex> 0 {
+        -0.100628996458579 0.10307299809193 0.103427997724278
+        <UV> { 0 1 }
+        <Normal> { 0 1 0 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 1 {
+        0.0993710021021485 0.10307299809193 0.103427997724278
+        <UV> { 0 2 }
+        <Normal> { 0 1 0 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 2 {
+        0.0993710021021485 0.10307299809193 -0.0965721025241641
+        <UV> { -1 2 }
+        <Normal> { 0 1 0 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 3 {
+        -0.100628996458579 0.10307299809193 -0.0965721025241641
+        <UV> { -1 1 }
+        <Normal> { 0 1 0 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 4 {
+        0.0993710021021485 -0.0969267032277866 0.103427997724278
+        <UV> { 0 -1 }
+        <Normal> { 0 0 1 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 5 {
+        0.0993710021021485 0.10307299809193 0.103427997724278
+        <UV> { 1 -1 }
+        <Normal> { 0 0 1 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 6 {
+        -0.100628996458579 0.10307299809193 0.103427997724278
+        <UV> { 1 0 }
+        <Normal> { 0 0 1 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 7 {
+        -0.100628996458579 -0.0969267032277866 0.103427997724278
+        <UV> { 0 0 }
+        <Normal> { 0 0 1 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 8 {
+        0.0993710021021485 -0.0969267032277866 -0.0965721025241641
+        <UV> { -1 -1 }
+        <Normal> { 1 0 0 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 9 {
+        0.0993710021021485 0.10307299809193 -0.0965721025241641
+        <UV> { -1 -2 }
+        <Normal> { 1 0 0 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 10 {
+        0.0993710021021485 0.10307299809193 0.103427997724278
+        <UV> { 0 -2 }
+        <Normal> { 1 0 0 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 11 {
+        0.0993710021021485 -0.0969267032277866 0.103427997724278
+        <UV> { 0 -1 }
+        <Normal> { 1 0 0 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 12 {
+        -0.100628996458579 -0.0969267032277866 -0.0965721025241641
+        <UV> { -1 -2 }
+        <Normal> { 0 0 -1 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 13 {
+        -0.100628996458579 0.10307299809193 -0.0965721025241641
+        <UV> { 0 -2 }
+        <Normal> { 0 0 -1 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 14 {
+        0.0993710021021485 0.10307299809193 -0.0965721025241641
+        <UV> { 0 -1 }
+        <Normal> { 0 0 -1 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 15 {
+        0.0993710021021485 -0.0969267032277866 -0.0965721025241641
+        <UV> { -1 -1 }
+        <Normal> { 0 0 -1 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 16 {
+        -0.100628996458579 -0.0969267032277866 0.103427997724278
+        <UV> { 0 0 }
+        <Normal> { -1 0 0 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 17 {
+        -0.100628996458579 0.10307299809193 0.103427997724278
+        <UV> { 0 1 }
+        <Normal> { -1 0 0 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 18 {
+        -0.100628996458579 0.10307299809193 -0.0965721025241641
+        <UV> { -1 1 }
+        <Normal> { -1 0 0 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 19 {
+        -0.100628996458579 -0.0969267032277866 -0.0965721025241641
+        <UV> { -1 0 }
+        <Normal> { -1 0 0 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 20 {
+        -0.100628996458579 -0.0969267032277866 -0.0965721025241641
+        <UV> { -1 0 }
+        <Normal> { 0 -1 0 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 21 {
+        0.0993710021021485 -0.0969267032277866 -0.0965721025241641
+        <UV> { -1 -1 }
+        <Normal> { 0 -1 0 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 22 {
+        0.0993710021021485 -0.0969267032277866 0.103427997724278
+        <UV> { 0 -1 }
+        <Normal> { 0 -1 0 }
+        // joint_scale_orage_yellow:1
+      }
+      <Vertex> 23 {
+        -0.100628996458579 -0.0969267032277866 0.103427997724278
+        <UV> { 0 0 }
+        <Normal> { 0 -1 0 }
+        // joint_scale_orage_yellow:1
+      }
+    }
+    <Polygon> {
+      <Normal> { 0 1 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 0 1 2 <Ref> { orange_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 1 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 0 2 3 <Ref> { orange_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 4 5 6 <Ref> { orange_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 4 6 7 <Ref> { orange_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 1 0 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 8 9 10 <Ref> { orange_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 1 0 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 8 10 11 <Ref> { orange_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 -1 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 12 13 14 <Ref> { orange_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 -1 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 12 14 15 <Ref> { orange_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { -1 0 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 16 17 18 <Ref> { orange_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { -1 0 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 16 18 19 <Ref> { orange_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 -1 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 20 21 22 <Ref> { orange_yellow.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 -1 0 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_juggling_cube_3_pic }
+      <VertexRef> { 20 22 23 <Ref> { orange_yellow.verts } }
+    }
+  }
+  <Joint> cubes {
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+      }
+    }
+    <Group> juggling_cubes {
+    }
+    <Joint> joint_scale_blue_yellow {
+      <Transform> {
+        <Matrix4> {
+          1 0 0 0
+          0 1 0 0
+          0 0 1 0
+          0 0 0 1
+        }
+      }
+      <VertexRef> {
+        0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+        <Ref> { blue_yellow.verts }
+      }
+    }
+    <Joint> joint_scale_green_yellow {
+      <Transform> {
+        <Matrix4> {
+          1 0 0 0
+          0 1 0 0
+          0 0 1 0
+          0 0 0 1
+        }
+      }
+      <VertexRef> {
+        0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+        <Ref> { green_yellow.verts }
+      }
+    }
+    <Joint> joint_scale_orage_yellow {
+      <Transform> {
+        <Matrix4> {
+          1 0 0 0
+          0 1 0 0
+          0 0 1 0
+          0 0 0 1
+        }
+      }
+      <VertexRef> {
+        0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+        <Ref> { orange_yellow.verts }
+      }
+    }
+  }
+}

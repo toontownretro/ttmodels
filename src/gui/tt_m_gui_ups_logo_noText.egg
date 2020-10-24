@@ -1,0 +1,83 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -o tt_m_gui_ups_logo_noText.egg tt_m_gui_ups_logo_noText.mb"
+}
+<Texture> lambert2SG {
+  "../maps/tt_t_gui_ups_logo_noText.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> upsell_logo_grp {
+  <Group> logo {
+    <VertexPool> logoShape.verts {
+      <Vertex> 0 {
+        -0.999570330922685 -0.769130076010396 1.70116785448236e-16
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        -0.999570330922685 0.769130076010396 -1.70116785448236e-16
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.999570330922685 -0.769130076010396 1.70116785448236e-16
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        0.999570330922685 0.769130076010396 -1.70116785448236e-16
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert2SG }
+      <VertexRef> { 0 2 3 1 <Ref> { logoShape.verts } }
+    }
+  }
+  <Group> locators {
+    <Group> bubbleLeft_locator {
+      <DCS> { net }
+      <Transform> {
+        <Matrix4> {
+          1 0 0 0
+          0 1 0 0
+          0 0 1 0
+          -0.709766857166098 0.270100887111497 0.0205391788266616 1
+        }
+      }
+    }
+    <Group> bubbleRight_locator {
+      <DCS> { net }
+      <Transform> {
+        <Matrix4> {
+          1 0 0 0
+          0 1 0 0
+          0 0 1 0
+          0.662391974459332 0.445671046414534 0.0205391788266616 1
+        }
+      }
+    }
+  }
+}

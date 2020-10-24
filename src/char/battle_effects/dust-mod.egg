@@ -1,0 +1,807 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -p -a model -cn dust -o dust-mod.egg prop-dust.mb"
+}
+<Texture> battle_effects_cvs_PICTURES_dustCloud_pic {
+  "../../maps/dustCloud.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> dust {
+  <Dart> { 1 }
+  <Group> TheCloud1 {
+    <VertexPool> TheCloud1.verts {
+      <Vertex> 0 {
+        -2.40478690840754 3.0272476316437 0
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale1:1
+      }
+      <Vertex> 1 {
+        -2.40478690840754 7.05687955921403 0
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale1:1
+      }
+      <Vertex> 2 {
+        2.63225300105538 3.0272476316437 0
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale1:1
+      }
+      <Vertex> 3 {
+        2.63225300105538 7.05687955921403 0
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale1:1
+      }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 0 2 3 <Ref> { TheCloud1.verts } }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 0 3 1 <Ref> { TheCloud1.verts } }
+    }
+  }
+  <Group> TheCloud10 {
+    <VertexPool> TheCloud10.verts {
+      <Vertex> 0 {
+        0.0554397663106443 3.53815449191516 0.559733796307421
+        <UV> {
+          0 1
+          <Tangent> { 0.999999999999995 0 1.01913386174601e-07 }
+          <Binormal> { 0 -0.999999999999999 4.94029634978682e-08 }
+        }
+        <Normal> { -1.01913386174601e-07 4.94029634978685e-08 0.999999999999994 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale10:1
+      }
+      <Vertex> 1 {
+        0.0554397663106443 5.43815332447763 0.559733733730366
+        <UV> {
+          0 0
+          <Tangent> { 0.999999999999996 0 8.73543513080218e-08 }
+          <Binormal> { 0 -1 3.29353220251958e-08 }
+        }
+        <Normal> { -8.73543513080218e-08 3.29353220251959e-08 0.999999999999996 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale10:1
+      }
+      <Vertex> 2 {
+        2.43043974628599 3.53815449191516 0.559734046615641
+        <UV> {
+          1 1
+          <Tangent> { 0.999999999999993 0 1.16472413935752e-07 }
+          <Binormal> { 0 -0.999999999999998 6.58706085232543e-08 }
+        }
+        <Normal> { -1.16472413935752e-07 6.58706085232546e-08 0.999999999999991 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale10:1
+      }
+      <Vertex> 3 {
+        2.43043974628599 5.43815332447763 0.559733921461531
+        <UV> {
+          1 0
+          <Tangent> { 0.999999999999995 0 1.01913386174601e-07 }
+          <Binormal> { 0 -0.999999999999999 4.94029634978682e-08 }
+        }
+        <Normal> { -1.01913386174601e-07 4.94029634978685e-08 0.999999999999994 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale10:1
+      }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 0 2 3 <Ref> { TheCloud10.verts } }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 0 3 1 <Ref> { TheCloud10.verts } }
+    }
+  }
+  <Group> TheCloud11 {
+    <VertexPool> TheCloud11.verts {
+      <Vertex> 0 {
+        -4.93419977623647 6.49982362281619 1.50863004168813
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale11:1
+      }
+      <Vertex> 1 {
+        -4.93419977623647 6.50782347351234 1.50863004168813
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale11:1
+      }
+      <Vertex> 2 {
+        -4.92419996286628 6.49982362281619 1.50863004168813
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale11:1
+      }
+      <Vertex> 3 {
+        -4.92419996286628 6.50782347351234 1.50863004168813
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale11:1
+      }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 0 2 3 <Ref> { TheCloud11.verts } }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 0 3 1 <Ref> { TheCloud11.verts } }
+    }
+  }
+  <Group> TheCloud2 {
+    <VertexPool> TheCloud2.verts {
+      <Vertex> 0 {
+        -2.53681998866124 11.1154531243592 1.77279995495253
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 -1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale2:1
+      }
+      <Vertex> 1 {
+        -2.53681998866124 11.1234539762882 1.77279995495253
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 -1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale2:1
+      }
+      <Vertex> 2 {
+        -2.52681992498283 11.1154531243592 1.77279995495253
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 -1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale2:1
+      }
+      <Vertex> 3 {
+        -2.52681992498283 11.1234539762882 1.77279995495253
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 -1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale2:1
+      }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 0 2 3 <Ref> { TheCloud2.verts } }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 0 3 1 <Ref> { TheCloud2.verts } }
+    }
+  }
+  <Group> TheCloud3 {
+    <VertexPool> TheCloud3.verts {
+      <Vertex> 0 {
+        -3.56178108475653 6.18786048388544 1.18713003443921
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale3:1
+      }
+      <Vertex> 1 {
+        -3.56178108475653 6.60240443672721 1.18713003443921
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale3:1
+      }
+      <Vertex> 2 {
+        -3.04359901608445 6.18786048388544 1.18713003443921
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale3:1
+      }
+      <Vertex> 3 {
+        -3.04359901608445 6.60240443672721 1.18713003443921
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale3:1
+      }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 0 2 3 <Ref> { TheCloud3.verts } }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 0 3 1 <Ref> { TheCloud3.verts } }
+    }
+  }
+  <Group> TheCloud4 {
+    <VertexPool> TheCloud4.verts {
+      <Vertex> 0 {
+        3.61175111585402 5.89794449293082 2.14574994064691
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 -0.999999999995842 -2.88378942058154e-06 }
+        }
+        <Normal> { 0 -2.88378942058154e-06 0.999999999995842 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale4:1
+      }
+      <Vertex> 1 {
+        3.61175111585402 5.98474287298408 2.14575019095513
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 -0.999999999995842 -2.88381625067524e-06 }
+        }
+        <Normal> { 0 -2.88381625067524e-06 0.999999999995842 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale4:1
+      }
+      <Vertex> 2 {
+        3.72024896576649 5.89794449293082 2.14574994064691
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 -0.999999999995842 -2.88376281786151e-06 }
+        }
+        <Normal> { 0 -2.88376281786151e-06 0.999999999995842 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale4:1
+      }
+      <Vertex> 3 {
+        3.72024896576649 5.98474287298408 2.14575019095513
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 -0.999999999995842 -2.88378942058154e-06 }
+        }
+        <Normal> { 0 -2.88378942058154e-06 0.999999999995842 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale4:1
+      }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 0 2 3 <Ref> { TheCloud4.verts } }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 0 3 1 <Ref> { TheCloud4.verts } }
+    }
+  }
+  <Group> TheCloud5 {
+    <VertexPool> TheCloud5.verts {
+      <Vertex> 0 {
+        -0.920654031548287 4.90364365064566 1.63788995717767
+        <UV> {
+          1 0
+          <Tangent> { -1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale5:1
+      }
+      <Vertex> 1 {
+        -0.920654031548287 4.91164350134181 1.63788995717767
+        <UV> {
+          1 1
+          <Tangent> { -1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale5:1
+      }
+      <Vertex> 2 {
+        -0.910654030446931 4.90364365064566 1.63788995717767
+        <UV> {
+          0 0
+          <Tangent> { -1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale5:1
+      }
+      <Vertex> 3 {
+        -0.910654030446931 4.91164350134181 1.63788995717767
+        <UV> {
+          0 1
+          <Tangent> { -1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale5:1
+      }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 3 1 0 <Ref> { TheCloud5.verts } }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 3 0 2 <Ref> { TheCloud5.verts } }
+    }
+  }
+  <Group> TheCloud6 {
+    <VertexPool> TheCloud6.verts {
+      <Vertex> 0 {
+        2.9305500621245 10.5157536784495 2.39907988100227
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale6:1
+      }
+      <Vertex> 1 {
+        2.9305500621245 10.5237535291456 2.39907988100227
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale6:1
+      }
+      <Vertex> 2 {
+        2.94054987549469 10.5157536784495 2.39907988100227
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale6:1
+      }
+      <Vertex> 3 {
+        2.94054987549469 10.5237535291456 2.39907988100227
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale6:1
+      }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 0 2 3 <Ref> { TheCloud6.verts } }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 0 3 1 <Ref> { TheCloud6.verts } }
+    }
+  }
+  <Group> TheCloud7 {
+    <VertexPool> TheCloud7.verts {
+      <Vertex> 0 {
+        -1.2200200338689 4.84772329255352 0.820358969720956
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale77:1
+      }
+      <Vertex> 1 {
+        -1.2200200338689 4.85572364386611 0.820358969720956
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale77:1
+      }
+      <Vertex> 2 {
+        -1.21001997019049 4.84772329255352 0.820358969720956
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale77:1
+      }
+      <Vertex> 3 {
+        -1.21001997019049 4.85572364386611 0.820358969720956
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale77:1
+      }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 0 2 3 <Ref> { TheCloud7.verts } }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 0 3 1 <Ref> { TheCloud7.verts } }
+    }
+  }
+  <Group> TheCloud8 {
+    <VertexPool> TheCloud8.verts {
+      <Vertex> 0 {
+        2.00129005852647 9.74478333640912 2.73908004360249
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 -1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale8:1
+      }
+      <Vertex> 1 {
+        2.00129005852647 9.75278318710527 2.73908004360249
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 -1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale8:1
+      }
+      <Vertex> 2 {
+        2.01128999705077 9.74478333640912 2.73908004360249
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 -1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale8:1
+      }
+      <Vertex> 3 {
+        2.01128999705077 9.75278318710527 2.73908004360249
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 -1 0 }
+        }
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale8:1
+      }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 0 2 3 <Ref> { TheCloud8.verts } }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 0 3 1 <Ref> { TheCloud8.verts } }
+    }
+  }
+  <Group> TheCloud9 {
+    <VertexPool> TheCloud9.verts {
+      <Vertex> 0 {
+        -3.01887507200867 3.04885048253017 -0.360413924289814
+        <UV> {
+          1 1
+          <Tangent> { -1 0 6.93840940257929e-09 }
+          <Binormal> { 0 -0.999999999999999 3.97889934333761e-08 }
+        }
+        <Normal> { 6.93840940257928e-09 3.97889934333761e-08 0.999999999999999 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale9:1
+      }
+      <Vertex> 1 {
+        -3.01887507200867 5.80111526128814 -0.360414018155396
+        <UV> {
+          1 0
+          <Tangent> { -1 0 0 }
+          <Binormal> { 0 -0.999999999999999 3.4104843393834e-08 }
+        }
+        <Normal> { 0 3.4104843393834e-08 0.999999999999999 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale9:1
+      }
+      <Vertex> 2 {
+        0.421454962782972 3.04885048253017 -0.360413955578341
+        <UV> {
+          0 1
+          <Tangent> { -1 0 1.38768188051586e-08 }
+          <Binormal> { 0 -0.999999999999999 4.54731470256319e-08 }
+        }
+        <Normal> { 1.38768188051585e-08 4.54731470256319e-08 0.999999999999999 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale9:1
+      }
+      <Vertex> 3 {
+        0.421454962782972 5.80111526128814 -0.360414080732451
+        <UV> {
+          0 0
+          <Tangent> { -1 0 6.93840940257929e-09 }
+          <Binormal> { 0 -0.999999999999999 3.97889934333761e-08 }
+        }
+        <Normal> { 6.93840940257928e-09 3.97889934333761e-08 0.999999999999999 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_scale9:1
+      }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 3 1 0 <Ref> { TheCloud9.verts } }
+    }
+    <Polygon> {
+      <TRef> { battle_effects_cvs_PICTURES_dustCloud_pic }
+      <VertexRef> { 3 0 2 <Ref> { TheCloud9.verts } }
+    }
+  }
+  <Joint> dust {
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+      }
+    }
+    <Group> all {
+    }
+    <Joint> joint_all {
+      <Transform> {
+        <Matrix4> {
+          1 0 0 0
+          0 1 0 0
+          0 0 1 0
+          0 0.00965348 0 1
+        }
+      }
+      <Joint> joint_scale1 {
+        <Transform> {
+          <Matrix4> {
+            0.503704 0 0 0
+            0 0.503704 0 0
+            0 0 0.503704 0
+            0.113733 5.03241 0 1
+          }
+        }
+        <VertexRef> {
+          0 1 2 3
+          <Ref> { TheCloud1.verts }
+        }
+      }
+      <Joint> joint_scale10 {
+        <Transform> {
+          <Matrix4> {
+            -0.2375 0 0 0
+            0 -0.2375 0 0
+            0 0 0.2375 0
+            1.24294 4.4785 0.559734 1
+          }
+        }
+        <VertexRef> {
+          0 1 2 3
+          <Ref> { TheCloud10.verts }
+        }
+      }
+      <Joint> joint_scale11 {
+        <Transform> {
+          <Matrix4> {
+            0.001 0 0 0
+            0 0.001 0 0
+            0 0 0.001 0
+            -4.9292 6.49417 1.50863 1
+          }
+        }
+        <VertexRef> {
+          0 1 2 3
+          <Ref> { TheCloud11.verts }
+        }
+      }
+      <Joint> joint_scale2 {
+        <Transform> {
+          <Matrix4> {
+            0.001 0 0 0
+            0 -0.001 0 0
+            0 0 -0.001 0
+            -2.53182 11.1098 1.7728 1
+          }
+        }
+        <VertexRef> {
+          0 1 2 3
+          <Ref> { TheCloud2.verts }
+        }
+      }
+      <Joint> joint_scale3 {
+        <Transform> {
+          <Matrix4> {
+            0.0518182 0 0 0
+            0 0.0518182 0 0
+            0 0 0.0518182 0
+            -3.30269 6.38548 1.18713 1
+          }
+        }
+        <VertexRef> {
+          0 1 2 3
+          <Ref> { TheCloud3.verts }
+        }
+      }
+      <Joint> joint_scale4 {
+        <Transform> {
+          <Matrix4> {
+            0.0108498 0 0 0
+            0 -0.0108498 0 0
+            0 0 -0.0108498 0
+            3.666 5.93169 2.14575 1
+          }
+        }
+        <VertexRef> {
+          0 1 2 3
+          <Ref> { TheCloud4.verts }
+        }
+      }
+      <Joint> joint_scale5 {
+        <Transform> {
+          <Matrix4> {
+            -0.001 0 0 0
+            0 0.001 0 0
+            0 0 -0.001 0
+            -0.915654 4.89799 1.63789 1
+          }
+        }
+        <VertexRef> {
+          0 1 2 3
+          <Ref> { TheCloud5.verts }
+        }
+      }
+      <Joint> joint_scale6 {
+        <Transform> {
+          <Matrix4> {
+            0.001 0 0 0
+            0 0.001 0 0
+            0 0 0.001 0
+            2.93555 10.5101 2.39908 1
+          }
+        }
+        <VertexRef> {
+          0 1 2 3
+          <Ref> { TheCloud6.verts }
+        }
+      }
+      <Joint> joint_scale77 {
+        <Transform> {
+          <Matrix4> {
+            0.001 0 0 0
+            0 0.001 0 0
+            0 0 0.001 0
+            -1.21502 4.84207 0.820359 1
+          }
+        }
+        <VertexRef> {
+          0 1 2 3
+          <Ref> { TheCloud7.verts }
+        }
+      }
+      <Joint> joint_scale8 {
+        <Transform> {
+          <Matrix4> {
+            0.001 0 0 0
+            0 -0.001 0 0
+            0 0 -0.001 0
+            2.00629 9.73913 2.73908 1
+          }
+        }
+        <VertexRef> {
+          0 1 2 3
+          <Ref> { TheCloud8.verts }
+        }
+      }
+      <Joint> joint_scale9 {
+        <Transform> {
+          <Matrix4> {
+            -0.344033 0 0 0
+            0 -0.344033 0 0
+            0 0 0.344033 0
+            -1.29871 4.41533 -0.360414 1
+          }
+        }
+        <VertexRef> {
+          0 1 2 3
+          <Ref> { TheCloud9.verts }
+        }
+      }
+    }
+  }
+}

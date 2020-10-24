@@ -1,0 +1,61 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o test_tree.egg test_tree.flt"
+}
+<Texture> 1 {
+  "../maps/test_tree.rgba"
+  <Scalar> wrap { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    -5 0 0
+    <UV> {
+      1 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 1 {
+    -4.95204171444415 0 6.22919137377359
+    <UV> {
+      1 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 2 {
+    5 0 0
+    <UV> {
+      0 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 3 {
+    5.04795828555585 0 6.22919137377359
+    <UV> {
+      0 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+}
+<Group> g1 {
+  <Group> g5 {
+    <Group> o1_1 {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 1 }
+        <VertexRef> { 1 0 2 3 <Ref> { vpool } }
+      }
+    }
+  }
+}

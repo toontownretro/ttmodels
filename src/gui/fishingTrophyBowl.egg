@@ -1,0 +1,129 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -o fishingTrophyBowl.egg fishingTrophyBowl.mb"
+}
+<Texture> lambert4SG {
+  "../maps/fishingTrophyBase.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> lambert3SG {
+  "../maps/fishingTrophyBowlGrey.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> group1 {
+  <Instance> fishingTrophyGreyBowl {
+    <Billboard> { axis }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0.0203999620258507 0 1
+      }
+    }
+    <VertexPool> fishingTrophyGreyBowlShape.verts {
+      <Vertex> 0 {
+        -0.0905092932733651 0.000318677030662971 8.34019864685002e-25
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        -0.0905092932733651 0.104336031324421 8.34019864685002e-25
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.0905092932733651 0.000318677030662971 8.34019864685002e-25
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        0.0905092932733651 0.104336031324421 8.34019864685002e-25
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert3SG }
+      <VertexRef> { 0 2 3 1 <Ref> { fishingTrophyGreyBowlShape.verts } }
+    }
+  }
+  <Instance> fishingTrophyBase {
+    <Billboard> { axis }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 -0.00354608808515824 0 1
+      }
+    }
+    <VertexPool> fishingTrophyBaseShape.verts {
+      <Vertex> 0 {
+        -0.0647121683506202 9.59989631044055e-05 8.34019864685002e-25
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        -0.0647121683506202 0.0314306896931943 8.34019864685002e-25
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.0647121683506202 9.59989631044055e-05 8.34019864685002e-25
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        0.0647121683506202 0.0314306896931943 8.34019864685002e-25
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert4SG }
+      <VertexRef> { 0 2 3 1 <Ref> { fishingTrophyBaseShape.verts } }
+    }
+  }
+}

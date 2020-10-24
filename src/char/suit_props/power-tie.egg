@@ -1,0 +1,391 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -fri 24 -uo ft -nf -1 -p -a model -cn power-tie -o power-tie.egg prop-power-tie.mb"
+}
+<Texture> suit_props_cvs_PICTURES_power_tie_pic {
+  "../../maps/power_tie.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> power-tie {
+  <Dart> { 1 }
+  <Group> power_tie {
+    <Group> g1 {
+    }
+    <Group> g2 {
+    }
+    <Group> o1 {
+    }
+    <Group> o2 {
+      <VertexPool> oShape2.verts {
+        <Vertex> 0 {
+          0.0871177029421949 1.21690995424125 2.84217001108184e-14
+          <UV> { 0.0580785013735294 0.811276018619537 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 1 {
+          0.0394038015150336 1.09422000374381 2.84217001108184e-14
+          <UV> { 0.0262691993266344 0.729480981826782 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 2 {
+          0.032587599723045 0.954488005850885 2.84217001108184e-14
+          <UV> { 0.0217250008136034 0.636325001716614 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 3 {
+          0.0223631992584138 0.688653980966002 2.84217001108184e-14
+          <UV> { 0.0149087999016047 0.459102004766464 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 4 {
+          0.0462201010836704 0.398961984579332 2.84217001108184e-14
+          <UV> { 0.0308133997023106 0.265974998474121 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 5 {
+          0.117790996246138 0.163800994868041 2.84217001108184e-14
+          <UV> { 0.0785273015499115 0.109200000762939 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 6 {
+          0.21662699581757 0.0104345997252802 2.84217001108184e-14
+          <UV> { 0.144418001174927 0.00695639988407493 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 7 {
+          0.335912003604759 0.0888216996130355 2.84217001108184e-14
+          <UV> { 0.223940998315811 0.059214498847723 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 8 {
+          0.489278008618693 0.19788200773905 2.84217001108184e-14
+          <UV> { 0.326184988021851 0.131920993328094 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 9 {
+          0.591522001531806 0.289902004982856 2.84217001108184e-14
+          <UV> { 0.394347995519638 0.193268001079559 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 10 {
+          0.72443898268572 0.262636994439473 2.84217001108184e-14
+          <UV> { 0.482959002256393 0.175090998411179 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 11 {
+          0.823274997901416 0.283084985778088 2.84217001108184e-14
+          <UV> { 0.548849999904633 0.188723996281624 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 12 {
+          0.976640971626822 0.347840003767039 2.84217001108184e-14
+          <UV> { 0.651094019412994 0.231893002986908 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 13 {
+          1.04480002495873 0.249004004195606 2.84217001108184e-14
+          <UV> { 0.696536004543304 0.166003003716469 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 14 {
+          1.18795004416638 0.0956379991816723 2.84217001108184e-14
+          <UV> { 0.791963994503021 0.0637587010860443 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 15 {
+          1.33109005104526 0.000210218006265875 2.84217001108184e-14
+          <UV> { 0.887390971183777 0.000140131000080146 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 16 {
+          1.4094699399052 0.218331000310542 2.84217001108184e-14
+          <UV> { 0.939648985862732 0.145554006099701 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 17 {
+          1.47081998389537 0.528470988035828 2.84217001108184e-14
+          <UV> { 0.98054701089859 0.352313995361328 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 18 {
+          1.50148999972606 0.879508992192626 2.84217001108184e-14
+          <UV> { 1.00100004673004 0.586338996887207 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 19 {
+          1.4912700402768 1.10444997552186 2.84217001108184e-14
+          <UV> { 0.994180023670197 0.736297011375427 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 20 {
+          1.4469599786393 1.34642005279621 2.84217001108184e-14
+          <UV> { 0.964641988277435 0.897616028785706 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 21 {
+          1.36857996462524 1.49297000854973 2.84217001108184e-14
+          <UV> { 0.91238397359848 0.995316028594971 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 22 {
+          1.19817000361565 1.36005997344891 2.84217001108184e-14
+          <UV> { 0.798780024051666 0.906704008579254 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 23 {
+          1.05843994561143 1.18282998953591 2.84217001108184e-14
+          <UV> { 0.705623984336853 0.788555979728699 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 24 {
+          0.942560005688605 1.03287997208242 2.84217001108184e-14
+          <UV> { 0.628373026847839 0.688583016395569 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 25 {
+          0.802826005329923 1.04991995443509 2.84217001108184e-14
+          <UV> { 0.535216987133026 0.699944019317627 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 26 {
+          0.676724979570844 1.06014003903847 2.84217001108184e-14
+          <UV> { 0.451150000095367 0.706759989261627 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 27 {
+          0.594930010517751 1.03287997208242 2.84217001108184e-14
+          <UV> { 0.396620005369186 0.688583016395569 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 28 {
+          0.479053011716507 1.1385299402272 2.84217001108184e-14
+          <UV> { 0.319368988275528 0.759018003940582 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 29 {
+          0.271156985615808 1.32937994528943 2.84217001108184e-14
+          <UV> { 0.180770993232727 0.886255025863647 }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 30 {
+          0.138240004461894 1.37028005805228 2.84217001108184e-14
+          <UV> { 0.0921598002314568 0.913519978523254 }
+          <Normal> { 0 0 1 }
+        }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 0 1 2 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 0 2 3 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 0 3 4 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 0 4 5 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 0 5 6 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 0 6 7 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 0 7 8 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 0 8 9 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 0 9 10 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 0 10 11 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 0 11 12 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 13 14 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 14 15 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 15 16 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 16 17 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 17 18 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 18 19 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 19 20 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 20 21 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 21 22 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 22 23 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 23 24 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 24 25 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 25 26 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 26 27 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 27 28 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 28 29 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 29 30 <Ref> { oShape2.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { suit_props_cvs_PICTURES_power_tie_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 30 0 <Ref> { oShape2.verts } }
+      }
+    }
+    <Group> o3 {
+    }
+    <Group> o4 {
+    }
+    <Group> o5 {
+    }
+  }
+}

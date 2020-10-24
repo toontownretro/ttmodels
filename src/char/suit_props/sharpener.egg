@@ -1,0 +1,624 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -fri 24 -uo ft -nf -1 -p -a model -cn sharpener -o sharpener.egg prop-sharpener.mb"
+}
+<Texture> suit_props_cvs_PICTURES_pencil_sharpener_face_pic {
+  "../../maps/pencil_sharpener_face.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> suit_props_cvs_PICTURES_pencil_sharpener_body_top_pic {
+  "../../maps/pencil_sharpener_body_top.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> suit_props_cvs_PICTURES_pencil_sharpener_body_side_pic {
+  "../../maps/pencil_sharpener_body_side.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> sharpener {
+  <Dart> { 1 }
+  <Group> body {
+    <VertexPool> bodyShape.verts {
+      <Vertex> 0 {
+        1.18138996634896 -2.13537992142004 2.97400006471969
+        <UV> { 1 0 }
+        <Normal> { -0.0471230678109913 0.0385992570240643 0.998143032754961 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 1 {
+        -0.0296212009244704 -1.12306001618153 2.87767995999554
+        <UV> { 0.6875 0.5 }
+        <Normal> { -0.0471230678109913 0.0385992570240643 0.998143032754961 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 2 {
+        -1.04378996871588 -2.33635990012662 2.87672002797365
+        <UV> { 0.375 0 }
+        <Normal> { -0.0471230678109913 0.0385992570240643 0.998143032754961 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 3 {
+        1.18138996634896 -2.13537992142004 2.97400006471969
+        <UV> { 1 0 }
+        <Normal> { -0.0471237508088733 0.038598226832634 0.998143040347965 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 4 {
+        1.13257998869488 -1.0180900103151 2.92849002547777
+        <UV> { 1 0.5 }
+        <Normal> { -0.0471237508088733 0.038598226832634 0.998143040347965 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 5 {
+        -0.0296212009244704 -1.12306001618153 2.87767995999554
+        <UV> { 0.6875 0.5 }
+        <Normal> { -0.0471237508088733 0.038598226832634 0.998143040347965 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 6 {
+        -0.0296212009244704 -1.12306001618153 2.87767995999554
+        <UV> { 0.6875 0.5 }
+        <Normal> { -0.0471213836498393 0.0385984111129143 0.998143144975952 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 7 {
+        -1.18569001125226 -1.22746995740675 2.82713997708218
+        <UV> { 0.375 0.5 }
+        <Normal> { -0.0471213836498393 0.0385984111129143 0.998143144975952 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 8 {
+        -1.04378996871588 -2.33635990012662 2.87672002797365
+        <UV> { 0.375 0 }
+        <Normal> { -0.0471213836498393 0.0385984111129143 0.998143144975952 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 9 {
+        1.13257998869488 -1.0180900103151 2.92849002547777
+        <UV> { 1 0.5 }
+        <Normal> { -0.0471187326350309 0.0386044665232454 0.998143035941905 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 10 {
+        0.984544015619073 0.0902416981424247 2.87862987968865
+        <UV> { 1 1 }
+        <Normal> { -0.0471137672554889 0.0386102895059541 0.998143045098879 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 11 {
+        -0.135145005904471 0.0700471986310063 2.82656001293753
+        <UV> { 0.6875 1 }
+        <Normal> { -0.0471187326350309 0.0386044665232454 0.998143035941905 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 12 {
+        -0.0296212009244704 -1.12306001618153 2.87767995999554
+        <UV> { 0.6875 0.5 }
+        <Normal> { -0.0471237008085216 0.0385986495545095 0.998143026361792 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 13 {
+        -0.135145005904471 0.0700471986310063 2.82656001293753
+        <UV> { 0.6875 1 }
+        <Normal> { -0.047122693176919 0.0385993260802952 0.99814304777116 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 14 {
+        -1.24063003720261 -0.110730998159394 2.78136010557961
+        <UV> { 0.375 1 }
+        <Normal> { -0.0471228892844362 0.038599816726811 0.998143019538855 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 15 {
+        -1.18569001125226 -1.22746995740675 2.82713997708218
+        <UV> { 0.375 0.5 }
+        <Normal> { -0.047122693176919 0.0385993260802952 0.99814304777116 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 16 {
+        -0.0296212009244704 -1.12306001618153 2.87767995999554
+        <UV> { 0.6875 0.5 }
+        <Normal> { -0.0471224979896674 0.0385988294108275 0.998143076192651 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 17 {
+        -0.833267990372625 -2.5087999859507 -1.58244994055881
+        <UV> { 0 0 }
+        <Normal> { -0.990807359925447 -0.128660143132701 -0.0418012330755856 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 18 {
+        -1.04378996871588 -2.33635990012662 2.87672002797365
+        <UV> { 1 0 }
+        <Normal> { -0.990807546854721 -0.128658549762239 -0.0418017065298385 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 19 {
+        -1.18569001125226 -1.22746995740675 2.82713997708218
+        <UV> { 1 0.50058501958847 }
+        <Normal> { -0.990807359925447 -0.128660143132701 -0.0418012330755856 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 20 {
+        -0.975169972797704 -1.39992005555961 -1.63204000377905
+        <UV> { 0 0.50058501958847 }
+        <Normal> { -0.990807174892987 -0.128661721848287 -0.0418007597013643 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 21 {
+        -1.18569001125226 -1.22746995740675 2.82713997708218
+        <UV> { 1 0.50058501958847 }
+        <Normal> { -0.997681814181076 -0.0509329193263694 -0.045131312647112 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 22 {
+        -1.24063003720261 -0.110730998159394 2.78136010557961
+        <UV> { 1 1.00117003917694 }
+        <Normal> { -0.997681821904481 -0.050932760215589 -0.0451313214760731 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 23 {
+        -1.03010999874806 -0.283179007803048 -1.67782000043574
+        <UV> { 0 1.00117003917694 }
+        <Normal> { -0.997681814181076 -0.0509329193263694 -0.045131312647112 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 24 {
+        -0.975169972797704 -1.39992005555961 -1.63204000377905
+        <UV> { 0 0.50058501958847 }
+        <Normal> { -0.997681805998034 -0.0509330865466698 -0.0451313048263623 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 25 {
+        -1.03010999874806 -0.283179007803048 -1.67782000043574
+        <UV> { 0 0 }
+        <Normal> { -0.159397873814802 0.986157823676132 -0.0456625078776417 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 26 {
+        -1.24063003720261 -0.110730998159394 2.78136010557961
+        <UV> { 1 0 }
+        <Normal> { -0.159397830165789 0.986157830199882 -0.045662519355584 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 27 {
+        -0.135145005904471 0.0700471986310063 2.82656001293753
+        <UV> { 1 0.50058501958847 }
+        <Normal> { -0.159397873814802 0.986157823676132 -0.0456625078776417 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 28 {
+        0.0753731004835114 -0.102400998743813 -1.6326199679237
+        <UV> { 0 0.50058501958847 }
+        <Normal> { -0.159397897842272 0.986157820533858 -0.0456624918655929 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 29 {
+        -0.135145005904471 0.0700471986310063 2.82656001293753
+        <UV> { 1 0.50058501958847 }
+        <Normal> { -0.016187074382492 0.999092329524339 -0.0394017221522742 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 30 {
+        0.984544015619073 0.0902416981424247 2.87862987968865
+        <UV> { 1 1.00117003917694 }
+        <Normal> { -0.0161871023100945 0.999092328779188 -0.0394017295734674 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 31 {
+        1.19506004914211 -0.0822062019913841 -1.58053996368969
+        <UV> { 0 1.00117003917694 }
+        <Normal> { -0.016187074382492 0.999092329524339 -0.0394017221522742 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 32 {
+        0.0753731004835114 -0.102400998743813 -1.6326199679237
+        <UV> { 0 0.50058501958847 }
+        <Normal> { -0.0161870464525135 0.999092330122839 -0.0394017184505875 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 33 {
+        1.19506004914211 -0.0822062019913841 -1.58053996368969
+        <UV> { 0 1 }
+        <Normal> { 0.990094168269759 0.134114314723378 0.0415558484992495 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 34 {
+        0.984544015619073 0.0902416981424247 2.87862987968865
+        <UV> { 1 1 }
+        <Normal> { 0.99009432549808 0.134113246989724 0.0415555483464672 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 35 {
+        1.13257998869488 -1.0180900103151 2.92849002547777
+        <UV> { 1 0.5 }
+        <Normal> { 0.990094168269759 0.134114314723378 0.0415558484992495 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 36 {
+        1.34309996457238 -1.19053998331385 -1.53068995538346
+        <UV> { 0 0.5 }
+        <Normal> { 0.990094008996684 0.13411539832773 0.0415561461190484 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 37 {
+        1.13257998869488 -1.0180900103151 2.92849002547777
+        <UV> { 1 0.5 }
+        <Normal> { 0.997936743697271 0.0454435786747068 0.0453556692831522 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 38 {
+        1.18138996634896 -2.13537992142004 2.97400006471969
+        <UV> { 1 0 }
+        <Normal> { 0.997936747757076 0.0454434298479828 0.0453557290723071 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 39 {
+        1.39190994222646 -2.3078300195729 -1.48517002896687
+        <UV> { 0 0 }
+        <Normal> { 0.997936743697271 0.0454435786747068 0.0453556692831522 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 40 {
+        1.34309996457238 -1.19053998331385 -1.53068995538346
+        <UV> { 0 0.5 }
+        <Normal> { 0.997936739806382 0.0454437237838316 0.0453556095016749 }
+        // joint_scale_pencil_sharpner:1
+      }
+    }
+    <Polygon> {
+      <Normal> { -0.0471230678109913 0.0385992570240643 0.998143032754961 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_side_pic }
+      <VertexRef> { 0 1 2 <Ref> { bodyShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { -0.0471237508088733 0.038598226832634 0.998143040347965 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_side_pic }
+      <VertexRef> { 3 4 5 <Ref> { bodyShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { -0.0471213836498393 0.0385984111129143 0.998143144975952 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_side_pic }
+      <VertexRef> { 6 7 8 <Ref> { bodyShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { -0.0471137672554889 0.0386102895059541 0.998143045098879 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_side_pic }
+      <VertexRef> { 9 10 11 <Ref> { bodyShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { -0.0471237008085216 0.0385986495545095 0.998143026361792 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_side_pic }
+      <VertexRef> { 9 11 12 <Ref> { bodyShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { -0.0471228892844362 0.038599816726811 0.998143019538855 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_side_pic }
+      <VertexRef> { 13 14 15 <Ref> { bodyShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { -0.0471224979896674 0.0385988294108275 0.998143076192651 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_side_pic }
+      <VertexRef> { 13 15 16 <Ref> { bodyShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { -0.990807546854721 -0.128658549762239 -0.0418017065298385 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_side_pic }
+      <VertexRef> { 17 18 19 <Ref> { bodyShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { -0.990807174892987 -0.128661721848287 -0.0418007597013643 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_side_pic }
+      <VertexRef> { 17 19 20 <Ref> { bodyShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { -0.997681821898761 -0.0509327588504824 -0.0451313231430978 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_side_pic }
+      <VertexRef> { 21 22 23 <Ref> { bodyShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { -0.997681805998034 -0.0509330865466698 -0.0451313048263623 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_side_pic }
+      <VertexRef> { 21 23 24 <Ref> { bodyShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { -0.159397834409024 0.986157829432579 -0.0456625211145675 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_top_pic }
+      <VertexRef> { 25 26 27 <Ref> { bodyShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { -0.159397897842272 0.986157820533858 -0.0456624918655929 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_top_pic }
+      <VertexRef> { 25 27 28 <Ref> { bodyShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { -0.0161871023100945 0.999092328779188 -0.0394017295734674 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_top_pic }
+      <VertexRef> { 29 30 31 <Ref> { bodyShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { -0.0161870464525135 0.999092330122839 -0.0394017184505875 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_top_pic }
+      <VertexRef> { 29 31 32 <Ref> { bodyShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0.99009432549808 0.134113246989724 0.0415555483464672 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_side_pic }
+      <VertexRef> { 33 34 35 <Ref> { bodyShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0.990094009214806 0.134115397110676 0.0415561448500511 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_side_pic }
+      <VertexRef> { 33 35 36 <Ref> { bodyShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0.997936747603221 0.0454434315441657 0.0453557307580271 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_side_pic }
+      <VertexRef> { 37 38 39 <Ref> { bodyShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0.997936739652526 0.0454437254800496 0.0453556111873807 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_side_pic }
+      <VertexRef> { 37 39 40 <Ref> { bodyShape.verts } }
+    }
+  }
+  <Group> faceplate {
+    <VertexPool> faceplateShape.verts {
+      <Vertex> 0 {
+        -0.833267990372625 -2.5087999859507 -1.58244994055881
+        <UV> { 1 0 }
+        <Normal> { 0.0471227350657042 -0.038599275345942 -0.998143047755529 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 1 {
+        0.180896999329094 -1.29550998918028 -1.58149000853691
+        <UV> { 0.5 0.5 }
+        <Normal> { 0.0471227350657042 -0.038599275345942 -0.998143047755529 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 2 {
+        1.39190994222646 -2.3078300195729 -1.48517002896687
+        <UV> { 0 0 }
+        <Normal> { 0.0471227350657042 -0.038599275345942 -0.998143047755529 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 3 {
+        -0.833267990372625 -2.5087999859507 -1.58244994055881
+        <UV> { 1 0 }
+        <Normal> { 0.0471313419657953 -0.0386064514669421 -0.998142363848782 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 4 {
+        -0.975169972797704 -1.39992005555961 -1.63204000377905
+        <UV> { 1 0.5 }
+        <Normal> { 0.0471313419657953 -0.0386064514669421 -0.998142363848782 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 5 {
+        0.180896999329094 -1.29550998918028 -1.58149000853691
+        <UV> { 0.5 0.5 }
+        <Normal> { 0.0471313419657953 -0.0386064514669421 -0.998142363848782 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 6 {
+        0.180896999329094 -1.29550998918028 -1.58149000853691
+        <UV> { 0.5 0.5 }
+        <Normal> { 0.0471160287185327 -0.0386074137555724 -0.998143049588034 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 7 {
+        1.34309996457238 -1.19053998331385 -1.53068995538346
+        <UV> { 0 0.5 }
+        <Normal> { 0.0471160287185327 -0.0386074137555724 -0.998143049588034 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 8 {
+        1.39190994222646 -2.3078300195729 -1.48517002896687
+        <UV> { 0 0 }
+        <Normal> { 0.0471160287185327 -0.0386074137555724 -0.998143049588034 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 9 {
+        -0.975169972797704 -1.39992005555961 -1.63204000377905
+        <UV> { 1 0.5 }
+        <Normal> { 0.0471274507595828 -0.0386030523613887 -0.998142679046081 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 10 {
+        -1.03010999874806 -0.283179007803048 -1.67782000043574
+        <UV> { 1 1 }
+        <Normal> { 0.0471237292829824 -0.038599841233584 -0.998142978933983 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 11 {
+        0.0753731004835114 -0.102400998743813 -1.6326199679237
+        <UV> { 0.5 1 }
+        <Normal> { 0.0471274507595828 -0.0386030523613887 -0.998142679046081 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 12 {
+        0.180896999329094 -1.29550998918028 -1.58149000853691
+        <UV> { 0.5 0.5 }
+        <Normal> { 0.0471311741260478 -0.0386062680886997 -0.998142378866744 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 13 {
+        0.0753731004835114 -0.102400998743813 -1.6326199679237
+        <UV> { 0.5 1 }
+        <Normal> { 0.0471194848823738 -0.0386036914488467 -0.998143030407437 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 14 {
+        1.19506004914211 -0.0822062019913841 -1.58053996368969
+        <UV> { 0 1 }
+        <Normal> { 0.0471228299747757 -0.0385997275614767 -0.99814302578706 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 15 {
+        1.34309996457238 -1.19053998331385 -1.53068995538346
+        <UV> { 0 0.5 }
+        <Normal> { 0.0471194848823738 -0.0386036914488467 -0.998143030407437 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 16 {
+        0.180896999329094 -1.29550998918028 -1.58149000853691
+        <UV> { 0.5 0.5 }
+        <Normal> { 0.0471161425850228 -0.0386076613518748 -0.998143034636242 }
+        // joint_scale_pencil_sharpner:1
+      }
+    }
+    <Polygon> {
+      <Normal> { 0.0471227332454802 -0.0385992762326015 -0.998143047807174 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_face_pic }
+      <VertexRef> { 0 1 2 <Ref> { faceplateShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0.0471313419657953 -0.0386064514669421 -0.998142363848782 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_face_pic }
+      <VertexRef> { 3 4 5 <Ref> { faceplateShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0.0471160287185327 -0.0386074137555724 -0.998143049588034 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_face_pic }
+      <VertexRef> { 6 7 8 <Ref> { faceplateShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0.0471237274628773 -0.0385998421203112 -0.998142978985622 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_face_pic }
+      <VertexRef> { 9 10 11 <Ref> { faceplateShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0.0471311741260478 -0.0386062680886997 -0.998142378866744 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_face_pic }
+      <VertexRef> { 9 11 12 <Ref> { faceplateShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0.0471228299747757 -0.0385997275614767 -0.99814302578706 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_face_pic }
+      <VertexRef> { 13 14 15 <Ref> { faceplateShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0.0471161425850228 -0.0386076613518748 -0.998143034636242 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_face_pic }
+      <VertexRef> { 13 15 16 <Ref> { faceplateShape.verts } }
+    }
+  }
+  <Group> o3 {
+    <VertexPool> oShape3.verts {
+      <Vertex> 0 {
+        1.39190994222646 -2.3078300195729 -1.48517002896687
+        <UV> { 0 0.714286029338837 }
+        <Normal> { 0.0880213075002863 -0.995205454252293 0.0426421534684668 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 1 {
+        1.18138996634896 -2.13537992142004 2.97400006471969
+        <UV> { 1 0.714286029338837 }
+        <Normal> { 0.0880234312941546 -0.995205220112124 0.0426432339859692 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 2 {
+        -1.04378996871588 -2.33635990012662 2.87672002797365
+        <UV> { 1 0 }
+        <Normal> { 0.0880213075002863 -0.995205454252293 0.0426421534684668 }
+        // joint_scale_pencil_sharpner:1
+      }
+      <Vertex> 3 {
+        -0.833267990372625 -2.5087999859507 -1.58244994055881
+        <UV> { 0 0 }
+        <Normal> { 0.0880191762990918 -0.995205688881315 0.0426410766972098 }
+        // joint_scale_pencil_sharpner:1
+      }
+    }
+    <Polygon> {
+      <Normal> { 0.0880234312941546 -0.995205220112124 0.0426432339859692 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_side_pic }
+      <VertexRef> { 0 1 2 <Ref> { oShape3.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0.0880191762990918 -0.995205688881315 0.0426410766972098 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { suit_props_cvs_PICTURES_pencil_sharpener_body_side_pic }
+      <VertexRef> { 0 2 3 <Ref> { oShape3.verts } }
+    }
+  }
+  <Joint> sharpener {
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+      }
+    }
+    <Joint> pencil_sharpener {
+      <Transform> {
+        <Matrix4> {
+          1 0 0 0
+          0 1 0 0
+          0 0 1 0
+          0 0 0 1
+        }
+      }
+      <Joint> joint_scale_pencil_sharpner {
+        <Transform> {
+          <Matrix4> {
+            -0.999831020832062 0 0.0184013992547988 0
+            0 1 0 0
+            -0.0184013992547988 0 -0.999831020832062 0
+            0.213929001740583 -0.178167998321413 0.261100993694596 1
+          }
+        }
+        <VertexRef> {
+          0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+          <Ref> { faceplateShape.verts }
+        }
+        <VertexRef> {
+          0 1 2 3
+          <Ref> { oShape3.verts }
+        }
+        <VertexRef> {
+          0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23
+          24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40
+          <Ref> { bodyShape.verts }
+        }
+      }
+    }
+  }
+}

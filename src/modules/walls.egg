@@ -1,0 +1,909 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o walls.egg walls.flt"
+}
+<Texture> 9 {
+  "../maps/wall_sm_brick_pink.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 8 {
+  "../maps/wall_sm_brick_blue.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 7 {
+  "../maps/wall_md_pillars.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 6 {
+  "../maps/wall_md_dental.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 5 {
+  "../maps/wall_md_bricks.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 4 {
+  "../maps/wall_md_board.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 3 {
+  "../maps/wall_md_blank.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 2 {
+  "../maps/wall_lrg_rock.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 16 {
+  "../maps/fence_stoneWall.rgb"
+  <Scalar> wrap { clamp }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 15 {
+  "../maps/fenceW_flower.rgb"
+  <Scalar> wrap { clamp }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 14 {
+  "../maps/wall_fence_wood.rgba"
+  <Scalar> wrap { clamp }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 13 {
+  "../maps/wall_bricks.rgb"
+  <Scalar> wrap { clamp }
+  <Scalar> wrapu { clamp }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 12 {
+  "../maps/wall_sm_wood.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 11 {
+  "../maps/wall_sm_cement.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 10 {
+  "../maps/wall_sm_brick.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 1 {
+  "../maps/wall_lrg_brick.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 0 {
+  "../maps/wall_sm_cement_blue.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    0 0 -2
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 1 {
+    0 0 -0.1
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 2 {
+    0 0 0
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 3 {
+    0 0 1
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 4 {
+    0 0 2
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 5 {
+    1 0 -2
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 6 {
+    1 0 -0.1
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 7 {
+    1 0 0
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 8 {
+    1 0 1
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 9 {
+    1 0 2
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 10 {
+    0 0 0
+    <UV> {
+      0 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 11 {
+    0 0 0
+    <UV> {
+      1 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 -1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 12 {
+    0 0 1
+    <UV> {
+      0 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 13 {
+    0 0 1
+    <UV> {
+      1 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 -1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 14 {
+    1 0 0
+    <UV> {
+      0 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 -1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 15 {
+    1 0 0
+    <UV> {
+      1 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 16 {
+    1 0 1
+    <UV> {
+      0 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 -1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 17 {
+    1 0 1
+    <UV> {
+      1 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 18 {
+    0 0 0
+    <UV> {
+      0 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 -1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 19 {
+    0 0 0
+    <UV> {
+      1 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 20 {
+    0 0 1
+    <UV> {
+      0 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 -1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 21 {
+    0 0 1
+    <UV> {
+      1 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 22 {
+    1 0 0
+    <UV> {
+      0 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 23 {
+    1 0 0
+    <UV> {
+      1 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 -1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 24 {
+    1 0 1
+    <UV> {
+      0 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 25 {
+    1 0 1
+    <UV> {
+      1 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 -1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+}
+<Group> 1x1walls {
+  <Group> wall_lg_brick {
+    <Group> wall_lg_brick_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 1 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_lg_brick_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 1 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_lg_brick_dr {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 1 }
+        <VertexRef> { 23 25 20 18 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_lg_brick_dl {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 1 }
+        <VertexRef> { 14 16 13 11 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_lg_rock {
+    <Group> wall_lg_rock_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 2 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_lg_rock_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 2 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_lg_rock_dr {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 2 }
+        <VertexRef> { 23 25 20 18 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_lg_rock_dl {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 2 }
+        <VertexRef> { 14 16 13 11 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_md_blank {
+    <Group> wall_md_blank_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 3 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_md_blank_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 3 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_md_blank_dr {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 3 }
+        <VertexRef> { 23 25 20 18 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_md_blank_dl {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 3 }
+        <VertexRef> { 14 16 13 11 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_md_board {
+    <Group> wall_md_board_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 4 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_md_board_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 4 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_md_board_dr {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 4 }
+        <VertexRef> { 23 25 20 18 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_md_board_dl {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 4 }
+        <VertexRef> { 14 16 13 11 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_md_bricks {
+    <Group> wall_md_bricks_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 5 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_md_bricks_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 5 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_md_bricks_dr {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 5 }
+        <VertexRef> { 23 25 20 18 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_md_bricks_dl {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 5 }
+        <VertexRef> { 14 16 13 11 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_md_dental {
+    <Group> wall_md_dental_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 6 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_md_dental_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 6 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_md_dental_dr {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 6 }
+        <VertexRef> { 23 25 20 18 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_md_dental_dl {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 6 }
+        <VertexRef> { 14 16 13 11 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_md_pillars {
+    <Group> wall_md_pillars_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 7 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_md_pillars_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 7 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_md_pillars_dr {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 7 }
+        <VertexRef> { 23 25 20 18 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_md_pillars_dl {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 7 }
+        <VertexRef> { 14 16 13 11 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_sm_brick_blue {
+    <Group> wall_sm_brick_blue_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 8 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_sm_brick_blue_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 8 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_sm_brick_blue_dr {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 8 }
+        <VertexRef> { 23 25 20 18 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_sm_brick_blue_dl {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 8 }
+        <VertexRef> { 14 16 13 11 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_sm_brick_pink {
+    <Group> wall_sm_brick_pink_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 9 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_sm_brick_pink_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 9 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_sm_brick_pink_dr {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 9 }
+        <VertexRef> { 23 25 20 18 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_sm_brick_pink_dl {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 9 }
+        <VertexRef> { 14 16 13 11 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_sm_brick {
+    <Group> wall_sm_brick_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 10 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_sm_brick_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 10 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_sm_brick_dr {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 10 }
+        <VertexRef> { 23 25 20 18 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_sm_brick_dl {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 10 }
+        <VertexRef> { 14 16 13 11 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_sm_cement {
+    <Group> wall_sm_cement_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 11 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_sm_cement_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 11 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_sm_cement_dr {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 11 }
+        <VertexRef> { 23 25 20 18 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_sm_cement_dl {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 11 }
+        <VertexRef> { 14 16 13 11 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_sm_wood {
+    <Group> wall_sm_wood_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 12 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_sm_wood_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 12 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_sm_wood_dr {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 12 }
+        <VertexRef> { 23 25 20 18 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_sm_wood_dl {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 12 }
+        <VertexRef> { 14 16 13 11 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_stone_fence {
+    <Group> wall_stone_fence_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 16 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_stone_fence_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 16 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_woodflower_fence {
+    <Group> wall_woodflower_fence_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 15 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_woodflower_fence_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 15 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_bricks_red {
+    <Group> wall_bricks_red_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 7 8 3 2 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_bricks_red_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 7 8 3 2 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_bricks_red_dr {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 7 8 3 2 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_bricks_red_dl {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 7 8 3 2 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_bricks {
+    <Group> wall_bricks_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 13 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_bricks_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 13 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_bricks_dr {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 13 }
+        <VertexRef> { 23 25 20 18 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_bricks_dl {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 13 }
+        <VertexRef> { 14 16 13 11 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_fence_wood {
+    <Group> wall_fence_wood_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 14 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_fence_wood_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 14 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_fence_wood_dr {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 14 }
+        <VertexRef> { 23 25 20 18 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_fence_wood_dl {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 14 }
+        <VertexRef> { 14 16 13 11 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_fence_wood_1 {
+    <Group> wall_fence_wood_ur_1 {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 14 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_fence_wood_ul_1 {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 14 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_fence_wood_dr_1 {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 14 }
+        <VertexRef> { 23 25 20 18 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_fence_wood_dl_1 {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 14 }
+        <VertexRef> { 14 16 13 11 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_fence_wood_2 {
+    <Group> wall_fence_wood_ur_2 {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 14 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_fence_wood_ul_2 {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 14 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_fence_wood_dr_2 {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 14 }
+        <VertexRef> { 23 25 20 18 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_fence_wood_dl_2 {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 14 }
+        <VertexRef> { 14 16 13 11 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_sm_cement_blue {
+    <Group> wall_sm_cement_blue_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 0 }
+        <VertexRef> { 15 17 12 10 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_sm_cement_blue_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 0 }
+        <VertexRef> { 22 24 21 19 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_sm_cement_blue_dr {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 0 }
+        <VertexRef> { 23 25 20 18 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_sm_cement_blue_dl {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 0 }
+        <VertexRef> { 14 16 13 11 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_collide {
+    <ObjectType> { barrier }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 5 9 4 0 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_camera_collide {
+    <ObjectType> { camera-collide }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 7 8 3 2 <Ref> { vpool } }
+    }
+  }
+  <Group> wall_camera_barrier {
+    <ObjectType> { camera-barrier }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 6 8 3 1 <Ref> { vpool } }
+    }
+  }
+}

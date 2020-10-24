@@ -1,0 +1,914 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -o PetNamePanel.egg PetNamePanel.mb"
+}
+<Texture> lambert5SG {
+  "../maps/PetNameButton1.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> lambert4SG {
+  "../maps/PetNameArrowSm.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> lambert3SG {
+  "../maps/PetNamePannel3.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> PetNameButton1_tif2SG {
+  "../maps/PetNameButton1.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> PetNameButton1_tif1SG {
+  "../maps/PetNameButton1.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> PetNameArrowSm_tif1SG {
+  "../maps/PetNameArrowSm.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> PetNamePannel {
+  <VertexPool> PetNamePannelShape.verts {
+    <Vertex> 0 {
+      -7.9996454434132 -7.9996454434132 0
+      <UV> {
+        0 0
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 1 {
+      -7.9996454434132 7.9996454434132 0
+      <UV> {
+        0 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 2 {
+      7.9996454434132 -7.9996454434132 0
+      <UV> {
+        1 0
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 3 {
+      7.9996454434132 7.9996454434132 0
+      <UV> {
+        1 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { lambert3SG }
+    <VertexRef> { 0 2 3 1 <Ref> { PetNamePannelShape.verts } }
+  }
+}
+<Group> ArrowSmUpRollover {
+  <DCS> { 1 }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      0.893739014472861 0.308132134969163 0.005210606963652 1
+    }
+  }
+  <VertexPool> ArrowSmUpRolloverShape.verts {
+    <Vertex> 0 {
+      0.125177138120796 -0.130378042306174 0.00521060607330067
+      <UV> {
+        0 0.00366390496492386
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 1 {
+      0.125177138120796 0.746642385567893 0.00521060607330067
+      <UV> {
+        0 0.992672204971313
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 2 {
+      1.66230089082493 -0.130378042306174 0.00521060607330067
+      <UV> {
+        1 0.00366390496492386
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 3 {
+      1.66230089082493 0.746642385567893 0.00521060607330067
+      <UV> {
+        1 0.992672204971313
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 1 0.85381281375885 0.380999982357025 1 }
+    <TRef> { PetNameArrowSm_tif1SG }
+    <VertexRef> { 0 2 3 1 <Ref> { ArrowSmUpRolloverShape.verts } }
+  }
+}
+<Group> ArrowUpBigRollover {
+  <DCS> { 1 }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      4.10935359364107 0.283801931541958 0.0111446545337175 1
+    }
+  }
+  <VertexPool> ArrowUpBigRolloverShape.verts {
+    <Vertex> 0 {
+      2.32359718462927 -0.17269014373539 0.0111446517893649
+      <UV> {
+        0 0.00366390496492386
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 1 {
+      2.32359718462927 0.740293567887754 0.0111446517893649
+      <UV> {
+        0 0.996096909046173
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 2 {
+      5.89511000265287 -0.17269014373539 0.0111446517893649
+      <UV> {
+        1 0.00366390496492386
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 3 {
+      5.89511000265287 0.740293567887754 0.0111446517893649
+      <UV> {
+        1 0.996096909046173
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 1 0.85381281375885 0.380999982357025 1 }
+    <TRef> { PetNameArrowSm_tif1SG }
+    <VertexRef> { 0 2 3 1 <Ref> { ArrowUpBigRolloverShape.verts } }
+  }
+}
+<Group> ArrowSmDownRollover {
+  <DCS> { 1 }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      0.879903477946604 -4.12995070610147 0.0488919525265527 1
+    }
+  }
+  <VertexPool> ArrowSmDownRolloverShape.verts {
+    <Vertex> 0 {
+      0.106729422341494 -4.57473664771853 0.0488919535959799
+      <UV> {
+        0 0.98900830745697
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 1 {
+      0.106729422341494 -3.69356610956467 0.0488919535959799
+      <UV> {
+        0 0.00366390496492386
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 2 {
+      1.65307753355171 -4.57473664771853 0.0488919535959799
+      <UV> {
+        1 0.98900830745697
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 3 {
+      1.65307753355171 -3.69356610956467 0.0488919535959799
+      <UV> {
+        1 0.00366390496492386
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 1 0.85381281375885 0.380999982357025 1 }
+    <TRef> { PetNameArrowSm_tif1SG }
+    <VertexRef> { 1 0 2 3 <Ref> { ArrowSmDownRolloverShape.verts } }
+  }
+}
+<Group> ArrowDownBigRollover {
+  <DCS> { 1 }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      4.11396677412699 -4.13833603145569 0.0603153892359032 1
+    }
+  }
+  <VertexPool> ArrowDownBigRolloverShape.verts {
+    <Vertex> 0 {
+      2.33282354560111 -4.57471261812946 0.0603153910536779
+      <UV> {
+        0 0.996096909046173
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 1 {
+      2.33282354560111 -3.69355809970165 0.0603153910536779
+      <UV> {
+        0 0.00366390496492386
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 2 {
+      5.89511000265287 -4.57471261812946 0.0603153910536779
+      <UV> {
+        1 0.996096909046173
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 3 {
+      5.89511000265287 -3.69355809970165 0.0603153910536779
+      <UV> {
+        1 0.00366390496492386
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 1 0.85381281375885 0.380999982357025 1 }
+    <TRef> { PetNameArrowSm_tif1SG }
+    <VertexRef> { 1 0 2 3 <Ref> { ArrowDownBigRolloverShape.verts } }
+  }
+}
+<Group> RandomUpButton {
+  <DCS> { 1 }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      -0.746999518769018 -5.5630552515386 0.00465330613253963 1
+    }
+  }
+  <VertexPool> RandomUpButtonShape.verts {
+    <Vertex> 0 {
+      -2.44115343869828 -6.13487924490701 0.00465330948901614
+      <UV> {
+        0 0.0190392024815083
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 1 {
+      -2.44115343869828 -4.99123100220688 0.00465330948901614
+      <UV> {
+        0 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 2 {
+      0.947154287903953 -6.13487924490701 0.00465330948901614
+      <UV> {
+        1 0.0190392024815083
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 3 {
+      0.947154287903953 -4.99123100220688 0.00465330948901614
+      <UV> {
+        1 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 1 0.582000017166138 0.908806383609772 1 }
+    <TRef> { lambert5SG }
+    <VertexRef> { 0 2 3 1 <Ref> { RandomUpButtonShape.verts } }
+  }
+}
+<Group> RandomDownButton {
+  <DCS> { 1 }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      -0.746999518769018 -5.5630552515386 0.0101533061624735 1
+    }
+  }
+  <VertexPool> RandomDownButtonShape.verts {
+    <Vertex> 0 {
+      -2.44115343869828 -6.13487924490701 0.01015330315262
+      <UV> {
+        0 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 1 {
+      -2.44115343869828 -4.99123100220688 0.01015330315262
+      <UV> {
+        0 0.0169237349182367
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 2 {
+      0.947154287903953 -6.13487924490701 0.01015330315262
+      <UV> {
+        1 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 3 {
+      0.947154287903953 -4.99123100220688 0.01015330315262
+      <UV> {
+        1 0.0169237349182367
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 1 0.582000017166138 0.908806383609772 1 }
+    <TRef> { lambert5SG }
+    <VertexRef> { 1 0 2 3 <Ref> { RandomDownButtonShape.verts } }
+  }
+}
+<Group> RandomRolloverButton {
+  <DCS> { 1 }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      -0.746999518769018 -5.5630552515386 0.020124790377729 1
+    }
+  }
+  <VertexPool> RandomRolloverButtonShape.verts {
+    <Vertex> 0 {
+      -2.44115343869828 -6.13487924490701 0.0201247945388784
+      <UV> {
+        0 0.0169237330555916
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 1 {
+      -2.44115343869828 -4.99123100220688 0.0201247945388784
+      <UV> {
+        0 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 2 {
+      0.947154287903953 -6.13487924490701 0.0201247945388784
+      <UV> {
+        1 0.0169237330555916
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 3 {
+      0.947154287903953 -4.99123100220688 0.0201247945388784
+      <UV> {
+        1 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 1 0.85381281375885 0.380999982357025 1 }
+    <TRef> { PetNameButton1_tif1SG }
+    <VertexRef> { 0 2 3 1 <Ref> { RandomRolloverButtonShape.verts } }
+  }
+}
+<Group> SubmitUpButton {
+  <DCS> { 1 }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      3.42679973724867 -5.5630552515386 0.00465330613253963 1
+    }
+  }
+  <VertexPool> SubmitUpButtonShape.verts {
+    <Vertex> 0 {
+      1.73264551037566 -6.13487924490701 0.00465330948901614
+      <UV> {
+        0 0.0148082682862878
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 1 {
+      1.73264551037566 -4.99123100220688 0.00465330948901614
+      <UV> {
+        0 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 2 {
+      5.12095373759432 -6.13487924490701 0.00465330948901614
+      <UV> {
+        1 0.0148082682862878
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 3 {
+      5.12095373759432 -4.99123100220688 0.00465330948901614
+      <UV> {
+        1 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 0.534000039100647 1 0.672790288925171 1 }
+    <TRef> { PetNameButton1_tif2SG }
+    <VertexRef> { 0 2 3 1 <Ref> { SubmitUpButtonShape.verts } }
+  }
+}
+<Group> SubmitDownButton {
+  <DCS> { 1 }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      3.42679973724867 -5.5630552515386 0.0101533061624735 1
+    }
+  }
+  <VertexPool> SubmitDownButtonShape.verts {
+    <Vertex> 0 {
+      1.73264551037566 -6.13487924490701 0.01015330315262
+      <UV> {
+        0 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 1 {
+      1.73264551037566 -4.99123100220688 0.01015330315262
+      <UV> {
+        0 0.0148082673549652
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 2 {
+      5.12095373759432 -6.13487924490701 0.01015330315262
+      <UV> {
+        1 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 3 {
+      5.12095373759432 -4.99123100220688 0.01015330315262
+      <UV> {
+        1 0.0148082673549652
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 0.534000039100647 1 0.672790288925171 1 }
+    <TRef> { PetNameButton1_tif2SG }
+    <VertexRef> { 1 0 2 3 <Ref> { SubmitDownButtonShape.verts } }
+  }
+}
+<Group> SubmitRolloverButton {
+  <DCS> { 1 }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      3.42679973724867 -5.5630552515386 0.01576623692941 1
+    }
+  }
+  <VertexPool> SubmitRolloverButtonShape.verts {
+    <Vertex> 0 {
+      1.73264551037566 -6.13487924490701 0.0157662400892713
+      <UV> {
+        0 0.0190392024815083
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 1 {
+      1.73264551037566 -4.99123100220688 0.0157662400892713
+      <UV> {
+        0 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 2 {
+      5.12095373759432 -6.13487924490701 0.0157662400892713
+      <UV> {
+        1 0.0190392024815083
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 3 {
+      5.12095373759432 -4.99123100220688 0.0157662400892713
+      <UV> {
+        1 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 1 0.85381281375885 0.380999982357025 1 }
+    <TRef> { PetNameButton1_tif1SG }
+    <VertexRef> { 0 2 3 1 <Ref> { SubmitRolloverButtonShape.verts } }
+  }
+}
+<Group> sign_origin1 {
+  <DCS> { net }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      -1.86317319790747 2.7618501642112 0.146296291925985 1
+    }
+  }
+}
+<Group> sign_origin2 {
+  <DCS> { net }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      -2.46002292684244 -1.18477845086573 0.146296291925985 1
+    }
+  }
+}
+<Group> sign_origin3 {
+  <DCS> { net }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      0.956075284240542 -1.6117907272511 0.146296291925985 1
+    }
+  }
+}
+<Group> sign_origin4 {
+  <DCS> { net }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      4.15219747415531 -1.6117907272511 0.146296291925985 1
+    }
+  }
+}
+<Group> sign_origin5 {
+  <DCS> { net }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      -0.739034055349874 -5.53253981042589 0.146296291925985 1
+    }
+  }
+}
+<Group> sign_origin6 {
+  <DCS> { net }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      3.53108870850386 -5.53253981042589 0.146296291925985 1
+    }
+  }
+}
+<Group> ArrowUpBigButton {
+  <DCS> { 1 }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      4.10935359364107 0.283801931541958 0.0111446545337175 1
+    }
+  }
+  <VertexPool> ArrowUpBigButtonShape.verts {
+    <Vertex> 0 {
+      2.32359718462927 -0.17269014373539 0.0111446517893649
+      <UV> {
+        0 0.00366390496492386
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 1 {
+      2.32359718462927 0.740293567887754 0.0111446517893649
+      <UV> {
+        0 0.996096909046173
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 2 {
+      5.89511000265287 -0.17269014373539 0.0111446517893649
+      <UV> {
+        1 0.00366390496492386
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 3 {
+      5.89511000265287 0.740293567887754 0.0111446517893649
+      <UV> {
+        1 0.996096909046173
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 0.846770107746124 0.339999973773956 1 1 }
+    <TRef> { lambert4SG }
+    <VertexRef> { 0 2 3 1 <Ref> { ArrowUpBigButtonShape.verts } }
+  }
+}
+<Group> ArrowSmUpButton {
+  <DCS> { 1 }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      0.893739014472861 0.308132134969163 0.005210606963652 1
+    }
+  }
+  <VertexPool> ArrowSmUpButtonShape.verts {
+    <Vertex> 0 {
+      0.125177138120796 -0.130378042306174 0.00521060607330067
+      <UV> {
+        0 0.00366390496492386
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 1 {
+      0.125177138120796 0.746642385567893 0.00521060607330067
+      <UV> {
+        0 0.992672204971313
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 2 {
+      1.66230089082493 -0.130378042306174 0.00521060607330067
+      <UV> {
+        1 0.00366390496492386
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 3 {
+      1.66230089082493 0.746642385567893 0.00521060607330067
+      <UV> {
+        1 0.992672204971313
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 0.846770107746124 0.339999973773956 1 1 }
+    <TRef> { lambert4SG }
+    <VertexRef> { 0 2 3 1 <Ref> { ArrowSmUpButtonShape.verts } }
+  }
+}
+<Group> ArrowDownBigButton {
+  <DCS> { 1 }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      4.11396677412699 -4.13833603145569 0.0603153892359032 1
+    }
+  }
+  <VertexPool> ArrowDownBigButtonShape.verts {
+    <Vertex> 0 {
+      2.33282354560111 -4.57471261812946 0.0603153910536779
+      <UV> {
+        0 0.996096909046173
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 1 {
+      2.33282354560111 -3.69355809970165 0.0603153910536779
+      <UV> {
+        0 0.00366390496492386
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 2 {
+      5.89511000265287 -4.57471261812946 0.0603153910536779
+      <UV> {
+        1 0.996096909046173
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 3 {
+      5.89511000265287 -3.69355809970165 0.0603153910536779
+      <UV> {
+        1 0.00366390496492386
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 0.846770107746124 0.339999973773956 1 1 }
+    <TRef> { lambert4SG }
+    <VertexRef> { 1 0 2 3 <Ref> { ArrowDownBigButtonShape.verts } }
+  }
+}
+<Group> ArrowSmDownButton {
+  <DCS> { 1 }
+  <Transform> {
+    <Matrix4> {
+      1 0 0 0
+      0 1 0 0
+      0 0 1 0
+      0.879903477946604 -4.12995070610147 0.0488919525265527 1
+    }
+  }
+  <VertexPool> ArrowSmDownButtonShape.verts {
+    <Vertex> 0 {
+      0.106729422341494 -4.57473664771853 0.0488919535959799
+      <UV> {
+        0 0.98900830745697
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 1 {
+      0.106729422341494 -3.69356610956467 0.0488919535959799
+      <UV> {
+        0 0.00366390496492386
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 2 {
+      1.65307753355171 -4.57473664771853 0.0488919535959799
+      <UV> {
+        1 0.98900830745697
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 3 {
+      1.65307753355171 -3.69356610956467 0.0488919535959799
+      <UV> {
+        1 0.00366390496492386
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 -1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 0.846770107746124 0.339999973773956 1 1 }
+    <TRef> { lambert4SG }
+    <VertexRef> { 1 0 2 3 <Ref> { ArrowSmDownButtonShape.verts } }
+  }
+}

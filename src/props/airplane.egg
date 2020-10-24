@@ -1,0 +1,118 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o airplane.egg airplane.flt"
+}
+<Texture> 1 {
+  "../maps/airplane.rgba"
+  <Scalar> wrap { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 0 {
+  "../maps/airplne_flag.rgba"
+  <Scalar> wrap { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    -11 0 -1.5
+    <UV> {
+      1 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 1 0 }
+  }
+  <Vertex> 1 {
+    -11 0 1.5
+    <UV> {
+      1 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 1 0 }
+  }
+  <Vertex> 2 {
+    0 0 -2
+    <UV> {
+      1 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 1 0 }
+  }
+  <Vertex> 3 {
+    0 0 -1.5
+    <UV> {
+      0 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 1 0 }
+  }
+  <Vertex> 4 {
+    0 0 1.5
+    <UV> {
+      0 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 1 0 }
+  }
+  <Vertex> 5 {
+    0 0 2
+    <UV> {
+      1 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 1 0 }
+  }
+  <Vertex> 6 {
+    7 0 -2
+    <UV> {
+      0 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 1 0 }
+  }
+  <Vertex> 7 {
+    7 0 2
+    <UV> {
+      0 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 1 0 }
+  }
+}
+<Group> g1 {
+  <Group> g2 {
+    <Group> airplane {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 1 }
+        <VertexRef> { 7 6 2 5 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> g3 {
+    <Group> banner {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 0 }
+        <VertexRef> { 4 3 0 1 <Ref> { vpool } }
+      }
+    }
+    <Instance> sign_origin {
+      <Transform> {
+        <Translate> { 0.608425377208623 0 -0.54400303876134 }
+      }
+    }
+  }
+}

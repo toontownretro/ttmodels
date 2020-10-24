@@ -1,0 +1,3705 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -subset dogMMskirt200:mf_hand_left_200 -subset dogMMskirt200:mf_hand_right_200 -subset dogMMskirt200:mf_neck_200 -subset dogMMskirt200:mf_arm_left_200 -subset dogMMskirt200:mf_arm_right_200 -subset dogMMskirt200:mf_blouse_200 -subset dogMMskirt200:mf_sleeve_left_200 -subset dogMMskirt200:mf_sleeve_right_200 -subset dogMMskirt200:mf_skirt_200 -subset dogMMskirt200:mf_skirt_cap_200 -subroot dogMMskirt200:Skeleton -p -a model -cn dog-torso-md -o tt_a_chr_dgm_skirt_torso_250.egg tt_a_chr_dgm_skirt_200_default.mb"
+}
+<Texture> "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_neckGeneric_pic" {
+  "../../maps/neckGeneric.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_handGeneric_pic" {
+  "../../maps/handGeneric.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_sleeve_1_pic" {
+  "../../maps/desat_sleeve_1.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_skirt_1_pic" {
+  "../../maps/desat_skirt_1.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_shirt_1_pic" {
+  "../../maps/desat_shirt_1.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" {
+  "../../maps/armShrtSlvGeneric.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> dog-torso-md {
+  <Dart> { 1 }
+  <Group> "dogMMskirt200:MMDog_skirt_200" {
+    <Group> "dogMMskirt200:Controllers" {
+      <Group> "dogMMskirt200:Main_controller" {
+        <Group> "dogMMskirt200:xxx_fk_pelvis" {
+          <Group> "dogMMskirt200:xx_fk_pelvis" {
+            <Group> "dogMMskirt200:ctrl_fk_pelvis" {
+              <Group> "dogMMskirt200:xxx_fk_spineA" {
+                <Group> "dogMMskirt200:xx_fk_spineA" {
+                  <Group> "dogMMskirt200:ctrl_fk_spineA" {
+                    <Group> "dogMMskirt200:xxx_fk_spineB" {
+                      <Group> "dogMMskirt200:xx_fk_spineB" {
+                        <Group> "dogMMskirt200:ctrl_fk_spineB" {
+                          <Group> "dogMMskirt200:xxx_fk_cageA" {
+                            <Group> "dogMMskirt200:xx_fk_cageA" {
+                              <Group> "dogMMskirt200:ctrl_fk_cageA" {
+                                <Group> "dogMMskirt200:xxx_fk_neck" {
+                                  <Group> "dogMMskirt200:xx_fk_neck" {
+                                    <Group> "dogMMskirt200:ctrl_fk_neck" {
+                                      <Group> "dogMMskirt200:xxx_fk_head" {
+                                        <Group> "dogMMskirt200:xx_fk_head" {
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              <Group> "dogMMskirt200:xxx_ik_cageA" {
+                <Group> "dogMMskirt200:xx_ik_cageA" {
+                  <Group> "dogMMskirt200:ctrl_ik_cageA" {
+                    <Scalar> visibility { hidden }
+                    <Group> "dogMMskirt200:clst_spinetop" {
+                      <Scalar> visibility { hidden }
+                    }
+                    <Group> "dogMMskirt200:xxx_ik_neck" {
+                      <Group> "dogMMskirt200:xx_ik_neck" {
+                      }
+                    }
+                    <Group> "dogMMskirt200:xxx_ik_head" {
+                      <Group> "dogMMskirt200:xx_ik_head" {
+                        <Group> "dogMMskirt200:ctrl_ik_head" {
+                          <Scalar> visibility { hidden }
+                          <Group> "dogMMskirt200:HeadIk" {
+                            <Scalar> visibility { hidden }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              <Group> "dogMMskirt200:xxx_ik_spineB" {
+                <Group> "dogMMskirt200:xx_ik_spineB" {
+                  <Group> "dogMMskirt200:ctrl_ik_spineB" {
+                    <Scalar> visibility { hidden }
+                    <Group> "dogMMskirt200:clst_spinemid" {
+                      <Scalar> visibility { hidden }
+                    }
+                    <Group> "dogMMskirt200:ctrl_ik_spineB_pointConstraint1" {
+                    }
+                  }
+                }
+              }
+              <Group> "dogMMskirt200:xxx_ik_booty" {
+                <Group> "dogMMskirt200:xx_ik_booty" {
+                  <Group> "dogMMskirt200:ctrl_ik_booty" {
+                    <Scalar> visibility { hidden }
+                    <Group> "dogMMskirt200:xxx_ik_spineA" {
+                      <Group> "dogMMskirt200:xx_ik_spineA" {
+                        <Group> "dogMMskirt200:ctrl_ik_spineA" {
+                          <Scalar> visibility { hidden }
+                          <Group> "dogMMskirt200:clst_spinebase" {
+                            <Scalar> visibility { hidden }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        <Group> "dogMMskirt200:xxx_ik_left_knee" {
+          <Group> "dogMMskirt200:xx_ik_left_knee" {
+          }
+          <Group> "dogMMskirt200:pc_nf_left_knee" {
+          }
+        }
+        <Group> "dogMMskirt200:xxx_ik_left_foot" {
+          <Group> "dogMMskirt200:xx_ik_left_foot" {
+            <Group> "dogMMskirt200:ctrl_ik_left_foot" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:grp_left_heelRot" {
+                <Group> "dogMMskirt200:grp_left_toeTip" {
+                  <Group> "dogMMskirt200:grp_left_ballRotY" {
+                    <Group> "dogMMskirt200:grp_left_toeTap" {
+                      <Group> "dogMMskirt200:leftToeIk" {
+                        <Scalar> visibility { hidden }
+                      }
+                    }
+                    <Group> "dogMMskirt200:grp_left_heel" {
+                      <Group> "dogMMskirt200:leftLegIk" {
+                        <Scalar> visibility { hidden }
+                        <Group> "dogMMskirt200:pv_leftLegIk" {
+                        }
+                      }
+                    }
+                    <Group> "dogMMskirt200:leftBallIk" {
+                      <Scalar> visibility { hidden }
+                    }
+                  }
+                }
+              }
+              <Group> "dogMMskirt200:nf_left_loc" {
+                <Scalar> visibility { hidden }
+              }
+              <Group> "dogMMskirt200:ik_nf_left_End" {
+                <Scalar> visibility { hidden }
+                <Group> "dogMMskirt200:pv_nf_left_leg" {
+                }
+              }
+            }
+          }
+        }
+        <Group> "dogMMskirt200:xxx_left_sdk" {
+          <Group> "dogMMskirt200:xx_left_sdk" {
+          }
+          <Group> "dogMMskirt200:pc_xxx_left_sdk" {
+          }
+        }
+        <Group> "dogMMskirt200:xxx_ik_right_knee" {
+          <Group> "dogMMskirt200:xx_ik_right_knee" {
+          }
+          <Group> "dogMMskirt200:pc_nf_right_knee" {
+          }
+        }
+        <Group> "dogMMskirt200:xxx_ik_right_foot" {
+          <Group> "dogMMskirt200:xx_ik_right_foot" {
+            <Group> "dogMMskirt200:ctrl_ik_right_foot" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:grp_right_heelRot" {
+                <Group> "dogMMskirt200:grp_right_toeTip" {
+                  <Group> "dogMMskirt200:grp_right_ballRotY" {
+                    <Group> "dogMMskirt200:grp_right_toeTap" {
+                      <Group> "dogMMskirt200:rightToeIk" {
+                        <Scalar> visibility { hidden }
+                      }
+                    }
+                    <Group> "dogMMskirt200:grp_right_heel" {
+                      <Group> "dogMMskirt200:rightLegIk" {
+                        <Scalar> visibility { hidden }
+                        <Group> "dogMMskirt200:pv_rightLegIk" {
+                        }
+                      }
+                    }
+                    <Group> "dogMMskirt200:rightBallIk" {
+                      <Scalar> visibility { hidden }
+                    }
+                  }
+                }
+              }
+              <Group> "dogMMskirt200:nf_right_loc" {
+                <Scalar> visibility { hidden }
+              }
+              <Group> "dogMMskirt200:ik_nf_right_End" {
+                <Scalar> visibility { hidden }
+                <Group> "dogMMskirt200:pv_nf_right_leg" {
+                }
+              }
+            }
+          }
+        }
+        <Group> "dogMMskirt200:xxx_right_sdk" {
+          <Group> "dogMMskirt200:xx_right_sdk" {
+          }
+          <Group> "dogMMskirt200:pc_xxx_right_sdk" {
+          }
+        }
+        <Group> "dogMMskirt200:xxx_ik_left_elbow" {
+          <Group> "dogMMskirt200:xx_ik_left_elbow" {
+          }
+        }
+        <Group> "dogMMskirt200:xxx_ik_left_wrist" {
+          <Group> "dogMMskirt200:xx_ik_left_wrist" {
+            <Group> "dogMMskirt200:ctrl_ik_left_wrist" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:leftWristIk" {
+                <Scalar> visibility { hidden }
+                <Group> "dogMMskirt200:pv_leftWristIk" {
+                }
+              }
+            }
+          }
+        }
+        <Group> "dogMMskirt200:xxx_left_Armsdk" {
+          <Group> "dogMMskirt200:xx_left_Armsdk" {
+          }
+          <Group> "dogMMskirt200:pc_xxx_left_Armsdk" {
+          }
+        }
+        <Group> "dogMMskirt200:xxx_ik_right_elbow" {
+          <Group> "dogMMskirt200:xx_ik_right_elbow" {
+          }
+        }
+        <Group> "dogMMskirt200:xxx_ik_right_wrist" {
+          <Group> "dogMMskirt200:xx_ik_right_wrist" {
+            <Group> "dogMMskirt200:ctrl_ik_right_wrist" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:rightWristIk" {
+                <Scalar> visibility { hidden }
+                <Group> "dogMMskirt200:pv_rightWristIk" {
+                }
+              }
+            }
+          }
+        }
+        <Group> "dogMMskirt200:xxx_right_Armsdk" {
+          <Group> "dogMMskirt200:xx_right_Armsdk" {
+          }
+          <Group> "dogMMskirt200:pc_xxx_right_Armsdk" {
+          }
+        }
+        <Group> "dogMMskirt200:xxx_fk_left_shoulder" {
+          <Group> "dogMMskirt200:xx_fk_left_shoulder" {
+            <Group> "dogMMskirt200:ctrl_fk_left_shoulder" {
+              <Group> "dogMMskirt200:xxx_fk_left_elbow" {
+                <Group> "dogMMskirt200:xx_fk_left_elbow" {
+                  <Group> "dogMMskirt200:ctrl_fk_left_elbow" {
+                    <Group> "dogMMskirt200:xxx_fk_left_forearm" {
+                      <Group> "dogMMskirt200:xx_fk_left_forearm" {
+                        <Group> "dogMMskirt200:ctrl_fk_left_forearm" {
+                          <Group> "dogMMskirt200:ptc_ctrl_fk_left_forearm" {
+                          }
+                        }
+                      }
+                    }
+                    <Group> "dogMMskirt200:ptc_ctrl_fk_left_elbow" {
+                    }
+                    <Group> "dogMMskirt200:xxx_fk_left_wrist" {
+                      <Group> "dogMMskirt200:xx_fk_left_wrist" {
+                        <Group> "dogMMskirt200:ctrl_fk_left_wrist" {
+                          <Group> "dogMMskirt200:ptc_ctrl_fk_left_wrist" {
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Group> "dogMMskirt200:pc_xxx_fk_left_shoulder" {
+          }
+        }
+        <Group> "dogMMskirt200:xxx_ik_left_shoulder" {
+          <Group> "dogMMskirt200:xx_ik_left_shoulder" {
+          }
+          <Group> "dogMMskirt200:pc_xxx_ik_left_shoulder" {
+          }
+        }
+        <Group> "dogMMskirt200:xxx_fk_right_shoulder" {
+          <Group> "dogMMskirt200:xx_fk_right_shoulder" {
+            <Group> "dogMMskirt200:ctrl_fk_right_shoulder" {
+              <Group> "dogMMskirt200:xxx_fk_right_elbow" {
+                <Group> "dogMMskirt200:xx_fk_right_elbow" {
+                  <Group> "dogMMskirt200:ctrl_fk_right_elbow" {
+                    <Group> "dogMMskirt200:xxx_fk_right_forearm" {
+                      <Group> "dogMMskirt200:xx_fk_right_forearm" {
+                        <Group> "dogMMskirt200:ctrl_fk_right_forearm" {
+                          <Group> "dogMMskirt200:ptc_ctrl_fk_right_forearm" {
+                          }
+                        }
+                      }
+                    }
+                    <Group> "dogMMskirt200:ptc_ctrl_fk_right_elbow" {
+                    }
+                    <Group> "dogMMskirt200:xxx_fk_right_wrist" {
+                      <Group> "dogMMskirt200:xx_fk_right_wrist" {
+                        <Group> "dogMMskirt200:ctrl_fk_right_wrist" {
+                          <Group> "dogMMskirt200:ptc_ctrl_fk_right_wrist" {
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Group> "dogMMskirt200:pc_xxx_fk_right_shoulder" {
+          }
+        }
+        <Group> "dogMMskirt200:xxx_ik_right_shoulder" {
+          <Group> "dogMMskirt200:xx_ik_right_shoulder" {
+          }
+          <Group> "dogMMskirt200:pc_xxx_ik_right_shoulder" {
+          }
+        }
+        <Group> "dogMMskirt200:xxx_fk_left_hip" {
+          <Group> "dogMMskirt200:xx_fk_left_hip" {
+            <Group> "dogMMskirt200:ctrl_fk_left_hip" {
+              <Group> "dogMMskirt200:xxx_fk_left_knee" {
+                <Group> "dogMMskirt200:xx_fk_left_knee" {
+                  <Group> "dogMMskirt200:ctrl_fk_left_knee" {
+                    <Group> "dogMMskirt200:xxx_fk_left_ankle" {
+                      <Group> "dogMMskirt200:xx_fk_left_ankle" {
+                        <Group> "dogMMskirt200:ctrl_fk_left_ankle" {
+                          <Group> "dogMMskirt200:xxx_fk_left_ball" {
+                            <Group> "dogMMskirt200:xx_fk_left_ball" {
+                              <Group> "dogMMskirt200:ctrl_fk_left_ball" {
+                                <Group> "dogMMskirt200:ptc_ctrl_fk_left_ball" {
+                                }
+                              }
+                            }
+                          }
+                          <Group> "dogMMskirt200:ptc_ctrl_fk_left_ankle" {
+                          }
+                        }
+                      }
+                    }
+                    <Group> "dogMMskirt200:ptc_ctrl_fk_left_knee" {
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Group> "dogMMskirt200:pc_xxx_fk_left_hip" {
+          }
+        }
+        <Group> "dogMMskirt200:xxx_ik_left_hip" {
+          <Group> "dogMMskirt200:xx_ik_left_hip" {
+          }
+          <Group> "dogMMskirt200:pc_xxx_ik_left_hip" {
+          }
+        }
+        <Group> "dogMMskirt200:xxx_fk_right_hip" {
+          <Group> "dogMMskirt200:xx_fk_right_hip" {
+            <Group> "dogMMskirt200:ctrl_fk_right_hip" {
+              <Group> "dogMMskirt200:xxx_fk_right_knee" {
+                <Group> "dogMMskirt200:xx_fk_right_knee" {
+                  <Group> "dogMMskirt200:ctrl_fk_right_knee" {
+                    <Group> "dogMMskirt200:xxx_fk_right_ankle" {
+                      <Group> "dogMMskirt200:xx_fk_right_ankle" {
+                        <Group> "dogMMskirt200:ctrl_fk_right_ankle" {
+                          <Group> "dogMMskirt200:xxx_fk_right_ball" {
+                            <Group> "dogMMskirt200:xx_fk_right_ball" {
+                              <Group> "dogMMskirt200:ctrl_fk_right_ball" {
+                                <Group> "dogMMskirt200:ptc_ctrl_fk_right_ball" {
+                                }
+                              }
+                            }
+                          }
+                          <Group> "dogMMskirt200:ptc_ctrl_fk_right_ankle" {
+                          }
+                        }
+                      }
+                    }
+                    <Group> "dogMMskirt200:ptc_ctrl_fk_right_knee" {
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Group> "dogMMskirt200:pc_xxx_fk_right_hip" {
+          }
+        }
+        <Group> "dogMMskirt200:xxx_ik_right_hip" {
+          <Group> "dogMMskirt200:xx_ik_right_hip" {
+          }
+          <Group> "dogMMskirt200:pc_xxx_ik_right_hip" {
+          }
+        }
+        <Group> "dogMMskirt200:grp_left_fingers" {
+          <Group> "dogMMskirt200:xxx_left_thumbA" {
+            <Group> "dogMMskirt200:xx_left_thumbA" {
+              <Group> "dogMMskirt200:ctrl_left_thumbA" {
+                <Group> "dogMMskirt200:xxx_left_thumbB" {
+                  <Group> "dogMMskirt200:xx_left_thumbB" {
+                    <Group> "dogMMskirt200:ctrl_left_thumbB" {
+                      <Group> "dogMMskirt200:xxx_left_thumbC" {
+                        <Group> "dogMMskirt200:xx_left_thumbC" {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Group> "dogMMskirt200:pc_grp_left_fingers" {
+          }
+          <Group> "dogMMskirt200:xxx_left_palm" {
+            <Group> "dogMMskirt200:xx_left_palm" {
+              <Group> "dogMMskirt200:ctrl_left_palm" {
+                <Group> "dogMMskirt200:xxx_left_midA" {
+                  <Group> "dogMMskirt200:xx_left_midA" {
+                    <Group> "dogMMskirt200:ctrl_left_midA" {
+                      <Group> "dogMMskirt200:xxx_left_midB" {
+                        <Group> "dogMMskirt200:xx_left_midB" {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        <Group> "dogMMskirt200:grp_right_fingers" {
+          <Group> "dogMMskirt200:xxx_right_thumbA" {
+            <Group> "dogMMskirt200:xx_right_thumbA" {
+              <Group> "dogMMskirt200:ctrl_right_thumbA" {
+                <Group> "dogMMskirt200:xxx_right_thumbB" {
+                  <Group> "dogMMskirt200:xx_right_thumbB" {
+                    <Group> "dogMMskirt200:ctrl_right_thumbB" {
+                      <Group> "dogMMskirt200:xxx_right_thumbC" {
+                        <Group> "dogMMskirt200:xx_right_thumbC" {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Group> "dogMMskirt200:pc_grp_right_fingers" {
+          }
+          <Group> "dogMMskirt200:xxx_right_palm" {
+            <Group> "dogMMskirt200:xx_right_palm" {
+              <Group> "dogMMskirt200:ctrl_right_palm" {
+                <Group> "dogMMskirt200:xxx_right_midA" {
+                  <Group> "dogMMskirt200:xx_right_midA" {
+                    <Group> "dogMMskirt200:ctrl_right_midA" {
+                      <Group> "dogMMskirt200:xxx_right_midB" {
+                        <Group> "dogMMskirt200:xx_right_midB" {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        <Group> "dogMMskirt200:grp_left_sleeves" {
+          <Group> "dogMMskirt200:xxx_left_sleeve_long" {
+            <Group> "dogMMskirt200:xx_left_sleeve_long" {
+            }
+          }
+          <Group> "dogMMskirt200:xxx_left_sleeve_short" {
+            <Group> "dogMMskirt200:xx_left_sleeve_short" {
+            }
+          }
+          <Group> "dogMMskirt200:pc_grp_left_sleeves" {
+          }
+        }
+        <Group> "dogMMskirt200:grp_right_sleeves" {
+          <Group> "dogMMskirt200:xxx_right_sleeve_long" {
+            <Group> "dogMMskirt200:xx_right_sleeve_long" {
+            }
+          }
+          <Group> "dogMMskirt200:xxx_right_sleeve_short" {
+            <Group> "dogMMskirt200:xx_right_sleeve_short" {
+            }
+          }
+          <Group> "dogMMskirt200:pc_grp_right_sleeves" {
+          }
+        }
+        <Group> "dogMMskirt200:grp_left_skirt" {
+          <Group> "dogMMskirt200:xxx_left_skirt_bottom" {
+            <Group> "dogMMskirt200:xx_left_skirt_bottom" {
+              <Group> "dogMMskirt200:ctrl_left_skirt_bottom" {
+                <Group> "dogMMskirt200:ik_left_skirt_bottom" {
+                  <Scalar> visibility { hidden }
+                }
+              }
+            }
+          }
+          <Group> "dogMMskirt200:xxx_left_skirt_top" {
+            <Group> "dogMMskirt200:xx_left_skirt_top" {
+              <Group> "dogMMskirt200:ctrl_left_skirt_top" {
+                <Group> "dogMMskirt200:ik_left_skirt_top" {
+                  <Scalar> visibility { hidden }
+                }
+              }
+            }
+          }
+          <Group> "dogMMskirt200:grp_left_skirt_pointConstraint1" {
+          }
+        }
+        <Group> "dogMMskirt200:grp_right_skirt" {
+          <Group> "dogMMskirt200:xxx_right_skirt_bottom" {
+            <Group> "dogMMskirt200:xx_right_skirt_bottom" {
+              <Group> "dogMMskirt200:ctrl_right_skirt_bottom" {
+                <Group> "dogMMskirt200:ik_right_skirt_bottom" {
+                  <Scalar> visibility { hidden }
+                }
+              }
+            }
+          }
+          <Group> "dogMMskirt200:xxx_right_skirt_top" {
+            <Group> "dogMMskirt200:xx_right_skirt_top" {
+              <Group> "dogMMskirt200:ctrl_right_skirt_top" {
+                <Group> "dogMMskirt200:ik_right_skirt_top" {
+                  <Scalar> visibility { hidden }
+                }
+              }
+            }
+          }
+          <Group> "dogMMskirt200:grp_right_skirt_pointConstraint1" {
+          }
+        }
+        <Group> "dogMMskirt200:grp_right_ear" {
+          <Group> "dogMMskirt200:xxx_right_earA" {
+            <Group> "dogMMskirt200:xx_right_earA" {
+              <Group> "dogMMskirt200:ctrl_right_earA" {
+                <Group> "dogMMskirt200:xxx_right_earB" {
+                  <Group> "dogMMskirt200:xx_right_earB" {
+                    <Group> "dogMMskirt200:ctrl_right_earB" {
+                      <Group> "dogMMskirt200:xxx_right_earC" {
+                        <Group> "dogMMskirt200:xx_right_earC" {
+                          <Group> "dogMMskirt200:ctrl_right_earC" {
+                            <Group> "dogMMskirt200:xxx_right_earD" {
+                              <Group> "dogMMskirt200:xx_right_earD" {
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Group> "dogMMskirt200:pc_grp_right_ear" {
+          }
+        }
+        <Group> "dogMMskirt200:grp_left_ear" {
+          <Group> "dogMMskirt200:xxx_left_earA" {
+            <Group> "dogMMskirt200:xx_left_earA" {
+              <Group> "dogMMskirt200:ctrl_left_earA" {
+                <Group> "dogMMskirt200:xxx_left_earB" {
+                  <Group> "dogMMskirt200:xx_left_earB" {
+                    <Group> "dogMMskirt200:ctrl_left_earB" {
+                      <Group> "dogMMskirt200:xxx_left_earC" {
+                        <Group> "dogMMskirt200:xx_left_earC" {
+                          <Group> "dogMMskirt200:ctrl_left_earC" {
+                            <Group> "dogMMskirt200:xxx_left_earD" {
+                              <Group> "dogMMskirt200:xx_left_earD" {
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Group> "dogMMskirt200:pc_grp_left_ear" {
+          }
+        }
+        <Group> "dogMMskirt200:RIG_DO_NOT_TOUCH" {
+          <Scalar> visibility { hidden }
+          <Group> "dogMMskirt200:Extras" {
+            <Scalar> visibility { hidden }
+            <Group> "dogMMskirt200:spineIk" {
+              <Scalar> visibility { hidden }
+            }
+          }
+          <Group> "dogMMskirt200:Joints" {
+            <Scalar> visibility { hidden }
+            <Group> "dogMMskirt200:fk_left_hip" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:fk_left_knee" {
+                <Group> "dogMMskirt200:fk_left_ankle" {
+                  <Group> "dogMMskirt200:fk_left_ball" {
+                    <Group> "dogMMskirt200:fk_left_toe" {
+                    }
+                    <Group> "dogMMskirt200:oc_fk_left_ball" {
+                    }
+                  }
+                  <Group> "dogMMskirt200:oc_fk_left_ankle" {
+                  }
+                }
+                <Group> "dogMMskirt200:oc_fk_left_knee" {
+                }
+              }
+              <Group> "dogMMskirt200:pc_fk_left_hip" {
+              }
+            }
+            <Group> "dogMMskirt200:ik_left_hip" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:ik_left_knee" {
+                <Group> "dogMMskirt200:ik_left_ankle" {
+                  <Group> "dogMMskirt200:ik_left_ball" {
+                    <Group> "dogMMskirt200:ik_left_toe" {
+                    }
+                    <Group> "dogMMskirt200:eff_left_ball" {
+                      <Scalar> visibility { hidden }
+                    }
+                  }
+                  <Group> "dogMMskirt200:oc_ik_left_ankle" {
+                  }
+                  <Group> "dogMMskirt200:eff_left_toe" {
+                    <Scalar> visibility { hidden }
+                  }
+                }
+                <Group> "dogMMskirt200:eff_left_ankle" {
+                  <Scalar> visibility { hidden }
+                }
+              }
+              <Group> "dogMMskirt200:pc_ik_left_hip" {
+              }
+            }
+            <Group> "dogMMskirt200:fk_right_hip" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:fk_right_knee" {
+                <Group> "dogMMskirt200:fk_right_ankle" {
+                  <Group> "dogMMskirt200:fk_right_ball" {
+                    <Group> "dogMMskirt200:fk_right_toe" {
+                    }
+                    <Group> "dogMMskirt200:oc_fk_right_ball" {
+                    }
+                  }
+                  <Group> "dogMMskirt200:oc_fk_right_ankle" {
+                  }
+                }
+                <Group> "dogMMskirt200:oc_fk_right_knee" {
+                }
+              }
+              <Group> "dogMMskirt200:pc_fk_right_hip" {
+              }
+            }
+            <Group> "dogMMskirt200:ik_right_hip" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:ik_right_knee" {
+                <Group> "dogMMskirt200:ik_right_ankle" {
+                  <Group> "dogMMskirt200:ik_right_ball" {
+                    <Group> "dogMMskirt200:ik_right_toe" {
+                    }
+                    <Group> "dogMMskirt200:eff_right_ball" {
+                      <Scalar> visibility { hidden }
+                    }
+                  }
+                  <Group> "dogMMskirt200:oc_ik_right_ankle" {
+                  }
+                  <Group> "dogMMskirt200:eff_right_toe" {
+                    <Scalar> visibility { hidden }
+                  }
+                }
+                <Group> "dogMMskirt200:eff_right_ankle" {
+                  <Scalar> visibility { hidden }
+                }
+              }
+              <Group> "dogMMskirt200:pc_ik_right_hip" {
+              }
+            }
+            <Group> "dogMMskirt200:fk_left_shoulder" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:fk_left_elbow" {
+                <Group> "dogMMskirt200:fk_left_forearm" {
+                  <Group> "dogMMskirt200:fk_left_wrist" {
+                    <Group> "dogMMskirt200:oc_fk_left_wrist" {
+                    }
+                  }
+                  <Group> "dogMMskirt200:oc_fk_left_forearm" {
+                  }
+                }
+                <Group> "dogMMskirt200:oc_fk_left_elbow" {
+                }
+              }
+              <Group> "dogMMskirt200:pc_fk_left_shoulder" {
+              }
+            }
+            <Group> "dogMMskirt200:ik_left_shoulder" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:ik_left_elbow" {
+                <Group> "dogMMskirt200:ik_left_forearm" {
+                  <Group> "dogMMskirt200:ik_left_wrist" {
+                    <Group> "dogMMskirt200:pc_ik_left_wrist" {
+                    }
+                    <Group> "dogMMskirt200:oc_ik_left_wrist" {
+                    }
+                  }
+                  <Group> "dogMMskirt200:ptc_ik_left_forearm" {
+                  }
+                }
+                <Group> "dogMMskirt200:pc_ik_left_elbow" {
+                }
+              }
+              <Group> "dogMMskirt200:pc_ik_left_shoulder" {
+              }
+            }
+            <Group> "dogMMskirt200:gd_left_shoulder" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:gd_left_elbow" {
+                <Group> "dogMMskirt200:gd_left_wrist" {
+                }
+                <Group> "dogMMskirt200:eff_left_arm" {
+                  <Scalar> visibility { hidden }
+                }
+              }
+              <Group> "dogMMskirt200:oc_gd_left_shoulder" {
+              }
+            }
+            <Group> "dogMMskirt200:fk_right_shoulder" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:fk_right_elbow" {
+                <Group> "dogMMskirt200:fk_right_forearm" {
+                  <Group> "dogMMskirt200:fk_right_wrist" {
+                    <Group> "dogMMskirt200:oc_fk_right_wrist" {
+                    }
+                  }
+                  <Group> "dogMMskirt200:oc_fk_right_forearm" {
+                  }
+                }
+                <Group> "dogMMskirt200:oc_fk_right_elbow" {
+                }
+              }
+              <Group> "dogMMskirt200:pc_fk_right_shoulder" {
+              }
+            }
+            <Group> "dogMMskirt200:ik_right_shoulder" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:ik_right_elbow" {
+                <Group> "dogMMskirt200:ik_right_forearm" {
+                  <Group> "dogMMskirt200:ik_right_wrist" {
+                    <Group> "dogMMskirt200:pc_ik_right_wrist" {
+                    }
+                    <Group> "dogMMskirt200:oc_ik_right_wrist" {
+                    }
+                  }
+                  <Group> "dogMMskirt200:ptc_gd_right_forearm" {
+                  }
+                }
+                <Group> "dogMMskirt200:pc_gd_right_elbow" {
+                }
+              }
+              <Group> "dogMMskirt200:pc_gd_right_shoulder" {
+              }
+            }
+            <Group> "dogMMskirt200:gd_right_shoulder" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:gd_right_elbow" {
+                <Group> "dogMMskirt200:gd_right_wrist" {
+                }
+                <Group> "dogMMskirt200:eff_right_arm" {
+                  <Scalar> visibility { hidden }
+                }
+              }
+              <Group> "dogMMskirt200:pc_gd_right_shoulder" {
+              }
+            }
+            <Group> "dogMMskirt200:fk_spineA" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:fk_spineB" {
+                <Group> "dogMMskirt200:fk_cageA" {
+                  <Group> "dogMMskirt200:fk_cageB" {
+                    <Group> "dogMMskirt200:fk_neck" {
+                      <Group> "dogMMskirt200:fk_head" {
+                        <Group> "dogMMskirt200:pc_fk_head" {
+                        }
+                      }
+                      <Group> "dogMMskirt200:pc_fk_neck" {
+                      }
+                    }
+                  }
+                  <Group> "dogMMskirt200:pc_fk_cageA" {
+                  }
+                }
+                <Group> "dogMMskirt200:pc_fk_spineB" {
+                }
+              }
+              <Group> "dogMMskirt200:pc_fk_spineA" {
+              }
+            }
+            <Group> "dogMMskirt200:ik_spineA" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:ik_spineB" {
+                <Group> "dogMMskirt200:ik_cageA" {
+                }
+                <Group> "dogMMskirt200:effector3" {
+                  <Scalar> visibility { hidden }
+                }
+              }
+            }
+            <Group> "dogMMskirt200:ik_neck" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:ik_head" {
+                <Group> "dogMMskirt200:ik_head_orientConstraint1" {
+                }
+              }
+              <Group> "dogMMskirt200:effector4" {
+                <Scalar> visibility { hidden }
+              }
+              <Group> "dogMMskirt200:ik_neck_parentConstraint1" {
+              }
+            }
+            <Group> "dogMMskirt200:nf_left_Start" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:nf_left_End" {
+              }
+              <Group> "dogMMskirt200:effector5" {
+                <Scalar> visibility { hidden }
+              }
+            }
+            <Group> "dogMMskirt200:nf_right_Start" {
+              <Scalar> visibility { hidden }
+              <Group> "dogMMskirt200:nf_right_End" {
+              }
+              <Group> "dogMMskirt200:effector6" {
+                <Scalar> visibility { hidden }
+              }
+            }
+          }
+        }
+        <Joint> "dogMMskirt200:Skeleton" {
+          <Transform> {
+            <Matrix4> {
+              1 0 0 0
+              0 1 0 0
+              0 0 1 0
+              0 0 0 1
+            }
+          }
+          <Scalar> visibility { hidden }
+          <Joint> "dogMMskirt200:root" {
+            <Transform> {
+              <Matrix4> {
+                1 0 0 0
+                0 1 0 0
+                0 0 1 0
+                0 7.39808020003512 -0.249552007109474 1
+              }
+            }
+            <Scalar> visibility { hidden }
+            <Group> "dogMMskirt200:pc_ik_rootbooty" {
+            }
+            <Joint> "dogMMskirt200:MAIN1" {
+              <Transform> {
+                <Matrix4> {
+                  1 0 0 0
+                  0 1 0 0
+                  0 0 1 0
+                  0 0 0 1
+                }
+              }
+              <Joint> "dogMMskirt200:def_pelvis" {
+                <Transform> {
+                  <Matrix4> {
+                    1 0 0 0
+                    0 1 0 0
+                    0 0 1 0
+                    0 0 0 1
+                  }
+                }
+                <Group> "dogMMskirt200:pc_ik_booty" {
+                }
+                <Joint> "dogMMskirt200:def_left_hip" {
+                  <Transform> {
+                    <Matrix4> {
+                      -0.000861741923435355 -0.940450851706136 0.339928599747154 0
+                      0 -0.339928725962568 -0.940451200895329 0
+                      0.99999962870036 -0.0008104262267567 0.000292930834141503 0
+                      0.841699998209796 0.000209758287958942 -0.517800004463497 1
+                    }
+                  }
+                  <Group> "dogMMskirt200:pc_left_Hip" {
+                  }
+                  <Group> "dogMMskirt200:sc_lefthip" {
+                  }
+                  <Joint> "dogMMskirt200:def_left_knee" {
+                    <Transform> {
+                      <Matrix4> {
+                        0.845750026700457 0.533576977542737 0.00158157280367997 0
+                        -0.533576977542737 0.845751381907011 -0.000457207543882357 0
+                        -0.00158157280367337 -0.000457207543905197 0.999998644793445 0
+                        3.59737020737768 0 0 1
+                      }
+                    }
+                    <Group> "dogMMskirt200:pc_left_Knee" {
+                    }
+                    <Group> "dogMMskirt200:sc_leftknee" {
+                    }
+                    <Joint> "dogMMskirt200:def_left_ankle" {
+                      <Transform> {
+                        <Matrix4> {
+                          -0.214307433510327 -0.976766241027003 0.000185289489388861 0
+                          0.976765886358087 -0.214307513594898 -0.000832384451587842 0
+                          0.000852753961632975 2.5982768220563e-06 0.999999636401899 0
+                          3.63528621530246 0 0 1
+                        }
+                      }
+                      <Group> "dogMMskirt200:pc_left_Ankle" {
+                      }
+                      <Joint> "dogMMskirt200:def_left_ball" {
+                        <Transform> {
+                          <Matrix4> {
+                            1 0 0 0
+                            0 1 0 0
+                            0 0 1 0
+                            1.65705399250451 0 0 1
+                          }
+                        }
+                        <Group> "dogMMskirt200:pc_left_Ball" {
+                        }
+                        <Joint> "dogMMskirt200:def_left_toe" {
+                          <Transform> {
+                            <Matrix4> {
+                              1 0 0 0
+                              0 1 0 0
+                              0 0 1 0
+                              1.62441847750321 -9.81513568059107e-07 0 1
+                            }
+                          }
+                          <Group> "dogMMskirt200:pc_left_Toe" {
+                          }
+                        }
+                      }
+                    }
+                  }
+                  <Joint> "dogMMskirt200:def_left_skirt_topA" {
+                    <Transform> {
+                      <Matrix4> {
+                        1 0 0 0
+                        0 1 0 0
+                        0 0 1 0
+                        0 0 0 1
+                      }
+                    }
+                    <Joint> "dogMMskirt200:def_left_skirt_topB" {
+                      <Transform> {
+                        <Matrix4> {
+                          -0.000861741923434689 0 0.99999962870036 0
+                          -0.940450851706106 -0.33992872596265 -0.000810426226756089 0
+                          0.339928599747237 -0.940451200895299 0.000292930834141503 0
+                          1.42907544653655 -2.59290526165655 0.503261673236045 1
+                        }
+                      }
+                      <VertexRef> {
+                        12 13
+                        <Ref> { dogMMskirt200:mf_blouse_200.verts }
+                      }
+                      <VertexRef> {
+                        10 11
+                        <Ref> { dogMMskirt200:mf_skirt_200.verts }
+                      }
+                      <VertexRef> {
+                        2
+                        <Ref> { dogMMskirt200:mf_skirt_cap_200.verts }
+                      }
+                    }
+                    <Joint> "dogMMskirt200:eff_left_skirt_top" {
+                      <Transform> {
+                        <Matrix4> {
+                          1 0 0 0
+                          0 1 0 0
+                          0 0 1 0
+                          1.42907544653655 -2.59290526165655 0.503261673236045 1
+                        }
+                      }
+                      <Scalar> visibility { hidden }
+                    }
+                  }
+                  <Joint> "dogMMskirt200:def_left_skirt_bottomA" {
+                    <Transform> {
+                      <Matrix4> {
+                        1 0 0 0
+                        0 1 0 0
+                        0 0 1 0
+                        0 0 0 1
+                      }
+                    }
+                    <Joint> "dogMMskirt200:def_left_skirt_bottomB" {
+                      <Transform> {
+                        <Matrix4> {
+                          -0.000861741923434689 0 0.99999962870036 0
+                          -0.940450851706106 -0.33992872596265 -0.000810426226756089 0
+                          0.339928599747237 -0.940451200895299 0.000292930834141503 0
+                          3.27014361600206 0.586122800775608 2.29599878987633 1
+                        }
+                      }
+                      <VertexRef> {
+                        12 13 14 15
+                        <Ref> { dogMMskirt200:mf_skirt_200.verts }
+                      }
+                    }
+                    <Joint> "dogMMskirt200:eff_left_skirt_bottom" {
+                      <Transform> {
+                        <Matrix4> {
+                          1 0 0 0
+                          0 1 0 0
+                          0 0 1 0
+                          3.27014361600206 0.586122800775608 2.29599878987633 1
+                        }
+                      }
+                      <Scalar> visibility { hidden }
+                    }
+                  }
+                }
+                <Joint> "dogMMskirt200:def_right_hip" {
+                  <Transform> {
+                    <Matrix4> {
+                      -0.000861741923435355 0.940450851706136 -0.339928599747155 0
+                      1.79445347470164e-12 0.33992872596257 0.940451200895328 0
+                      0.99999962870036 0.000810426226146688 -0.000292930835829486 0
+                      -0.8417 0.000209799964879474 -0.517799992890526 1
+                    }
+                  }
+                  <Group> "dogMMskirt200:pc_right_Hip" {
+                  }
+                  <Group> "dogMMskirt200:sc_righthip" {
+                  }
+                  <Joint> "dogMMskirt200:def_right_knee" {
+                    <Transform> {
+                      <Matrix4> {
+                        0.845750026700457 0.53357697754274 0.00158157280272251 0
+                        -0.533576977576069 0.845751381897374 -0.000457186470222251 0
+                        -0.00158156155842849 -0.000457225366495632 0.999998644803082 0
+                        -3.59737031862178 -5.86766116593028e-08 -4.81767918064194e-09 1
+                      }
+                    }
+                    <Group> "dogMMskirt200:pc_right_Knee" {
+                    }
+                    <Group> "dogMMskirt200:sc_rightknee" {
+                    }
+                    <Joint> "dogMMskirt200:def_right_ankle" {
+                      <Transform> {
+                        <Matrix4> {
+                          -0.214307433510323 -0.976766241023099 0.000185310074938873 0
+                          0.976765886358087 -0.214307513612436 -0.000832379934861329 0
+                          0.000852753961485036 2.61935205313034e-06 0.999999636401844 0
+                          -3.63528612496596 -1.53435244096052e-08 4.64845939518455e-09 1
+                        }
+                      }
+                      <Group> "dogMMskirt200:pc_right_Ankle" {
+                      }
+                      <Joint> "dogMMskirt200:def_right_ball" {
+                        <Transform> {
+                          <Matrix4> {
+                            1 0 0 0
+                            0 1 0 0
+                            0 0 1 0
+                            -1.6570540000003 1.23289206199109e-09 -2.79286655045075e-12 1
+                          }
+                        }
+                        <Group> "dogMMskirt200:pc_right_Ball" {
+                        }
+                        <Joint> "dogMMskirt200:def_right_toe" {
+                          <Transform> {
+                            <Matrix4> {
+                              1 0 0 0
+                              0 1 0 0
+                              0 0 1 0
+                              -1.6244199999997 9.81514620935178e-07 0 1
+                            }
+                          }
+                          <Group> "dogMMskirt200:pc_right_Toe" {
+                          }
+                        }
+                      }
+                    }
+                  }
+                  <Joint> "dogMMskirt200:def_right_skirt_topA" {
+                    <Transform> {
+                      <Matrix4> {
+                        1 0 0 0
+                        0 1 0 0
+                        0 0 1 0
+                        0 0 0 1
+                      }
+                    }
+                    <Joint> "dogMMskirt200:def_right_skirt_topB" {
+                      <Transform> {
+                        <Matrix4> {
+                          -0.000861741923434689 1.79412040779425e-12 0.99999962870036 0
+                          0.94045085170593 0.339928725963139 0.000810426226145855 0
+                          -0.339928599747724 0.940451200895122 -0.000292930835829486 0
+                          -1.42909739584324 2.59290523660469 -0.477831742514048 1
+                        }
+                      }
+                      <VertexRef> {
+                        0 1
+                        <Ref> { dogMMskirt200:mf_blouse_200.verts }
+                      }
+                      <VertexRef> {
+                        6 7
+                        <Ref> { dogMMskirt200:mf_skirt_200.verts }
+                      }
+                      <VertexRef> {
+                        3
+                        <Ref> { dogMMskirt200:mf_skirt_cap_200.verts }
+                      }
+                    }
+                    <Joint> "dogMMskirt200:eff_right_skirt_top" {
+                      <Transform> {
+                        <Matrix4> {
+                          1 0 0 0
+                          0 1 0 0
+                          0 0 1 0
+                          -1.42909739584324 2.59290523660469 -0.477831742514048 1
+                        }
+                      }
+                      <Scalar> visibility { hidden }
+                    }
+                  }
+                  <Joint> "dogMMskirt200:def_right_skirt_bottomA" {
+                    <Transform> {
+                      <Matrix4> {
+                        1 0 0 0
+                        0 1 0 0
+                        0 0 1 0
+                        0 0 0 1
+                      }
+                    }
+                    <Joint> "dogMMskirt200:def_right_skirt_bottomB" {
+                      <Transform> {
+                        <Matrix4> {
+                          -0.000861741923434689 1.79412040779425e-12 0.99999962870036 0
+                          0.940450851705908 0.339928725963201 0.000810426226146021 0
+                          -0.339928599747786 0.9404512008951 -0.000292930835829486 0
+                          -3.2701321887832 -0.586116249268783 -2.31205880987405 1
+                        }
+                      }
+                      <VertexRef> {
+                        0 1 2 3
+                        <Ref> { dogMMskirt200:mf_skirt_200.verts }
+                      }
+                    }
+                    <Joint> "dogMMskirt200:eff_right_skirt_bottom" {
+                      <Transform> {
+                        <Matrix4> {
+                          1 0 0 0
+                          0 1 0 0
+                          0 0 1 0
+                          -3.2701321887832 -0.586116249268783 -2.31205880987405 1
+                        }
+                      }
+                      <Scalar> visibility { hidden }
+                    }
+                  }
+                }
+                <VertexRef> {
+                  4 5
+                  <Scalar> membership { 6.73952493812635e-09 }
+                  <Ref> { dogMMskirt200:mf_blouse_200.verts }
+                }
+                <VertexRef> {
+                  2 3 14 15
+                  <Scalar> membership { 1 }
+                  <Ref> { dogMMskirt200:mf_blouse_200.verts }
+                }
+                <VertexRef> {
+                  4 5 8 9
+                  <Scalar> membership { 1 }
+                  <Ref> { dogMMskirt200:mf_skirt_200.verts }
+                }
+                <VertexRef> {
+                  0 1
+                  <Scalar> membership { 1 }
+                  <Ref> { dogMMskirt200:mf_skirt_cap_200.verts }
+                }
+              }
+              <Joint> "dogMMskirt200:def_spineA" {
+                <Transform> {
+                  <Matrix4> {
+                    1 0 0 0
+                    0 0.995137831760703 0.0984921103368491 0
+                    0 -0.0984921103368491 0.995137831760703 0
+                    0 0 0 1
+                  }
+                }
+                <Group> "dogMMskirt200:pc_spineA" {
+                }
+                <Joint> "dogMMskirt200:def_spineB" {
+                  <Transform> {
+                    <Matrix4> {
+                      1 0 0 0
+                      0 0.996945355466515 -0.0781022292495184 0
+                      0 0.0781022292495184 0.996945355466515 0
+                      0 1.19897933605802 0 1
+                    }
+                  }
+                  <Group> "dogMMskirt200:pc_spineB" {
+                  }
+                  <Joint> "dogMMskirt200:def_cageA" {
+                    <Transform> {
+                      <Matrix4> {
+                        1 0 0 0
+                        0 0.960923103288649 -0.276815443149607 0
+                        0 0.276815443149607 0.960923103288649 0
+                        0 1.80714839463482 0 1
+                      }
+                    }
+                    <Group> "dogMMskirt200:pc_cageA" {
+                    }
+                    <Joint> "dogMMskirt200:def_cageB" {
+                      <Transform> {
+                        <Matrix4> {
+                          1 0 0 0
+                          0 0.983197490498649 0.182545048350152 0
+                          0 -0.182545048350152 0.983197490498649 0
+                          0 1.534438387266 0 1
+                        }
+                      }
+                      <Group> "dogMMskirt200:pc_cageB" {
+                      }
+                      <Joint> "dogMMskirt200:def_neck" {
+                        <Transform> {
+                          <Matrix4> {
+                            1 0 0 0
+                            0 0.98151479835741 0.191386260231536 0
+                            0 -0.191386260231536 0.98151479835741 0
+                            0 0.634129580742182 0 1
+                          }
+                        }
+                        <Group> "dogMMskirt200:pc_neck" {
+                        }
+                        <Joint> "dogMMskirt200:def_head" {
+                          <Transform> {
+                            <Matrix4> {
+                              1 0 0 0
+                              0 0.996694858278262 -0.0812364418329301 0
+                              0 0.0812364418329301 0.996694858278262 0
+                              0 2.22829841885596 0 1
+                            }
+                          }
+                          <Group> "dogMMskirt200:pc_head" {
+                          }
+                          <Joint> "dogMMskirt200:def_headtip" {
+                            <Transform> {
+                              <Matrix4> {
+                                1 0 0 0
+                                0 0.999987937977563 -0.00491160863485423 0
+                                0 0.00491160863485423 0.999987937977563 0
+                                0 3.34155387365921 0 1
+                              }
+                            }
+                          }
+                          <Joint> "dogMMskirt200:def_left_earA" {
+                            <Transform> {
+                              <Matrix4> {
+                                0.882317630392547 0.0806945827576723 -0.463685220178568 0
+                                -0.0734601135660169 0.996729388576598 0.0336769604119567 0
+                                0.464886234269579 0.00434859302369987 0.885359745485057 0
+                                1.20657998433805 2.12437151083752 -0.396155725197073 1
+                              }
+                            }
+                            <Group> "dogMMskirt200:pc_def_left_earA" {
+                            }
+                            <Joint> "dogMMskirt200:def_left_earB" {
+                              <Transform> {
+                                <Matrix4> {
+                                  0.142543601864296 -0.989708503586399 -0.0125856861682127 0
+                                  0.988210881044717 0.143022537936404 -0.054624245780193 0
+                                  0.0558621173280993 -0.00465097527421247 0.998427660011791 0
+                                  0.676061383735234 -0.00941730440039176 -0.00136101959294883 1
+                                }
+                              }
+                              <Group> "dogMMskirt200:pc_def_left_earB" {
+                              }
+                              <Joint> "dogMMskirt200:def_left_earC" {
+                                <Transform> {
+                                  <Matrix4> {
+                                    0.959633423674139 -0.281253629383683 -0.000296860162186594 0
+                                    0.241331513292068 0.822876755752901 0.514424868696821 0
+                                    -0.144439582039033 -0.493730939682826 0.857535402383075 0
+                                    1.26711922176372 -0.0193817138180372 0.031741915225231 1
+                                  }
+                                }
+                                <Group> "dogMMskirt200:pc_def_left_earC" {
+                                }
+                                <Joint> "dogMMskirt200:def_left_earD" {
+                                  <Transform> {
+                                    <Matrix4> {
+                                      1 0 0 0
+                                      0 1 0 0
+                                      0 0 1 0
+                                      1.42391251366662 0 -1.90527092498927e-12 1
+                                    }
+                                  }
+                                  <Group> "dogMMskirt200:pc_def_left_earD" {
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          <Joint> "dogMMskirt200:def_right_earA" {
+                            <Transform> {
+                              <Matrix4> {
+                                0.882317630392546 -0.0806945827576723 0.463685220178568 0
+                                -0.0734601135660174 -0.996729388576598 -0.0336769604119556 0
+                                0.464886234269579 -0.00434859302370115 -0.885359745485057 0
+                                -1.20657998432096 2.1243715108353 -0.39615572526108 1
+                              }
+                            }
+                            <Group> "dogMMskirt200:pc_def_right_earA" {
+                            }
+                            <Joint> "dogMMskirt200:def_right_earB" {
+                              <Transform> {
+                                <Matrix4> {
+                                  0.142543601864296 -0.989708503586399 -0.0125856861682126 0
+                                  0.988210881044716 0.143022537936404 -0.0546242457802006 0
+                                  0.0558621173281068 -0.0046509752742113 0.998427660011791 0
+                                  -0.676061383735148 0.00941730440133169 0.00136101962870034 1
+                                }
+                              }
+                              <Group> "dogMMskirt200:pc_def_right_earB" {
+                              }
+                              <Joint> "dogMMskirt200:def_right_earC" {
+                                <Transform> {
+                                  <Matrix4> {
+                                    0.95963342367414 -0.281253629383679 -0.000296860162190604 0
+                                    0.241331513292065 0.822876755752898 0.514424868696827 0
+                                    -0.144439582039029 -0.493730939682833 0.857535402383072 0
+                                    -1.2671192217641 0.0193817138181221 -0.03174191521013 1
+                                  }
+                                }
+                                <Group> "dogMMskirt200:pc_def_right_earC" {
+                                }
+                                <Joint> "dogMMskirt200:def_right_earD" {
+                                  <Transform> {
+                                    <Matrix4> {
+                                      1 0 0 0
+                                      0 1 0 0
+                                      0 0 1 0
+                                      -1.42391251366663 0 -1.90713586655295e-12 1
+                                    }
+                                  }
+                                  <Group> "dogMMskirt200:pc_def_right_earD" {
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          <Joint> "dogMMskirt200:def_left_pupil" {
+                            <Transform> {
+                              <Matrix4> {
+                                1 0 0 0
+                                0 0.999394040866539 -0.0348073423353411 0
+                                0 0.0348073423353411 0.999394040866539 0
+                                0.52024220005853 1.29723525464167 1.53799292082548 1
+                              }
+                            }
+                          }
+                          <Joint> "dogMMskirt200:def_right_pupil" {
+                            <Transform> {
+                              <Matrix4> {
+                                1 0 0 0
+                                0 -0.99939404086654 0.0348073423353403 0
+                                0 -0.0348073423353403 -0.99939404086654 0
+                                -0.520242000000002 1.29719216934206 1.53799623615394 1
+                              }
+                            }
+                          }
+                          <VertexRef> {
+                            4 5 6 7 8 9 10 11
+                            <Ref> { dogMMskirt200:mf_blouse_200.verts }
+                          }
+                          <VertexRef> {
+                            0 1 2 3 4 5 6 7 8 9 10 11
+                            <Ref> { dogMMskirt200:mf_neck_200.verts }
+                          }
+                        }
+                        <Joint> "dogMMskirt200:def_toHead" {
+                          <Transform> {
+                            <Matrix4> {
+                              1 0 0 0
+                              0 0.996694858278262 -0.08123644183293 0
+                              0 0.08123644183293 0.996694858278262 0
+                              0 2.22829841885596 0 1
+                            }
+                          }
+                        }
+                      }
+                      <Joint> "dogMMskirt200:def_joint_attachFlower" {
+                        <Transform> {
+                          <Matrix4> {
+                            1 0 0 0
+                            0 0.997114166604823 0.0759166566437731 0
+                            0 -0.0759166566437731 0.997114166604823 0
+                            0.940653971173943 -1.65524501457819 2.52471530443718 1
+                          }
+                        }
+                      }
+                      <Joint> "dogMMskirt200:def_left_shoulder" {
+                        <Transform> {
+                          <Matrix4> {
+                            0.999105516182101 0.0032289929346901 -0.0421632676523659 0
+                            1.84715068761443e-12 0.997080352334101 0.0763594852608623 0
+                            0.0422867300047819 -0.0762911829370313 0.996188480093788 0
+                            1.61786004314272 0.000188242058219433 0.000653713138508008 1
+                          }
+                        }
+                        <Group> "dogMMskirt200:pc_left_shoulder" {
+                        }
+                        <Group> "dogMMskirt200:sc_leftshoulder" {
+                        }
+                        <Joint> "dogMMskirt200:def_left_elbow" {
+                          <Transform> {
+                            <Matrix4> {
+                              0.995904762683142 0 0.0904085375671716 0
+                              0 1 0 0
+                              -0.0904085375671716 0 0.995904762683142 0
+                              3.14961724971686 5.80556308771966e-12 1.31231893826574e-08 1
+                            }
+                          }
+                          <Group> "dogMMskirt200:pc_left_elbow" {
+                          }
+                          <Group> "dogMMskirt200:sc_leftelbow" {
+                          }
+                          <Joint> "dogMMskirt200:def_left_forearm" {
+                            <Transform> {
+                              <Matrix4> {
+                                0.998837023206094 0 -0.0482141169450114 0
+                                0 1 0 0
+                                0.0482141169450115 0 0.998837023206095 0
+                                2.83174309149669 5.2181064951621e-12 1.17987395298627e-08 1
+                              }
+                            }
+                            <Group> "dogMMskirt200:pc_left_forearm" {
+                            }
+                            <Joint> "dogMMskirt200:def_left_wrist" {
+                              <Transform> {
+                                <Matrix4> {
+                                  1 0 0 0
+                                  0 1 0 0
+                                  0 0 1 0
+                                  0.446570388914096 0 1.86067906489275e-09 1
+                                }
+                              }
+                              <Group> "dogMMskirt200:pc_left_wrist" {
+                              }
+                              <Joint> "dogMMskirt200:def_left_palm" {
+                                <Transform> {
+                                  <Matrix4> {
+                                    0.997673709818086 0.0681701455023876 0 0
+                                    -0.0681701455023876 0.997673709818086 0 0
+                                    0 0 1 0
+                                    0.450370067686547 0 1.00123287805852e-06 1
+                                  }
+                                }
+                                <Group> "dogMMskirt200:pc_def_left_palm" {
+                                }
+                                <Joint> "dogMMskirt200:def_left_midA" {
+                                  <Transform> {
+                                    <Matrix4> {
+                                      0.999653424576949 -0.0263254768313405 -1.08638418927688e-06 0
+                                      0.0263254768313561 0.999653424577539 0 0
+                                      1.08600767521753e-06 -2.85995818047601e-08 0.99999999999941 0
+                                      0.850818477340579 0 0 1
+                                    }
+                                  }
+                                  <Group> "dogMMskirt200:pc_def_left_midA" {
+                                  }
+                                  <Joint> "dogMMskirt200:def_left_midB" {
+                                    <Transform> {
+                                      <Matrix4> {
+                                        0.999122552216052 -0.0418822832723418 1.08543094429446e-06 0
+                                        0.0418822832723171 0.999122552216641 4.55002503578875e-08 0
+                                        -1.08638418969285e-06 0 0.99999999999941 0
+                                        0.921619522655618 0 0 1
+                                      }
+                                    }
+                                    <Group> "dogMMskirt200:pc_def_left_midB" {
+                                    }
+                                  }
+                                }
+                                <Joint> "dogMMskirt200:def_left_thumbA" {
+                                  <Transform> {
+                                    <Matrix4> {
+                                      0.490907442603481 -0.0335432631542292 0.870565754146966 0
+                                      0.0681701455023873 0.997673709818086 0 0
+                                      -0.868540565580384 0.0593465941295942 0.492052098569373 0
+                                      -0.017450235779747 0.0151248860329302 0.549165892788744 1
+                                    }
+                                  }
+                                  <Group> "dogMMskirt200:pc_def_left_thumbA" {
+                                  }
+                                  <Joint> "dogMMskirt200:def_left_thumbB" {
+                                    <Transform> {
+                                      <Matrix4> {
+                                        0.99998116381324 0 -0.00613775355633698 0
+                                        0 1 0 0
+                                        0.00613775355633698 0 0.99998116381324 0
+                                        0.383069393904713 0 0 1
+                                      }
+                                    }
+                                    <Group> "dogMMskirt200:pc_def_left_thumbB" {
+                                    }
+                                    <Joint> "dogMMskirt200:def_left_thumbC" {
+                                      <Transform> {
+                                        <Matrix4> {
+                                          1 0 0 0
+                                          0 1 0 0
+                                          0 0 1 0
+                                          0.510490001228025 0 0 1
+                                        }
+                                      }
+                                      <Group> "dogMMskirt200:pc_def_left_thumbC" {
+                                      }
+                                    }
+                                  }
+                                }
+                                <Joint> "dogMMskirt200:grp_joint_left_hold" {
+                                  <Transform> {
+                                    <Matrix4> {
+                                      -1 0 0 0
+                                      0 -1 0 0
+                                      0 0 1 0
+                                      1.01715016736591 -0.11831447590238 -0.00105001169239732 1
+                                    }
+                                  }
+                                  <Joint> "dogMMskirt200:def_joint_left_hold" {
+                                    <Transform> {
+                                      <Matrix4> {
+                                        1 0 0 0
+                                        0 1 0 0
+                                        0 0 1 0
+                                        0 0 0 1
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              <VertexRef> {
+                                0 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+                                <Ref> { dogMMskirt200:mf_hand_left_200.verts }
+                              }
+                            }
+                            <Joint> "dogMMskirt200:def_left_neg_wrist" {
+                              <Transform> {
+                                <Matrix4> {
+                                  1 0 0 0
+                                  0 1 0 0
+                                  0 0 1 0
+                                  0.446570388914096 0 1.86067923973102e-09 1
+                                }
+                              }
+                            }
+                          }
+                          <VertexRef> {
+                            12 13 14 15 16 17
+                            <Ref> { dogMMskirt200:mf_arm_left_200.verts }
+                          }
+                        }
+                        <Joint> "dogMMskirt200:def_left_sleeve_long" {
+                          <Transform> {
+                            <Matrix4> {
+                              1 0 0 0
+                              0 1 0 0
+                              0 0 1 0
+                              1.1458647994919 0 -1.70122954044271e-07 1
+                            }
+                          }
+                          <Group> "dogMMskirt200:pc_def_left_sleeve_long" {
+                          }
+                        }
+                        <Joint> "dogMMskirt200:def_left_sleeve_short" {
+                          <Transform> {
+                            <Matrix4> {
+                              1 0 0 0
+                              0 1 0 0
+                              0 0 1 0
+                              0 0 0 1
+                            }
+                          }
+                          <Group> "dogMMskirt200:pc_def_left_sleeve_short" {
+                          }
+                        }
+                        <VertexRef> {
+                          0 1 2 3 4 5 6 7 8 9 10 11
+                          <Ref> { dogMMskirt200:mf_arm_left_200.verts }
+                        }
+                      }
+                      <Joint> "dogMMskirt200:def_right_shoulder" {
+                        <Transform> {
+                          <Matrix4> {
+                            0.999105516182101 -0.00322899293469014 0.0421632676523664 0
+                            1.84473595253587e-12 -0.997080352334106 -0.0763594852608054 0
+                            0.0422867300047824 0.0762911829369744 -0.996188480093792 0
+                            -1.61786 0.00018833164849036 0.000653706389720653 1
+                          }
+                        }
+                        <Group> "dogMMskirt200:pc_right_shoulder" {
+                        }
+                        <Group> "dogMMskirt200:sc_rightshoulder" {
+                        }
+                        <Joint> "dogMMskirt200:def_right_elbow" {
+                          <Transform> {
+                            <Matrix4> {
+                              0.995904762683142 0 0.0904085375671709 0
+                              0 1 0 0
+                              -0.0904085375671709 0 0.995904762683142 0
+                              -3.14961728103098 -5.82048262022906e-12 -1.55953031765861e-08 1
+                            }
+                          }
+                          <Group> "dogMMskirt200:pc_right_elbow" {
+                          }
+                          <Group> "dogMMskirt200:sc_rightelbow" {
+                          }
+                          <Joint> "dogMMskirt200:def_right_forearm" {
+                            <Transform> {
+                              <Matrix4> {
+                                0.998837023206095 0 -0.0482141169450115 0
+                                0 1 0 0
+                                0.0482141169450115 0 0.998837023206095 0
+                                -2.83174325167378 -5.17894272232493e-12 -1.15039499652753e-08 1
+                              }
+                            }
+                            <Group> "dogMMskirt200:pc_right_forearm" {
+                            }
+                            <Joint> "dogMMskirt200:def_right_wrist" {
+                              <Transform> {
+                                <Matrix4> {
+                                  1 0 0 0
+                                  0 1 0 0
+                                  0 0 1 0
+                                  -0.446570000000002 0 -1.86067830726024e-09 1
+                                }
+                              }
+                              <Group> "dogMMskirt200:pc_right_wrist" {
+                              }
+                              <Joint> "dogMMskirt200:def_right_palm" {
+                                <Transform> {
+                                  <Matrix4> {
+                                    0.997673709818087 0.0681701455023855 0 0
+                                    -0.0681701455023855 0.997673709818087 0 0
+                                    0 0 1 0
+                                    -0.450369999999996 0 -9.99999999983589e-07 1
+                                  }
+                                }
+                                <Group> "dogMMskirt200:pc_def_right_palm" {
+                                }
+                                <Joint> "dogMMskirt200:def_right_midA" {
+                                  <Transform> {
+                                    <Matrix4> {
+                                      0.999653424576949 -0.0263254768313389 -1.08638418811574e-06 0
+                                      0.0263254768313544 0.999653424577539 0 0
+                                      1.08600767405679e-06 -2.85995817741908e-08 0.99999999999941 0
+                                      -0.850819220281126 4.71138786660051e-07 0 1
+                                    }
+                                  }
+                                  <Group> "dogMMskirt200:pc_def_right_midA" {
+                                  }
+                                  <Joint> "dogMMskirt200:def_right_midB" {
+                                    <Transform> {
+                                      <Matrix4> {
+                                        0.999122552216052 -0.0418822832723412 1.08543094393227e-06 0
+                                        0.0418822832723183 0.999122552216641 4.38135640312291e-08 0
+                                        -1.08631354705645e-06 1.68520634974813e-09 0.99999999999941 0
+                                        -0.92161869344146 -5.05255553930761e-07 -1.23197818234547e-09 1
+                                      }
+                                    }
+                                    <Group> "dogMMskirt200:pc_def_right_midB" {
+                                    }
+                                  }
+                                }
+                                <Joint> "dogMMskirt200:def_right_thumbA" {
+                                  <Transform> {
+                                    <Matrix4> {
+                                      0.49090744260348 -0.0335432631542362 0.870565754146967 0
+                                      0.0681701455024017 0.997673709818085 0 0
+                                      -0.868540565580384 0.0593465941296068 0.492052098569372 0
+                                      0.0174495381865593 -0.0151247220495118 -0.549165900000002 1
+                                    }
+                                  }
+                                  <Group> "dogMMskirt200:pc_def_right_thumbA" {
+                                  }
+                                  <Joint> "dogMMskirt200:def_right_thumbB" {
+                                    <Transform> {
+                                      <Matrix4> {
+                                        0.99998116381324 0 -0.00613775355631889 0
+                                        0 1 0 0
+                                        0.00613775355631889 0 0.99998116381324 0
+                                        -0.383069348769123 0 -8.84016569483089e-08 1
+                                      }
+                                    }
+                                    <Group> "dogMMskirt200:pc_def_right_thumbB" {
+                                    }
+                                    <Joint> "dogMMskirt200:def_right_thumbC" {
+                                      <Transform> {
+                                        <Matrix4> {
+                                          1 0 0 0
+                                          0 1 0 0
+                                          0 0 1 0
+                                          -0.510489663288774 0 -5.61754364227079e-07 1
+                                        }
+                                      }
+                                      <Group> "dogMMskirt200:pc_def_right_thumbC" {
+                                      }
+                                    }
+                                  }
+                                }
+                                <Joint> "dogMMskirt200:grp_joint_right_hold" {
+                                  <Transform> {
+                                    <Matrix4> {
+                                      -1 0 -4.15691582301301e-09 0
+                                      0 1 0 0
+                                      4.15691582301301e-09 0 -1 0
+                                      -1.01715066800146 0.118314542995253 0.00105000000000153 1
+                                    }
+                                  }
+                                  <Joint> "dogMMskirt200:def_joint_right_hold" {
+                                    <Transform> {
+                                      <Matrix4> {
+                                        1 0 0 0
+                                        0 1 0 0
+                                        0 0 1 0
+                                        0 0 0 1
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              <VertexRef> {
+                                0 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+                                <Ref> { dogMMskirt200:mf_hand_right_200.verts }
+                              }
+                            }
+                            <Joint> "dogMMskirt200:def_right_neg_wrist" {
+                              <Transform> {
+                                <Matrix4> {
+                                  1 0 0 0
+                                  0 1 0 0
+                                  0 0 1 0
+                                  -0.446570000000003 0 -1.86067824898082e-09 1
+                                }
+                              }
+                            }
+                          }
+                          <VertexRef> {
+                            0 1 2 3 4 5
+                            <Ref> { dogMMskirt200:mf_arm_right_200.verts }
+                          }
+                        }
+                        <Joint> "dogMMskirt200:def_right_sleeve_long" {
+                          <Transform> {
+                            <Matrix4> {
+                              1 0 0 0
+                              0 1 0 0
+                              0 0 1 0
+                              -1.1458649626483 0 1.22582288385234e-07 1
+                            }
+                          }
+                          <Group> "dogMMskirt200:pc_def_right_sleeve_long" {
+                          }
+                          <VertexRef> {
+                            6 7
+                            <Scalar> membership { 0.0840825662016869 }
+                            <Ref> { dogMMskirt200:mf_sleeve_right_200.verts }
+                          }
+                          <VertexRef> {
+                            0 1
+                            <Scalar> membership { 0.99999874830246 }
+                            <Ref> { dogMMskirt200:mf_sleeve_right_200.verts }
+                          }
+                          <VertexRef> {
+                            2 3 4 5
+                            <Scalar> membership { 1 }
+                            <Ref> { dogMMskirt200:mf_sleeve_right_200.verts }
+                          }
+                        }
+                        <Joint> "dogMMskirt200:def_right_sleeve_short" {
+                          <Transform> {
+                            <Matrix4> {
+                              1 0 0 0
+                              0 1 0 0
+                              0 0 1 0
+                              -0.273980332092212 8.88138771042482e-08 -0.000111842311984917 1
+                            }
+                          }
+                          <Group> "dogMMskirt200:pc_def_right_sleeve_short" {
+                          }
+                        }
+                        <VertexRef> {
+                          6 7 8 9 10 11 12 13 14 15 16 17
+                          <Ref> { dogMMskirt200:mf_arm_right_200.verts }
+                        }
+                      }
+                      <VertexRef> {
+                        0 1 2 3 4 5 6 7 8 9 10 11
+                        <Scalar> membership { 1 }
+                        <Ref> { dogMMskirt200:mf_sleeve_left_200.verts }
+                      }
+                      <VertexRef> {
+                        0 1
+                        <Scalar> membership { 1.257555823031e-06 }
+                        <Ref> { dogMMskirt200:mf_sleeve_right_200.verts }
+                      }
+                      <VertexRef> {
+                        6 7
+                        <Scalar> membership { 0.915917456150055 }
+                        <Ref> { dogMMskirt200:mf_sleeve_right_200.verts }
+                      }
+                      <VertexRef> {
+                        8 9 10 11
+                        <Scalar> membership { 1 }
+                        <Ref> { dogMMskirt200:mf_sleeve_right_200.verts }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            <Joint> "dogMMskirt200:joint_shadow" {
+              <Transform> {
+                <Matrix4> {
+                  1 0 0 0
+                  0 1 0 0
+                  0 0 1 0
+                  0 -7.39808020003512 0.249552007109474 1
+                }
+              }
+              <Group> "dogMMskirt200:pc_joint_shadow" {
+              }
+            }
+            <Joint> "dogMMskirt200:joint_nameTag" {
+              <Transform> {
+                <Matrix4> {
+                  1 0 0 0
+                  0 1 0 0
+                  0 0 1 0
+                  0 -7.39808020003512 0.249552007109474 1
+                }
+              }
+              <Group> "dogMMskirt200:pc_joint_nameTag" {
+              }
+            }
+            <Joint> "dogMMskirt200:joint_hips" {
+              <Transform> {
+                <Matrix4> {
+                  1 0 0 0
+                  0 1 0 0
+                  0 0 1 0
+                  0 0 0 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    <Group> "dogMMskirt200:MM_Mesh" {
+      <Group> "dogMMskirt200:mf_hand_left_200" {
+        <VertexPool> "dogMMskirt200:mf_hand_left_200.verts" {
+          <Vertex> 0 {
+            11.3428000702946 11.3773005528087 -0.370108987402728
+            <UV> {
+              -0.000285268004518002 0.000616312026977539
+              <Tangent> { 0 0.179586375955261 -0.983742208899901 }
+              <Binormal> { 0 0.983742208899901 0.179586375955261 }
+            }
+            <Normal> { 1 0 0 }
+            // dogMMskirt200:def_left_wrist:1
+          }
+          <Vertex> 1 {
+            11.3428000702946 12.1575012607524 -1.16839997098828
+            <UV> {
+              0.0135238002985716 0.468896001577377
+              <Tangent> { 0 0.179586375955261 -0.983742208899901 }
+              <Binormal> { 0 0.983742208899901 0.179586375955261 }
+            }
+            <Normal> { 1 0 0 }
+            // dogMMskirt200:def_left_wrist:1
+          }
+          <Vertex> 2 {
+            11.3428000702946 12.1575012607524 0.426307031175909
+            <UV> {
+              0.00216912990435958 0.683762013912201
+              <Tangent> { 0 0.179586375955261 -0.983742208899901 }
+              <Binormal> { 0 0.983742208899901 0.179586375955261 }
+            }
+            <Normal> { 1 0 0 }
+            // dogMMskirt200:def_left_wrist:1
+          }
+          <Vertex> 3 {
+            8.09702985868679 11.3797996300725 -0.370108987402728
+            <UV> {
+              -0.000512481026817113 0.687287986278534
+              <Tangent> { 0.999988239535086 -0.00484617716694858 -0.000188038256490827 }
+              <Binormal> { 0.00328426231005985 0.705203740548414 -0.708997107143325 }
+            }
+            <Normal> { -0.00356853087391411 -0.708988151440764 -0.705211363141583 }
+            // dogMMskirt200:def_left_wrist:1
+          }
+          <Vertex> 4 {
+            8.09702985868679 11.3797996300725 -0.370108987402728
+            <UV> {
+              0.00220168009400368 0.683825016021729
+              <Tangent> { 0.999849611499103 0.0138427195550337 0.0104466980627285 }
+              <Binormal> { 0.0173364896940309 -0.813374456299025 -0.58148210631571 }
+            }
+            <Normal> { -0.000447783632893206 -0.581575767166744 0.813492118298777 }
+            // dogMMskirt200:def_left_wrist:1
+          }
+          <Vertex> 5 {
+            8.09702985868679 12.1575002595196 -1.13834996861736
+            <UV> {
+              0 1
+              <Tangent> { 0.999937467989952 0.00180155433017549 -0.0110369611686909 }
+              <Binormal> { -0.00903787637789631 0.711433038818491 -0.702695772057912 }
+            }
+            <Normal> { -0.00658611421261652 -0.702751581769464 -0.711404833705883 }
+            // dogMMskirt200:def_left_wrist:1
+          }
+          <Vertex> 6 {
+            8.09702985868679 12.1575002595196 -1.13834996861736
+            <UV> {
+              -6.54458999633789e-05 -0.000211000005947426
+              <Tangent> { 0.999460539992289 3.08306715674145e-07 0.0328424876985261 }
+              <Binormal> { -0.0328424876985245 -1.01310247996171e-08 0.999460539992336 }
+            }
+            <Normal> { -3.084731245883e-07 0.999999999999952 0 }
+            // dogMMskirt200:def_left_wrist:1
+          }
+          <Vertex> 7 {
+            8.09702985868679 12.1575002595196 0.18587899333223
+            <UV> {
+              0.0135241001844406 0.469186007976532
+              <Tangent> { 0.999134011044046 0.00750841068179087 0.0409249525848169 }
+              <Binormal> { 0.0323099076705139 -0.75974367386836 -0.649419448340847 }
+            }
+            <Normal> { -0.0262163659067921 -0.650179339710238 0.759328340293315 }
+            // dogMMskirt200:def_left_wrist:1
+          }
+          <Vertex> 8 {
+            8.09702985868679 12.1575002595196 0.18587899333223
+            <UV> {
+              0.0135241001844406 0.469186007976532
+              <Tangent> { 0.99722710623858 3.07617761232518e-07 0.0744184021793969 }
+              <Binormal> { -0.0744184021793933 -2.29560770357252e-08 0.997227106238627 }
+            }
+            <Normal> { -3.08473124434814e-07 0.999999999999952 0 }
+            // dogMMskirt200:def_left_wrist:1
+          }
+          <Vertex> 9 {
+            11.3428000702946 11.3773005528087 -0.370108987402728
+            <UV> {
+              0.998547971248627 0.696916997432709
+              <Tangent> { 0.999134011044046 0.00750841068179088 0.040924952584817 }
+              <Binormal> { 0.0323099076705139 -0.75974367386836 -0.649419448340847 }
+            }
+            <Normal> { -0.0262163659067921 -0.650179339710238 0.759328340293315 }
+            // dogMMskirt200:def_left_wrist:1
+          }
+          <Vertex> 10 {
+            11.3428000702946 11.3773005528087 -0.370108987402728
+            <UV> {
+              0.995833992958069 0.700380027294159
+              <Tangent> { 0.999876875858249 -0.0113549025378451 0.0108304807051217 }
+              <Binormal> { 0.0156821529212477 0.698864968575368 -0.71508169168138 }
+            }
+            <Normal> { -0.000550639357998444 -0.715163493116438 -0.698956990743917 }
+            // dogMMskirt200:def_left_wrist:1
+          }
+          <Vertex> 11 {
+            11.3428000702946 12.1575012607524 -1.16839997098828
+            <UV> {
+              0.994512975215912 0.997649013996124
+              <Tangent> { 0.999988239535086 -0.00484617716694857 -0.000188038256490835 }
+              <Binormal> { 0.00328426231005984 0.705203740548414 -0.708997107143325 }
+            }
+            <Normal> { -0.00356853087391411 -0.708988151440764 -0.705211363141583 }
+            // dogMMskirt200:def_left_wrist:1
+          }
+          <Vertex> 12 {
+            11.3428000702946 12.1575012607524 -1.16839997098828
+            <UV> {
+              0.999938011169434 0
+              <Tangent> { 0.999955072982972 3.08459265964472e-07 -0.00947903030507985 }
+              <Binormal> { 0.0094790303050794 2.92402609773006e-09 0.999955072983019 }
+            }
+            <Normal> { -3.08473124741785e-07 0.999999999999952 0 }
+            // dogMMskirt200:def_left_wrist:1
+          }
+          <Vertex> 13 {
+            11.3428000702946 12.1575012607524 0.426307031175909
+            <UV> {
+              0.999939024448395 0.468551993370056
+              <Tangent> { 0.997317342350405 -0.000665259159142412 0.0731961479681519 }
+              <Binormal> { 0.0517520167470036 -0.700773322809492 -0.711504377218553 }
+            }
+            <Normal> { -0.0517672426322116 -0.713383702833752 0.69885895939128 }
+            // dogMMskirt200:def_left_wrist:1
+          }
+          <Vertex> 14 {
+            11.3428000702946 12.1575012607524 0.426307031175909
+            <UV> {
+              0.999939024448395 0.468551993370056
+              <Tangent> { 0.999460539992289 3.08306715674145e-07 0.0328424876985261 }
+              <Binormal> { -0.0328424876985245 -1.01310247996171e-08 0.999460539992336 }
+            }
+            <Normal> { -3.084731245883e-07 0.999999999999952 0 }
+            // dogMMskirt200:def_left_wrist:1
+          }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_handGeneric_pic" }
+          <VertexRef> { 8 14 6 <Ref> { "dogMMskirt200:mf_hand_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_handGeneric_pic" }
+          <VertexRef> { 14 12 6 <Ref> { "dogMMskirt200:mf_hand_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_handGeneric_pic" }
+          <VertexRef> { 9 7 4 <Ref> { "dogMMskirt200:mf_hand_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_handGeneric_pic" }
+          <VertexRef> { 9 13 7 <Ref> { "dogMMskirt200:mf_hand_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_handGeneric_pic" }
+          <VertexRef> { 0 1 2 <Ref> { "dogMMskirt200:mf_hand_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_handGeneric_pic" }
+          <VertexRef> { 3 11 10 <Ref> { "dogMMskirt200:mf_hand_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_handGeneric_pic" }
+          <VertexRef> { 3 5 11 <Ref> { "dogMMskirt200:mf_hand_left_200.verts" } }
+        }
+      }
+      <Group> "dogMMskirt200:mf_hand_right_200" {
+        <VertexPool> "dogMMskirt200:mf_hand_right_200.verts" {
+          <Vertex> 0 {
+            -11.3428000702946 11.3773005528087 -0.370108987402728
+            <UV> {
+              0.995833992958069 0.700380027294159
+              <Tangent> { -0.999876875858249 -0.0113549025378451 0.0108304807051217 }
+              <Binormal> { -0.0156821529212477 0.698864968575368 -0.71508169168138 }
+            }
+            <Normal> { 0.000550639357998444 -0.715163493116438 -0.698956990743917 }
+            // dogMMskirt200:def_right_wrist:1
+          }
+          <Vertex> 1 {
+            -11.3428000702946 11.3773005528087 -0.370108987402728
+            <UV> {
+              0.998609006404877 0.696916997432709
+              <Tangent> { -0.999133996338354 0.00750875647287821 0.0409252481627364 }
+              <Binormal> { -0.0323103624181429 -0.75974367045089 -0.649419429714124 }
+            }
+            <Normal> { 0.0262163659067921 -0.650179339710238 0.759328340293315 }
+            // dogMMskirt200:def_right_wrist:1
+          }
+          <Vertex> 2 {
+            -11.3428000702946 12.1575012607524 -1.16839997098828
+            <UV> {
+              0.999938011169434 0
+              <Tangent> { -0.999955072982972 3.08459265964472e-07 -0.00947903030507985 }
+              <Binormal> { -0.0094790303050794 2.92402609773006e-09 0.999955072983019 }
+            }
+            <Normal> { 3.08473124741785e-07 0.999999999999952 0 }
+            // dogMMskirt200:def_right_wrist:1
+          }
+          <Vertex> 3 {
+            -11.3428000702946 12.1575012607524 -1.16839997098828
+            <UV> {
+              0.994574010372162 0.997649013996124
+              <Tangent> { -0.999988239468433 -0.00484619147870325 -0.000188023867751693 }
+              <Binormal> { -0.00328428260431743 0.705203740450063 -0.708997107147141 }
+            }
+            <Normal> { 0.00356853087391411 -0.708988151440764 -0.705211363141583 }
+            // dogMMskirt200:def_right_wrist:1
+          }
+          <Vertex> 4 {
+            -11.3428000702946 12.1575012607524 0.426307031175909
+            <UV> {
+              1 0.468551993370056
+              <Tangent> { -0.999460540524397 3.08306715838287e-07 0.0328424715054267 }
+              <Binormal> { 0.0328424715054251 -1.01310198044812e-08 0.999460540524445 }
+            }
+            <Normal> { 3.084731245883e-07 0.999999999999952 0 }
+            // dogMMskirt200:def_right_wrist:1
+          }
+          <Vertex> 5 {
+            -11.3428000702946 12.1575012607524 0.426307031175909
+            <UV> {
+              0.999939024448395 0.468551993370056
+              <Tangent> { -0.997317342350405 -0.000665259159142412 0.0731961479681519 }
+              <Binormal> { -0.0517520167470036 -0.700773322809492 -0.711504377218553 }
+            }
+            <Normal> { 0.0517672426322116 -0.713383702833752 0.69885895939128 }
+            // dogMMskirt200:def_right_wrist:1
+          }
+          <Vertex> 6 {
+            -8.09702985868679 11.3797996300725 -0.370108987402728
+            <UV> {
+              0.00220168009400368 0.683825016021729
+              <Tangent> { -0.999849611499103 0.0138427195550337 0.0104466980627285 }
+              <Binormal> { -0.0173364896940309 -0.813374456299025 -0.58148210631571 }
+            }
+            <Normal> { 0.000447783632893206 -0.581575767166744 0.813492118298777 }
+            // dogMMskirt200:def_right_wrist:1
+          }
+          <Vertex> 7 {
+            -8.09702985868679 11.3797996300725 -0.370108987402728
+            <UV> {
+              -0.00057351600844413 0.687287986278534
+              <Tangent> { -0.999988239468433 -0.00484619147870325 -0.000188023867751684 }
+              <Binormal> { -0.00328428260431744 0.705203740450063 -0.708997107147141 }
+            }
+            <Normal> { 0.00356853087391411 -0.708988151440764 -0.705211363141583 }
+            // dogMMskirt200:def_right_wrist:1
+          }
+          <Vertex> 8 {
+            -8.09702985868679 12.1575002595196 -1.13834996861736
+            <UV> {
+              -0.000126600003568456 -0.000211000005947426
+              <Tangent> { -0.999460540524397 3.08306715838287e-07 0.0328424715054267 }
+              <Binormal> { 0.0328424715054251 -1.01310198044812e-08 0.999460540524445 }
+            }
+            <Normal> { 3.084731245883e-07 0.999999999999952 0 }
+            // dogMMskirt200:def_right_wrist:1
+          }
+          <Vertex> 9 {
+            -8.09702985868679 12.1575002595196 -1.13834996861736
+            <UV> {
+              0 1
+              <Tangent> { -0.999937467989952 0.0018015543301755 -0.0110369611686909 }
+              <Binormal> { 0.00903787637789631 0.711433038818491 -0.702695772057913 }
+            }
+            <Normal> { 0.00658611421261652 -0.702751581769464 -0.711404833705883 }
+            // dogMMskirt200:def_right_wrist:1
+          }
+          <Vertex> 10 {
+            -8.09702985868679 12.1575002595196 0.18587899333223
+            <UV> {
+              0.0135241001844406 0.469186007976532
+              <Tangent> { -0.99722710623858 3.07617761232518e-07 0.0744184021793969 }
+              <Binormal> { 0.0744184021793933 -2.29560770357252e-08 0.997227106238627 }
+            }
+            <Normal> { 3.08473124434814e-07 0.999999999999952 0 }
+            // dogMMskirt200:def_right_wrist:1
+          }
+          <Vertex> 11 {
+            -8.09702985868679 12.1575002595196 0.18587899333223
+            <UV> {
+              0.0135241001844406 0.469186007976532
+              <Tangent> { -0.999133996338354 0.00750875647287821 0.0409252481627364 }
+              <Binormal> { -0.0323103624181429 -0.75974367045089 -0.649419429714124 }
+            }
+            <Normal> { 0.0262163659067921 -0.650179339710238 0.759328340293315 }
+            // dogMMskirt200:def_right_wrist:1
+          }
+          <Vertex> 12 {
+            -11.3428000702946 11.3773005528087 -0.370108987402728
+            <UV> {
+              -0.000285268004518002 0.000616312026977539
+              <Tangent> { 0 0.179586375955261 -0.983742208899901 }
+              <Binormal> { 0 0.983742208899901 0.179586375955261 }
+            }
+            <Normal> { -1 0 0 }
+            // dogMMskirt200:def_right_wrist:1
+          }
+          <Vertex> 13 {
+            -11.3428000702946 12.1575012607524 -1.16839997098828
+            <UV> {
+              0.0135238002985716 0.468896001577377
+              <Tangent> { 0 0.179586375955261 -0.983742208899901 }
+              <Binormal> { 0 0.983742208899901 0.179586375955261 }
+            }
+            <Normal> { -1 0 0 }
+            // dogMMskirt200:def_right_wrist:1
+          }
+          <Vertex> 14 {
+            -11.3428000702946 12.1575012607524 0.426307031175909
+            <UV> {
+              0.00216912990435958 0.683762013912201
+              <Tangent> { 0 0.179586375955261 -0.983742208899901 }
+              <Binormal> { 0 0.983742208899901 0.179586375955261 }
+            }
+            <Normal> { -1 0 0 }
+            // dogMMskirt200:def_right_wrist:1
+          }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_handGeneric_pic" }
+          <VertexRef> { 8 4 10 <Ref> { "dogMMskirt200:mf_hand_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_handGeneric_pic" }
+          <VertexRef> { 8 2 4 <Ref> { "dogMMskirt200:mf_hand_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_handGeneric_pic" }
+          <VertexRef> { 6 11 1 <Ref> { "dogMMskirt200:mf_hand_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_handGeneric_pic" }
+          <VertexRef> { 11 5 1 <Ref> { "dogMMskirt200:mf_hand_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_handGeneric_pic" }
+          <VertexRef> { 14 13 12 <Ref> { "dogMMskirt200:mf_hand_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_handGeneric_pic" }
+          <VertexRef> { 0 3 7 <Ref> { "dogMMskirt200:mf_hand_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_handGeneric_pic" }
+          <VertexRef> { 3 9 7 <Ref> { "dogMMskirt200:mf_hand_right_200.verts" } }
+        }
+      }
+      <Group> "dogMMskirt200:mf_arm_left_200" {
+        <VertexPool> "dogMMskirt200:mf_arm_left_200.verts" {
+          <Vertex> 0 {
+            1.60672996300725 11.3600002499077 -0.131608995552764
+            <UV> {
+              -0.00272595998831093 0.697562992572784
+              <Tangent> { 0.999935131438223 0.00781448316997159 0.00828654140216861 }
+              <Binormal> { 0.00518611243053237 -0.960102228279259 0.279601172191857 }
+            }
+            <Normal> { -0.010140865519348 0.279540059930574 0.960080474616857 }
+            // dogMMskirt200:def_left_shoulder:1
+          }
+          <Vertex> 1 {
+            1.60672996300725 11.3600002499077 -0.131608995552764
+            <UV> {
+              -0.00272726989351213 0.696856021881104
+              <Tangent> { 0.999701058007545 0.0197464817058781 -0.0144177348718012 }
+              <Binormal> { -0.0146173523854232 0.0100022608210625 -0.999843131590005 }
+            }
+            <Normal> { 0.0195991741620532 -0.999754985603326 -0.0102879120067508 }
+            // dogMMskirt200:def_left_shoulder:1
+          }
+          <Vertex> 2 {
+            1.60672996300725 11.3663000071768 -0.698650978368724
+            <UV> {
+              0.0027275700122118 0.845701992511749
+              <Tangent> { 0.997571697129659 -0.0312061049286111 -0.062264661735493 }
+              <Binormal> { 0.0525450370974378 0.924005646077085 0.378751349956798 }
+            }
+            <Normal> { -0.0457135446260704 0.381103325927303 -0.923401606455646 }
+            // dogMMskirt200:def_left_shoulder:1
+          }
+          <Vertex> 3 {
+            1.60672996300725 11.3663000071768 -0.698650978368724
+            <UV> {
+              0.0027275700122118 0.845701992511749
+              <Tangent> { 0.999733994235565 0.0195446469296341 -0.0122453071092436 }
+              <Binormal> { -0.0124593289512364 0.0108664595350241 -0.999863333250729 }
+            }
+            <Normal> { 0.019408912692076 -0.99974993214982 -0.0111070821794809 }
+            // dogMMskirt200:def_left_shoulder:1
+          }
+          <Vertex> 4 {
+            1.60672996300725 12.2180998794676 -0.381455990898953
+            <UV> {
+              8.34465026855469e-07 1.00273001194
+              <Tangent> { 0.99844156092716 -0.0258531703029948 -0.0494576889737243 }
+              <Binormal> { 0.0414582353229843 0.936867325949479 0.34721870383402 }
+            }
+            <Normal> { -0.0373585885338481 0.348728013147148 -0.936479102120918 }
+            // dogMMskirt200:def_left_shoulder:1
+          }
+          <Vertex> 5 {
+            1.60672996300725 12.2180998794676 -0.381455990898953
+            <UV> {
+              8.34465026855469e-07 0.297621011734009
+              <Tangent> { 0.999630289898377 -0.0153845453153618 -0.022418726170906 }
+              <Binormal> { -0.00488770327479774 -0.912772347480705 0.408439410477565 }
+            }
+            <Normal> { 0.0267468479336167 0.408178830220288 0.912510081415879 }
+            // dogMMskirt200:def_left_shoulder:1
+          }
+          <Vertex> 6 {
+            4.72592982094432 11.421600101501 -0.116598003805466
+            <UV> {
+              0.532570004463196 0.680213987827301
+              <Tangent> { 0.999722560100467 0.00346392177555119 -0.0232981559806932 }
+              <Binormal> { 0.013574929769156 -0.893066319649741 0.449720213009187 }
+            }
+            <Normal> { 0.0192490027775553 0.449911713509661 0.892865569914571 }
+            // dogMMskirt200:def_left_shoulder:1
+          }
+          <Vertex> 7 {
+            4.72592982094432 11.421600101501 -0.116598003805466
+            <UV> {
+              0.532568991184235 0.678968012332916
+              <Tangent> { 0.999438419218334 0.0334111403719632 0.00255771175129744 }
+              <Binormal> { 0.00224084600156821 0.00951784006914228 -0.999952193522078 }
+            }
+            <Normal> { 0.0334338869944105 -0.999396371025762 -0.00943762581276613 }
+            // dogMMskirt200:def_left_shoulder:1
+          }
+          <Vertex> 8 {
+            4.72592982094432 11.4285997205519 -0.855654994333823
+            <UV> {
+              0.538024008274078 0.876886010169983
+              <Tangent> { 0.999660151191505 -0.0188917846396452 -0.0179633680835888 }
+              <Binormal> { 0.0251400836593176 0.880923088057859 0.472591249517178 }
+            }
+            <Normal> { -0.00689625357565574 0.472882240520549 -0.881098648442322 }
+            // dogMMskirt200:def_left_shoulder:1
+          }
+          <Vertex> 9 {
+            4.72592982094432 11.4285997205519 -0.855654994333823
+            <UV> {
+              0.538024008274078 0.876886010169983
+              <Tangent> { 0.999552417533951 0.0263392308236704 0.0141848342130419 }
+              <Binormal> { 0.0139154028738644 0.0103845577779279 -0.999849249898511 }
+            }
+            <Normal> { 0.0264825634124063 -0.999599122588338 -0.0100133888236498 }
+            // dogMMskirt200:def_left_shoulder:1
+          }
+          <Vertex> 10 {
+            4.72592982094432 12.1097004006854 -0.546255011571048
+            <UV> {
+              0.535296976566315 0.997636020183563
+              <Tangent> { 0.999538278942168 -0.0161818669708992 -0.0257172337288541 }
+              <Binormal> { 0.0249690275468723 0.919737853244984 0.391738214847201 }
+            }
+            <Normal> { -0.0173140576611008 0.392199475381654 -0.919717236392612 }
+            // dogMMskirt200:def_left_shoulder:1
+          }
+          <Vertex> 11 {
+            4.72592982094432 12.1097004006854 -0.546255011571048
+            <UV> {
+              0.535296976566315 0.292528986930847
+              <Tangent> { 0.999926220211145 -0.00505951128143025 -0.0110433455006041 }
+              <Binormal> { 0.000804106522514093 -0.879563637229765 0.475780581230305 }
+            }
+            <Normal> { 0.0121205423539164 0.475754358265628 0.879494674824304 }
+            // dogMMskirt200:def_left_shoulder:1
+          }
+          <Vertex> 12 {
+            8.09445018217632 11.558300428816 -0.218954001824687
+            <UV> {
+              0.997273027896881 0.666404008865356
+              <Tangent> { 0.999896220654384 0.0105220800380439 0.00984041425711834 }
+              <Binormal> { 0.0049966439918424 -0.893942834360824 0.448153146194195 }
+            }
+            <Normal> { -0.0135122710858496 0.448057468107172 0.89390263664646 }
+            // dogMMskirt200:def_left_elbow:1
+          }
+          <Vertex> 13 {
+            8.09445018217632 11.558300428816 -0.218954001824687
+            <UV> {
+              0.997271001338959 0.66515702009201
+              <Tangent> { 0.998386100151722 0.0406041657107691 -0.0397051224751795 }
+              <Binormal> { -0.0400520430447058 0.00776616190178305 -0.999167413688647 }
+            }
+            <Normal> { 0.0402620028287421 -0.999145128825762 -0.00937990788711015 }
+            // dogMMskirt200:def_left_elbow:1
+          }
+          <Vertex> 14 {
+            8.09445018217632 11.5635999544399 -0.783457968804467
+            <UV> {
+              1.00273001194 0.912357985973358
+              <Tangent> { 0.999140168760786 -0.0297096190400405 -0.0289181898666526 }
+              <Binormal> { 0.0410130334094038 0.810385036643673 0.584460455013504 }
+            }
+            <Normal> { -0.006070770892336 0.585143940343339 -0.810906723871645 }
+            // dogMMskirt200:def_left_elbow:1
+          }
+          <Vertex> 15 {
+            8.09445018217632 11.5635999544399 -0.783457968804467
+            <UV> {
+              1.00273001194 0.911817014217377
+              <Tangent> { 0.999140786209382 0.0401569374298697 0.0102523026267668 }
+              <Binormal> { 0.00986520256434973 0.00982601106347858 -0.999903058943688 }
+            }
+            <Normal> { 0.0402537838129737 -0.999145069488327 -0.0094214120971565 }
+            // dogMMskirt200:def_left_elbow:1
+          }
+          <Vertex> 16 {
+            8.09445018217632 12.0699995146023 -0.418044012675448
+            <UV> {
+              1 0.283636003732681
+              <Tangent> { 0.999106375432607 -0.015301456783351 0.0393994414963812 }
+              <Binormal> { -0.0285324030678507 -0.931888616290083 0.361620669768929 }
+            }
+            <Normal> { -0.031182567968229 0.362421677399769 0.931492445060959 }
+            // dogMMskirt200:def_left_elbow:1
+          }
+          <Vertex> 17 {
+            8.09445018217632 12.0699995146023 -0.418044012675448
+            <UV> {
+              1 0.988743007183075
+              <Tangent> { 0.999830905104964 -0.0148997326558404 0.01077771607402 }
+              <Binormal> { 0.00747716148203554 0.864850114044863 0.501974473746184 }
+            }
+            <Normal> { 0.0168003944346337 0.501809005701743 -0.864815280012714 }
+            // dogMMskirt200:def_left_elbow:1
+          }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 0 6 5 <Ref> { "dogMMskirt200:mf_arm_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 6 11 5 <Ref> { "dogMMskirt200:mf_arm_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 6 12 11 <Ref> { "dogMMskirt200:mf_arm_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 12 16 11 <Ref> { "dogMMskirt200:mf_arm_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 3 9 1 <Ref> { "dogMMskirt200:mf_arm_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 9 7 1 <Ref> { "dogMMskirt200:mf_arm_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 9 15 7 <Ref> { "dogMMskirt200:mf_arm_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 15 13 7 <Ref> { "dogMMskirt200:mf_arm_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 4 10 2 <Ref> { "dogMMskirt200:mf_arm_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 10 8 2 <Ref> { "dogMMskirt200:mf_arm_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 10 17 8 <Ref> { "dogMMskirt200:mf_arm_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 17 14 8 <Ref> { "dogMMskirt200:mf_arm_left_200.verts" } }
+        }
+      }
+      <Group> "dogMMskirt200:mf_arm_right_200" {
+        <VertexPool> "dogMMskirt200:mf_arm_right_200.verts" {
+          <Vertex> 0 {
+            -8.09445018217632 11.558300428816 -0.225110003954469
+            <UV> {
+              0.997271001338959 0.66515702009201
+              <Tangent> { -0.998337627751953 0.0433755855493685 -0.0379544410161992 }
+              <Binormal> { 0.0383334048600851 0.00793839635474756 -0.999233472185128 }
+            }
+            <Normal> { -0.0430410395603491 -0.999027297145361 -0.00958793366686064 }
+            // dogMMskirt200:def_right_elbow:1
+          }
+          <Vertex> 1 {
+            -8.09445018217632 11.558300428816 -0.225110003954469
+            <UV> {
+              0.997273027896881 0.666404008865356
+              <Tangent> { -0.99979818803518 0.013312941336606 0.015044892639657 }
+              <Binormal> { -0.00497325453254656 -0.889606146382509 0.456701402513521 }
+            }
+            <Normal> { 0.0194640679439121 0.456534412625631 0.889492821864035 }
+            // dogMMskirt200:def_right_elbow:1
+          }
+          <Vertex> 2 {
+            -8.09445018217632 11.5635999544399 -0.777301012374598
+            <UV> {
+              1.00273001194 0.912357985973358
+              <Tangent> { -0.999015979068376 0.0429213843928091 0.0111726598381456 }
+              <Binormal> { -0.0107477664225848 0.0101173868297893 -0.999891056065941 }
+            }
+            <Normal> { -0.0430297464898382 -0.999027223475688 -0.00964612209538759 }
+            // dogMMskirt200:def_right_elbow:1
+          }
+          <Vertex> 3 {
+            -8.09445018217632 11.5635999544399 -0.777301012374598
+            <UV> {
+              1.00273001194 0.912357985973358
+              <Tangent> { -0.999245117829599 -0.0274978786273697 -0.0274419599282976 }
+              <Binormal> { -0.0382508450795999 0.819827875959606 0.571331013205355 }
+            }
+            <Normal> { 0.00678729286301183 0.571949403767987 -0.820260819608639 }
+            // dogMMskirt200:def_right_elbow:1
+          }
+          <Vertex> 4 {
+            -8.09445018217632 12.0699995146023 -0.424199999160967
+            <UV> {
+              1 0.988743007183075
+              <Tangent> { -0.999798606455632 -0.0127289777210785 0.0155151427822271 }
+              <Binormal> { -0.00383460679271832 0.880033234384949 0.47489662261245 }
+            }
+            <Normal> { -0.0196987898136369 0.47474148702651 -0.879904811997148 }
+            // dogMMskirt200:def_right_elbow:1
+          }
+          <Vertex> 5 {
+            -8.09445018217632 12.0699995146023 -0.424199999160967
+            <UV> {
+              1 0.283636003732681
+              <Tangent> { -0.998807799512738 -0.0129680907790182 0.0470617493732342 }
+              <Binormal> { 0.0291276763967093 -0.931963675025675 0.361379699070613 }
+            }
+            <Normal> { 0.0391734361557746 0.362319661423701 0.931230317829893 }
+            // dogMMskirt200:def_right_elbow:1
+          }
+          <Vertex> 6 {
+            -4.75259014940637 11.4134000042292 -0.128911001475777
+            <UV> {
+              0.532568991184235 0.678968012332916
+              <Tangent> { -0.999409148901157 0.0342744355561481 0.00257218972336934 }
+              <Binormal> { -0.00223916358159419 0.00975130312215653 -0.999949947864329 }
+            }
+            <Normal> { -0.0342978022491299 -0.999364885892399 -0.00966879548611463 }
+            // dogMMskirt200:def_right_shoulder:1
+          }
+          <Vertex> 7 {
+            -4.75259014940637 11.4134000042292 -0.128911001475777
+            <UV> {
+              0.532570004463196 0.680213987827301
+              <Tangent> { -0.999660688989743 0.00268327037442805 -0.0259095918271418 }
+              <Binormal> { -0.0143722445672921 -0.886386632273958 0.462722569918661 }
+            }
+            <Normal> { -0.0217243060798111 0.462937942046372 0.886124436148344 }
+            // dogMMskirt200:def_right_shoulder:1
+          }
+          <Vertex> 8 {
+            -4.75259014940637 11.4203996232801 -0.849498976559777
+            <UV> {
+              0.538024008274078 0.876886010169983
+              <Tangent> { -0.999595381713774 0.0249332933297915 0.01368954857635 }
+              <Binormal> { -0.0133915112929748 0.0120813962863345 -0.999837340415461 }
+            }
+            <Normal> { -0.0250946265519892 -0.999616111688634 -0.0117426134532769 }
+            // dogMMskirt200:def_right_shoulder:1
+          }
+          <Vertex> 9 {
+            -4.75259014940637 11.4203996232801 -0.849498976559777
+            <UV> {
+              0.538024008274078 0.876886010169983
+              <Tangent> { -0.999736492269065 -0.0184929564789043 -0.0135998744926133 }
+              <Binormal> { -0.0225943288892487 0.897382533397881 0.440674579541916 }
+            }
+            <Normal> { 0.00405491400524641 0.440865738420519 -0.897563902103544 }
+            // dogMMskirt200:def_right_shoulder:1
+          }
+          <Vertex> 10 {
+            -4.75259014940637 12.1015003034136 -0.577035976520048
+            <UV> {
+              0.535296976566315 0.292528986930847
+              <Tangent> { -0.999942845033805 -0.00407557940666477 -0.00988414478849719 }
+              <Binormal> { -0.00125341507229799 -0.873429490550416 0.486949026066895 }
+            }
+            <Normal> { -0.0106177029698774 0.486933583447826 0.873374461324753 }
+            // dogMMskirt200:def_right_shoulder:1
+          }
+          <Vertex> 11 {
+            -4.75259014940637 12.1015003034136 -0.577035976520048
+            <UV> {
+              0.535296976566315 0.997636020183563
+              <Tangent> { -0.999555693231266 -0.0173136250335895 -0.0242622034687749 }
+              <Binormal> { -0.024908591129317 0.932265428065797 0.360916519047341 }
+            }
+            <Normal> { 0.0163700402234228 0.36136049870108 -0.932282474232778 }
+            // dogMMskirt200:def_right_shoulder:1
+          }
+          <Vertex> 12 {
+            -1.61828006033509 11.3607001116895 -0.133866994712609
+            <UV> {
+              -0.00272726989351213 0.696316003799438
+              <Tangent> { -0.999755710205065 0.0163193254740418 -0.0149063586579337 }
+              <Binormal> { 0.0151114457692332 0.0125167845582203 -0.999807468621377 }
+            }
+            <Normal> { -0.0161296038119412 -0.999788482490369 -0.0127603354373787 }
+            // dogMMskirt200:def_right_shoulder:1
+          }
+          <Vertex> 13 {
+            -1.61828006033509 11.3607001116895 -0.133866994712609
+            <UV> {
+              -0.00272595998831093 0.697562992572784
+              <Tangent> { -0.999974681967818 0.00495287708414841 0.00510924964644055 }
+              <Binormal> { -0.00329050167116307 -0.958481814218686 0.285134677671462 }
+            }
+            <Normal> { 0.00630935988135154 0.285110646628016 0.958473844795591 }
+            // dogMMskirt200:def_right_shoulder:1
+          }
+          <Vertex> 14 {
+            -1.61828006033509 11.3696000707431 -0.696711027090318
+            <UV> {
+              0.0027275700122118 0.845701992511749
+              <Tangent> { -0.99981473523107 0.0156119323996304 -0.0112588978845857 }
+              <Binormal> { 0.0115029529624285 0.0156319316065737 -0.999811644654828 }
+            }
+            <Normal> { -0.0154329934870172 -0.999755925354282 -0.0158086188844222 }
+            // dogMMskirt200:def_right_shoulder:1
+          }
+          <Vertex> 15 {
+            -1.61828006033509 11.3696000707431 -0.696711027090318
+            <UV> {
+              0.0027275700122118 0.845701992511749
+              <Tangent> { -0.997385072551343 -0.0340549402120606 -0.0637438475376629 }
+              <Binormal> { -0.0544748282812645 0.933870634606801 0.353437591241818 }
+            }
+            <Normal> { 0.0474922113138416 0.355985812731694 -0.933283767671054 }
+            // dogMMskirt200:def_right_shoulder:1
+          }
+          <Vertex> 16 {
+            -1.61828006033509 12.2177003875492 -0.388792994141266
+            <UV> {
+              8.34465026855469e-07 0.297621011734009
+              <Tangent> { -0.999463832391083 -0.0179043806289421 -0.0274131518877761 }
+              <Binormal> { 0.00474668583470171 -0.90763131183177 0.419741433213504 }
+            }
+            <Normal> { -0.032396245395338 0.419386259833145 0.907229655791438 }
+            // dogMMskirt200:def_right_shoulder:1
+          }
+          <Vertex> 17 {
+            -1.61828006033509 12.2177003875492 -0.388792994141266
+            <UV> {
+              8.34465026855469e-07 1.00273001194
+              <Tangent> { -0.997988554567489 -0.0282388473790537 -0.0567574880610224 }
+              <Binormal> { -0.0458692372842838 0.939659303282373 0.339022723170355 }
+            }
+            <Normal> { 0.0437590907498391 0.340944220149847 -0.939064524259734 }
+            // dogMMskirt200:def_right_shoulder:1
+          }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 16 7 13 <Ref> { "dogMMskirt200:mf_arm_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 16 10 7 <Ref> { "dogMMskirt200:mf_arm_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 10 1 7 <Ref> { "dogMMskirt200:mf_arm_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 10 5 1 <Ref> { "dogMMskirt200:mf_arm_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 12 8 14 <Ref> { "dogMMskirt200:mf_arm_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 12 6 8 <Ref> { "dogMMskirt200:mf_arm_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 6 2 8 <Ref> { "dogMMskirt200:mf_arm_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 6 0 2 <Ref> { "dogMMskirt200:mf_arm_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 15 11 17 <Ref> { "dogMMskirt200:mf_arm_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 15 9 11 <Ref> { "dogMMskirt200:mf_arm_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 9 4 11 <Ref> { "dogMMskirt200:mf_arm_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_armShrtSlvGeneric_pic" }
+          <VertexRef> { 9 3 4 <Ref> { "dogMMskirt200:mf_arm_right_200.verts" } }
+        }
+      }
+      <Group> "dogMMskirt200:mf_blouse_200" {
+        <VertexPool> "dogMMskirt200:mf_blouse_200.verts" {
+          <Vertex> 0 {
+            -2.15063996202364 8.62174046634063 2.17221002253335
+            <UV> {
+              0.740867972373962 -0.000158548005856574
+              <Tangent> { 0.000220663632260597 -0.00376797690925933 0.999992876803417 }
+              <Binormal> { 0.364044939955186 0.931375071072991 0.00342909270900766 }
+            }
+            <Normal> { -0.931381357447414 0.364041590115461 0.00157723353386378 }
+            // dogMMskirt200:def_right_skirt_topB:1
+          }
+          <Vertex> 1 {
+            -2.15063996202364 8.62174046634063 2.17221002253335
+            <UV> {
+              0.740867972373962 -0.000158548005856574
+              <Tangent> { 0.999999557870005 -0.000922016057127096 0.000184786862789186 }
+              <Binormal> { 0.000907408200530178 0.894594754661246 -0.446877389831868 }
+            }
+            <Normal> { 0.000246718770810514 0.446877359931085 0.894595195779002 }
+            // dogMMskirt200:def_right_skirt_topB:1
+          }
+          <Vertex> 2 {
+            -2.15063996202364 8.64079993540846 -2.22690987774706
+            <UV> {
+              0.513588011264801 0.000458299997262657
+              <Tangent> { -0.00024403291101205 -0.00278740414381758 0.999996085405377 }
+              <Binormal> { 0.364448526386624 0.931219664932827 0.00268463349689821 }
+            }
+            <Normal> { -0.931223502743867 0.364447754857309 0.000788617087033064 }
+            // dogMMskirt200:def_pelvis:1
+          }
+          <Vertex> 3 {
+            -2.15063996202364 8.64079993540846 -2.22690987774706
+            <UV> {
+              0.513588011264801 0.000458299997262657
+              <Tangent> { -0.999999530018861 0.000962260129061168 0.00011839552496069 }
+              <Binormal> { 0.000957363899443627 0.960799730461964 0.277241702127551 }
+            }
+            <Normal> { 0.000153024247600261 0.277241685176782 -0.960800200137322 }
+            // dogMMskirt200:def_pelvis:1
+          }
+          <Vertex> 4 {
+            -0.577136975886628 12.6562003388492 -1.06781999583007
+            <UV> {
+              0.51434600353241 1
+              <Tangent> { 0 0 1 }
+              <Binormal> { 0.364853623739084 0.931064892069537 0 }
+            }
+            <Normal> { -0.931064892069537 0.364853623739084 0 }
+            // dogMMskirt200:def_head:1
+            // dogMMskirt200:def_pelvis:6.73952e-09
+          }
+          <Vertex> 5 {
+            -0.577136975886628 12.6562003388492 -1.06781999583007
+            <UV> {
+              0.51434600353241 1
+              <Tangent> { -1 0 0 }
+              <Binormal> { 0 0.960772516823781 0.277337647852033 }
+            }
+            <Normal> { 0 0.277337647852033 -0.960772516823781 }
+            // dogMMskirt200:def_head:1
+            // dogMMskirt200:def_pelvis:6.73952e-09
+          }
+          <Vertex> 6 {
+            -0.577136975886628 12.6562003388492 0.156122993609411
+            <UV> {
+              0.742653012275696 1
+              <Tangent> { -0.000244032911012071 -0.00278740414381764 0.999996085405377 }
+              <Binormal> { 0.364448526386624 0.931219664932827 0.00268463349689827 }
+            }
+            <Normal> { -0.931223502743867 0.364447754857309 0.000788617087033064 }
+            // dogMMskirt200:def_head:1
+          }
+          <Vertex> 7 {
+            -0.577136975886628 12.6562003388492 0.156122993609411
+            <UV> {
+              0.742653012275696 1
+              <Tangent> { 1 0 0 }
+              <Binormal> { 0 0.894528531107316 -0.447010857849099 }
+            }
+            <Normal> { 0 0.447010857849099 0.894528531107316 }
+            // dogMMskirt200:def_head:1
+          }
+          <Vertex> 8 {
+            0.577136975886628 12.6562003388492 -1.06781999583007
+            <UV> {
+              0.229126006364822 1
+              <Tangent> { -0.999999530018861 0.000962260129061164 0.000118395524960689 }
+              <Binormal> { 0.000957363899443623 0.960799730461964 0.277241702127551 }
+            }
+            <Normal> { 0.000153024247600261 0.277241685176782 -0.960800200137322 }
+            // dogMMskirt200:def_head:1
+          }
+          <Vertex> 9 {
+            0.577136975886628 12.6562003388492 -1.06781999583007
+            <UV> {
+              0.229126006364822 1
+              <Tangent> { 0 0 -1 }
+              <Binormal> { -0.364479841641404 0.931211278409501 0 }
+            }
+            <Normal> { 0.931211278409501 0.364479841641404 0 }
+            // dogMMskirt200:def_head:1
+          }
+          <Vertex> 10 {
+            0.577136975886628 12.6562003388492 0.156122993609411
+            <UV> {
+              0.998080015182495 1
+              <Tangent> { 0.999999557870005 -0.000922016057127033 0.000184786862789155 }
+              <Binormal> { 0.000907408200530107 0.894594754661246 -0.446877389831868 }
+            }
+            <Normal> { 0.000246718770810514 0.446877359931085 0.894595195779002 }
+            // dogMMskirt200:def_head:1
+          }
+          <Vertex> 11 {
+            0.577136975886628 12.6562003388492 0.156122993609411
+            <UV> {
+              0 1
+              <Tangent> { -0.000246392646332633 0.00279429306469417 -0.999996065600726 }
+              <Binormal> { -0.364075487549009 0.931365551914842 0.00269222441753853 }
+            }
+            <Normal> { 0.931369410414909 0.364074718474974 0.000787851986843992 }
+            // dogMMskirt200:def_head:1
+          }
+          <Vertex> 12 {
+            2.15063996202364 8.61698961633397 2.17221002253335
+            <UV> {
+              1 0
+              <Tangent> { 0.999999211815208 -0.0012533343519368 7.43099247774096e-05 }
+              <Binormal> { 0.00115450784987642 0.894661044251482 -0.446744091186971 }
+            }
+            <Normal> { 0.00049343752110981 0.446743824861463 0.894661786077601 }
+            // dogMMskirt200:def_left_skirt_topB:1
+          }
+          <Vertex> 13 {
+            2.15063996202364 8.61698961633397 2.17221002253335
+            <UV> {
+              0.00192230998072773 0
+              <Tangent> { 0.000220784163458271 0.00376722960003898 -0.999992879592397 }
+              <Binormal> { -0.363672647028409 0.931520503198854 0.00342898286730278 }
+            }
+            <Normal> { 0.931526788158936 0.363669300465814 0.00157570333565294 }
+            // dogMMskirt200:def_left_skirt_topB:1
+          }
+          <Vertex> 14 {
+            2.15063996202364 8.63605008663468 -2.22690987774706
+            <UV> {
+              0.227019995450974 0.000617087003774941
+              <Tangent> { -0.999999214437155 0.00125271389755309 4.28131188109804e-05 }
+              <Binormal> { 0.00121550787491407 0.960827083474637 0.277145878919802 }
+            }
+            <Normal> { 0.000306048490090794 0.27714571324398 -0.960827851368187 }
+            // dogMMskirt200:def_pelvis:1
+          }
+          <Vertex> 15 {
+            2.15063996202364 8.63605008663468 -2.22690987774706
+            <UV> {
+              0.227019995450974 0.000617087003774941
+              <Tangent> { -0.000246392646332611 0.00279429306469411 -0.999996065600727 }
+              <Binormal> { -0.364075487549009 0.931365551914841 0.00269222441753847 }
+            }
+            <Normal> { 0.931369410414909 0.364074718474974 0.000787851986843992 }
+            // dogMMskirt200:def_pelvis:1
+          }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_shirt_1_pic" }
+          <VertexRef> { 3 8 14 <Ref> { "dogMMskirt200:mf_blouse_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_shirt_1_pic" }
+          <VertexRef> { 3 5 8 <Ref> { "dogMMskirt200:mf_blouse_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_shirt_1_pic" }
+          <VertexRef> { 13 15 11 <Ref> { "dogMMskirt200:mf_blouse_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_shirt_1_pic" }
+          <VertexRef> { 15 9 11 <Ref> { "dogMMskirt200:mf_blouse_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_shirt_1_pic" }
+          <VertexRef> { 6 2 0 <Ref> { "dogMMskirt200:mf_blouse_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_shirt_1_pic" }
+          <VertexRef> { 6 4 2 <Ref> { "dogMMskirt200:mf_blouse_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_shirt_1_pic" }
+          <VertexRef> { 12 10 1 <Ref> { "dogMMskirt200:mf_blouse_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_shirt_1_pic" }
+          <VertexRef> { 10 7 1 <Ref> { "dogMMskirt200:mf_blouse_200.verts" } }
+        }
+      }
+      <Group> "dogMMskirt200:mf_skirt_200" {
+        <VertexPool> "dogMMskirt200:mf_skirt_200.verts" {
+          <Vertex> 0 {
+            -3.23215995247908 4.18899991693772 -3.17134006129788
+            <UV> {
+              0.741861999034882 0.998479008674622
+              <Tangent> { 3.66012331609965e-06 1.50190168990268e-05 0.999999999880516 }
+              <Binormal> { -0.236769858507444 -0.971565764044513 1.54585695102202e-05 }
+            }
+            <Normal> { -0.971565764160599 0.236769858535734 0 }
+            // dogMMskirt200:def_right_skirt_bottomB:1
+          }
+          <Vertex> 1 {
+            -3.23215995247908 4.18899991693772 -3.17134006129788
+            <UV> {
+              0.741861999034882 0.998479008674622
+              <Tangent> { -1 0 0 }
+              <Binormal> { 0 -0.978413662440174 -0.206656006809398 }
+            }
+            <Normal> { 0 0.206656006809398 -0.978413662440174 }
+            // dogMMskirt200:def_right_skirt_bottomB:1
+          }
+          <Vertex> 2 {
+            -3.23215995247908 4.18899991693772 2.4515099412813
+            <UV> {
+              0.999312996864319 0.998498022556305
+              <Tangent> { -3.09310566060969e-05 0.000699367840540162 0.999999754963917 }
+              <Binormal> { -0.23657463067388 -0.97161308774218 0.000672197608434536 }
+            }
+            <Normal> { -0.971613319775304 0.236574551912777 -0.000195505707997156 }
+            // dogMMskirt200:def_right_skirt_bottomB:1
+          }
+          <Vertex> 3 {
+            -3.23215995247908 4.18899991693772 2.4515099412813
+            <UV> {
+              0.0467611998319626 0.998490989208221
+              <Tangent> { 1 0 0 }
+              <Binormal> { 0 -0.998010268868156 0.0630515918412146 }
+            }
+            <Normal> { 0 0.0630515918412146 0.998010268868156 }
+            // dogMMskirt200:def_right_skirt_bottomB:1
+          }
+          <Vertex> 4 {
+            -2.15275006031427 8.61827019318508 -2.23581008710886
+            <UV> {
+              0.74216902256012 0.00123006000649184
+              <Tangent> { -3.09310566060951e-05 0.00069936784054017 0.999999754963917 }
+              <Binormal> { -0.23657463067388 -0.97161308774218 0.000672197608434544 }
+            }
+            <Normal> { -0.971613319775304 0.236574551912777 -0.000195505707997156 }
+            // dogMMskirt200:def_pelvis:1
+          }
+          <Vertex> 5 {
+            -2.15275006031427 8.61827019318508 -2.23581008710886
+            <UV> {
+              0.74216902256012 0.00123006000649184
+              <Tangent> { -0.999999859687319 -0.000529407154079946 1.87991230483495e-05 }
+              <Binormal> { 0.000514113672999734 -0.978444947335553 -0.206507192902954 }
+            }
+            <Normal> { -0.000127720292252788 0.20650715426249 -0.978445082222776 }
+            // dogMMskirt200:def_pelvis:1
+          }
+          <Vertex> 6 {
+            -2.15275006031427 8.62556016977065 2.17122005352511
+            <UV> {
+              1 0.00113779003731906
+              <Tangent> { -2.26592544454575e-05 0.00156102471441326 0.999998781343457 }
+              <Binormal> { -0.23637954900164 -0.971659623732558 0.00151143034421196 }
+            }
+            <Normal> { -0.971660798993321 0.236379226688271 -0.000391011400621953 }
+            // dogMMskirt200:def_right_skirt_topB:1
+          }
+          <Vertex> 7 {
+            -2.15275006031427 8.62556016977065 2.17122005352511
+            <UV> {
+              0.0501567982137203 0.00113117997534573
+              <Tangent> { 0.999999860893789 0.000527427127233518 5.7469819041399e-06 }
+              <Binormal> { 0.000526017174626593 -0.998013108552848 0.0630044320870691 }
+            }
+            <Normal> { -3.89658098936098e-05 0.0630044202997501 0.998013247158753 }
+            // dogMMskirt200:def_right_skirt_topB:1
+          }
+          <Vertex> 8 {
+            2.15275006031427 8.6235997557953 -2.23581008710886
+            <UV> {
+              0.357721000909805 0.00130260002333671
+              <Tangent> { -0.999999138153451 -0.0013127994880684 -1.58069237401574e-05 }
+              <Binormal> { 0.0012878052900469 -0.978475616064817 -0.206358451060558 }
+            }
+            <Normal> { -0.000255440579466147 0.206358293567479 -0.978476463399109 }
+            // dogMMskirt200:def_pelvis:1
+          }
+          <Vertex> 9 {
+            2.15275006031427 8.6235997557953 -2.23581008710886
+            <UV> {
+              0.0492255985736847 0.000111460998596158
+              <Tangent> { -3.79764144387608e-05 -0.000671303823912081 -0.999999773954458 }
+              <Binormal> { 0.23782686405872 -0.971307350568949 0.000643010672426378 }
+            }
+            <Normal> { 0.971307562664776 0.237826785879778 -0.000196540853764258 }
+            // dogMMskirt200:def_pelvis:1
+          }
+          <Vertex> 10 {
+            2.15275006031427 8.63088973238087 2.17122005352511
+            <UV> {
+              0.359526991844177 0.0012037199921906
+              <Tangent> { 0.999999138116417 0.00131291431556925 -4.73531419371278e-06 }
+              <Binormal> { 0.00131060790699863 -0.998015361161618 0.0629572965775906 }
+            }
+            <Normal> { -7.79316196410059e-05 0.0629572485218705 0.998016221704446 }
+            // dogMMskirt200:def_left_skirt_topB:1
+          }
+          <Vertex> 11 {
+            2.15275006031427 8.63088973238087 2.17122005352511
+            <UV> {
+              0 0
+              <Tangent> { -2.74859617125404e-05 -0.00154181447525641 -0.999998811025616 }
+              <Binormal> { 0.237631109266743 -0.97135432900385 0.0014911184183917 }
+            }
+            <Normal> { 0.971355473116397 0.237630785744617 -0.000393081691935011 }
+            // dogMMskirt200:def_left_skirt_topB:1
+          }
+          <Vertex> 12 {
+            3.23952001536612 4.18899991693772 -3.17134006129788
+            <UV> {
+              0.357843995094299 0.998479008674622
+              <Tangent> { -0.999999859687319 -0.000529407154079987 1.87991230483409e-05 }
+              <Binormal> { 0.000514113672999775 -0.978444947335553 -0.206507192902954 }
+            }
+            <Normal> { -0.000127720292252788 0.20650715426249 -0.978445082222776 }
+            // dogMMskirt200:def_left_skirt_bottomB:1
+          }
+          <Vertex> 13 {
+            3.23952001536612 4.18899991693772 -3.17134006129788
+            <UV> {
+              0.0493484996259212 1
+              <Tangent> { 0 0 -1 }
+              <Binormal> { 0.238022767145817 -0.97125957514984 0 }
+            }
+            <Normal> { 0.97125957514984 0.238022767145817 0 }
+            // dogMMskirt200:def_left_skirt_bottomB:1
+          }
+          <Vertex> 14 {
+            3.23952001536612 4.18899991693772 2.4515099412813
+            <UV> {
+              0.358534008264542 0.998490989208221
+              <Tangent> { 0.999999860893789 0.000527427127233565 5.74698190413697e-06 }
+              <Binormal> { 0.000526017174626639 -0.998013108552848 0.0630044320870691 }
+            }
+            <Normal> { -3.89658098936098e-05 0.0630044202997501 0.998013247158753 }
+            // dogMMskirt200:def_left_skirt_bottomB:1
+          }
+          <Vertex> 15 {
+            3.23952001536612 4.18899991693772 2.4515099412813
+            <UV> {
+              0.00172693002969027 1
+              <Tangent> { -3.79764144387631e-05 -0.000671303823912071 -0.999999773954458 }
+              <Binormal> { 0.23782686405872 -0.971307350568949 0.000643010672426368 }
+            }
+            <Normal> { 0.971307562664776 0.237826785879778 -0.000196540853764258 }
+            // dogMMskirt200:def_left_skirt_bottomB:1
+          }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_skirt_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 5 12 1 <Ref> { "dogMMskirt200:mf_skirt_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_skirt_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 5 8 12 <Ref> { "dogMMskirt200:mf_skirt_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_skirt_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 14 7 3 <Ref> { "dogMMskirt200:mf_skirt_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_skirt_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 14 10 7 <Ref> { "dogMMskirt200:mf_skirt_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_skirt_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 6 4 2 <Ref> { "dogMMskirt200:mf_skirt_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_skirt_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 4 0 2 <Ref> { "dogMMskirt200:mf_skirt_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_skirt_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 13 9 15 <Ref> { "dogMMskirt200:mf_skirt_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_skirt_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 9 11 15 <Ref> { "dogMMskirt200:mf_skirt_200.verts" } }
+        }
+      }
+      <Group> "dogMMskirt200:mf_skirt_cap_200" {
+        <VertexPool> "dogMMskirt200:mf_skirt_cap_200.verts" {
+          <Vertex> 0 {
+            -2.15054008904405 8.63644957855305 -2.22632991360241
+            <Normal> { 0 -1 0 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+            // dogMMskirt200:def_pelvis:1
+          }
+          <Vertex> 1 {
+            2.15923003950144 8.63644957855305 -2.22632991360241
+            <Normal> { 0 -1 0 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+            // dogMMskirt200:def_pelvis:1
+          }
+          <Vertex> 2 {
+            2.15921001484388 8.63644957855305 2.18384009333733
+            <Normal> { 0 -1 0 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+            // dogMMskirt200:def_left_skirt_topB:1
+          }
+          <Vertex> 3 {
+            -2.15054008904405 8.63644957855305 2.18384009333733
+            <Normal> { 0 -1 0 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+            // dogMMskirt200:def_right_skirt_topB:1
+          }
+        }
+        <Polygon> {
+          <VertexRef> { 0 1 2 <Ref> { "dogMMskirt200:mf_skirt_cap_200.verts" } }
+        }
+        <Polygon> {
+          <VertexRef> { 0 2 3 <Ref> { "dogMMskirt200:mf_skirt_cap_200.verts" } }
+        }
+      }
+      <Group> "dogMMskirt200:mf_neck_200" {
+        <VertexPool> "dogMMskirt200:mf_neck_200.verts" {
+          <Vertex> 0 {
+            -0.40919098641303 14.7770999297695 -0.062592499681658
+            <UV> {
+              0.676681995391846 1
+              <Tangent> { -0.67503195204025 -0.0367277342954776 0.736873759376903 }
+              <Binormal> { 0.0181744286815759 0.997629305787075 0.0663736271187444 }
+            }
+            <Normal> { -0.737564609960936 0.0581965786650779 -0.67276415211042 }
+            // dogMMskirt200:def_head:1
+          }
+          <Vertex> 1 {
+            -0.40919098641303 14.7770999297695 -0.062592499681658
+            <UV> {
+              0.676681995391846 1
+              <Tangent> { 0.971661738046249 -0.0445465425145952 0.232140199808085 }
+              <Binormal> { 0.0100816324884314 0.988997933917543 0.147585390175316 }
+            }
+            <Normal> { -0.236160596847379 -0.141062724547725 0.961420553264731 }
+            // dogMMskirt200:def_head:1
+          }
+          <Vertex> 2 {
+            -0.284779009230806 12.2572000258238 -0.343701000914486
+            <UV> {
+              0.687834024429321 0
+              <Tangent> { -0.618376348803962 -0.0618840277813507 0.783441802781443 }
+              <Binormal> { -0.0146301780191549 0.997628554820127 0.067254921742821 }
+            }
+            <Normal> { -0.785745918940091 0.0301269599040817 -0.617815277535227 }
+            // dogMMskirt200:def_head:1
+          }
+          <Vertex> 3 {
+            -0.284779009230806 12.2572000258238 -0.343701000914486
+            <UV> {
+              0.687834024429321 0
+              <Tangent> { 0.988433885660923 0.00110066714493939 0.151648416441077 }
+              <Binormal> { -0.0188143171337886 0.9931383273245 0.11542220007383 }
+            }
+            <Normal> { -0.150480813222282 -0.116940375110267 0.981672284176869 }
+            // dogMMskirt200:def_head:1
+          }
+          <Vertex> 4 {
+            0.123918001733114 12.2981003888949 -0.861492995514957
+            <UV> {
+              0.252281993627548 0
+              <Tangent> { -0.67503195204025 -0.0367277342954776 0.736873759376903 }
+              <Binormal> { 0.0181744286815759 0.997629305787075 0.0663736271187444 }
+            }
+            <Normal> { -0.737564609960936 0.0581965786650779 -0.67276415211042 }
+            // dogMMskirt200:def_head:1
+          }
+          <Vertex> 5 {
+            0.123918001733114 12.2981003888949 -0.861492995514957
+            <UV> {
+              0.252281993627548 0
+              <Tangent> { -0.336293083735847 0.0615063223377128 -0.939746739363284 }
+              <Binormal> { 0.0516079286641174 0.997569176660424 0.0468226384993684 }
+            }
+            <Normal> { 0.940342269352194 -0.0327522531977959 -0.338649828554561 }
+            // dogMMskirt200:def_head:1
+          }
+          <Vertex> 6 {
+            0.268346994254846 14.7940998628071 -0.701849979991362
+            <UV> {
+              0.263346999883652 1
+              <Tangent> { -0.72723466739804 -0.018246859956339 0.686146333252751 }
+              <Binormal> { 0.0457432643024145 0.996135836771111 0.0749729849430975 }
+            }
+            <Normal> { -0.684862973378924 0.085909526841045 -0.723589842999835 }
+            // dogMMskirt200:def_head:1
+          }
+          <Vertex> 7 {
+            0.268346994254846 14.7940998628071 -0.701849979991362
+            <UV> {
+              0.263346999883652 1
+              <Tangent> { -0.282641029427209 0.0815165709779484 -0.95575577274758 }
+              <Binormal> { 0.0449114052870861 0.996414400233183 0.0717029196273479 }
+            }
+            <Normal> { 0.958173791208811 -0.0226581478489287 -0.285288615574806 }
+            // dogMMskirt200:def_head:1
+          }
+          <Vertex> 8 {
+            0.343718991817765 12.2578998876056 -0.247275000169208
+            <UV> {
+              1 0
+              <Tangent> { 0.971661738046249 -0.0445465425145952 0.232140199808085 }
+              <Binormal> { 0.0100816324884314 0.988997933917543 0.147585390175316 }
+            }
+            <Normal> { -0.236160596847379 -0.141062724547725 0.961420553264731 }
+            // dogMMskirt200:def_head:1
+          }
+          <Vertex> 9 {
+            0.343718991817765 12.2578998876056 -0.247275000169208
+            <UV> {
+              0.00570232002064586 0
+              <Tangent> { -0.282641029427209 0.0815165709779484 -0.95575577274758 }
+              <Binormal> { 0.0449114052870861 0.996414400233183 0.0717029196273479 }
+            }
+            <Normal> { 0.958173791208811 -0.0226581478489287 -0.285288615574806 }
+            // dogMMskirt200:def_head:1
+          }
+          <Vertex> 10 {
+            0.48891499912332 14.7020995773355 0.232082996468531
+            <UV> {
+              0.994302988052368 1
+              <Tangent> { 0.947185254628303 -0.079098936051475 0.310778782625586 }
+              <Binormal> { 0.0228410452148666 0.983282366410421 0.180649036974505 }
+            }
+            <Normal> { -0.319872443433642 -0.164009591859282 0.933157260974774 }
+            // dogMMskirt200:def_head:1
+          }
+          <Vertex> 11 {
+            0.48891499912332 14.7020995773355 0.232082996468531
+            <UV> {
+              0 1
+              <Tangent> { -0.228798939783974 0.0954334595729712 -0.96878454774406 }
+              <Binormal> { 0.0341448101232313 0.995357450562685 0.0899870965805707 }
+            }
+            <Normal> { 0.972874697530663 -0.0124900121411687 -0.230995286751344 }
+            // dogMMskirt200:def_head:1
+          }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_neckGeneric_pic" }
+          <VertexRef> { 6 4 0 <Ref> { "dogMMskirt200:mf_neck_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_neckGeneric_pic" }
+          <VertexRef> { 4 2 0 <Ref> { "dogMMskirt200:mf_neck_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_neckGeneric_pic" }
+          <VertexRef> { 11 9 7 <Ref> { "dogMMskirt200:mf_neck_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_neckGeneric_pic" }
+          <VertexRef> { 9 5 7 <Ref> { "dogMMskirt200:mf_neck_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_neckGeneric_pic" }
+          <VertexRef> { 1 8 10 <Ref> { "dogMMskirt200:mf_neck_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_neckGeneric_pic" }
+          <VertexRef> { 1 3 8 <Ref> { "dogMMskirt200:mf_neck_200.verts" } }
+        }
+      }
+      <Group> "dogMMskirt200:mf_sleeve_left_200" {
+        <VertexPool> "dogMMskirt200:mf_sleeve_left_200.verts" {
+          <Vertex> 0 {
+            0.218098495263127 12.337299657306 -0.666815026851464
+            <UV> {
+              0.882246971130371 1
+              <Tangent> { 0.00210733848825824 0.819237111647054 -0.5734510563463 }
+              <Binormal> { -0.996986673977203 -0.0427468894145188 -0.0647323362567534 }
+            }
+            <Normal> { -0.0775443810754228 0.57185947429904 0.816678400974371 }
+            // dogMMskirt200:def_cageB:1
+          }
+          <Vertex> 1 {
+            0.218098495263127 12.337299657306 -0.666815026851464
+            <UV> {
+              0.88102799654007 0.99728000164032
+              <Tangent> { -0.000767813718744377 -0.861946622436373 -0.506998452199434 }
+              <Binormal> { -0.999789808945797 -0.00972559400340954 0.0180485664086332 }
+            }
+            <Normal> { -0.0204877619621887 0.506905743597179 -0.861757981522638 }
+            // dogMMskirt200:def_cageB:1
+          }
+          <Vertex> 2 {
+            0.218555996111372 11.1206995846405 -1.51092999876328
+            <UV> {
+              0 1
+              <Tangent> { 0.00274316938286423 0 0.99999623750379 }
+              <Binormal> { -0.98440153489674 0.175915678622199 0.00270039031118153 }
+            }
+            <Normal> { -0.175915016740125 -0.98440523871772 0.000482566503562578 }
+            // dogMMskirt200:def_cageB:1
+          }
+          <Vertex> 3 {
+            0.218555996111372 11.1206995846405 -1.51092999876328
+            <UV> {
+              1 0.99728000164032
+              <Tangent> { 0.000308963829889417 -0.821605947479273 -0.570055761840925 }
+              <Binormal> { -0.999303082343267 0.0210244161495577 -0.0308435332738614 }
+            }
+            <Normal> { 0.0373263199444762 0.569668009451344 -0.821026860003463 }
+            // dogMMskirt200:def_cageB:1
+          }
+          <Vertex> 4 {
+            0.223674001343294 11.1206995846405 0.354789999213431
+            <UV> {
+              0.0449763983488083 1
+              <Tangent> { 0.00162263674752354 2.33557607187265e-05 0.99999868325138 }
+              <Binormal> { -0.984379570727164 0.176052044890585 0.00159318073335737 }
+            }
+            <Normal> { -0.17605177586435 -0.984380859700325 0.000308659451226433 }
+            // dogMMskirt200:def_cageB:1
+          }
+          <Vertex> 5 {
+            0.223674001343294 11.1206995846405 0.354789999213431
+            <UV> {
+              0.0485996007919312 1
+              <Tangent> { -0.00350957712488495 0.765805242388388 -0.64306299349198 }
+              <Binormal> { -0.999990062243464 -0.00445561080839498 0.000151481477610348 }
+            }
+            <Normal> { -0.00274923311460295 0.643057134524442 0.765813269312105 }
+            // dogMMskirt200:def_cageB:1
+          }
+          <Vertex> 6 {
+            2.7697400471044 10.6647000850968 -1.71134002565399
+            <UV> {
+              0 0.0027198800817132
+              <Tangent> { 0.0016226367475234 2.33557607187515e-05 0.99999868325138 }
+              <Binormal> { -0.984379570727163 0.176052044890585 0.00159318073335723 }
+            }
+            <Normal> { -0.17605177586435 -0.984380859700325 0.000308659451226433 }
+            // dogMMskirt200:def_cageB:1
+          }
+          <Vertex> 7 {
+            2.7697400471044 10.6647000850968 -1.71134002565399
+            <UV> {
+              1 0
+              <Tangent> { -0.000767813718744385 -0.861946622436373 -0.506998452199434 }
+              <Binormal> { -0.999789808945797 -0.00972559400340954 0.0180485664086332 }
+            }
+            <Normal> { -0.0204877619621887 0.506905743597179 -0.861757981522638 }
+            // dogMMskirt200:def_cageB:1
+          }
+          <Vertex> 8 {
+            2.77162011214129 10.6647000850968 0.746842006372967
+            <UV> {
+              0.0449763983488083 0.0027198800817132
+              <Tangent> { 0.000764819066496794 0 0.999999707525855 }
+              <Binormal> { -0.984356144016857 0.176188577797387 0.000752854567357748 }
+            }
+            <Normal> { -0.176188526266783 -0.984356431915663 0.000134752383598972 }
+            // dogMMskirt200:def_cageB:1
+          }
+          <Vertex> 9 {
+            2.77162011214129 10.6647000850968 0.746842006372967
+            <UV> {
+              0.0485996007919312 5.96045985901128e-08
+              <Tangent> { 0.00210733848825823 0.819237111647054 -0.5734510563463 }
+              <Binormal> { -0.996986673977203 -0.0427468894145188 -0.0647323362567534 }
+            }
+            <Normal> { -0.0775443810754228 0.57185947429904 0.816678400974371 }
+            // dogMMskirt200:def_cageB:1
+          }
+          <Vertex> 10 {
+            2.77162011214129 12.9689995072332 -0.579392002636366
+            <UV> {
+              0.882246971130371 0.00271993991918862
+              <Tangent> { 0.00261804258549687 0.866898006480297 -0.498478677792247 }
+              <Binormal> { -0.98848258485326 -0.0731828775576532 -0.132462998132306 }
+            }
+            <Normal> { -0.151312013055271 0.493084285688429 0.856721986359807 }
+            // dogMMskirt200:def_cageB:1
+          }
+          <Vertex> 11 {
+            2.77162011214129 12.9689995072332 -0.579392002636366
+            <UV> {
+              0.88102799654007 0
+              <Tangent> { -0.000732307926934956 -0.897552318540408 -0.440907358985806 }
+              <Binormal> { -0.996943798290878 -0.0337878391986775 0.0704375253088943 }
+            }
+            <Normal> { -0.0781186711001727 0.439611439119847 -0.894784474507979 }
+            // dogMMskirt200:def_cageB:1
+          }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_sleeve_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 5 9 0 <Ref> { "dogMMskirt200:mf_sleeve_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_sleeve_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 9 10 0 <Ref> { "dogMMskirt200:mf_sleeve_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_sleeve_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 6 4 2 <Ref> { "dogMMskirt200:mf_sleeve_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_sleeve_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 6 8 4 <Ref> { "dogMMskirt200:mf_sleeve_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_sleeve_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 1 7 3 <Ref> { "dogMMskirt200:mf_sleeve_left_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_sleeve_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 1 11 7 <Ref> { "dogMMskirt200:mf_sleeve_left_200.verts" } }
+        }
+      }
+      <Group> "dogMMskirt200:mf_sleeve_right_200" {
+        <VertexPool> "dogMMskirt200:mf_sleeve_right_200.verts" {
+          <Vertex> 0 {
+            -2.77283010207449 12.9689995072332 -0.574526010848719
+            <UV> {
+              0.88102799654007 0
+              <Tangent> { 0.00120260834122849 -0.896802721173012 -0.442429014679031 }
+              <Binormal> { 0.997048332474685 -0.0328886886526098 0.0693754774265468 }
+            }
+            <Normal> { 0.0767670270534636 0.441206542851976 -0.894116105493006 }
+            // dogMMskirt200:def_cageB:1.25756e-06
+            // dogMMskirt200:def_right_sleeve_long:0.999999
+          }
+          <Vertex> 1 {
+            -2.77283010207449 12.9689995072332 -0.574526010848719
+            <UV> {
+              0.882246971130371 0.00271993991918862
+              <Tangent> { -0.00783437469866586 0.868563608415155 -0.495515772412873 }
+              <Binormal> { 0.988304928656564 -0.0687408317869513 -0.136117838795589 }
+            }
+            <Normal> { 0.152289167593184 0.490787078255004 0.857867153615111 }
+            // dogMMskirt200:def_cageB:1.25756e-06
+            // dogMMskirt200:def_right_sleeve_long:0.999999
+          }
+          <Vertex> 2 {
+            -2.7697400471044 10.6647000850968 -1.71133001332521
+            <UV> {
+              1 0
+              <Tangent> { 0.000814479838717969 -0.861504098133789 -0.5077499635857 }
+              <Binormal> { 0.999803569401629 -0.00935344429888435 0.0174738573735287 }
+            }
+            <Normal> { 0.0198030107396597 0.507664458061065 -0.861327254176489 }
+            // dogMMskirt200:def_right_sleeve_long:1
+          }
+          <Vertex> 3 {
+            -2.7697400471044 10.6647000850968 -1.71133001332521
+            <UV> {
+              0 0.0027198800817132
+              <Tangent> { 0.00290533675260891 3.96149596297253e-05 0.999995778715595 }
+              <Binormal> { 0.984350108538913 0.176200581521233 -0.00286686082853128 }
+            }
+            <Normal> { 0.176199951299042 -0.98435428251328 -0.000472927035513414 }
+            // dogMMskirt200:def_right_sleeve_long:1
+          }
+          <Vertex> 4 {
+            -2.75900007232906 10.6647000850968 0.741312009455964
+            <UV> {
+              0.0485996007919312 5.96045985901128e-08
+              <Tangent> { -0.00682622698699037 0.820159903531738 -0.572093642041171 }
+              <Binormal> { 0.996991001245459 -0.0385949607505599 -0.0672262778996431 }
+            }
+            <Normal> { 0.077216229257193 0.570831114817222 0.817428585440849 }
+            // dogMMskirt200:def_right_sleeve_long:1
+          }
+          <Vertex> 5 {
+            -2.75900007232906 10.6647000850968 0.741312009455964
+            <UV> {
+              0.0449763983488083 0.0027198800817132
+              <Tangent> { 0.00437889904310812 0 0.999990412575626 }
+              <Binormal> { 0.984302567593964 0.176436610653609 -0.00431020289511036 }
+            }
+            <Normal> { 0.176434919080947 -0.984312004610869 -0.000772598105560335 }
+            // dogMMskirt200:def_right_sleeve_long:1
+          }
+          <Vertex> 6 {
+            -0.218555996111372 11.1206995846405 -1.51092999876328
+            <UV> {
+              1 0.99728000164032
+              <Tangent> { -0.000950852966933925 -0.821605931966129 -0.570055074915314 }
+              <Binormal> { 0.999302390167262 0.0205017833996534 -0.0312155391340708 }
+            }
+            <Normal> { -0.0373340177938604 0.569687080277851 -0.821013277407781 }
+            // dogMMskirt200:def_cageB:0.915917
+            // dogMMskirt200:def_right_sleeve_long:0.0840826
+          }
+          <Vertex> 7 {
+            -0.218555996111372 11.1206995846405 -1.51092999876328
+            <UV> {
+              0 1
+              <Tangent> { 0.000984604061927436 0 0.999999515277303 }
+              <Binormal> { 0.984395938753168 0.175965042945228 -0.000969240709654268 }
+            }
+            <Normal> { 0.175964957650978 -0.984396415912454 -0.00017325589604079 }
+            // dogMMskirt200:def_cageB:0.915917
+            // dogMMskirt200:def_right_sleeve_long:0.0840826
+          }
+          <Vertex> 8 {
+            -0.21714801237652 12.337299657306 -0.666816028084342
+            <UV> {
+              0.88102799654007 0.99728000164032
+              <Tangent> { 0.000814479838717964 -0.861504098133789 -0.5077499635857 }
+              <Binormal> { 0.999803569401629 -0.00935344429888436 0.0174738573735287 }
+            }
+            <Normal> { 0.0198030107396597 0.507664458061065 -0.861327254176489 }
+            // dogMMskirt200:def_cageB:1
+          }
+          <Vertex> 9 {
+            -0.21714801237652 12.337299657306 -0.666816028084342
+            <UV> {
+              0.882246971130371 1
+              <Tangent> { -0.00682622698699032 0.820159903531738 -0.572093642041171 }
+              <Binormal> { 0.996991001245459 -0.03859496075056 -0.0672262778996431 }
+            }
+            <Normal> { 0.077216229257193 0.570831114817222 0.817428585440849 }
+            // dogMMskirt200:def_cageB:1
+          }
+          <Vertex> 10 {
+            -0.216718999732511 11.1206995846405 0.354789999213431
+            <UV> {
+              0.0485996007919312 1
+              <Tangent> { -0.000270049309905115 0.765809620395906 -0.643067300041332 }
+              <Binormal> { 0.999999372636368 -0.000492276358693809 -0.00100617635483191 }
+            }
+            <Normal> { 0.00108710636120456 0.643067168321525 0.76580900701591 }
+            // dogMMskirt200:def_cageB:1
+          }
+          <Vertex> 11 {
+            -0.216718999732511 11.1206995846405 0.354789999213431
+            <UV> {
+              0.0449763983488083 1
+              <Tangent> { 0.00290533675260889 3.96149596297222e-05 0.999995778715595 }
+              <Binormal> { 0.984350108538913 0.176200581521233 -0.00286686082853126 }
+            }
+            <Normal> { 0.176199951299042 -0.98435428251328 -0.000472927035513414 }
+            // dogMMskirt200:def_cageB:1
+          }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_sleeve_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 9 4 10 <Ref> { "dogMMskirt200:mf_sleeve_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_sleeve_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 9 1 4 <Ref> { "dogMMskirt200:mf_sleeve_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_sleeve_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 7 11 3 <Ref> { "dogMMskirt200:mf_sleeve_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_sleeve_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 11 5 3 <Ref> { "dogMMskirt200:mf_sleeve_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_sleeve_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 6 2 8 <Ref> { "dogMMskirt200:mf_sleeve_right_200.verts" } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { "dogMMskirt200:MM_Skirt_200_zero_dogMM_cvs_PICTURES_desat_sleeve_1_pic" }
+          <BFace> { 1 }
+          <VertexRef> { 2 0 8 <Ref> { "dogMMskirt200:mf_sleeve_right_200.verts" } }
+        }
+      }
+    }
+  }
+}

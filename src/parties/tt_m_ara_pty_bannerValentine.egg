@@ -1,0 +1,55 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -a chan -cn ValentineBanner -o tt_m_ara_pty_bannerValentine.egg -sf 0 tt_m_ara_pty_bannerValentine.mb"
+}
+<Table> {
+  <Bundle> ValentineBanner {
+    <Table> "<skeleton>" {
+      <Table> prop_bannerValentine {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 24 }
+          <Char*> order { srpht }
+        }
+        <Table> bannerJoint {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> y {
+              <V> {
+                0 0 0.000871945 0.00271947 0.00543226 0.00889997
+                0.0130123 0.0176589 0.0227294 0.0281135 0.033701
+                0.0393813 0.0450444 0.0505797 0.055877 0.0608259
+                0.0653162 0.0692374 0.0724793 0.0749316 0.0764839
+                0.0770258 0.0767761 0.0760498 0.0748805 0.0733023
+                0.0713489 0.0690544 0.0664524 0.063577 0.0604619
+                0.057141 0.0536483 0.0500176 0.0462827 0.0424775
+                0.038636 0.0347919 0.0309791 0.0272316 0.0235831
+                0.0200676 0.016719 0.013571 0.0106576 0.00801266
+                0.00567001 0.00366356 0.00202715 0.000794677 0
+              }
+            }
+          }
+          <Table> balloonJointL {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+              <S$Anim> x { <V> { -6.42177361844219 } }
+              <S$Anim> y { <V> { 8.88115242951733 } }
+            }
+          }
+          <Table> balloonJointR {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+              <S$Anim> x { <V> { 6.00186067166274 } }
+              <S$Anim> y { <V> { 9.07623917527901 } }
+            }
+          }
+        }
+      }
+    }
+    <Table> morph {
+    }
+  }
+}

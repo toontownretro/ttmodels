@@ -1,0 +1,177 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -a chan -cn hydrant -o tt_a_ara_TT_hydrant_idle.egg -sf 0 tt_a_ara_TT_hydrant_idle.mb"
+}
+<Table> {
+  <Bundle> hydrant {
+    <Table> "<skeleton>" {
+      <Table> "hydrant:def_base" {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 24 }
+          <Char*> order { srpht }
+        }
+        <Table> "hydrant:def_left_arm" {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> h { <V> { -11.9425861440501 } }
+            <S$Anim> p { <V> { 13.802740319331 } }
+            <S$Anim> r { <V> { -7.31695431337334 } }
+            <S$Anim> x { <V> { 0.442040709540917 } }
+            <S$Anim> y { <V> { 1.37898805488343 } }
+            <S$Anim> z { <V> { -0.0090400327880501 } }
+          }
+        }
+        <Table> "hydrant:def_spine" {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> h { <V> { 2.46554775316403 } }
+            <S$Anim> p { <V> { 11.5877023743721 } }
+            <S$Anim> r { <V> { -12.0989666693549 } }
+            <S$Anim> x { <V> { -0.102532113823192 } }
+            <S$Anim> y { <V> { 1.34474068067243 } }
+            <S$Anim> z { <V> { 0.00737488843530713 } }
+          }
+          <Table> "hydrant:def_top" {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+              <S$Anim> h { <V> { 0.100907809187508 } }
+              <S$Anim> p { <V> { -0.304015224446979 } }
+              <S$Anim> r { <V> { 18.3619789315733 } }
+              <S$Anim> x { <V> { 0.305487688395233 } }
+              <S$Anim> y { <V> { 1.35058556526149 } }
+              <S$Anim> z { <V> { -0.00542175488749043 } }
+            }
+          }
+          <Table> "hydrant:def_spinesquash" {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+            }
+          }
+        }
+        <Table> "hydrant:def_right_arm" {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> h { <V> { -158.123212564244 } }
+            <S$Anim> p { <V> { -10.6145446992147 } }
+            <S$Anim> r { <V> { -175.217135420954 } }
+            <S$Anim> x { <V> { -0.614949772329081 } }
+            <S$Anim> y { <V> { 1.15722468446238 } }
+            <S$Anim> z { <V> { -0.00907251805298556 } }
+          }
+        }
+      }
+      <Table> "hydrant:xxx_transform" {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 24 }
+          <Char*> order { srpht }
+        }
+        <Table> "hydrant:xx_transform" {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+          }
+          <Table> "hydrant:ctrl_transform" {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+            }
+            <Table> "hydrant:xx_spine" {
+              <Xfm$Anim_S$> xform {
+                <Scalar> fps { 24 }
+                <Char*> order { srpht }
+              }
+              <Table> "hydrant:ctrl_spine" {
+                <Xfm$Anim_S$> xform {
+                  <Scalar> fps { 24 }
+                  <Char*> order { srpht }
+                  <S$Anim> h { <V> { 2.46554775316403 } }
+                  <S$Anim> p { <V> { 11.5877023743721 } }
+                  <S$Anim> r { <V> { -12.0989666693549 } }
+                  <S$Anim> x { <V> { 0.178808880745641 } }
+                  <S$Anim> y { <V> { 0.00373881759891347 } }
+                  <S$Anim> z { <V> { -0.279962228033703 } }
+                }
+                <Table> "hydrant:xx_left_arm" {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                  }
+                  <Table> "hydrant:ctrl_left_arm" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> h { <V> { -14.2212670666376 } }
+                      <S$Anim> p { <V> { -0.392928260563953 } }
+                      <S$Anim> r { <V> { 1.55002682463228 } }
+                      <S$Anim> x { <V> { -0.0200680599653665 } }
+                      <S$Anim> y { <V> { 0.015120023907754 } }
+                      <S$Anim> z { <V> { -0.132704204619571 } }
+                    }
+                  }
+                }
+                <Table> "hydrant:xx_right_arm" {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                    <S$Anim> h { <V> { 180 } }
+                    <S$Anim> r { <V> { -180 } }
+                  }
+                  <Table> "hydrant:ctrl_right_arm" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> h { <V> { -18.7382700990127 } }
+                      <S$Anim> p { <V> { 3.60252631692752 } }
+                      <S$Anim> r { <V> { -10.4939106688578 } }
+                      <S$Anim> x { <V> { -0.293031707483946 } }
+                      <S$Anim> y { <V> { 0.0735282919611557 } }
+                      <S$Anim> z { <V> { 0.17644903111568 } }
+                    }
+                  }
+                }
+                <Table> "hydrant:xx_top" {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                  }
+                  <Table> "hydrant:ctrl_top" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> h { <V> { 0.100907809187508 } }
+                      <S$Anim> p { <V> { -0.304015224446979 } }
+                      <S$Anim> r { <V> { 18.3619789315733 } }
+                      <S$Anim> x { <V> { -0.576540150773345 } }
+                      <S$Anim> y { <V> { 0.0931847214497796 } }
+                      <S$Anim> z { <V> { 0.0102321535543071 } }
+                    }
+                  }
+                }
+              }
+            }
+            <Table> "hydrant:xx_base" {
+              <Xfm$Anim_S$> xform {
+                <Scalar> fps { 24 }
+                <Char*> order { srpht }
+              }
+              <Table> "hydrant:ctrl_base" {
+                <Xfm$Anim_S$> xform {
+                  <Scalar> fps { 24 }
+                  <Char*> order { srpht }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    <Table> morph {
+    }
+  }
+}

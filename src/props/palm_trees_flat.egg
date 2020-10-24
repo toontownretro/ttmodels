@@ -1,0 +1,59 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o palm_trees_flat.egg palm_trees_flat.flt"
+}
+<Texture> 0 {
+  "../maps/palmtreeflat1.rgba"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    -7.585214355814 0.0238742143590021 0
+    <UV> {
+      0 0
+      <Tangent> { 0.999995046761513 -0.00314745173760651 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { -0.00314745173760651 -0.999995046761513 0 }
+  }
+  <Vertex> 1 {
+    -7.585214355814 0.0238742143590021 30.3410077095032
+    <UV> {
+      0 1
+      <Tangent> { 0.999995046761513 -0.00314745173760651 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { -0.00314745173760651 -0.999995046761513 0 }
+  }
+  <Vertex> 2 {
+    7.58521435581401 -0.023874214359002 0
+    <UV> {
+      1 0
+      <Tangent> { 0.999995046761513 -0.00314745173760651 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { -0.00314745173760651 -0.999995046761513 0 }
+  }
+  <Vertex> 3 {
+    7.58521435581401 -0.023874214359002 30.3410077095032
+    <UV> {
+      1 1
+      <Tangent> { 0.999995046761513 -0.00314745173760651 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { -0.00314745173760651 -0.999995046761513 0 }
+  }
+}
+<Group> g65 {
+  <Group> o164 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { 0 }
+      <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+    }
+  }
+}

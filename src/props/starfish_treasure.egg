@@ -1,0 +1,66 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o starfish_treasure.egg starfish_treasure.flt"
+}
+<Texture> 4 {
+  "../maps/starfish.rgba"
+  <Scalar> wrap { clamp }
+  <Scalar> wrapu { clamp }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    -1.5 0 0
+    <UV> {
+      0 0
+      <Tangent> { 1 0 2.33263604199147e-09 }
+      <Binormal> { -2.33263604199147e-09 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 1 {
+    -1.5 0 3
+    <UV> {
+      0 1.00135600566864
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 2 {
+    1.5 0 0
+    <UV> {
+      1.00859463214874 -2.33579910968729e-09
+      <Tangent> { 1 0 2.33263603655028e-09 }
+      <Binormal> { -2.33263603655028e-09 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 3 {
+    1.5 0 3
+    <UV> {
+      1.00859463214874 1.00135600566864
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+}
+<Group> g1 {
+  <Group> g2 {
+    <Group> starfish {
+      <Group> p1_2 {
+        <Billboard> { axis }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { 4 }
+          <VertexRef> { 3 1 0 2 <Ref> { vpool } }
+        }
+      }
+    }
+  }
+}

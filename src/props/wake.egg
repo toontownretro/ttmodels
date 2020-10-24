@@ -1,0 +1,383 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o wake.egg wake.flt"
+}
+<Texture> 9 {
+  "../maps/WR_10.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 8 {
+  "../maps/WR_09.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 7 {
+  "../maps/WR_08.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 6 {
+  "../maps/WR_07.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 5 {
+  "../maps/WR_06.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 4 {
+  "../maps/WR_05.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 3 {
+  "../maps/WR_04.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 27 {
+  "../maps/WR_28.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 26 {
+  "../maps/WR_27.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 25 {
+  "../maps/WR_26.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 24 {
+  "../maps/WR_25.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 23 {
+  "../maps/WR_24.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 22 {
+  "../maps/WR_23.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 21 {
+  "../maps/WR_22.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 20 {
+  "../maps/WR_21.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 2 {
+  "../maps/WR_03.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 19 {
+  "../maps/WR_20.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 18 {
+  "../maps/WR_19.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 17 {
+  "../maps/WR_18.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 16 {
+  "../maps/WR_17.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 15 {
+  "../maps/WR_16.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 14 {
+  "../maps/WR_15.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 13 {
+  "../maps/WR_14.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 12 {
+  "../maps/WR_13.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 11 {
+  "../maps/WR_12.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 10 {
+  "../maps/WR_11.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 1 {
+  "../maps/WR_02.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 0 {
+  "../maps/WR_01.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    -5 -18.0000011920929 0
+    <UV> {
+      0 1
+      <Tangent> { 0 1 0 }
+      <Binormal> { -1 0 0 }
+    }
+    <Normal> { 0 0 1 }
+  }
+  <Vertex> 1 {
+    -5 2 0
+    <UV> {
+      1 1
+      <Tangent> { 0 1 0 }
+      <Binormal> { -1 0 0 }
+    }
+    <Normal> { 0 0 1 }
+  }
+  <Vertex> 2 {
+    5.00000029802322 -18.0000011920929 0
+    <UV> {
+      0 0
+      <Tangent> { 0 1 0 }
+      <Binormal> { -1 0 0 }
+    }
+    <Normal> { 0 0 1 }
+  }
+  <Vertex> 3 {
+    5.00000029802322 2 0
+    <UV> {
+      1 0
+      <Tangent> { 0 1 0 }
+      <Binormal> { -1 0 0 }
+    }
+    <Normal> { 0 0 1 }
+  }
+}
+<Group> wake {
+  <Switch> { 1 }
+  <Scalar> fps { 12 }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 0 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 1 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 2 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 3 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 4 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 5 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 6 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 7 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 8 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 9 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 10 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 11 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 12 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 13 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 14 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 15 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 16 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 17 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 18 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 19 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 20 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 21 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 22 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 23 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 24 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 25 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 26 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 27 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+}

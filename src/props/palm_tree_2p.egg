@@ -1,0 +1,115 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o palm_tree_2p.egg palm_tree_2p.flt"
+}
+<Texture> 1 {
+  "../maps/palmtrunk.rgba"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 0 {
+  "../maps/palmtop.rgba"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    -7.20197496920962 0 19.3009870591968
+    <UV> {
+      0.00181993015576154 0.00674191582947969
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 3.96909356929142e-11 1 }
+    }
+    <Normal> { 0 -1 3.96909356929142e-11 }
+  }
+  <Vertex> 1 {
+    -7.20197496920962 4.39958521003536e-10 30.3855965127875
+    <UV> {
+      0.00181993015576154 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 3.96909356929142e-11 1 }
+    }
+    <Normal> { 0 -1 3.96909356929142e-11 }
+  }
+  <Vertex> 2 {
+    -2.3 0 0
+    <UV> {
+      0 0.0112207168713212
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 3 {
+    -2.3 0 19.3009870591968
+    <UV> {
+      0 0.987434983253479
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 4 {
+    0.73523592889983 0 0
+    <UV> {
+      0.941243290901184 0.0112207168713212
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 5 {
+    0.735235928899831 0 19.3009870591968
+    <UV> {
+      0.941243290901184 0.987434983253479
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 6 {
+    8.04915577113345 0 19.3009870591968
+    <UV> {
+      1 0.00674191582947969
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 3.96909356929142e-11 1 }
+    }
+    <Normal> { 0 -1 3.96909356929142e-11 }
+  }
+  <Vertex> 7 {
+    8.04915577113345 4.39958521003536e-10 30.3855965127875
+    <UV> {
+      1 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 3.96909356929142e-11 1 }
+    }
+    <Normal> { 0 -1 3.96909356929142e-11 }
+  }
+}
+<Group> g1 {
+  <Group> g2 {
+    <Instance> o2 {
+      <Transform> {
+        <Translate> { -0.383239386604381 0.0238742139190435 -0.0445888032843058 }
+      }
+      <Group> p3 {
+        <Billboard> { axis }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { 1 }
+          <VertexRef> { 3 2 4 5 <Ref> { vpool } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { 0 }
+          <VertexRef> { 6 7 1 0 <Ref> { vpool } }
+        }
+      }
+    }
+  }
+}

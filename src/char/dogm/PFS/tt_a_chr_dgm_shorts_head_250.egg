@@ -1,0 +1,4113 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "egg-rename -strip_prefix dogMMskirt: -strip_prefix dogMMshorts: -strip_prefix dogMMskirt500: -strip_prefix dogMMshorts500: -strip_prefix dogMMskirt200: -strip_prefix dogMMshorts200: -d PFS tt_a_chr_dgm_shorts_head_250.egg"
+}
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -subset dogMMshorts200:mm_ear_left_200 -subset dogMMshorts200:mm_ear_right_200 -subset dogMMshorts200:mm_eyes_200 -subset dogMMshorts200:mm_head_big_200 -subset dogMMshorts200:mm_muzzle_short_200 -subset dogMMshorts200:mm_nose_small_200 -subset dogMMshorts200:mm_pupil_left_200 -subset dogMMshorts200:mm_pupil_right_200 -subset dogMMshorts200:mm_head_front_short_200 -subroot dogMMshorts200:Skeleton -p -a model -cn dog-head-ls -o tt_a_chr_dgm_shorts_head_250.egg tt_a_chr_dgm_shorts_200_default.mb"
+}
+<Texture> MM_Shorts_200_zero_dogMM_cvs_PICTURES_pupils_pic {
+  "/home/lachbr/ttmodels/ttmodels/maps/pupils.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic {
+  "/home/lachbr/ttmodels/ttmodels/maps/noseBlack.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic {
+  "/home/lachbr/ttmodels/ttmodels/maps/muzzleShrtGeneric.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> MM_Shorts_200_zero_dogMM_cvs_PICTURES_eyes_pic {
+  "/home/lachbr/ttmodels/ttmodels/maps/eyes.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic {
+  "/home/lachbr/ttmodels/ttmodels/maps/LngHeadGeneric.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> dog-head-ls {
+  <Dart> { 1 }
+  <Group> MMDog_shorts_200 {
+    <Group> Controllers {
+      <Group> Main_controller {
+        <Group> xxx_fk_pelvis {
+          <Group> xx_fk_pelvis {
+            <Group> ctrl_fk_pelvis {
+              <Group> xxx_fk_spineA {
+                <Group> xx_fk_spineA {
+                  <Group> ctrl_fk_spineA {
+                    <Group> xxx_fk_spineB {
+                      <Group> xx_fk_spineB {
+                        <Group> ctrl_fk_spineB {
+                          <Group> xxx_fk_cageA {
+                            <Group> xx_fk_cageA {
+                              <Group> ctrl_fk_cageA {
+                                <Group> xxx_fk_neck {
+                                  <Group> xx_fk_neck {
+                                    <Group> ctrl_fk_neck {
+                                      <Group> xxx_fk_head {
+                                        <Group> xx_fk_head {
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              <Group> xxx_ik_cageA {
+                <Group> xx_ik_cageA {
+                  <Group> ctrl_ik_cageA {
+                    <Scalar> visibility { hidden }
+                    <Group> clst_spinetop {
+                      <Scalar> visibility { hidden }
+                    }
+                    <Group> xxx_ik_neck {
+                      <Group> xx_ik_neck {
+                      }
+                    }
+                    <Group> xxx_ik_head {
+                      <Group> xx_ik_head {
+                        <Group> ctrl_ik_head {
+                          <Scalar> visibility { hidden }
+                          <Group> HeadIk {
+                            <Scalar> visibility { hidden }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              <Group> xxx_ik_spineB {
+                <Group> xx_ik_spineB {
+                  <Group> ctrl_ik_spineB {
+                    <Scalar> visibility { hidden }
+                    <Group> clst_spinemid {
+                      <Scalar> visibility { hidden }
+                    }
+                    <Group> ctrl_ik_spineB_pointConstraint1 {
+                    }
+                  }
+                }
+              }
+              <Group> xxx_ik_booty {
+                <Group> xx_ik_booty {
+                  <Group> ctrl_ik_booty {
+                    <Scalar> visibility { hidden }
+                    <Group> xxx_ik_spineA {
+                      <Group> xx_ik_spineA {
+                        <Group> ctrl_ik_spineA {
+                          <Scalar> visibility { hidden }
+                          <Group> clst_spinebase {
+                            <Scalar> visibility { hidden }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        <Group> xxx_fk_left_hip {
+          <Group> xx_fk_left_hip {
+            <Group> ctrl_fk_left_hip {
+              <Group> xxx_fk_left_knee {
+                <Group> xx_fk_left_knee {
+                  <Group> ctrl_fk_left_knee {
+                    <Group> xxx_fk_left_ankle {
+                      <Group> xx_fk_left_ankle {
+                        <Group> ctrl_fk_left_ankle {
+                          <Group> xxx_fk_left_ball {
+                            <Group> xx_fk_left_ball {
+                            }
+                          }
+                          <Group> ptc_ctrl_fk_left_ankle {
+                          }
+                        }
+                      }
+                    }
+                    <Group> ptc_ctrl_fk_left_knee {
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Group> pc_xxx_fk_left_hip {
+          }
+        }
+        <Group> xxx_ik_left_hip {
+          <Group> xx_ik_left_hip {
+          }
+          <Group> pc_xxx_ik_left_hip {
+          }
+        }
+        <Group> xxx_fk_right_hip {
+          <Group> xx_fk_right_hip {
+            <Group> ctrl_fk_right_hip {
+              <Group> xxx_fk_right_knee {
+                <Group> xx_fk_right_knee {
+                  <Group> ctrl_fk_right_knee {
+                    <Group> xxx_fk_right_ankle {
+                      <Group> xx_fk_right_ankle {
+                        <Group> ctrl_fk_right_ankle {
+                          <Group> xxx_fk_right_ball {
+                            <Group> xx_fk_right_ball {
+                            }
+                          }
+                          <Group> ptc_ctrl_fk_right_ankle {
+                          }
+                        }
+                      }
+                    }
+                    <Group> ptc_ctrl_fk_right_knee {
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Group> pc_xxx_fk_right_hip {
+          }
+        }
+        <Group> xxx_ik_right_hip {
+          <Group> xx_ik_right_hip {
+          }
+          <Group> pc_xxx_ik_right_hip {
+          }
+        }
+        <Group> xxx_ik_right_knee {
+          <Group> xx_ik_right_knee {
+          }
+          <Group> pc_nf_right_knee {
+          }
+        }
+        <Group> xxx_ik_right_foot {
+          <Group> xx_ik_right_foot {
+            <Group> ctrl_ik_right_foot {
+              <Scalar> visibility { hidden }
+              <Group> grp_right_heelRot {
+                <Group> grp_right_toeTip {
+                  <Group> grp_right_ballRotY {
+                    <Group> grp_right_toeTap {
+                      <Group> rightToeIk {
+                        <Scalar> visibility { hidden }
+                      }
+                    }
+                    <Group> grp_right_heel {
+                      <Group> rightLegIk {
+                        <Scalar> visibility { hidden }
+                        <Group> rightLegIk_poleVectorConstraint1 {
+                        }
+                      }
+                    }
+                    <Group> rightBallIk {
+                      <Scalar> visibility { hidden }
+                    }
+                  }
+                }
+              }
+              <Group> nf_right_loc {
+                <Scalar> visibility { hidden }
+              }
+              <Group> ik_nf_right_End {
+                <Scalar> visibility { hidden }
+                <Group> pv_nf_right_leg {
+                }
+              }
+            }
+          }
+        }
+        <Group> xxx_right_sdk {
+          <Group> xx_right_sdk {
+          }
+          <Group> xxx_right_sdk_parentConstraint1 {
+          }
+        }
+        <Group> xxx_ik_left_knee {
+          <Group> xx_ik_left_knee {
+          }
+          <Group> pc_nf_left_knee {
+          }
+        }
+        <Group> xxx_ik_left_foot {
+          <Group> xx_ik_left_foot {
+            <Group> ctrl_ik_left_foot {
+              <Scalar> visibility { hidden }
+              <Group> grp_left_heelRot {
+                <Group> grp_left_toeTip {
+                  <Group> grp_left_ballRotY {
+                    <Group> grp_left_toeTap {
+                      <Group> leftToeIk {
+                        <Scalar> visibility { hidden }
+                      }
+                    }
+                    <Group> grp_left_heel {
+                      <Group> leftLegIk {
+                        <Scalar> visibility { hidden }
+                        <Group> leftLegIk_poleVectorConstraint1 {
+                        }
+                      }
+                    }
+                    <Group> leftBallIk {
+                      <Scalar> visibility { hidden }
+                    }
+                  }
+                }
+              }
+              <Group> nf_left_loc {
+                <Scalar> visibility { hidden }
+              }
+              <Group> ik_nf_left_End {
+                <Scalar> visibility { hidden }
+                <Group> pv_nf_left_leg {
+                }
+              }
+            }
+          }
+        }
+        <Group> xxx_left_sdk {
+          <Group> xx_left_sdk {
+          }
+          <Group> xxx_left_sdk_parentConstraint1 {
+          }
+        }
+        <Group> xxx_fk_left_shoulder {
+          <Group> xx_fk_left_shoulder {
+            <Group> ctrl_fk_left_shoulder {
+              <Group> xxx_fk_left_elbow {
+                <Group> xx_fk_left_elbow {
+                  <Group> ctrl_fk_left_elbow {
+                    <Group> xxx_fk_left_forearm {
+                      <Group> xx_fk_left_forearm {
+                        <Group> ctrl_fk_left_forearm {
+                          <Group> pc_ctrl_fk_left_forearm {
+                          }
+                        }
+                      }
+                    }
+                    <Group> pc_ctrl_fk_left_elbow {
+                    }
+                    <Group> xxx_fk_left_wrist {
+                      <Group> xx_fk_left_wrist {
+                        <Group> ctrl_fk_left_wrist {
+                          <Group> pc_ctrl_fk_left_wrist {
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Group> pc_xxx_fk_left_shoulder {
+          }
+        }
+        <Group> xxx_ik_left_shoulder {
+          <Group> xx_ik_left_shoulder {
+          }
+          <Group> pc_xxx_ik_left_shoulder {
+          }
+        }
+        <Group> xxx_ik_left_elbow {
+          <Group> xx_ik_left_elbow {
+          }
+        }
+        <Group> xxx_ik_left_wrist {
+          <Group> xx_ik_left_wrist {
+            <Group> ctrl_ik_left_wrist {
+              <Scalar> visibility { hidden }
+              <Group> leftWristIk {
+                <Scalar> visibility { hidden }
+                <Group> leftWristIk_poleVectorConstraint1 {
+                }
+              }
+            }
+          }
+        }
+        <Group> xxx_left_Armsdk {
+          <Group> xx_left_Armsdk {
+          }
+          <Group> xxx_left_Armsdk_parentConstraint1 {
+          }
+        }
+        <Group> xxx_fk_right_shoulder {
+          <Group> xx_fk_right_shoulder {
+            <Group> ctrl_fk_right_shoulder {
+              <Group> xxx_fk_right_elbow {
+                <Group> xx_fk_right_elbow {
+                  <Group> ctrl_fk_right_elbow {
+                    <Group> xxx_fk_right_forearm {
+                      <Group> xx_fk_right_forearm {
+                        <Group> ctrl_fk_right_forearm {
+                          <Group> pc_ctrl_fk_right_forearm {
+                          }
+                        }
+                      }
+                    }
+                    <Group> pc_ctrl_fk_right_elbow {
+                    }
+                    <Group> xxx_fk_right_wrist {
+                      <Group> xx_fk_right_wrist {
+                        <Group> ctrl_fk_right_wrist {
+                          <Group> pc_ctrl_fk_right_wrist {
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Group> pc_xxx_fk_right_shoulder {
+          }
+        }
+        <Group> xxx_ik_right_shoulder {
+          <Group> xx_ik_right_shoulder {
+          }
+          <Group> pc_xxx_ik_right_shoulder {
+          }
+        }
+        <Group> xxx_ik_right_elbow {
+          <Group> xx_ik_right_elbow {
+          }
+        }
+        <Group> xxx_ik_right_wrist {
+          <Group> xx_ik_right_wrist {
+            <Group> ctrl_ik_right_wrist {
+              <Scalar> visibility { hidden }
+              <Group> rightWristIk {
+                <Scalar> visibility { hidden }
+                <Group> rightWristIk_poleVectorConstraint1 {
+                }
+              }
+            }
+          }
+        }
+        <Group> xxx_right_Armsdk {
+          <Group> xx_right_Armsdk {
+          }
+          <Group> xxx_right_Armsdk_parentConstraint1 {
+          }
+        }
+        <Group> grp_left_fingers {
+          <Group> xxx_left_thumbA {
+            <Group> xx_left_thumbA {
+              <Group> ctrl_left_thumbA {
+                <Group> xxx_left_thumbB {
+                  <Group> xx_left_thumbB {
+                    <Group> ctrl_left_thumbB {
+                      <Group> xxx_left_thumbC {
+                        <Group> xx_left_thumbC {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Group> xxx_left_palm {
+            <Group> xx_left_palm {
+              <Group> ctrl_left_palm {
+                <Group> xxx_left_midA {
+                  <Group> xx_left_midA {
+                    <Group> ctrl_left_midA {
+                      <Group> xxx_left_midB {
+                        <Group> xx_left_midB {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Group> grp_left_fingers_parentConstraint1 {
+          }
+        }
+        <Group> grp_right_fingers {
+          <Group> xxx_right_thumbA {
+            <Group> xx_right_thumbA {
+              <Group> ctrl_right_thumbA {
+                <Group> xxx_right_thumbB {
+                  <Group> xx_right_thumbB {
+                    <Group> ctrl_right_thumbB {
+                      <Group> xxx_right_thumbC {
+                        <Group> xx_right_thumbC {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Group> xxx_right_palm {
+            <Group> xx_right_palm {
+              <Group> ctrl_right_palm {
+                <Group> xxx_right_midA {
+                  <Group> xx_right_midA {
+                    <Group> ctrl_right_midA {
+                      <Group> xxx_right_midB {
+                        <Group> xx_right_midB {
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Group> grp_right_fingers_parentConstraint1 {
+          }
+        }
+        <Group> grp_left_sleeves {
+          <Group> xxx_left_sleeve_long {
+            <Group> xx_left_sleeve_long {
+            }
+          }
+          <Group> xxx_left_sleeve_short {
+            <Group> xx_left_sleeve_short {
+            }
+          }
+          <Group> grp_left_sleeves_parentConstraint1 {
+          }
+        }
+        <Group> grp_right_sleeves {
+          <Group> xxx_right_sleeve_long {
+            <Group> xx_right_sleeve_long {
+            }
+          }
+          <Group> xxx_right_sleeve_short {
+            <Group> xx_right_sleeve_short {
+            }
+          }
+          <Group> grp_right_sleeves_parentConstraint1 {
+          }
+        }
+        <Group> grp_left_shorts {
+          <Group> xxx_left_bottomshorts {
+            <Group> xx_left_bottomshorts {
+            }
+          }
+          <Group> xxx_left_topshorts {
+            <Group> xx_left_topshorts {
+            }
+          }
+          <Group> grp_left_shorts_parentConstraint1 {
+          }
+        }
+        <Group> grp_right_shorts {
+          <Group> xxx_right_bottomshorts {
+            <Group> xx_right_bottomshorts {
+            }
+          }
+          <Group> xxx_right_topshorts {
+            <Group> xx_right_topshorts {
+            }
+          }
+          <Group> grp_right_shorts_parentConstraint1 {
+          }
+        }
+        <Group> grp_right_ear {
+          <Group> xxx_right_earA {
+            <Group> xx_right_earA {
+              <Group> ctrl_right_earA {
+                <Group> xxx_right_earB {
+                  <Group> xx_right_earB {
+                    <Group> ctrl_right_earB {
+                      <Group> xxx_right_earC {
+                        <Group> xx_right_earC {
+                          <Group> ctrl_right_earC {
+                            <Group> xxx_right_earD {
+                              <Group> xx_right_earD {
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Group> pc_grp_right_ear {
+          }
+        }
+        <Group> grp_left_ear {
+          <Group> xxx_left_earA {
+            <Group> xx_left_earA {
+              <Group> ctrl_left_earA {
+                <Group> xxx_left_earB {
+                  <Group> xx_left_earB {
+                    <Group> ctrl_left_earB {
+                      <Group> xxx_left_earC {
+                        <Group> xx_left_earC {
+                          <Group> ctrl_left_earC {
+                            <Group> xxx_left_earD {
+                              <Group> xx_left_earD {
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Group> pc_grp_left_ear {
+          }
+        }
+        <Group> RIG_DO_NOT_TOUCH {
+          <Scalar> visibility { hidden }
+          <Group> Joints {
+            <Scalar> visibility { hidden }
+            <Group> fk_left_hip {
+              <Scalar> visibility { hidden }
+              <Group> fk_left_knee {
+                <Group> fk_left_ankle {
+                  <Group> fk_left_ball {
+                    <Group> fk_left_toe {
+                    }
+                    <Group> pc_fk_left_ball {
+                    }
+                  }
+                  <Group> oc_fk_left_ankle {
+                  }
+                }
+                <Group> oc_fk_left_knee {
+                }
+              }
+              <Group> pc_fk_left_hip {
+              }
+            }
+            <Group> ik_left_hip {
+              <Scalar> visibility { hidden }
+              <Group> ik_left_knee {
+                <Group> ik_left_ankle {
+                  <Group> ik_left_ball {
+                    <Group> ik_left_toe {
+                    }
+                    <Group> effector6 {
+                      <Scalar> visibility { hidden }
+                    }
+                  }
+                  <Group> ik_left_ankle_orientConstraint1 {
+                  }
+                  <Group> effector5 {
+                    <Scalar> visibility { hidden }
+                  }
+                }
+                <Group> effector7 {
+                  <Scalar> visibility { hidden }
+                }
+              }
+              <Group> ik_left_hip_parentConstraint1 {
+              }
+            }
+            <Group> fk_right_hip {
+              <Scalar> visibility { hidden }
+              <Group> fk_right_knee {
+                <Group> fk_right_ankle {
+                  <Group> fk_right_ball {
+                    <Group> fk_right_toe {
+                    }
+                    <Group> pc_fk_right_ball {
+                    }
+                  }
+                  <Group> oc_fk_right_ankle {
+                  }
+                }
+                <Group> oc_fk_right_knee {
+                }
+              }
+              <Group> pc_fk_right_hip {
+              }
+            }
+            <Group> ik_right_hip {
+              <Scalar> visibility { hidden }
+              <Group> ik_right_knee {
+                <Group> ik_right_ankle {
+                  <Group> ik_right_ball {
+                    <Group> ik_right_toe {
+                    }
+                    <Group> effector9 {
+                      <Scalar> visibility { hidden }
+                    }
+                  }
+                  <Group> ik_right_ankle_orientConstraint1 {
+                  }
+                  <Group> effector8 {
+                    <Scalar> visibility { hidden }
+                  }
+                }
+                <Group> effector10 {
+                  <Scalar> visibility { hidden }
+                }
+              }
+              <Group> ik_right_hip_parentConstraint1 {
+              }
+            }
+            <Group> fk_left_shoulder {
+              <Scalar> visibility { hidden }
+              <Group> fk_left_elbow {
+                <Group> fk_left_forearm {
+                  <Group> fk_left_wrist {
+                    <Group> fk_left_wrist_orientConstraint1 {
+                    }
+                  }
+                  <Group> fk_left_forearm_orientConstraint1 {
+                  }
+                }
+                <Group> fk_left_elbow_orientConstraint1 {
+                }
+              }
+              <Group> fk_left_shoulder_parentConstraint1 {
+              }
+            }
+            <Group> ik_left_shoulder {
+              <Scalar> visibility { hidden }
+              <Group> ik_left_elbow {
+                <Group> ik_left_forearm {
+                  <Group> ik_left_wrist {
+                    <Group> pc_gd_left_wrist {
+                    }
+                    <Group> ik_left_wrist_orientConstraint1 {
+                    }
+                  }
+                  <Group> ptc_gd_left_forearm {
+                  }
+                }
+                <Group> pc_gd_left_elbow {
+                }
+              }
+              <Group> pc_gd_left_shoulder {
+              }
+            }
+            <Group> gd_left_shoulder {
+              <Scalar> visibility { hidden }
+              <Group> gd_left_elbow {
+                <Group> gd_left_wrist {
+                }
+                <Group> effector3 {
+                  <Scalar> visibility { hidden }
+                }
+              }
+              <Group> gd_left_shoulder_parentConstraint1 {
+              }
+            }
+            <Group> fk_right_shoulder {
+              <Scalar> visibility { hidden }
+              <Group> fk_right_elbow {
+                <Group> fk_right_forearm {
+                  <Group> fk_right_wrist {
+                    <Group> fk_right_wrist_orientConstraint1 {
+                    }
+                  }
+                  <Group> fk_right_forearm_orientConstraint1 {
+                  }
+                }
+                <Group> fk_right_elbow_orientConstraint1 {
+                }
+              }
+              <Group> fk_right_shoulder_parentConstraint1 {
+              }
+            }
+            <Group> ik_right_shoulder {
+              <Scalar> visibility { hidden }
+              <Group> ik_right_elbow {
+                <Group> ik_right_forearm {
+                  <Group> ik_right_wrist {
+                    <Group> pc_gd_right_wrist {
+                    }
+                    <Group> ik_right_wrist_orientConstraint1 {
+                    }
+                  }
+                  <Group> ptc_gd_right_forearm {
+                  }
+                }
+                <Group> pc_gd_right_elbow {
+                }
+              }
+              <Group> pc_gd_right_shoulder {
+              }
+            }
+            <Group> gd_right_shoulder {
+              <Scalar> visibility { hidden }
+              <Group> gd_right_elbow {
+                <Group> gd_right_wrist {
+                }
+                <Group> effector4 {
+                  <Scalar> visibility { hidden }
+                }
+              }
+              <Group> gd_right_shoulder_parentConstraint1 {
+              }
+            }
+            <Group> fk_spineA {
+              <Scalar> visibility { hidden }
+              <Group> fk_spineB {
+                <Group> fk_cageA {
+                  <Group> fk_cageB {
+                    <Group> fk_neck {
+                      <Group> fk_head {
+                        <Group> pc_fk_head {
+                        }
+                      }
+                      <Group> pc_fk_neck {
+                      }
+                    }
+                  }
+                  <Group> pc_fk_cageA {
+                  }
+                }
+                <Group> pc_fk_spineB {
+                }
+              }
+              <Group> pc_fk_spineA {
+              }
+            }
+            <Group> ik_spineA {
+              <Scalar> visibility { hidden }
+              <Group> ik_spineB {
+                <Group> ik_cageA {
+                }
+                <Group> effector13 {
+                  <Scalar> visibility { hidden }
+                }
+              }
+            }
+            <Group> ik_neck {
+              <Scalar> visibility { hidden }
+              <Group> ik_head {
+                <Group> ik_head_orientConstraint1 {
+                }
+              }
+              <Group> effector14 {
+                <Scalar> visibility { hidden }
+              }
+              <Group> ik_neck_parentConstraint1 {
+              }
+            }
+            <Group> nf_left_Start {
+              <Scalar> visibility { hidden }
+              <Group> nf_left_End {
+              }
+              <Group> effector15 {
+                <Scalar> visibility { hidden }
+              }
+            }
+            <Group> nf_right_Start {
+              <Scalar> visibility { hidden }
+              <Group> nf_right_End {
+              }
+              <Group> effector16 {
+                <Scalar> visibility { hidden }
+              }
+            }
+          }
+          <Group> Extras {
+            <Scalar> visibility { hidden }
+            <Group> spineIk {
+              <Scalar> visibility { hidden }
+            }
+          }
+        }
+        <Joint> Skeleton {
+          <Transform> {
+            <Matrix4> {
+              1 0 0 0
+              0 1 0 0
+              0 0 1 0
+              0 0 0 1
+            }
+          }
+          <Scalar> visibility { hidden }
+          <Joint> root {
+            <Transform> {
+              <Matrix4> {
+                1 0 0 0
+                0 1 0 0
+                0 0 1 0
+                0 7.39808020003512 -0.249552007109474 1
+              }
+            }
+            <Scalar> visibility { hidden }
+            <Group> pc_ik_rootbooty {
+            }
+            <Joint> MAIN1 {
+              <Transform> {
+                <Matrix4> {
+                  1 0 0 0
+                  0 1 0 0
+                  0 0 1 0
+                  0 0 0 1
+                }
+              }
+              <Joint> def_pelvis {
+                <Transform> {
+                  <Matrix4> {
+                    1 0 0 0
+                    0 1 0 0
+                    0 0 1 0
+                    0 0 0 1
+                  }
+                }
+                <Group> pc_ik_booty {
+                }
+                <Joint> def_left_hip {
+                  <Transform> {
+                    <Matrix4> {
+                      -0.000861741923435577 -0.940450851706136 0.339928599747155 0
+                      0 -0.339928725962569 -0.940451200895328 0
+                      0.99999962870036 -0.000810426226757421 0.000292930834140726 0
+                      0.841699998209796 0.000209758287960807 -0.517800004463498 1
+                    }
+                  }
+                  <Group> pc_left_Hip {
+                  }
+                  <Group> sc_lefthip {
+                  }
+                  <Joint> def_left_knee {
+                    <Transform> {
+                      <Matrix4> {
+                        0.845750026700457 0.533576977542737 0.0015815728036368 0
+                        -0.533576977542737 0.845751381907011 -0.000457207543882246 0
+                        -0.0015815728036368 -0.000457207543882256 0.999998644793447 0
+                        3.59737020737767 0 0 1
+                      }
+                    }
+                    <Group> pc_left_Knee {
+                    }
+                    <Group> sc_leftknee {
+                    }
+                    <Joint> def_left_ankle {
+                      <Transform> {
+                        <Matrix4> {
+                          -0.214306421158785 -0.976766463141645 0.000185288626671195 0
+                          0.976766108472818 -0.214306501242987 -0.000832384440633525 0
+                          0.000852753763353766 2.59832031746843e-06 0.999999636402067 0
+                          3.63528621530246 0 0 1
+                        }
+                      }
+                      <Group> pc_left_Ankle {
+                      }
+                      <Joint> def_left_ball {
+                        <Transform> {
+                          <Matrix4> {
+                            0.999999999999463 -1.03643217989675e-06 0 0
+                            1.03643217989675e-06 0.999999999999463 0 0
+                            0 0 1 0
+                            1.65705399250362 -1.71742379087446e-06 0 1
+                          }
+                        }
+                        <Group> pc_left_Ball {
+                        }
+                        <Joint> def_left_toe {
+                          <Transform> {
+                            <Matrix4> {
+                              1 0 0 0
+                              0 1 0 0
+                              0 0 1 0
+                              1.62441847750321 -9.81513698838134e-07 -3.29827270773748e-10 1
+                            }
+                          }
+                          <Group> pc_left_Toe {
+                          }
+                        }
+                      }
+                    }
+                  }
+                  <Joint> def_left_pant_top {
+                    <Transform> {
+                      <Matrix4> {
+                        0.994121543825439 0.108269551849601 -0.000245447370946111 0
+                        -0.108269577405414 0.99412156696426 -9.33004685254672e-05 0
+                        0.000233902925097596 0.00011932648893778 0.999999965525305 0
+                        1.61737269441027 1.30804778662107e-06 -2.71195120486912e-07 1
+                      }
+                    }
+                    <Group> pc_def_left_pant_top {
+                    }
+                  }
+                  <Joint> def_left_pant_bottom {
+                    <Transform> {
+                      <Matrix4> {
+                        0.994121543825439 0.108269551849601 -0.000245447370946111 0
+                        -0.108269577405414 0.99412156696426 -9.33004685254672e-05 0
+                        0.000233902925097596 0.00011932648893778 0.999999965525305 0
+                        3.25729322102969 0.592755404960227 0.00141291759848809 1
+                      }
+                    }
+                    <Group> pc_def_left_pant_bottom {
+                    }
+                  }
+                }
+                <Joint> def_right_hip {
+                  <Transform> {
+                    <Matrix4> {
+                      -0.000861741923435133 0.940450851706136 -0.339928599747155 0
+                      0 0.339928725962569 0.940451200895328 0
+                      0.99999962870036 0.000810426226755645 -0.000292930834143945 0
+                      -0.8417 0.000209799964878542 -0.517799992890526 1
+                    }
+                  }
+                  <Group> pc_right_Hip {
+                  }
+                  <Group> sc_righthip {
+                  }
+                  <Joint> def_right_knee {
+                    <Transform> {
+                      <Matrix4> {
+                        0.845750026700457 0.533576977542737 0.0015815728036369 0
+                        -0.533576977542737 0.845751381907011 -0.000457207543882281 0
+                        -0.0015815728036369 -0.000457207543882282 0.999998644793446 0
+                        -3.59737031862178 -5.86766146898329e-08 -4.81767813161231e-09 1
+                      }
+                    }
+                    <Group> pc_right_Knee {
+                    }
+                    <Group> sc_rightknee {
+                    }
+                    <Joint> def_right_ankle {
+                      <Transform> {
+                        <Matrix4> {
+                          -0.214307490570089 -0.976766228507793 0.000185289538006179 0
+                          0.976765873839054 -0.21430757065468 -0.000832384237370135 0
+                          0.000852753762963194 2.59832040294916e-06 0.999999636402068 0
+                          -3.63528612496596 -1.53435174743538e-08 4.6448269552539e-09 1
+                        }
+                      }
+                      <Group> pc_right_Ankle {
+                      }
+                      <Joint> def_right_ball {
+                        <Transform> {
+                          <Matrix4> {
+                            0.999999999999998 5.84171482411761e-08 0 0
+                            -5.84171482411761e-08 0.999999999999998 0 0
+                            0 0 1 0
+                            -1.6570540000003 -9.55672885825862e-08 0 1
+                          }
+                        }
+                        <Group> pc_right_Ball {
+                        }
+                        <Joint> def_right_toe {
+                          <Transform> {
+                            <Matrix4> {
+                              1 0 0 0
+                              0 1 0 0
+                              0 0 1 0
+                              -1.6244199999997 9.81514617088736e-07 0 1
+                            }
+                          }
+                          <Group> pc_right_Toe {
+                          }
+                        }
+                      }
+                    }
+                  }
+                  <Joint> def_right_pant_top {
+                    <Transform> {
+                      <Matrix4> {
+                        0.994121543825439 0.1082695518496 -0.000245447370946085 0
+                        -0.108269577405412 0.994121566964261 -9.33004656576699e-05 0
+                        0.000233902925408065 0.000119326486086837 0.999999965525305 0
+                        -1.61737271861937 -1.32217238335971e-06 2.42122635385186e-07 1
+                      }
+                    }
+                    <Group> pc_def_right_pant_top {
+                    }
+                  }
+                  <Joint> def_right_pant_bottom {
+                    <Transform> {
+                      <Matrix4> {
+                        0.994121543825439 0.1082695518496 -0.000245447370946085 0
+                        -0.108269577405412 0.994121566964261 -9.33004656576699e-05 0
+                        0.000233902925408065 0.000119326486086837 0.999999965525305 0
+                        -3.25729329579045 -0.592755437356872 -0.00141294671453228 1
+                      }
+                    }
+                    <Group> pc_def_right_pant_bottom {
+                    }
+                  }
+                }
+              }
+              <Joint> def_spineA {
+                <Transform> {
+                  <Matrix4> {
+                    1 0 0 0
+                    0 0.995137831760703 0.098492110336849 0
+                    0 -0.098492110336849 0.995137831760703 0
+                    0 0 0 1
+                  }
+                }
+                <Group> pc_spineA {
+                }
+                <Joint> def_spineB {
+                  <Transform> {
+                    <Matrix4> {
+                      1 0 0 0
+                      0 0.996945355466515 -0.0781022292495198 0
+                      0 0.0781022292495198 0.996945355466515 0
+                      0 1.19897933605801 0 1
+                    }
+                  }
+                  <Group> pc_spineB {
+                  }
+                  <Joint> def_cageA {
+                    <Transform> {
+                      <Matrix4> {
+                        1 0 0 0
+                        0 0.960860174688496 -0.277033797031325 0
+                        0 0.277033797031325 0.960860174688496 0
+                        0 1.80714839463482 0 1
+                      }
+                    }
+                    <Group> pc_cageA {
+                    }
+                    <Joint> def_cageB {
+                      <Transform> {
+                        <Matrix4> {
+                          1 0 0 0
+                          0 0.983196544534148 0.182550143292498 0
+                          0 -0.182550143292498 0.983196544534148 0
+                          0 1.53440813596443 0 1
+                        }
+                      }
+                      <Group> pc_cageB {
+                      }
+                      <Joint> def_neck {
+                        <Transform> {
+                          <Matrix4> {
+                            1 0 0 0
+                            0 0.98151479835741 0.191386260231536 0
+                            0 -0.191386260231536 0.98151479835741 0
+                            0 0.634129580742195 0 1
+                          }
+                        }
+                        <Group> pc_neck {
+                        }
+                        <Joint> def_head {
+                          <Transform> {
+                            <Matrix4> {
+                              1 0 0 0
+                              0 0.996694858278262 -0.0812364418329301 0
+                              0 0.0812364418329301 0.996694858278262 0
+                              0 2.22829841885596 0 1
+                            }
+                          }
+                          <Group> pc_head {
+                          }
+                          <Joint> def_headtip {
+                            <Transform> {
+                              <Matrix4> {
+                                1 0 0 0
+                                0 1 0 0
+                                0 0 1 0
+                                0 3.34155387365921 0 1
+                              }
+                            }
+                          }
+                          <Joint> def_left_earA {
+                            <Transform> {
+                              <Matrix4> {
+                                0.882317630392144 0.0667951092249517 -0.465890558482159 0
+                                7.13402521085316e-09 0.989878180104832 0.141919655271372 0
+                                0.470654437033363 -0.125218217268782 0.873386969770466 0
+                                1.20657998432758 2.12437151468688 -0.396155704637739 1
+                              }
+                            }
+                            <Group> pc_def_left_earA {
+                            }
+                            <Joint> def_left_earB {
+                              <Transform> {
+                                <Matrix4> {
+                                  0.142543601864298 -0.979543309212373 0.1420430460981 0
+                                  0.871175061132199 0.192282378683459 0.451753804310644 0
+                                  -0.469824791202914 0.0593497449455772 0.8807623251173 0
+                                  0.676128340313071 5.46967219256932e-09 1.74591166837326e-11 1
+                                }
+                              }
+                              <Group> pc_def_left_earB {
+                              }
+                              <Joint> def_left_earC {
+                                <Transform> {
+                                  <Matrix4> {
+                                    0.963513072346544 -0.240536704192875 0.117408063408575 0
+                                    0.241527446135852 0.970375872871923 0.00592942755647443 0
+                                    -0.115356196974483 0.0226441887486344 0.993066054467426 0
+                                    1.26766490926261 5.06713854311184e-09 -1.19751030905386e-08 1
+                                  }
+                                }
+                                <Group> pc_def_left_earC {
+                                }
+                                <Joint> def_left_earD {
+                                  <Transform> {
+                                    <Matrix4> {
+                                      1 0 0 0
+                                      0 1 0 0
+                                      0 0 1 0
+                                      1.42391251366662 5.60812195749111e-09 -1.38164750564963e-08 1
+                                    }
+                                  }
+                                  <Group> pc_def_left_earD {
+                                  }
+                                  <VertexRef> {
+                                    5
+                                    <Scalar> membership { 1.025426712431e-07 }
+                                    <Ref> { mm_ear_left_200Shape.verts }
+                                  }
+                                  <VertexRef> {
+                                    2
+                                    <Scalar> membership { 3.2838133279256e-07 }
+                                    <Ref> { mm_ear_left_200Shape.verts }
+                                  }
+                                  <VertexRef> {
+                                    6
+                                    <Scalar> membership { 0.960310518741608 }
+                                    <Ref> { mm_ear_left_200Shape.verts }
+                                  }
+                                  <VertexRef> {
+                                    3
+                                    <Scalar> membership { 0.999174118041992 }
+                                    <Ref> { mm_ear_left_200Shape.verts }
+                                  }
+                                }
+                                <VertexRef> {
+                                  3
+                                  <Scalar> membership { 0.000825884228106588 }
+                                  <Ref> { mm_ear_left_200Shape.verts }
+                                }
+                                <VertexRef> {
+                                  6
+                                  <Scalar> membership { 0.0396894998848438 }
+                                  <Ref> { mm_ear_left_200Shape.verts }
+                                }
+                              }
+                              <VertexRef> {
+                                4
+                                <Scalar> membership { 0.473484873771667 }
+                                <Ref> { mm_ear_left_200Shape.verts }
+                              }
+                              <VertexRef> {
+                                5
+                                <Scalar> membership { 0.540968716144562 }
+                                <Ref> { mm_ear_left_200Shape.verts }
+                              }
+                              <VertexRef> {
+                                2
+                                <Scalar> membership { 0.99694299697876 }
+                                <Ref> { mm_ear_left_200Shape.verts }
+                              }
+                            }
+                            <VertexRef> {
+                              0
+                              <Scalar> membership { 0.00304257543757558 }
+                              <Ref> { mm_ear_left_200Shape.verts }
+                            }
+                            <VertexRef> {
+                              2
+                              <Scalar> membership { 0.00305668474175036 }
+                              <Ref> { mm_ear_left_200Shape.verts }
+                            }
+                            <VertexRef> {
+                              1
+                              <Scalar> membership { 0.0292327404022217 }
+                              <Ref> { mm_ear_left_200Shape.verts }
+                            }
+                            <VertexRef> {
+                              5
+                              <Scalar> membership { 0.459031194448471 }
+                              <Ref> { mm_ear_left_200Shape.verts }
+                            }
+                            <VertexRef> {
+                              4
+                              <Scalar> membership { 0.526515126228333 }
+                              <Ref> { mm_ear_left_200Shape.verts }
+                            }
+                          }
+                          <Joint> def_right_earA {
+                            <Transform> {
+                              <Matrix4> {
+                                0.882317521075224 -0.0667964644321963 0.465890571210698 0
+                                0 -0.989877778035067 -0.14192245964737 0
+                                0.470654641965499 0.125220672780966 -0.873386507283351 0
+                                -1.20658000000192 2.12437072212642 -0.396155647254956 1
+                              }
+                            }
+                            <Group> pc_def_right_earA {
+                            }
+                            <Joint> def_right_earB {
+                              <Transform> {
+                                <Matrix4> {
+                                  0.142542263502205 -0.979543144050862 0.142045528119052 0
+                                  0.871175212446 0.192282347137761 0.4517535259396 0
+                                  -0.469824916682092 0.0593525730035869 0.880762067611065 0
+                                  -0.676128475011225 2.71348997514684e-12 1.74628465668599e-11 1
+                                }
+                              }
+                              <Group> pc_def_right_earB {
+                              }
+                              <Joint> def_right_earC {
+                                <Transform> {
+                                  <Matrix4> {
+                                    0.963513072346545 -0.240536704192874 0.117408063408575 0
+                                    0.241527446135853 0.970375872871923 0.00592942755646135 0
+                                    -0.11535619697448 0.022644188748647 0.993066054467426 0
+                                    -1.26766480297002 3.36731284442472e-08 2.0807357237021e-08 1
+                                  }
+                                }
+                                <Group> pc_def_right_earC {
+                                }
+                                <Joint> def_right_earD {
+                                  <Transform> {
+                                    <Matrix4> {
+                                      1 0 0 0
+                                      0 1 0 0
+                                      0 0 1 0
+                                      -1.42391239983363 7.52416755905274e-08 1.37113818695001e-08 1
+                                    }
+                                  }
+                                  <Group> pc_def_right_earD {
+                                  }
+                                  <VertexRef> {
+                                    4
+                                    <Scalar> membership { 0.000250519980909303 }
+                                    <Ref> { mm_ear_right_200Shape.verts }
+                                  }
+                                  <VertexRef> {
+                                    0 3
+                                    <Scalar> membership { 1 }
+                                    <Ref> { mm_ear_right_200Shape.verts }
+                                  }
+                                }
+                              }
+                              <VertexRef> {
+                                2
+                                <Scalar> membership { 0.508447110652924 }
+                                <Ref> { mm_ear_right_200Shape.verts }
+                              }
+                              <VertexRef> {
+                                1
+                                <Scalar> membership { 0.571449875831604 }
+                                <Ref> { mm_ear_right_200Shape.verts }
+                              }
+                              <VertexRef> {
+                                4
+                                <Scalar> membership { 0.997381746768951 }
+                                <Ref> { mm_ear_right_200Shape.verts }
+                              }
+                            }
+                            <VertexRef> {
+                              4
+                              <Scalar> membership { 0.00236771092750132 }
+                              <Ref> { mm_ear_right_200Shape.verts }
+                            }
+                            <VertexRef> {
+                              6
+                              <Scalar> membership { 0.00304466485977173 }
+                              <Ref> { mm_ear_right_200Shape.verts }
+                            }
+                            <VertexRef> {
+                              5
+                              <Scalar> membership { 0.0292336344718933 }
+                              <Ref> { mm_ear_right_200Shape.verts }
+                            }
+                            <VertexRef> {
+                              1
+                              <Scalar> membership { 0.428550124168396 }
+                              <Ref> { mm_ear_right_200Shape.verts }
+                            }
+                            <VertexRef> {
+                              2
+                              <Scalar> membership { 0.491552889347076 }
+                              <Ref> { mm_ear_right_200Shape.verts }
+                            }
+                          }
+                          <Joint> def_left_pupil {
+                            <Transform> {
+                              <Matrix4> {
+                                0.999999999999999 0 -2.81259465574567e-08 0
+                                -9.79986653654453e-10 0.999392805396897 -0.0348427972602629 0
+                                2.81088686344998e-08 0.0348427972602629 0.999392805396897 0
+                                0.858354400785133 1.25940462738215 1.42073906490166 1
+                              }
+                            }
+                            <VertexRef> {
+                              0 1 2 3 4 5
+                              <Ref> { mm_pupil_left_200Shape.verts }
+                            }
+                          }
+                          <Joint> def_right_pupil {
+                            <Transform> {
+                              <Matrix4> {
+                                0.999999999999999 0 -2.81259465574567e-08 0
+                                9.79986653654459e-10 -0.999392805396897 0.0348427972602631 0
+                                -2.81088686344998e-08 -0.0348427972602631 -0.999392805396897 0
+                                -0.858353959992458 1.25938792009811 1.42074107391889 1
+                              }
+                            }
+                            <VertexRef> {
+                              0 1 2 3 4 5
+                              <Ref> { mm_pupil_right_200Shape.verts }
+                            }
+                          }
+                          <VertexRef> {
+                            1
+                            <Scalar> membership { 0.970767259597778 }
+                            <Ref> { mm_ear_left_200Shape.verts }
+                          }
+                          <VertexRef> {
+                            0
+                            <Scalar> membership { 0.996957421302795 }
+                            <Ref> { mm_ear_left_200Shape.verts }
+                          }
+                          <VertexRef> {
+                            5
+                            <Scalar> membership { 0.970766365528107 }
+                            <Ref> { mm_ear_right_200Shape.verts }
+                          }
+                          <VertexRef> {
+                            6
+                            <Scalar> membership { 0.996955335140228 }
+                            <Ref> { mm_ear_right_200Shape.verts }
+                          }
+                          <VertexRef> {
+                            0 1 2 3 4 5 6 7 8 9 10 11 12 13
+                            <Scalar> membership { 1 }
+                            <Ref> { mm_eyes_200Shape.verts }
+                          }
+                          <VertexRef> {
+                            0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+                            18 19 20 21 22 23 24 25 26 27 28 29 30 31
+                            <Scalar> membership { 1 }
+                            <Ref> { mm_nose_small_200Shape.verts }
+                          }
+                          <VertexRef> {
+                            0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+                            18 19 20 21 22 23 24 25 26 27 28 29 30 31
+                            <Scalar> membership { 1 }
+                            <Ref> { mm_head_big_200Shape.verts }
+                          }
+                          <VertexRef> {
+                            0 1 2 3 4 5 6 7 8 9 10 11
+                            <Scalar> membership { 1 }
+                            <Ref> { mm_head_front_short_200Shape.verts }
+                          }
+                          <VertexRef> {
+                            0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17
+                            18 19 20 21 22 23 24 25 26 27 28 29 30 31 32
+                            33 34 35 36 37 38 39 40 41 42 43 44 45
+                            <Scalar> membership { 1 }
+                            <Ref> { mm_muzzle_short_200Shape.verts }
+                          }
+                        }
+                        <Joint> def_toHead {
+                          <Transform> {
+                            <Matrix4> {
+                              1 0 0 0
+                              0 1 0 0
+                              0 0 1 0
+                              0 2.22829841885597 0 1
+                            }
+                          }
+                        }
+                      }
+                      <Joint> def_joint_attachFlower {
+                        <Transform> {
+                          <Matrix4> {
+                            0 0.999916931602328 0.0128891386439989 0
+                            0 -0.0128891386439989 0.999916931602328 0
+                            1 0 0 0
+                            0.940653971173944 -1.65524501457819 2.52471530443718 1
+                          }
+                        }
+                      }
+                      <Joint> def_left_shoulder {
+                        <Transform> {
+                          <Matrix4> {
+                            0.999105516314245 0.00323835534568973 -0.0421625464731565 0
+                            0 0.997063371449046 0.0765808939270268 0
+                            0.0422867268826287 -0.0765123935667783 0.99617151452962 0
+                            1.61786004314272 0.000281453804137859 0.000991067783941886 1
+                          }
+                        }
+                        <Group> pc_left_shoulder {
+                        }
+                        <Group> sc_leftshoulder {
+                        }
+                        <Joint> def_left_elbow {
+                          <Transform> {
+                            <Matrix4> {
+                              0.995904762683142 0 0.0904085375671726 0
+                              0 1 0 0
+                              -0.0904085375671726 0 0.995904762683142 0
+                              3.14961724971686 0 3.28079721453564e-09 1
+                            }
+                          }
+                          <Group> pc_left_elbow {
+                          }
+                          <Group> sc_leftelbow {
+                          }
+                          <Joint> def_left_forearm {
+                            <Transform> {
+                              <Matrix4> {
+                                0.998837023206095 0 -0.0482141169450115 0
+                                0 1 0 0
+                                0.0482141169450114 0 0.998837023206095 0
+                                2.83174309149669 0 2.94968424139201e-09 1
+                              }
+                            }
+                            <Group> pc_left_forearm {
+                            }
+                            <Joint> def_left_wrist {
+                              <Transform> {
+                                <Matrix4> {
+                                  1 0 0 0
+                                  0 1 0 0
+                                  0 0 1 0
+                                  0.446570388914103 0 4.65168702623703e-10 1
+                                }
+                              }
+                              <Group> pc_left_wrist {
+                              }
+                              <Joint> def_left_palm {
+                                <Transform> {
+                                  <Matrix4> {
+                                    0.997673635244915 0.0681712366163866 -5.94888055451914e-06 0
+                                    -0.0681712367845348 0.997673634627578 -3.52741445261001e-05 0
+                                    3.53035923186305e-06 3.55976265443938e-05 0.999999999360173 0
+                                    0.450369567070108 0 4.69127857004537e-10 1
+                                  }
+                                }
+                                <Group> pc_def_left_palm {
+                                }
+                                <Joint> def_left_midA {
+                                  <Transform> {
+                                    <Matrix4> {
+                                      0.999653289173163 -0.0263306180067268 -8.12809614282529e-07 0
+                                      0.0263306180067355 0.999653289173493 0 0
+                                      8.12527804389368e-07 -2.14017794658753e-08 0.99999999999967 0
+                                      0.850819544504309 0 8.84190941519293e-10 1
+                                    }
+                                  }
+                                  <Group> pc_def_left_midA {
+                                  }
+                                  <Joint> def_left_midB {
+                                    <Transform> {
+                                      <Matrix4> {
+                                        1 0 0 0
+                                        0 1 0 0
+                                        0 0 1 0
+                                        0.921708554208347 0 9.5925221688313e-10 1
+                                      }
+                                    }
+                                    <Group> pc_def_left_midB {
+                                    }
+                                  }
+                                }
+                                <Joint> def_left_thumbA {
+                                  <Transform> {
+                                    <Matrix4> {
+                                      0.490924854229943 -0.0335450974933124 0.870555864912455 0
+                                      0.0681712367845632 0.997673635251152 1.20474601211784e-07 0
+                                      -0.868530638477752 0.0593468108571612 0.492069594738907 0
+                                      -0.0174510913992504 0.0151259019683324 0.549165539923175 1
+                                    }
+                                  }
+                                  <Group> pc_def_left_thumbA {
+                                  }
+                                  <Joint> def_left_thumbB {
+                                    <Transform> {
+                                      <Matrix4> {
+                                        0.999998392958989 0.00171075983788977 -0.000536078553642904 0
+                                        -0.00171127782288433 0.99999806794311 -0.000967283960033318 0
+                                        0.000534422727357981 0.000968199784908498 0.999999388490576 0
+                                        0.383073728156858 0 3.99024761905425e-10 1
+                                      }
+                                    }
+                                    <Group> pc_def_left_thumbB {
+                                    }
+                                    <Joint> def_left_thumbC {
+                                      <Transform> {
+                                        <Matrix4> {
+                                          1 0 0 0
+                                          0 1 0 0
+                                          0 0 1 0
+                                          0.515575249590176 0 5.3704069479596e-10 1
+                                        }
+                                      }
+                                      <Group> pc_def_left_thumbC {
+                                      }
+                                    }
+                                  }
+                                }
+                                <Joint> grp_joint_left_hold {
+                                  <Transform> {
+                                    <Matrix4> {
+                                      -1 0 0 0
+                                      0 -1 0 0
+                                      0 0 1 0
+                                      1.01719092905419 -0.118319072793 0.00482904396849558 1
+                                    }
+                                  }
+                                  <Joint> def_joint_left_hold {
+                                    <Transform> {
+                                      <Matrix4> {
+                                        1 0 0 0
+                                        0 1 0 0
+                                        0 0 1 0
+                                        0 0 0 1
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            <Joint> def_left_neg_wrist {
+                              <Transform> {
+                                <Matrix4> {
+                                  1 0 0 0
+                                  0 1 0 0
+                                  0 0 1 0
+                                  0.446570388914103 0 4.65168819182551e-10 1
+                                }
+                              }
+                            }
+                          }
+                        }
+                        <Joint> def_left_sleeve_long {
+                          <Transform> {
+                            <Matrix4> {
+                              0.999941788349412 -1.11767608590999e-06 0.0107898058986198 0
+                              1.50021259744237e-06 0.999999999370686 -3.54454182010024e-05 0
+                              -0.0107898058522132 3.54595418674362e-05 0.999941787721812 0
+                              1.14586479898752 -3.39986605625109e-05 -1.57012376911732e-07 1
+                            }
+                          }
+                          <Group> pc_def_left_sleeve_long {
+                          }
+                        }
+                        <Joint> def_left_sleeve_short {
+                          <Transform> {
+                            <Matrix4> {
+                              0.999941788349412 -1.11767608590999e-06 0.0107898058986198 0
+                              1.50021259744237e-06 0.999999999370686 -3.54454182010024e-05 0
+                              -0.0107898058522132 3.54595418674362e-05 0.999941787721812 0
+                              0.303623129684709 -3.393754097811e-07 0.00327612958497632 1
+                            }
+                          }
+                          <Group> pc_def_left_sleeve_short {
+                          }
+                        }
+                      }
+                      <Joint> def_right_shoulder {
+                        <Transform> {
+                          <Matrix4> {
+                            0.999105516314245 -0.00323835534568976 0.0421625464731568 0
+                            0 -0.997063371449052 -0.0765808939269417 0
+                            0.0422867268826291 0.0765123935666931 -0.996171514529626 0
+                            -1.61786 0.000281543395893279 0.000991061055049144 1
+                          }
+                        }
+                        <Group> pc_right_shoulder {
+                        }
+                        <Group> sc_rightshoulder {
+                        }
+                        <Joint> def_right_elbow {
+                          <Transform> {
+                            <Matrix4> {
+                              0.995904762683141 0 0.0904085375671724 0
+                              -1.90521747178044e-09 0.999999999999999 2.09871236185356e-08 0
+                              -0.0904085375671724 -2.10734242920906e-08 0.995904762683142 0
+                              -3.14961728103098 0 -5.7529108336261e-09 1
+                            }
+                          }
+                          <Group> pc_right_elbow {
+                          }
+                          <Group> sc_rightelbow {
+                          }
+                          <Joint> def_right_forearm {
+                            <Transform> {
+                              <Matrix4> {
+                                0.998837023206095 0 -0.0482141169450118 0
+                                -1.01721954485482e-09 1 -2.10734242688431e-08 0
+                                0.0482141169450117 2.10979607075447e-08 0.998837023206094 0
+                                -2.83174325167378 0 -2.65489106348037e-09 1
+                              }
+                            }
+                            <Group> pc_right_forearm {
+                            }
+                            <Joint> def_right_wrist {
+                              <Transform> {
+                                <Matrix4> {
+                                  1 0 0 0
+                                  0 1 0 0
+                                  0 0 1 0
+                                  -0.446570000000001 4.53628385948259e-10 -4.65168819182551e-10 1
+                                }
+                              }
+                              <Group> pc_right_wrist {
+                              }
+                              <Joint> def_right_palm {
+                                <Transform> {
+                                  <Matrix4> {
+                                    0.997673635314179 0.0681712356027138 -5.94887721078694e-06 0
+                                    -0.0681712357708617 0.997673634696844 -3.52740946149968e-05 0
+                                    3.53035933457966e-06 3.55975765178687e-05 0.999999999360175 0
+                                    -0.450370000000002 9.15085796580825e-10 -4.69127565607417e-10 1
+                                  }
+                                }
+                                <Group> pc_def_right_palm {
+                                }
+                                <Joint> def_right_midA {
+                                  <Transform> {
+                                    <Matrix4> {
+                                      0.999653289173163 -0.0263306180067268 -8.12809588589539e-07 0
+                                      0.0263306180067354 0.999653289173493 0 0
+                                      8.12527778705286e-07 -2.14017787893629e-08 0.99999999999967 0
+                                      -0.850819220294783 1.40251171283281e-06 -6.22594858724242e-08 1
+                                    }
+                                  }
+                                  <Group> pc_def_right_midA {
+                                  }
+                                  <Joint> def_right_midB {
+                                    <Transform> {
+                                      <Matrix4> {
+                                        1 0 0 0
+                                        0 1 0 0
+                                        0 0 1 0
+                                        -0.921718605716988 -4.84033684524619e-08 -3.75354381114387e-07 1
+                                      }
+                                    }
+                                    <Group> pc_def_right_midB {
+                                    }
+                                  }
+                                }
+                                <Joint> def_right_thumbA {
+                                  <Transform> {
+                                    <Matrix4> {
+                                      0.490924854229943 -0.0335450974924635 0.870555864912488 0
+                                      0.0681712367845598 0.997673635251152 1.20473630172563e-07 0
+                                      -0.868530638477752 0.0593468108576372 0.492069594738849 0
+                                      0.0174527891351851 -0.0151053696025252 -0.549165529337264 1
+                                    }
+                                  }
+                                  <Group> pc_def_right_thumbA {
+                                  }
+                                  <Joint> def_right_thumbB {
+                                    <Transform> {
+                                      <Matrix4> {
+                                        0.999998392958989 0.00171075983789067 -0.000536078553643248 0
+                                        -0.00171127782288524 0.99999806794311 -0.000967283960033521 0
+                                        0.000534422727358323 0.000968199784908702 0.999999388490576 0
+                                        -0.383074095093264 1.18311464254608e-05 -3.35882663298279e-07 1
+                                      }
+                                    }
+                                    <Group> pc_def_right_thumbB {
+                                    }
+                                    <Joint> def_right_thumbC {
+                                      <Transform> {
+                                        <Matrix4> {
+                                          0.189979254230161 0.198912505751288 0.961426907267472 0
+                                          -0.216146137458882 0.963708550214237 -0.156673793295428 0
+                                          -0.957699707749646 -0.178043942047227 0.226078801475339 0
+                                          -0.515574559299243 -2.05651873390046e-06 -4.05476704414406e-07 1
+                                        }
+                                      }
+                                      <Group> pc_def_right_thumbC {
+                                      }
+                                    }
+                                  }
+                                }
+                                <Joint> grp_joint_right_hold {
+                                  <Transform> {
+                                    <Matrix4> {
+                                      -1 0 0 0
+                                      0 1 0 0
+                                      0 0 -1 0
+                                      -1.01719041681721 0.118318552669207 -0.00482887756176239 1
+                                    }
+                                  }
+                                  <Joint> def_joint_right_hold {
+                                    <Transform> {
+                                      <Matrix4> {
+                                        1 0 0 0
+                                        0 1 0 0
+                                        0 0 1 0
+                                        0 0 0 1
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                            <Joint> def_right_neg_wrist {
+                              <Transform> {
+                                <Matrix4> {
+                                  1 0 0 0
+                                  0 1 0 0
+                                  0 0 1 0
+                                  -0.446570000000001 4.53628385948259e-10 -4.65168819182551e-10 1
+                                }
+                              }
+                            }
+                          }
+                        }
+                        <Joint> def_right_sleeve_long {
+                          <Transform> {
+                            <Matrix4> {
+                              0.999941788349412 -1.11767608629847e-06 0.0107898058986241 0
+                              1.50021258606813e-06 0.999999999370686 -3.54454171108804e-05 0
+                              -0.0107898058522175 3.54595407772549e-05 0.999941787721812 0
+                              -1.1458649626483 0 1.21388687436621e-07 1
+                            }
+                          }
+                          <Group> pc_def_right_sleeve_long {
+                          }
+                        }
+                        <Joint> def_right_sleeve_short {
+                          <Transform> {
+                            <Matrix4> {
+                              0.999941788349412 -1.11767608629847e-06 0.0107898058986241 0
+                              1.50021258606813e-06 0.999999999370686 -3.54454171108804e-05 0
+                              -0.0107898058522175 3.54595407772549e-05 0.999941787721812 0
+                              -0.303623047975568 0 -0.00327615537255731 1
+                            }
+                          }
+                          <Group> pc_def_right_sleeve_short {
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            <Joint> joint_shadow {
+              <Transform> {
+                <Matrix4> {
+                  1 0 0 0
+                  0 1 0 0
+                  0 0 1 0
+                  0 -7.39808020003512 0.249552007109474 1
+                }
+              }
+              <Group> pc_joint_shadow {
+              }
+            }
+            <Joint> joint_nameTag {
+              <Transform> {
+                <Matrix4> {
+                  1 0 0 0
+                  0 1 0 0
+                  0 0 1 0
+                  0 -7.39808020003512 0.249552007109474 1
+                }
+              }
+              <Group> pc_joint_nameTag {
+              }
+            }
+            <Joint> joint_hips {
+              <Transform> {
+                <Matrix4> {
+                  1 0 0 0
+                  0 1 0 0
+                  0 0 1 0
+                  0 0 0 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    <Group> MM_Mesh {
+      <Group> mm_ear_left_200 {
+        <VertexPool> mm_ear_left_200Shape.verts {
+          <Vertex> 0 {
+            0.994767979999853 16.9170990390728 -0.399544013766792
+            <UV> {
+              0 0
+              <Tangent> { 0.856432752358246 -0.319332867117376 -0.405646965558323 }
+              <Binormal> { 0 0.785743746666838 -0.618552151862687 }
+            }
+            <Normal> { 0.516258598657765 0.529748321896877 0.67293667960616 }
+            // def_head:0.996957 def_left_earA:0.00304258
+          }
+          <Vertex> 1 {
+            1.14445999225606 16.7477004484242 -0.381029997597842
+            <UV> {
+              0 0
+              <Tangent> { 0.833911073473963 -0.318167677417729 -0.450956373260331 }
+              <Binormal> { 0 0.817099704764313 -0.576496376809146 }
+            }
+            <Normal> { 0.551898832701703 0.480746712438765 0.681388491935266 }
+            // def_head:0.970767 def_left_earA:0.0292327
+          }
+          <Vertex> 2 {
+            1.78040995059677 16.6900995209461 -0.886740021192496
+            <UV> {
+              0 0
+              <Tangent> { 0.603815833770643 -0.304830721026529 -0.736535586653021 }
+              <Binormal> { 0 0.923991400833611 -0.382413246613584 }
+            }
+            <Normal> { 0.797123854170645 0.230907173348919 0.557920638091251 }
+            // def_left_earA:0.00305668 def_left_earB:0.996943
+            // def_left_earD:3.28381e-07
+          }
+          <Vertex> 3 {
+            1.87476000447912 13.1636001306569 -0.8009640250619
+            <UV> {
+              0 0
+              <Tangent> { 0.295315119299378 -0.105791438133505 -0.949524697904609 }
+              <Binormal> { 0 0.993850524768481 -0.110730006851869 }
+            }
+            <Normal> { 0.955399905962521 0.0327002451834805 0.293499086287752 }
+            // def_left_earC:0.000825884 def_left_earD:0.999174
+          }
+          <Vertex> 4 {
+            1.8790099877385 17.1326003988271 -1.24755005823971
+            <UV> {
+              0 0
+              <Tangent> { 0.822841840887592 -0.318469286568792 -0.470647021022214 }
+              <Binormal> { 0 0.828209562238551 -0.56041852308487 }
+            }
+            <Normal> { 0.56827045047646 0.46113580920266 0.681485480833076 }
+            // def_left_earA:0.526515 def_left_earB:0.473485
+          }
+          <Vertex> 5 {
+            1.98953996493122 17.0385005280102 -1.28675996475019
+            <UV> {
+              0 0
+              <Tangent> { 0.631629839411155 -0.265230635476307 -0.728489159816584 }
+              <Binormal> { 0 0.939658512434953 -0.342113840714655 }
+            }
+            <Normal> { 0.775270111616228 0.216089310270931 0.593516355310614 }
+            // def_left_earA:0.459031 def_left_earB:0.540969
+            // def_left_earD:1.02543e-07
+          }
+          <Vertex> 6 {
+            2.10349991565614 13.2810998150683 -1.55865000927542
+            <UV> {
+              0 0
+              <Tangent> { 0.378064130916509 -0.0324977518404934 -0.925208846174559 }
+              <Binormal> { 0 0.99938369533324 -0.0351031266709779 }
+            }
+            <Normal> { 0.925779408344312 0.0132712330773154 0.377831128228291 }
+            // def_left_earC:0.0396895 def_left_earD:0.960311
+          }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <BFace> { 1 }
+          <VertexRef> { 4 0 1 <Ref> { mm_ear_left_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <BFace> { 1 }
+          <VertexRef> { 4 1 2 <Ref> { mm_ear_left_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <BFace> { 1 }
+          <VertexRef> { 2 3 6 <Ref> { mm_ear_left_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <BFace> { 1 }
+          <VertexRef> { 2 6 5 <Ref> { mm_ear_left_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <BFace> { 1 }
+          <VertexRef> { 2 5 4 <Ref> { mm_ear_left_200Shape.verts } }
+        }
+      }
+      <Group> mm_ear_right_200 {
+        <VertexPool> mm_ear_right_200Shape.verts {
+          <Vertex> 0 {
+            -2.10349991565614 13.2810998150683 -1.55865000927542
+            <UV> {
+              0 0
+              <Tangent> { 0.290252555421358 0.0264706225738866 0.95658390129247 }
+              <Binormal> { 0 0.999617349002294 -0.0276614456170518 }
+            }
+            <Normal> { -0.956950079195029 0.00802880527699817 0.290141489991439 }
+            // def_right_earD:1
+          }
+          <Vertex> 1 {
+            -1.98953996493122 17.0385005280102 -1.28675996475019
+            <UV> {
+              0 0
+              <Tangent> { 0.532782750616904 0.256882238968924 0.806321310612214 }
+              <Binormal> { 0 0.952814596807298 -0.303552868724619 }
+            }
+            <Normal> { -0.846252055031529 0.161727732356754 0.507643181714929 }
+            // def_right_earA:0.42855 def_right_earB:0.57145
+          }
+          <Vertex> 2 {
+            -1.8790099877385 17.1326003988271 -1.24755005823971
+            <UV> {
+              0 0
+              <Tangent> { 0.814070152656941 0.308760014997011 0.491891288489794 }
+              <Binormal> { 0 0.846969040820287 -0.531642214174122 }
+            }
+            <Normal> { -0.580766550821502 0.432794058451602 0.689492216356274 }
+            // def_right_earA:0.491553 def_right_earB:0.508447
+          }
+          <Vertex> 3 {
+            -1.87476000447912 13.1636001306569 -0.8009640250619
+            <UV> {
+              0 0
+              <Tangent> { 0.391414742535742 0.0511056188931154 0.918794163587923 }
+              <Binormal> { 0 0.998456649582523 -0.0555366446991785 }
+            }
+            <Normal> { -0.920214376830573 0.0217378614862279 0.390810652429442 }
+            // def_right_earD:1
+          }
+          <Vertex> 4 {
+            -1.78040995059677 16.6900995209461 -0.886740021192496
+            <UV> {
+              0 0
+              <Tangent> { 0.745128785060867 0.33603027676688 0.576078767851837 }
+              <Binormal> { 0 0.863789127729021 -0.503853493405709 }
+            }
+            <Normal> { -0.666920605225027 0.375435741390069 0.643634143293512 }
+            // def_right_earA:0.00236771 def_right_earB:0.997382
+            // def_right_earD:0.00025052
+          }
+          <Vertex> 5 {
+            -1.14445999225606 16.7477004484242 -0.38103099883072
+            <UV> {
+              0 0
+              <Tangent> { 0.836093719706736 0.363018313285337 0.411296725110257 }
+              <Binormal> { 0 0.749738877621908 -0.661733794952504 }
+            }
+            <Normal> { -0.548586631141293 0.553271470077493 0.626851966999655 }
+            // def_head:0.970766 def_right_earA:0.0292336
+          }
+          <Vertex> 6 {
+            -0.994768981232731 16.9170990390728 -0.399544013766792
+            <UV> {
+              0 0
+              <Tangent> { 0.831073312802677 0.334493550155129 0.444332323437989 }
+              <Binormal> { 0 0.79892481081107 -0.601430915958346 }
+            }
+            <Normal> { -0.556162879691897 0.499833183747452 0.663965089201008 }
+            // def_head:0.996955 def_right_earA:0.00304466
+          }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <BFace> { 1 }
+          <VertexRef> { 4 5 6 <Ref> { mm_ear_right_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <BFace> { 1 }
+          <VertexRef> { 4 6 2 <Ref> { mm_ear_right_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <BFace> { 1 }
+          <VertexRef> { 1 0 3 <Ref> { mm_ear_right_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <BFace> { 1 }
+          <VertexRef> { 1 3 4 <Ref> { mm_ear_right_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <BFace> { 1 }
+          <VertexRef> { 2 1 4 <Ref> { mm_ear_right_200Shape.verts } }
+        }
+      }
+      <Group> mm_eyes_200 {
+        <VertexPool> mm_eyes_200Shape.verts {
+          <Vertex> 0 {
+            -1.32151000455921 16.2206995205616 0.996931018478914
+            <UV> {
+              0 0.486606985330582
+              <Tangent> { 0.9414713503038 -8.43141020870911e-05 0.337092998218995 }
+              <Binormal> { 0.0717977892322021 0.977104278286348 -0.200280570240558 }
+            }
+            <Normal> { -0.329358124263707 0.212760950941772 0.919921737831999 }
+            // def_head:1
+          }
+          <Vertex> 1 {
+            -1.22091000474344 17.0511000425484 0.706487002335195
+            <UV> {
+              0.0380625016987324 0.757856011390686
+              <Tangent> { 0.934262317012606 -0.00039616784146709 0.356586267348138 }
+              <Binormal> { 0.154614283024251 0.901557138939309 -0.404090520443705 }
+            }
+            <Normal> { -0.321322807306193 0.432659875974892 0.842352114751461 }
+            // def_head:1
+          }
+          <Vertex> 2 {
+            -1.19405005547631 15.4296995147945 1.10328003490378
+            <UV> {
+              0.0482251010835171 0.228229001164436
+              <Tangent> { 0.956855844211755 6.75494586674923e-06 0.290563062608068 }
+              <Binormal> { -0.0169419718709537 0.998299974041182 0.0557685522359986 }
+            }
+            <Normal> { -0.290068721145409 -0.0582851763636878 0.955229278879851 }
+            // def_head:1
+          }
+          <Vertex> 3 {
+            -0.934450019375859 17.714899418548 0.29567899353548
+            <UV> {
+              0.146446004509926 0.974684000015259
+              <Tangent> { 0.926974497700561 1.10518064565889e-06 0.375124353530361 }
+              <Binormal> { 0.222277432440901 0.805536962915235 -0.549274926065973 }
+            }
+            <Normal> { -0.302177139506406 0.592545526838299 0.746711975920869 }
+            // def_head:1
+          }
+          <Vertex> 4 {
+            -0.835296988800129 14.7310001643624 1.02588998989796
+            <UV> {
+              0.183961004018784 0
+              <Tangent> { 0.961543695507446 1.76520918613609e-06 0.274652000951691 }
+              <Binormal> { -0.0659934018927719 0.97070508958924 0.231033547244041 }
+            }
+            <Normal> { -0.266605687367135 -0.240274070682688 0.933375475583684 }
+            // def_head:1
+          }
+          <Vertex> 5 {
+            -5.44310975528024e-07 17.7924008507115 0.612313978941109
+            <UV> {
+              0.5 1
+              <Tangent> { 0.999999999999718 4.62264063747772e-07 5.91045534077434e-07 }
+              <Binormal> { 5.30091999818971e-09 0.783322763387575 -0.621615193153171 }
+            }
+            <Normal> { -7.50329786315761e-07 0.621615193152999 0.783322763387352 }
+            // def_head:1
+          }
+          <Vertex> 6 {
+            -5.19487021845066e-07 17.1524007802247 1.1201899821364
+            <UV> {
+              0.5 0.790944993495941
+              <Tangent> { 0.99999999999997 1.85706199564815e-07 1.62706068066018e-07 }
+              <Binormal> { -6.77382440801834e-08 0.840062006668222 -0.542490391576253 }
+            }
+            <Normal> { -2.37427014956689e-07 0.542490391576225 0.840062006668209 }
+            // def_head:1
+          }
+          <Vertex> 7 {
+            -4.83377008760984e-07 16.3303004787976 1.44471997038273
+            <UV> {
+              0.5 0.522408008575439
+              <Tangent> { 0.999073147472605 0.000457618512493015 0.0430422650946725 }
+              <Binormal> { 0.00908856945134316 0.975157402139334 -0.22132654372712 }
+            }
+            <Normal> { -0.042074266535629 0.221512599276343 0.97424941593892 }
+            // def_head:1
+          }
+          <Vertex> 8 {
+            -4.37902005120753e-07 15.4042001158547 1.43778004984217
+            <UV> {
+              0.5 0.219898998737335
+              <Tangent> { 0.997760301423993 -1.62028181911552e-05 -0.0668908113254138 }
+              <Binormal> { 0.0057555597757196 0.996312095744218 0.0856100543477954 }
+            }
+            <Normal> { 0.0666427372935082 -0.0858033076940105 0.994080750218409 }
+            // def_head:1
+          }
+          <Vertex> 9 {
+            0.835296988800129 14.7310001643624 1.02588998989796
+            <UV> {
+              0.816039025783539 0
+              <Tangent> { 0.961543523991863 -1.56215419929286e-06 -0.274652601420176 }
+              <Binormal> { 0.0659935341929215 0.970704929575696 0.231034181761425 }
+            }
+            <Normal> { 0.266606273208336 -0.240274717136455 0.933375141832564 }
+            // def_head:1
+          }
+          <Vertex> 10 {
+            0.934448016910102 17.714899418548 0.29567899353548
+            <UV> {
+              0.853554010391235 0.974684000015259
+              <Tangent> { 0.926974886911326 -2.95745837663984e-07 -0.375123391746833 }
+              <Binormal> { -0.222276963767452 0.805537949629064 -0.549273668662285 }
+            }
+            <Normal> { 0.302176290291045 0.592544185447225 0.746713384022696 }
+            // def_head:1
+          }
+          <Vertex> 11 {
+            1.19405005547631 15.4296995147945 1.10328003490378
+            <UV> {
+              0.951775014400482 0.228229001164436
+              <Tangent> { 0.962492731987471 -5.38394287568127e-06 -0.271307465511563 }
+              <Binormal> { 0.0212168619317127 0.996939005894701 0.0752493408307142 }
+            }
+            <Normal> { 0.270476589820756 -0.0781832366732122 0.959546661638836 }
+            // def_head:1
+          }
+          <Vertex> 12 {
+            1.22091000474344 17.0511000425484 0.706487002335195
+            <UV> {
+              0.961937010288239 0.757856011390686
+              <Tangent> { 0.934262294751118 0.000396021646463993 -0.356586325836017 }
+              <Binormal> { -0.154614369474324 0.901556890831739 -0.404091040912645 }
+            }
+            <Normal> { 0.321322830434489 0.432660393103717 0.84235184031431 }
+            // def_head:1
+          }
+          <Vertex> 13 {
+            1.32151000455921 16.2206995205616 0.996931018478914
+            <UV> {
+              1 0.486606985330582
+              <Tangent> { 0.950162229461253 0.00016180402128088 -0.311755852430519 }
+              <Binormal> { -0.0449700938359183 0.98961260220102 -0.136545187485001 }
+            }
+            <Normal> { 0.308495426814742 0.143759769700651 0.940299792752294 }
+            // def_head:1
+          }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_eyes_pic }
+          <VertexRef> { 9 11 8 <Ref> { mm_eyes_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_eyes_pic }
+          <VertexRef> { 1 6 3 <Ref> { mm_eyes_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_eyes_pic }
+          <VertexRef> { 6 5 3 <Ref> { mm_eyes_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_eyes_pic }
+          <VertexRef> { 8 2 4 <Ref> { mm_eyes_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_eyes_pic }
+          <VertexRef> { 0 7 1 <Ref> { mm_eyes_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_eyes_pic }
+          <VertexRef> { 7 6 1 <Ref> { mm_eyes_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_eyes_pic }
+          <VertexRef> { 6 10 5 <Ref> { mm_eyes_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_eyes_pic }
+          <VertexRef> { 6 12 10 <Ref> { mm_eyes_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_eyes_pic }
+          <VertexRef> { 2 7 0 <Ref> { mm_eyes_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_eyes_pic }
+          <VertexRef> { 2 8 7 <Ref> { mm_eyes_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_eyes_pic }
+          <VertexRef> { 8 13 7 <Ref> { mm_eyes_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_eyes_pic }
+          <VertexRef> { 8 11 13 <Ref> { mm_eyes_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_eyes_pic }
+          <VertexRef> { 7 12 6 <Ref> { mm_eyes_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_eyes_pic }
+          <VertexRef> { 7 13 12 <Ref> { mm_eyes_200Shape.verts } }
+        }
+      }
+      <Group> mm_head_big_200 {
+        <VertexPool> mm_head_big_200Shape.verts {
+          <Vertex> 0 {
+            -1.52107999706519 15.0109999448921 0.118793003515309
+            <UV> {
+              0.227509006857872 0.772696018218994
+              <Tangent> { 0.0409577782939038 -0.00748390174872041 -0.999132849831214 }
+              <Binormal> { -0.117786844339424 -0.99303547191266 0.00260975549831672 }
+            }
+            <Normal> { -0.992193892189318 0.117577815670373 -0.041554031866909 }
+            // def_head:1
+          }
+          <Vertex> 1 {
+            -1.52107999706519 15.0109999448921 0.118793003515309
+            <UV> {
+              0.227509006857872 0.772696018218994
+              <Tangent> { 0.23086274712162 0.0525245790996827 -0.971567579009232 }
+              <Binormal> { 0.820150831793834 -0.547757470402898 0.165270586390019 }
+            }
+            <Normal> { -0.523502631415871 -0.834986779660744 -0.169534871611828 }
+            // def_head:1
+          }
+          <Vertex> 2 {
+            -1.32151000455921 16.2206995205616 0.979528026630872
+            <UV> {
+              0.141159996390343 0.527303993701935
+              <Tangent> { -0.195366035077184 0.198688134424013 -0.96039322028913 }
+              <Binormal> { -0.313768556955197 -0.940455983488334 -0.130735747931635 }
+            }
+            <Normal> { -0.929183192381607 0.275799870123421 0.246075245881072 }
+            // def_head:1
+          }
+          <Vertex> 3 {
+            -1.07556002659435 14.9408996261637 -0.911655013016828
+            <UV> {
+              0.353114008903503 0.806923985481262
+              <Tangent> { 0.768858034415372 0.0481391591197686 -0.637604849631942 }
+              <Binormal> { 0.209479971315362 -0.961095170740409 0.180039480106948 }
+            }
+            <Normal> { -0.604131992641215 -0.271990246403628 -0.749029933533132 }
+            // def_head:1
+          }
+          <Vertex> 4 {
+            -1.07556002659435 14.9408996261637 -0.911655013016828
+            <UV> {
+              0.353114008903503 0.806923985481262
+              <Tangent> { 0.230863306248651 0.0525254709075653 -0.971567397936901 }
+              <Binormal> { 0.820150809635181 -0.547757505745965 0.165270579213954 }
+            }
+            <Normal> { -0.523502419557635 -0.834986700376059 -0.169535916290337 }
+            // def_head:1
+          }
+          <Vertex> 5 {
+            -0.835296988800129 14.7310001643624 1.00849000174855
+            <UV> {
+              0.102943003177643 0.82898998260498
+              <Tangent> { -0.77427439621669 -0.0396619562604277 -0.631605959906077 }
+              <Binormal> { 0.147825689281784 -0.981759302289034 -0.119566876505636 }
+            }
+            <Normal> { -0.615342770292823 -0.185945157491516 0.766014147032422 }
+            // def_head:1
+          }
+          <Vertex> 6 {
+            -0.505721005867785 18.1108990366378 -0.190352001215216
+            <UV> {
+              0.292506009340286 0.0656104981899261
+              <Tangent> { 0.218549872577178 0.305183887931671 -0.926875799524083 }
+              <Binormal> { -0.277498959514687 -0.891185006870167 -0.358864335087909 }
+            }
+            <Normal> { -0.935537428788803 0.335636824673233 -0.110080158332481 }
+            // def_head:1
+          }
+          <Vertex> 7 {
+            -0.505721005867785 18.1108990366378 -0.190352001215216
+            <UV> {
+              0.292506009340286 0.0656104981899261
+              <Tangent> { 0.518933549627205 0.37148086568747 -0.769876572899447 }
+              <Binormal> { -0.835423184588374 0.0296535132803861 -0.548806679808426 }
+            }
+            <Normal> { -0.181041635331568 0.927966936683748 0.32573193073178 }
+            // def_head:1
+          }
+          <Vertex> 8 {
+            -0.417610009511312 17.8278004403502 -1.61557998557103
+            <UV> {
+              0.457271993160248 0.222670003771782
+              <Tangent> { 0.103586793522869 -0.0834731983562059 -0.99111149794755 }
+              <Binormal> { -0.302618810273535 -0.951874837959017 0.0485401743829222 }
+            }
+            <Normal> { -0.947465900112654 0.294900861335941 -0.123862222275557 }
+            // def_head:1
+          }
+          <Vertex> 9 {
+            -0.417610009511312 17.8278004403502 -1.61557998557103
+            <UV> {
+              0.457271993160248 0.222670003771782
+              <Tangent> { 0.928362195047333 -0.0995061302259225 -0.358109152151071 }
+              <Binormal> { -0.120353298658388 -0.992065650072633 -0.0363432173590646 }
+            }
+            <Normal> { -0.351651415906352 0.0768392867836836 -0.93297213554191 }
+            // def_head:1
+          }
+          <Vertex> 10 {
+            -0.319625010953488 18.2319000324239 -1.40298996071803
+            <UV> {
+              0.461782991886139 0.150977000594139
+              <Tangent> { 0.15210986094547 0.0387674523789401 -0.987602994547503 }
+              <Binormal> { -0.29299500335745 -0.952546415531072 -0.0825182056668322 }
+            }
+            <Normal> { -0.943936713032562 0.301914575492725 -0.13353303297061 }
+            // def_head:1
+          }
+          <Vertex> 11 {
+            -0.319625010953488 18.2319000324239 -1.40298996071803
+            <UV> {
+              0.461782991886139 0.150977000594139
+              <Tangent> { 0.856262158713757 0.23291726520476 -0.461047354535727 }
+              <Binormal> { -0.461985678738613 -0.0539235775930549 -0.885246564760343 }
+            }
+            <Normal> { -0.231050531692267 0.971000409551459 0.0614317219001644 }
+            // def_head:1
+          }
+          <Vertex> 12 {
+            -0.319625010953488 18.2319000324239 -1.40298996071803
+            <UV> {
+              0.461782991886139 0.150977000594139
+              <Tangent> { 0.995463565578718 0.041324043542998 -0.0857007177949018 }
+              <Binormal> { -0.0288332769167391 -0.727365849826334 -0.685643903676433 }
+            }
+            <Normal> { -0.0906693539601316 0.685004557599197 -0.722874694757522 }
+            // def_head:1
+          }
+          <Vertex> 13 {
+            -5.48894972052472e-07 18.1737003676848 -0.482964015069596
+            <UV> {
+              0.508181989192963 0.0354545004665852
+              <Tangent> { 0.765544241786569 0.0848351578278129 -0.637765638666554 }
+              <Binormal> { -0.627146072963807 0.31968935465675 -0.710272144804529 }
+            }
+            <Normal> { 0.14363083594237 0.943716966317487 0.297940380698917 }
+            // def_head:1
+          }
+          <Vertex> 14 {
+            -5.44089987412495e-07 17.7924008507115 0.594911988325945
+            <UV> {
+              0 -0.00133978994563222
+              <Tangent> { -0.790566718319309 0.425429986217265 -0.440469738702916 }
+              <Binormal> { -0.610254422889042 -0.487499773923457 0.624446562780948 }
+            }
+            <Normal> { 0.0509293945595212 0.762465276095742 0.645021627170783 }
+            // def_head:1
+          }
+          <Vertex> 15 {
+            -5.44089987412495e-07 17.7924008507115 0.594911988325945
+            <UV> {
+              1 -0.00133978994563222
+              <Tangent> { -0.32383524062103 -0.598355728014991 0.732871857614665 }
+              <Binormal> { 0.944741728570153 -0.246205453838645 0.21643923119062 }
+            }
+            <Normal> { 0.0509293945595212 0.762465276095742 0.645021627170783 }
+            // def_head:1
+          }
+          <Vertex> 16 {
+            -4.80787007756418e-07 17.0760007042272 -1.59431004461654
+            <UV> {
+              0.5 0.330971002578735
+              <Tangent> { 0.983873394918388 -0.0351564297347001 0.175377216935597 }
+              <Binormal> { -0.0485588149172821 -0.996169362111998 0.0727230601886684 }
+            }
+            <Normal> { 0.172148727168096 -0.0800663939345631 -0.981811686779456 }
+            // def_head:1
+          }
+          <Vertex> 17 {
+            -3.74649990587727e-07 14.8395998897202 -1.32535999528379
+            <UV> {
+              0.5 0.838046014308929
+              <Tangent> { 0.989675198936381 -0.141828164075205 0.0206826614653808 }
+              <Binormal> { -0.138634883416871 -0.910622783613139 0.389289757204898 }
+            }
+            <Normal> { -0.0363781488015196 -0.388137756266656 -0.920883115520129 }
+            // def_head:1
+          }
+          <Vertex> 18 {
+            -3.52588985130185e-07 14.2183999689858 -0.674422018797066
+            <UV> {
+              0.5 1
+              <Tangent> { 0.230863306248651 0.0525254709075653 -0.971567397936901 }
+              <Binormal> { 0.820150809635181 -0.547757505745965 0.165270579213954 }
+            }
+            <Normal> { -0.523502419557635 -0.834986700376059 -0.169535916290337 }
+            // def_head:1
+          }
+          <Vertex> 19 {
+            -3.52588985130185e-07 14.2183999689858 -0.674422018797066
+            <UV> {
+              0.5 1
+              <Tangent> { 0.871658661269525 -0.112898453903328 0.476933032343176 }
+              <Binormal> { -0.450389186777977 -0.56828483435946 0.688623211539165 }
+            }
+            <Normal> { 0.193289313380981 -0.815049867273947 -0.546198640779552 }
+            // def_head:1
+          }
+          <Vertex> 20 {
+            0.226008000336294 18.1134001163673 -1.5837200044647
+            <UV> {
+              0.52402001619339 0.182420000433922
+              <Tangent> { 0.970222426345162 0.0695950560428701 0.23200209393731 }
+              <Binormal> { 0.123683199318619 -0.965893080903474 -0.227492906414915 }
+            }
+            <Normal> { 0.208256835717865 0.249413480864977 -0.945738867732313 }
+            // def_head:1
+          }
+          <Vertex> 21 {
+            0.226008000336294 18.1134001163673 -1.5837200044647
+            <UV> {
+              0.52402001619339 0.182420000433922
+              <Tangent> { 0.606172770707541 -0.229079137228878 0.761628072578221 }
+              <Binormal> { 0.247078449515958 -0.855999546965916 -0.454111236789992 }
+            }
+            <Normal> { 0.755980695413271 0.463451749894873 -0.462283099065765 }
+            // def_head:1
+          }
+          <Vertex> 22 {
+            0.226008000336294 18.3502998251927 -1.22226004212547
+            <UV> {
+              0.531562983989716 0.114563003182411
+              <Tangent> { 0.8892581851038 -0.208989869938003 0.406869898725861 }
+              <Binormal> { 0.393120072376669 -0.105528363445815 -0.913411393186559 }
+            }
+            <Normal> { 0.233830042809853 0.972207281793212 -0.011683848158781 }
+            // def_head:1
+          }
+          <Vertex> 23 {
+            0.590587976410633 18.0465998612051 -1.28164003527383
+            <UV> {
+              0.573638021945953 0.165969997644424
+              <Tangent> { 0.557582349700015 -0.291763785341953 0.77715881058246 }
+              <Binormal> { 0.228982039510793 -0.845819333428945 -0.481826608625233 }
+            }
+            <Normal> { 0.797915502346262 0.446613422056201 -0.404805264732022 }
+            // def_head:1
+          }
+          <Vertex> 24 {
+            0.835296988800129 14.7310001643624 1.00849000174855
+            <UV> {
+              0.897056996822357 0.82898998260498
+              <Tangent> { -0.774274495358676 0.0396619224089158 0.631605840495398 }
+              <Binormal> { -0.147825621424497 -0.981759310714549 -0.119566891218914 }
+            }
+            <Normal> { 0.615342661845845 -0.185945120226704 0.766014243194176 }
+            // def_head:1
+          }
+          <Vertex> 25 {
+            0.934448016910102 17.714899418548 0.278277002920316
+            <UV> {
+              0.810867011547089 0.154508993029594
+              <Tangent> { -0.86246908982725 -0.26298377325148 0.43241947701158 }
+              <Binormal> { 0.465588821579124 -0.747255564078152 0.474168926833892 }
+            }
+            <Normal> { 0.198429126675286 0.610285717480474 0.766927131301421 }
+            // def_head:1
+          }
+          <Vertex> 26 {
+            0.934448016910102 17.714899418548 0.278277002920316
+            <UV> {
+              0.810867011547089 0.154508993029594
+              <Tangent> { 0.117697116152793 -0.0697726003641686 0.990595362944799 }
+              <Binormal> { 0.411647295305494 -0.904359379602655 -0.112608244779734 }
+            }
+            <Normal> { 0.903711177930752 0.421029567563993 -0.0777187887186205 }
+            // def_head:1
+          }
+          <Vertex> 27 {
+            1.07556002659435 14.9408996261637 -0.911655013016828
+            <UV> {
+              0.646885991096497 0.806923985481262
+              <Tangent> { 0.230863199037762 -0.0525254722808194 0.971567423338045 }
+              <Binormal> { -0.820150977334505 -0.54775726758753 0.16527053634057 }
+            }
+            <Normal> { 0.523502204109311 -0.834986856523335 -0.169535812517511 }
+            // def_head:1
+          }
+          <Vertex> 28 {
+            1.07556002659435 14.9408996261637 -0.911655013016828
+            <UV> {
+              0.646885991096497 0.806923985481262
+              <Tangent> { 0.829941057945544 0.126277375438312 0.543370835423325 }
+              <Binormal> { -0.00771116623452221 -0.971352824906523 0.237516794061854 }
+            }
+            <Normal> { 0.557797793336917 -0.20131496218247 -0.805191845307649 }
+            // def_head:1
+          }
+          <Vertex> 29 {
+            1.32151000455921 16.2206995205616 0.979528026630872
+            <UV> {
+              0.858839988708496 0.527303993701935
+              <Tangent> { -0.534295449677564 0.102593647262706 0.839048816217022 }
+              <Binormal> { -0.101158375674069 -0.993234385841074 0.0570301482892075 }
+            }
+            <Normal> { 0.839223066582916 -0.0544058666344038 0.541058819529749 }
+            // def_head:1
+          }
+          <Vertex> 30 {
+            1.52107999706519 15.0109999448921 0.118793003515309
+            <UV> {
+              0.772490978240967 0.772696018218994
+              <Tangent> { 0.23086413687072 -0.0525269681251351 0.971567119619905 }
+              <Binormal> { -0.820150777970565 -0.5477575855732 0.165270471776709 }
+            }
+            <Normal> { 0.523502102862266 -0.834986553823832 -0.169537615980011 }
+            // def_head:1
+          }
+          <Vertex> 31 {
+            1.52107999706519 15.0109999448921 0.118793003515309
+            <UV> {
+              0.772490978240967 0.772696018218994
+              <Tangent> { 0.204644779626538 -0.0787846067879785 0.975660545428004 }
+              <Binormal> { 0.0220933761324175 -0.996129864688963 -0.0850715898865174 }
+            }
+            <Normal> { 0.978586938857594 0.038965092172506 -0.202112158687474 }
+            // def_head:1
+          }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 17 3 9 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 26 31 23 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 15 22 13 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 7 14 13 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 16 9 20 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 28 17 16 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 28 16 20 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 7 13 22 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 17 9 16 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 15 25 22 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 10 0 2 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 5 2 0 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 8 0 10 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 20 9 12 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 31 28 21 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 19 27 30 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 23 31 20 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 12 22 20 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 3 0 9 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 1 4 18 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 10 2 6 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 7 22 11 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 31 29 24 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 19 17 28 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 19 3 17 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 23 21 22 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 29 31 26 <Ref> { mm_head_big_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 22 26 23 <Ref> { mm_head_big_200Shape.verts } }
+        }
+      }
+      <Group> mm_muzzle_short_200 {
+        <VertexPool> mm_muzzle_short_200Shape.verts {
+          <Vertex> 0 {
+            -1.55391004767631 14.3271999409193 -0.275193987868902
+            <UV> {
+              0.200231000781059 0.689149975776672
+              <Tangent> { -0.024765268290368 0.958296437598243 0.284700929350471 }
+              <Binormal> { 0.0199933091181318 0.285206097295819 -0.958257663499643 }
+            }
+            <Normal> { -0.999493346189465 -0.0180393944411464 -0.0262227224212859 }
+            // def_head:1
+          }
+          <Vertex> 1 {
+            -1.55391004767631 14.3271999409193 -0.275193987868902
+            <UV> {
+              0.200231000781059 0.689149975776672
+              <Tangent> { -0.89713803441168 0.284121252265361 -0.338257980280008 }
+              <Binormal> { 0.379589782144286 0.104156076166788 -0.919273141720779 }
+            }
+            <Normal> { -0.225953412241552 -0.953114172493884 -0.201291901694276 }
+            // def_head:1
+          }
+          <Vertex> 2 {
+            -1.48803993785788 14.6296003046311 0.80489298802974
+            <UV> {
+              0.228735998272896 0.502296984195709
+              <Tangent> { 0.0854674703384578 0.979444587781878 0.182711824955946 }
+              <Binormal> { -0.256605898072971 0.198835200125873 -0.945842469053419 }
+            }
+            <Normal> { -0.962729829489099 0.0339538312373048 0.268325199629479 }
+            // def_head:1
+          }
+          <Vertex> 3 {
+            -1.48803993785788 14.6296003046311 0.80489298802974
+            <UV> {
+              0.228735998272896 0.502296984195709
+              <Tangent> { 0.868412886022541 0.444846780378023 -0.219021463279988 }
+              <Binormal> { -0.0232169841016762 -0.40475184010198 -0.914131784582116 }
+            }
+            <Normal> { -0.495297921496975 0.798928839084789 -0.341163712958176 }
+            // def_head:1
+          }
+          <Vertex> 4 {
+            -1.44217996772506 15.3657998312802 0.232332006214172
+            <UV> {
+              0.355744004249573 0.626717984676361
+              <Tangent> { 0.340046766087212 0.940021739375976 0.0269689891207286 }
+              <Binormal> { -0.302396829118637 0.136454977482456 -0.943364297002625 }
+            }
+            <Normal> { -0.890463000136795 0.312632641643236 0.330660667099293 }
+            // def_head:1
+          }
+          <Vertex> 5 {
+            -1.44217996772506 15.3657998312802 0.232332006214172
+            <UV> {
+              0.355744004249573 0.626717984676361
+              <Tangent> { 0.40671843395286 0.834938233034547 0.370753641249929 }
+              <Binormal> { 0.633967431074646 0.0342520456743633 -0.77260086312645 }
+            }
+            <Normal> { -0.657773070153793 0.549276746626206 -0.515392708326557 }
+            // def_head:1
+          }
+          <Vertex> 6 {
+            -1.36723005239732 14.5721996237287 -0.709098029950159
+            <UV> {
+              0.220383003354073 0.767507016658783
+              <Tangent> { 0.40671843395286 0.834938233034547 0.370753641249929 }
+              <Binormal> { 0.633967431074646 0.0342520456743633 -0.77260086312645 }
+            }
+            <Normal> { -0.657773070153793 0.549276746626206 -0.515392708326557 }
+            // def_head:1
+          }
+          <Vertex> 7 {
+            -1.36723005239732 14.5721996237287 -0.709098029950159
+            <UV> {
+              0.220383003354073 0.767507016658783
+              <Tangent> { -0.356315720813956 0.787478898241521 -0.50290763756892 }
+              <Binormal> { 0.925805067692045 0.224858683103351 -0.303847904828641 }
+            }
+            <Normal> { -0.126190664221088 -0.573860224669168 -0.809172638443795 }
+            // def_head:1
+          }
+          <Vertex> 8 {
+            -1.23881004613841 15.4188000936834 2.24363997852396
+            <UV> {
+              0.320657014846802 0.209035992622375
+              <Tangent> { -0.016855207029859 0.996695816403163 0.0794566017421701 }
+              <Binormal> { -0.636816468192746 0.0505637827232384 -0.769355632796195 }
+            }
+            <Normal> { -0.770831166880594 -0.0635669209664144 0.633860046638335 }
+            // def_head:1
+          }
+          <Vertex> 9 {
+            -1.23881004613841 15.4188000936834 2.24363997852396
+            <UV> {
+              0.320657014846802 0.209035992622375
+              <Tangent> { 0.880378795983545 0.400837526738251 -0.253500399883167 }
+              <Binormal> { -0.0597556467729231 -0.436497334874375 -0.897718964557571 }
+            }
+            <Normal> { -0.470491698397871 0.805480821501002 -0.360330692465626 }
+            // def_head:1
+          }
+          <Vertex> 10 {
+            -1.23881004613841 15.4188000936834 2.24363997852396
+            <UV> {
+              0.320657014846802 0.209035992622375
+              <Tangent> { 0.710519565750346 0.68405945356417 -0.164998820224357 }
+              <Binormal> { -0.639260924027949 0.529473587481729 -0.557676600880978 }
+            }
+            <Normal> { -0.294121433589722 0.501717434567225 0.813493821829281 }
+            // def_head:1
+          }
+          <Vertex> 11 {
+            -1.15754998575045 14.4391998531312 2.2442199426686
+            <UV> {
+              0.198228999972343 0.189086005091667
+              <Tangent> { -0.597203622783032 0.687997566035357 0.412319272001986 }
+              <Binormal> { -0.384441525865006 0.205638233542766 -0.899954237778787 }
+            }
+            <Normal> { -0.703954931885137 -0.695968581212425 0.1416869360236 }
+            // def_head:1
+          }
+          <Vertex> 12 {
+            -1.15754998575045 14.4391998531312 2.2442199426686
+            <UV> {
+              0.198228999972343 0.189086005091667
+              <Tangent> { -0.429758231844001 0.90098532734189 0.0594415854174947 }
+              <Binormal> { -0.722742846258954 -0.303784092160789 -0.620772102733 }
+            }
+            <Normal> { -0.541249148122954 -0.309742901879402 0.781734414229989 }
+            // def_head:1
+          }
+          <Vertex> 13 {
+            -0.783361975602278 15.2150001425756 1.10717996211815
+            <UV> {
+              0.322766989469528 0.409608989953995
+              <Tangent> { 0.791914801357421 0.581489100198008 -0.186390379960845 }
+              <Binormal> { -0.127254554983051 -0.141382677114887 -0.981741929861353 }
+            }
+            <Normal> { -0.597224602329059 0.801174990225443 -0.0379658979896237 }
+            // def_head:1
+          }
+          <Vertex> 14 {
+            -0.671897973288388 15.750200166477 2.2442199426686
+            <UV> {
+              0.399655997753143 0.177230998873711
+              <Tangent> { 0.869187376638998 0.442102658509317 -0.221491633319207 }
+              <Binormal> { -0.051185256916233 -0.365078330020467 -0.929568653959398 }
+            }
+            <Normal> { -0.491826568788059 0.819306445897053 -0.294692337779087 }
+            // def_head:1
+          }
+          <Vertex> 15 {
+            -0.671897973288388 15.750200166477 2.2442199426686
+            <UV> {
+              0.399655997753143 0.177230998873711
+              <Tangent> { 0.710519565750346 0.68405945356417 -0.164998820224357 }
+              <Binormal> { -0.639260924027949 0.529473587481729 -0.557676600880978 }
+            }
+            <Normal> { -0.294121433589722 0.501717434567225 0.813493821829281 }
+            // def_head:1
+          }
+          <Vertex> 16 {
+            -5.41432997706961e-07 14.8609001179693 -0.859814991788288
+            <UV> {
+              0.499998986721039 1
+              <Tangent> { 0.993486583021936 -0.0746645761243615 -0.0860790940215299 }
+              <Binormal> { -0.113949152499658 -0.650977375013238 -0.750495867986949 }
+            }
+            <Normal> { -8.68033228501767e-08 0.755416215270128 -0.655245253097608 }
+            // def_head:1
+          }
+          <Vertex> 17 {
+            -5.41432997706961e-07 14.8609001179693 -0.859814991788288
+            <UV> {
+              0.499998986721039 1
+              <Tangent> { 0.999999998315495 5.62063580508234e-05 -1.4486393846549e-05 }
+              <Binormal> { 5.80431728884754e-05 -0.968437276289244 0.249257374062354 }
+            }
+            <Normal> { -1.93145866484723e-08 -0.249257374483315 -0.968437277920302 }
+            // def_head:1
+          }
+          <Vertex> 18 {
+            -4.92669012964098e-07 15.7437001626323 1.45827003038461
+            <UV> {
+              0.5 0.29577100276947
+              <Tangent> { 0.99999999999999 1.36300610981017e-07 -3.04668184420046e-08 }
+              <Binormal> { 5.91043728518198e-09 -0.259247711778961 -0.965810863439303 }
+            }
+            <Normal> { -1.39539063745155e-07 0.965810863439294 -0.259247711778959 }
+            // def_head:1
+          }
+          <Vertex> 19 {
+            -4.41114986124781e-07 14.2693997680984 -0.707574028355556
+            <UV> {
+              5.96045985901128e-08 1.00379002094269
+              <Tangent> { -0.772350805576949 0.222746582887665 -0.594859809481618 }
+              <Binormal> { 0.635196216239232 0.270843028631402 -0.723304791023212 }
+            }
+            <Normal> { -3.81755971818098e-08 -0.936497738199959 -0.350673617978827 }
+            // def_head:1
+          }
+          <Vertex> 20 {
+            -4.41114986124781e-07 14.2693997680984 -0.707574028355556
+            <UV> {
+              1 1.00379002094269
+              <Tangent> { -0.772350939794874 -0.222746470432916 0.594859677325378 }
+              <Binormal> { -0.635196053040298 0.270843121116339 -0.723304899711033 }
+            }
+            <Normal> { -3.81755971818098e-08 -0.936497738199959 -0.350673617978827 }
+            // def_head:1
+          }
+          <Vertex> 21 {
+            -4.41114986124781e-07 14.2693997680984 -0.707574028355556
+            <UV> {
+              5.96045985901128e-08 1.00379002094269
+              <Tangent> { 0.0361611979596768 0.967803890716666 -0.249094353359934 }
+              <Binormal> { 0.999345970003442 -0.0350198569295611 0.00901342656886836 }
+            }
+            <Normal> { -1.93145866484723e-08 -0.249257374483315 -0.968437277920302 }
+            // def_head:1
+          }
+          <Vertex> 22 {
+            -4.41114986124781e-07 14.2693997680984 -0.707574028355556
+            <UV> {
+              1 1.00379002094269
+              <Tangent> { 0.0361615515834928 -0.967803878672831 0.249094348817669 }
+              <Binormal> { -0.99934595720755 -0.0350201897697379 0.00901355209767626 }
+            }
+            <Normal> { -1.93145866484723e-08 -0.249257374483315 -0.968437277920302 }
+            // def_head:1
+          }
+          <Vertex> 23 {
+            -3.22861995639599e-07 15.2776002258141 2.77861998150042
+            <UV> {
+              0.5 0.0111632002517581
+              <Tangent> { 0.996645243051452 -0.0804122011114087 0.0152360564231806 }
+              <Binormal> { 0.0816026748244823 0.990601613003858 -0.109769976658669 }
+            }
+            <Normal> { -0.00626601662954896 0.110645028024639 0.993840236058606 }
+            // def_head:1
+          }
+          <Vertex> 24 {
+            -2.62109002801898e-07 13.908999986223 1.91360996776991
+            <UV> {
+              5.96045985901128e-08 0.191586002707481
+              <Tangent> { -0.997144762989316 0.0204860214345458 0.0726818035602017 }
+              <Binormal> { -0.0753589589411606 -0.208370108808425 -0.97514251525737 }
+            }
+            <Normal> { -0.00483207515306777 -0.977835477307379 0.209318968009989 }
+            // def_head:1
+          }
+          <Vertex> 25 {
+            -2.62109002801898e-07 13.908999986223 1.91360996776991
+            <UV> {
+              1 0.191586002707481
+              <Tangent> { -0.993671369987029 -0.0187956368802864 -0.110742640849701 }
+              <Binormal> { 0.112222366388419 -0.208529382469991 -0.971556296427987 }
+            }
+            <Normal> { -0.00483207515306777 -0.977835477307379 0.209318968009989 }
+            // def_head:1
+          }
+          <Vertex> 26 {
+            -2.57135994386801e-07 14.476200414142 2.62638001930057
+            <UV> {
+              0.00272726989351213 0.141818001866341
+              <Tangent> { -0.946117376698989 0.279220344943076 0.164005818427557 }
+              <Binormal> { -0.323765860251134 -0.806065401414861 -0.495413197621685 }
+            }
+            <Normal> { -0.00613002806409818 -0.521818519805275 0.853034498214559 }
+            // def_head:1
+          }
+          <Vertex> 27 {
+            -2.57135994386801e-07 14.476200414142 2.62638001930057
+            <UV> {
+              1.00273001194 0.141818001866341
+              <Tangent> { -0.922821499963782 -0.325631369016531 -0.205826846443836 }
+              <Binormal> { 0.385179051819446 -0.788460299508258 -0.479549219724963 }
+            }
+            <Normal> { -0.00613002806409818 -0.521818519805275 0.853034498214559 }
+            // def_head:1
+          }
+          <Vertex> 28 {
+            0.671897973288388 15.750200166477 2.2442199426686
+            <UV> {
+              0.600344002246857 0.177230998873711
+              <Tangent> { 0.798228539606639 -0.601318078492104 0.0353237460643177 }
+              <Binormal> { 0.293505300679887 0.337067951648966 -0.894561252483015 }
+            }
+            <Normal> { 0.526009350706108 0.72443202886795 0.445547302225032 }
+            // def_head:1
+          }
+          <Vertex> 29 {
+            0.671897973288388 15.750200166477 2.2442199426686
+            <UV> {
+              0.600344002246857 0.177230998873711
+              <Tangent> { 0.848774248198569 -0.455928579675299 0.267789853859738 }
+              <Binormal> { -0.0330182193048958 -0.551166552231213 -0.833741703944028 }
+            }
+            <Normal> { 0.527723481369636 0.698816543834519 -0.482869925833333 }
+            // def_head:1
+          }
+          <Vertex> 30 {
+            0.783361975602278 15.2150001425756 1.10717996211815
+            <UV> {
+              0.677232980728149 0.409608989953995
+              <Tangent> { 0.907744906939365 -0.33197209974209 0.256502843879891 }
+              <Binormal> { 0.0975646228264865 -0.427601901401187 -0.898686685275138 }
+            }
+            <Normal> { 0.4080200096789 0.840803864709789 -0.355764715494262 }
+            // def_head:1
+          }
+          <Vertex> 31 {
+            0.783361975602278 15.2150001425756 1.10717996211815
+            <UV> {
+              0.677232980728149 0.409608989953995
+              <Tangent> { 0.712051986924035 -0.683982699325669 0.158586364296258 }
+              <Binormal> { 0.215103151985725 -0.00249850686585724 -0.976588138095711 }
+            }
+            <Normal> { 0.668365619944159 0.729493950959576 0.145347767750479 }
+            // def_head:1
+          }
+          <Vertex> 32 {
+            1.21252004868715 14.4324004806559 2.24154990489089
+            <UV> {
+              0.800382971763611 0.196898996829987
+              <Tangent> { -0.941243520447034 -0.228263378520772 0.248910556712157 }
+              <Binormal> { 0.170061502533169 -0.957094876714631 -0.234624129881747 }
+            }
+            <Normal> { 0.291787115158696 -0.178508338720881 0.939678164285239 }
+            // def_head:1
+          }
+          <Vertex> 33 {
+            1.21252004868715 14.4324004806559 2.24154990489089
+            <UV> {
+              0.800382971763611 0.196898996829987
+              <Tangent> { -0.659909069182531 -0.651358698060162 -0.374502158701409 }
+              <Binormal> { 0.493659682688772 -0.00012706676116897 -0.869655162430293 }
+            }
+            <Normal> { 0.566409867585538 -0.758769945579955 0.321633380709038 }
+            // def_head:1
+          }
+          <Vertex> 34 {
+            1.21252004868715 14.4324004806559 2.24154990489089
+            <UV> {
+              0.800382971763611 0.196898996829987
+              <Tangent> { -0.0194816387821718 -0.997305976435523 -0.070719552574587 }
+              <Binormal> { 0.627874312834897 0.042842018157639 -0.777134742990099 }
+            }
+            <Normal> { 0.77807089203521 -0.0595428488247692 0.625348171918143 }
+            // def_head:1
+          }
+          <Vertex> 35 {
+            1.28618000060555 15.4107001196994 2.24305000205052
+            <UV> {
+              0.682461977005005 0.213975995779037
+              <Tangent> { 0.466301573189861 -0.882273023833195 0.064475997525358 }
+              <Binormal> { 0.812496351890771 0.398315313977511 -0.425669577037384 }
+            }
+            <Normal> { 0.349875007688244 0.250876906205467 0.902578670769438 }
+            // def_head:1
+          }
+          <Vertex> 36 {
+            1.28618000060555 15.4107001196994 2.24305000205052
+            <UV> {
+              0.682461977005005 0.213975995779037
+              <Tangent> { 0.89017759233719 -0.362923404751878 0.275445922794417 }
+              <Binormal> { 0.0862976194369811 -0.459310108514367 -0.884074060865961 }
+            }
+            <Normal> { 0.447366264910837 0.810753246370204 -0.377548140665402 }
+            // def_head:1
+          }
+          <Vertex> 37 {
+            1.28618000060555 15.4107001196994 2.24305000205052
+            <UV> {
+              0.682461977005005 0.213975995779037
+              <Tangent> { -0.059902490357777 -0.994650907563139 -0.0841502449952491 }
+              <Binormal> { 0.183288491582791 0.0719082687237235 -0.980425688026615 }
+            }
+            <Normal> { 0.981232398824173 -0.0741537117950327 0.178000580124835 }
+            // def_head:1
+          }
+          <Vertex> 38 {
+            1.36723005239732 14.5721996237287 -0.709098029950159
+            <UV> {
+              0.779617011547089 0.767507016658783
+              <Tangent> { -0.356316274627132 -0.787478740628392 0.502907491984525 }
+              <Binormal> { -0.925804865088729 0.224859188159521 -0.303848148387121 }
+            }
+            <Normal> { 0.126190586867178 -0.573860243054495 -0.809172637468392 }
+            // def_head:1
+          }
+          <Vertex> 39 {
+            1.36723005239732 14.5721996237287 -0.709098029950159
+            <UV> {
+              0.779617011547089 0.767507016658783
+              <Tangent> { 0.432603777641539 -0.835640411659694 -0.338465764844078 }
+              <Binormal> { -0.616594393138842 -0.000327204073782367 -0.787280920184934 }
+            }
+            <Normal> { 0.657773004858068 0.549276793009418 -0.515392742227979 }
+            // def_head:1
+          }
+          <Vertex> 40 {
+            1.44217996772506 15.3657998312802 0.232332006214172
+            <UV> {
+              0.693346977233887 0.618535995483398
+              <Tangent> { 0.526727709908002 -0.64341817605474 -0.555491647405668 }
+              <Binormal> { -0.819506231684631 -0.210817817866451 -0.532884024812232 }
+            }
+            <Normal> { 0.225759730344292 0.735913648733613 -0.638328791268617 }
+            // def_head:1
+          }
+          <Vertex> 41 {
+            1.44217996772506 15.3657998312802 0.232332006214172
+            <UV> {
+              0.693346977233887 0.618535995483398
+              <Tangent> { 0.303386704784445 -0.952351190099634 -0.0313642802539308 }
+              <Binormal> { 0.109975479735518 0.0676922034879228 -0.991626522156347 }
+            }
+            <Normal> { 0.946499815751159 0.297397001166389 0.125272193563698 }
+            // def_head:1
+          }
+          <Vertex> 42 {
+            1.48803993785788 14.6296003046311 0.804891986796862
+            <UV> {
+              0.771264016628265 0.502296984195709
+              <Tangent> { 0.89017759233719 -0.362923404751879 0.275445922794416 }
+              <Binormal> { 0.0862976194369809 -0.459310108514367 -0.884074060865961 }
+            }
+            <Normal> { 0.447366264910837 0.810753246370204 -0.377548140665402 }
+            // def_head:1
+          }
+          <Vertex> 43 {
+            1.48803993785788 14.6296003046311 0.804891986796862
+            <UV> {
+              0.771264016628265 0.502296984195709
+              <Tangent> { 0.246963584712212 -0.966238287048072 -0.0734340552366673 }
+              <Binormal> { 0.120990297584485 0.105935046975572 -0.986984859920709 }
+            }
+            <Normal> { 0.96144180048327 0.234864510866779 0.143067556835213 }
+            // def_head:1
+          }
+          <Vertex> 44 {
+            1.55391004767631 14.3271999409193 -0.275193987868902
+            <UV> {
+              0.79976898431778 0.689149975776672
+              <Tangent> { -0.878184910395595 -0.469909396504102 0.0893108181052656 }
+              <Binormal> { -0.139646540114202 0.0732958182925789 -0.987484970445097 }
+            }
+            <Normal> { 0.457482357023321 -0.879666347030493 -0.129988503008591 }
+            // def_head:1
+          }
+          <Vertex> 45 {
+            1.55391004767631 14.3271999409193 -0.275193987868902
+            <UV> {
+              0.79976898431778 0.689149975776672
+              <Tangent> { 0.152436992461878 -0.9834851381521 -0.0975702124786194 }
+              <Binormal> { -0.133231223321981 0.077373682251464 -0.988060096566488 }
+            }
+            <Normal> { 0.979291787191798 0.163616308260501 -0.119236316656877 }
+            // def_head:1
+          }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 12 26 23 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 31 43 41 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 16 6 5 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 24 1 19 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 2 12 8 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 33 25 44 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 44 43 33 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 43 45 41 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 20 44 25 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 3 14 13 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 13 14 18 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 35 28 23 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 1 24 11 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 12 24 26 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 40 39 16 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 18 29 30 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 44 20 38 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 41 45 39 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 28 18 14 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 8 12 23 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 2 0 11 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 4 2 13 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 38 22 17 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 17 21 7 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 43 37 34 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 27 25 33 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 23 15 10 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 9 14 3 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 7 19 1 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 43 31 29 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 29 36 42 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 23 34 35 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 23 27 32 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 5 6 0 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_muzzleShrtGeneric_pic }
+          <VertexRef> { 0 2 4 <Ref> { mm_muzzle_short_200Shape.verts } }
+        }
+      }
+      <Group> mm_nose_small_200 {
+        <VertexPool> mm_nose_small_200Shape.verts {
+          <Vertex> 0 {
+            -0.671897973288388 15.750200166477 2.2442199426686
+            <UV> {
+              0.321628987789154 0.432511985301971
+              <Tangent> { -0.165915229179638 0.119124382189398 -0.978918545280588 }
+              <Binormal> { 0.662004136865295 -0.722295869908417 -0.200097973719073 }
+            }
+            <Normal> { -0.73090536972956 -0.681247427797887 0.0409790509804572 }
+            // def_head:1
+          }
+          <Vertex> 1 {
+            -0.671897973288388 15.750200166477 2.2442199426686
+            <UV> {
+              0.321628987789154 0.432511985301971
+              <Tangent> { 0.397913446491688 -0.0895419630837394 -0.91304278429229 }
+              <Binormal> { -0.774449168980942 -0.566320743535542 -0.28197393515373 }
+            }
+            <Normal> { -0.491826568788059 0.819306445897053 -0.294692337779087 }
+            // def_head:1
+          }
+          <Vertex> 2 {
+            -0.671897973288388 15.750200166477 2.2442199426686
+            <UV> {
+              0.321628987789154 0.432511985301971
+              <Tangent> { 0.397913446491688 -0.0895419630837394 -0.91304278429229 }
+              <Binormal> { -0.774449168980942 -0.566320743535542 -0.28197393515373 }
+            }
+            <Normal> { -0.491826568788059 0.819306445897053 -0.294692337779087 }
+            // def_head:1
+          }
+          <Vertex> 3 {
+            -0.500892998352451 15.6415003178314 2.99432008598107
+            <UV> {
+              0.137925997376442 0.487944006919861
+              <Tangent> { -0.134415390615667 0.0318013412100895 -0.990414649257006 }
+              <Binormal> { 0.622098935231001 -0.775268716544168 -0.10932214749269 }
+            }
+            <Normal> { -0.771314084890256 -0.630830477898142 0.0844244668606768 }
+            // def_head:1
+          }
+          <Vertex> 4 {
+            -0.500892998352451 15.6415003178314 2.99432008598107
+            <UV> {
+              0.137925997376442 0.487944006919861
+              <Tangent> { -0.310409188790595 0.103483554926248 -0.944953591121908 }
+              <Binormal> { -0.6605456162721 -0.738342117881407 0.136126433091113 }
+            }
+            <Normal> { -0.683612188552893 0.666439847864925 0.297543786424284 }
+            // def_head:1
+          }
+          <Vertex> 5 {
+            -0.500892998352451 15.6415003178314 2.99432008598107
+            <UV> {
+              0.137925997376442 0.487944006919861
+              <Tangent> { -0.969558401077393 -0.0169333726595189 -0.244273960525109 }
+              <Binormal> { -0.0543602017911565 -0.957825704855243 0.28216110217353 }
+            }
+            <Normal> { -0.23874981751087 0.286850448856073 0.9277474573555 }
+            // def_head:1
+          }
+          <Vertex> 6 {
+            -0.500892998352451 15.7238997812346 2.12613003147556
+            <UV> {
+              0.365197002887726 0.441585004329681
+              <Tangent> { 0.923075220364535 -0.0572425770649479 -0.380335936929352 }
+              <Binormal> { -0.176836463319553 -0.941311339940563 -0.287509698166747 }
+            }
+            <Normal> { -0.341556734364288 0.332650339952126 -0.879023747426734 }
+            // def_head:1
+          }
+          <Vertex> 7 {
+            -0.408978005406738 16.0793004073496 2.22490991507302
+            <UV> {
+              0.361281007528305 0.227805003523827
+              <Tangent> { 0.756508711181716 0.0233385806228963 -0.653567043661694 }
+              <Binormal> { -0.480259243522479 -0.658502320145498 -0.579418461368131 }
+            }
+            <Normal> { -0.443898219096894 0.752216727424686 -0.4869541724486 }
+            // def_head:1
+          }
+          <Vertex> 8 {
+            -0.289191004485283 15.3864001977475 3.02232006403405
+            <UV> {
+              0.0903491973876953 0.654473006725311
+              <Tangent> { -0.165915229179638 0.119124382189398 -0.978918545280588 }
+              <Binormal> { 0.662004136865295 -0.722295869908417 -0.200097973719073 }
+            }
+            <Normal> { -0.73090536972956 -0.681247427797887 0.0409790509804572 }
+            // def_head:1
+          }
+          <Vertex> 9 {
+            -0.289191004485283 15.3864001977475 3.02232006403405
+            <UV> {
+              0.0903491973876953 0.654473006725311
+              <Tangent> { -0.98426676413218 -0.162475174579439 0.0694316546695289 }
+              <Binormal> { 0.131131389252485 -0.935090915373256 -0.32925603827283 }
+            }
+            <Normal> { 0.118420841820522 -0.314971106026865 0.941684504805475 }
+            // def_head:1
+          }
+          <Vertex> 10 {
+            -4.93283011404989e-07 16.1940997666887 2.73200007561311
+            <UV> {
+              0 0
+              <Tangent> { -0.823232082634766 0.187727630792022 -0.535767929945457 }
+              <Binormal> { -0.549996150877653 -0.497610967404016 0.670736579544463 }
+            }
+            <Normal> { -0.140688208960779 0.846842170511397 0.512898787386902 }
+            // def_head:1
+          }
+          <Vertex> 11 {
+            -4.93283011404989e-07 16.1940997666887 2.73200007561311
+            <UV> {
+              1 0
+              <Tangent> { -0.0703942518845259 -0.525296384809514 0.848002569222331 }
+              <Binormal> { 0.987548215107002 0.0831988362274475 0.133515828609841 }
+            }
+            <Normal> { -0.140688208960779 0.846842170511397 0.512898787386902 }
+            // def_head:1
+          }
+          <Vertex> 12 {
+            -4.93283011404989e-07 16.1940997666887 2.73200007561311
+            <UV> {
+              0 0
+              <Tangent> { 1 0 0 }
+              <Binormal> { 0 -0.220800940121465 -0.975318893922125 }
+            }
+            <Normal> { 0 0.975318893922125 -0.220800940121465 }
+            // def_head:1
+          }
+          <Vertex> 13 {
+            -4.74872994586887e-07 15.7221996878076 3.09827008585292
+            <UV> {
+              0 0.432662010192871
+              <Tangent> { -0.994724178277992 0.0970997546626307 -0.0330975345551653 }
+              <Binormal> { -0.101314903696811 -0.879243799586966 0.465473555829738 }
+            }
+            <Normal> { 0.0160965660337655 0.46637107385893 0.884442718342793 }
+            // def_head:1
+          }
+          <Vertex> 14 {
+            -4.74872994586887e-07 15.7221996878076 3.09827008585292
+            <UV> {
+              1 0.432662010192871
+              <Tangent> { -0.954927615021335 -0.255048065294477 0.151867489803478 }
+              <Binormal> { 0.296402008481026 -0.847023320728073 0.44124521925025 }
+            }
+            <Normal> { 0.0160965660337655 0.46637107385893 0.884442718342793 }
+            // def_head:1
+          }
+          <Vertex> 15 {
+            -4.74872994586887e-07 15.7221996878076 3.09827008585292
+            <UV> {
+              0 0.432662010192871
+              <Tangent> { -0.96469837490899 -0.21649542611246 0.149955913255655 }
+              <Binormal> { 0.0883240671035217 -0.802391200911267 -0.590226414073843 }
+            }
+            <Normal> { 0.248104624338697 -0.556145746340434 0.793187244103935 }
+            // def_head:1
+          }
+          <Vertex> 16 {
+            -4.74872994586887e-07 15.7221996878076 3.09827008585292
+            <UV> {
+              1 0.432662010192871
+              <Tangent> { -0.963122560705844 -0.053614971112554 0.263667153684371 }
+              <Binormal> { -0.104110654791774 -0.829353569775908 -0.548938637607872 }
+            }
+            <Normal> { 0.248104624338697 -0.556145746340434 0.793187244103935 }
+            // def_head:1
+          }
+          <Vertex> 17 {
+            -4.62524992700809e-07 15.74850007305 2.03938997323745
+            <UV> {
+              0.5 0.414402991533279
+              <Tangent> { 0.999163964182745 0.0026187904589209 0.0407984633920819 }
+              <Binormal> { 0.0160153200377413 -0.943258590974825 -0.331672639927197 }
+            }
+            <Normal> { 0.0376149199482267 0.332048750168886 -0.942511933775148 }
+            // def_head:1
+          }
+          <Vertex> 18 {
+            -4.39632999121558e-07 15.1150000064079 2.67253009665982
+            <UV> {
+              0 1
+              <Tangent> { -0.189478504888718 0.182278644629648 -0.964817284203136 }
+              <Binormal> { 0.702432664518803 -0.66141372362686 -0.262907280262578 }
+            }
+            <Normal> { -0.686065775273881 -0.727534454105116 -0.00271479056638253 }
+            // def_head:1
+          }
+          <Vertex> 19 {
+            -4.39632999121558e-07 15.1150000064079 2.67253009665982
+            <UV> {
+              0 1
+              <Tangent> { -0.946917817870987 -0.243659707452995 0.209705968351807 }
+              <Binormal> { 0.041820410732515 -0.740145459704648 -0.671145104820679 }
+            }
+            <Normal> { 0.318743940247672 -0.626749268402059 0.711046872655292 }
+            // def_head:1
+          }
+          <Vertex> 20 {
+            -4.39632999121558e-07 15.1150000064079 2.67253009665982
+            <UV> {
+              1 1
+              <Tangent> { -0.861217479310559 0.121803860968024 0.493425042720016 }
+              <Binormal> { -0.395862038954679 -0.769642237673301 -0.500943182510631 }
+            }
+            <Normal> { 0.318743940247672 -0.626749268402059 0.711046872655292 }
+            // def_head:1
+          }
+          <Vertex> 21 {
+            0.408978005406738 16.0793004073496 2.22490991507302
+            <UV> {
+              0.638718008995056 0.227805003523827
+              <Tangent> { 0.784771719242039 0.0577062867254882 0.617092645516256 }
+              <Binormal> { 0.563176387497517 -0.482107944105688 -0.671121663184429 }
+            }
+            <Normal> { 0.258777327529174 0.874209308290951 -0.410843498250021 }
+            // def_head:1
+          }
+          <Vertex> 22 {
+            0.408978005406738 16.0793004073496 2.22490991507302
+            <UV> {
+              0.638718008995056 0.227805003523827
+              <Tangent> { 0.953324020737638 0.0452871533925892 0.2985337254352 }
+              <Binormal> { 0.0945555820194746 -0.983735950523331 -0.152718111424013 }
+            }
+            <Normal> { 0.286762189616382 0.173817874183166 -0.942101264844106 }
+            // def_head:1
+          }
+          <Vertex> 23 {
+            0.500892998352451 15.6415003178314 2.99432008598107
+            <UV> {
+              0.862074017524719 0.487944006919861
+              <Tangent> { -0.869620816856761 0.137199504374759 0.474274109443791 }
+              <Binormal> { -0.414495905683137 -0.724785734701088 -0.550344240403877 }
+            }
+            <Normal> { 0.268240151844007 -0.6751754844284 0.68715739548198 }
+            // def_head:1
+          }
+          <Vertex> 24 {
+            0.500892998352451 15.6415003178314 2.99432008598107
+            <UV> {
+              0.862074017524719 0.487944006919861
+              <Tangent> { -0.631447965924993 -0.0261586782755327 0.774976896352443 }
+              <Binormal> { 0.360536277678814 -0.894733704063062 0.263562499781547 }
+            }
+            <Normal> { 0.686503502399437 0.445833289879154 0.574408929969614 }
+            // def_head:1
+          }
+          <Vertex> 25 {
+            0.500892998352451 15.6415003178314 2.99432008598107
+            <UV> {
+              0.862074017524719 0.487944006919861
+              <Tangent> { -0.214304830772672 -0.0113610498478748 0.976700755632886 }
+              <Binormal> { -0.0587316581059848 -0.997973234331201 -0.0244952218737462 }
+            }
+            <Normal> { 0.974999503509421 -0.0626126992300799 0.213203231803614 }
+            // def_head:1
+          }
+          <Vertex> 26 {
+            0.500892998352451 16.1134003967125 2.62805007574126
+            <UV> {
+              0.768729984760284 0.202765002846718
+              <Tangent> { -0.54469788815743 -0.203725488241489 0.813510993212509 }
+              <Binormal> { 0.68506897420079 -0.667609502405846 0.291509953320459 }
+            }
+            <Normal> { 0.483719661812824 0.716095997571684 0.50321149732245 }
+            // def_head:1
+          }
+          <Vertex> 27 {
+            0.500892998352451 16.1134003967125 2.62805007574126
+            <UV> {
+              0.768729984760284 0.202765002846718
+              <Tangent> { 0.292559151660577 -0.0145151516127118 0.956137256440363 }
+              <Binormal> { 0.57035037225168 -0.799911682785645 -0.186659456271058 }
+            }
+            <Normal> { 0.767534752080981 0.599942172310546 -0.225742761193553 }
+            // def_head:1
+          }
+          <Vertex> 28 {
+            0.598340021969452 15.3229000061516 2.45511988642335
+            <UV> {
+              0.72010999917984 0.668072998523712
+              <Tangent> { -0.396168018436638 0.125556609727476 0.909552878573714 }
+              <Binormal> { -0.458465031130813 -0.88532874114665 -0.0774779667383652 }
+            }
+            <Normal> { 0.795525434161731 -0.447692481345657 0.408302248032458 }
+            // def_head:1
+          }
+          <Vertex> 29 {
+            0.671897973288388 15.750200166477 2.2442199426686
+            <UV> {
+              0.678371012210846 0.432511985301971
+              <Tangent> { -0.411772112599455 -0.241450490915195 0.878718036529462 }
+              <Binormal> { 0.744149104854074 -0.645677857748798 0.171295691007693 }
+            }
+            <Normal> { 0.526009350706108 0.72443202886795 0.445547302225032 }
+            // def_head:1
+          }
+          <Vertex> 30 {
+            0.671897973288388 15.750200166477 2.2442199426686
+            <UV> {
+              0.678371012210846 0.432511985301971
+              <Tangent> { 0.701270520341791 -0.0376666341296193 0.711899488673014 }
+              <Binormal> { 0.479299055403477 -0.714308520694331 -0.509937008612644 }
+            }
+            <Normal> { 0.527723481369636 0.698816543834519 -0.482869925833333 }
+            // def_head:1
+          }
+          <Vertex> 31 {
+            0.671897973288388 15.750200166477 2.2442199426686
+            <UV> {
+              0.678371012210846 0.432511985301971
+              <Tangent> { -0.214304830772672 -0.0113610498478748 0.976700755632886 }
+              <Binormal> { -0.0587316581059848 -0.997973234331201 -0.0244952218737462 }
+            }
+            <Normal> { 0.974999503509421 -0.0626126992300799 0.213203231803614 }
+            // def_head:1
+          }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 14 24 26 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 14 26 11 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 9 13 5 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 18 8 0 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 7 12 21 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 26 21 11 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 4 10 7 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 23 16 20 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 1 4 7 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 6 2 7 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 15 9 19 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 5 13 10 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 27 30 21 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 24 29 26 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 30 17 22 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 17 7 21 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 28 23 20 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 25 28 31 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 6 7 17 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_noseBlack_pic }
+          <VertexRef> { 8 3 0 <Ref> { mm_nose_small_200Shape.verts } }
+        }
+      }
+      <Group> mm_pupil_left_200 {
+        <VertexPool> mm_pupil_left_200Shape.verts {
+          <Vertex> 0 {
+            0.135848997771896 15.3476995433097 1.51393995510312
+            <UV> {
+              1 0
+              <Tangent> { -0.942220733433622 -1.12263445611628e-05 0.334992670609042 }
+              <Binormal> { -0.00917687471469062 0.999625571405429 -0.0257779355814193 }
+            }
+            <Normal> { 0.334866950382207 0.0273626911384484 0.941868042071384 }
+            // def_left_pupil:1
+          }
+          <Vertex> 1 {
+            0.135848997771896 15.3476995433097 1.51393995510312
+            <UV> {
+              1 0
+              <Tangent> { -0.942220733433622 -1.12263445611628e-05 0.334992670609042 }
+              <Binormal> { -0.00917687471469062 0.999625571405429 -0.0257779355814193 }
+            }
+            <Normal> { 0.334866950382207 0.0273626911384484 0.941868042071384 }
+            // def_left_pupil:1
+          }
+          <Vertex> 2 {
+            0.148403003146955 16.3868000501097 1.52088000079778
+            <UV> {
+              0.986640989780426 1
+              <Tangent> { -0.929879400826661 -2.25803857114475e-07 0.367864512991127 }
+              <Binormal> { 0.00391912919646862 0.999943241327016 0.00990729785371608 }
+            }
+            <Normal> { 0.367843635726638 -0.010654300745233 0.929826621220881 }
+            // def_left_pupil:1
+          }
+          <Vertex> 3 {
+            0.935536982819164 15.3731999434824 1.25919001621837
+            <UV> {
+              0.148996993899345 0.0245407000184059
+              <Tangent> { -0.953422691976709 -1.41931791213005e-07 0.301637481795393 }
+              <Binormal> { -0.0196990337317003 0.997865249677219 -0.0622646894849598 }
+            }
+            <Normal> { 0.300993552246429 0.0653065347924768 0.951387375373184 }
+            // def_left_pupil:1
+          }
+          <Vertex> 4 {
+            1.07555001426557 16.2772000931066 1.15284006113768
+            <UV> {
+              0 0.894523978233337
+              <Tangent> { -0.942220733433622 -1.12263445611588e-05 0.334992670609042 }
+              <Binormal> { -0.00917687471469061 0.999625571405429 -0.0257779355814193 }
+            }
+            <Normal> { 0.334866950382207 0.0273626911384484 0.941868042071384 }
+            // def_left_pupil:1
+          }
+          <Vertex> 5 {
+            1.07555001426557 16.2772000931066 1.15284006113768
+            <UV> {
+              0 0.894523978233337
+              <Tangent> { -0.942220733433622 -1.12263445611588e-05 0.334992670609042 }
+              <Binormal> { -0.00917687471469061 0.999625571405429 -0.0257779355814193 }
+            }
+            <Normal> { 0.334866950382207 0.0273626911384484 0.941868042071384 }
+            // def_left_pupil:1
+          }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_pupils_pic }
+          <VertexRef> { 0 4 2 <Ref> { mm_pupil_left_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_pupils_pic }
+          <VertexRef> { 1 3 5 <Ref> { mm_pupil_left_200Shape.verts } }
+        }
+      }
+      <Group> mm_pupil_right_200 {
+        <VertexPool> mm_pupil_right_200Shape.verts {
+          <Vertex> 0 {
+            -1.07555001426557 16.2772000931066 1.15284006113768
+            <UV> {
+              0 0.894523978233337
+              <Tangent> { 0.942220733433622 -1.12263445611588e-05 0.334992670609042 }
+              <Binormal> { 0.00917687471469061 0.999625571405429 -0.0257779355814193 }
+            }
+            <Normal> { -0.334866950382207 0.0273626911384484 0.941868042071384 }
+            // def_right_pupil:1
+          }
+          <Vertex> 1 {
+            -1.07555001426557 16.2772000931066 1.15284006113768
+            <UV> {
+              0 0.894523978233337
+              <Tangent> { 0.942220733433622 -1.12263445611588e-05 0.334992670609042 }
+              <Binormal> { 0.00917687471469061 0.999625571405429 -0.0257779355814193 }
+            }
+            <Normal> { -0.334866950382207 0.0273626911384484 0.941868042071384 }
+            // def_right_pupil:1
+          }
+          <Vertex> 2 {
+            -0.935536982819164 15.3731999434824 1.25919001621837
+            <UV> {
+              0.148996993899345 0.0245407000184059
+              <Tangent> { 0.953422691976709 -1.41931791213005e-07 0.301637481795393 }
+              <Binormal> { 0.0196990337317003 0.997865249677219 -0.0622646894849598 }
+            }
+            <Normal> { -0.300993552246429 0.0653065347924768 0.951387375373184 }
+            // def_right_pupil:1
+          }
+          <Vertex> 3 {
+            -0.148403003146955 16.3868000501097 1.52088000079778
+            <UV> {
+              0.986640989780426 1
+              <Tangent> { 0.929879400826661 -2.25803857114475e-07 0.367864512991127 }
+              <Binormal> { -0.00391912919646862 0.999943241327016 0.00990729785371608 }
+            }
+            <Normal> { -0.367843635726638 -0.010654300745233 0.929826621220881 }
+            // def_right_pupil:1
+          }
+          <Vertex> 4 {
+            -0.135848997771896 15.3476995433097 1.51393995510312
+            <UV> {
+              1 0
+              <Tangent> { 0.942220733433622 -1.12263445611628e-05 0.334992670609042 }
+              <Binormal> { 0.00917687471469062 0.999625571405429 -0.0257779355814193 }
+            }
+            <Normal> { -0.334866950382207 0.0273626911384484 0.941868042071384 }
+            // def_right_pupil:1
+          }
+          <Vertex> 5 {
+            -0.135848997771896 15.3476995433097 1.51393995510312
+            <UV> {
+              1 0
+              <Tangent> { 0.942220733433622 -1.12263445611628e-05 0.334992670609042 }
+              <Binormal> { 0.00917687471469062 0.999625571405429 -0.0257779355814193 }
+            }
+            <Normal> { -0.334866950382207 0.0273626911384484 0.941868042071384 }
+            // def_right_pupil:1
+          }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_pupils_pic }
+          <VertexRef> { 3 0 4 <Ref> { mm_pupil_right_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_pupils_pic }
+          <VertexRef> { 1 2 5 <Ref> { mm_pupil_right_200Shape.verts } }
+        }
+      }
+      <Group> mm_head_front_short_200 {
+        <VertexPool> mm_head_front_short_200Shape.verts {
+          <Vertex> 0 {
+            -1.32151000455921 16.2206995205616 0.979528026630872
+            <UV> {
+              0.141159996390343 0.527303993701935
+              <Tangent> { -0.195366035077184 0.198688134424013 -0.96039322028913 }
+              <Binormal> { -0.313768556955197 -0.940455983488334 -0.130735747931635 }
+            }
+            <Normal> { -0.929183192381607 0.275799870123421 0.246075245881072 }
+            // def_head:1
+          }
+          <Vertex> 1 {
+            -1.32151000455921 16.2206995205616 0.979528026630872
+            <UV> {
+              0.141159996390343 0.527303993701935
+              <Tangent> { -0.965865612355045 0.039598530530499 -0.255999170408498 }
+              <Binormal> { -0.0673206041037451 -0.992662109765506 0.10044835538226 }
+            }
+            <Normal> { -0.250143069328576 0.114253631083301 0.961443993507246 }
+            // def_head:1
+          }
+          <Vertex> 2 {
+            -0.835296988800129 14.7310001643624 1.00849000174855
+            <UV> {
+              0.102943003177643 0.82898998260498
+              <Tangent> { -0.77427439621669 -0.0396619562604277 -0.631605959906077 }
+              <Binormal> { 0.147825689281784 -0.981759302289034 -0.119566876505636 }
+            }
+            <Normal> { -0.615342770292823 -0.185945157491516 0.766014147032422 }
+            // def_head:1
+          }
+          <Vertex> 3 {
+            -0.505721005867785 18.1108990366378 -0.190352001215216
+            <UV> {
+              0.292506009340286 0.0656104981899261
+              <Tangent> { 0.518933549627205 0.37148086568747 -0.769876572899447 }
+              <Binormal> { -0.835423184588374 0.0296535132803861 -0.548806679808426 }
+            }
+            <Normal> { -0.181041635331568 0.927966936683748 0.32573193073178 }
+            // def_head:1
+          }
+          <Vertex> 4 {
+            -5.44089987412495e-07 17.7924008507115 0.594911988325945
+            <UV> {
+              0 -0.00133978994563222
+              <Tangent> { -0.790566718319309 0.425429986217265 -0.440469738702916 }
+              <Binormal> { -0.610254422889042 -0.487499773923457 0.624446562780948 }
+            }
+            <Normal> { 0.0509293945595212 0.762465276095742 0.645021627170783 }
+            // def_head:1
+          }
+          <Vertex> 5 {
+            -5.44089987412495e-07 17.7924008507115 0.594911988325945
+            <UV> {
+              1 -0.00133978994563222
+              <Tangent> { -0.32383524062103 -0.598355728014991 0.732871857614665 }
+              <Binormal> { 0.944741728570153 -0.246205453838645 0.21643923119062 }
+            }
+            <Normal> { 0.0509293945595212 0.762465276095742 0.645021627170783 }
+            // def_head:1
+          }
+          <Vertex> 6 {
+            -4.37680002477013e-07 15.4042001158547 1.42037999911571
+            <UV> {
+              0 0.710253000259399
+              <Tangent> { -0.99431724913655 0.10043028792212 0.0353123963701776 }
+              <Binormal> { -0.0920729400988958 -0.977785041757619 0.1883055650176 }
+            }
+            <Normal> { 0.0534395150714308 0.183984155249664 0.98147544485127 }
+            // def_head:1
+          }
+          <Vertex> 7 {
+            -4.37680002477013e-07 15.4042001158547 1.42037999911571
+            <UV> {
+              1 0.710253000259399
+              <Tangent> { -0.989760526792588 -0.120517754946168 0.0764824839162142 }
+              <Binormal> { 0.132356782342987 -0.975512840181924 0.175659844039576 }
+            }
+            <Normal> { 0.0534395150714308 0.183984155249664 0.98147544485127 }
+            // def_head:1
+          }
+          <Vertex> 8 {
+            0.835296988800129 14.7310001643624 1.00849000174855
+            <UV> {
+              0.897056996822357 0.82898998260498
+              <Tangent> { -0.774274495358676 0.0396619224089158 0.631605840495398 }
+              <Binormal> { -0.147825621424497 -0.981759310714549 -0.119566891218914 }
+            }
+            <Normal> { 0.615342661845845 -0.185945120226704 0.766014243194176 }
+            // def_head:1
+          }
+          <Vertex> 9 {
+            0.934448016910102 17.714899418548 0.278277002920316
+            <UV> {
+              0.810867011547089 0.154508993029594
+              <Tangent> { -0.86246908982725 -0.26298377325148 0.43241947701158 }
+              <Binormal> { 0.465588821579124 -0.747255564078152 0.474168926833892 }
+            }
+            <Normal> { 0.198429126675286 0.610285717480474 0.766927131301421 }
+            // def_head:1
+          }
+          <Vertex> 10 {
+            1.32151000455921 16.2206995205616 0.979528026630872
+            <UV> {
+              0.858839988708496 0.527303993701935
+              <Tangent> { -0.99645597147871 -0.0548650801403291 0.0637598610852877 }
+              <Binormal> { 0.0769828719622537 -0.90030295275395 0.428401949910317 }
+            }
+            <Normal> { 0.0338988838881633 0.431792098403519 0.90133592485123 }
+            // def_head:1
+          }
+          <Vertex> 11 {
+            1.32151000455921 16.2206995205616 0.979528026630872
+            <UV> {
+              0.858839988708496 0.527303993701935
+              <Tangent> { -0.534295449677564 0.102593647262706 0.839048816217022 }
+              <Binormal> { -0.101158375674069 -0.993234385841074 0.0570301482892075 }
+            }
+            <Normal> { 0.839223066582916 -0.0544058666344038 0.541058819529749 }
+            // def_head:1
+          }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 0 4 3 <Ref> { mm_head_front_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 8 11 7 <Ref> { mm_head_front_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 1 6 4 <Ref> { mm_head_front_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 7 9 5 <Ref> { mm_head_front_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 7 10 9 <Ref> { mm_head_front_short_200Shape.verts } }
+        }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { MM_Shorts_200_zero_dogMM_cvs_PICTURES_LngHeadGeneric_pic }
+          <VertexRef> { 6 1 2 <Ref> { mm_head_front_short_200Shape.verts } }
+        }
+      }
+    }
+  }
+}

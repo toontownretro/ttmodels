@@ -1,0 +1,81 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o fishing_spot.egg fishing_spot.flt"
+}
+<Texture> 0 {
+  "../maps/Vwood.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    -1.20000004768372 -1.89999997615814 0
+    <Normal> { 0 0 1 }
+  }
+  <Vertex> 1 {
+    -1.20000004768372 1.70000004768372 0
+    <Normal> { 0 0 1 }
+  }
+  <Vertex> 2 {
+    1.20000004768372 -1.89999997615814 0
+    <Normal> { 0 0 1 }
+  }
+  <Vertex> 3 {
+    1.20000004768372 1.70000004768372 0
+    <Normal> { 0 0 1 }
+  }
+  <Vertex> 4 {
+    -1.20000004768372 -1.89999997615814 0
+    <UV> {
+      0 1
+      <Tangent> { 0 1 0 }
+      <Binormal> { -1 0 0 }
+    }
+    <Normal> { 0 0 1 }
+  }
+  <Vertex> 5 {
+    -1.20000004768372 1.70000004768372 0
+    <UV> {
+      1 1
+      <Tangent> { 0 1 0 }
+      <Binormal> { -1 0 0 }
+    }
+    <Normal> { 0 0 1 }
+  }
+  <Vertex> 6 {
+    1.20000004768372 -1.89999997615814 0
+    <UV> {
+      0 0
+      <Tangent> { 0 1 0 }
+      <Binormal> { -1 0 0 }
+    }
+    <Normal> { 0 0 1 }
+  }
+  <Vertex> 7 {
+    1.20000004768372 1.70000004768372 0
+    <UV> {
+      1 0
+      <Tangent> { 0 1 0 }
+      <Binormal> { -1 0 0 }
+    }
+    <Normal> { 0 0 1 }
+  }
+}
+<Group> dock {
+  <ObjectType> { ground }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { 0 }
+    <VertexRef> { 6 7 5 4 <Ref> { vpool } }
+  }
+}
+<Group> fishing-floor {
+  <ObjectType> { floor }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+  }
+}

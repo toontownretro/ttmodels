@@ -1,0 +1,57 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -o frame4names.egg frame4names.mb"
+}
+<Texture> lambert6SG {
+  "../maps/namelistBox.rgb"
+  <Scalar> wrapu { clamp }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> frame4names {
+  <VertexPool> frame4namesShape.verts {
+    <Vertex> 0 {
+      -1.85964753495848 -3.6703427435884 0
+      <UV> {
+        0 0
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 1 {
+      -1.85964753495848 3.69731362256091 0
+      <UV> {
+        0 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 2 {
+      1.886618413931 -3.6703427435884 0
+      <UV> {
+        1 0
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 3 {
+      1.886618413931 3.69731362256091 0
+      <UV> {
+        1 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { lambert6SG }
+    <VertexRef> { 0 2 3 1 <Ref> { frame4namesShape.verts } }
+  }
+}

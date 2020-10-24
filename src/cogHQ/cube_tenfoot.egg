@@ -1,0 +1,423 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -o cube_tenfoot.egg cube_tenfoot.mb"
+}
+<Texture> lambert11SG {
+  "../maps/tiles.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Transform> {
+    <Matrix3> {
+      8 0 0
+      0 8 0
+      0 0 1
+    }
+  }
+}
+<Group> cube_tenfoot {
+  <Group> cube_geometry {
+    <Group> cube_tenfoot {
+      <VertexPool> cube_tenfootShape.verts {
+        <Vertex> 0 {
+          0 0 -9.99999984981507
+          <UV> {
+            0 0
+            <Tangent> { 0 0 1 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 1 {
+          0 0 -9.99999984981507
+          <UV> {
+            0 0
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 0 1 }
+          }
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 2 {
+          0 0 -9.99999984981507
+          <UV> {
+            0 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 -1 0 }
+          }
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 3 {
+          0 0 0
+          <UV> {
+            1 0
+            <Tangent> { 0 0 1 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 4 {
+          0 0 0
+          <UV> {
+            0 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 0 1 }
+          }
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 5 {
+          0 0 0
+          <UV> {
+            0 0
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 6 {
+          0 9.99999984981507 -9.99999984981507
+          <UV> {
+            0 1
+            <Tangent> { 0 0 1 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 7 {
+          0 9.99999984981507 -9.99999984981507
+          <UV> {
+            0 0
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 -1 0 }
+          }
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 8 {
+          0 9.99999984981507 -9.99999984981507
+          <UV> {
+            0 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 0 -1 }
+          }
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 9 {
+          0 9.99999984981507 0
+          <UV> {
+            1 1
+            <Tangent> { 0 0 1 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { -1 0 0 }
+        }
+        <Vertex> 10 {
+          0 9.99999984981507 0
+          <UV> {
+            0 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 11 {
+          0 9.99999984981507 0
+          <UV> {
+            0 0
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 0 -1 }
+          }
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 12 {
+          9.99999984981507 0 -9.99999984981507
+          <UV> {
+            1 0
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 0 1 }
+          }
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 13 {
+          9.99999984981507 0 -9.99999984981507
+          <UV> {
+            1 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 -1 0 }
+          }
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 14 {
+          9.99999984981507 0 -9.99999984981507
+          <UV> {
+            1 0
+            <Tangent> { 0 0 -1 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 15 {
+          9.99999984981507 0 0
+          <UV> {
+            1 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 0 1 }
+          }
+          <Normal> { 0 -1 0 }
+        }
+        <Vertex> 16 {
+          9.99999984981507 0 0
+          <UV> {
+            1 0
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 17 {
+          9.99999984981507 0 0
+          <UV> {
+            0 0
+            <Tangent> { 0 0 -1 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 18 {
+          9.99999984981507 9.99999984981507 -9.99999984981507
+          <UV> {
+            1 0
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 -1 0 }
+          }
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 19 {
+          9.99999984981507 9.99999984981507 -9.99999984981507
+          <UV> {
+            1 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 0 -1 }
+          }
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 20 {
+          9.99999984981507 9.99999984981507 -9.99999984981507
+          <UV> {
+            1 1
+            <Tangent> { 0 0 -1 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 1 0 0 }
+        }
+        <Vertex> 21 {
+          9.99999984981507 9.99999984981507 0
+          <UV> {
+            1 1
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 0 0 1 }
+        }
+        <Vertex> 22 {
+          9.99999984981507 9.99999984981507 0
+          <UV> {
+            1 0
+            <Tangent> { 1 0 0 }
+            <Binormal> { 0 0 -1 }
+          }
+          <Normal> { 0 1 0 }
+        }
+        <Vertex> 23 {
+          9.99999984981507 9.99999984981507 0
+          <UV> {
+            0 1
+            <Tangent> { 0 0 -1 }
+            <Binormal> { 0 1 0 }
+          }
+          <Normal> { 1 0 0 }
+        }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { lambert11SG }
+        <VertexRef> { 5 16 21 10 <Ref> { cube_tenfootShape.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { lambert11SG }
+        <VertexRef> { 11 22 19 8 <Ref> { cube_tenfootShape.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { lambert11SG }
+        <VertexRef> { 7 18 13 2 <Ref> { cube_tenfootShape.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { lambert11SG }
+        <VertexRef> { 1 12 15 4 <Ref> { cube_tenfootShape.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { lambert11SG }
+        <VertexRef> { 17 14 20 23 <Ref> { cube_tenfootShape.verts } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { lambert11SG }
+        <VertexRef> { 0 3 9 6 <Ref> { cube_tenfootShape.verts } }
+      }
+    }
+  }
+  <Group> cube_collision {
+    <Group> cube_tenfoot_wall {
+      <ObjectType> { camera-barrier }
+      <VertexPool> cube_tenfoot_wallShape.verts {
+        <Vertex> 0 {
+          0 -7.5092466045254e-08 0
+          <Normal> { 0 0 1 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 1 {
+          9.99999984981507 -7.5092466045254e-08 0
+          <Normal> { 0 0 1 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 2 {
+          9.99999984981507 8.99999966458699 0
+          <Normal> { 0 0 1 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 3 {
+          0 8.99999966458699 0
+          <Normal> { 0 0 1 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 4 {
+          0 8.99999966458699 -9.99999984981507
+          <Normal> { 0 0 -1 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 5 {
+          9.99999984981507 8.99999966458699 -9.99999984981507
+          <Normal> { 0 0 -1 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 6 {
+          9.99999984981507 -7.5092466045254e-08 -9.99999984981507
+          <Normal> { 0 0 -1 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 7 {
+          0 -7.5092466045254e-08 -9.99999984981507
+          <Normal> { 0 0 -1 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 8 {
+          0 -7.5092466045254e-08 -9.99999984981507
+          <Normal> { 0 -1 0 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 9 {
+          9.99999984981507 -7.5092466045254e-08 -9.99999984981507
+          <Normal> { 0 -1 0 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 10 {
+          9.99999984981507 -7.5092466045254e-08 0
+          <Normal> { 0 -1 0 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 11 {
+          0 -7.5092466045254e-08 0
+          <Normal> { 0 -1 0 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 12 {
+          9.99999984981507 -7.5092466045254e-08 0
+          <Normal> { 1 0 0 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 13 {
+          9.99999984981507 -7.5092466045254e-08 -9.99999984981507
+          <Normal> { 1 0 0 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 14 {
+          9.99999984981507 8.99999966458699 -9.99999984981507
+          <Normal> { 1 0 0 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 15 {
+          9.99999984981507 8.99999966458699 0
+          <Normal> { 1 0 0 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 16 {
+          0 -7.5092466045254e-08 -9.99999984981507
+          <Normal> { -1 0 0 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 17 {
+          0 -7.5092466045254e-08 0
+          <Normal> { -1 0 0 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 18 {
+          0 8.99999966458699 0
+          <Normal> { -1 0 0 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 19 {
+          0 8.99999966458699 -9.99999984981507
+          <Normal> { -1 0 0 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+      }
+      <Polygon> {
+        <VertexRef> { 0 1 2 3 <Ref> { cube_tenfoot_wallShape.verts } }
+      }
+      <Polygon> {
+        <VertexRef> { 4 5 6 7 <Ref> { cube_tenfoot_wallShape.verts } }
+      }
+      <Polygon> {
+        <VertexRef> { 8 9 10 11 <Ref> { cube_tenfoot_wallShape.verts } }
+      }
+      <Polygon> {
+        <VertexRef> { 12 13 14 15 <Ref> { cube_tenfoot_wallShape.verts } }
+      }
+      <Polygon> {
+        <VertexRef> { 16 17 18 19 <Ref> { cube_tenfoot_wallShape.verts } }
+      }
+    }
+    <Group> cube_tenfoot_top {
+      <ObjectType> { floor }
+      <VertexPool> cube_tenfoot_topShape.verts {
+        <Vertex> 0 {
+          0 9.9999997747226 0
+          <Normal> { 0 1 0 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 1 {
+          9.99999984981507 9.9999997747226 0
+          <Normal> { 0 1 0 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 2 {
+          9.99999984981507 9.9999997747226 -9.99999984981507
+          <Normal> { 0 1 0 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+        <Vertex> 3 {
+          0 9.9999997747226 -9.99999984981507
+          <Normal> { 0 1 0 }
+          <RGBA> { 0.5 0.5 0.5 1 }
+        }
+      }
+      <Polygon> {
+        <VertexRef> { 0 1 2 3 <Ref> { cube_tenfoot_topShape.verts } }
+      }
+    }
+  }
+}

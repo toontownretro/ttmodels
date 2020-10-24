@@ -1,0 +1,526 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -fri 24 -uo ft -nf -1 -p -a model -cn airplane -o SZ_airplane-mod.egg prop-airplane.mb"
+}
+<Texture> safezone_props_cvs_PICTURES_airplne_flag_pic {
+  "../../maps/airplne_flag.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> safezone_props_cvs_PICTURES_airplane_pic {
+  "../../maps/airplane.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> airplane {
+  <Dart> { 1 }
+  <Joint> airplane {
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+      }
+    }
+    <Group> airplane {
+      <VertexPool> airplaneShape.verts {
+        <Vertex> 0 {
+          2.13359997967097 0.609600012070864 0
+          <UV> { 0 1 }
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 1 {
+          2.13359997967097 -0.609600012070864 0
+          <UV> { 0 0 }
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 2 {
+          0 -0.609600012070864 0
+          <UV> { 1 0 }
+          <Normal> { 0 0 -1 }
+        }
+        <Vertex> 3 {
+          0 0.609600012070864 0
+          <UV> { 1 1 }
+          <Normal> { 0 0 -1 }
+        }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplane_pic }
+        <BFace> { 1 }
+        <VertexRef> { 0 1 2 <Ref> { airplaneShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplane_pic }
+        <BFace> { 1 }
+        <VertexRef> { 0 2 3 <Ref> { airplaneShape.verts } }
+      }
+    }
+    <Group> banner {
+      <VertexPool> bannerShape.verts {
+        <Vertex> 0 {
+          -2.98027003531068 0.457200009053148 0
+          <UV> { 0.888889014720917 1 }
+          <Normal> { 0 0 -1 }
+          // banner7:0.265839 banner8:0.734161
+        }
+        <Vertex> 1 {
+          -2.98027003531068 -0.457200009053148 0
+          <UV> { 0.888889014720917 0 }
+          <Normal> { 0 0 -1 }
+          // banner7:0.265839 banner8:0.734161
+        }
+        <Vertex> 2 {
+          -3.35280000381269 -0.457200009053148 0
+          <UV> { 1 0 }
+          <Normal> { 0 0 -1 }
+          // banner8:0.263499 banner9:0.736501
+        }
+        <Vertex> 3 {
+          -3.35280000381269 0.457200009053148 0
+          <UV> { 1 1 }
+          <Normal> { 0 0 -1 }
+          // banner8:0.263499 banner9:0.736501
+        }
+        <Vertex> 4 {
+          -2.60773005447988 0.457200009053148 0
+          <UV> { 0.777778029441833 1 }
+          <Normal> { 0 0 -1 }
+          // banner6:0.268219 banner7:0.731781
+        }
+        <Vertex> 5 {
+          -2.60773005447988 -0.457200009053148 0
+          <UV> { 0.777778029441833 0 }
+          <Normal> { 0 0 -1 }
+          // banner6:0.268219 banner7:0.731781
+        }
+        <Vertex> 6 {
+          -2.23520008597787 0.457200009053148 0
+          <UV> { 0.666666984558105 1 }
+          <Normal> { 0 0 -1 }
+          // banner6:0.735112 banner7:0.264888
+        }
+        <Vertex> 7 {
+          -2.23520008597787 -0.457200009053148 0
+          <UV> { 0.666666984558105 0 }
+          <Normal> { 0 0 -1 }
+          // banner6:0.735112 banner7:0.264888
+        }
+        <Vertex> 8 {
+          -1.86266999232175 0.457200009053148 0
+          <UV> { 0.555555999279022 1 }
+          <Normal> { 0 0 -1 }
+          // banner4:0.264428 banner5:0.735572
+        }
+        <Vertex> 9 {
+          -1.86266999232175 -0.457200009053148 0
+          <UV> { 0.555555999279022 0 }
+          <Normal> { 0 0 -1 }
+          // banner4:0.264428 banner5:0.735572
+        }
+        <Vertex> 10 {
+          -1.49013001149095 0.457200009053148 0
+          <UV> { 0.444444000720978 1 }
+          <Normal> { 0 0 -1 }
+          // banner4:0.731309 banner5:0.268691
+        }
+        <Vertex> 11 {
+          -1.49013001149095 -0.457200009053148 0
+          <UV> { 0.444444000720978 0 }
+          <Normal> { 0 0 -1 }
+          // banner4:0.731309 banner5:0.268691
+        }
+        <Vertex> 12 {
+          -1.11760004298893 0.457200009053148 0
+          <UV> { 0.333332985639572 1 }
+          <Normal> { 0 0 -1 }
+          // banner2:0.269312 banner3:0.730688
+        }
+        <Vertex> 13 {
+          -1.11760004298893 -0.457200009053148 0
+          <UV> { 0.333332985639572 5.96045985901128e-08 }
+          <Normal> { 0 0 -1 }
+          // banner2:0.269312 banner3:0.730688
+        }
+        <Vertex> 14 {
+          -0.745067008211231 0.457200009053148 0
+          <UV> { 0.222222000360489 1 }
+          <Normal> { 0 0 -1 }
+          // banner2:0.727425 banner3:0.272575
+        }
+        <Vertex> 15 {
+          -0.745067008211231 -0.457200009053148 0
+          <UV> { 0.222222000360489 0 }
+          <Normal> { 0 0 -1 }
+          // banner2:0.727425 banner3:0.272575
+        }
+        <Vertex> 16 {
+          -0.372533003489176 -0.457200009053148 0
+          <UV> { 0.111111000180244 5.96045985901128e-08 }
+          <Normal> { 0 0 -1 }
+          // banner0:0.26545 banner1:0.73455
+        }
+        <Vertex> 17 {
+          -0.372533003489176 0.457200009053148 0
+          <UV> { 0.111111000180244 1 }
+          <Normal> { 0 0 -1 }
+          // banner0:0.26545 banner1:0.73455
+        }
+        <Vertex> 18 {
+          0 0.457200009053148 0
+          <UV> { 0 1 }
+          <Normal> { 0 0 -1 }
+          // banner0:0.740813 banner1:0.259187
+        }
+        <Vertex> 19 {
+          0 -0.457200009053148 0
+          <UV> { 0 0 }
+          <Normal> { 0 0 -1 }
+          // banner0:0.740813 banner1:0.259187
+        }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplne_flag_pic }
+        <BFace> { 1 }
+        <VertexRef> { 0 1 2 <Ref> { bannerShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplne_flag_pic }
+        <BFace> { 1 }
+        <VertexRef> { 0 2 3 <Ref> { bannerShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplne_flag_pic }
+        <BFace> { 1 }
+        <VertexRef> { 4 5 1 <Ref> { bannerShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplne_flag_pic }
+        <BFace> { 1 }
+        <VertexRef> { 4 1 0 <Ref> { bannerShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplne_flag_pic }
+        <BFace> { 1 }
+        <VertexRef> { 6 7 5 <Ref> { bannerShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplne_flag_pic }
+        <BFace> { 1 }
+        <VertexRef> { 6 5 4 <Ref> { bannerShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplne_flag_pic }
+        <BFace> { 1 }
+        <VertexRef> { 8 9 7 <Ref> { bannerShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplne_flag_pic }
+        <BFace> { 1 }
+        <VertexRef> { 8 7 6 <Ref> { bannerShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplne_flag_pic }
+        <BFace> { 1 }
+        <VertexRef> { 10 11 9 <Ref> { bannerShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplne_flag_pic }
+        <BFace> { 1 }
+        <VertexRef> { 10 9 8 <Ref> { bannerShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplne_flag_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 13 11 <Ref> { bannerShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplne_flag_pic }
+        <BFace> { 1 }
+        <VertexRef> { 12 11 10 <Ref> { bannerShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplne_flag_pic }
+        <BFace> { 1 }
+        <VertexRef> { 14 15 13 <Ref> { bannerShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplne_flag_pic }
+        <BFace> { 1 }
+        <VertexRef> { 14 13 12 <Ref> { bannerShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplne_flag_pic }
+        <BFace> { 1 }
+        <VertexRef> { 16 17 18 <Ref> { bannerShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplne_flag_pic }
+        <BFace> { 1 }
+        <VertexRef> { 16 18 19 <Ref> { bannerShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplne_flag_pic }
+        <BFace> { 1 }
+        <VertexRef> { 17 16 15 <Ref> { bannerShape.verts } }
+      }
+      <Polygon> {
+        <Normal> { 0 0 -1 }
+        <RGBA> { 1 1 1 1 }
+        <TRef> { safezone_props_cvs_PICTURES_airplne_flag_pic }
+        <BFace> { 1 }
+        <VertexRef> { 17 15 14 <Ref> { bannerShape.verts } }
+      }
+    }
+    <Group> g1 {
+    }
+    <Group> g2 {
+    }
+    <Group> g3 {
+    }
+    <Joint> banner0 {
+      <Transform> {
+        <Matrix4> {
+          1 0 0 0
+          0 1 0 0
+          0 0 1 0
+          0 0 0 1
+        }
+      }
+      <Joint> banner1 {
+        <Transform> {
+          <Matrix4> {
+            1 0 0 0
+            0 1 0 0
+            0 0 1 0
+            -0.379951012729034 0 0 1
+          }
+        }
+        <Joint> banner2 {
+          <Transform> {
+            <Matrix4> {
+              1 0 0 0
+              0 1 0 0
+              0 0 1 0
+              -0.369681992868739 0 0 1
+            }
+          }
+          <Joint> banner3 {
+            <Transform> {
+              <Matrix4> {
+                1 0 0 0
+                0 1 0 0
+                0 0 1 0
+                -0.359413004296971 0 0 1
+              }
+            }
+            <Joint> banner4 {
+              <Transform> {
+                <Matrix4> {
+                  1 0 0 0
+                  0 1 0 0
+                  0 0 1 0
+                  -0.379949980207628 0 0 1
+                }
+              }
+              <Joint> banner5 {
+                <Transform> {
+                  <Matrix4> {
+                    1 0 0 0
+                    0 1 0 0
+                    0 0 1 0
+                    -0.369680960347333 0 0 1
+                  }
+                }
+                <Joint> banner6 {
+                  <Transform> {
+                    <Matrix4> {
+                      1 0 0 0
+                      0 1 0 0
+                      0 0 1 0
+                      -0.379951106594616 0 0 1
+                    }
+                  }
+                  <Joint> banner7 {
+                    <Transform> {
+                      <Matrix4> {
+                        1 0 0 0
+                        0 1 0 0
+                        0 0 1 0
+                        -0.369680960347333 0 0 1
+                      }
+                    }
+                    <Joint> banner8 {
+                      <Transform> {
+                        <Matrix4> {
+                          1 0 0 0
+                          0 1 0 0
+                          0 0 1 0
+                          -0.369680960347333 0 0 1
+                        }
+                      }
+                      <Joint> banner9 {
+                        <Transform> {
+                          <Matrix4> {
+                            1 0 0 0
+                            0 1 0 0
+                            0 0 1 0
+                            -0.379950105361738 0 0 1
+                          }
+                        }
+                        <VertexRef> {
+                          2 3
+                          <Scalar> membership { 0.736500978469849 }
+                          <Ref> { bannerShape.verts }
+                        }
+                      }
+                      <VertexRef> {
+                        2 3
+                        <Scalar> membership { 0.263498991727829 }
+                        <Ref> { bannerShape.verts }
+                      }
+                      <VertexRef> {
+                        0 1
+                        <Scalar> membership { 0.734161019325256 }
+                        <Ref> { bannerShape.verts }
+                      }
+                    }
+                    <VertexRef> {
+                      6 7
+                      <Scalar> membership { 0.264887988567352 }
+                      <Ref> { bannerShape.verts }
+                    }
+                    <VertexRef> {
+                      0 1
+                      <Scalar> membership { 0.265839010477066 }
+                      <Ref> { bannerShape.verts }
+                    }
+                    <VertexRef> {
+                      4 5
+                      <Scalar> membership { 0.731781005859375 }
+                      <Ref> { bannerShape.verts }
+                    }
+                  }
+                  <VertexRef> {
+                    4 5
+                    <Scalar> membership { 0.268218994140625 }
+                    <Ref> { bannerShape.verts }
+                  }
+                  <VertexRef> {
+                    6 7
+                    <Scalar> membership { 0.735112011432648 }
+                    <Ref> { bannerShape.verts }
+                  }
+                }
+                <VertexRef> {
+                  10 11
+                  <Scalar> membership { 0.268691003322601 }
+                  <Ref> { bannerShape.verts }
+                }
+                <VertexRef> {
+                  8 9
+                  <Scalar> membership { 0.735571980476379 }
+                  <Ref> { bannerShape.verts }
+                }
+              }
+              <VertexRef> {
+                8 9
+                <Scalar> membership { 0.264427989721298 }
+                <Ref> { bannerShape.verts }
+              }
+              <VertexRef> {
+                10 11
+                <Scalar> membership { 0.731308996677399 }
+                <Ref> { bannerShape.verts }
+              }
+            }
+            <VertexRef> {
+              14 15
+              <Scalar> membership { 0.272574990987778 }
+              <Ref> { bannerShape.verts }
+            }
+            <VertexRef> {
+              12 13
+              <Scalar> membership { 0.730687975883484 }
+              <Ref> { bannerShape.verts }
+            }
+          }
+          <VertexRef> {
+            12 13
+            <Scalar> membership { 0.269311994314194 }
+            <Ref> { bannerShape.verts }
+          }
+          <VertexRef> {
+            14 15
+            <Scalar> membership { 0.7274249792099 }
+            <Ref> { bannerShape.verts }
+          }
+        }
+        <VertexRef> {
+          18 19
+          <Scalar> membership { 0.259187012910843 }
+          <Ref> { bannerShape.verts }
+        }
+        <VertexRef> {
+          16 17
+          <Scalar> membership { 0.734549999237061 }
+          <Ref> { bannerShape.verts }
+        }
+      }
+      <VertexRef> {
+        16 17
+        <Scalar> membership { 0.265450000762939 }
+        <Ref> { bannerShape.verts }
+      }
+      <VertexRef> {
+        18 19
+        <Scalar> membership { 0.740813016891479 }
+        <Ref> { bannerShape.verts }
+      }
+    }
+  }
+}

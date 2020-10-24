@@ -1,0 +1,111 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -o trophyA.egg trophyA.mb"
+}
+<Texture> lambert2SG {
+  "../maps/gardenTropheyA.tif"
+  <Scalar> wrapu { clamp }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> a1SG {
+  "../maps/gardenTropheyA.tif"
+  <Scalar> wrapu { clamp }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> group1 {
+  <Group> pedistal {
+    <VertexPool> pedistalShape.verts {
+      <Vertex> 0 {
+        -0.75359281905367 0.000767038250219791 0
+        <UV> {
+          0.331758081912994 0.00395619496703148
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        -0.75359281905367 1.5079528328002 0
+        <UV> {
+          0.331758081912994 0.534548401832581
+          <Tangent> { 0.999972204572565 -0.00745587568859611 0 }
+          <Binormal> { 0.00745587568859611 0.999972204572565 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.75359281905367 0.000767038250219791 0
+        <UV> {
+          0.915822625160217 0.00395619496703148
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        0.75359281905367 1.5079528328002 0
+        <UV> {
+          0.915822625160217 0.538504540920258
+          <Tangent> { 0.999972614455661 -0.0074006985284513 0 }
+          <Binormal> { 0.0074006985284513 0.999972614455661 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { a1SG }
+      <VertexRef> { 0 2 3 1 <Ref> { pedistalShape.verts } }
+    }
+  }
+  <Group> watering_can {
+    <VertexPool> watering_canShape.verts {
+      <Vertex> 0 {
+        -1.47551075992935 1.50178974381895 0
+        <UV> {
+          0.00510038016363978 0.542716085910797
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        -1.47551075992935 3.01249020994492 0
+        <UV> {
+          0.00510038016363978 0.995984733104706
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.799885321789839 1.50178974381895 0
+        <UV> {
+          0.992671608924866 0.542716085910797
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        0.799885321789839 3.01249020994492 0
+        <UV> {
+          0.992671608924866 0.995984733104706
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert2SG }
+      <VertexRef> { 0 2 3 1 <Ref> { watering_canShape.verts } }
+    }
+  }
+}

@@ -1,0 +1,314 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o suit_walls.egg suit_walls.flt"
+}
+<Texture> 7 {
+  "../maps/suit_build4_half.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 6 {
+  "../maps/suit_build2_quarter.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 5 {
+  "../maps/suit_build1_half.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 4 {
+  "../maps/suit_build5.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 2 {
+  "../maps/suit_build3.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    0 0 0
+    <UV> {
+      0 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 1 {
+    0 0 1
+    <UV> {
+      0 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 2 {
+    0 0 1
+    <UV> {
+      0 2
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 3 {
+    0 0 1
+    <UV> {
+      0 4
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 4 {
+    0.5 0 0
+    <UV> {
+      1 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 5 {
+    0.5 0 1
+    <UV> {
+      1 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 6 {
+    1 0 0
+    <UV> {
+      1 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 7 {
+    1 0 1
+    <UV> {
+      1 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 8 {
+    1 0 1
+    <UV> {
+      1 2
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 9 {
+    1 0 1
+    <UV> {
+      1 4
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 10 {
+    0 0 0
+    <UV> {
+      1 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 11 {
+    0 0 1
+    <UV> {
+      1 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 12 {
+    0 0 1
+    <UV> {
+      1 2
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 13 {
+    0 0 1
+    <UV> {
+      1 4
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 14 {
+    0.5 0 0
+    <UV> {
+      1 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 15 {
+    0.5 0 1
+    <UV> {
+      1 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 16 {
+    1 0 0
+    <UV> {
+      0 0
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 17 {
+    1 0 1
+    <UV> {
+      0 1
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 18 {
+    1 0 1
+    <UV> {
+      0 2
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 19 {
+    1 0 1
+    <UV> {
+      0 4
+      <Tangent> { -1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+}
+<Group> 1x1suitwalls {
+  <Group> wall_suit_build1 {
+    <Group> wall_suit_build1_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 5 }
+        <VertexRef> { 6 8 2 0 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_suit_build1_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 5 }
+        <VertexRef> { 16 18 12 10 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_suit_build2 {
+    <Group> wall_suit_build2_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 6 }
+        <VertexRef> { 6 9 3 0 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_suit_build2_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 6 }
+        <VertexRef> { 16 19 13 10 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_suit_build3 {
+    <Group> wall_suit_build3_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 2 }
+        <VertexRef> { 6 7 1 0 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_suit_build3_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 2 }
+        <VertexRef> { 16 17 11 10 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_suit_build4 {
+    <Group> wall_suit_build4_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 7 }
+        <VertexRef> { 16 17 15 14 <Ref> { vpool } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 7 }
+        <VertexRef> { 5 1 0 4 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_suit_build4_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 7 }
+        <VertexRef> { 5 1 0 4 <Ref> { vpool } }
+      }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 7 }
+        <VertexRef> { 16 17 15 14 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> wall_suit_build5 {
+    <Group> wall_suit_build5_ur {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 4 }
+        <VertexRef> { 6 7 1 0 <Ref> { vpool } }
+      }
+    }
+    <Group> wall_suit_build5_ul {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 4 }
+        <VertexRef> { 16 17 11 10 <Ref> { vpool } }
+      }
+    }
+  }
+}

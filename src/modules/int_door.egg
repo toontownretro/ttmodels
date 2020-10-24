@@ -1,0 +1,61 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o int_door.egg int_door.flt"
+}
+<Texture> 1 {
+  "../maps/interior_door.rgba"
+  <Scalar> wrap { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    4.49926396532909 0 0.0216034645079687
+    <UV> {
+      0 0
+      <Tangent> { 0.999974611523145 0 0.00712574972446747 }
+      <Binormal> { -0.00712574972446747 0 0.999974611523145 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 1 {
+    4.52011781954958 0 7.94456883427397
+    <UV> {
+      0 1
+      <Tangent> { 0.999974611523145 0 0.00712574972446747 }
+      <Binormal> { -0.00712574972446747 0 0.999974611523145 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 2 {
+    9.98943653245628 0 0.0607260534283974
+    <UV> {
+      1 0
+      <Tangent> { 0.999974611523145 0 0.00712574972446747 }
+      <Binormal> { -0.00712574972446747 0 0.999974611523145 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 3 {
+    10.0102903866768 0 7.9836914231944
+    <UV> {
+      1 1
+      <Tangent> { 0.999974611523145 0 0.00712574972446747 }
+      <Binormal> { -0.00712574972446747 0 0.999974611523145 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+}
+<Group> g1 {
+  <Group> g2 {
+    <Group> o1 {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 1 }
+        <VertexRef> { 1 0 2 3 <Ref> { vpool } }
+      }
+    }
+  }
+}

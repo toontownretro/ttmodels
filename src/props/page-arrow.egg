@@ -1,0 +1,56 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o page-arrow.egg page-arrow.flt"
+}
+<Texture> 0 {
+  "../maps/scroll-arrow.rgb"
+  <Scalar> format { rgba8 }
+  <Scalar> wrap { clamp }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    -0.5 0 -0.5
+    <UV> {
+      1 0
+      <Tangent> { 0 0 -1 }
+      <Binormal> { 1 0 0 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 1 {
+    -0.5 0 0.5
+    <UV> {
+      0 0
+      <Tangent> { 0 0 -1 }
+      <Binormal> { 1 0 0 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 2 {
+    0.5 0 -0.5
+    <UV> {
+      1 1
+      <Tangent> { 0 0 -1 }
+      <Binormal> { 1 0 0 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 3 {
+    0.5 0 0.5
+    <UV> {
+      0 1
+      <Tangent> { 0 0 -1 }
+      <Binormal> { 1 0 0 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+}
+<Group> poly {
+  <Polygon> {
+    <RGBA> { 1 0 0 1 }
+    <TRef> { 0 }
+    <VertexRef> { 3 1 0 2 <Ref> { vpool } }
+  }
+}

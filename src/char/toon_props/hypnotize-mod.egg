@@ -1,0 +1,163 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -fri 24 -uo ft -nf -1 -p -a model -cn hypnotize -o hypnotize-mod.egg prop-hypnotize.mb"
+}
+<Texture> toon_props_cvs_PICTURES_hypno_glasses_fr1_pic {
+  "../../maps/hypno_glasses_fr1.pic"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> hypnotize {
+  <Dart> { 1 }
+  <Group> right {
+    <VertexPool> rightShape.verts {
+      <Vertex> 0 {
+        -2.04155000801787 2.65526008105341 2.31684011424307
+        <UV> { 0 1 }
+        <Normal> { 0 0 1 }
+        // right:1
+      }
+      <Vertex> 1 {
+        -2.04155000801787 0.706083004868875 2.31684011424307
+        <UV> { 0 0 }
+        <Normal> { 0 0 1 }
+        // right:1
+      }
+      <Vertex> 2 {
+        -0.0221367993849156 0.706083004868875 2.31684011424307
+        <UV> { 1 5.96045985901128e-08 }
+        <Normal> { 0 0 1 }
+        // right:1
+      }
+      <Vertex> 3 {
+        -0.0221367993849156 2.65526008105341 2.31684011424307
+        <UV> { 1 1 }
+        <Normal> { 0 0 1 }
+        // right:1
+      }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_hypno_glasses_fr1_pic }
+      <VertexRef> { 0 1 2 <Ref> { rightShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_hypno_glasses_fr1_pic }
+      <VertexRef> { 0 2 3 <Ref> { rightShape.verts } }
+    }
+  }
+  <Group> left {
+    <VertexPool> leftShape.verts {
+      <Vertex> 0 {
+        0.0981025026226294 2.64685998751423 2.31684011424307
+        <UV> { 1 1 }
+        <Normal> { 0 0 1 }
+        // left:1
+      }
+      <Vertex> 1 {
+        0.0981025026226294 0.697684976372506 2.31684011424307
+        <UV> { 1 0 }
+        <Normal> { 0 0 1 }
+        // left:1
+      }
+      <Vertex> 2 {
+        2.11750991701141 0.697684976372506 2.31684011424307
+        <UV> { 0 0 }
+        <Normal> { 0 0 1 }
+        // left:1
+      }
+      <Vertex> 3 {
+        2.11750991701141 2.64685998751423 2.31684011424307
+        <UV> { 0 1 }
+        <Normal> { 0 0 1 }
+        // left:1
+      }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_hypno_glasses_fr1_pic }
+      <VertexRef> { 0 1 2 <Ref> { leftShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <RGBA> { 1 1 1 1 }
+      <TRef> { toon_props_cvs_PICTURES_hypno_glasses_fr1_pic }
+      <VertexRef> { 0 2 3 <Ref> { leftShape.verts } }
+    }
+  }
+  <Joint> hypnotize {
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+      }
+    }
+    <Joint> meat_hypnotize {
+      <Transform> {
+        <Matrix4> {
+          1 0 0 0
+          0 1 0 0
+          0 0 1 0
+          0.0131378004087864 0.0394350000879583 0.0342386014505321 1
+        }
+      }
+      <Joint> fly {
+        <Transform> {
+          <Matrix4> {
+            1 0 0 0
+            0 1 0 0
+            0 0 1 0
+            0 1.64962997195602 2.28260001094322 1
+          }
+        }
+        <Joint> main {
+          <Transform> {
+            <Matrix4> {
+              1 0 0 0
+              0 1 0 0
+              0 0 1 0
+              0 0 0 1
+            }
+          }
+          <Joint> left {
+            <Transform> {
+              <Matrix4> {
+                1 0 0 0
+                0 1 0 0
+                0 0 1 0
+                1.12607998680568 0 0 1
+              }
+            }
+            <VertexRef> {
+              0 1 2 3
+              <Ref> { leftShape.verts }
+            }
+          }
+          <Joint> right {
+            <Transform> {
+              <Matrix4> {
+                1 0 0 0
+                0 1 0 0
+                0 0 1 0
+                -1.00447999953911 0 0 1
+              }
+            }
+            <VertexRef> {
+              0 1 2 3
+              <Ref> { rightShape.verts }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o icecream.egg icecream.flt"
+}
+<Texture> 1 {
+  "../maps/ice_cream.rgba"
+  <Scalar> wrap { clamp }
+  <Scalar> wrapu { clamp }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    -1.10000002384186 0 0
+    <UV> {
+      0 0
+      <Tangent> { 1 0 3.18086726104493e-09 }
+      <Binormal> { -3.18086726104493e-09 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 1 {
+    -1.10000002384186 0 3
+    <UV> {
+      0 1.00135600566864
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 2 {
+    1.10000002384186 0 0
+    <UV> {
+      1.00859463214874 -2.33579910968729e-09
+      <Tangent> { 1 0 3.18086725362512e-09 }
+      <Binormal> { -3.18086725362512e-09 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 3 {
+    1.10000002384186 0 3
+    <UV> {
+      1.00859463214874 1.00135600566864
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+}
+<Group> g1 {
+  <Group> g2 {
+    <Group> ice_cream {
+      <Group> p1_2 {
+        <Billboard> { axis }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { 1 }
+          <VertexRef> { 3 1 0 2 <Ref> { vpool } }
+        }
+      }
+    }
+  }
+}

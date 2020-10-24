@@ -1,0 +1,1705 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -subset dogSSskirt:sf_hand_left_zero -subset dogSSskirt:sf_hand_right_zero -subset dogSSskirt:sf_neck_zero -subset dogSSskirt:sf_arm_left_zero -subset dogSSskirt:sf_arm_right_zero -subset dogSSskirt:sf_blouse_uv_zero -subset dogSSskirt:sf_sleeve_left_zero -subset dogSSskirt:sf_sleeve_right_zero -subset dogSSskirt:sf_skirt_small_uv_zero -subset dogSSskirt:sf_skirt_cap_zero -subroot dogSSskirt:Skeleton -a chan -cn dog-torso-sd -o tt_a_chr_dgs_skirt_torso_leap_zhang.egg -sf 0 tt_a_chr_dgs_skirt_leap_zhang.mb"
+}
+<Table> {
+  <Bundle> dog-torso-sd {
+    <Table> "<skeleton>" {
+      <Table> "dogSSskirt:Skeleton" {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 24 }
+          <Char*> order { srpht }
+        }
+        <Table> "dogSSskirt:root" {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> h {
+              <V> {
+                -24.4352 -24.3592 -24.191 -24.0214 -23.944 -24.0214
+                -24.191 -24.3592 -24.4352
+              }
+            }
+            <S$Anim> p {
+              <V> {
+                5.91123 5.82318 5.63106 5.44115 5.35553 5.44115 5.63106
+                5.82318 5.91123
+              }
+            }
+            <S$Anim> r {
+              <V> {
+                -10.1687 -10.012 -9.66684 -9.32092 -9.16338 -9.32092
+                -9.66684 -10.012 -10.1687
+              }
+            }
+            <S$Anim> x {
+              <V> {
+                -0.0527167 -0.0449872 -0.0279823 -0.0109774 -0.00324788
+                -0.0109774 -0.0279823 -0.0449872 -0.0527167
+              }
+            }
+            <S$Anim> y {
+              <V> {
+                9.35961 9.3397 9.2959 9.2521 9.23219 9.2521 9.2959
+                9.3397 9.35961
+              }
+            }
+            <S$Anim> z {
+              <V> {
+                0.982163 0.95728 0.902536 0.847792 0.822909 0.847792
+                0.902536 0.95728 0.982163
+              }
+            }
+          }
+          <Table> "dogSSskirt:MAIN1" {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+            }
+            <Table> "dogSSskirt:def_pelvis" {
+              <Xfm$Anim_S$> xform {
+                <Scalar> fps { 24 }
+                <Char*> order { srpht }
+              }
+              <Table> "dogSSskirt:def_left_hip" {
+                <Xfm$Anim_S$> xform {
+                  <Scalar> fps { 24 }
+                  <Char*> order { srpht }
+                  <S$Anim> h {
+                    <V> {
+                      118.228 118.188 118.119 118.089 117.993 118.089
+                      118.119 118.188 118.228
+                    }
+                  }
+                  <S$Anim> p {
+                    <V> {
+                      6.14404 6.36645 6.8077 7.15018 7.37763 7.15018
+                      6.8077 6.36645 6.14404
+                    }
+                  }
+                  <S$Anim> r {
+                    <V> {
+                      144.675 143.193 138.482 130.685 131.052 130.685
+                      138.482 143.193 144.675
+                    }
+                  }
+                  <S$Anim> x { <V> { 0.999887972053267 } }
+                  <S$Anim> y { <V> { 0.000200246575614035 } }
+                  <S$Anim> z { <V> { -0.517800004463496 } }
+                }
+                <Table> "dogSSskirt:def_left_knee" {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                    <S$Anim> h {
+                      <V> {
+                        1.09629 0.979347 0.61089 0.00012026 0.00012026
+                        0.00012026 0.61089 0.979347 1.09629
+                      }
+                    }
+                    <S$Anim> p {
+                      <V> {
+                        3.34111 3.41115 3.56969 3.66421 3.66421 3.66421
+                        3.56969 3.41115 3.34111
+                      }
+                    }
+                    <S$Anim> r {
+                      <V> {
+                        -32.8909 -29.0206 -17.6128 -1.28179e-05
+                        -1.28179e-05 -1.28179e-05 -17.6128 -29.0206
+                        -32.891
+                      }
+                    }
+                    <S$Anim> x { <V> { 2.743288379256 } }
+                  }
+                  <Table> "dogSSskirt:def_left_ankle" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> h {
+                        <V> {
+                          -2.79284 -4.2097 -7.76377 -12.1016 -12.4095
+                          -12.1016 -7.76377 -4.2097 -2.79284
+                        }
+                      }
+                      <S$Anim> p {
+                        <V> {
+                          -26.594 -26.1391 -24.7232 -22.2549 -21.8186
+                          -22.2549 -24.7232 -26.1391 -26.594
+                        }
+                      }
+                      <S$Anim> r {
+                        <V> {
+                          80.0042 79.5204 76.9744 71.3328 73.1825
+                          71.3328 76.9744 79.5204 80.0042
+                        }
+                      }
+                      <S$Anim> x { <V> { 2.63683743872796 } }
+                    }
+                    <Table> "dogSSskirt:def_left_ball" {
+                      <Xfm$Anim_S$> xform {
+                        <Scalar> fps { 24 }
+                        <Char*> order { srpht }
+                        <S$Anim> r {
+                          <V> {
+                            12.4684 13.0407 14.2996 15.5586 16.1308
+                            15.5586 14.2996 13.0407 12.4684
+                          }
+                        }
+                        <S$Anim> x {
+                          <V> {
+                            1.39488 1.39548 1.39749 1.41152 1.4221
+                            1.41152 1.39749 1.39548 1.39487
+                          }
+                        }
+                        <S$Anim> y {
+                          <V> {
+                            -0.00138452 -0.00636115 -0.0171623 0.0166478
+                            0.0606494 0.0166478 -0.0171623 -0.00636115
+                            -0.00138134
+                          }
+                        }
+                        <S$Anim> z {
+                          <V> {
+                            -0.0967684 -0.0973423 -0.0985853 -0.108865
+                            -0.119748 -0.108865 -0.0985853 -0.0973423
+                            -0.0967665
+                          }
+                        }
+                      }
+                      <Table> "dogSSskirt:def_left_toe" {
+                        <Xfm$Anim_S$> xform {
+                          <Scalar> fps { 24 }
+                          <Char*> order { srpht }
+                          <S$Anim> x { <V> { 1.66602747872175 } }
+                        }
+                      }
+                    }
+                  }
+                }
+                <Table> "dogSSskirt:def_left_skirt_frontA" {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                    <S$Anim> h {
+                      <V> {
+                        -162.551 -161.729 -160.811 -161.753 -160.408
+                        -161.753 -160.811 -161.729 -162.551
+                      }
+                    }
+                    <S$Anim> p {
+                      <V> {
+                        -26.0305 -26.1268 -26.9689 -29.0327 -28.7652
+                        -29.0327 -26.9689 -26.1268 -26.0304
+                      }
+                    }
+                    <S$Anim> r {
+                      <V> {
+                        -163.327 -163.056 -164.086 -168.597 -166.512
+                        -168.597 -164.086 -163.056 -163.327
+                      }
+                    }
+                  }
+                  <Table> "dogSSskirt:def_left_skirt_frontB" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> h { <V> { 84.7483535865175 } }
+                      <S$Anim> p { <V> { -70.9972547779755 } }
+                      <S$Anim> r { <V> { -4.9669199259116 } }
+                      <S$Anim> x { <V> { 4.42145539228579 } }
+                      <S$Anim> y { <V> { 2.98762242407172 } }
+                      <S$Anim> z { <V> { -1.5738381311242 } }
+                    }
+                  }
+                  <Table> "dogSSskirt:eff_left_skirt_front" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> x { <V> { 4.42145539228579 } }
+                      <S$Anim> y { <V> { 2.98762242407172 } }
+                      <S$Anim> z { <V> { -1.5738381311242 } }
+                    }
+                  }
+                }
+                <Table> "dogSSskirt:def_left_skirt_topA" {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                    <S$Anim> h {
+                      <V> {
+                        8.24438 10.304 15.0747 20.0361 21.6388 20.6237
+                        16.6739 12.0925 8.24435
+                      }
+                    }
+                    <S$Anim> p {
+                      <V> {
+                        -11.6001 -11.1561 -9.47388 -6.09555 -5.66834
+                        -6.00122 -9.42887 -11.2589 -11.6002
+                      }
+                    }
+                    <S$Anim> r {
+                      <V> {
+                        94.9625 96.8814 102.259 110.061 109.727 110.094
+                        102.501 97.2777 94.9624
+                      }
+                    }
+                  }
+                  <Table> "dogSSskirt:def_left_skirt_topB" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> h { <V> { 84.7483535865175 } }
+                      <S$Anim> p { <V> { -70.9972547779755 } }
+                      <S$Anim> r { <V> { -4.9669199259116 } }
+                      <S$Anim> x { <V> { 2.40297735867263 } }
+                      <S$Anim> y { <V> { 3.61549089590917 } }
+                      <S$Anim> z { <V> { -1.01540409715143 } }
+                    }
+                  }
+                  <Table> "dogSSskirt:eff_left_skirt_top" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> x { <V> { 2.40297735867263 } }
+                      <S$Anim> y { <V> { 3.61549089590917 } }
+                      <S$Anim> z { <V> { -1.01540409715143 } }
+                    }
+                  }
+                }
+                <Table> "dogSSskirt:def_left_skirt_backA" {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                    <S$Anim> h {
+                      <V> {
+                        -175.457 -175.566 -175.781 -175.989 -176.305
+                        -175.989 -175.781 -175.566 -175.457
+                      }
+                    }
+                    <S$Anim> p {
+                      <V> {
+                        3.62026 3.14988 2.06345 0.863734 0.625582
+                        0.863734 2.06345 3.14988 3.62027
+                      }
+                    }
+                    <S$Anim> r {
+                      <V> {
+                        -144.916 -146.375 -151.037 -158.779 -158.409
+                        -158.779 -151.037 -146.375 -144.915
+                      }
+                    }
+                  }
+                  <Table> "dogSSskirt:def_left_skirt_backB" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> h { <V> { 84.7483535865177 } }
+                      <S$Anim> p { <V> { -70.9972547779745 } }
+                      <S$Anim> r { <V> { -4.96691992591137 } }
+                      <S$Anim> x { <V> { 2.12870425265255 } }
+                      <S$Anim> y { <V> { -3.69803853188415 } }
+                      <S$Anim> z { <V> { -1.78457880467905 } }
+                    }
+                  }
+                  <Table> "dogSSskirt:eff_left_skirt_back" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> x { <V> { 2.12870425265255 } }
+                      <S$Anim> y { <V> { -3.69803853188415 } }
+                      <S$Anim> z { <V> { -1.78457880467905 } }
+                    }
+                  }
+                }
+              }
+              <Table> "dogSSskirt:def_right_hip" {
+                <Xfm$Anim_S$> xform {
+                  <Scalar> fps { 24 }
+                  <Char*> order { srpht }
+                  <S$Anim> h {
+                    <V> {
+                      122.15 121.815 121.109 120.442 120.152 120.442
+                      121.109 121.815 122.15
+                    }
+                  }
+                  <S$Anim> p {
+                    <V> {
+                      10.6104 10.9293 11.5942 12.2114 12.4771 12.2114
+                      11.5942 10.9293 10.6104
+                    }
+                  }
+                  <S$Anim> r {
+                    <V> {
+                      -125.226 -125.577 -126.36 -127.159 -127.527
+                      -127.159 -126.36 -125.577 -125.226
+                    }
+                  }
+                  <S$Anim> x { <V> { -0.99988845144357 } }
+                  <S$Anim> y { <V> { 0.000202349164663302 } }
+                  <S$Anim> z { <V> { -0.517800355095251 } }
+                }
+                <Table> "dogSSskirt:def_right_knee" {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                    <S$Anim> h {
+                      <V> {
+                        1.92153 1.91364 1.89519 1.87702 1.867 1.87623
+                        1.89519 1.91364 1.92154
+                      }
+                    }
+                    <S$Anim> p {
+                      <V> {
+                        2.78022 2.7895 2.80999 2.83144 2.84032 2.83083
+                        2.80999 2.7895 2.78021
+                      }
+                    }
+                    <S$Anim> r {
+                      <V> {
+                        -64.9276 -64.5389 -63.6648 -62.7633 -62.3443
+                        -62.7633 -63.6648 -64.5389 -64.9277
+                      }
+                    }
+                    <S$Anim> x { <V> { -2.74328931685525 } }
+                  }
+                  <Table> "dogSSskirt:def_right_ankle" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> h {
+                        <V> {
+                          14.0382 14.1988 14.5935 15.0439 15.2667
+                          15.0437 14.5935 14.1988 14.0382
+                        }
+                      }
+                      <S$Anim> p {
+                        <V> {
+                          -5.64876 -4.80759 -2.99195 -1.22616 -0.437583
+                          -1.22518 -2.99195 -4.80759 -5.64875
+                        }
+                      }
+                      <S$Anim> r {
+                        <V> {
+                          60.4399 60.3983 60.261 60.0631 59.9526 60.063
+                          60.261 60.3983 60.4399
+                        }
+                      }
+                      <S$Anim> x { <V> { -2.63683835340394 } }
+                    }
+                    <Table> "dogSSskirt:def_right_ball" {
+                      <Xfm$Anim_S$> xform {
+                        <Scalar> fps { 24 }
+                        <Char*> order { srpht }
+                        <S$Anim> r {
+                          <V> {
+                            -17.249 -17.459 -17.92 -18.382 -18.592
+                            -18.382 -17.92 -17.459 -17.249
+                          }
+                        }
+                        <S$Anim> x {
+                          <V> {
+                            -1.45341 -1.45621 -1.46242 -1.46866 -1.47152
+                            -1.46866 -1.46242 -1.45621 -1.45341
+                          }
+                        }
+                        <S$Anim> y {
+                          <V> {
+                            0.00896142 0.00864371 0.00787822 0.00701219
+                            0.00660963 0.00701691 0.00787822 0.00864371
+                            0.00896194
+                          }
+                        }
+                        <S$Anim> z {
+                          <V> {
+                            0.152858 0.153872 0.155965 0.157837 0.158613
+                            0.15783 0.155965 0.153872 0.152857
+                          }
+                        }
+                      }
+                      <Table> "dogSSskirt:def_right_toe" {
+                        <Xfm$Anim_S$> xform {
+                          <Scalar> fps { 24 }
+                          <Char*> order { srpht }
+                          <S$Anim> x { <V> { -1.66602690288714 } }
+                        }
+                      }
+                    }
+                  }
+                }
+                <Table> "dogSSskirt:def_right_skirt_frontA" {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                    <S$Anim> h {
+                      <V> {
+                        -146.768 -146.407 -145.624 -144.855 -144.51
+                        -144.855 -145.624 -146.407 -146.768
+                      }
+                    }
+                    <S$Anim> p {
+                      <V> {
+                        32.7393 32.1146 30.7645 29.4439 28.8522 29.4439
+                        30.7645 32.1146 32.7393
+                      }
+                    }
+                    <S$Anim> r {
+                      <V> {
+                        113.208 112.906 112.224 111.519 111.19 111.519
+                        112.224 112.906 113.208
+                      }
+                    }
+                  }
+                  <Table> "dogSSskirt:def_right_skirt_frontB" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> h { <V> { -95.251646413483 } }
+                      <S$Anim> p { <V> { 70.9972547779745 } }
+                      <S$Anim> r { <V> { -175.033080074088 } }
+                      <S$Anim> x { <V> { -4.42145749022993 } }
+                      <S$Anim> y { <V> { -2.98762206001982 } }
+                      <S$Anim> z { <V> { 1.5738376414968 } }
+                    }
+                  }
+                  <Table> "dogSSskirt:eff_right_skirt_front" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> x { <V> { -4.42145749022993 } }
+                      <S$Anim> y { <V> { -2.98762206001982 } }
+                      <S$Anim> z { <V> { 1.5738376414968 } }
+                    }
+                  }
+                }
+                <Table> "dogSSskirt:def_right_skirt_topA" {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                    <S$Anim> h {
+                      <V> {
+                        -160.374 -160.098 -159.516 -158.966 -158.726
+                        -158.966 -159.516 -160.098 -160.374
+                      }
+                    }
+                    <S$Anim> p {
+                      <V> {
+                        33.0373 32.4178 31.0894 29.8052 29.2352 29.8052
+                        31.0894 32.4178 33.0373
+                      }
+                    }
+                    <S$Anim> r {
+                      <V> {
+                        104.708 104.678 104.602 104.514 104.47 104.514
+                        104.602 104.678 104.708
+                      }
+                    }
+                  }
+                  <Table> "dogSSskirt:def_right_skirt_topB" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> h { <V> { -95.251646413483 } }
+                      <S$Anim> p { <V> { 70.9972547779745 } }
+                      <S$Anim> r { <V> { -175.033080074088 } }
+                      <S$Anim> x { <V> { -2.40297945661677 } }
+                      <S$Anim> y { <V> { -3.61549053185727 } }
+                      <S$Anim> z { <V> { 1.01540360752403 } }
+                    }
+                  }
+                  <Table> "dogSSskirt:eff_right_skirt_top" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> x { <V> { -2.40297945661677 } }
+                      <S$Anim> y { <V> { -3.61549053185727 } }
+                      <S$Anim> z { <V> { 1.01540360752403 } }
+                    }
+                  }
+                }
+                <Table> "dogSSskirt:def_right_skirt_backA" {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                    <S$Anim> h {
+                      <V> {
+                        -178.569 -179.917 178.872 177.609 175.948
+                        177.732 178.911 179.974 -178.569
+                      }
+                    }
+                    <S$Anim> p {
+                      <V> {
+                        20.2579 19.1866 19.2905 20.2574 21.4075 20.8614
+                        20.8145 20.8129 20.2579
+                      }
+                    }
+                    <S$Anim> r {
+                      <V> {
+                        166.394 174.461 174.584 171.748 170.953 169.547
+                        168.698 167.82 166.394
+                      }
+                    }
+                  }
+                  <Table> "dogSSskirt:def_right_skirt_backB" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> h { <V> { -95.2516464134829 } }
+                      <S$Anim> p { <V> { 70.9972547779743 } }
+                      <S$Anim> r { <V> { -175.033080074088 } }
+                      <S$Anim> x { <V> { -2.12870635059669 } }
+                      <S$Anim> y { <V> { 3.69803889593605 } }
+                      <S$Anim> z { <V> { 1.78457831505167 } }
+                    }
+                  }
+                  <Table> "dogSSskirt:eff_right_skirt_back" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> x { <V> { -2.12870635059669 } }
+                      <S$Anim> y { <V> { 3.69803889593605 } }
+                      <S$Anim> z { <V> { 1.78457831505167 } }
+                    }
+                  }
+                }
+              }
+            }
+            <Table> "dogSSskirt:def_spineA" {
+              <Xfm$Anim_S$> xform {
+                <Scalar> fps { 24 }
+                <Char*> order { srpht }
+                <S$Anim> p { <V> { 5.65239086512459 } }
+              }
+              <Table> "dogSSskirt:def_spineB" {
+                <Xfm$Anim_S$> xform {
+                  <Scalar> fps { 24 }
+                  <Char*> order { srpht }
+                  <S$Anim> h {
+                    <V> {
+                      -9.99682 -10.0381 -10.1257 -10.2091 -10.2456
+                      -10.2091 -10.1257 -10.0381 -9.99682
+                    }
+                  }
+                  <S$Anim> p {
+                    <V> {
+                      -31.6364 -31.3871 -30.8388 -30.2901 -30.0406
+                      -30.2901 -30.8388 -31.3871 -31.6364
+                    }
+                  }
+                  <S$Anim> r {
+                    <V> {
+                      0.5615 0.472137 0.277328 0.084806 -0.00201102
+                      0.084806 0.277328 0.472137 0.5615
+                    }
+                  }
+                  <S$Anim> y { <V> { 1.19896987059358 } }
+                }
+                <Table> "dogSSskirt:def_cageA" {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                    <S$Anim> h {
+                      <V> {
+                        -1.05578 -1.03507 -0.990314 -0.946156 -0.926339
+                        -0.946156 -0.990314 -1.03507 -1.05578
+                      }
+                    }
+                    <S$Anim> p {
+                      <V> {
+                        -32.5447 -32.4439 -32.222 -32 -31.8993 -32
+                        -32.222 -32.4439 -32.5447
+                      }
+                    }
+                    <S$Anim> r {
+                      <V> {
+                        -2.02687 -1.99312 -1.91913 -1.8455 -1.81216
+                        -1.8455 -1.91913 -1.99312 -2.02687
+                      }
+                    }
+                    <S$Anim> y { <V> { 1.80718893607109 } }
+                  }
+                  <Table> "dogSSskirt:def_cageB" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                      <S$Anim> p { <V> { 16.3433404526689 } }
+                      <S$Anim> y { <V> { 1.20042888551892 } }
+                    }
+                    <Table> "dogSSskirt:def_neck" {
+                      <Xfm$Anim_S$> xform {
+                        <Scalar> fps { 24 }
+                        <Char*> order { srpht }
+                        <S$Anim> h {
+                          <V> {
+                            36.1804 35.8679 35.1787 34.4874 34.1724
+                            34.4874 35.1787 35.8679 36.1804
+                          }
+                        }
+                        <S$Anim> p {
+                          <V> {
+                            11.8484 11.8181 11.7478 11.6728 11.6372
+                            11.6728 11.7478 11.8181 11.8484
+                          }
+                        }
+                        <S$Anim> r {
+                          <V> {
+                            7.2369 7.17098 7.02891 6.89069 6.82911
+                            6.89069 7.02891 7.17098 7.2369
+                          }
+                        }
+                        <S$Anim> y { <V> { 0.982510484745144 } }
+                      }
+                      <Table> "dogSSskirt:def_toHead" {
+                        <Xfm$Anim_S$> xform {
+                          <Scalar> fps { 24 }
+                          <Char*> order { srpht }
+                          <S$Anim> y { <V> { 2.22811534180751 } }
+                        }
+                      }
+                      <Table> "dogSSskirt:def_head" {
+                        <Xfm$Anim_S$> xform {
+                          <Scalar> fps { 24 }
+                          <Char*> order { srpht }
+                          <S$Anim> h {
+                            <V> {
+                              -19.2882 -19.1559 -18.8783 -18.6162
+                              -18.5011 -18.6162 -18.8783 -19.1559
+                              -19.2882
+                            }
+                          }
+                          <S$Anim> p {
+                            <V> {
+                              26.3583 24.4764 20.3357 16.1946 14.3122
+                              16.1946 20.3357 24.4764 26.3583
+                            }
+                          }
+                          <S$Anim> r {
+                            <V> {
+                              3.79381 3.73421 3.6227 3.5355 3.50327
+                              3.5355 3.6227 3.73421 3.79381
+                            }
+                          }
+                          <S$Anim> x {
+                            <V> {
+                              0.108041 0.109861 0.113947 0.118044
+                              0.119924 0.118044 0.113947 0.109861
+                              0.108041
+                            }
+                          }
+                          <S$Anim> y {
+                            <V> {
+                              2.19509 2.19554 2.19634 2.19716 2.1975
+                              2.19716 2.19634 2.19554 2.19509
+                            }
+                          }
+                          <S$Anim> z {
+                            <V> {
+                              -0.0762068 -0.0757222 -0.0747798
+                              -0.0738756 -0.0734908 -0.0738756
+                              -0.0747798 -0.0757222 -0.0762068
+                            }
+                          }
+                        }
+                        <Table> "dogSSskirt:def_headtip" {
+                          <Xfm$Anim_S$> xform {
+                            <Scalar> fps { 24 }
+                            <Char*> order { srpht }
+                            <S$Anim> y { <V> { 3.34178016611244 } }
+                          }
+                        }
+                        <Table> "dogSSskirt:def_left_earA" {
+                          <Xfm$Anim_S$> xform {
+                            <Scalar> fps { 24 }
+                            <Char*> order { srpht }
+                            <S$Anim> h { <V> { 28.3208486277466 } }
+                            <S$Anim> p { <V> { 7.2125833319537 } }
+                            <S$Anim> r { <V> { -3.87080460878084 } }
+                            <S$Anim> x { <V> { 1.2065799843295 } }
+                            <S$Anim> y { <V> { 2.12441491441787 } }
+                            <S$Anim> z { <V> { -0.396310453539485 } }
+                          }
+                          <Table> "dogSSskirt:def_left_earB" {
+                            <Xfm$Anim_S$> xform {
+                              <Scalar> fps { 24 }
+                              <Char*> order { srpht }
+                              <S$Anim> h {
+                                <V> {
+                                  -20.7886 -20.8295 -20.9194 -21.0083
+                                  -21.0485 -21.0083 -20.9194 -20.8295
+                                  -20.7886
+                                }
+                              }
+                              <S$Anim> p {
+                                <V> {
+                                  36.4125 36.26 35.9244 35.5888 35.4363
+                                  35.5888 35.9244 36.26 36.4125
+                                }
+                              }
+                              <S$Anim> r {
+                                <V> {
+                                  66.6489 66.6732 66.726 66.7781 66.8013
+                                  66.7781 66.726 66.6732 66.6489
+                                }
+                              }
+                              <S$Anim> x { <V> { 0.67612842338715 } }
+                            }
+                            <Table> "dogSSskirt:def_left_earC" {
+                              <Xfm$Anim_S$> xform {
+                                <Scalar> fps { 24 }
+                                <Char*> order { srpht }
+                                <S$Anim> h {
+                                  <V> {
+                                    68.4693 67.9417 66.7819 65.624
+                                    65.0982 65.6239 66.7819 67.9417
+                                    68.4693
+                                  }
+                                }
+                                <S$Anim> p {
+                                  <V> {
+                                    -15.0358 -14.9629 -14.7982 -14.6277
+                                    -14.5483 -14.6276 -14.7982 -14.9629
+                                    -15.0358
+                                  }
+                                }
+                                <S$Anim> r {
+                                  <V> {
+                                    -5.18254 -5.31917 -5.61707 -5.91108
+                                    -6.04349 -5.9111 -5.61707 -5.31917
+                                    -5.18254
+                                  }
+                                }
+                                <S$Anim> x { <V> { 1.26766490926259 } }
+                              }
+                              <Table> "dogSSskirt:def_left_earD" {
+                                <Xfm$Anim_S$> xform {
+                                  <Scalar> fps { 24 }
+                                  <Char*> order { srpht }
+                                  <S$Anim> h {
+                                    <V> {
+                                      48.742 48.3768 47.5766 46.7765
+                                      46.4134 46.7766 47.5766 48.3768
+                                      48.742
+                                    }
+                                  }
+                                  <S$Anim> p {
+                                    <V> {
+                                      -10.8867 -10.8063 -10.6282 -10.448
+                                      -10.3655 -10.448 -10.6282 -10.8063
+                                      -10.8867
+                                    }
+                                  }
+                                  <S$Anim> r {
+                                    <V> {
+                                      -9.72134 -9.79007 -9.93882
+                                      -10.0852 -10.1508 -10.0852
+                                      -9.93882 -9.79007 -9.72134
+                                    }
+                                  }
+                                  <S$Anim> x { <V> { 1.42381251782755 } }
+                                }
+                              }
+                            }
+                          }
+                        }
+                        <Table> "dogSSskirt:def_right_earA" {
+                          <Xfm$Anim_S$> xform {
+                            <Scalar> fps { 24 }
+                            <Char*> order { srpht }
+                            <S$Anim> h { <V> { 149.893611635828 } }
+                            <S$Anim> p { <V> { -20.2329445722756 } }
+                            <S$Anim> r { <V> { 168.661055526608 } }
+                            <S$Anim> x { <V> { -1.2065813648294 } }
+                            <S$Anim> y { <V> { 2.12441012084854 } }
+                            <S$Anim> z { <V> { -0.396310710270824 } }
+                          }
+                          <Table> "dogSSskirt:def_right_earB" {
+                            <Xfm$Anim_S$> xform {
+                              <Scalar> fps { 24 }
+                              <Char*> order { srpht }
+                              <S$Anim> h {
+                                <V> {
+                                  -25.0789 -25.1539 -25.3183 -25.4821
+                                  -25.5565 -25.4821 -25.3183 -25.1539
+                                  -25.0789
+                                }
+                              }
+                              <S$Anim> p {
+                                <V> {
+                                  9.59556 9.25228 8.49719 7.74199
+                                  7.39873 7.74199 8.49719 9.25228
+                                  9.59556
+                                }
+                              }
+                              <S$Anim> r {
+                                <V> {
+                                  66.7254 66.7377 66.7631 66.7862 66.796
+                                  66.7862 66.7631 66.7377 66.7254
+                                }
+                              }
+                              <S$Anim> x { <V> { -0.676126882645628 } }
+                            }
+                            <Table> "dogSSskirt:def_right_earC" {
+                              <Xfm$Anim_S$> xform {
+                                <Scalar> fps { 24 }
+                                <Char*> order { srpht }
+                                <S$Anim> h {
+                                  <V> {
+                                    65.1257 64.7602 63.9565 63.1551
+                                    62.7915 63.1551 63.9565 64.7602
+                                    65.1257
+                                  }
+                                }
+                                <S$Anim> p {
+                                  <V> {
+                                    23.6497 23.5757 23.4095 23.2394
+                                    23.1607 23.2394 23.4095 23.5757
+                                    23.6497
+                                  }
+                                }
+                                <S$Anim> r {
+                                  <V> {
+                                    15.285 15.4314 15.7518 16.0691
+                                    16.2123 16.0691 15.7518 15.4314
+                                    15.285
+                                  }
+                                }
+                                <S$Anim> x { <V> { -1.26766662161667 } }
+                              }
+                              <Table> "dogSSskirt:def_right_earD" {
+                                <Xfm$Anim_S$> xform {
+                                  <Scalar> fps { 24 }
+                                  <Char*> order { srpht }
+                                  <S$Anim> h {
+                                    <V> {
+                                      55.8144 55.4716 54.7191 53.9665
+                                      53.6253 53.9665 54.7191 55.4716
+                                      55.8144
+                                    }
+                                  }
+                                  <S$Anim> p {
+                                    <V> {
+                                      10.4083 10.3415 10.1933 10.0434
+                                      9.97492 10.0434 10.1933 10.3415
+                                      10.4083
+                                    }
+                                  }
+                                  <S$Anim> r {
+                                    <V> {
+                                      13.6491 13.709 13.8393 13.9676
+                                      14.0252 13.9676 13.8393 13.709
+                                      13.6491
+                                    }
+                                  }
+                                  <S$Anim> x { <V> { -1.42379422150076 } }
+                                }
+                              }
+                            }
+                          }
+                        }
+                        <Table> "dogSSskirt:def_left_pupil" {
+                          <Xfm$Anim_S$> xform {
+                            <Scalar> fps { 24 }
+                            <Char*> order { srpht }
+                            <S$Anim> p { <V> { -1.96032839075885 } }
+                            <S$Anim> x { <V> { 0.524317939062855 } }
+                            <S$Anim> y { <V> { 1.34847353835603 } }
+                            <S$Anim> z { <V> { 1.37954391236832 } }
+                          }
+                        }
+                        <Table> "dogSSskirt:def_right_pupil" {
+                          <Xfm$Anim_S$> xform {
+                            <Scalar> fps { 24 }
+                            <Char*> order { srpht }
+                            <S$Anim> h { <V> { 180 } }
+                            <S$Anim> p { <V> { 1.96032839075889 } }
+                            <S$Anim> r { <V> { -180 } }
+                            <S$Anim> x { <V> { -0.524317585301839 } }
+                            <S$Anim> y { <V> { 1.34846304812279 } }
+                            <S$Anim> z { <V> { 1.37954482710505 } }
+                          }
+                        }
+                      }
+                    }
+                    <Table> "dogSSskirt:def_left_shoulder" {
+                      <Xfm$Anim_S$> xform {
+                        <Scalar> fps { 24 }
+                        <Char*> order { srpht }
+                        <S$Anim> h {
+                          <V> {
+                            117.87 113.356 99.2204 77.859 64.6139 77.859
+                            99.2204 113.356 117.87
+                          }
+                        }
+                        <S$Anim> p {
+                          <V> {
+                            33.325 37.5934 44.8723 47.6811 46.1242
+                            47.6811 44.8723 37.5934 33.325
+                          }
+                        }
+                        <S$Anim> r {
+                          <V> {
+                            -18.5581 -15.5417 -4.84336 12.4348 23.0164
+                            12.4348 -4.84336 -15.5417 -18.5581
+                          }
+                        }
+                        <S$Anim> x { <V> { 2.43069005450551 } }
+                        <S$Anim> y { <V> { -0.000571266164639189 } }
+                        <S$Anim> z { <V> { 0.0116449775582721 } }
+                      }
+                      <Table> "dogSSskirt:def_left_elbow" {
+                        <Xfm$Anim_S$> xform {
+                          <Scalar> fps { 24 }
+                          <Char*> order { srpht }
+                          <S$Anim> h {
+                            <V> {
+                              -72.0422 -68.206 -56.6823 -38.5242
+                              -24.8764 -38.5242 -56.6823 -68.206
+                              -72.0422
+                            }
+                          }
+                          <S$Anim> p {
+                            <V> {
+                              0.000235314 0.000486902 0.000167452
+                              0.000269777 0.000406189 0.000269777
+                              0.000267445 0.000486902 0.000235314
+                            }
+                          }
+                          <S$Anim> r {
+                            <V> {
+                              -0.000751116 -0.000985126 -0.000409456
+                              -0.000703322 -0.000638984 -0.000703322
+                              -0.000408345 -0.000985126 -0.000751116
+                            }
+                          }
+                          <S$Anim> x { <V> { 2.13881157467591 } }
+                        }
+                        <Table> "dogSSskirt:def_left_forearm" {
+                          <Xfm$Anim_S$> xform {
+                            <Scalar> fps { 24 }
+                            <Char*> order { srpht }
+                            <S$Anim> h { <V> { 3.02350358982576 } }
+                            <S$Anim> r {
+                              <V> {
+                                0.00108885 0.00106962 0.000947864
+                                0.00100919 0.00103164 0.0010088
+                                0.000951888 0.00106925 0.00108885
+                              }
+                            }
+                            <S$Anim> x { <V> { 1.67480820768355 } }
+                          }
+                          <Table> "dogSSskirt:def_left_wrist" {
+                            <Xfm$Anim_S$> xform {
+                              <Scalar> fps { 24 }
+                              <Char*> order { srpht }
+                              <S$Anim> h { <V> { -0.39824794378435 } }
+                              <S$Anim> x { <V> { 0.446560637507898 } }
+                            }
+                            <Table> "dogSSskirt:def_left_palm" {
+                              <Xfm$Anim_S$> xform {
+                                <Scalar> fps { 24 }
+                                <Char*> order { srpht }
+                                <S$Anim> h { <V> { 0.000685268440915081 } }
+                                <S$Anim> p { <V> { 0.000602386777350803 } }
+                                <S$Anim> r {
+                                  <V> {
+                                    49.1409 49.141 49.1409 49.1407
+                                    49.1405 49.1407 49.1409 49.141
+                                    49.1409
+                                  }
+                                }
+                                <S$Anim> x { <V> { 0.450370067701887 } }
+                              }
+                              <Table> "dogSSskirt:def_left_midA" {
+                                <Xfm$Anim_S$> xform {
+                                  <Scalar> fps { 24 }
+                                  <Char*> order { srpht }
+                                  <S$Anim> h { <V> { -0.000722925860351077 } }
+                                  <S$Anim> p { <V> { 0.000383581179628696 } }
+                                  <S$Anim> r {
+                                    <V> {
+                                      86.3805 86.3805 86.3807 86.3809
+                                      86.3814 86.3809 86.3807 86.3805
+                                      86.3805
+                                    }
+                                  }
+                                  <S$Anim> x { <V> { 0.850816929698024 } }
+                                }
+                                <Table> "dogSSskirt:def_left_midB" {
+                                  <Xfm$Anim_S$> xform {
+                                    <Scalar> fps { 24 }
+                                    <Char*> order { srpht }
+                                    <S$Anim> h { <V> { -0.000588709525422882 } }
+                                    <S$Anim> p { <V> { 0.000387638679429645 } }
+                                    <S$Anim> r {
+                                      <V> {
+                                        106.096 106.096 106.096 106.096
+                                        106.095 106.096 106.096 106.096
+                                        106.096
+                                      }
+                                    }
+                                    <S$Anim> x { <V> { 0.921660714808996 } }
+                                  }
+                                }
+                              }
+                              <Table> "dogSSskirt:def_left_thumbA" {
+                                <Xfm$Anim_S$> xform {
+                                  <Scalar> fps { 24 }
+                                  <Char*> order { srpht }
+                                  <S$Anim> h {
+                                    <V> {
+                                      -49.4027 -49.4026 -49.4027
+                                      -49.4028 -49.4029 -49.4028
+                                      -49.4027 -49.4026 -49.4026
+                                    }
+                                  }
+                                  <S$Anim> p {
+                                    <V> {
+                                      41.2701 41.2702 41.2701 41.27
+                                      41.2698 41.27 41.2701 41.2702
+                                      41.2701
+                                    }
+                                  }
+                                  <S$Anim> r {
+                                    <V> {
+                                      -29.4947 -29.4949 -29.4947
+                                      -29.4946 -29.4944 -29.4946
+                                      -29.4948 -29.4948 -29.4948
+                                    }
+                                  }
+                                  <S$Anim> x { <V> { -0.0226753962182721 } }
+                                  <S$Anim> y { <V> { -0.00477322565886704 } }
+                                  <S$Anim> z { <V> { 0.546515726456739 } }
+                                }
+                                <Table> "dogSSskirt:def_left_thumbB" {
+                                  <Xfm$Anim_S$> xform {
+                                    <Scalar> fps { 24 }
+                                    <Char*> order { srpht }
+                                    <S$Anim> h {
+                                      <V> {
+                                        -4.36907 -4.36924 -4.36918
+                                        -4.36917 -4.36921 -4.36917
+                                        -4.36918 -4.36924 -4.36917
+                                      }
+                                    }
+                                    <S$Anim> p {
+                                      <V> {
+                                        -17.5012 -17.5005 -17.5009
+                                        -17.5004 -17.5006 -17.5004
+                                        -17.5009 -17.5004 -17.5011
+                                      }
+                                    }
+                                    <S$Anim> r {
+                                      <V> {
+                                        73.4848 73.4847 73.4847 73.4846
+                                        73.4846 73.4846 73.4847 73.4847
+                                        73.4848
+                                      }
+                                    }
+                                    <S$Anim> x { <V> { 0.385375806844124 } }
+                                  }
+                                  <Table> "dogSSskirt:def_left_thumbC" {
+                                    <Xfm$Anim_S$> xform {
+                                      <Scalar> fps { 24 }
+                                      <Char*> order { srpht }
+                                      <S$Anim> h {
+                                        <V> {
+                                          0.0742 0.0737008 0.0743697
+                                          0.0736764 0.0739518 0.0736764
+                                          0.0743697 0.0737008 0.0742
+                                        }
+                                      }
+                                      <S$Anim> p {
+                                        <V> {
+                                          -0.135529 -0.135747 -0.135523
+                                          -0.135723 -0.135651 -0.135723
+                                          -0.135523 -0.135747 -0.135529
+                                        }
+                                      }
+                                      <S$Anim> r {
+                                        <V> {
+                                          53.0478 53.0478 53.0477
+                                          53.0479 53.0478 53.0479
+                                          53.0477 53.0478 53.0478
+                                        }
+                                      }
+                                      <S$Anim> x { <V> { 0.51049060869068 } }
+                                    }
+                                  }
+                                }
+                              }
+                              <Table> "dogSSskirt:grp_joint_left_hold" {
+                                <Xfm$Anim_S$> xform {
+                                  <Scalar> fps { 24 }
+                                  <Char*> order { srpht }
+                                  <S$Anim> p { <V> { -0.0107705091652793 } }
+                                  <S$Anim> r { <V> { 179.999999999831 } }
+                                  <S$Anim> x { <V> { 1.0171641425567 } }
+                                  <S$Anim> y { <V> { -0.118289545482137 } }
+                                  <S$Anim> z { <V> { -0.00102405920306646 } }
+                                }
+                                <Table> "dogSSskirt:def_joint_left_hold" {
+                                  <Xfm$Anim_S$> xform {
+                                    <Scalar> fps { 24 }
+                                    <Char*> order { srpht }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          <Table> "dogSSskirt:def_left_neg_wrist" {
+                            <Xfm$Anim_S$> xform {
+                              <Scalar> fps { 24 }
+                              <Char*> order { srpht }
+                              <S$Anim> h {
+                                <V> {
+                                  -0.391322 -0.3944 -0.397763 -0.398128
+                                  -0.397668 -0.398121 -0.397739
+                                  -0.394408 -0.391322
+                                }
+                              }
+                              <S$Anim> p {
+                                <V> {
+                                  4.75017 3.53427 1.22228 -0.664759
+                                  -1.40819 -0.664759 1.22225 3.5342
+                                  4.75017
+                                }
+                              }
+                              <S$Anim> r {
+                                <V> {
+                                  -0.165491 -0.123024 -0.0424933
+                                  0.0229998 0.0488073 0.0230002
+                                  -0.0424925 -0.123025 -0.165491
+                                }
+                              }
+                              <S$Anim> x { <V> { 0.446560637507903 } }
+                            }
+                            <Table> "dogSSskirt:pos_left_neg_forearm" {
+                              <Xfm$Anim_S$> xform {
+                                <Scalar> fps { 24 }
+                                <Char*> order { srpht }
+                                <S$Anim> x { <V> { -2.11960031283071 } }
+                                <S$Anim> z { <V> { -0.0736077429661308 } }
+                              }
+                            }
+                            <Table> "dogSSskirt:left_neg_wrist_eff" {
+                              <Xfm$Anim_S$> xform {
+                                <Scalar> fps { 24 }
+                                <Char*> order { srpht }
+                                <S$Anim> x { <V> { -2.11960031283071 } }
+                                <S$Anim> z { <V> { -0.0736077429661308 } }
+                              }
+                            }
+                          }
+                        }
+                      }
+                      <Table> "dogSSskirt:def_left_sleeve_long" {
+                        <Xfm$Anim_S$> xform {
+                          <Scalar> fps { 24 }
+                          <Char*> order { srpht }
+                          <S$Anim> x { <V> { 1.23533270302413 } }
+                        }
+                      }
+                      <Table> "dogSSskirt:def_left_sleeve_short" {
+                        <Xfm$Anim_S$> xform {
+                          <Scalar> fps { 24 }
+                          <Char*> order { srpht }
+                          <S$Anim> h {
+                            <V> {
+                              -30.4751 -27.1419 -19.047 -9.04731 0
+                              -7.61879 -15.2376 -22.8564 -30.4751
+                            }
+                          }
+                          <S$Anim> p {
+                            <V> {
+                              0.000828128 0.000660106 0.000328184
+                              7.4577e-05 -0 5.29176e-05 0.000210736
+                              0.000470669 0.000828128
+                            }
+                          }
+                          <S$Anim> r {
+                            <V> {
+                              -0.00304014 -0.00273461 -0.00195622
+                              -0.000942616 -0 -0.000794743 -0.00157545
+                              -0.00232835 -0.00304014
+                            }
+                          }
+                        }
+                      }
+                    }
+                    <Table> "dogSSskirt:def_joint_attachFlower" {
+                      <Xfm$Anim_S$> xform {
+                        <Scalar> fps { 24 }
+                        <Char*> order { srpht }
+                        <S$Anim> p { <V> { 2.77033105443773 } }
+                        <S$Anim> x { <V> { 1.20107996182179 } }
+                        <S$Anim> y { <V> { -1.30496445301328 } }
+                        <S$Anim> z { <V> { 3.45683143560275 } }
+                      }
+                    }
+                    <Table> "dogSSskirt:def_right_shoulder" {
+                      <Xfm$Anim_S$> xform {
+                        <Scalar> fps { 24 }
+                        <Char*> order { srpht }
+                        <S$Anim> h {
+                          <V> {
+                            -117.544 -113.587 -105.533 -99.0613 -96.8372
+                            -99.0613 -105.533 -113.587 -117.543
+                          }
+                        }
+                        <S$Anim> p {
+                          <V> {
+                            43.6574 44.5799 45.6867 45.6239 45.291
+                            45.6237 45.6863 44.5792 43.6566
+                          }
+                        }
+                        <S$Anim> r {
+                          <V> {
+                            -144.646 -148.692 -158.233 -167.85 -172.007
+                            -167.85 -158.233 -148.692 -144.646
+                          }
+                        }
+                        <S$Anim> x { <V> { -2.43068897637796 } }
+                        <S$Anim> y { <V> { -0.000578999330038449 } }
+                        <S$Anim> z { <V> { 0.0116451893805496 } }
+                      }
+                      <Table> "dogSSskirt:def_right_elbow" {
+                        <Xfm$Anim_S$> xform {
+                          <Scalar> fps { 24 }
+                          <Char*> order { srpht }
+                          <S$Anim> h {
+                            <V> {
+                              -43.8585 -40.4386 -32.9148 -25.391
+                              -21.9711 -25.391 -32.9148 -40.4386
+                              -43.8585
+                            }
+                          }
+                          <S$Anim> p {
+                            <V> {
+                              0.00340685 0.00297509 0.00182427
+                              0.000451368 -0.000226766 0.000315557
+                              0.00141467 0.00233797 0.00268525
+                            }
+                          }
+                          <S$Anim> r {
+                            <V> {
+                              -0.00640385 -0.00550042 -0.00328863
+                              -0.000730871 0.000556185 -0.000798636
+                              -0.00356099 -0.00604736 -0.00709616
+                            }
+                          }
+                          <S$Anim> x { <V> { -2.13882755671663 } }
+                        }
+                        <Table> "dogSSskirt:def_right_forearm" {
+                          <Xfm$Anim_S$> xform {
+                            <Scalar> fps { 24 }
+                            <Char*> order { srpht }
+                            <S$Anim> h {
+                              <V> {
+                                3.02387 3.02319 3.02347 3.02319 3.02346
+                                3.02319 3.02354 3.02319 3.02387
+                              }
+                            }
+                            <S$Anim> p {
+                              <V> {
+                                -0.000687988 0.000417166 -0.00021946
+                                0.00029791 -0.000223185 0.00029791
+                                0.000512113 0.000417166 -0.000687988
+                              }
+                            }
+                            <S$Anim> r {
+                              <V> {
+                                0.000819666 0.00102509 0.0010012
+                                0.000226341 0.000851679 0.000226341
+                                0.00097679 0.00102509 0.000819666
+                              }
+                            }
+                            <S$Anim> x { <V> { -1.67478960360577 } }
+                          }
+                          <Table> "dogSSskirt:def_right_wrist" {
+                            <Xfm$Anim_S$> xform {
+                              <Scalar> fps { 24 }
+                              <Char*> order { srpht }
+                              <S$Anim> h {
+                                <V> {
+                                  5.90443 5.90479 5.90466 5.90469
+                                  5.90479 5.90469 5.90453 5.90479
+                                  5.90443
+                                }
+                              }
+                              <S$Anim> p {
+                                <V> {
+                                  0.000307091 0.000101736 0.000404774
+                                  -0.000586371 0.000557037 -0.000586371
+                                  -0.000446695 0.000101736 0.000307091
+                                }
+                              }
+                              <S$Anim> r {
+                                <V> {
+                                  -20.6269 -20.6267 -20.6271 -20.6265
+                                  -20.6267 -20.6265 -20.6269 -20.6267
+                                  -20.6269
+                                }
+                              }
+                              <S$Anim> x { <V> { -0.446565880863664 } }
+                            }
+                            <Table> "dogSSskirt:def_right_palm" {
+                              <Xfm$Anim_S$> xform {
+                                <Scalar> fps { 24 }
+                                <Char*> order { srpht }
+                                <S$Anim> h {
+                                  <V> {
+                                    0.000549564 0.000204454 0.000704997
+                                    0.000875751 0.000290435 0.000875751
+                                    0.000459099 0.000204454 0.000549564
+                                  }
+                                }
+                                <S$Anim> p {
+                                  <V> {
+                                    0.00069518 0.000118589 0.000520759
+                                    0.00095582 0.000366616 0.00095582
+                                    0.000685097 0.000118589 0.00069518
+                                  }
+                                }
+                                <S$Anim> r {
+                                  <V> {
+                                    49.141 49.1408 49.1411 49.1412
+                                    49.1411 49.1412 49.1411 49.1408
+                                    49.141
+                                  }
+                                }
+                                <S$Anim> x { <V> { -0.450360892388443 } }
+                              }
+                              <Table> "dogSSskirt:def_right_midA" {
+                                <Xfm$Anim_S$> xform {
+                                  <Scalar> fps { 24 }
+                                  <Char*> order { srpht }
+                                  <S$Anim> h {
+                                    <V> {
+                                      -0.00123137 -0.000877159
+                                      -0.000975767 -0.00156135
+                                      -0.000801006 -0.00156135
+                                      -0.000732673 -0.000876104
+                                      -0.00123137
+                                    }
+                                  }
+                                  <S$Anim> p {
+                                    <V> {
+                                      0.000730626 7.41705e-05 0.00102326
+                                      0.00114477 0.000330395 0.00114477
+                                      -0.000115798 0.000123802
+                                      0.000730626
+                                    }
+                                  }
+                                  <S$Anim> r {
+                                    <V> {
+                                      86.3803 86.3801 86.3802 86.38
+                                      86.38 86.38 86.3799 86.38 86.3803
+                                    }
+                                  }
+                                  <S$Anim> x { <V> { -0.850829020873982 } }
+                                }
+                                <Table> "dogSSskirt:def_right_midB" {
+                                  <Xfm$Anim_S$> xform {
+                                    <Scalar> fps { 24 }
+                                    <Char*> order { srpht }
+                                    <S$Anim> h {
+                                      <V> {
+                                        -0.000589686 -0.000577137
+                                        -0.000887201 -0.00052575
+                                        -0.000870793 -0.000535234
+                                        0.000238524 -0.000617254
+                                        -0.000580203
+                                      }
+                                    }
+                                    <S$Anim> p {
+                                      <V> {
+                                        0.000177317 0.00032461
+                                        0.00106085 -0.000255799
+                                        0.000741921 -0.000258972
+                                        0.000365542 0.000325701
+                                        0.00018049
+                                      }
+                                    }
+                                    <S$Anim> r {
+                                      <V> {
+                                        106.096 106.096 106.096 106.096
+                                        106.096 106.096 106.096 106.096
+                                        106.096
+                                      }
+                                    }
+                                    <S$Anim> x { <V> { -0.921644030206245 } }
+                                  }
+                                }
+                              }
+                              <Table> "dogSSskirt:def_right_thumbA" {
+                                <Xfm$Anim_S$> xform {
+                                  <Scalar> fps { 24 }
+                                  <Char*> order { srpht }
+                                  <S$Anim> h {
+                                    <V> {
+                                      -49.4028 -49.4023 -49.4033
+                                      -49.4031 -49.4022 -49.4031 -49.403
+                                      -49.4023 -49.4028
+                                    }
+                                  }
+                                  <S$Anim> p {
+                                    <V> {
+                                      41.2701 41.2698 41.27 41.2704
+                                      41.2704 41.2704 41.2698 41.2698
+                                      41.2701
+                                    }
+                                  }
+                                  <S$Anim> r {
+                                    <V> {
+                                      -29.495 -29.4946 -29.4946 -29.4946
+                                      -29.4953 -29.4946 -29.4948
+                                      -29.4946 -29.495
+                                    }
+                                  }
+                                  <S$Anim> x { <V> { 0.0226835974053472 } }
+                                  <S$Anim> y { <V> { 0.00476512018799034 } }
+                                  <S$Anim> z { <V> { -0.546516891156914 } }
+                                }
+                                <Table> "dogSSskirt:def_right_thumbB" {
+                                  <Xfm$Anim_S$> xform {
+                                    <Scalar> fps { 24 }
+                                    <Char*> order { srpht }
+                                    <S$Anim> h {
+                                      <V> {
+                                        -4.36919 -4.36953 -4.36904
+                                        -4.36931 -4.36919 -4.36931
+                                        -4.3691 -4.36953 -4.36919
+                                      }
+                                    }
+                                    <S$Anim> p {
+                                      <V> {
+                                        -17.5008 -17.5008 -17.5 -17.501
+                                        -17.501 -17.501 -17.5 -17.5008
+                                        -17.5008
+                                      }
+                                    }
+                                    <S$Anim> r {
+                                      <V> {
+                                        73.4847 73.4843 73.4849 73.4847
+                                        73.4848 73.4847 73.4849 73.4843
+                                        73.4847
+                                      }
+                                    }
+                                    <S$Anim> x { <V> { -0.385372915352989 } }
+                                  }
+                                  <Table> "dogSSskirt:def_right_thumbC" {
+                                    <Xfm$Anim_S$> xform {
+                                      <Scalar> fps { 24 }
+                                      <Char*> order { srpht }
+                                      <S$Anim> h {
+                                        <V> {
+                                          0.0741625 0.0739315 0.0734869
+                                          0.0742234 0.073827 0.0742234
+                                          0.0736467 0.0739315 0.0741465
+                                        }
+                                      }
+                                      <S$Anim> p {
+                                        <V> {
+                                          -0.135403 -0.13584 -0.135651
+                                          -0.135762 -0.135517 -0.135762
+                                          -0.135671 -0.13584 -0.135391
+                                        }
+                                      }
+                                      <S$Anim> r {
+                                        <V> {
+                                          53.0478 53.0479 53.0477
+                                          53.0475 53.0478 53.0475
+                                          53.0477 53.0479 53.0478
+                                        }
+                                      }
+                                      <S$Anim> x { <V> { -0.510505225565789 } }
+                                    }
+                                  }
+                                }
+                              }
+                              <Table> "dogSSskirt:grp_joint_right_hold" {
+                                <Xfm$Anim_S$> xform {
+                                  <Scalar> fps { 24 }
+                                  <Char*> order { srpht }
+                                  <S$Anim> h { <V> { -179.99991391478 } }
+                                  <S$Anim> p { <V> { 0.0127514936268966 } }
+                                  <S$Anim> x { <V> { -1.01717068183832 } }
+                                  <S$Anim> y { <V> { 0.118302000752784 } }
+                                  <S$Anim> z { <V> { 0.0010242068409936 } }
+                                }
+                                <Table> "dogSSskirt:def_joint_right_hold" {
+                                  <Xfm$Anim_S$> xform {
+                                    <Scalar> fps { 24 }
+                                    <Char*> order { srpht }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                          <Table> "dogSSskirt:def_right_neg_wrist" {
+                            <Xfm$Anim_S$> xform {
+                              <Scalar> fps { 24 }
+                              <Char*> order { srpht }
+                              <S$Anim> h {
+                                <V> {
+                                  -0.290282 -0.312759 -0.363844
+                                  -0.394771 -0.397816 -0.394771
+                                  -0.363898 -0.312759 -0.290282
+                                }
+                              }
+                              <S$Anim> p {
+                                <V> {
+                                  18.4415 16.4258 10.5041 3.09178
+                                  -0.53025 3.09178 10.5034 16.4258
+                                  18.4415
+                                }
+                              }
+                              <S$Anim> r {
+                                <V> {
+                                  -0.66382 -0.5871 -0.369334 -0.107239
+                                  0.0181967 -0.107239 -0.369319 -0.5871
+                                  -0.66382
+                                }
+                              }
+                              <S$Anim> x { <V> { -0.446565880863667 } }
+                            }
+                            <Table> "dogSSskirt:pos_right_neg_forearm" {
+                              <Xfm$Anim_S$> xform {
+                                <Scalar> fps { 24 }
+                                <Char*> order { srpht }
+                                <S$Anim> x { <V> { 2.11958661417322 } }
+                                <S$Anim> z { <V> { 0.0736187645886655 } }
+                              }
+                            }
+                            <Table> "dogSSskirt:right_neg_wrist_eff" {
+                              <Xfm$Anim_S$> xform {
+                                <Scalar> fps { 24 }
+                                <Char*> order { srpht }
+                                <S$Anim> x { <V> { 2.11958661417322 } }
+                                <S$Anim> z { <V> { 0.0736187645886655 } }
+                              }
+                            }
+                          }
+                        }
+                      }
+                      <Table> "dogSSskirt:def_right_sleeve_long" {
+                        <Xfm$Anim_S$> xform {
+                          <Scalar> fps { 24 }
+                          <Char*> order { srpht }
+                          <S$Anim> h { <V> { -0.000290427832134574 } }
+                          <S$Anim> p { <V> { 25.6422308462182 } }
+                          <S$Anim> x { <V> { -1.23532001809796 } }
+                        }
+                      }
+                      <Table> "dogSSskirt:def_right_sleeve_short" {
+                        <Xfm$Anim_S$> xform {
+                          <Scalar> fps { 24 }
+                          <Char*> order { srpht }
+                          <S$Anim> h { <V> { -0.00029042783213457 } }
+                          <S$Anim> p { <V> { 25.6422308462182 } }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          <Table> "dogSSskirt:joint_shadow" {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+              <S$Anim> h {
+                <V> {
+                  25.0746 24.9813 24.7759 24.5704 24.477 24.5704 24.7759
+                  24.9813 25.0746
+                }
+              }
+              <S$Anim> p {
+                <V> {
+                  -1.10355 -1.10656 -1.11305 -1.11935 -1.12216 -1.11935
+                  -1.11305 -1.10656 -1.10355
+                }
+              }
+              <S$Anim> r {
+                <V> {
+                  11.6951 11.515 11.119 10.7231 10.5432 10.7231 11.119
+                  11.515 11.6951
+                }
+              }
+              <S$Anim> x {
+                <V> {
+                  -2.01293 -1.97954 -1.90661 -1.83439 -1.80179 -1.83439
+                  -1.90661 -1.97954 -2.01293
+                }
+              }
+              <S$Anim> y {
+                <V> {
+                  -9.19321 -9.17747 -9.14261 -9.10741 -9.09129 -9.10741
+                  -9.14261 -9.17747 -9.19321
+                }
+              }
+              <S$Anim> z {
+                <V> {
+                  0.0527951 0.0615752 0.0814188 0.101987 0.111572
+                  0.101987 0.0814188 0.0615752 0.0527951
+                }
+              }
+            }
+          }
+          <Table> "dogSSskirt:joint_nameTag" {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+              <S$Anim> h {
+                <V> {
+                  25.0746 24.9813 24.7759 24.5704 24.477 24.5704 24.7759
+                  24.9813 25.0746
+                }
+              }
+              <S$Anim> p {
+                <V> {
+                  -1.10355 -1.10656 -1.11305 -1.11935 -1.12216 -1.11935
+                  -1.11305 -1.10656 -1.10355
+                }
+              }
+              <S$Anim> r {
+                <V> {
+                  11.6951 11.515 11.119 10.7231 10.5432 10.7231 11.119
+                  11.515 11.6951
+                }
+              }
+              <S$Anim> x {
+                <V> {
+                  -2.01293 -1.97954 -1.90661 -1.83439 -1.80179 -1.83439
+                  -1.90661 -1.97954 -2.01293
+                }
+              }
+              <S$Anim> y {
+                <V> {
+                  -9.19321 -9.17747 -9.14261 -9.10741 -9.09129 -9.10741
+                  -9.14261 -9.17747 -9.19321
+                }
+              }
+              <S$Anim> z {
+                <V> {
+                  0.0527951 0.0615752 0.0814188 0.101987 0.111572
+                  0.101987 0.0814188 0.0615752 0.0527951
+                }
+              }
+            }
+          }
+          <Table> "dogSSskirt:joint_hips" {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+            }
+          }
+        }
+      }
+    }
+    <Table> morph {
+    }
+  }
+}

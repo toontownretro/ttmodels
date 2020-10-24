@@ -1,0 +1,192 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -fri 24 -uo ft -nf -1 -p -a model -cn card -o card.egg prop-card.mb"
+}
+<Group> card {
+  <Dart> { 1 }
+  <Group> TheCardBack {
+    <VertexPool> TheCardBackShape.verts {
+      <Vertex> 0 {
+        6.15817993644654 -3.50363999214072 0
+        <Normal> { 0 0 -1 }
+        <RGBA> { 0.675716996192932 0.675716996192932 0.675716996192932 1 }
+        // joint_rolodexCard:1
+      }
+      <Vertex> 1 {
+        -6.26708003166779 -3.50354988118169 0
+        <Normal> { 0 0 -1 }
+        <RGBA> { 0.675716996192932 0.675716996192932 0.675716996192932 1 }
+        // joint_rolodexCard:1
+      }
+      <Vertex> 2 {
+        -6.26197023967433 3.53192006509135 0
+        <Normal> { 0 0 -1 }
+        <RGBA> { 0.675716996192932 0.675716996192932 0.675716996192932 1 }
+        // joint_rolodexCard:1
+      }
+      <Vertex> 3 {
+        -6.26197023967433 3.53192006509135 0
+        <Normal> { 0 0 -1 }
+        <RGBA> { 0.675716996192932 0.675716996192932 0.675716996192932 1 }
+        // joint_rolodexCard:1
+      }
+      <Vertex> 4 {
+        -5.70843013252799 5.00709003037981 0
+        <Normal> { 0 0 -1 }
+        <RGBA> { 0.675716996192932 0.675716996192932 0.675716996192932 1 }
+        // joint_rolodexCard:1
+      }
+      <Vertex> 5 {
+        -2.19098989731996 5.00709003037981 0
+        <Normal> { 0 0 -1 }
+        <RGBA> { 0.675716996192932 0.675716996192932 0.675716996192932 1 }
+        // joint_rolodexCard:1
+      }
+      <Vertex> 6 {
+        -1.61584994298579 3.53192006509135 0
+        <Normal> { 0 0 -1 }
+        <RGBA> { 0.675716996192932 0.675716996192932 0.675716996192932 1 }
+        // joint_rolodexCard:1
+      }
+      <Vertex> 7 {
+        6.15817993644654 3.53192006509135 0
+        <Normal> { 0 0 -1 }
+        <RGBA> { 0.675716996192932 0.675716996192932 0.675716996192932 1 }
+        // joint_rolodexCard:1
+      }
+      <Vertex> 8 {
+        6.15817993644654 -3.50363999214072 0
+        <Normal> { 0 0 -1 }
+        <RGBA> { 0.675716996192932 0.675716996192932 0.675716996192932 1 }
+        // joint_rolodexCard:1
+      }
+    }
+    <Polygon> {
+      <Normal> { 0 0 -1 }
+      <VertexRef> { 0 1 2 <Ref> { TheCardBackShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 -1 }
+      <VertexRef> { 3 4 5 <Ref> { TheCardBackShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 -1 }
+      <VertexRef> { 3 5 6 <Ref> { TheCardBackShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 -1 }
+      <VertexRef> { 6 7 8 <Ref> { TheCardBackShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 -1 }
+      <VertexRef> { 6 8 3 <Ref> { TheCardBackShape.verts } }
+    }
+  }
+  <Group> TheCardFront {
+    <VertexPool> TheCardFrontShape.verts {
+      <Vertex> 0 {
+        -6.26197023967433 3.53192006509135 0.000999999975692725
+        <Normal> { 1.17427977064377e-11 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_rolodexCard:1
+      }
+      <Vertex> 1 {
+        -6.26708003166779 -3.50354988118169 0.000999999975692725
+        <Normal> { 1.17427977064377e-11 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_rolodexCard:1
+      }
+      <Vertex> 2 {
+        6.15817993644654 -3.5037498774491 0.000999999975692725
+        <Normal> { 1.17427977064377e-11 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_rolodexCard:1
+      }
+      <Vertex> 3 {
+        -2.19098989731996 5.00709003037981 0.000999999975692725
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_rolodexCard:1
+      }
+      <Vertex> 4 {
+        -5.70843013252799 5.00709003037981 0.000999999975692725
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_rolodexCard:1
+      }
+      <Vertex> 5 {
+        -6.26197023967433 3.53192006509135 0.000999999975692725
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_rolodexCard:1
+      }
+      <Vertex> 6 {
+        -1.61584994298579 3.53192006509135 0.000999999975692725
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_rolodexCard:1
+      }
+      <Vertex> 7 {
+        6.15817993644654 -3.5037498774491 0.000999999975692725
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_rolodexCard:1
+      }
+      <Vertex> 8 {
+        6.15817993644654 3.53192006509135 0.000999999975692725
+        <Normal> { 0 0 1 }
+        <RGBA> { 1 0.983051002025604 1 1 }
+        // joint_rolodexCard:1
+      }
+    }
+    <Polygon> {
+      <Normal> { 1.17427977064377e-11 0 1 }
+      <VertexRef> { 0 1 2 <Ref> { TheCardFrontShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <VertexRef> { 3 4 5 <Ref> { TheCardFrontShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <VertexRef> { 6 3 5 <Ref> { TheCardFrontShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <VertexRef> { 7 8 6 <Ref> { TheCardFrontShape.verts } }
+    }
+    <Polygon> {
+      <Normal> { 0 0 1 }
+      <VertexRef> { 7 6 5 <Ref> { TheCardFrontShape.verts } }
+    }
+  }
+  <Joint> card {
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+      }
+    }
+    <Joint> joint_rolodexCard {
+      <Transform> {
+        <Matrix4> {
+          1 0 0 0
+          0 1 0 0
+          0 0 1 0
+          0 0 0 1
+        }
+      }
+      <VertexRef> {
+        0 1 2 3 4 5 6 7 8
+        <Ref> { TheCardFrontShape.verts }
+      }
+      <VertexRef> {
+        0 1 2 3 4 5 6 7 8
+        <Ref> { TheCardBackShape.verts }
+      }
+    }
+  }
+}

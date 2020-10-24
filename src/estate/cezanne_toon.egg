@@ -1,0 +1,57 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -o cezanne_toon.egg cezanne_toon.mb"
+}
+<Texture> lambert2SG {
+  "../maps/cezanne_horse.rgba"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> polySurface1 {
+  <VertexPool> polySurfaceShape1.verts {
+    <Vertex> 0 {
+      -0.642517607981764 -0.764208953837397 0.000820209985975362
+      <UV> {
+        0 0
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 1 {
+      -0.642517607981764 0.764208953837397 0.000820209985975362
+      <UV> {
+        0 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 2 {
+      0.642517607981764 -0.764208953837397 0.000820209985975362
+      <UV> {
+        1 0
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+    <Vertex> 3 {
+      0.642517607981764 0.764208953837397 0.000820209985975362
+      <UV> {
+        1 1
+        <Tangent> { 1 0 0 }
+        <Binormal> { 0 1 0 }
+      }
+      <Normal> { 0 0 1 }
+    }
+  }
+  <Polygon> {
+    <RGBA> { 1 1 1 1 }
+    <TRef> { lambert2SG }
+    <VertexRef> { 0 2 3 1 <Ref> { polySurfaceShape1.verts } }
+  }
+}

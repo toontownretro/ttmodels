@@ -1,0 +1,183 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o BR_flats.egg BR_flats.flt"
+}
+<Texture> 2 {
+  "../maps/snowman2.rgba.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 1 {
+  "../maps/BR_skates.rgba"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> 0 {
+  "../maps/ski.rgba.rgb"
+  <Scalar> wrap { repeat }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    -6 0 0
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 1 {
+    -6 0 6
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 2 {
+    -1 0 0
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 3 {
+    -1 0 6
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 4 {
+    2 0 0
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 5 {
+    2 0 6
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 6 {
+    -5 0 0
+    <UV> {
+      0 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.182389380920082 0.983226379694722 }
+    }
+    <Normal> { 0 -0.983226379694722 0.182389380920082 }
+  }
+  <Vertex> 7 {
+    -5 1 6.5
+    <UV> {
+      0 0.987216472625732
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.152057184253941 0.988371697650617 }
+    }
+    <Normal> { 0 -0.988371697650617 0.152057184253941 }
+  }
+  <Vertex> 8 {
+    -5 1 6.5
+    <UV> {
+      0 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.152057184253941 0.988371697650617 }
+    }
+    <Normal> { 0 -0.988371697650617 0.152057184253941 }
+  }
+  <Vertex> 9 {
+    -5 1.5 6
+    <UV> {
+      0 0.987216472625732
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.242535625036333 0.970142500145332 }
+    }
+    <Normal> { 0 -0.970142500145332 0.242535625036333 }
+  }
+  <Vertex> 10 {
+    -2 0 0
+    <UV> {
+      1 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.152057184253941 0.988371697650617 }
+    }
+    <Normal> { 0 -0.988371697650617 0.152057184253941 }
+  }
+  <Vertex> 11 {
+    -2 1 6.5
+    <UV> {
+      1 0.987216472625732
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.152057184253941 0.988371697650617 }
+    }
+    <Normal> { 0 -0.988371697650617 0.152057184253941 }
+  }
+  <Vertex> 12 {
+    -2 1 6.5
+    <UV> {
+      1 1
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.152057184253941 0.988371697650617 }
+    }
+    <Normal> { 0 -0.988371697650617 0.152057184253941 }
+  }
+  <Vertex> 13 {
+    1 0 0
+    <UV> {
+      1 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.242535625036333 0.970142500145332 }
+    }
+    <Normal> { 0 -0.970142500145332 0.242535625036333 }
+  }
+  <Vertex> 14 {
+    1 1.5 6
+    <UV> {
+      1 0.987216472625732
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0.242535625036333 0.970142500145332 }
+    }
+    <Normal> { 0 -0.970142500145332 0.242535625036333 }
+  }
+}
+<Group> g1 {
+  <Group> Prop_ski {
+    <Group> prop_ski {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 0 }
+        <VertexRef> { 10 11 7 6 <Ref> { vpool } }
+      }
+    }
+    <Group> prop_ski_collisions {
+      <ObjectType> { barrier }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 1 0 2 3 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> Prop_snowman {
+    <Group> prop_snowman {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 2 }
+        <VertexRef> { 13 14 9 6 <Ref> { vpool } }
+      }
+    }
+    <Group> prop_snowman_collisions {
+      <ObjectType> { barrier }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 1 0 4 5 <Ref> { vpool } }
+      }
+    }
+  }
+  <Group> Prop_skates {
+    <Group> prop_skates {
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 1 }
+        <VertexRef> { 10 12 8 6 <Ref> { vpool } }
+      }
+    }
+    <Group> prop_ski_collisions_1 {
+      <ObjectType> { barrier }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <VertexRef> { 1 0 2 3 <Ref> { vpool } }
+      }
+    }
+  }
+}

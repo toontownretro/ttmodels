@@ -1,0 +1,31 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -subroot droppingJoint -a chan -cn roomAnim -o roomAnim_roomDrop.egg -sf 0 tt_a_ara_mat_roomAnim.mb"
+}
+<Table> {
+  <Bundle> roomAnim {
+    <Table> "<skeleton>" {
+      <Table> droppingJoint {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 24 }
+          <Char*> order { srpht }
+          <S$Anim> j {
+            <V> {
+              1 1 1 1 1 0.757422 0.805925 0.900352 0.998161 1.05681
+              1.03752 0.973827 0.931636 0.940088 0.970044 1 1 1 1 1 1
+            }
+          }
+          <S$Anim> y {
+            <V> {
+              15 15 14.6828 12.8618 8.38508 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+              0 0
+            }
+          }
+        }
+      }
+    }
+    <Table> morph {
+    }
+  }
+}

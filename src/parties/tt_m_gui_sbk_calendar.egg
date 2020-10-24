@@ -1,0 +1,943 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -o tt_m_gui_sbk_calendar.egg tt_m_gui_sbk_calendar.mb"
+}
+<Texture> lambert9SG {
+  "../maps/tt_t_gui_sbk_calendar_month_arrow_hover.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> lambert8SG {
+  "../maps/tt_t_gui_sbk_calendar_month_arrow_down.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> lambert7SG {
+  "../maps/tt_t_gui_sbk_calendar_month_arrow_up.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> lambert2SG {
+  "../maps/tt_t_gui_sbk_calendar_monthBg.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Texture> lambert10SG {
+  "../maps/tt_t_gui_sbk_calendar_filter.tif"
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+}
+<Group> monthGroup {
+  <Group> month {
+    <VertexPool> monthShape.verts {
+      <Vertex> 0 {
+        -0.295211980974893 0.652772297696492 0.000623319104920066
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        -0.295211980974893 0.808021152426252 0.000623319104920066
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.295211980974893 0.652772297696492 0.000623319104920066
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        0.295211980974893 0.808021152426252 0.000623319104920066
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert2SG }
+      <VertexRef> { 0 2 3 1 <Ref> { monthShape.verts } }
+    }
+  }
+  <Group> month_arrowR_up {
+    <VertexPool> month_arrowR_upShape.verts {
+      <Vertex> 0 {
+        -0.0474999974093099 -0.0778235866641748 1.24647121365656e-17
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        -0.0474999974093099 0.0778235866641748 -1.24647121365656e-17
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.0474999974093099 -0.0778235866641748 1.24647121365656e-17
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        0.0474999974093099 0.0778235866641748 -1.24647121365656e-17
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert7SG }
+      <VertexRef> { 0 2 3 1 <Ref> { month_arrowR_upShape.verts } }
+    }
+  }
+  <Group> month_arrowR_hover {
+    <VertexPool> month_arrowR_hoverShape.verts {
+      <Vertex> 0 {
+        -0.0476499242106761 -0.0778235866641748 0
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        -0.0476499242106761 0.0778235866641748 0
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.0476499242106761 -0.0778235866641748 0
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        0.0476499242106761 0.0778235866641748 0
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert9SG }
+      <VertexRef> { 0 2 3 1 <Ref> { month_arrowR_hoverShape.verts } }
+    }
+  }
+  <Group> month_arrowR_down {
+    <VertexPool> month_arrowR_downShape.verts {
+      <Vertex> 0 {
+        -0.0476499242106761 -0.0778235866641748 0
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        -0.0476499242106761 0.0778235866641748 0
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.0476499242106761 -0.0778235866641748 0
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        0.0476499242106761 0.0778235866641748 0
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert8SG }
+      <VertexRef> { 0 2 3 1 <Ref> { month_arrowR_downShape.verts } }
+    }
+  }
+}
+<Group> locator_month {
+  <Group> locator_month_arrowL {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.336300177907967 0.730396690091825 0.000623319112312478 1
+      }
+    }
+  }
+  <Group> locator_month_arrowR {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.36570174767457 0.730396690091825 0.000623319112312478 1
+      }
+    }
+  }
+  <Group> locator_month {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0.700327574639077 0.000623319112312478 1
+      }
+    }
+  }
+}
+<Group> locator_time {
+  <Group> loc_toontimeTitle {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.154018559109185 -0.552416189742838 0.000623319112312478 1
+      }
+    }
+  }
+  <Group> loc_time {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.269605003880587 -0.552416189742838 0.000623319112312478 1
+      }
+    }
+  }
+  <Group> loc_timePmAm {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.440574072448037 -0.552416189742838 0.000623319112312478 1
+      }
+    }
+  }
+}
+<Group> locator_boxes {
+  <Group> loc_box_0_0 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.870461247901584 0.603587715900299 0 1
+      }
+    }
+  }
+  <Group> loc_box_0_1 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.621889923840448 0.60358772596975 0 1
+      }
+    }
+  }
+  <Group> loc_box_0_2 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.373318706685633 0.60358772596975 0 1
+      }
+    }
+  }
+  <Group> loc_box_0_3 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.124747426953802 0.60358772596975 0 1
+      }
+    }
+  }
+  <Group> loc_box_0_4 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.123823842348526 0.60358772596975 0 1
+      }
+    }
+  }
+  <Group> loc_box_0_5 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.372395111650854 0.60358772596975 0 1
+      }
+    }
+  }
+  <Group> loc_box_0_6 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.62096637052368 0.60358772596975 0 1
+      }
+    }
+  }
+  <Group> loc_box_1_0 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.870461247901584 0.417546053513903 0 1
+      }
+    }
+  }
+  <Group> loc_box_1_1 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.621889923840448 0.417546063583354 0 1
+      }
+    }
+  }
+  <Group> loc_box_1_2 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.373318706685633 0.417546063583354 0 1
+      }
+    }
+  }
+  <Group> loc_box_1_3 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.124747426953802 0.417546063583354 0 1
+      }
+    }
+  }
+  <Group> loc_box_1_4 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.123823842348526 0.417546063583354 0 1
+      }
+    }
+  }
+  <Group> loc_box_1_5 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.372395111650854 0.417546063583354 0 1
+      }
+    }
+  }
+  <Group> loc_box_1_6 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.62096637052368 0.417546063583354 0 1
+      }
+    }
+  }
+  <Group> loc_box_2_0 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.870461247901584 0.231504371572177 0 1
+      }
+    }
+  }
+  <Group> loc_box_2_1 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.621889923840448 0.231504381641628 0 1
+      }
+    }
+  }
+  <Group> loc_box_2_2 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.373318706685633 0.231504381641628 0 1
+      }
+    }
+  }
+  <Group> loc_box_2_3 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.124747426953802 0.231504381641628 0 1
+      }
+    }
+  }
+  <Group> loc_box_2_4 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.123823842348526 0.231504381641628 0 1
+      }
+    }
+  }
+  <Group> loc_box_2_5 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.372395111650854 0.231504381641628 0 1
+      }
+    }
+  }
+  <Group> loc_box_2_6 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.62096637052368 0.231504381641628 0 1
+      }
+    }
+  }
+  <Group> loc_box_3_0 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.870461247901584 0.045462714074613 0 1
+      }
+    }
+  }
+  <Group> loc_box_3_1 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.621889923840448 0.0454627241440647 0 1
+      }
+    }
+  }
+  <Group> loc_box_3_2 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.373318706685633 0.0454627241440647 0 1
+      }
+    }
+  }
+  <Group> loc_box_3_3 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.124747426953802 0.0454627241440647 0 1
+      }
+    }
+  }
+  <Group> loc_box_3_4 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.123823842348526 0.0454627241440647 0 1
+      }
+    }
+  }
+  <Group> loc_box_3_5 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.372395111650854 0.0454627241440647 0 1
+      }
+    }
+  }
+  <Group> loc_box_3_6 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.62096637052368 0.0454627241440647 0 1
+      }
+    }
+  }
+  <Group> loc_box_4_0 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.870461247901584 -0.140578953200616 0 1
+      }
+    }
+  }
+  <Group> loc_box_4_1 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.621889923840448 -0.140578943131164 0 1
+      }
+    }
+  }
+  <Group> loc_box_4_2 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.373318706685633 -0.140578943131164 0 1
+      }
+    }
+  }
+  <Group> loc_box_4_3 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.124747426953802 -0.140578943131164 0 1
+      }
+    }
+  }
+  <Group> loc_box_4_4 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.123823842348526 -0.140578943131164 0 1
+      }
+    }
+  }
+  <Group> loc_box_4_5 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.372395111650854 -0.140578943131164 0 1
+      }
+    }
+  }
+  <Group> loc_box_4_6 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.62096637052368 -0.140578943131164 0 1
+      }
+    }
+  }
+  <Group> loc_box_5_0 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.870461247901584 -0.326620615587012 0 1
+      }
+    }
+  }
+  <Group> loc_box_5_1 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.621889923840448 -0.32662060551756 0 1
+      }
+    }
+  }
+  <Group> loc_box_5_2 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.373318706685633 -0.32662060551756 0 1
+      }
+    }
+  }
+  <Group> loc_box_5_3 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.124747426953802 -0.32662060551756 0 1
+      }
+    }
+  }
+  <Group> loc_box_5_4 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.123823842348526 -0.32662060551756 0 1
+      }
+    }
+  }
+  <Group> loc_box_5_5 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.372395111650854 -0.32662060551756 0 1
+      }
+    }
+  }
+  <Group> loc_box_5_6 {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.62096637052368 -0.32662060551756 0 1
+      }
+    }
+  }
+}
+<Group> locator_weekday {
+  <Group> loc_sun {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.737117595290823 0.613114315811286 0.000623319112312478 1
+      }
+    }
+  }
+  <Group> loc_mon {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.490372938826241 0.613114315811286 0.000623319112312478 1
+      }
+    }
+  }
+  <Group> loc_tue {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        -0.244064419072912 0.613114315811286 0.000623319112312478 1
+      }
+    }
+  }
+  <Group> loc_wed {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.00410219580697761 0.613114315811286 0.000623319112312478 1
+      }
+    }
+  }
+  <Group> loc_thu {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.251236926425271 0.613114315811286 0.000623319112312478 1
+      }
+    }
+  }
+  <Group> loc_fri {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.499693233143127 0.613114315811286 0.000623319112312478 1
+      }
+    }
+  }
+  <Group> loc_sat {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.745946913028378 0.613114315811286 0.000623319112312478 1
+      }
+    }
+  }
+}
+<Group> locator_filter_group {
+  <Group> filter {
+    <VertexPool> filterShape.verts {
+      <Vertex> 0 {
+        0.414680683706689 0.706626424013473 0.000623319104920066
+        <UV> {
+          0 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 1 {
+        0.414680683706689 0.779925368902252 0.000623319104920066
+        <UV> {
+          0 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 2 {
+        0.826485638856262 0.706626424013473 0.000623319104920066
+        <UV> {
+          1 0
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+      <Vertex> 3 {
+        0.826485638856262 0.779925368902252 0.000623319104920066
+        <UV> {
+          1 1
+          <Tangent> { 1 0 0 }
+          <Binormal> { 0 1 0 }
+        }
+        <Normal> { 0 0 1 }
+      }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { lambert10SG }
+      <VertexRef> { 0 2 3 1 <Ref> { filterShape.verts } }
+    }
+  }
+  <Group> locator_filter {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.62058316283183 0.733275918086437 0.000623319112312478 1
+      }
+    }
+  }
+  <Group> locator_filter_arrowTop {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.62058316283183 0.792392682687062 0.000623319112312478 1
+      }
+    }
+  }
+  <Group> locator_filter_arrowBottom {
+    <DCS> { net }
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0.62058316283183 0.691888535200423 0.000623319112312478 1
+      }
+    }
+  }
+}
+<Group> transform1 {
+  <Group> transform1_orientConstraint1 {
+  }
+}
+<Group> transform2 {
+  <Group> transform2_orientConstraint1 {
+  }
+}
+<Group> transform3 {
+  <Group> transform3_orientConstraint1 {
+  }
+}
+<Group> transform4 {
+  <Group> transform4_orientConstraint1 {
+  }
+}
+<Group> transform5 {
+  <Group> transform5_orientConstraint1 {
+  }
+}
+<Group> transform6 {
+  <Group> transform6_orientConstraint1 {
+  }
+}
+<Group> transform7 {
+  <Group> transform7_orientConstraint1 {
+  }
+}

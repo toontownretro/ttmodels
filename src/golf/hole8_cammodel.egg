@@ -1,0 +1,474 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -subset flyover -p -a model -cn hole8 -o hole8_cammodel.egg hole8_camera.mb"
+}
+<Group> hole8 {
+  <Dart> { 1 }
+  <Group> tee0 {
+  }
+  <Group> tee1 {
+  }
+  <Group> tee2 {
+  }
+  <Group> holebottom0 {
+  }
+  <Group> golfGreen8 {
+    <Group> hardSurface {
+      <Group> locator1 {
+      }
+      <Group> locator2 {
+      }
+      <Group> locator3 {
+      }
+      <Group> locator5 {
+      }
+      <Group> locator4 {
+      }
+    }
+    <Group> softSurface {
+    }
+  }
+  <Group> optional_mover_1_X1_Y3_d4p0 {
+  }
+  <Group> set {
+    <Group> trees {
+      <Group> tree_golf01 {
+        <Group> locator1 {
+        }
+      }
+      <Group> tree_golf02 {
+        <Group> locator3 {
+        }
+      }
+      <Group> tree_golf03 {
+        <Group> locator1 {
+        }
+      }
+      <Group> tree_golf04 {
+        <Group> locator1 {
+        }
+      }
+      <Group> tree_golf05 {
+        <Group> locator1 {
+        }
+      }
+      <Group> tree_golf06 {
+        <Group> locator1 {
+        }
+      }
+      <Group> tree_golf08 {
+        <Group> locator2 {
+        }
+      }
+      <Group> tree_golf09 {
+        <Group> locator2 {
+        }
+      }
+      <Group> tree_golf10 {
+        <Group> locator2 {
+        }
+      }
+      <Group> tree_golf11 {
+        <Group> locator3 {
+        }
+      }
+      <Group> tree_golf12 {
+        <Group> locator3 {
+        }
+      }
+      <Group> tree_golf13 {
+        <Group> locator3 {
+        }
+      }
+      <Group> tree_golf14 {
+        <Group> locator3 {
+        }
+      }
+      <Group> tree_golf15 {
+        <Group> locator3 {
+        }
+      }
+      <Group> tree_golf16 {
+        <Group> locator3 {
+        }
+      }
+      <Group> tree_golf17 {
+        <Group> locator1 {
+        }
+      }
+      <Group> tree_golf18 {
+        <Group> locator3 {
+        }
+      }
+      <Group> tree_golf19 {
+        <Group> locator2 {
+        }
+      }
+      <Group> tree_golf20 {
+        <Group> locator1 {
+        }
+      }
+      <Group> tree_golf21 {
+        <Group> locator1 {
+        }
+      }
+      <Group> tree_golf22 {
+        <Group> locator1 {
+        }
+      }
+      <Group> tree_golf23 {
+        <Group> locator1 {
+        }
+      }
+      <Group> tree_golf24 {
+        <Group> locator1 {
+        }
+      }
+      <Group> tree_golf25 {
+        <Group> locator2 {
+        }
+      }
+      <Group> tree_golf26 {
+        <Group> locator2 {
+        }
+      }
+      <Group> tree_golf27 {
+        <Group> locator2 {
+        }
+      }
+      <Group> tree_golf28 {
+        <Group> locator2 {
+        }
+      }
+      <Group> tree_golf29 {
+        <Group> locator2 {
+        }
+      }
+      <Group> tree_golf30 {
+        <Group> locator2 {
+        }
+      }
+      <Group> tree_golf31 {
+        <Group> locator3 {
+        }
+      }
+      <Group> tree_golf32 {
+        <Group> locator3 {
+        }
+      }
+      <Group> tree_golf33 {
+        <Group> locator3 {
+        }
+      }
+      <Group> tree_golf34 {
+        <Group> locator3 {
+        }
+      }
+    }
+    <Group> flowers {
+      <Instance> golf_flowers1 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers2 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers3 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers4 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers5 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers6 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers7 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers8 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers9 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers10 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers11 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers12 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers13 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers14 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers15 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers16 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers17 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers18 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers19 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers20 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers21 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers22 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers23 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers24 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers25 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers26 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers27 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+      <Instance> golf_flowers28 {
+        <Billboard> { axis }
+        <Group> locator7 {
+        }
+      }
+    }
+  }
+  <Joint> flyover {
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+      }
+    }
+    <Joint> camera1 {
+      <Transform> {
+        <Matrix4> {
+          1 0 0 0
+          0 1 0 0
+          0 0 1 0
+          0 0 0 1
+        }
+      }
+      <Group> pCube1 {
+        <VertexPool> pCubeShape1.verts {
+          <Vertex> 0 {
+            61.06567035403 -0.58249318212893 -45.1225461668967
+            <Normal> { -0.973924454392253 0.0435292439263387 -0.222657499446916 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 1 {
+            61.0656481333815 -0.582491682100345 -45.1224486784758
+            <Normal> { -0.973924454392253 0.0435292439263387 -0.222657499446916 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 2 {
+            61.0656527109714 -0.582391788149186 -45.1224491721423
+            <Normal> { -0.973924454392253 0.0435292439263387 -0.222657499446916 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 3 {
+            61.0656749316199 -0.582393288177771 -45.1225466605632
+            <Normal> { -0.973924454392253 0.0435292439263387 -0.222657499446916 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 4 {
+            61.0656749316199 -0.582393288177771 -45.1225466605632
+            <Normal> { 0.0457758997871881 0.998939535876259 -0.00493666506836981 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 5 {
+            61.0656527109714 -0.582391788149186 -45.1224491721423
+            <Normal> { 0.0457758997871881 0.998939535876259 -0.00493666506836981 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 6 {
+            61.0657501034145 -0.582396141073473 -45.1224269063929
+            <Normal> { 0.0457758997871881 0.998939535876259 -0.00493666506836981 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 7 {
+            61.0657723240629 -0.582397641102058 -45.1225243948138
+            <Normal> { 0.0457758997871881 0.998939535876259 -0.00493666506836981 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 8 {
+            61.0657723240629 -0.582397641102058 -45.1225243948138
+            <Normal> { 0.973924454392253 -0.0435292439263387 0.222657499446916 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 9 {
+            61.0657501034145 -0.582396141073473 -45.1224269063929
+            <Normal> { 0.973924454392253 -0.0435292439263387 0.222657499446916 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 10 {
+            61.0657455258246 -0.582496035024632 -45.1224264127264
+            <Normal> { 0.973924454392253 -0.0435292439263387 0.222657499446916 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 11 {
+            61.0657677464731 -0.582497535053217 -45.1225239011473
+            <Normal> { 0.973924454392253 -0.0435292439263387 0.222657499446916 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 12 {
+            61.0657677464731 -0.582497535053217 -45.1225239011473
+            <Normal> { -0.0457758997871881 -0.998939535876259 0.00493666506836981 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 13 {
+            61.0657455258246 -0.582496035024632 -45.1224264127264
+            <Normal> { -0.0457758997871881 -0.998939535876259 0.00493666506836981 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 14 {
+            61.0656481333815 -0.582491682100345 -45.1224486784758
+            <Normal> { -0.0457758997871881 -0.998939535876259 0.00493666506836981 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 15 {
+            61.06567035403 -0.58249318212893 -45.1225461668967
+            <Normal> { -0.0457758997871881 -0.998939535876259 0.00493666506836981 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 16 {
+            61.0656481333815 -0.582491682100345 -45.1224486784758
+            <Normal> { -0.222206489858927 0.0150002862147774 0.97488423275692 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 17 {
+            61.0657455258246 -0.582496035024632 -45.1224264127264
+            <Normal> { -0.222206489858927 0.0150002862147774 0.97488423275692 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 18 {
+            61.0657501034145 -0.582396141073473 -45.1224269063929
+            <Normal> { -0.222206489858927 0.0150002862147774 0.97488423275692 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 19 {
+            61.0656527109714 -0.582391788149186 -45.1224491721423
+            <Normal> { -0.222206489858927 0.0150002862147774 0.97488423275692 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 20 {
+            61.0657677464731 -0.582497535053217 -45.1225239011473
+            <Normal> { 0.222206489858927 -0.0150002862147774 -0.97488423275692 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 21 {
+            61.06567035403 -0.58249318212893 -45.1225461668967
+            <Normal> { 0.222206489858927 -0.0150002862147774 -0.97488423275692 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 22 {
+            61.0656749316199 -0.582393288177771 -45.1225466605632
+            <Normal> { 0.222206489858927 -0.0150002862147774 -0.97488423275692 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+          <Vertex> 23 {
+            61.0657723240629 -0.582397641102058 -45.1225243948138
+            <Normal> { 0.222206489858927 -0.0150002862147774 -0.97488423275692 }
+            <RGBA> { 0.5 0.5 0.5 1 }
+          }
+        }
+        <Polygon> {
+          <VertexRef> { 0 1 2 3 <Ref> { pCubeShape1.verts } }
+        }
+        <Polygon> {
+          <VertexRef> { 4 5 6 7 <Ref> { pCubeShape1.verts } }
+        }
+        <Polygon> {
+          <VertexRef> { 8 9 10 11 <Ref> { pCubeShape1.verts } }
+        }
+        <Polygon> {
+          <VertexRef> { 12 13 14 15 <Ref> { pCubeShape1.verts } }
+        }
+        <Polygon> {
+          <VertexRef> { 16 17 18 19 <Ref> { pCubeShape1.verts } }
+        }
+        <Polygon> {
+          <VertexRef> { 20 21 22 23 <Ref> { pCubeShape1.verts } }
+        }
+      }
+    }
+  }
+}

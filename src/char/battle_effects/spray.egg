@@ -1,0 +1,88 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -p -a model -cn spray -o spray.egg prop-spray.mb"
+}
+<Group> spray {
+  <Dart> { 1 }
+  <Group> spray1 {
+    <VertexPool> spray.verts {
+      <Vertex> 0 {
+        0 0 0
+        <Normal> { -0.962453603258391 0.269929468495409 -0.0286556035135494 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+        // joint_spray:1
+      }
+      <Vertex> 1 {
+        -0.347464009532778 -0.60496298972703 5.97163022659582
+        <Normal> { -0.962453603258391 0.269929468495409 -0.0286556035135494 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+        // joint_spray:1
+      }
+      <Vertex> 2 {
+        -0.000230392002380817 0.633100011530198 5.97139994303385
+        <Normal> { -0.962453603258391 0.269929468495409 -0.0286556035135494 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+        // joint_spray:1
+      }
+      <Vertex> 3 {
+        -0.000230392002380817 0.633100011530198 5.97139994303385
+        <Normal> { 0.958248906969104 0.284345607269224 -0.0301099305747137 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+        // joint_spray:1
+      }
+      <Vertex> 4 {
+        0.367153003772726 -0.60496298972703 5.97163022659582
+        <Normal> { 0.958248906969104 0.284345607269224 -0.0301099305747137 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+        // joint_spray:1
+      }
+      <Vertex> 5 {
+        0 0 0
+        <Normal> { 0.958248906969104 0.284345607269224 -0.0301099305747137 }
+        <RGBA> { 0.5 0.5 0.5 1 }
+        // joint_spray:1
+      }
+    }
+    <Polygon> {
+      <VertexRef> { 0 1 2 <Ref> { spray.verts } }
+    }
+    <Polygon> {
+      <VertexRef> { 3 4 5 <Ref> { spray.verts } }
+    }
+  }
+  <Joint> spray {
+    <Transform> {
+      <Matrix4> {
+        1 0 0 0
+        0 1 0 0
+        0 0 1 0
+        0 0 0 1
+      }
+    }
+    <Joint> joint_spray {
+      <Transform> {
+        <Matrix4> {
+          1 0 0 0
+          0 1 0 0
+          0 0 1 0
+          0 0 0 1
+        }
+      }
+      <Joint> joint_attachSplash {
+        <Transform> {
+          <Matrix4> {
+            1 0 0 0
+            0 1 0 0
+            0 0 1 0
+            0 -1.30385002299122e-08 5.9652098207649 1
+          }
+        }
+      }
+      <VertexRef> {
+        0 1 2 3 4 5
+        <Ref> { spray.verts }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o music_treasure.egg music_treasure.flt"
+}
+<Texture> 2 {
+  "../maps/music.rgba"
+  <Scalar> wrap { clamp }
+  <Scalar> wrapu { clamp }
+  <Scalar> wrapv { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    -1.26484211412932 0 0
+    <UV> {
+      0 0
+      <Tangent> { 1 0 2.76631685797068e-09 }
+      <Binormal> { -2.76631685797068e-09 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 1 {
+    -1.26484211412932 0 3
+    <UV> {
+      0 1.00135600566864
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 2 {
+    1.26484211412932 0 0
+    <UV> {
+      1.00859463214874 -2.33579910968729e-09
+      <Tangent> { 1 0 2.76631685151787e-09 }
+      <Binormal> { -2.76631685151787e-09 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 3 {
+    1.26484211412932 0 3
+    <UV> {
+      1.00859463214874 1.00135600566864
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+}
+<Group> g1 {
+  <Group> g2 {
+    <Group> music-notes {
+      <Group> p1_2 {
+        <Billboard> { axis }
+        <Polygon> {
+          <RGBA> { 1 1 1 1 }
+          <TRef> { 2 }
+          <VertexRef> { 3 1 0 2 <Ref> { vpool } }
+        }
+      }
+    }
+  }
+}

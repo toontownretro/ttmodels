@@ -1,0 +1,62 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o seaweed.egg seaweed.flt"
+}
+<Texture> 0 {
+  "../maps/seaweed2.rgba"
+  <Scalar> wrap { clamp }
+  <Scalar> minfilter { linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    -2.95616310167083 -2.8421709430404e-14 -0.0505327059944161
+    <UV> {
+      0 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 1 {
+    -2.95616310167083 -2.8421709430404e-14 5.96285930734112
+    <UV> {
+      0 0.975409865379333
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 2 {
+    3.05722850685616 -2.8421709430404e-14 -0.0505327059944161
+    <UV> {
+      1 0
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 3 {
+    3.05722850685616 -2.8421709430404e-14 5.96285930734112
+    <UV> {
+      1 0.975409865379333
+      <Tangent> { 1 0 0 }
+      <Binormal> { 0 0 1 }
+    }
+    <Normal> { 0 -1 0 }
+  }
+}
+<Instance> seaweed {
+  <Group> o1 {
+    <Group> p1 {
+      <Billboard> { axis }
+      <Polygon> {
+        <RGBA> { 1 1 1 1 }
+        <TRef> { 0 }
+        <VertexRef> { 2 3 1 0 <Ref> { vpool } }
+      }
+    }
+  }
+}

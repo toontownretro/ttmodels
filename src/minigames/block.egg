@@ -1,0 +1,140 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "flt2egg -tbnall -nv 60 -o block.egg block.flt"
+}
+<VertexPool> vpool {
+  <Vertex> 0 {
+    -2 -2 -4
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 1 {
+    -2 -2 -4
+    <Normal> { -1 0 0 }
+  }
+  <Vertex> 2 {
+    -2 -2 -4
+    <Normal> { 0 0 -1 }
+  }
+  <Vertex> 3 {
+    -2 -2 0
+    <Normal> { 0 0 1 }
+  }
+  <Vertex> 4 {
+    -2 -2 0
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 5 {
+    -2 -2 0
+    <Normal> { -1 0 0 }
+  }
+  <Vertex> 6 {
+    -2 2 -4
+    <Normal> { 0 1 0 }
+  }
+  <Vertex> 7 {
+    -2 2 -4
+    <Normal> { -1 0 0 }
+  }
+  <Vertex> 8 {
+    -2 2 -4
+    <Normal> { 0 0 -1 }
+  }
+  <Vertex> 9 {
+    -2 2 0
+    <Normal> { 0 0 1 }
+  }
+  <Vertex> 10 {
+    -2 2 0
+    <Normal> { 0 1 0 }
+  }
+  <Vertex> 11 {
+    -2 2 0
+    <Normal> { -1 0 0 }
+  }
+  <Vertex> 12 {
+    2 -2 -4
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 13 {
+    2 -2 -4
+    <Normal> { 1 0 0 }
+  }
+  <Vertex> 14 {
+    2 -2 -4
+    <Normal> { 0 0 -1 }
+  }
+  <Vertex> 15 {
+    2 -2 0
+    <Normal> { 0 0 1 }
+  }
+  <Vertex> 16 {
+    2 -2 0
+    <Normal> { 0 -1 0 }
+  }
+  <Vertex> 17 {
+    2 -2 0
+    <Normal> { 1 0 0 }
+  }
+  <Vertex> 18 {
+    2 2 -4
+    <Normal> { 1 0 0 }
+  }
+  <Vertex> 19 {
+    2 2 -4
+    <Normal> { 0 1 0 }
+  }
+  <Vertex> 20 {
+    2 2 -4
+    <Normal> { 0 0 -1 }
+  }
+  <Vertex> 21 {
+    2 2 0
+    <Normal> { 0 0 1 }
+  }
+  <Vertex> 22 {
+    2 2 0
+    <Normal> { 1 0 0 }
+  }
+  <Vertex> 23 {
+    2 2 0
+    <Normal> { 0 1 0 }
+  }
+}
+<Group> block {
+  <Group> o1 {
+    <Polygon> {
+      <RGBA> { 0.836498379707336 0.797591507434845 0.992125988006592 1 }
+      <VertexRef> { 3 15 21 9 <Ref> { vpool } }
+    }
+    <Polygon> {
+      <RGBA> { 0.750903189182281 0.634182512760162 0.750903189182281 1 }
+      <VertexRef> { 12 16 4 0 <Ref> { vpool } }
+    }
+    <Polygon> {
+      <RGBA> { 0.639215707778931 0.639215707778931 0.756862759590149 1 }
+      <VertexRef> { 18 22 17 13 <Ref> { vpool } }
+    }
+    <Polygon> {
+      <RGBA> { 0.634182512760162 0.680870771408081 0.750903189182281 1 }
+      <VertexRef> { 6 10 23 19 <Ref> { vpool } }
+    }
+    <Polygon> {
+      <RGBA> { 0.639215707778931 0.639215707778931 0.756862759590149 1 }
+      <VertexRef> { 1 5 11 7 <Ref> { vpool } }
+    }
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <VertexRef> { 8 20 14 2 <Ref> { vpool } }
+    }
+  }
+}
+<Group> floor {
+  <ObjectType> { floor }
+  <Group> o2 {
+    <Polygon> {
+      <RGBA> { 0.992125988006592 0.992125988006592 0.992125988006592 1 }
+      <VertexRef> { 3 15 21 9 <Ref> { vpool } }
+    }
+  }
+}

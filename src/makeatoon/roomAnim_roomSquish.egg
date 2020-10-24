@@ -1,0 +1,32 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -subroot scalingJoint -a chan -cn roomAnim -o roomAnim_roomSquish.egg -sf 0 tt_a_ara_mat_roomAnim.mb"
+}
+<Table> {
+  <Bundle> roomAnim {
+    <Table> "<skeleton>" {
+      <Table> scalingJoint {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 24 }
+          <Char*> order { srpht }
+          <S$Anim> j {
+            <V> {
+              1 1 0.978795 0.857423 0.558954 0.001 0.001 0.001 0.001
+              0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001 0.001
+              0.001 0.001 0.001
+            }
+          }
+          <S$Anim> y {
+            <V> {
+              0 0 0 0 0 -0.1 -0.1 -0.1 -0.1 -0.1 -0.1 -0.1 -0.1 -0.1
+              -0.1 -0.1 -0.1 -0.1 -0.1 -0.1 -0.1
+            }
+          }
+        }
+      }
+    }
+    <Table> morph {
+    }
+  }
+}

@@ -1,0 +1,137 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -uo ft -tbnall -nv 60 -a chan -cn hydrant -o tt_a_ara_TT_hydrant_default.egg -sf 0 tt_a_ara_TT_hydrant_default.mb"
+}
+<Table> {
+  <Bundle> hydrant {
+    <Table> "<skeleton>" {
+      <Table> "hydrant:def_base" {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 24 }
+          <Char*> order { srpht }
+        }
+        <Table> "hydrant:def_left_arm" {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> x { <V> { 0.54 } }
+            <S$Anim> y { <V> { 1.32 } }
+          }
+        }
+        <Table> "hydrant:def_spine" {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> y { <V> { 1.4 } }
+          }
+          <Table> "hydrant:def_top" {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+              <S$Anim> y { <V> { 1.4 } }
+            }
+          }
+          <Table> "hydrant:def_spinesquash" {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+            }
+          }
+        }
+        <Table> "hydrant:def_right_arm" {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+            <S$Anim> h { <V> { 180 } }
+            <S$Anim> r { <V> { 180 } }
+            <S$Anim> x { <V> { -0.54 } }
+            <S$Anim> y { <V> { 1.32 } }
+          }
+        }
+      }
+      <Table> "hydrant:xxx_transform" {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 24 }
+          <Char*> order { srpht }
+        }
+        <Table> "hydrant:xx_transform" {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 24 }
+            <Char*> order { srpht }
+          }
+          <Table> "hydrant:ctrl_transform" {
+            <Xfm$Anim_S$> xform {
+              <Scalar> fps { 24 }
+              <Char*> order { srpht }
+            }
+            <Table> "hydrant:xx_spine" {
+              <Xfm$Anim_S$> xform {
+                <Scalar> fps { 24 }
+                <Char*> order { srpht }
+              }
+              <Table> "hydrant:ctrl_spine" {
+                <Xfm$Anim_S$> xform {
+                  <Scalar> fps { 24 }
+                  <Char*> order { srpht }
+                }
+                <Table> "hydrant:xx_left_arm" {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                  }
+                  <Table> "hydrant:ctrl_left_arm" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                    }
+                  }
+                }
+                <Table> "hydrant:xx_right_arm" {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                    <S$Anim> h { <V> { 180 } }
+                    <S$Anim> r { <V> { -180 } }
+                  }
+                  <Table> "hydrant:ctrl_right_arm" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                    }
+                  }
+                }
+                <Table> "hydrant:xx_top" {
+                  <Xfm$Anim_S$> xform {
+                    <Scalar> fps { 24 }
+                    <Char*> order { srpht }
+                  }
+                  <Table> "hydrant:ctrl_top" {
+                    <Xfm$Anim_S$> xform {
+                      <Scalar> fps { 24 }
+                      <Char*> order { srpht }
+                    }
+                  }
+                }
+              }
+            }
+            <Table> "hydrant:xx_base" {
+              <Xfm$Anim_S$> xform {
+                <Scalar> fps { 24 }
+                <Char*> order { srpht }
+              }
+              <Table> "hydrant:ctrl_base" {
+                <Xfm$Anim_S$> xform {
+                  <Scalar> fps { 24 }
+                  <Char*> order { srpht }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    <Table> morph {
+    }
+  }
+}
