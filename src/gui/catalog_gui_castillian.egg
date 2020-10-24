@@ -1,5 +1,0 @@
-<CoordinateSystem> { Y-Up }
-
-<Comment> {
-  "maya2egg_client -uo ft -tbnall -nv 60 -o catalog_gui_castillian.egg catalog_gui_castillian.mb"
-}
