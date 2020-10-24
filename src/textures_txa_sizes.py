@@ -1,5 +1,8 @@
-from panda3d.core import TexturePool, Filename
+from panda3d.core import TexturePool, Filename, loadPrcFileData
 from pathlib import Path
+
+loadPrcFileData("", "notify-level-gobj warning")
+#loadPrcFileData("", "textures-power-2 none")
 
 txa = open('maps/textures.txa', 'r')
 lines = txa.readlines()
@@ -19,7 +22,7 @@ for line in lines:
     if len(texName) and (not texName.isspace()) and (not '.egg' in texName and not '.mb' in texName) and (texName[0] != ':') and (texName != '*'):
         texBasename = Filename(texName).getBasenameWoExtension()
         texExt = Filename(texName).getExtension()
-        
+
         # try w/ an extension
         p0 = Path('.').rglob('**/' + texBasename + '.*')
         # try w/o extension
@@ -41,16 +44,21 @@ for line in lines:
             fixme.append(texName)
             continue
 
-        print(texName, texPath)
+        #print(texName, texPath)
         tex = TexturePool.loadTexture(texPath)
         if not tex:
             print("COULDN'T LOAD TEX", texName)
             sys.exit(1)
         else:
+            fw = tex.getOrigFileXSize()
+            fh = tex.getOrigFileYSize()
             w = tex.getXSize()
             h = tex.getYSize()
-            line = line.replace("100%", "%i %i" % (w, h))
-    
+            origLine = str(line)
+            line = line.replace("%i %i" % (w, h), "%i %i" % (fw, fh))
+            if (line != origLine):
+                print("%s was %ix%i, now %ix%i" % (texName, w, h, fw, fh))
+
     newOut += line
 
 txa.close()
@@ -61,4 +69,3 @@ txa.flush()
 txa.close()
 
 print("FIXME:", fixme)
-

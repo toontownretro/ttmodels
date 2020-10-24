@@ -367,12 +367,12 @@ model "phase_3.5/models/props/trees" [
 	store_node [ "holiday_prop" "prop_tree_fat_ul" "prop_tree_fat_no_box_ul" ]
 	]
 
-store_texture [ "texture" "street_street_TT_tex"	
-		"phase_3.5/maps/sidewalkbrown.png"		]
+store_texture [ "texture" "street_street_TT_tex"
+		"phase_3.5/maps/sidewalkbrown.tga"		]
 store_texture [ "texture" "street_sidewalk_TT_tex"
-		"phase_3.5/maps/sidewalk_4cont_brown.png"	]
+		"phase_3.5/maps/sidewalk_4cont_brown.tga"	]
 store_texture [ "texture" "street_curb_TT_tex"
-		"phase_3.5/maps/curb_brown_even.png"	]
+		"phase_3.5/maps/curb_brown_even.tga"	]
 
 
 model "phase_3.5/models/props/streetlight_TT" [
@@ -396,4 +396,3 @@ model "phase_3.5/models/props/big_planter" [
 model "phase_3.5/models/props/cellar_door" [
 	store_node [ "prop" "prop_cellar_door" "" ]
 	]
-

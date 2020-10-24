@@ -1,6 +1,9 @@
 #define DIR_TYPE models
 #define INSTALL_TO models/char
 
+// Don't build it
+#define BUILD_DIRECTORY
+
 // These are the various animation files generated within this directory
 
 // The animations get split up into three phases
