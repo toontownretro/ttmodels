@@ -17,38 +17,38 @@ model "phase_3.5/models/modules/tt_m_ara_int_toonhall" [
 
 
 store_texture [ "TI_wallpaper" "wall_paper_a1"
-                "phase_3.5/maps/wall_paper_a1.tga" ]
+                "phase_3.5/maps/wall_paper_a1.txo" ]
 store_texture [ "TI_wallpaper" "wall_paper_a2"
-                "phase_3.5/maps/wall_paper_a2.tga" ]
+                "phase_3.5/maps/wall_paper_a2.txo" ]
 store_texture [ "TI_wallpaper" "wall_paper_a3"
-                "phase_3.5/maps/wall_paper_a3.tga" ]
+                "phase_3.5/maps/wall_paper_a3.txo" ]
 store_texture [ "TI_wallpaper" "wall_paper_a4"
-                "phase_3.5/maps/wall_paper_a4.tga" ]
+                "phase_3.5/maps/wall_paper_a4.txo" ]
 store_texture [ "TI_wallpaper" "wall_paper_a5"
-                "phase_3.5/maps/wall_paper_a5.tga" ]
+                "phase_3.5/maps/wall_paper_a5.txo" ]
 
 store_texture [ "TI_wainscotting" "wall_paper_b3"
-                "phase_3.5/maps/wall_paper_b3.tga" ]
+                "phase_3.5/maps/wall_paper_b3.txo" ]
 store_texture [ "TI_wainscotting" "wall_paper_b4"
-                "phase_3.5/maps/wall_paper_b4.tga" ]
+                "phase_3.5/maps/wall_paper_b4.txo" ]
 
 store_texture [ "TI_floor" "floor_wood"
-                "phase_3/maps/floor_create_toon.tga" ]
+                "phase_3/maps/floor_create_toon.txo" ]
 store_texture [ "TI_floor" "floor_carpet"
-                "phase_3.5/maps/carpet.tga" ]
+                "phase_3.5/maps/carpet.txo" ]
 
 store_texture [ "TI_molding" "molding_wood1"
-                "phase_3.5/maps/molding_wood1.tga" ]
+                "phase_3.5/maps/molding_wood1.txo" ]
 store_texture [ "TI_molding" "molding_wood2"
-                "phase_3.5/maps/molding_wood2.tga" ]
+                "phase_3.5/maps/molding_wood2.txo" ]
 
 
 store_texture [ "TI_couch" "couch1"
-                "phase_3.5/maps/couch.tga" ]
+                "phase_3.5/maps/couch.txo" ]
 store_texture [ "TI_couch" "couch2"
-                "phase_3.5/maps/couch2.tga" ]
+                "phase_3.5/maps/couch2.txo" ]
 store_texture [ "TI_couch" "couch3"
-                "phase_3.5/maps/couch3.tga" ]
+                "phase_3.5/maps/couch3.txo" ]
 
 
 

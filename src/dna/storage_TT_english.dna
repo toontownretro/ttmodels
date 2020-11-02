@@ -40,11 +40,11 @@ hood_model "phase_3.5/models/props/trees" [
 	]
 
 store_texture [ "texture" "street_street_TT_tex"
-		"phase_3.5/maps/sidewalkbrown.tga"		]
+		"phase_3.5/maps/sidewalkbrown.txo"		]
 store_texture [ "texture" "street_sidewalk_TT_tex"
-		"phase_3.5/maps/sidewalk_4cont_brown.tga"	]
+		"phase_3.5/maps/sidewalk_4cont_brown.txo"	]
 store_texture [ "texture" "street_curb_TT_tex"
-		"phase_3.5/maps/curb_brown_even.tga"	]
+		"phase_3.5/maps/curb_brown_even.txo"	]
 
 store_font [ "font" "TT_Comedy"
              "phase_3/models/fonts/Comedy" ]

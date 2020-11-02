@@ -3,7 +3,7 @@
 # type rgb, which maintain lossless working copies of the palettes so
 # we can avoid the generational loss of constantly reading and writing
 # the same jpg images.
-:imagetype tga,rgb
+:imagetype rgb,rgb
 :shadowtype rgb
 
 :palette 4096 4096
@@ -229,7 +229,11 @@
 # indicates that we should not stop scanning this file for a particular
 # texture just because we matched this first line.
 
-* : generic mipmap cont
+# This srgb flag is no good.  This makes all be textures in sRGB space,
+# but if in the future there are linear space textures, there will need
+# to be another flag that specifies linear space, or the srgb flag should
+# be moved to every texture line that is sRGB.
+* : generic mipmap srgb cont
 
 ######################################################################
 # MODULES

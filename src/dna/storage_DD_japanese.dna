@@ -50,11 +50,11 @@ hood_model "phase_6/models/props/small_round_barrel" [
 	]
 
 store_texture [ "texture" "street_street_DD_tex"
-		"phase_3.5/maps/boardwalk_floor.tga"	]
+		"phase_3.5/maps/boardwalk_floor.txo"	]
 store_texture [ "texture" "street_sidewalk_DD_tex"
-		"phase_3.5/maps/boardwalk_floor_dark.tga"	]
+		"phase_3.5/maps/boardwalk_floor_dark.txo"	]
 store_texture [ "texture" "street_curb_DD_tex"
-		"phase_3.5/maps/curb_boardwalk.tga"	]
+		"phase_3.5/maps/curb_boardwalk.txo"	]
 
 store_font [ "font" "DD_Portago"
              "phase_3/models/fonts/DFKyG7.ttc:1" ]

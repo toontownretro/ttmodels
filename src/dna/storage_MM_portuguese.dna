@@ -35,13 +35,13 @@ hood_model "phase_6/models/modules/MM_windows" [
 	]
 
 store_texture [ "texture" "street_street_MM_tex"
-		"phase_3.5/maps/cobblestone_pink.tga"	]
+		"phase_3.5/maps/cobblestone_pink.txo"	]
 store_texture [ "texture" "street_sidewalk_MM_tex"
-		"phase_3.5/maps/sidewalk_4cont_red.tga" 	]
+		"phase_3.5/maps/sidewalk_4cont_red.txo" 	]
 store_texture [ "texture" "street_curb_MM_tex"
-		"phase_3.5/maps/curb_red_even.tga" 	]
+		"phase_3.5/maps/curb_red_even.txo" 	]
 store_texture [ "texture" "street_sidewalk_MM_keyboard_tex"
-		"phase_3.5/maps/keyboard_segment.tga" 	]
+		"phase_3.5/maps/keyboard_segment.txo" 	]
 
 
 store_font [ "font" "MM_Musicals"

@@ -62,11 +62,11 @@ hood_model "phase_8/models/props/streetlight_DL" [
 	]
 
 store_texture [ "texture" "street_street_DL_tex"
-		"phase_3.5/maps/cobblestone_purple.tga"		]
+		"phase_3.5/maps/cobblestone_purple.txo"		]
 store_texture [ "texture" "street_sidewalk_DL_tex"
-		"phase_3.5/maps/sidewalk_4cont_purple.tga"	]
+		"phase_3.5/maps/sidewalk_4cont_purple.txo"	]
 store_texture [ "texture" "street_curb_DL_tex"
-		"phase_3.5/maps/curb_purple_even.tga"		]
+		"phase_3.5/maps/curb_purple_even.txo"		]
 
 store_font [ "font" "DL_JiggeryPokery"
              "phase_3/models/fonts/JiggeryPokery" ]
