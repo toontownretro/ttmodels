@@ -38,12 +38,13 @@
 #if $[TTMODELS_INSTALL]
   #define TTMODELS_INSTALL $[unixfilename $[TTMODELS_INSTALL]]
 #elif $[or $[CTPROJS],$[TTMODELS]]
+  #define TTMODELS $[unixfilename $[TTMODELS]]
   #define TTMODELS_INSTALL $[TTMODELS]/built
   #if $[eq $[TTMODELS],]
     #error You seem to be attached to some trees, but not TTMODELS!
   #endif
 #else
-  #defer TTMODELS_INSTALL $[INSTALL_DIR]
+  #defer TTMODELS_INSTALL $[unixfilename $[INSTALL_DIR]]
 #endif
 
 
