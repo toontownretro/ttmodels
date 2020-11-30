@@ -635,8 +635,12 @@
 // Transform the various non-characters.
 #begin filter_egg
   #define TARGET_DIR optchar
-  #define SOURCES \
-    newspaper_english.egg
+  #define SOURCES newspaper_english.egg
+  #if $[eq $[LANGUAGE], castillian]
+    #define SOURCES newspaper_castillian.egg
+  #elif $[eq $[LANGUAGE], japanese]
+    #define SOURCES newspaper_japanese.egg
+  #endif
   #defer COMMAND \
      egg-trans -TR 0,180,0 -TS 0.25 \
      -o $[target] $[source]
@@ -718,8 +722,17 @@
     watercooler.egg \
     rubber-stamp.egg pad.egg dagger.egg card.egg \
     redtape-tube.egg rake-step-mod.egg baseball.egg pink-slip.egg \
-    half-windsor.egg evil-eye.egg cigar.egg newspaper_english.egg \
+    half-windsor.egg evil-eye.egg cigar.egg \
     teeth-mod.egg bird.egg gavel.egg lawbook.egg power-tie.egg
+
+  #if $[eq $[LANGUAGE], castillian]
+    #define SOURCES $[SOURCES] newspaper_castillian.egg
+  #elif $[eq $[LANGUAGE], japanese]
+    #define SOURCES $[SOURCES] newspaper_japanese.egg
+  #else
+    #define SOURCES $[SOURCES] newspaper_english.egg
+  #endif
+
   #define UNPAL_SOURCES \
     rubber-stamp-pad-chan.egg calculator-chan.egg \
     smile-chan.egg teeth-chan.egg \
