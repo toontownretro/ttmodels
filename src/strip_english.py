@@ -12,4 +12,7 @@ for filename in files:
     newFilename = filename.replace('_english', '')
     print(filename, '->', newFilename)
 
-    os.system('cp %s %s' % (filename, newFilename))
+    if os.name == 'posix':
+        os.system('cp %s %s' % (filename, newFilename))
+    else:
+        os.system('copy %s %s' % (filename, newFilename))
