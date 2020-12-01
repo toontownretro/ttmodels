@@ -5,14 +5,14 @@
 
 // The animations get split up into three phases
 #define phase_3_dog_anims \
-    neutral run 
+    neutral run
 #define phase_3.5_dog_anims \
     walk teleport book jump jump-z press-button pie-throw victory-dance conked leap_zhang \
     sidestep-left cringe running-jump jump-back-right duck wave angry shrug \
     tutorial-neutral left-point right-point-start right-point \
     give-props-start give-props right-hand-start \
     right-hand jump-zhang leap_z leap_zstart leap_zend leap_zhanglong \
-    jump-zstart jump-zend 
+    jump-zstart jump-zend
 #define phase_4_dog_anims \
     swim tug-o-war sad-neutral losewalk bored taunt \
     up down left right fish periscope slip-forward slip-backward  \
@@ -31,7 +31,7 @@
 #define phase_6_dog_anims \
     headdown-putt into-putt loop-putt rotateL-putt rotateR-putt swing-putt look-putt lookloop-putt bad-putt badloop-putt good-putt
 #define phase_9_dog_anims \
-    push block 
+    push block
 #define phase_10_dog_anims \
     leverReach leverPull leverNeutral
 #define dog_anims \
@@ -58,7 +58,7 @@
 // These animations (also listed above) should not be compressed.
 #define nc_anims \
    right-hand climb
-   
+
 #define tug-o-war_frames 2 21
 #define into_dig_frames 1 10
 #define loop_dig_frames 1 41
@@ -154,7 +154,7 @@
   #define POLY_MODEL 1000
   #define ANIMS $[dog_anims_male]
   #define CHAR_NAME dog-legs-m
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset TheFootL -subset TheFootR -subset TheLegL -subset TheLegR 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset TheFootL -subset TheFootR -subset TheLegL -subset TheLegR
 #end maya_char_egg
 
 // The female_only anims need dogMM_Shorts-legs too
@@ -163,7 +163,7 @@
   #define EGG_PREFIX dogMM_Shorts-legs-
   #define ANIMS $[filter $[female_only],$[dog_anims]]
   #define CHAR_NAME dog-legs-l
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset TheFootL -subset TheFootR -subset TheLegL -subset TheLegR 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset TheFootL -subset TheFootR -subset TheLegL -subset TheLegR
 #end maya_char_egg
 
 #begin maya_char_egg
@@ -211,7 +211,7 @@
   #define MODEL zero
   #define POLY_MODEL 500
   #define CHAR_NAME dog-legs-m
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset TheFootL -subset TheFootR -subset TheLegL -subset TheLegR 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset TheFootL -subset TheFootR -subset TheLegL -subset TheLegR
 #end maya_char_egg
 
 #begin maya_char_egg
@@ -257,7 +257,7 @@
   #define MODEL zero
   #define POLY_MODEL 250
   #define CHAR_NAME dog-legs-m
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset TheFootL -subset TheFootR -subset TheLegL -subset TheLegR 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset TheFootL -subset TheFootR -subset TheLegL -subset TheLegR
 #end maya_char_egg
 
 #begin maya_char_egg
@@ -294,7 +294,7 @@
     $[matrix dogMM_Shorts-head-,$[dog_anims_male],.egg] \
     $[matrix dogMM_Skirt-head-,$[dog_anims_female],.egg]
   #defer COMMAND \
-    egg-topstrip -i -t joint_toHead -d $[TARGET_DIR] $[sources]
+    egg-topstrip -i -t joint_toHead -d $[TARGET_DIR]
 #end filter_char_egg
 
 #begin filter_char_egg
@@ -306,7 +306,7 @@
     $[matrix dogMM_Skirt-torso-,$[dog_anims_female],.egg] \
     $[matrix dogMM_Naked-torso-,$[dog_anims_naked],.egg]
   #defer COMMAND \
-    egg-topstrip -i -t MAIN1 -d $[TARGET_DIR] $[sources]
+    egg-topstrip -i -t MAIN1 -d $[TARGET_DIR]
 #end filter_char_egg
 
 // Optimize the various characters.
@@ -325,7 +325,7 @@
      -p joint_pupilL,joint_toHead \
      -p RLongEar1,root \
      -p RLongEar2,RLongEar1 \
-     -p RLongEar3,RLongEar2 \ 
+     -p RLongEar3,RLongEar2 \
      -p LLongEar1,root \
      -p LLongEar2,LLongEar1 \
      -p LLongEar3,LLongEar2 \

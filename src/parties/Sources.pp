@@ -38,7 +38,7 @@
     $[matrix cogPinata_,idle up down bodyHitBack bodyHitFront headHitBack headHitFront,_anim.egg] \
     cogPinata_actor.egg
   #defer COMMAND \
-    egg-rename -strip_prefix cog: -d $[TARGET_DIR] $[sources]
+    egg-rename -strip_prefix cog: -d $[TARGET_DIR]
 #end filter_char_egg
 
 // Expose joints for Cog Pinata
@@ -55,7 +55,7 @@
 // Trampoline (has joint)
 #begin maya_char_egg
   #define MAYA_PREFIX trampoline_
-  #define EGG_PREFIX trampoline_    
+  #define EGG_PREFIX trampoline_
   #define POLY_MODEL model
   #define ANIMS anim
   #define CHAR_NAME trampoline
@@ -76,7 +76,7 @@
   #define EGG_PREFIX jukebox_
   #define POLY_MODEL model
   #define ANIMS dance
-  #define CHAR_NAME jukebox  
+  #define CHAR_NAME jukebox
 #end maya_char_egg
 
 // Jelly bean banner
@@ -192,7 +192,7 @@
 //    -expose uvj_seltzerBottle \
 //    -expose uvj_megaphone \
 //    -expose uvj_balloons1 \
-//    -expose uvj_balloons2 \    
+//    -expose uvj_balloons2 \
     -flag innerGlobeMesh \
 //    -flag cakeMesh \
 //    -flag seltzerBottleMesh \
@@ -217,7 +217,7 @@
     partyDecorations.egg \
     tt_m_gui_sbk_calendar.egg tt_m_gui_sbk_calendar_box.egg tt_m_gui_sbk_calendar_popUp_bg.egg \
     schtickerbookHostingGUI.egg schtickerbookInvitationGUI.egg \
-    tt_m_gui_sbk_newspaper.egg 
+    tt_m_gui_sbk_newspaper.egg
   #define PHASE 4
 #end install_egg
 

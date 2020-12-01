@@ -3,7 +3,7 @@
 
 #define goofyCostumeAnims default neutral posedown posedown2 posedown3 \
                                             walkStrut walkStrut2
-                                            
+
 #define nc_anims neutral
 
 #define neutral_frames 1 154
@@ -31,7 +31,7 @@
                                                                           -subset goofyHC:tt_m_chr_csc_goofyLeftHand_1200 \
                                                                           -subset goofyHC:tt_m_chr_csc_goofyRightHand_1200 \
                                                                           -subset goofyHC:tt_m_chr_csc_goofyLeftFoot_1200 \
-                                                                          -subset goofyHC:tt_m_chr_csc_goofyRightFoot_1200                                                        
+                                                                          -subset goofyHC:tt_m_chr_csc_goofyRightFoot_1200
 #end maya_char_egg
 
 #begin maya_char_egg
@@ -71,7 +71,7 @@
                                                                          -subset goofyHC:tt_m_chr_csc_goofyLeftHand_400 \
                                                                          -subset goofyHC:tt_m_chr_csc_goofyRightHand_400 \
                                                                          -subset goofyHC:tt_m_chr_csc_goofyLeftArm_400 \
-                                                                         -subset goofyHC:tt_m_chr_csc_goofyRightArm_400 \ 
+                                                                         -subset goofyHC:tt_m_chr_csc_goofyRightArm_400 \
                                                                          -subset goofyHC:tt_m_chr_csc_goofyMask_400 \
                                                                          -subset goofyHC:tt_m_chr_csc_goofyPupils_400 \
                                                                          -subset goofyHC:tt_m_chr_csc_goofyEars_400 \
@@ -92,7 +92,7 @@
   #define SOURCES \
     $[matrix tt_a_chr_csc_goofyCostume_,$[goofyCostumeAnims] 1200 800 400,.egg]
   #defer COMMAND \
-    egg-rename -strip_prefix goofyHC: -d $[TARGET_DIR] $[sources]
+    egg-rename -strip_prefix goofyHC: -d $[TARGET_DIR]
 #end filter_char_egg
 
 // Optimize the various characters.
@@ -103,7 +103,7 @@
   #define OPTCHAR_OPTS \
     -TR 0,180,0 -TS 0.25 \
     -flag 'tt_m_chr_csc_goofyEyesOpen*'=eyesOpen \
-    -flag 'tt_m_chr_csc_goofyEyesClosed*'=eyesClosed 
+    -flag 'tt_m_chr_csc_goofyEyesClosed*'=eyesClosed
 #end optchar_egg
 
 #begin install_egg

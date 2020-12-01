@@ -54,7 +54,7 @@
   #defer COMMAND \
     egg-rename -strip_prefix vampMM: -strip_prefix VampMM: \
                         -strip_prefix vampMM800: -strip_prefix vampMM400: \
-                        -d $[TARGET_DIR] $[sources]
+                        -d $[TARGET_DIR]
 #end filter_char_egg
 
 // Optimize the various characters.

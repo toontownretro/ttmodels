@@ -164,7 +164,7 @@
     $[matrix sellbotBoss cashbotBoss lawbotBoss bossbotBoss,-torso-zero.egg] \
     $[matrix bossCog-torso-,$[anims],.egg]
   #defer COMMAND \
-    egg-topstrip -i -t joint_pelvis -d $[TARGET_DIR] $[sources]
+    egg-topstrip -i -t joint_pelvis -d $[TARGET_DIR]
 #end filter_char_egg
 
 #begin filter_char_egg
@@ -173,7 +173,7 @@
     $[matrix sellbotBoss cashbotBoss lawbotBoss bossbotBoss,-head-zero.egg] \
     $[matrix bossCog-head-,$[anims],.egg]
   #defer COMMAND \
-    egg-topstrip -i -t joint34 -d $[TARGET_DIR] $[sources]
+    egg-topstrip -i -t joint34 -d $[TARGET_DIR]
 #end filter_char_egg
 
 
@@ -233,7 +233,7 @@
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-   bossCog-legs-zero.egg 
+   bossCog-legs-zero.egg
 
   // Don't compress the anims for now.
   #define UNPAL_SOURCES_NC \
@@ -302,7 +302,7 @@
 
 #begin install_egg
   #define SOURCES \
-    bossbotBoss-golfclub.egg 
+    bossbotBoss-golfclub.egg
 
   #define PHASE 12
 #end install_egg
@@ -326,7 +326,7 @@
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-   bossbotBoss-legs-zero.egg 
+   bossbotBoss-legs-zero.egg
   #define PHASE 12
 #end install_egg
 

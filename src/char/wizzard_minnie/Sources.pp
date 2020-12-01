@@ -45,7 +45,7 @@
   #defer COMMAND \
     egg-rename -strip_prefix minnieCostumeZero: \
     -strip_prefix minnieCostume400: -strip_prefix minnieCostume800: \
-    -d $[TARGET_DIR] $[sources]
+    -d $[TARGET_DIR]
 #end filter_char_egg
 
 // Optimize the various characters.
@@ -56,7 +56,7 @@
   #define OPTCHAR_OPTS \
     -TR 0,180,0 -TS 0.25 \
     -flag 'tt_m_chr_csc_minnieEyesOpen*'=eyesOpen \
-    -flag 'tt_m_chr_csc_minnieEyesClosed*'=eyesClosed 
+    -flag 'tt_m_chr_csc_minnieEyesClosed*'=eyesClosed
 #end optchar_egg
 
 #begin install_egg

@@ -4,7 +4,7 @@
 // These are the various animation files generated within this directory
 // for the different characters.
 #define phase_3_dog_anims \
-    neutral run 
+    neutral run
 #define phase_3.5_dog_anims \
     walk teleport book jump jump-z pie-throw press-button victory-dance conked \
     sidestep-left cringe running-jump duck jump-back-right wave angry shrug \
@@ -19,10 +19,10 @@
     gameThrow bow curtsy castlong think petin petloop petend begCycle intoBeg begOut
 #define phase_5_dog_anims \
     lose shout toss tickle \
-//    sidestep-right 
+//    sidestep-right
     struggle smooch happy-dance \
     sprinkle-dust firehose water-gun juggle hold-bottle spit \
-    hypnotize hold-magnet melt climb 
+    hypnotize hold-magnet melt climb
 #define phase_5.5_dog_anims \
     jellybeanJar phoneBack phoneNeutral takePhone callPet feedPet into_dig loop_dig water
 #define phase_6_dog_anims \
@@ -152,7 +152,7 @@
   #define POLY_MODEL 1000
   #define ANIMS $[dog_anims_male]
   #define CHAR_NAME dog-legs-l
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset TheFootL -subset TheFootR -subset TheLegL -subset TheLegR 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset TheFootL -subset TheFootR -subset TheLegL -subset TheLegR
 #end maya_char_egg
 
 // The female_only anims need dogLL_Shorts-legs too
@@ -161,7 +161,7 @@
   #define EGG_PREFIX dogLL_Shorts-legs-
   #define ANIMS $[filter $[female_only],$[dog_anims]]
   #define CHAR_NAME dog-legs-l
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset TheFootL -subset TheFootR -subset TheLegL -subset TheLegR 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset TheFootL -subset TheFootR -subset TheLegL -subset TheLegR
 #end maya_char_egg
 
 #begin maya_char_egg
@@ -199,7 +199,7 @@
   #define MODEL zero
   #define POLY_MODEL 500
   #define CHAR_NAME dog-legs-l
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset TheFootL -subset TheFootR -subset TheLegL -subset TheLegR 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset TheFootL -subset TheFootR -subset TheLegL -subset TheLegR
 #end maya_char_egg
 
 #begin maya_char_egg
@@ -236,7 +236,7 @@
   #define MODEL zero
   #define POLY_MODEL 250
   #define CHAR_NAME dog-legs-l
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset TheFootL -subset TheFootR -subset TheLegL -subset TheLegR 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset TheFootL -subset TheFootR -subset TheLegL -subset TheLegR
 #end maya_char_egg
 
 #begin maya_char_egg
@@ -263,7 +263,7 @@
     $[matrix dogLL_Shorts-head-,1000 500 250,.egg] \
     $[matrix dogLL_Shorts-head-,$[dog_anims_male],.egg]
   #defer COMMAND \
-    egg-topstrip -i -t joint_toHead -d $[TARGET_DIR] $[sources]
+    egg-topstrip -i -t joint_toHead -d $[TARGET_DIR]
 #end filter_char_egg
 
 #begin filter_char_egg
@@ -275,7 +275,7 @@
     $[matrix dogLL_Skirt-torso-,$[dog_anims_female],.egg] \
     $[matrix dogLL_Naked-torso-,$[dog_anims_naked],.egg]
   #defer COMMAND \
-    egg-topstrip -i -t MAIN1 -d $[TARGET_DIR] $[sources]
+    egg-topstrip -i -t MAIN1 -d $[TARGET_DIR]
 #end filter_char_egg
 
 // Optimize the various characters.
@@ -296,7 +296,7 @@
      -p LLongEar3,LLongEar2 \
      -p RLongEar1,scale_RLongEar0 \
      -p RLongEar2,RLongEar1 \
-     -p RLongEar3,RLongEar2 \ 
+     -p RLongEar3,RLongEar2 \
      -flag 'TheEyes'=eyes \
      -flag 'TheHeadLong'=head \
      -flag 'TheHeadSmall'=head \

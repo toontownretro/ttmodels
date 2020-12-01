@@ -22,7 +22,7 @@
                                                                           -subset Pluto:tt_m_chr_csc_plutoHat_1200 \
                                                                           -subset Pluto:tt_m_chr_csc_plutoTail_1200 \
                                                                           -subset Pluto:tt_m_chr_csc_plutoBody_1200 \
-                                                                          -subset Pluto:tt_m_chr_csc_plutoHat_1200                                                        
+                                                                          -subset Pluto:tt_m_chr_csc_plutoHat_1200
 #end maya_char_egg
 
 #begin maya_char_egg
@@ -42,7 +42,7 @@
                                                                           -subset Pluto:tt_m_chr_csc_plutoHat_800 \
                                                                           -subset Pluto:tt_m_chr_csc_plutoTail_800 \
                                                                           -subset Pluto:tt_m_chr_csc_plutoBody_800 \
-                                                                          -subset Pluto:tt_m_chr_csc_plutoHat_800         
+                                                                          -subset Pluto:tt_m_chr_csc_plutoHat_800
 #end maya_char_egg
 
 #begin maya_char_egg
@@ -62,7 +62,7 @@
                                                                           -subset Pluto:tt_m_chr_csc_plutoHat_400 \
                                                                           -subset Pluto:tt_m_chr_csc_plutoTail_400 \
                                                                           -subset Pluto:tt_m_chr_csc_plutoBody_400 \
-                                                                          -subset Pluto:tt_m_chr_csc_plutoHat_400         
+                                                                          -subset Pluto:tt_m_chr_csc_plutoHat_400
 #end maya_char_egg
 
 //Animations independent of LODs
@@ -78,7 +78,7 @@
   #define SOURCES \
     $[matrix tt_a_chr_csc_plutoCostume_,$[plutoCostumeAnims] 1200 800 400,.egg]
   #defer COMMAND \
-    egg-rename -strip_prefix Pluto: -d $[TARGET_DIR] $[sources]
+    egg-rename -strip_prefix Pluto: -d $[TARGET_DIR]
 #end filter_char_egg
 
 // Optimize the various characters.
@@ -89,7 +89,7 @@
   #define OPTCHAR_OPTS \
     -TR 0,180,0 \
     -flag 'tt_m_chr_csc_plutoEyesOpen*'=eyesOpen \
-    -flag 'tt_m_chr_csc_plutoEyesClosed*'=eyesClosed 
+    -flag 'tt_m_chr_csc_plutoEyesClosed*'=eyesClosed
 #end optchar_egg
 
 #begin install_egg
