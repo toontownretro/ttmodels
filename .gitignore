@@ -11,3 +11,5 @@ stamp
 **/bams
 **/optchar
 **/topstrip
+**/txocache.dat
+*.vcxproj
