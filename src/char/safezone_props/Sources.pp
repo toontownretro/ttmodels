@@ -5,35 +5,35 @@
 
 // These are the various animation files generated within this directory
 
-// Daisy's garden flower 
+// Daisy's garden flower
 #begin maya_char_egg
   #define MODEL flower
   #define MAYA_PREFIX DG_
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL DG_flower-mod
-  #define CHAR_NAME flower 
+  #define CHAR_NAME flower
 #end maya_char_egg
 
 // horizontal splash (on water surface not a spray)
-#begin maya_char_egg 
+#begin maya_char_egg
   #define MODEL splashdown
   #define MAYA_PREFIX prop-
   #define EGG_PREFIX SZ_
   #define POLY_MODEL splashdown-mod
   #define CHAN_SUFFIX -chan
   #define ANIMS splashdown
-  #define CHAR_NAME splashdown 
+  #define CHAR_NAME splashdown
 #end maya_char_egg
 
-// HQ telescope 
-#begin maya_char_egg 
+// HQ telescope
+#begin maya_char_egg
   #define MODEL telescope
   #define MAYA_PREFIX prop-
   #define EGG_PREFIX HQ_
   #define POLY_MODEL telescope-mod
   #define CHAN_SUFFIX -chan
   #define ANIMS telescope
-  #define CHAR_NAME telescope 
+  #define CHAR_NAME telescope
 #end maya_char_egg
 
 // HQ periscope base (interior)
@@ -44,7 +44,7 @@
   #define POLY_MODEL periscope-base-mod
   #define CHAN_SUFFIX -chan
   #define ANIMS periscope-base
-  #define CHAR_NAME periscope-base 
+  #define CHAR_NAME periscope-base
 #end maya_char_egg
 
 // HQ periscope (exterior)
@@ -55,7 +55,7 @@
   #define POLY_MODEL periscope-mod
   #define CHAN_SUFFIX -chan
   #define ANIMS periscope
-  #define CHAR_NAME periscope 
+  #define CHAR_NAME periscope
 #end maya_char_egg
 
 // Safezone airplane
@@ -117,7 +117,7 @@
   #define SOURCES \
     DG_flower-mod.egg
   #defer COMMAND \
-    egg-trans -TS 0.25 \ 
+    egg-trans -TS 0.25 \
     -o $[target] $[source]
 #end filter_egg
 
@@ -178,18 +178,18 @@
     SZ_butterfly-land.egg SZ_butterfly-flutter.egg SZ_butterfly-glide.egg
   #define OPTCHAR_OPTS \
     -TS 0.25 \
-    -flag 'wingL'=wings_1 \
-    -flag 'wingR'=wings_1 \
-    -flag 'wingL1'=wings_2 \
-    -flag 'wingR1'=wings_2 \
-    -flag 'wingL2'=wings_3 \
-    -flag 'wingR2'=wings_3 \
-    -flag 'wingL3'=wings_4 \
-    -flag 'wingR3'=wings_4 \
-    -flag 'wingL4'=wings_5 \
-    -flag 'wingR4'=wings_5 \
-    -flag 'wingL5'=wings_6 \
-    -flag 'wingR5'=wings_6
+    -flag wingL=wings_1 \
+    -flag wingR=wings_1 \
+    -flag wingL1=wings_2 \
+    -flag wingR1=wings_2 \
+    -flag wingL2=wings_3 \
+    -flag wingR2=wings_3 \
+    -flag wingL3=wings_4 \
+    -flag wingR3=wings_4 \
+    -flag wingL4=wings_5 \
+    -flag wingR4=wings_5 \
+    -flag wingL5=wings_6 \
+    -flag wingR5=wings_6
 #end optchar_egg
 
 // Optimize the various characters.
@@ -210,7 +210,7 @@
    interiorfish-zero.egg \
    $[matrix interiorfish-swim.egg]
 //  #define OPTCHAR_OPTS \
-//    -flag 'eye?'=transparent
+//    -flag eye?=transparent
 #end optchar_egg
 
 #begin optchar_egg
@@ -219,7 +219,7 @@
    exteriorfish-zero.egg \
    $[matrix exteriorfish-swim.egg]
 //  #define OPTCHAR_OPTS \
-//    -flag 'eye?'=transparent
+//    -flag eye?=transparent
 #end optchar_egg
 
 

@@ -72,9 +72,9 @@
      -fixrest -zero sphere3,hpr -drop lt_ear,rt_ear \
      -expose sphere3,joint_pupilL,joint_pupilR \
      -suppress headnull \
-     -flag 'head_front'=eyes \
-     -flag 'TheHead_Front'=eyes \
-     -flag 'TheHeadFront'=eyes
+     -flag head_front=eyes \
+     -flag TheHead_Front=eyes \
+     -flag TheHeadFront=eyes
 #end optchar_egg
 
 #begin install_egg

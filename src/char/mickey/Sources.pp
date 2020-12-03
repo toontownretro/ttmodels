@@ -51,9 +51,9 @@
      -fixrest -zero sphere3,hpr -drop TheEarL,TheEarR \
      -expose sphere3,joint_pupilL,joint_pupilR \
      -suppress joint_headnull \
-     -flag 'head?front'=eyes \
-     -flag 'HeadFront'=eyes \
-     -flag 'Head?Front'=eyes \
+     -flag head?front=eyes \
+     -flag HeadFront=eyes \
+     -flag Head?Front=eyes \
      -p root, -p chn17,root -p jnt17_1,chn17 -p eff17,jnt17_1 \
      -p chn6_Rfoot_1,root -p chn4_Lfoot_1,chn6_Rfoot_1 \
      -p jnt4_1,chn4_Lfoot_1 -p jnt4_2,jnt4_1 -p eff4,jnt4_2 \
@@ -123,7 +123,7 @@
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-    mickey-1200.egg mickey-800.egg mickey-400.egg 
+    mickey-1200.egg mickey-800.egg mickey-400.egg
   #define UNPAL_SOURCES \
     mickey-wait.egg mickey-walk.egg mickey-run.egg
   #define PHASE 3
@@ -134,7 +134,7 @@
   #define SOURCE_DIR optchar
   #define UNPAL_SOURCES \
     mickey-left-start.egg mickey-left.egg \
-    mickey-right-start.egg mickey-right.egg 
+    mickey-right-start.egg mickey-right.egg
   #define PHASE 3.5
 #end install_egg
 

@@ -82,14 +82,14 @@
   #define OPTCHAR_OPTS \
      -TR 0,180,0 -TS 0.25 \
      -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter \
-     -flag 'TheHandL'=hands \
-     -flag 'TheHandR'=hands \
-     -flag 'TheSleeveL'=arms \
-     -flag 'TheSleeveR'=arms \
-     -flag 'TheTorso'=torso \
-     -flag 'TheLegL'=legs \
-     -flag 'TheLegR'=legs \
-     -flag 'tie'=tie
+     -flag TheHandL=hands \
+     -flag TheHandR=hands \
+     -flag TheSleeveL=arms \
+     -flag TheSleeveR=arms \
+     -flag TheTorso=torso \
+     -flag TheLegL=legs \
+     -flag TheLegR=legs \
+     -flag tie=tie
 #end optchar_egg
 
 // Optimize the various characters.
@@ -101,14 +101,14 @@
   #define OPTCHAR_OPTS \
      -TR 0,180,0 -TS 0.25 \
      -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter \
-     -flag 'TheHandL'=hands \
-     -flag 'TheHandR'=hands \
-     -flag 'TheSleeveL'=arms \
-     -flag 'TheSleeveR'=arms \
-     -flag 'TheTorso'=torso \
-     -flag 'TheLegL'=legs \
-     -flag 'TheLegR'=legs \
-     -flag 'tie'=tie
+     -flag TheHandL=hands \
+     -flag TheHandR=hands \
+     -flag TheSleeveL=arms \
+     -flag TheSleeveR=arms \
+     -flag TheTorso=torso \
+     -flag TheLegL=legs \
+     -flag TheLegR=legs \
+     -flag tie=tie
 #end optchar_egg
 
 // Filter the heads to expose the various head types.
@@ -118,13 +118,13 @@
 
   #define OPTCHAR_OPTS \
      -TT 0,-16.75,1.5 -TR 0,180,0 -TS 0.25 \
-     -flag 'flunky'=flunky \
-     -flag 'coldcaller'=coldcaller \
-     -flag 'micromanager'=micromanager \
-     -flag 'moneybags'=moneybags \
-     -flag 'gladhander'=gladhander \
-     -flag 'tightwad'=tightwad \
-     -flag 'eye_glasses'=glasses
+     -flag flunky=flunky \
+     -flag coldcaller=coldcaller \
+     -flag micromanager=micromanager \
+     -flag moneybags=moneybags \
+     -flag gladhander=gladhander \
+     -flag tightwad=tightwad \
+     -flag eye_glasses=glasses
 #end optchar_egg
 
 // Phase 3.5: install the heads

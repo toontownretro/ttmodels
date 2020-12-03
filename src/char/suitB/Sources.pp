@@ -80,25 +80,25 @@
   #define OPTCHAR_OPTS \
      -TR 0,180,0 -TS 0.25 \
      -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter,to_MAIN,jnt1_2,jnt2_2,scale-jnt2_1,scale-jnt1_1,jnt3_2,jnt9_2,to_head \
-     -flag 'pPlane16'=pPlane16 \
-     -flag 'pPlane83'=pPlane83 \
-     -flag 'pPlane85'=pPlane85 \
-     -flag 'pPlane87'=pPlane87 \
-     -flag 'pPlane89'=pPlane89 \
-     -flag 'pPlane92'=pPlane92 \
-     -flag 'pPlane95'=pPlane95 \
-     -flag 'pPlane98'=pPlane98 \
-     -flag 'pPlane105'=pPlane105 \
-     -flag 'pPlane109'=pPlane109 \
-     -flag 'pPlane117'=pPlane117 \
-     -flag 'TheHandL'=hands \
-     -flag 'TheHandR'=hands \
-     -flag 'TheSleeveL'=arms \
-     -flag 'TheSleeveR'=arms \
-     -flag 'TheTorso'=torso \
-     -flag 'TheLegL'=legs \
-     -flag 'TheLegR'=legs \
-     -flag 'tie'=tie
+     -flag pPlane16=pPlane16 \
+     -flag pPlane83=pPlane83 \
+     -flag pPlane85=pPlane85 \
+     -flag pPlane87=pPlane87 \
+     -flag pPlane89=pPlane89 \
+     -flag pPlane92=pPlane92 \
+     -flag pPlane95=pPlane95 \
+     -flag pPlane98=pPlane98 \
+     -flag pPlane105=pPlane105 \
+     -flag pPlane109=pPlane109 \
+     -flag pPlane117=pPlane117 \
+     -flag TheHandL=hands \
+     -flag TheHandR=hands \
+     -flag TheSleeveL=arms \
+     -flag TheSleeveR=arms \
+     -flag TheTorso=torso \
+     -flag TheLegL=legs \
+     -flag TheLegR=legs \
+     -flag tie=tie
 #end optchar_egg
 
 #begin optchar_egg
@@ -109,14 +109,14 @@
   #define OPTCHAR_OPTS \
      -TR 0,180,0 -TS 0.25 \
      -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter,to_MAIN,jnt1_2,jnt2_2,scale-jnt2_1,scale-jnt1_1,jnt3_2,jnt9_2,to_head \
-     -flag 'TheHandL'=hands \
-     -flag 'TheHandR'=hands \
-     -flag 'TheSleeveL'=arms \
-     -flag 'TheSleeveR'=arms \
-     -flag 'TheTorso'=torso \
-     -flag 'TheLegL'=legs \
-     -flag 'TheLegR'=legs \
-     -flag 'tie'=tie
+     -flag TheHandL=hands \
+     -flag TheHandR=hands \
+     -flag TheSleeveL=arms \
+     -flag TheSleeveR=arms \
+     -flag TheTorso=torso \
+     -flag TheLegL=legs \
+     -flag TheLegR=legs \
+     -flag tie=tie
 #end optchar_egg
 
 // Translate, scale, and rotate the heads.
@@ -126,12 +126,12 @@
 
   #define OPTCHAR_OPTS \
      -TT 0,-19.375,0 -TR 0,180,0 -TS 0.25 \
-     -flag 'loanshark'=loanshark \
-     -flag 'movershaker'=movershaker \
-     -flag 'pencilpusher'=pencilpusher \
-     -flag 'telemarketer'=telemarketer \
-     -flag 'ambulancechaser'=ambulancechaser \
-     -flag 'beancounter'=beancounter -flag 'hat'=beancounter
+     -flag loanshark=loanshark \
+     -flag movershaker=movershaker \
+     -flag pencilpusher=pencilpusher \
+     -flag telemarketer=telemarketer \
+     -flag ambulancechaser=ambulancechaser \
+     -flag beancounter=beancounter -flag hat=beancounter
 #end optchar_egg
 
 
@@ -143,7 +143,7 @@
   #define PHASE 4
 #end install_egg
 
-// Phase 4: install suit head textures 
+// Phase 4: install suit head textures
 #begin install_egg
   #define SOURCES \
     suitB-head-textures.egg
@@ -154,7 +154,7 @@
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-    suitB-mod.egg 
+    suitB-mod.egg
   #define PHASE 3.5
 #end install_egg
 
@@ -172,7 +172,7 @@
 #begin install_egg
   #define SOURCE_DIR optchar
   #define UNPAL_SOURCES \
-    $[matrix suitB-,$[phase_5_anims],.egg] 
+    $[matrix suitB-,$[phase_5_anims],.egg]
   #define PHASE 5
 #end install_egg
 
@@ -213,5 +213,5 @@
   #define SOURCE_DIR optchar
   #define SOURCES \
     cogB_robot-zero.egg cogB_robot-lose-mod.egg
-  #define PHASE 5 
+  #define PHASE 5
 #end install_egg

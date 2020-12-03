@@ -26,102 +26,102 @@
 #begin maya_char_egg
   #define MODEL portal
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL portal-mod 
+  #define EGG_PREFIX
+  #define POLY_MODEL portal-mod
   #define ANIMS portal
-  #define CHAR_NAME portal 
+  #define CHAR_NAME portal
 #end maya_char_egg
 
 // shticker book
 #begin maya_char_egg
   #define MODEL book
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL book-mod 
+  #define EGG_PREFIX
+  #define POLY_MODEL book-mod
   #define ANIMS book
-  #define CHAR_NAME book 
+  #define CHAR_NAME book
 #end maya_char_egg
 
 
-// different types of fishing poles 
+// different types of fishing poles
 #begin maya_char_egg
   #define MODEL pole_treebranch
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL pole_treebranch-mod 
-  #define CHAR_NAME fishing-pole 
+  #define EGG_PREFIX
+  #define POLY_MODEL pole_treebranch-mod
+  #define CHAR_NAME fishing-pole
 #end maya_char_egg
 
 #begin maya_char_egg
   #define MODEL pole_steel
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL pole_steel-mod 
-  #define CHAR_NAME fishing-pole 
+  #define EGG_PREFIX
+  #define POLY_MODEL pole_steel-mod
+  #define CHAR_NAME fishing-pole
 #end maya_char_egg
 
 #begin maya_char_egg
   #define MODEL pole_gold
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL pole_gold-mod 
+  #define EGG_PREFIX
+  #define POLY_MODEL pole_gold-mod
   #define CHAR_NAME fishing-pole
 #end maya_char_egg
 
 #begin maya_char_egg
   #define MODEL pole_bamboo
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL pole_bamboo-mod 
-  #define CHAR_NAME fishing-pole 
+  #define EGG_PREFIX
+  #define POLY_MODEL pole_bamboo-mod
+  #define CHAR_NAME fishing-pole
 #end maya_char_egg
 
 #begin maya_char_egg
   #define MODEL pole_wood
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL pole_wood-mod 
-  #define CHAR_NAME fishing-pole 
+  #define EGG_PREFIX
+  #define POLY_MODEL pole_wood-mod
+  #define CHAR_NAME fishing-pole
 #end maya_char_egg
 
 //
 // lure props
 //
 
-// fishing pole and anim 
+// fishing pole and anim
 #begin maya_char_egg
   #define MODEL fishing-pole
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL fishing-pole-mod 
+  #define EGG_PREFIX
+  #define POLY_MODEL fishing-pole-mod
   #define ANIMS fishing-pole
-  #define CHAR_NAME fishing-pole 
+  #define CHAR_NAME fishing-pole
 #end maya_char_egg
 
-// 1dollar bill and anim 
+// 1dollar bill and anim
 #begin maya_char_egg
   #define MODEL 1dollar-bill
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL 1dollar-bill-mod 
-  #define ANIMS 1dollar-bill 
-  #define CHAR_NAME 1dollar 
+  #define EGG_PREFIX
+  #define POLY_MODEL 1dollar-bill-mod
+  #define ANIMS 1dollar-bill
+  #define CHAR_NAME 1dollar
 #end maya_char_egg
 
-// magnet   
+// magnet
 #begin maya_char_egg
   #define MODEL magnet
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL magnet
   #define CHAR_NAME magnet
 #end maya_char_egg
 
-// hypnotize   
+// hypnotize
 #begin maya_char_egg
   #define MODEL hypnotize
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL hypnotize-mod
   #define ANIMS hypnotize
   #define CHAR_NAME hypnotize
@@ -131,83 +131,83 @@
 // trap props
 //
 
-// banana-peel and anim 
+// banana-peel and anim
 #begin maya_char_egg
   #define MODEL banana-peel
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL banana-peel-mod 
+  #define EGG_PREFIX
+  #define POLY_MODEL banana-peel-mod
   #define ANIMS banana-peel
-  #define CHAR_NAME banana-peel 
+  #define CHAR_NAME banana-peel
 #end maya_char_egg
 
-// rake   
+// rake
 #begin maya_char_egg
   #define MODEL rake
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL rake-mod
   #define ANIMS rake
   #define CHAR_NAME rake
 #end maya_char_egg
 
-// tnt   
+// tnt
 #begin maya_char_egg
   #define MODEL tnt
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL tnt-mod
   #define ANIMS tnt
   #define CHAR_NAME tnt
 #end maya_char_egg
 
-// marbles   
+// marbles
 #begin maya_char_egg
   #define MODEL marbles
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL marbles-mod
   #define ANIMS marbles
   #define CHAR_NAME marbles
 #end maya_char_egg
 
-// trapdoor   
+// trapdoor
 #begin maya_char_egg
   #define MODEL trapdoor
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL trapdoor
   #define CHAR_NAME trapdoor
 #end maya_char_egg
 
-// quicksand   
+// quicksand
 #begin maya_char_egg
   #define MODEL quicksand
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL quicksand
   #define CHAR_NAME quicksand
 #end maya_char_egg
 
 //
-// heal props 
+// heal props
 //
 
-// feather and anim 
+// feather and anim
 #begin maya_char_egg
   #define MODEL feather
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL feather-mod 
+  #define EGG_PREFIX
+  #define POLY_MODEL feather-mod
   #define ANIMS feather
-  #define CHAR_NAME feather 
+  #define CHAR_NAME feather
 #end maya_char_egg
 
-// lipstick   
+// lipstick
 #begin maya_char_egg
   #define MODEL lipstick
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL lipstick
   #define CHAR_NAME lipstick
 #end maya_char_egg
@@ -216,293 +216,293 @@
 #begin maya_char_egg
   #define MODEL lips
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL lips
   #define CHAR_NAME lips
 #end maya_char_egg
 
-// bamboo cane 
+// bamboo cane
 #begin maya_char_egg
   #define MODEL cane
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL cane 
-  #define CHAR_NAME cane 
+  #define EGG_PREFIX
+  #define POLY_MODEL cane
+  #define CHAR_NAME cane
 #end maya_char_egg
 
-// straw hat 
+// straw hat
 #begin maya_char_egg
   #define MODEL hat
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL hat 
-  #define CHAR_NAME hat 
+  #define EGG_PREFIX
+  #define POLY_MODEL hat
+  #define CHAR_NAME hat
 #end maya_char_egg
 
-// juggling cubes and anim 
+// juggling cubes and anim
 #begin maya_char_egg
   #define MODEL cubes
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL cubes-mod 
+  #define EGG_PREFIX
+  #define POLY_MODEL cubes-mod
   #define ANIMS cubes
-  #define CHAR_NAME cubes 
+  #define CHAR_NAME cubes
 #end maya_char_egg
 
 //
 // drop props
 //
 
-// button box 
+// button box
 #begin maya_char_egg
   #define MODEL button
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL button 
-  #define CHAR_NAME button 
+  #define EGG_PREFIX
+  #define POLY_MODEL button
+  #define CHAR_NAME button
 #end maya_char_egg
 
-// flowerpot and anim 
+// flowerpot and anim
 #begin maya_char_egg
   #define MODEL flowerpot
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL flowerpot-mod 
+  #define EGG_PREFIX
+  #define POLY_MODEL flowerpot-mod
   #define ANIMS flowerpot
-  #define CHAR_NAME flowerot 
+  #define CHAR_NAME flowerot
 #end maya_char_egg
 
-// sandbag and anim 
+// sandbag and anim
 #begin maya_char_egg
   #define MODEL sandbag
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL sandbag-mod 
+  #define EGG_PREFIX
+  #define POLY_MODEL sandbag-mod
   #define ANIMS sandbag
-  #define CHAR_NAME sandbag 
+  #define CHAR_NAME sandbag
 #end maya_char_egg
 
-// anvil and anim 
+// anvil and anim
 #begin maya_char_egg
   #define MODEL anvil
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL anvil-mod 
+  #define EGG_PREFIX
+  #define POLY_MODEL anvil-mod
   #define ANIMS anvil
-  #define CHAR_NAME anvil 
+  #define CHAR_NAME anvil
 #end maya_char_egg
 
-// weight and anim 
+// weight and anim
 #begin maya_char_egg
   #define MODEL weight
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL weight-mod 
+  #define EGG_PREFIX
+  #define POLY_MODEL weight-mod
   #define ANIMS weight
-  #define CHAR_NAME weight 
+  #define CHAR_NAME weight
 #end maya_char_egg
 
-// safe and anim 
+// safe and anim
 #begin maya_char_egg
   #define MODEL safe
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL safe-mod 
+  #define EGG_PREFIX
+  #define POLY_MODEL safe-mod
   #define ANIMS safe
-  #define CHAR_NAME safe 
+  #define CHAR_NAME safe
 #end maya_char_egg
 
-// piano and anim 
+// piano and anim
 #begin maya_char_egg
   #define MODEL piano
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL piano-mod 
+  #define EGG_PREFIX
+  #define POLY_MODEL piano-mod
   #define ANIMS piano
-  #define CHAR_NAME piano 
+  #define CHAR_NAME piano
 #end maya_char_egg
 
 //
 // throw props
 //
 
-// tart 
+// tart
 #begin maya_char_egg
   #define MODEL tart
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL tart
-  #define CHAR_NAME tart 
+  #define CHAR_NAME tart
 #end maya_char_egg
 
-// fruit pie slice 
+// fruit pie slice
 #begin maya_char_egg
   #define MODEL fruit-pie-slice
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL fruit-pie-slice
-  #define CHAR_NAME fruit-pie-slice 
+  #define CHAR_NAME fruit-pie-slice
 #end maya_char_egg
 
-// cream pie slice 
+// cream pie slice
 #begin maya_char_egg
   #define MODEL cream-pie-slice
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL cream-pie-slice
-  #define CHAR_NAME cream-pie-slice 
+  #define CHAR_NAME cream-pie-slice
 #end maya_char_egg
 
-// birthday cake and anim 
+// birthday cake and anim
 #begin maya_char_egg
   #define MODEL birthday-cake
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL birthday-cake-mod
-  #define ANIMS birthday-cake 
-  #define CHAR_NAME birthday-cake 
+  #define ANIMS birthday-cake
+  #define CHAR_NAME birthday-cake
 #end maya_char_egg
 
 //
 // sound
 //
 
-// megaphone 
+// megaphone
 #begin maya_char_egg
   #define MODEL megaphone
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL megaphone 
-  #define CHAR_NAME megaphone 
+  #define EGG_PREFIX
+  #define POLY_MODEL megaphone
+  #define CHAR_NAME megaphone
 #end maya_char_egg
 
 // elephant
 //#begin maya_char_egg
 //  #define MODEL elephant
 //  #define MAYA_PREFIX prop-
-//  #define EGG_PREFIX 
-//  #define POLY_MODEL elephant-mod 
+//  #define EGG_PREFIX
+//  #define POLY_MODEL elephant-mod
 //  #define ANIMS elephant
-//  #define CHAR_NAME elephant 
+//  #define CHAR_NAME elephant
 //#end maya_char_egg
 
 // foghorn
 //#begin maya_char_egg
 //  #define MODEL foghorn
 //  #define MAYA_PREFIX prop-
-//  #define EGG_PREFIX 
-//  #define POLY_MODEL foghorn-mod 
+//  #define EGG_PREFIX
+//  #define POLY_MODEL foghorn-mod
 //  #define ANIMS foghorn
-//  #define CHAR_NAME foghorn 
+//  #define CHAR_NAME foghorn
 //#end maya_char_egg
 
 // whistle
 //#begin maya_char_egg
 //  #define MODEL whistle
 //  #define MAYA_PREFIX prop-
-//  #define EGG_PREFIX 
-//  #define POLY_MODEL whistle-mod 
+//  #define EGG_PREFIX
+//  #define POLY_MODEL whistle-mod
 //  #define ANIMS whistle
-//  #define CHAR_NAME whistle 
+//  #define CHAR_NAME whistle
 //#end maya_char_egg
 
 // bugle
 //#begin maya_char_egg
 //  #define MODEL bugle
 //  #define MAYA_PREFIX prop-
-//  #define EGG_PREFIX 
-//  #define POLY_MODEL bugle-mod 
+//  #define EGG_PREFIX
+//  #define POLY_MODEL bugle-mod
 //  #define ANIMS bugle
-//  #define CHAR_NAME bugle 
+//  #define CHAR_NAME bugle
 //#end maya_char_egg
 
 // bikehorn
 //#begin maya_char_egg
 //  #define MODEL bikehorn
 //  #define MAYA_PREFIX prop-
-//  #define EGG_PREFIX 
-//  #define POLY_MODEL bikehorn-mod 
+//  #define EGG_PREFIX
+//  #define POLY_MODEL bikehorn-mod
 //  #define ANIMS bikehorn
-//  #define CHAR_NAME bikehorn 
+//  #define CHAR_NAME bikehorn
 //#end maya_char_egg
 
 // aoogah
 //#begin maya_char_egg
 //  #define MODEL aoogah
 //  #define MAYA_PREFIX prop-
-//  #define EGG_PREFIX 
-//  #define POLY_MODEL aoogah-mod 
+//  #define EGG_PREFIX
+//  #define POLY_MODEL aoogah-mod
 //  #define ANIMS aoogah
-//  #define CHAR_NAME aoogah 
+//  #define CHAR_NAME aoogah
 //#end maya_char_egg
 
 //
 // squirt
 //
 
-// squirting flower 
+// squirting flower
 #begin maya_char_egg
   #define MODEL squirting-flower
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL squirting-flower 
-  #define CHAR_NAME squirting-flower 
+  #define EGG_PREFIX
+  #define POLY_MODEL squirting-flower
+  #define CHAR_NAME squirting-flower
 #end maya_char_egg
 
-// seltzer bottle 
+// seltzer bottle
 #begin maya_char_egg
   #define MODEL bottle
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
-  #define POLY_MODEL bottle 
-  #define CHAR_NAME bottle 
+  #define EGG_PREFIX
+  #define POLY_MODEL bottle
+  #define CHAR_NAME bottle
 #end maya_char_egg
 
-// water glass 
+// water glass
 #begin maya_char_egg
   #define MODEL glass
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL glass-mod
-  #define ANIMS glass 
-  #define CHAR_NAME glass 
+  #define ANIMS glass
+  #define CHAR_NAME glass
 #end maya_char_egg
 
 // water gun
 #begin maya_char_egg
   #define MODEL water-gun
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL water-gun
   #define CHAR_NAME water-gun
 #end maya_char_egg
 
-// firehose and anim 
+// firehose and anim
 #begin maya_char_egg
   #define MODEL firehose
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL firehose-mod
-  #define ANIMS firehose 
-  #define CHAR_NAME firehose 
+  #define ANIMS firehose
+  #define CHAR_NAME firehose
 #end maya_char_egg
 
 // fire hydrant
 #begin maya_char_egg
   #define MODEL hydrant
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL battle_hydrant
-  #define CHAR_NAME hydrant 
+  #define CHAR_NAME hydrant
 #end maya_char_egg
 
 // storm cloud
 #begin maya_char_egg
   #define MODEL stormcloud
   #define MAYA_PREFIX prop-
-  #define EGG_PREFIX 
+  #define EGG_PREFIX
   #define POLY_MODEL stormcloud-mod
-  #define ANIMS stormcloud 
+  #define ANIMS stormcloud
   #define CHAR_NAME stormcloud
 #end maya_char_egg
 
@@ -514,10 +514,10 @@
 //  #define POLY_MODEL wall-mod
 //  #define ANIMS wall
 //  #define CHAR_NAME wall
-//#end maya_char_egg 
+//#end maya_char_egg
 
 #define OPTCHAR_OPTS \
-   -TR 0,180,0 -TS 0.25 
+   -TR 0,180,0 -TS 0.25
 
 //
 // OPTIMIZE - for the characters
@@ -525,73 +525,73 @@
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    portal-mod.egg portal-chan.egg    
+    portal-mod.egg portal-chan.egg
 #end optchar_egg
 
 //#begin optchar_egg
 //  #define TARGET_DIR optchar
 //  #define SOURCES \
-//    elephant-mod.egg elephant-chan.egg    
+//    elephant-mod.egg elephant-chan.egg
 //#end optchar_egg
 
 //#begin optchar_egg
 //  #define TARGET_DIR optchar
 //  #define SOURCES \
-//    foghorn-mod.egg foghorn-chan.egg    
-//#end optchar_egg
- 
-//#begin optchar_egg
-//  #define TARGET_DIR optchar
-//  #define SOURCES \
-//    whistle-mod.egg whistle-chan.egg    
-//#end optchar_egg
- 
-//#begin optchar_egg
-//  #define TARGET_DIR optchar
-//  #define SOURCES \
-//    bugle-mod.egg bugle-chan.egg    
+//    foghorn-mod.egg foghorn-chan.egg
 //#end optchar_egg
 
 //#begin optchar_egg
 //  #define TARGET_DIR optchar
 //  #define SOURCES \
-//    bikehorn-mod.egg bikehorn-chan.egg    
+//    whistle-mod.egg whistle-chan.egg
 //#end optchar_egg
- 
+
 //#begin optchar_egg
 //  #define TARGET_DIR optchar
 //  #define SOURCES \
-//    aoogah-mod.egg aoogah-chan.egg    
+//    bugle-mod.egg bugle-chan.egg
+//#end optchar_egg
+
+//#begin optchar_egg
+//  #define TARGET_DIR optchar
+//  #define SOURCES \
+//    bikehorn-mod.egg bikehorn-chan.egg
+//#end optchar_egg
+
+//#begin optchar_egg
+//  #define TARGET_DIR optchar
+//  #define SOURCES \
+//    aoogah-mod.egg aoogah-chan.egg
 //#end optchar_egg
 
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    book-mod.egg book-chan.egg    
+    book-mod.egg book-chan.egg
 #end optchar_egg
 
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    birthday-cake-mod.egg birthday-cake-chan.egg    
+    birthday-cake-mod.egg birthday-cake-chan.egg
 #end optchar_egg
 
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    1dollar-bill-mod.egg 1dollar-bill-chan.egg    
+    1dollar-bill-mod.egg 1dollar-bill-chan.egg
 #end optchar_egg
 
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    feather-mod.egg feather-chan.egg    
+    feather-mod.egg feather-chan.egg
 #end optchar_egg
 
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    cubes-mod.egg cubes-chan.egg    
+    cubes-mod.egg cubes-chan.egg
 #end optchar_egg
 
 //#begin optchar_egg
@@ -604,7 +604,7 @@
   #define TARGET_DIR optchar
   #define SOURCES \
     fishing-pole-mod.egg fishing-pole-chan.egg pole_treebranch-mod.egg pole_wood-mod.egg \
-    pole_steel-mod.egg pole_gold-mod.egg pole_bamboo-mod.egg   
+    pole_steel-mod.egg pole_gold-mod.egg pole_bamboo-mod.egg
   #define OPTCHAR_OPTS \
      $[OPTCHAR_OPTS] \
      -expose joint_attachBill \
@@ -649,49 +649,49 @@
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    flowerpot-mod.egg flowerpot-chan.egg    
+    flowerpot-mod.egg flowerpot-chan.egg
 #end optchar_egg
 
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    sandbag-mod.egg sandbag-chan.egg    
+    sandbag-mod.egg sandbag-chan.egg
 #end optchar_egg
 
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    anvil-mod.egg anvil-chan.egg    
+    anvil-mod.egg anvil-chan.egg
 #end optchar_egg
 
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    weight-mod.egg weight-chan.egg    
+    weight-mod.egg weight-chan.egg
 #end optchar_egg
 
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    safe-mod.egg safe-chan.egg    
+    safe-mod.egg safe-chan.egg
 #end optchar_egg
 
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    piano-mod.egg piano-chan.egg    
+    piano-mod.egg piano-chan.egg
 #end optchar_egg
 
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    banana-peel-mod.egg banana-peel-chan.egg    
+    banana-peel-mod.egg banana-peel-chan.egg
 #end optchar_egg
 
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    firehose-mod.egg firehose-chan.egg    
+    firehose-mod.egg firehose-chan.egg
   #define OPTCHAR_OPTS \
      $[OPTCHAR_OPTS] \
      -expose joint_water_stream
@@ -700,7 +700,7 @@
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    stormcloud-mod.egg stormcloud-chan.egg    
+    stormcloud-mod.egg stormcloud-chan.egg
 #end optchar_egg
 
 #begin optchar_egg
@@ -760,7 +760,7 @@
   #define SOURCES \
     button.egg
   #defer COMMAND \
-    egg-trans -TR 0,180,0 -TS 0.25 \ 
+    egg-trans -TR 0,180,0 -TS 0.25 \
     -o $[target] $[source]
 #end filter_egg
 
@@ -815,7 +815,7 @@
     battle_hydrant.egg
   #defer OPTCHAR_OPTS \
      -TR 0,180,0 -TS 0.25 \
-     -flag 'TheBase'=base -flag 'TheDropshadow'=base
+     -flag TheBase=base -flag TheDropshadow=base
 #end optchar_egg
 
 #begin filter_egg
@@ -905,7 +905,7 @@
     marbles-mod.egg quicksand.egg cream-pie-slice.egg
 // wall-mod.egg
 //    elephant-mod.egg foghorn-mod.egg whistle-mod.egg bugle-mod.egg \
-//    bikehorn-mod.egg aoogah-mod.egg 
+//    bikehorn-mod.egg aoogah-mod.egg
   #define UNPAL_SOURCES \
     sandbag-chan.egg weight-chan.egg safe-chan.egg \
     piano-chan.egg hypnotize-chan.egg rake-chan.egg tnt-chan.egg \
@@ -914,7 +914,7 @@
     cubes-chan.egg firehose-chan.egg glass-chan.egg marbles-chan.egg
 //    wall-chan.egg
 //    elephant-chan.egg foghorn-chan.egg whistle-chan.egg bugle-chan.egg \
-//    bikehorn-chan.egg aoogah-chan.egg    
+//    bikehorn-chan.egg aoogah-chan.egg
   #define PHASE 5
 #end install_egg
 
@@ -942,7 +942,7 @@
 // Install textures
 #begin install_egg
   #define SOURCES \
-    toon-prop-textures.egg 
+    toon-prop-textures.egg
   #define PHASE 5
 #end install_egg
 

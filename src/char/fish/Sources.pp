@@ -2,7 +2,7 @@
 #define INSTALL_TO models/char
 
 #define anims swim
-#define animsLoop swimLOOP 
+#define animsLoop swimLOOP
 
 // MAYA2EGG
 
@@ -23,7 +23,7 @@
   #define MAYA_PREFIX nurseShark-
   #define EGG_PREFIX nurseShark-
   #define POLY_MODEL zero
-  #define ANIMS $[anims] 
+  #define ANIMS $[anims]
   #define swim_frames 1 80
   #define CHAR_NAME nurseShark
 #end maya_char_egg
@@ -185,16 +185,16 @@
    clownFish-zero.egg \
    $[matrix clownFish-,$[anims],.egg]
   #define OPTCHAR_OPTS \
-    -flag 'eye?'=transparent
+    -flag eye?=transparent
 #end optchar_egg
 
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-   nurseShark-zero.egg \ 
+   nurseShark-zero.egg \
   $[matrix nurseShark-,$[anims],.egg]
   #define OPTCHAR_OPTS \
-    -flag 'eyes'=transparent
+    -flag eyes=transparent
 #end optchar_egg
 
 #begin optchar_egg
@@ -203,7 +203,7 @@
    cutThroatTrout-zero.egg \
   $[matrix cutThroatTrout-,$[anims],.egg]
   #define OPTCHAR_OPTS \
-    -flag 'eye'=transparent
+    -flag eye=transparent
 #end optchar_egg
 
 #begin optchar_egg
@@ -220,7 +220,7 @@
   $[matrix pianoTuna-,$[anims],.egg]
   #define OPTCHAR_OPTS \
     -zero tuna_skel \
-    -flag 'eye_?'=transparent
+    -flag eye_?=transparent
 #end optchar_egg
 
 #begin optchar_egg
@@ -230,9 +230,9 @@
    $[matrix starFish-,$[anims] $[animsLoop],.egg]
   #define OPTCHAR_OPTS \
     -zero skeleton_GRP \
-    -flag 'starFish_?eye'=transparent \
-    -flag 'starFish_mouth'=transparent \
-    -flag 'starFish_mic_billboard'=transparent
+    -flag starFish_?eye=transparent \
+    -flag starFish_mouth=transparent \
+    -flag starFish_mic_billboard=transparent
 #end optchar_egg
 
 #begin optchar_egg
@@ -241,7 +241,7 @@
    amoreEel-zero.egg \
   $[matrix amoreEel-,$[anims],.egg]
   #define OPTCHAR_OPTS \
-    -flag 'eyes'=transparent
+    -flag eyes=transparent
 #end optchar_egg
 
 #begin optchar_egg
@@ -250,7 +250,7 @@
    frozenFish-zero.egg \
   $[matrix frozenFish-,$[anims],.egg]
   #define OPTCHAR_OPTS \
-    -flag 'polySurface*'=transparent
+    -flag polySurface*=transparent
 #end optchar_egg
 
 #begin optchar_egg
@@ -273,7 +273,7 @@
    BearAcuda-zero.egg \
   $[matrix BearAcuda-,$[anims],.egg]
   #define OPTCHAR_OPTS \
-    -flag 'Glass'=transparent2
+    -flag Glass=transparent2
 #end optchar_egg
 
 #begin optchar_egg
@@ -282,8 +282,8 @@
    seaHorse-zero.egg \
   $[matrix seaHorse-,$[anims],.egg]
   #define OPTCHAR_OPTS \
-    -flag 'sea_horse_eye_?'=transparent1 \
-    -flag 'sea_horse_glass'=transparent2
+    -flag sea_horse_eye_?=transparent1 \
+    -flag sea_horse_glass=transparent2
 #end optchar_egg
 
 #begin optchar_egg
@@ -292,7 +292,7 @@
    poolShark-zero.egg \
   $[matrix poolShark-,$[anims],.egg]
   #define OPTCHAR_OPTS \
-    -flag 'eyes'=transparent
+    -flag eyes=transparent
 #end optchar_egg
 
 #begin optchar_egg
@@ -301,8 +301,8 @@
    moonFish-zero.egg \
   $[matrix moonFish-,$[anims] $[animsLoop],.egg]
   #define OPTCHAR_OPTS \
-    -flag 'moonFish_eye?'=transparent1 \
-    -flag 'moonFish_glass'=transparent2
+    -flag moonFish_eye?=transparent1 \
+    -flag moonFish_glass=transparent2
 #end optchar_egg
 
 #begin optchar_egg

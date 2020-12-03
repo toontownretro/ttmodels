@@ -102,8 +102,8 @@
     $[matrix PFS/tt_a_chr_csc_goofyCostume_,$[goofyCostumeAnims] 1200 800 400,.egg]
   #define OPTCHAR_OPTS \
     -TR 0,180,0 -TS 0.25 \
-    -flag 'tt_m_chr_csc_goofyEyesOpen*'=eyesOpen \
-    -flag 'tt_m_chr_csc_goofyEyesClosed*'=eyesClosed
+    -flag tt_m_chr_csc_goofyEyesOpen*=eyesOpen \
+    -flag tt_m_chr_csc_goofyEyesClosed*=eyesClosed
 #end optchar_egg
 
 #begin install_egg

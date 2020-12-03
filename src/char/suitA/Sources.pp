@@ -87,31 +87,31 @@
   #define TARGET_DIR optchar
   #define SOURCES \
     $[matrix suitA-,mod $[suit_anims],.egg] \
-    cogA_robot-zero.egg 
+    cogA_robot-zero.egg
 
   #define OPTCHAR_OPTS \
     -TR 0,180,0 -TS 0.25 \
     -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter,to_head,to_shoulder,jnt_22_1,jnt_28_1 \
-    -flag 'pPlane27'=pPlane27 \
-    -flag 'pPlane29'=pPlane29 \
-    -flag 'pPlane30'=pPlane30 \
-    -flag 'pPlane31'=pPlane31 \
-    -flag 'pPlane32'=pPlane32 \
-    -flag 'pPlane33'=pPlane33 \
-    -flag 'pPlane34'=pPlane34 \
-    -flag 'pPlane35'=pPlane35 \
-    -flag 'pPlane36'=pPlane36 \
-    -flag 'pPlane37'=pPlane37 \
-    -flag 'pPlane39'=pPlane39 \
-    -flag 'pPlane41'=pPlane41 \
-    -flag 'TheHandL'=hands \
-    -flag 'TheHandR'=hands \
-    -flag 'TheArmL'=arms \
-    -flag 'TheArmR'=arms \
-    -flag 'TheTorso'=torso \
-    -flag 'TheLegL'=legs \
-    -flag 'TheLegR'=legs \
-    -flag 'tie'=tie
+    -flag pPlane27=pPlane27 \
+    -flag pPlane29=pPlane29 \
+    -flag pPlane30=pPlane30 \
+    -flag pPlane31=pPlane31 \
+    -flag pPlane32=pPlane32 \
+    -flag pPlane33=pPlane33 \
+    -flag pPlane34=pPlane34 \
+    -flag pPlane35=pPlane35 \
+    -flag pPlane36=pPlane36 \
+    -flag pPlane37=pPlane37 \
+    -flag pPlane39=pPlane39 \
+    -flag pPlane41=pPlane41 \
+    -flag TheHandL=hands \
+    -flag TheHandR=hands \
+    -flag TheArmL=arms \
+    -flag TheArmR=arms \
+    -flag TheTorso=torso \
+    -flag TheLegL=legs \
+    -flag TheLegR=legs \
+    -flag tie=tie
 
 #end optchar_egg
 
@@ -124,14 +124,14 @@
   #define OPTCHAR_OPTS \
     -TR 0,180,0 -TS 0.25 \
     -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter,to_head,to_shoulder,jnt_22_1,jnt_28_1 \
-    -flag 'TheHandL'=hands \
-    -flag 'TheHandR'=hands \
-    -flag 'TheArmL'=arms \
-    -flag 'TheArmR'=arms \
-    -flag 'TheTorso'=torso \
-    -flag 'TheLegL'=legs \
-    -flag 'TheLegR'=legs \
-    -flag 'tie'=tie
+    -flag TheHandL=hands \
+    -flag TheHandR=hands \
+    -flag TheArmL=arms \
+    -flag TheArmR=arms \
+    -flag TheTorso=torso \
+    -flag TheLegL=legs \
+    -flag TheLegR=legs \
+    -flag tie=tie
 
 #end optchar_egg
 
@@ -142,15 +142,15 @@
 
   #define OPTCHAR_OPTS \
     -TT 0,-24.22,0 -TR 0,180,0 -TS 0.25 \
-    -flag 'legaleagle'=legaleagle \
-    -flag 'yesman'=yesman \
-    -flag 'numbercruncher'=numbercruncher \
-    -flag 'pennypincher'=pennypincher \
-    -flag 'bigcheese'=bigcheese \
-    -flag 'headhunter'=headhunter \
-    -flag 'bigwig'=bigwig \
-    -flag 'backstabber'=backstabber \
-    -flag 'twoface'=twoface
+    -flag legaleagle=legaleagle \
+    -flag yesman=yesman \
+    -flag numbercruncher=numbercruncher \
+    -flag pennypincher=pennypincher \
+    -flag bigcheese=bigcheese \
+    -flag headhunter=headhunter \
+    -flag bigwig=bigwig \
+    -flag backstabber=backstabber \
+    -flag twoface=twoface
 #end optchar_egg
 
 // Phase 4 heads.

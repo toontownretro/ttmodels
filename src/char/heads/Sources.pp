@@ -88,50 +88,50 @@
 #end lashes
 
 #define flag_heads \
-    -flag 'eyes?long'=eyes-long \
-    -flag 'eyes?short'=eyes-short \
-    -flag 'eyesL'=eyes \
-    -flag 'eyesR'=eyes \
-	-flag 'head?long'=head-long \
-	-flag 'head?short'=head-short \
-	-flag 'head?front?long'=head-front-long \
-	-flag 'head?front?short'=head-front-short \
-    -flag 'muzzle?short'=muzzle-short-neutral \
-	-flag 'muzzle?short?surprise'=muzzle-short-surprise \
-	-flag 'muzzle?short?angry'=muzzle-short-angry \
-	-flag 'muzzle?short?sad'=muzzle-short-sad \
-	-flag 'muzzle?short?laugh'=muzzle-short-laugh \
-	-flag 'muzzle?short?smile'=muzzle-short-smile \
-    -flag 'muzzle?long'=muzzle-long-neutral \
-    -flag 'muzzle?long?surprise'=muzzle-long-surprise \
-    -flag 'muzzle?long?angry'=muzzle-long-angry \
-    -flag 'muzzle?long?sad'=muzzle-long-sad \
-    -flag 'muzzle?long?laugh'=muzzle-long-laugh \
-    -flag 'muzzle?long?smile'=muzzle-long-smile \
-	-flag 'earL?short'=ears-short \
-    -flag 'earR?short'=ears-short \
-	-flag 'earL?short?back'=ears-short \
-    -flag 'earR?short?back'=ears-short \
-	-flag 'earL?long'=ears-long \
-    -flag 'earR?long'=ears-long \
-	-flag 'earL?long?back'=ears-long \
-    -flag 'earR?long?back'=ears-long \
-    -flag 'joint?pupilL'=joint_pupilL \
-    -flag 'joint?pupilR'=joint_pupilR \
-    -flag 'joint?pupilL?long'=joint_pupilL_long \
-    -flag 'joint?pupilR?long'=joint_pupilR_long \
-    -flag 'joint?pupilL?short'=joint_pupilL_short \
-    -flag 'joint?pupilR?short'=joint_pupilR_short
+    -flag eyes?long=eyes-long \
+    -flag eyes?short=eyes-short \
+    -flag eyesL=eyes \
+    -flag eyesR=eyes \
+	-flag head?long=head-long \
+	-flag head?short=head-short \
+	-flag head?front?long=head-front-long \
+	-flag head?front?short=head-front-short \
+    -flag muzzle?short=muzzle-short-neutral \
+	-flag muzzle?short?surprise=muzzle-short-surprise \
+	-flag muzzle?short?angry=muzzle-short-angry \
+	-flag muzzle?short?sad=muzzle-short-sad \
+	-flag muzzle?short?laugh=muzzle-short-laugh \
+	-flag muzzle?short?smile=muzzle-short-smile \
+    -flag muzzle?long=muzzle-long-neutral \
+    -flag muzzle?long?surprise=muzzle-long-surprise \
+    -flag muzzle?long?angry=muzzle-long-angry \
+    -flag muzzle?long?sad=muzzle-long-sad \
+    -flag muzzle?long?laugh=muzzle-long-laugh \
+    -flag muzzle?long?smile=muzzle-long-smile \
+	-flag earL?short=ears-short \
+    -flag earR?short=ears-short \
+	-flag earL?short?back=ears-short \
+    -flag earR?short?back=ears-short \
+	-flag earL?long=ears-long \
+    -flag earR?long=ears-long \
+	-flag earL?long?back=ears-long \
+    -flag earR?long?back=ears-long \
+    -flag joint?pupilL=joint_pupilL \
+    -flag joint?pupilR=joint_pupilR \
+    -flag joint?pupilL?long=joint_pupilL_long \
+    -flag joint?pupilR?long=joint_pupilR_long \
+    -flag joint?pupilL?short=joint_pupilL_short \
+    -flag joint?pupilR?short=joint_pupilR_short
 
 #define flag_lashes \
-        -flag 'open_short_eyelashL'=open-short \
-        -flag 'open_short_eyelashR'=open-short \
-        -flag 'open_long_eyelashL'=open-long \
-        -flag 'open_long_eyelashR'=open-long \
-	-flag 'closed_short_eyelashL'=closed-short \
-	-flag 'closed_short_eyelashR'=closed-short \
-        -flag 'closed_long_eyelashL'=closed-long \
-        -flag 'closed_long_eyelashR'=closed-long
+        -flag open_short_eyelashL=open-short \
+        -flag open_short_eyelashR=open-short \
+        -flag open_long_eyelashL=open-long \
+        -flag open_long_eyelashR=open-long \
+	-flag closed_short_eyelashL=closed-short \
+	-flag closed_short_eyelashR=closed-short \
+        -flag closed_long_eyelashL=closed-long \
+        -flag closed_long_eyelashR=closed-long
 
 // Note that dog_head_transform is also defined in the three dog?? files.
 #define dog_head_transform -TT 0,-14.74,0.2 -TS 0.271425 -TR 0,180,0

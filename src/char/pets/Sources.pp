@@ -16,7 +16,7 @@
 #define phase_5.5_anims \
   walk toBall sadwalk eat swallow walkHappy run petin \
   petloop petend swim laugh
-  
+
 #define pet_anims \
     $[phase_4_anims] $[phase_5_anims] $[phase_5.5_anims]
 
@@ -43,41 +43,41 @@
   #define OPTCHAR_OPTS \
     -TR 0,180,0 -TS 0.25 \
     // eyes
-    -flag 'TheBeanEyes'=eyeWhites \
-    -flag 'TheRightPupil'=rightPupil \
-    -flag 'TheLeftPupil'=leftPupil \
-    -flag 'TheRightHiLite'=rightHighlight \
-    -flag 'TheLeftHiLite'=leftHighlight \
-    -flag 'TheRightEyebrow'=rightBrow \
-    -flag 'TheLeftEyebrow'=leftBrow \
+    -flag TheBeanEyes=eyeWhites \
+    -flag TheRightPupil=rightPupil \
+    -flag TheLeftPupil=leftPupil \
+    -flag TheRightHiLite=rightHighlight \
+    -flag TheLeftHiLite=leftHighlight \
+    -flag TheRightEyebrow=rightBrow \
+    -flag TheLeftEyebrow=leftBrow \
     // head parts
-    -flag 'TheBirdHeadFeathers'=feathers \
-    -flag 'TheLHorn'=horns \
-    -flag 'TheRHorn'=horns \
+    -flag TheBirdHeadFeathers=feathers \
+    -flag TheLHorn=horns \
+    -flag TheRHorn=horns \
     // ears
-    -flag 'TheLAntenna'=antennae \
-    -flag 'TheRAntenna'=antennae \
-    -flag 'TheLDogEar'=dogEars \
-    -flag 'TheRDogEar'=dogEars \
-    -flag 'TheLCatEar'=catEars \
-    -flag 'TheRCatEar'=catEars \
-    -flag 'TheLRabbitEar'=rabbitEars \
-    -flag 'TheRRabbitEar'=rabbitEars \
+    -flag TheLAntenna=antennae \
+    -flag TheRAntenna=antennae \
+    -flag TheLDogEar=dogEars \
+    -flag TheRDogEar=dogEars \
+    -flag TheLCatEar=catEars \
+    -flag TheRCatEar=catEars \
+    -flag TheLRabbitEar=rabbitEars \
+    -flag TheRRabbitEar=rabbitEars \
     // noses
-    -flag 'TheClownNose'=clownNose \
-    -flag 'TheDogNose'=dogNose \
-    -flag 'TheOvalNose'=ovalNose \
-    -flag 'ThePigNose'=pigNose \
+    -flag TheClownNose=clownNose \
+    -flag TheDogNose=dogNose \
+    -flag TheOvalNose=ovalNose \
+    -flag ThePigNose=pigNose \
     // tails
-    -flag 'TheCatTail'=catTail \
-    -flag 'TheLongTail'=longTail \
-    -flag 'birdFeatherTail'=birdTail \
-    -flag 'BunnyTail'=bunnyTail \
+    -flag TheCatTail=catTail \
+    -flag TheLongTail=longTail \
+    -flag birdFeatherTail=birdTail \
+    -flag BunnyTail=bunnyTail \
     // feet
-    -flag 'TheLeftFoot'=leftFoot \
-    -flag 'TheRightFoot'=rightFoot \
+    -flag TheLeftFoot=leftFoot \
+    -flag TheRightFoot=rightFoot \
     // body
-    -flag 'TheBeanBody'=body \
+    -flag TheBeanBody=body \
     -p joint_Hips, -p toLHip,joint_Hips -p joint_scaleLLeg,toLHip \
     -p joint_LHip,joint_scaleLLeg -p joint_LThigh,joint_LHip \
     -p joint_LCalf,joint_LThigh -p joint_LAnkle,joint_LCalf \
@@ -141,7 +141,7 @@
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-    TT_pets-mod.egg 
+    TT_pets-mod.egg
   #define UNPAL_SOURCES \
     $[matrix TT_pets-,$[phase_4_anims],.egg]
   #define PHASE 4
@@ -167,4 +167,4 @@
   #define SOURCES \
     petTextures.egg petEmotes.egg
   #define PHASE 4
-#end install_egg  
+#end install_egg

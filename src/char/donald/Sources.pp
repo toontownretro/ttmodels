@@ -41,12 +41,12 @@
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    donald-wheel-1000.egg donald-wheel-wheel.egg 
+    donald-wheel-1000.egg donald-wheel-wheel.egg
   #define OPTCHAR_OPTS \
      -TR 0,180,0 -TS 0.175 \
      -expose joint_pupilL,joint_pupilR \
      -suppress null_neck3 \
-     -flag 'head?front'=eyes
+     -flag head?front=eyes
 #end optchar_egg
 
 // Optimize the various characters.
@@ -55,7 +55,7 @@
   #define SOURCES \
     DL_donald-1000.egg DL_donald-500.egg DL_donald-250.egg \
     DL_donald-walk.egg DL_donald-neutral.egg DL_donald-transition.egg \
-    DL_donald-transBack.egg 
+    DL_donald-transBack.egg
   #define OPTCHAR_OPTS \
     -TR 0,180,0 -TS 0.175 \
     -p meatALL,root \

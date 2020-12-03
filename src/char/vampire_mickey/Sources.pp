@@ -73,8 +73,8 @@
     -fixrest -zero sphere3,hpr \
     -expose sphere3 \
     -suppress def_head \
-    -flag 'tt_m_chr_csc_mickeyEyesOpen*'=eyesOpen \
-    -flag 'tt_m_chr_csc_mickeyEyesClosed*'=eyesClosed \
+    -flag tt_m_chr_csc_mickeyEyesOpen*=eyesOpen \
+    -flag tt_m_chr_csc_mickeyEyesClosed*=eyesClosed \
     -p sphere3,def_head
 #end optchar_egg
 

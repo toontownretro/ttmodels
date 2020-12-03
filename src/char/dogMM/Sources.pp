@@ -329,18 +329,18 @@
      -p LLongEar1,root \
      -p LLongEar2,LLongEar1 \
      -p LLongEar3,LLongEar2 \
-     -flag 'TheEyes'=eyes \
-     -flag 'TheHeadLong'=head \
-     -flag 'TheHeadSmall'=head \
-     -flag 'TheHeadBig'=head \
-     -flag 'head_front_short'=head-front \
-     -flag 'head_front_long'=head-front \
-     -flag 'head_front'=head-front \
-     -flag 'TheEarLongL'=ears \
-     -flag 'TheEarLongR'=ears \
-     -flag 'TheMuzzleShort'=muzzle \
-     -flag 'TheMuzzleBig'=muzzle \
-     -flag 'TheNoseSmall'=nose
+     -flag TheEyes=eyes \
+     -flag TheHeadLong=head \
+     -flag TheHeadSmall=head \
+     -flag TheHeadBig=head \
+     -flag head_front_short=head-front \
+     -flag head_front_long=head-front \
+     -flag head_front=head-front \
+     -flag TheEarLongL=ears \
+     -flag TheEarLongR=ears \
+     -flag TheMuzzleShort=muzzle \
+     -flag TheMuzzleBig=muzzle \
+     -flag TheNoseSmall=nose
 #end optchar_egg
 
 #begin optchar_egg
@@ -436,27 +436,27 @@
      -p eff23,jnt23_2 \
      -p forLParallel,jnt23_2 \
      -p midsleeveL,root \
-     -flag 'TheMSkirtCap'=torso-bot-cap \
-     -flag 'TheShortsInside'=torso-bot-cap \
-     -flag 'TheMSkirt_uv'=torso-bot \
-     -flag 'TheMSkirt'=torso-bot \
-     -flag 'TheMShorts*'=torso-bot \
-     -flag 'TheShorts'=torso-bot \
-     -flag 'TheBody*'=torso-top \
-     -flag 'TheMShirt*'=torso-top \
-     -flag 'TheShirt*'=torso-top \
-     -flag 'TheMBlouse*'=torso-top \
-     -flag 'TheBlouse*'=torso-top \
-     -flag 'blouse_uv*'=torso-top \
-     -flag 'TheSleeveR'=sleeves \
-     -flag 'TheSleeveL'=sleeves \
-     -flag 'TheShortSleeveR'=sleeves \
-     -flag 'TheShortSleeveL'=sleeves \
-     -flag 'TheArmR'=arms \
-     -flag 'TheArmL'=arms \
-     -flag 'TheNeck'=neck \
-     -flag 'TheHandL'=hands \
-     -flag 'TheHandR'=hands
+     -flag TheMSkirtCap=torso-bot-cap \
+     -flag TheShortsInside=torso-bot-cap \
+     -flag TheMSkirt_uv=torso-bot \
+     -flag TheMSkirt=torso-bot \
+     -flag TheMShorts*=torso-bot \
+     -flag TheShorts=torso-bot \
+     -flag TheBody*=torso-top \
+     -flag TheMShirt*=torso-top \
+     -flag TheShirt*=torso-top \
+     -flag TheMBlouse*=torso-top \
+     -flag TheBlouse*=torso-top \
+     -flag blouse_uv*=torso-top \
+     -flag TheSleeveR=sleeves \
+     -flag TheSleeveL=sleeves \
+     -flag TheShortSleeveR=sleeves \
+     -flag TheShortSleeveL=sleeves \
+     -flag TheArmR=arms \
+     -flag TheArmL=arms \
+     -flag TheNeck=neck \
+     -flag TheHandL=hands \
+     -flag TheHandR=hands
 #end optchar_egg
 
 #begin optchar_egg
@@ -467,10 +467,10 @@
   #define OPTCHAR_OPTS \
      -TR 0,180,0 -TS 0.25 \
      -expose joint_hips,joint_shadow,joint_nameTag \
-     -flag 'TheLegR'=legs \
-     -flag 'TheLegL'=legs \
-     -flag 'TheFootR'=feet \
-     -flag 'TheFootL'=feet
+     -flag TheLegR=legs \
+     -flag TheLegL=legs \
+     -flag TheFootR=feet \
+     -flag TheFootL=feet
 #end optchar_egg
 
 // Phase 3

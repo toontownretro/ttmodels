@@ -1,7 +1,7 @@
 #define DIR_TYPE models
 #define INSTALL_TO models/char
 #define DATABASE pluto_cvs
- 
+
 #begin maya_char_egg
   #define MAYA_PREFIX pluto-
   #define MODEL 1000
@@ -38,7 +38,7 @@
      -TR 0,180,0 -TS 0.75 \
      -expose joint_pupilL,joint_pupilR \
      -suppress joint_head \
-     -flag 'head?front'=eyes
+     -flag head?front=eyes
 #end optchar_egg
 
 #begin install_egg
@@ -49,7 +49,7 @@
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-    pluto-1000.egg pluto-500.egg pluto-300.egg 
+    pluto-1000.egg pluto-500.egg pluto-300.egg
   #define UNPAL_SOURCES \
     pluto-walk.egg pluto-sit.egg pluto-neutral.egg pluto-stand.egg
   #define PHASE 6
