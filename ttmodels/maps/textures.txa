@@ -9507,7 +9507,5 @@ catalogSoundIcons.egg : estate_interior
 sound07.tif : 32 32
 sound08.tif : 32 32
 
-# Scale any texture not mentioned above by 1% in each dimension, a fairly
-# drastic reduction. The keyword 'cont' here will allow us to flag these
-# textures as 'surprises' even though they match this line.
+# Scale any texture not mentioned above by 100% in each dimension
 * : 100% cont

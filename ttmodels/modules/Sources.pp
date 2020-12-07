@@ -49,7 +49,7 @@
 // Only some landmark buildings are used in the safezone
 #begin install_egg
   #define SOURCES \
-    safe_zone_tunnel_TT.egg trolley_station_TT.egg doors.egg TT_pond.egg \
+    safe_zone_tunnel_TT.egg trolley_station_TT.egg trolley_station_TT_beta.egg doors.egg TT_pond.egg \
     bank.egg library.egg school_house.egg mercantile.egg gazebo.egg \
     toonhall.egg clothshopTT.egg PetShopInterior.egg PetShopExterior_TT.egg Speedway_Tunnel.egg \
     partyGate_TT.egg

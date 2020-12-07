@@ -8,3 +8,4 @@ stamp
 *.swatch
 */.mayaSwatches/*
 workspace.mel
+ppremake.exe

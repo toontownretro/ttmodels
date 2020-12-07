@@ -10,7 +10,9 @@
 #end maya_egg
 
 #begin install_egg
-  #define SOURCES toontown_central.egg
+  #define SOURCES \
+    toontown_central.egg \
+    toontown_central_beta.egg
   #define PHASE 4
 #end install_egg
 
@@ -23,6 +25,7 @@
 #begin install_egg
   #define SOURCES \
     minnies_melody_land.egg \
+    minnies_melody_land_beta.egg \
     minnies_melody_land_ext.egg
   #define PHASE 6
 #end install_egg

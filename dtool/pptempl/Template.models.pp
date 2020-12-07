@@ -26,12 +26,15 @@
   #define texattrib_dir $[TOPDIR]/src/maps
 #endif
 
-#define texattrib_file $[texattrib_dir]/textures.txa
+#if $[texattrib_file]
+#else
+  #define texattrib_file $[texattrib_dir]/textures.txa
+#endif
 
 #if $[eq $[BUILD_TYPE], nmake]
-  #define TOUCH_CMD echo.
+  #define TOUCH_CMD echo
   #define COPY_CMD xcopy /I/Y
-  #define DEL_CMD del /f/s/q
+  #define DEL_CMD rm -rf
 #else
   #define TOUCH_CMD touch
   #define COPY_CMD cp
@@ -303,7 +306,7 @@ $[TAB]rm -rf $[filter_dirs]
     ]
 $[directory] :
 #if $[eq $[BUILD_TYPE], nmake]
-$[TAB] if not exist $[osfilename $[directory]] mkdir $[osfilename $[directory]]
+$[TAB] [ -d "$[osfilename $[directory]]" ] ||  mkdir $[osfilename $[directory]]
 #else
 $[TAB]@test -d $[directory] || echo mkdir -p $[directory]
 $[TAB]@test -d $[directory] || mkdir -p $[directory]
@@ -314,7 +317,7 @@ $[TAB]@test -d $[directory] || mkdir -p $[directory]
 // phony timestamp file to achieve that.
 $[directory]/stamp :
 #if $[eq $[BUILD_TYPE], nmake]
-$[TAB] if not exist $[osfilename $[directory]] mkdir $[osfilename $[directory]]
+$[TAB] [ -d "$[osfilename $[directory]]" ] ||  mkdir $[osfilename $[directory]]
 $[TAB]$[TOUCH_CMD] $[osfilename $[directory]/stamp]
 #else
 $[TAB]@test -d $[directory] || echo mkdir -p $[directory]

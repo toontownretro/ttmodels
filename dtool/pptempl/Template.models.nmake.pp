@@ -23,7 +23,10 @@
   #define texattrib_dir $[TOPDIR]/src/maps
 #endif
 
-#define texattrib_file $[texattrib_dir]/textures.txa
+#if $[texattrib_file]
+#else
+  #define texattrib_file $[texattrib_dir]/textures.txa
+#endif
 
 //////////////////////////////////////////////////////////////////////
 #if $[eq $[DIR_TYPE], models]
@@ -211,41 +214,41 @@ uninstall : uninstall-other uninstall-bam
 
 clean-bam :
 #if $[bam_targets]
-$[TAB]del /f/q $[osfilename $[bam_dir]]
+$[TAB]rm -rf $[osfilename $[bam_dir]]
 #endif
 
 clean-pal : clean-bam
 #if $[pal_egg_targets]
-$[TAB]del /f/q $[osfilename $[pal_egg_dir]]
+$[TAB]rm -rf $[osfilename $[pal_egg_dir]]
 #endif
 
 clean-flt :
 #if $[build_flt_eggs]
-$[TAB]del /f/q $[osfilename $[build_flt_eggs]]
+$[TAB]rm -rf $[osfilename $[build_flt_eggs]]
 #endif
 
 clean-lwo :
 #if $[build_lwo_eggs]
-$[TAB]del /f/q $[osfilename $[build_lwo_eggs]]
+$[TAB]rm -rf $[osfilename $[build_lwo_eggs]]
 #endif
 
 clean-maya :
 #if $[build_maya_eggs]
-$[TAB]del /f/q $[osfilename $[build_maya_eggs]]
+$[TAB]rm -rf $[osfilename $[build_maya_eggs]]
 #endif
 
 clean-soft :
 #if $[build_soft_eggs]
-$[TAB]del /f/q $[osfilename $[build_soft_eggs]]
+$[TAB]rm -rf $[osfilename $[build_soft_eggs]]
 #endif
 
 clean : clean-pal
 #if $[build_eggs]
-$[TAB]del /f/q $[osfilename $[build_eggs]] *.pt
-$[TAB]del /f/q $[osfilename $[build_eggs]] *.pt
+$[TAB]rm -rf $[osfilename $[build_eggs]] *.pt
+$[TAB]rm -rf $[osfilename $[build_eggs]] *.pt
 #endif
 #if $[filter_dirs]
-$[TAB]del /f/q $[osfilename $[filter_dirs]]
+$[TAB]rm -rf $[osfilename $[filter_dirs]]
 #endif
 
 // We need a rule for each directory we might need to make.  This
@@ -262,14 +265,14 @@ $[TAB]del /f/q $[osfilename $[filter_dirs]]
     $[install_other_dirs] \
     ]
 $[directory] :
-$[TAB]@if not exist $[osfilename $[directory]] mkdir $[osfilename $[directory]]
+$[TAB]@[ -d "$[osfilename $[directory]]" ] ||  mkdir $[osfilename $[directory]]
 
 // Sometimes we need a target to depend on the directory existing, without
 // being fooled by the directory's modification times.  We use this
 // phony timestamp file to achieve that.
 $[directory]/stamp :
-$[TAB]@if not exist $[osfilename $[directory]] mkdir $[osfilename $[directory]]
-$[TAB]@echo. > $[osfilename $[directory]/stamp]
+$[TAB]@[ -d "$[osfilename $[directory]]" ] ||  mkdir $[osfilename $[directory]]
+$[TAB]@echo > $[osfilename $[directory]/stamp]
 
 #end directory
 
@@ -279,7 +282,7 @@ $[TAB]@echo. > $[osfilename $[directory]/stamp]
     #define target $[gz:%.gz=%]
     #define source $[gz]
 $[target] : $[source]
-$[TAB]del /f/q $[osfilename $[target]]
+$[TAB]rm -rf $[osfilename $[target]]
 $[TAB]gunzip $[GUNZIP_OPTS] < $[osfilename $[source]] > $[osfilename $[target]]
 
   #end gz
@@ -467,7 +470,7 @@ $[TAB]egg-palettize $[PALETTIZE_OPTS] -af $[osfilename $[texattrib_file]] -dr $[
     #endif
 
 $[pt] :
-$[TAB]@echo. > $[osfilename $[pt]]
+$[TAB]@echo > $[osfilename $[pt]]
 
   #end egg
 #end install_egg
@@ -542,7 +545,7 @@ uninstall-bam :
   #endif
   #define files $[patsubst %.egg,$[install_model_dir]/%.bam,$[generic_egglist] $[language_egglist]]
   #if $[files]
-$[TAB]del /f/q $[osfilename $[files]]
+$[TAB]rm -rf $[osfilename $[files]]
   #endif
 #end install_egg
 
@@ -589,7 +592,7 @@ uninstall-other:
   #endif
   #define files $[patsubst %,$[install_model_dir]/%,$[generic_sources] $[language_sources]]
   #if $[files]
-$[TAB]del /f/q $[osfilename $[files]]
+$[TAB]rm -rf $[osfilename $[files]]
   #endif
 #end install_dna
 
@@ -613,7 +616,7 @@ uninstall-other:
 #forscopes install_audio install_icons install_shader install_misc
   #define files $[patsubst %,$[install_model_dir]/%,$[SOURCES]]
   #if $[files]
-$[TAB]del /f/q $[osfilename $[files]]
+$[TAB]rm -rf $[osfilename $[files]]
   #endif
 #end install_audio install_icons install_shader install_misc
 
@@ -700,7 +703,7 @@ $[TAB]egg-palettize $[PALETTIZE_OPTS] -af $[osfilename $[texattrib_file]] -dm $[
 # undo-pal : blow away all the palettization information and start fresh.
 #
 undo-pal : clean-pal
-$[TAB]del /f/q $[osfilename $[texattrib_file:%.txa=%.boo]]
+$[TAB]rm -rf $[osfilename $[texattrib_file:%.txa=%.boo]]
 
 #
 # pi : report the palettization information to standard output for the
