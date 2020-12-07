@@ -7,5 +7,6 @@ stamp
 *.boo
 *.swatch
 */.mayaSwatches/*
+*/sourceimages/*
 workspace.mel
 ppremake.exe
