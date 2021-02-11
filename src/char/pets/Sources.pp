@@ -142,7 +142,7 @@
   #define SOURCE_DIR optchar
   #define SOURCES \
     TT_pets-mod.egg
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix TT_pets-,$[phase_4_anims],.egg]
   #define PHASE 4
 #end install_egg
@@ -150,7 +150,7 @@
 // Phase 5: phase 5 models - battle
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix TT_pets-,$[phase_5_anims],.egg]
   #define PHASE 5
 #end install_egg
@@ -158,7 +158,7 @@
 // Phase 5.5: phase 5.5 models - estate
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix TT_pets-,$[phase_5.5_anims],.egg]
   #define PHASE 5.5
 #end install_egg

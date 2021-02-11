@@ -35,5 +35,6 @@ default dance
   #define SOURCE_DIR optchar
   #define SOURCES \
      tt_r_ara_ttc_B2.egg $[matrix tt_a_ara_ttc_B2_,$[ttc_B2_anims],.egg]
+  #define EGG2BAM_OPTS -NC
   #define PHASE 5
 #end install_egg

@@ -58,7 +58,7 @@
 //    jellybeanBellows-mod.egg 
   
 // Animations don't go through egg-palettize.
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     jellybeanBank-bankOpen.egg 
 //    jellybeanBellows-bellowsPump.egg 
     

@@ -34,5 +34,6 @@ firstMoveSleepIdle firstMoveStruggle idle intoFightIdle victoryDance
   #define SOURCE_DIR optchar
   #define SOURCES \
      tt_r_ara_TT_hydrant.egg $[matrix tt_a_ara_TT_hydrant_,$[hydrant_anims],.egg] 
+  #define EGG2BAM_OPTS -NC
   #define PHASE 5
 #end install_egg

@@ -697,7 +697,7 @@
   #define SOURCE_DIR optchar
   #define SOURCES \
     shredder.egg phone.egg clip-on-tie-mod.egg shredder-paper-mod.egg receiver.egg 
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     shredder-paper-chan.egg clip-on-tie-chan.egg
   #define PHASE 3.5
 #end install_egg
@@ -707,7 +707,7 @@
   #define SOURCE_DIR optchar
   #define SOURCES \
     propeller-mod.egg 
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     propeller-chan.egg 
   #define PHASE 4
 #end install_egg
@@ -733,7 +733,7 @@
     #define SOURCES $[SOURCES] newspaper_english.egg
   #endif
 
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     rubber-stamp-pad-chan.egg calculator-chan.egg \
     smile-chan.egg teeth-chan.egg \
     rake-step-chan.egg

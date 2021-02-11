@@ -86,7 +86,7 @@
   // We don't want to rotate splat; it will be billboarded at runtime.
   #define OPTCHAR_OPTS \
      -TS 0.25 \
-     -flag 'splatter'=splat
+     -flag splatter=splat
 #end optchar_egg
 
 #begin optchar_egg
@@ -96,17 +96,17 @@
   // We don't want to rotate dust; it will be billboarded at runtime.
   #define OPTCHAR_OPTS \
      -TS 0.25 \
-     -flag 'TheCloud8'=cloud1 \
-     -flag 'TheCloud6'=cloud2 \
-     -flag 'TheCloud5'=cloud3 \
-     -flag 'TheCloud4'=cloud4 \
-     -flag 'TheCloud2'=cloud5 \
-     -flag 'TheCloud11'=cloud6 \
-     -flag 'TheCloud3'=cloud7 \
-     -flag 'TheCloud10'=cloud8 \
-     -flag 'TheCloud7'=cloud9 \
-     -flag 'TheCloud1'=cloud10 \
-     -flag 'TheCloud9'=cloud11
+     -flag TheCloud8=cloud1 \
+     -flag TheCloud6=cloud2 \
+     -flag TheCloud5=cloud3 \
+     -flag TheCloud4=cloud4 \
+     -flag TheCloud2=cloud5 \
+     -flag TheCloud11=cloud6 \
+     -flag TheCloud3=cloud7 \
+     -flag TheCloud10=cloud8 \
+     -flag TheCloud7=cloud9 \
+     -flag TheCloud1=cloud10 \
+     -flag TheCloud9=cloud11
 #end optchar_egg
 
 #begin optchar_egg
@@ -116,8 +116,8 @@
   // We don't want to rotate kapow; it will be billboarded at runtime.
   #define OPTCHAR_OPTS \
      -TS 0.25 \
-     -flag 'TheLettering'=letters \
-     -flag 'TheExplosion'=explosion
+     -flag TheLettering=letters \
+     -flag TheExplosion=explosion
 #end optchar_egg
 
 #begin optchar_egg
@@ -144,7 +144,7 @@
   #define SOURCE_DIR optchar
   #define SOURCES \
     splat-mod.egg spray.egg stun-mod.egg suit_explosion-mod.egg
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     splat-chan.egg stun-chan.egg suit_explosion-chan.egg
   #define PHASE 3.5
 #end install_egg
@@ -154,7 +154,7 @@
   #define SOURCE_DIR optchar
   #define SOURCES \
     kapow-mod.egg dust-mod.egg
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     kapow-chan.egg dust-chan.egg
   #define PHASE 5
 #end install_egg

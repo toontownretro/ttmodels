@@ -4,7 +4,7 @@
 #begin install_egg
   #define SOURCES \
     TT_G-1500.egg TT_G-1000.egg TT_G-500.egg
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     TT_GRun.egg TT_GWait.egg TT_GWalk.egg
   #define PHASE 6
 #end install_egg

@@ -50,7 +50,7 @@
   #define SOURCE_DIR optchar
   #define SOURCES \
     pluto-1000.egg pluto-500.egg pluto-300.egg
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     pluto-walk.egg pluto-sit.egg pluto-neutral.egg pluto-stand.egg
   #define PHASE 6
 #end install_egg

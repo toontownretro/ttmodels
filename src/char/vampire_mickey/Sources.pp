@@ -84,7 +84,7 @@
      tt_a_chr_csc_mickey_vampire_1200.egg \
      tt_a_chr_csc_mickey_vampire_400.egg \
      tt_a_chr_csc_mickey_vampire_800.egg
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
      tt_a_chr_csc_mickey_vampire_idle.egg tt_a_chr_csc_mickey_vampire_into_idle.egg \
      tt_a_chr_csc_mickey_vampire_sneak.egg tt_a_chr_csc_mickey_vampire_into_sneak.egg \
      tt_a_chr_csc_mickey_vampire_run.egg tt_a_chr_csc_mickey_vampire_walk.egg \

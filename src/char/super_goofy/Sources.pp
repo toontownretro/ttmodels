@@ -115,7 +115,7 @@
 
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
      $[matrix tt_a_chr_csc_goofyCostume_,$[filter-out $[nc_anims],$[goofyCostumeAnims]],.egg]
   #define PHASE 6
 #end install_egg

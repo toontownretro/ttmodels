@@ -431,7 +431,7 @@
   #define SOURCES \
     $[matrix  tt_a_chr_dgl_,shorts,_torso_ _head_ _legs_,1000 500 250,.egg] \
     $[matrix  tt_a_chr_dgl_,skirt,_torso_,1000 500 250,.egg]
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix  tt_a_chr_dgl_,shorts,_torso_ _head_ _legs_,$[phase_3_dog_anims_male] ,.egg] \
     $[matrix  tt_a_chr_dgl_,skirt,_torso_,$[phase_3_dog_anims_female] ,.egg]
   #define PHASE 3
@@ -440,7 +440,7 @@
 // Phase 3.5
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix tt_a_chr_dgl_,shorts,_torso_ _head_,$[phase_3.5_dog_anims_male],.egg] \
     $[matrix tt_a_chr_dgl_,skirt,_torso_,$[phase_3.5_dog_anims_female],.egg] \
     $[matrix tt_a_chr_dgl_,shorts,_legs_,$[phase_3.5_dog_anims],.egg]
@@ -450,7 +450,7 @@
 // Phase 4
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix tt_a_chr_dgl_,shorts,_torso_ _head_,$[phase_4_dog_anims_male],.egg] \
     $[matrix tt_a_chr_dgl_,skirt,_torso_,$[phase_4_dog_anims_female],.egg] \
     $[matrix tt_a_chr_dgl_,shorts,_legs_,$[phase_4_dog_anims],.egg]
@@ -481,7 +481,7 @@
 // Phase 5.5
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix tt_a_chr_dgl_,shorts,_torso_ _head_,$[phase_5.5_dog_anims_male],.egg] \
     $[matrix tt_a_chr_dgl_,skirt,_torso_,$[phase_5.5_dog_anims_female],.egg] \
     $[matrix tt_a_chr_dgl_,shorts,_legs_,$[phase_5.5_dog_anims],.egg]
@@ -491,7 +491,7 @@
 // Phase 6
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix tt_a_chr_dgl_,shorts,_torso_ _head_,$[phase_6_dog_anims_male],.egg] \
     $[matrix tt_a_chr_dgl_,skirt,_torso_,$[phase_6_dog_anims_female],.egg] \
     $[matrix tt_a_chr_dgl_,shorts,_legs_,$[phase_6_dog_anims],.egg]
@@ -501,7 +501,7 @@
 // Phase 9
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix tt_a_chr_dgl_,shorts,_torso_ _head_,$[phase_9_dog_anims_male],.egg] \
     $[matrix tt_a_chr_dgl_,skirt,_torso_,$[phase_9_dog_anims_female],.egg] \
     $[matrix tt_a_chr_dgl_,shorts,_legs_,$[phase_9_dog_anims],.egg]
@@ -511,7 +511,7 @@
 // Phase 10
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix tt_a_chr_dgl_,shorts,_torso_ _head_,$[phase_10_dog_anims_male],.egg] \
     $[matrix tt_a_chr_dgl_,skirt,_torso_,$[phase_10_dog_anims_female],.egg] \
     $[matrix tt_a_chr_dgl_,shorts,_legs_,$[phase_10_dog_anims],.egg]

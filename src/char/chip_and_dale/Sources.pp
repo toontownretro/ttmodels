@@ -101,7 +101,7 @@
   #define SOURCES \
    chip_1000.egg chip_500.egg chip_250.egg \
    dale_1000.egg dale_500.egg dale_250.egg
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
    $[matrix chip_,$[anims],.egg] \
    $[matrix dale_,$[anims],.egg]
   #define PHASE 6

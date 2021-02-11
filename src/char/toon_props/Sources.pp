@@ -873,7 +873,7 @@
   #define SOURCE_DIR optchar
   #define SOURCES \
     book-mod.egg portal-mod.egg tart.egg squirting-flower.egg button.egg bottle.egg
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     book-chan.egg portal-chan.egg
   #define PHASE 3.5
 #end install_egg
@@ -885,7 +885,7 @@
   #define SOURCES \
     fishing-pole-mod.egg stormcloud-mod.egg anvil-mod.egg pole_treebranch-mod.egg pole_wood-mod.egg \
     pole_steel-mod.egg pole_gold-mod.egg pole_bamboo-mod.egg water-gun.egg
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     fishing-pole-chan.egg stormcloud-chan.egg anvil-chan.egg
   #define PHASE 4
 #end install_egg
@@ -906,7 +906,7 @@
 // wall-mod.egg
 //    elephant-mod.egg foghorn-mod.egg whistle-mod.egg bugle-mod.egg \
 //    bikehorn-mod.egg aoogah-mod.egg
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     sandbag-chan.egg weight-chan.egg safe-chan.egg \
     piano-chan.egg hypnotize-chan.egg rake-chan.egg tnt-chan.egg \
     1dollar-bill-chan.egg feather-chan.egg \

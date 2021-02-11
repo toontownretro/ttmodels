@@ -43,7 +43,7 @@
   #define SOURCES \
    BotCam-zero.egg BotFoot-zero.egg
 
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
    $[matrix BotCam-out2Neutral.egg] \
    $[matrix BotCam-neutral.egg] \
    $[matrix BotFoot-kick.egg]

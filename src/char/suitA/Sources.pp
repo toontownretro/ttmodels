@@ -181,7 +181,7 @@
   #define SOURCE_DIR optchar
   #define SOURCES \
     suitA-lose-mod.egg
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix suitA-,$[phase_4_anims],.egg] suitA-lose.egg
   #define UNPAL_SOURCES_NC \
     $[matrix suitA-,$[phase_4_anims_NC],.egg]
@@ -191,7 +191,7 @@
 // Phase 5: lose bodies, and phase 5 anims
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix suitA-,$[phase_5_anims],.egg]
   #define PHASE 5
 #end install_egg
@@ -199,7 +199,7 @@
 // Phase 6: phase 6 anims
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix suitA-,$[phase_6_anims],.egg]
   #define PHASE 6
 #end install_egg
@@ -207,7 +207,7 @@
 // Phase 7: phase 7 anims
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix suitA-,$[phase_7_anims],.egg]
   #define PHASE 7
 #end install_egg
@@ -215,7 +215,7 @@
 // Phase 8: phase 8 anims
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix suitA-,$[phase_8_anims],.egg]
   #define PHASE 8
 #end install_egg
@@ -223,7 +223,7 @@
 // Phase 12: phase 12 anims
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix suitA-,$[phase_12_anims],.egg]
   #define PHASE 12
 #end install_egg

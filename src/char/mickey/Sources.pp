@@ -124,7 +124,7 @@
   #define SOURCE_DIR optchar
   #define SOURCES \
     mickey-1200.egg mickey-800.egg mickey-400.egg
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     mickey-wait.egg mickey-walk.egg mickey-run.egg
   #define PHASE 3
 #end install_egg
@@ -132,7 +132,7 @@
 // Phase 3.5: install the models and anims
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     mickey-left-start.egg mickey-left.egg \
     mickey-right-start.egg mickey-right.egg
   #define PHASE 3.5

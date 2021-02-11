@@ -72,7 +72,7 @@
   #define SOURCE_DIR optchar
   #define SOURCES \
   	daisyduck_1600.egg daisyduck_800.egg daisyduck_400.egg
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
   	$[matrix daisyduck_,$[anims],.egg]
   #define PHASE 4
 #end install_egg

@@ -63,5 +63,6 @@
   #define SOURCE_DIR optchar
   #define SOURCES \
      $[matrix tt_a_chr_csc_witchMinnie_,$[witchMinnieAnims] 1200 800 400,.egg]
+  #define EGG2BAM_OPTS -NC
   #define PHASE 3.5
 #end install_egg

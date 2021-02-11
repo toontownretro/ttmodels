@@ -448,7 +448,7 @@
     $[matrix dogLL_Shorts-,head torso legs,-,1000 500 250,.egg] \
     $[matrix dogLL_Skirt-torso-,1000 500 250,.egg] \
     dogLL_Naked-torso-1000.egg
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix dogLL_Shorts-,head torso legs,-,$[phase_3_dog_anims_male],.egg] \
     $[matrix dogLL_Skirt-torso-,$[phase_3_dog_anims_female],.egg] \
     $[matrix dogLL_Naked-torso-,$[dog_anims_naked],.egg]
@@ -458,7 +458,7 @@
 // Phase 3.5
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix dogLL_Shorts-,head torso,-,$[phase_3.5_dog_anims_male],.egg] \
     $[matrix dogLL_Skirt-torso-,$[phase_3.5_dog_anims_female],.egg] \
     $[matrix dogLL_Shorts-legs-,$[phase_3.5_dog_anims],.egg]
@@ -468,7 +468,7 @@
 // Phase 4
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix dogLL_Shorts-,head torso,-,$[phase_4_dog_anims_male],.egg] \
     $[matrix dogLL_Skirt-torso-,$[phase_4_dog_anims_female],.egg] \
     $[matrix dogLL_Shorts-legs-,$[phase_4_dog_anims],.egg]
@@ -499,7 +499,7 @@
 // Phase 5.5
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix dogLL_Shorts-,head torso,-,$[phase_5.5_dog_anims_male],.egg] \
     $[matrix dogLL_Skirt-torso-,$[phase_5.5_dog_anims_female],.egg] \
     $[matrix dogLL_Shorts-legs-,$[phase_5.5_dog_anims],.egg]
@@ -509,7 +509,7 @@
 // Phase 6
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix dogLL_Shorts-,head torso,-,$[phase_6_dog_anims_male],.egg] \
     $[matrix dogLL_Skirt-torso-,$[phase_6_dog_anims_female],.egg] \
     $[matrix dogLL_Shorts-legs-,$[phase_6_dog_anims],.egg]
@@ -519,7 +519,7 @@
 // Phase 9
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix dogLL_Shorts-,head torso,-,$[phase_9_dog_anims_male],.egg] \
     $[matrix dogLL_Skirt-torso-,$[phase_9_dog_anims_female],.egg] \
     $[matrix dogLL_Shorts-legs-,$[phase_9_dog_anims],.egg]
@@ -529,7 +529,7 @@
 // Phase 10
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix dogLL_Shorts-,head torso,-,$[phase_10_dog_anims_male],.egg] \
     $[matrix dogLL_Skirt-torso-,$[phase_10_dog_anims_female],.egg] \
     $[matrix dogLL_Shorts-legs-,$[phase_10_dog_anims],.egg]

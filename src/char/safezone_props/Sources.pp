@@ -232,7 +232,7 @@
   #define SOURCE_DIR optchar
   #define SOURCES \
     HQ_telescope-mod.egg HQ_periscope-mod.egg HQ_periscope-base-mod.egg
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     HQ_telescope-chan.egg HQ_periscope-chan.egg HQ_periscope-base-chan.egg
   #define PHASE 3.5
 #end install_egg
@@ -243,7 +243,7 @@
   #define SOURCES \
     SZ_butterfly-mod.egg SZ_fish-mod.egg SZ_airplane-mod.egg \
     SZ_splashdown-mod.egg interiorfish-zero.egg exteriorfish-zero.egg
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     SZ_butterfly-flutter.egg SZ_butterfly-glide.egg \
     SZ_butterfly-land.egg SZ_fish-swim.egg \
     SZ_fish-jump.egg SZ_airplane-wave.egg  SZ_splashdown-chan.egg \

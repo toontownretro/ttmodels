@@ -32,7 +32,7 @@
   #define SOURCE_DIR optchar
   #define SOURCES \
    Clarabelle-zero.egg
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
    $[matrix Clarabelle-,$[anims],.egg]
   #define PHASE 5.5
 #end install_egg
