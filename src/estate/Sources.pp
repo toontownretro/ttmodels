@@ -198,7 +198,7 @@
     prop_phone-mod.egg  phoneMount-mod.egg
 
   // Animations don't go through egg-palettize.
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix prop_phone-,$[phone_anims],.egg]
 
   #define PHASE 5.5
