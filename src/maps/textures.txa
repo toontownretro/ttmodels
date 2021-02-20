@@ -8695,6 +8695,7 @@ LB_LtGreen : 256 256
 LawbotPlaza.egg : lawbotHQExt
 
 Hands_Tie : 1024 1024
+LB_Head : 1024 1024
 LB_Hair1 : 1024 1024
 LB_Robe : 1024 1024
 LB_HandTop : 256 256
