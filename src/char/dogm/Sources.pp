@@ -473,9 +473,10 @@
   #define SOURCES \
     $[matrix  tt_a_chr_dgm_,shorts,_torso_ _head_ _legs_,1000 500 250,.egg] \
     $[matrix  tt_a_chr_dgm_,skirt,_torso_ _head_,1000 500 250,.egg]
-  #define UNPAL_SOURCES_NC \
+  #define UNPAL_SOURCES \
     $[matrix  tt_a_chr_dgm_,shorts,_torso_ _head_ _legs_,$[phase_3_dog_anims_male] ,.egg] \
     $[matrix  tt_a_chr_dgm_,skirt,_torso_ _head_,$[phase_3_dog_anims_female] ,.egg]
+  #define EGG2BAM_OPTS -NC
   #define PHASE 3
 #end install_egg
 
@@ -486,6 +487,7 @@
     $[matrix tt_a_chr_dgm_,shorts,_torso_ _head_,$[filter-out $[nc_anims],$[phase_3.5_dog_anims_male]],.egg] \
     $[matrix tt_a_chr_dgm_,skirt,_torso_ _head_,$[filter-out $[nc_anims],$[phase_3.5_dog_anims_female]],.egg] \
     $[matrix tt_a_chr_dgm_,shorts,_legs_,$[filter-out $[nc_anims],$[phase_3.5_dog_anims]],.egg]
+  #define EGG2BAM_OPTS -NC
   #define PHASE 3.5
 #end install_egg
 
@@ -503,20 +505,22 @@
 // Phase 4
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES_NC \
+  #define UNPAL_SOURCES \
     $[matrix tt_a_chr_dgm_,shorts,_torso_ _head_,$[phase_4_dog_anims_male],.egg] \
     $[matrix tt_a_chr_dgm_,skirt,_torso_ _head_,$[phase_4_dog_anims_female],.egg] \
     $[matrix tt_a_chr_dgm_,shorts,_legs_,$[phase_4_dog_anims],.egg]
+  #define EGG2BAM_OPTS -NC
   #define PHASE 4
 #end install_egg
 
 // Phase 5
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES_NC \
+  #define UNPAL_SOURCES \
     $[matrix tt_a_chr_dgm_,shorts,_torso_ _head_,$[filter-out $[nc_anims],$[phase_5_dog_anims_male]],.egg] \
     $[matrix tt_a_chr_dgm_,skirt,_torso_ _head_,$[filter-out $[nc_anims],$[phase_5_dog_anims_female]],.egg] \
     $[matrix tt_a_chr_dgm_,shorts,_legs_,$[filter-out $[nc_anims],$[phase_5_dog_anims]],.egg]
+  #define EGG2BAM_OPTS -NC
   #define PHASE 5
 #end install_egg
 
@@ -534,39 +538,43 @@
 // Phase 5.5
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES_NC \
+  #define UNPAL_SOURCES \
     $[matrix tt_a_chr_dgm_,shorts,_torso_ _head_,$[phase_5.5_dog_anims_male],.egg] \
     $[matrix tt_a_chr_dgm_,skirt,_torso_ _head_,$[phase_5.5_dog_anims_female],.egg] \
     $[matrix tt_a_chr_dgm_,shorts,_legs_,$[phase_5.5_dog_anims],.egg]
+  #define EGG2BAM_OPTS -NC
   #define PHASE 5.5
 #end install_egg
 
 // Phase 6
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES_NC \
+  #define UNPAL_SOURCES \
     $[matrix tt_a_chr_dgm_,shorts,_torso_ _head_,$[phase_6_dog_anims_male],.egg] \
     $[matrix tt_a_chr_dgm_,skirt,_torso_ _head_,$[phase_6_dog_anims_female],.egg] \
     $[matrix tt_a_chr_dgm_,shorts,_legs_,$[phase_6_dog_anims],.egg]
+  #define EGG2BAM_OPTS -NC
   #define PHASE 6
 #end install_egg
 
 // Phase 9
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES_NC \
+  #define UNPAL_SOURCES \
     $[matrix tt_a_chr_dgm_,shorts,_torso_ _head_,$[phase_9_dog_anims_male],.egg] \
     $[matrix tt_a_chr_dgm_,skirt,_torso_ _head_,$[phase_9_dog_anims_female],.egg] \
     $[matrix tt_a_chr_dgm_,shorts,_legs_,$[phase_9_dog_anims],.egg]
+  #define EGG2BAM_OPTS -NC
   #define PHASE 9
 #end install_egg
 
 // Phase 10
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES_NC \
+  #define UNPAL_SOURCES \
     $[matrix tt_a_chr_dgm_,shorts,_torso_ _head_,$[phase_10_dog_anims_male],.egg] \
     $[matrix tt_a_chr_dgm_,skirt,_torso_ _head_,$[phase_10_dog_anims_female],.egg] \
     $[matrix tt_a_chr_dgm_,shorts,_legs_,$[phase_10_dog_anims],.egg]
+  #define EGG2BAM_OPTS -NC
   #define PHASE 10
 #end install_egg
