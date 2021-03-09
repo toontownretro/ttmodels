@@ -1,0 +1,1 @@
+egg-texture-cards -wm clamp -p 152,152 -o tt_m_gui_ign_shtickerBook.egg ../maps/tt_t_gui_sbk_newsPage1.tif ../maps/tt_t_gui_sbk_newsPage2.tif

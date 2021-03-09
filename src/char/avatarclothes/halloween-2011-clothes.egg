@@ -1,0 +1,185 @@
+<Comment> {
+  "egg-texture-cards -o halloween-2011-clothes.egg tt_t_chr_avt_skirt_pirate.tif tt_t_chr_avt_shorts_vampire.tif tt_t_chr_avt_shorts_supertoon.tif tt_t_chr_avt_shorts_pirate.tif tt_t_chr_avt_shorts_dinosaur.tif tt_t_chr_avt_shorts_bee.tif tt_t_chr_avt_shirt_vampire.tif tt_t_chr_avt_shirt_supertoon.tif tt_t_chr_avt_shirt_pirate.tif tt_t_chr_avt_shirt_dinosaur.tif tt_t_chr_avt_shirt_bee.tif tt_t_chr_avt_shirtSleeve_vampire.tif tt_t_chr_avt_shirtSleeve_supertoon.tif tt_t_chr_avt_shirtSleeve_pirate.tif tt_t_chr_avt_shirtSleeve_dinosaur.tif tt_t_chr_avt_shirtSleeve_bee.tif"
+}
+<Texture> tt_t_chr_avt_skirt_pirate {
+  tt_t_chr_avt_skirt_pirate.tif
+}
+<Texture> tt_t_chr_avt_shorts_vampire {
+  tt_t_chr_avt_shorts_vampire.tif
+}
+<Texture> tt_t_chr_avt_shorts_supertoon {
+  tt_t_chr_avt_shorts_supertoon.tif
+}
+<Texture> tt_t_chr_avt_shorts_pirate {
+  tt_t_chr_avt_shorts_pirate.tif
+}
+<Texture> tt_t_chr_avt_shorts_dinosaur {
+  tt_t_chr_avt_shorts_dinosaur.tif
+}
+<Texture> tt_t_chr_avt_shorts_bee {
+  tt_t_chr_avt_shorts_bee.tif
+}
+<Texture> tt_t_chr_avt_shirt_vampire {
+  tt_t_chr_avt_shirt_vampire.tif
+}
+<Texture> tt_t_chr_avt_shirt_supertoon {
+  tt_t_chr_avt_shirt_supertoon.tif
+}
+<Texture> tt_t_chr_avt_shirt_pirate {
+  tt_t_chr_avt_shirt_pirate.tif
+}
+<Texture> tt_t_chr_avt_shirt_dinosaur {
+  tt_t_chr_avt_shirt_dinosaur.tif
+}
+<Texture> tt_t_chr_avt_shirt_bee {
+  tt_t_chr_avt_shirt_bee.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_vampire {
+  tt_t_chr_avt_shirtSleeve_vampire.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_supertoon {
+  tt_t_chr_avt_shirtSleeve_supertoon.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_pirate {
+  tt_t_chr_avt_shirtSleeve_pirate.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_dinosaur {
+  tt_t_chr_avt_shirtSleeve_dinosaur.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_bee {
+  tt_t_chr_avt_shirtSleeve_bee.tif
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_chr_avt_skirt_pirate {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_skirt_pirate }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shorts_vampire {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shorts_vampire }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shorts_supertoon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shorts_supertoon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shorts_pirate {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shorts_pirate }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shorts_dinosaur {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shorts_dinosaur }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shorts_bee {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shorts_bee }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_vampire {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_vampire }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_supertoon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_supertoon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_pirate {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_pirate }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_dinosaur {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_dinosaur }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_bee {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_bee }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_vampire {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_vampire }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_supertoon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_supertoon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_pirate {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_pirate }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_dinosaur {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_dinosaur }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_bee {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_bee }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

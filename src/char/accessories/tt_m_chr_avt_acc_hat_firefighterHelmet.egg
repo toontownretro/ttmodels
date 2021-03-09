@@ -1,0 +1,610 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "bam2egg 'phase_4\models\accessories\tt_m_chr_avt_acc_hat_firefighterHelmet.bam' 'phase_4\models\accessories\tt_m_chr_avt_acc_hat_firefighterHelmet.egg'"
+}
+<Texture> tt_t_chr_avt_acc_hat_firefighterHelmet {
+  "tt_t_chr_avt_acc_hat_firefighterHelmet.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> tt_m_chr_avt_acc_hat_firefighterHelmet.egg {
+  <Vertex> 0 {
+    -1.33170998096466 1.80792999267578 0.00371897988952696
+    <UV> { 0.193507000803947 0.69250100851059 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 1 {
+    -1.53639996051788 3.11005997657776 0.00314147002063692
+    <UV> { 0.164011999964714 0.942268013954163 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 2 {
+    -2.04419994354248 2.73093008995056 0.00372057990171015
+    <UV> { 0.0644174963235855 0.873697996139526 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 3 {
+    1.53639996051788 3.11005997657776 0.00314227002672851
+    <UV> { 0.164011999964714 0.942268013954163 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 4 {
+    1.33170998096466 1.80792999267578 0.00371977989561856
+    <UV> { 0.193507000803947 0.69250100851059 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 5 {
+    2.04419994354248 2.73093008995056 0.00372137990780175
+    <UV> { 0.0644173994660378 0.873697996139526 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 6 {
+    1.88332998752594 0.476217001676559 0.00371977989561856
+    <UV> { 0.0785870030522346 0.442625999450684 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 7 {
+    2.10513997077942 0.476217001676559 0.00372137990780175
+    <UV> { 0.0362958014011383 0.444249987602234 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 8 {
+    1.08427000045776 0.476217001676559 1.52504003047943
+    <UV> { 0.728572010993958 0.513019025325775 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 9 {
+    7.11301850753188e-11 0.476217001676559 1.92045998573303
+    <UV> { 0.935213029384613 0.509485006332397 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 10 {
+    0.766692996025085 -0.290477007627487 1.52504003047943
+    <UV> { 0.763370990753174 0.383870005607605 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 11 {
+    5.12013070830264e-11 -0.608052015304565 1.52504003047943
+    <UV> { 0.8906210064888 0.275182992219925 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 12 {
+    0.766692996025085 1.24291002750397 1.52504003047943
+    <UV> { 0.769743978977203 0.636951982975006 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 13 {
+    -1.95271559338961e-11 1.56047999858856 1.52504003047943
+    <UV> { 0.88137298822403 0.727840006351471 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 14 {
+    -1.08427000045776 0.476217001676559 1.52504003047943
+    <UV> { 0.728572010993958 0.513019025325775 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 15 {
+    -0.766692996025085 -0.290477007627487 1.52504003047943
+    <UV> { 0.763370990753174 0.383870005607605 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 16 {
+    -0.766692996025085 1.24291002750397 1.52504003047943
+    <UV> { 0.769743978977203 0.636951982975006 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 17 {
+    7.11301850753188e-11 0.476217001676559 1.01708996295929
+    <UV> { 0.214918002486229 0.421178996562958 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 18 {
+    -1.88332998752594 0.476217001676559 0.00371818011626601
+    <UV> { 0.410064995288849 0.421178996562958 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 19 {
+    -4.55891505102279e-11 2.35954999923706 0.00371818011626601
+    <UV> { 0.214918002486229 0.584725022315979 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 20 {
+    -1.33170998096466 1.80792999267578 0.00371818011626601
+    <UV> { 0.352907985448837 0.536823987960815 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 21 {
+    1.88332998752594 0.476217001676559 0.00371818011626601
+    <UV> { 0.410064995288849 0.421178996562958 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 22 {
+    1.33170998096466 1.80792999267578 0.00371818011626601
+    <UV> { 0.352907985448837 0.536823987960815 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 23 {
+    1.33170998096466 -0.855498015880585 0.00371818011626601
+    <UV> { 0.174014002084732 0.184673994779587 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 24 {
+    1.54007995128632 -1.04365003108978 0.00382710993289948
+    <UV> { 0.132908001542091 0.150324001908302 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 25 {
+    -3.90124987870166e-10 3.37141990661621 0.00371897988952696
+    <UV> { 0.458862006664276 0.980853974819183 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 26 {
+    6.3079608203509e-10 2.35954999923706 0.00371738011017442
+    <UV> { 0.44700700044632 0.787926018238068 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 27 {
+    -1.5741666858915e-09 -1.65237998962402 0.00372378993779421
+    <UV> { 0.422095000743866 0.0229839999228716 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 28 {
+    -1.4305444606677e-09 -1.40710997581482 0.00371818011626601
+    <UV> { 0.423891007900238 0.0697489008307457 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 29 {
+    -1.54007995128632 -1.04365003108978 0.00382710993289948
+    <UV> { 0.132907003164291 0.150324001908302 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 30 {
+    -1.33170998096466 -0.855498015880585 0.00371818011626601
+    <UV> { 0.174014002084732 0.184673994779587 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 31 {
+    -1.6391099691391 0.476217001676559 0.807034015655518
+    <UV> { 0.58330500125885 0.519623994827271 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 32 {
+    -1.88332998752594 0.476217001676559 0.00371818011626601
+    <UV> { 0.437379002571106 0.529065012931824 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 33 {
+    -1.15902996063232 -0.68281102180481 0.807034015655518
+    <UV> { 0.622466027736664 0.314610987901688 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 34 {
+    -1.33170998096466 -0.855498015880585 0.00371818011626601
+    <UV> { 0.476213008165359 0.255169987678528 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 35 {
+    6.92980048344616e-11 -1.1628999710083 0.807034015655518
+    <UV> { 0.779769003391266 0.1302590072155 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 36 {
+    7.72632999246348e-11 -1.40710997581482 0.00371818011626601
+    <UV> { 0.647122025489807 0.0200618002563715 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 37 {
+    1.15902996063232 -0.68281102180481 0.807034015655518
+    <UV> { 0.622466027736664 0.314610987901688 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 38 {
+    1.33170998096466 -0.855498015880585 0.00371818011626601
+    <UV> { 0.476213008165359 0.255169987678528 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 39 {
+    1.6391099691391 0.476217001676559 0.807034015655518
+    <UV> { 0.58330500125885 0.519623994827271 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 40 {
+    1.88332998752594 0.476217001676559 0.00371818011626601
+    <UV> { 0.437379002571106 0.529065012931824 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 41 {
+    1.15902996063232 1.63523995876312 0.807034015655518
+    <UV> { 0.643673002719879 0.713077008724213 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 42 {
+    1.33170998096466 1.80792999267578 0.00371818011626601
+    <UV> { 0.516400992870331 0.78253698348999 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 43 {
+    -3.76238554200548e-11 2.11532998085022 0.807034015655518
+    <UV> { 0.808297991752625 0.870137989521027 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 44 {
+    -4.55891505102279e-11 2.35954999923706 0.00371818011626601
+    <UV> { 0.686676979064941 0.983548998832703 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 45 {
+    -1.15902996063232 1.63523995876312 0.807034015655518
+    <UV> { 0.643673002719879 0.713077008724213 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 46 {
+    -1.33170998096466 1.80792999267578 0.00371818011626601
+    <UV> { 0.516400992870331 0.78253698348999 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 47 {
+    -1.88332998752594 0.476217001676559 0.00371897988952696
+    <UV> { 0.0785870999097824 0.442625999450684 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 48 {
+    -2.10513997077942 0.476217001676559 0.00372057990171015
+    <UV> { 0.0362958982586861 0.444249987602234 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 49 {
+    -1.33170998096466 -0.855498015880585 0.00371818011626601
+    <UV> { 0.352907985448837 0.305534988641739 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 50 {
+    7.72632999246348e-11 -1.40710997581482 0.00371818011626601
+    <UV> { 0.214918002486229 0.257633000612259 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 51 {
+    1.33170998096466 -0.855498015880585 0.00371818011626601
+    <UV> { 0.352907985448837 0.305534988641739 }
+    <RGBA> { 1 1 1 1 }
+  }
+}
+<Group> {
+  <Group> firefighterHelmet {
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 3 4 5 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 4 6 5 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 5 6 7 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 8 9 10 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 10 9 11 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 8 12 9 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 9 12 13 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 14 15 9 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 9 15 11 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 14 9 16 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 16 9 13 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 17 18 19 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 19 18 20 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 21 17 22 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 22 17 19 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 6 23 7 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 7 23 24 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 25 26 3 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 3 26 4 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 24 23 27 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 27 23 28 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 25 1 26 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 26 1 0 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 29 27 30 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 30 27 28 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 31 32 33 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 33 32 34 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 33 34 35 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 35 34 36 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 35 36 37 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 37 36 38 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 37 38 39 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 39 38 40 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 39 40 41 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 41 40 42 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 41 42 43 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 43 42 44 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 43 44 45 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 45 44 46 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 45 46 31 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 31 46 32 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 14 31 15 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 15 31 33 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 15 33 11 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 11 33 35 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 11 35 10 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 10 35 37 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 10 37 8 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 8 37 39 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 8 39 12 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 12 39 41 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 12 41 13 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 13 41 43 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 13 43 16 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 16 43 45 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 16 45 14 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 14 45 31 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 0 2 47 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 47 2 48 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 47 48 30 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 30 48 29 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 49 18 50 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 50 18 17 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 50 17 51 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_firefighterHelmet }
+      <BFace> { 1 }
+      <VertexRef> { 51 17 21 <Ref> { tt_m_chr_avt_acc_hat_firefighterHelmet.egg } }
+    }
+  }
+}

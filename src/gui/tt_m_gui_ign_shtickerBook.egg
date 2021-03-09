@@ -1,0 +1,63 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 152,152 -o tt_m_gui_ign_shtickerBook.egg ../maps/tt_t_gui_sbk_newsPage1.tif ../maps/tt_t_gui_sbk_newsPage2.tif"
+}
+<Texture> tt_t_gui_sbk_newsPage2 {
+  "../maps/tt_t_gui_sbk_newsPage2.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_sbk_newsPage1 {
+  "../maps/tt_t_gui_sbk_newsPage1.tif"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.348684210526316 0.25 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.348684210526316 -0.25 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.348684210526316 -0.25 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.348684210526316 0.25 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 4 {
+      -0.348684210526316 0.25 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 5 {
+      -0.348684210526316 -0.25 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 6 {
+      0.348684210526316 -0.25 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 7 {
+      0.348684210526316 0.25 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_gui_sbk_newsPage1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_sbk_newsPage1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_sbk_newsPage2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_sbk_newsPage2 }
+      <VertexRef> { 4 5 6 7 <Ref> { vpool } }
+    }
+  }
+}

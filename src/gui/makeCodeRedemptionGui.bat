@@ -1,0 +1,1 @@
+egg-texture-cards -wm clamp -p 152,152 -o tt_m_gui_sbk_codeRedemptionGui.egg ../maps/tt_t_gui_sbk_cdrResultPanel_success.tif ../maps/tt_t_gui_sbk_cdrResultPanel_failure.tif ../maps/tt_t_gui_sbk_cdrResultPanel_error.tif ../maps/tt_t_gui_sbk_cdrCodeBox.tif ../maps/tt_t_gui_sbk_cdrFlippy.tif ../maps/tt_t_gui_sbk_cdrPresent.tif 

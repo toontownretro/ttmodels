@@ -1,0 +1,63 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 152,152 -o tt_m_gui_gen_emblemIcons.egg ../maps/tt_t_gui_gen_emblemSilver.tif ../maps/tt_t_gui_gen_emblemGold.tif"
+}
+<Texture> tt_t_gui_gen_emblemSilver {
+  "../maps/tt_t_gui_gen_emblemSilver.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_gen_emblemGold {
+  "../maps/tt_t_gui_gen_emblemGold.tif"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.421052631578947 0.421052631578947 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.421052631578947 -0.421052631578947 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.421052631578947 -0.421052631578947 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.421052631578947 0.421052631578947 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 4 {
+      -0.421052631578947 0.421052631578947 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 5 {
+      -0.421052631578947 -0.421052631578947 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 6 {
+      0.421052631578947 -0.421052631578947 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 7 {
+      0.421052631578947 0.421052631578947 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_gui_gen_emblemSilver {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_gen_emblemSilver }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_gen_emblemGold {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_gen_emblemGold }
+      <VertexRef> { 4 5 6 7 <Ref> { vpool } }
+    }
+  }
+}

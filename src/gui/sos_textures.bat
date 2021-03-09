@@ -1,1 +1,1 @@
-egg-texture-cards disguises.tif fish.tif compass.tif gui_gear.tif switch.tif task.tif district.tif robot.tif teleportIcon.tif disguiseIcon.tif disguise2.tif gardenIcon.tif ../maps/kartIcon.PNG -o sos_textures.egg
+egg-texture-cards disguises.tif fish.tif compass.tif gui_gear.tif switch.tif task.tif district.tif robot.tif teleportIcon.tif disguiseIcon.tif disguise2.tif gardenIcon.tif ../maps/kartIcon.PNG ../maps/tt_t_gui_sbk_newsPageTab.tif -o sos_textures.egg

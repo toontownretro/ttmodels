@@ -1,6 +1,12 @@
 <Comment> {
   "egg-texture-cards ../maps/calendar_popup_birthday.png ../maps/calendar_popup_cupcake.png ../maps/calendar_popup_fun.png ../maps/tt_t_gui_sbk_calendar_popup_racing.tif ../maps/Stickerbook_PartyIcon.png ../maps/Stickerbook_PartyBalloons.png ../maps/tt_t_gui_sbk_calendar_popup_valentine1.tif -o partyStickerbook.egg"
 }
+<Texture> tt_t_gui_sbk_calendar_popup_winter1 {
+  "../maps/tt_t_gui_sbk_calendar_popup_winter1.tif"
+}
+<Texture> tt_t_gui_sbk_calendar_popup_victoryParty {
+  "../maps/tt_t_gui_sbk_calendar_popup_victoryParty.tif"
+}
 <Texture> tt_t_gui_sbk_calendar_popup_valentine1 {
   "../maps/tt_t_gui_sbk_calendar_popup_valentine1.tif"
 }
@@ -89,6 +95,20 @@
     <Polygon> {
       <RGBA> { 1 1 1 1 }
       <TRef> { tt_t_gui_sbk_calendar_popup_valentine1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_sbk_calendar_popup_victoryParty {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_sbk_calendar_popup_victoryParty }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_sbk_calendar_popup_winter1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_sbk_calendar_popup_winter1 }
       <VertexRef> { 0 1 2 3 <Ref> { vpool } }
     }
   }

@@ -61,7 +61,9 @@
     PetControlPannel.egg tt_m_gui_brd_avatarPanelBg.egg \
     tt_m_gui_brd_inviteButton.egg tt_m_gui_brd_help.egg \
     tt_m_gui_brd_leaveBtn.egg tt_m_gui_ign_newsBtnGui.egg \
-    tt_m_gui_ign_directNewsGui.egg tt_m_gui_ign_directNewsGuiNav.egg
+    tt_m_gui_ign_directNewsGui.egg tt_m_gui_ign_directNewsGuiNav.egg \
+	tt_m_gui_ign_directNewsGuiNavV2.egg tt_m_gui_ign_newsStatusBackground.egg \
+	tt_m_gui_ign_shtickerBook.egg
 
   #if $[LANGUAGE]
     #define SOURCES $[SOURCES] \
@@ -97,7 +99,6 @@
     minigame_rules_gui.egg
 
   #if $[LANGUAGE]
-    #print $[LANGUAGE] in /gui
     #define SOURCES $[SOURCES] \
       cannon_game_gui_$[LANGUAGE].egg
   #else
@@ -144,6 +145,28 @@
     tt_m_gui_brd_status.egg tt_m_gui_brd_arrow.egg \
     tt_m_gui_brd_gotoArrow.egg tt_m_gui_brd_gotoBtn.egg
   #define PHASE 9
+#end install_egg
+
+// Code Redemption Gui
+#begin install_egg
+  #define SOURCES \
+    tt_m_gui_sbk_codeRedemptionGui.egg
+  #define PHASE 3.5
+#end install_egg
+
+// Emblem Gui
+#begin install_egg
+  #define SOURCES \
+    tt_m_gui_gen_emblemIcons.egg
+  #define PHASE 3.5
+#end install_egg
+
+// GM Gui
+#begin install_egg
+  #define SOURCES \
+    tt_m_gui_gm_toonResistance_fist.egg tt_m_gui_gm_toontroop_getConnected.egg \
+	tt_m_gui_gm_toontroop_whistle.egg
+  #define PHASE 3.5
 #end install_egg
 
 // Top Toon Pictures stuff

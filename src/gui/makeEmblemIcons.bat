@@ -1,0 +1,1 @@
+egg-texture-cards -wm clamp -p 152,152 -o tt_m_gui_gen_emblemIcons.egg ../maps/tt_t_gui_gen_emblemSilver.tif ../maps/tt_t_gui_gen_emblemGold.tif

@@ -1,0 +1,95 @@
+<Comment> {
+  "egg-texture-cards -o scientist-clothes.egg tt_t_chr_shorts_scientistC.tif tt_t_chr_shorts_scientistB.tif tt_t_chr_shorts_scientistA.tif tt_t_chr_shirt_scientistC.tif tt_t_chr_shirt_scientistB.tif tt_t_chr_shirt_scientistA.tif tt_t_chr_shirtSleeve_scientist.tif"
+}
+<Texture> tt_t_chr_shorts_scientistC {
+  tt_t_chr_shorts_scientistC.tif
+}
+<Texture> tt_t_chr_shorts_scientistB {
+  tt_t_chr_shorts_scientistB.tif
+}
+<Texture> tt_t_chr_shorts_scientistA {
+  tt_t_chr_shorts_scientistA.tif
+}
+<Texture> tt_t_chr_shirt_scientistC {
+  tt_t_chr_shirt_scientistC.tif
+}
+<Texture> tt_t_chr_shirt_scientistB {
+  tt_t_chr_shirt_scientistB.tif
+}
+<Texture> tt_t_chr_shirt_scientistA {
+  tt_t_chr_shirt_scientistA.tif
+}
+<Texture> tt_t_chr_shirtSleeve_scientist {
+  tt_t_chr_shirtSleeve_scientist.tif
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_chr_shorts_scientistC {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_shorts_scientistC }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_shorts_scientistB {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_shorts_scientistB }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_shorts_scientistA {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_shorts_scientistA }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_shirt_scientistC {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_shirt_scientistC }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_shirt_scientistB {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_shirt_scientistB }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_shirt_scientistA {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_shirt_scientistA }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_shirtSleeve_scientist {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_shirtSleeve_scientist }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

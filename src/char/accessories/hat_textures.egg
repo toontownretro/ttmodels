@@ -1,0 +1,411 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "bam2egg 'phase_4\models\accessories\hat_textures.bam' 'phase_4\models\accessories\hat_textures.egg'"
+}
+<Texture> tt_t_chr_avt_acc_hat_topHatBlue {
+  "tt_t_chr_avt_acc_hat_topHatBlue.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_hat_safariGreen {
+  "tt_t_chr_avt_acc_hat_safariGreen.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_hat_safariBrown {
+  "tt_t_chr_avt_acc_hat_safariBrown.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_hat_ribbonRed {
+  "tt_t_chr_avt_acc_hat_ribbonRed.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_hat_ribbonRainbow {
+  "tt_t_chr_avt_acc_hat_ribbonRainbow.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_hat_ribbonPurple {
+  "tt_t_chr_avt_acc_hat_ribbonPurple.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_hat_ribbonPinkDots {
+  "tt_t_chr_avt_acc_hat_ribbonPinkDots.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_hat_ribbonLtRed {
+  "tt_t_chr_avt_acc_hat_ribbonLtRed.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_hat_ribbonCheckerGreen {
+  "tt_t_chr_avt_acc_hat_ribbonCheckerGreen.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_hat_ribbonChecker {
+  "tt_t_chr_avt_acc_hat_ribbonChecker.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_hat_partyToon {
+  "tt_t_chr_avt_acc_hat_partyToon.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_hat_heartYellow {
+  "tt_t_chr_avt_acc_hat_heartYellow.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_hat_baseballYellow {
+  "tt_t_chr_avt_acc_hat_baseballYellow.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_hat_baseballTeal {
+  "tt_t_chr_avt_acc_hat_baseballTeal.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_hat_baseballRed {
+  "tt_t_chr_avt_acc_hat_baseballRed.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_hat_baseballPurple {
+  "tt_t_chr_avt_acc_hat_baseballPurple.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_hat_baseballOrange {
+  "tt_t_chr_avt_acc_hat_baseballOrange.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_hat_baseballBlue {
+  "tt_t_chr_avt_acc_hat_baseballBlue.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> hat_textures.egg {
+  <Vertex> 0 {
+    -0.5 0 0.5
+    <UV> { 0 1 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 1 {
+    -0.5 0 -0.5
+    <UV> { 0 0 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 2 {
+    0.5 0 0.5
+    <UV> { 1 1 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 3 {
+    0.5 0 -0.5
+    <UV> { 1 0 }
+    <RGBA> { 1 1 1 1 }
+  }
+}
+<Group> {
+  <Group> {
+    <Switch> { 1 }
+    <Scalar> fps { 2 }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_hat_ribbonPurple {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_ribbonPurple }
+          <VertexRef> { 0 1 2 <Ref> { hat_textures.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_ribbonPurple }
+          <VertexRef> { 2 1 3 <Ref> { hat_textures.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_hat_ribbonRed {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_ribbonRed }
+          <VertexRef> { 0 1 2 <Ref> { hat_textures.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_ribbonRed }
+          <VertexRef> { 2 1 3 <Ref> { hat_textures.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_hat_heartYellow {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_heartYellow }
+          <VertexRef> { 0 1 2 <Ref> { hat_textures.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_heartYellow }
+          <VertexRef> { 2 1 3 <Ref> { hat_textures.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_hat_safariBrown {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_safariBrown }
+          <VertexRef> { 0 1 2 <Ref> { hat_textures.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_safariBrown }
+          <VertexRef> { 2 1 3 <Ref> { hat_textures.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_hat_safariGreen {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_safariGreen }
+          <VertexRef> { 0 1 2 <Ref> { hat_textures.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_safariGreen }
+          <VertexRef> { 2 1 3 <Ref> { hat_textures.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_hat_topHatBlue {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_topHatBlue }
+          <VertexRef> { 0 1 2 <Ref> { hat_textures.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_topHatBlue }
+          <VertexRef> { 2 1 3 <Ref> { hat_textures.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_hat_baseballBlue {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_baseballBlue }
+          <VertexRef> { 0 1 2 <Ref> { hat_textures.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_baseballBlue }
+          <VertexRef> { 2 1 3 <Ref> { hat_textures.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_hat_baseballOrange {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_baseballOrange }
+          <VertexRef> { 0 1 2 <Ref> { hat_textures.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_baseballOrange }
+          <VertexRef> { 2 1 3 <Ref> { hat_textures.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_hat_ribbonChecker {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_ribbonChecker }
+          <VertexRef> { 0 1 2 <Ref> { hat_textures.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_ribbonChecker }
+          <VertexRef> { 2 1 3 <Ref> { hat_textures.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_hat_ribbonLtRed {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_ribbonLtRed }
+          <VertexRef> { 0 1 2 <Ref> { hat_textures.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_ribbonLtRed }
+          <VertexRef> { 2 1 3 <Ref> { hat_textures.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_hat_ribbonRainbow {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_ribbonRainbow }
+          <VertexRef> { 0 1 2 <Ref> { hat_textures.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_ribbonRainbow }
+          <VertexRef> { 2 1 3 <Ref> { hat_textures.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_hat_baseballRed {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_baseballRed }
+          <VertexRef> { 0 1 2 <Ref> { hat_textures.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_baseballRed }
+          <VertexRef> { 2 1 3 <Ref> { hat_textures.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_hat_baseballYellow {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_baseballYellow }
+          <VertexRef> { 0 1 2 <Ref> { hat_textures.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_baseballYellow }
+          <VertexRef> { 2 1 3 <Ref> { hat_textures.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_hat_baseballTeal {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_baseballTeal }
+          <VertexRef> { 0 1 2 <Ref> { hat_textures.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_baseballTeal }
+          <VertexRef> { 2 1 3 <Ref> { hat_textures.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_hat_ribbonPinkDots {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_ribbonPinkDots }
+          <VertexRef> { 0 1 2 <Ref> { hat_textures.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_ribbonPinkDots }
+          <VertexRef> { 2 1 3 <Ref> { hat_textures.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_hat_baseballPurple {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_baseballPurple }
+          <VertexRef> { 0 1 2 <Ref> { hat_textures.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_baseballPurple }
+          <VertexRef> { 2 1 3 <Ref> { hat_textures.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_hat_ribbonCheckerGreen {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_ribbonCheckerGreen }
+          <VertexRef> { 0 1 2 <Ref> { hat_textures.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_ribbonCheckerGreen }
+          <VertexRef> { 2 1 3 <Ref> { hat_textures.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_hat_partyToon {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_partyToon }
+          <VertexRef> { 0 1 2 <Ref> { hat_textures.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_hat_partyToon }
+          <VertexRef> { 2 1 3 <Ref> { hat_textures.egg } }
+        }
+      }
+    }
+  }
+}

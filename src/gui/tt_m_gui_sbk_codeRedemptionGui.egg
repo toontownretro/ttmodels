@@ -1,0 +1,171 @@
+<Comment> {
+  "egg-texture-cards -wm clamp -p 152,152 -o tt_m_gui_sbk_codeRedemptionGui.egg ../maps/tt_t_gui_sbk_cdrResultPanel_success.tif ../maps/tt_t_gui_sbk_cdrResultPanel_failure.tif ../maps/tt_t_gui_sbk_cdrResultPanel_error.tif ../maps/tt_t_gui_sbk_cdrCodeBox.tif ../maps/tt_t_gui_sbk_cdrFlippy.tif ../maps/tt_t_gui_sbk_cdrPresent.tif"
+}
+<Texture> tt_t_gui_sbk_cdrResultPanel_success {
+  "../maps/tt_t_gui_sbk_cdrResultPanel_success.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_sbk_cdrResultPanel_failure {
+  "../maps/tt_t_gui_sbk_cdrResultPanel_failure.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_sbk_cdrResultPanel_error {
+  "../maps/tt_t_gui_sbk_cdrResultPanel_error.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_sbk_cdrPresent {
+  "../maps/tt_t_gui_sbk_cdrPresent.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_sbk_cdrFlippy {
+  "../maps/tt_t_gui_sbk_cdrFlippy.tif"
+  <Scalar> wrap { clamp }
+}
+<Texture> tt_t_gui_sbk_cdrCodeBox {
+  "../maps/tt_t_gui_sbk_cdrCodeBox.tif"
+  <Scalar> wrap { clamp }
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.421052631578947 0.842105263157895 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.421052631578947 -0.842105263157895 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.421052631578947 -0.842105263157895 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.421052631578947 0.842105263157895 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 4 {
+      -0.625 0.842105263157895 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 5 {
+      -0.625 -0.842105263157895 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 6 {
+      0.625 -0.842105263157895 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 7 {
+      0.625 0.842105263157895 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 8 {
+      -0.625 0.842105263157895 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 9 {
+      -0.625 -0.842105263157895 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 10 {
+      0.625 -0.842105263157895 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 11 {
+      0.625 0.842105263157895 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 12 {
+      -0.697368421052632 0.230263157894737 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 13 {
+      -0.697368421052632 -0.230263157894737 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 14 {
+      0.697368421052632 -0.230263157894737 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 15 {
+      0.697368421052632 0.230263157894737 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 16 {
+      -0.703947368421053 0.427631578947368 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 17 {
+      -0.703947368421053 -0.427631578947368 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 18 {
+      0.703947368421053 -0.427631578947368 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 19 {
+      0.703947368421053 0.427631578947368 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 20 {
+      -0.421052631578947 0.842105263157895 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 21 {
+      -0.421052631578947 -0.842105263157895 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 22 {
+      0.421052631578947 -0.842105263157895 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 23 {
+      0.421052631578947 0.842105263157895 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_gui_sbk_cdrResultPanel_success {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_sbk_cdrResultPanel_success }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_sbk_cdrResultPanel_failure {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_sbk_cdrResultPanel_failure }
+      <VertexRef> { 4 5 6 7 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_sbk_cdrResultPanel_error {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_sbk_cdrResultPanel_error }
+      <VertexRef> { 8 9 10 11 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_sbk_cdrCodeBox {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_sbk_cdrCodeBox }
+      <VertexRef> { 12 13 14 15 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_sbk_cdrFlippy {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_sbk_cdrFlippy }
+      <VertexRef> { 16 17 18 19 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_sbk_cdrPresent {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_sbk_cdrPresent }
+      <VertexRef> { 20 21 22 23 <Ref> { vpool } }
+    }
+  }
+}

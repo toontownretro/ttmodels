@@ -1,0 +1,1 @@
+egg-texture-cards -wm clamp -p 152,152 -o tt_m_gui_ign_newsStatusBackground.egg ../maps/tt_i_art_err1.tif

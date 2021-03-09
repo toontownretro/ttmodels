@@ -18,6 +18,7 @@
     stPats-clothes.egg 4thJuly-clothes.egg contestWinner-clothes.egg \
     cowboy-clothes.egg pajama-clothes.egg catalog-clothes7.egg \
     tt_m_chr_avt_winterBottoms.egg special-award-clothes.egg \
-    special-award-clothes-2.egg special-award-clothes-3.egg
+    special-award-clothes-2.egg special-award-clothes-3.egg \
+	scientist-clothes.egg halloween-2011-clothes.egg
   #define PHASE 4
 #end install_egg

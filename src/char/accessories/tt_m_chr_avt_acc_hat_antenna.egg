@@ -1,0 +1,1006 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "bam2egg 'phase_4\models\accessories\tt_m_chr_avt_acc_hat_antenna.bam' 'phase_4\models\accessories\tt_m_chr_avt_acc_hat_antenna.egg'"
+}
+<Texture> tt_t_chr_avt_acc_hat_antenna {
+  "tt_t_chr_avt_acc_hat_antenna.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> tt_m_chr_avt_acc_hat_antenna.egg {
+  <Vertex> 0 {
+    -1.15020000934601 0.359384000301361 2.6207799911499
+    <UV> { 0.562408983707428 0.657518029212952 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 1 {
+    -1.08668994903564 0.296375006437302 2.71949005126953
+    <UV> { 0.52410101890564 0.650807023048401 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 2 {
+    -1.43745005130768 0.354074001312256 2.58094000816345
+    <UV> { 0.574123024940491 0.736782014369965 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 3 {
+    1.14548003673553 0.362138003110886 2.6207799911499
+    <UV> { 0.562408983707428 0.657518029212952 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 4 {
+    1.43272995948792 0.35682800412178 2.58094000816345
+    <UV> { 0.574123024940491 0.736782014369965 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 5 {
+    1.08197999000549 0.299129009246826 2.71949005126953
+    <UV> { 0.52410101890564 0.650807023048401 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 6 {
+    0.861863970756531 0.33890900015831 0.880641996860504
+    <UV> { 0.931822001934052 0.82244998216629 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 7 {
+    1.19328999519348 0.285522997379303 0.489679008722305
+    <UV> { 0.817396998405457 0.952588975429535 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 8 {
+    0.743149995803833 0.308669000864029 0.502465009689331
+    <UV> { 0.81047797203064 0.844658970832825 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 9 {
+    1.23883998394012 0.179272994399071 -0.0990590006113052
+    <UV> { 0.629447996616364 0.986588001251221 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 10 {
+    0 0.362504988908768 1.04926002025604
+    <UV> { 0.972993016242981 0.551605999469757 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 11 {
+    0 0.327075988054276 0.796085000038147
+    <UV> { 0.893351018428802 0.555100977420807 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 12 {
+    -0.861863970756531 -0.134500995278358 0.946888983249664
+    <UV> { 0.931822001934052 0.82244998216629 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 13 {
+    -1.19328999519348 -0.187886998057365 0.555925011634827
+    <UV> { 0.817396998405457 0.952588975429535 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 14 {
+    -0.743149995803833 -0.164740994572639 0.568705976009369
+    <UV> { 0.81047797203064 0.844658970832825 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 15 {
+    -1.23883998394012 -0.294135004281998 -0.0328093990683556
+    <UV> { 0.629447996616364 0.986588001251221 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 16 {
+    -0.861863970756531 0.33890900015831 0.880641996860504
+    <UV> { 0.931822001934052 0.82244998216629 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 17 {
+    -0.743149995803833 0.308669000864029 0.502465009689331
+    <UV> { 0.810440003871918 0.844660997390747 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 18 {
+    -1.19328999519348 0.285522997379303 0.489679008722305
+    <UV> { 0.817318022251129 0.95259302854538 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 19 {
+    -1.23883998394012 0.179272994399071 -0.0990590006113052
+    <UV> { 0.629279017448425 0.986595988273621 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 20 {
+    0 -0.11090499907732 1.11550998687744
+    <UV> { 0.972993016242981 0.557233989238739 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 21 {
+    0 -0.146332994103432 0.862331986427307
+    <UV> { 0.893351018428802 0.560729026794434 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 22 {
+    0.222469002008438 0.0839931964874268 0.890847027301788
+    <UV> { 0.343396991491318 0.0190386008471251 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 23 {
+    0.698233008384705 0.30842399597168 2.95973992347717
+    <UV> { 0.351639986038208 0.761021971702576 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 24 {
+    0.179832994937897 0.157312005758286 0.890847027301788
+    <UV> { 0.285180985927582 0.0188919007778168 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 25 {
+    0.650524973869324 0.514665007591248 2.97766995429993
+    <UV> { 0.285180985927582 0.78644198179245 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 26 {
+    -0.227183997631073 0.0812390968203545 0.890847027301788
+    <UV> { 0.343396991491318 0.0190386008471251 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 27 {
+    -0.702947974205017 0.305669009685516 2.95973992347717
+    <UV> { 0.351639986038208 0.761021971702576 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 28 {
+    -0.322506994009018 0.125586003065109 0.866881012916565
+    <UV> { 0.398153007030487 0.0197321008890867 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 29 {
+    -0.805559992790222 0.390094012022018 2.85116004943848
+    <UV> { 0.398153007030487 0.739353001117706 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 30 {
+    -0.655239999294281 0.511910974979401 2.97766995429993
+    <UV> { 0.285180985927582 0.78644198179245 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 31 {
+    -0.184548005461693 0.154558002948761 0.890847027301788
+    <UV> { 0.285180985927582 0.0188919007778168 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 32 {
+    -0.805559992790222 0.390094012022018 2.85116004943848
+    <UV> { 0.351639986038208 0.761021971702576 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 33 {
+    -0.322506994009018 0.125586003065109 0.866881012916565
+    <UV> { 0.343396991491318 0.0190386008471251 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 34 {
+    -1.40111005306244 0.421494990587234 3.0720899105072
+    <UV> { 0.536781013011932 0.877981007099152 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 35 {
+    -1.44446003437042 0.557693004608154 3.27820992469788
+    <UV> { 0.526001989841461 0.96316397190094 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 36 {
+    -1.63260996341705 0.36591500043869 2.66978001594543
+    <UV> { 0.695959985256195 0.809408009052277 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 37 {
+    -1.8204300403595 0.482383996248245 2.66765999794006
+    <UV> { 0.758260011672974 0.857288002967834 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 38 {
+    -1.15020000934601 0.359384000301361 2.6207799911499
+    <UV> { 0.52410101890564 0.650807023048401 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 39 {
+    -1.04767000675201 0.462859004735947 2.761470079422
+    <UV> { 0.479838997125626 0.644804000854492 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 40 {
+    1.23883998394012 0.179272994399071 -0.0990590006113052
+    <UV> { 0.150152996182442 0.0628836005926132 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 41 {
+    1.23883998394012 -0.294135004281998 -0.0328093990683556
+    <UV> { 0.264367014169693 0.0628836005926132 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 42 {
+    0.743149995803833 0.308669000864029 0.502465009689331
+    <UV> { 0.150152996182442 0.24618099629879 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 43 {
+    0.743149995803833 -0.164740994572639 0.568705976009369
+    <UV> { 0.264367014169693 0.24618099629879 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 44 {
+    0 0.327075988054276 0.796085000038147
+    <UV> { 0.150152996182442 0.498544991016388 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 45 {
+    0 -0.146332994103432 0.862331986427307
+    <UV> { 0.264367014169693 0.498544991016388 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 46 {
+    -0.743149995803833 0.308669000864029 0.502465009689331
+    <UV> { 0.150152996182442 0.750908970832825 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 47 {
+    -0.743149995803833 -0.164740994572639 0.568705976009369
+    <UV> { 0.264367014169693 0.750908970832825 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 48 {
+    -1.23883998394012 0.179272994399071 -0.0990590006113052
+    <UV> { 0.150152996182442 0.934204995632172 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 49 {
+    -1.23883998394012 -0.294135004281998 -0.0328093990683556
+    <UV> { 0.264367014169693 0.934204995632172 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 50 {
+    1.23883998394012 -0.294135004281998 -0.0328093990683556
+    <UV> { 0.124458000063896 0.974457979202271 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 51 {
+    1.23883998394012 0.179272994399071 -0.0990590006113052
+    <UV> { 0.0121678998693824 0.974457979202271 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 52 {
+    1.19328999519348 -0.187886998057365 0.555925011634827
+    <UV> { 0.124458000063896 0.83235901594162 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 53 {
+    1.19328999519348 0.285522997379303 0.489679008722305
+    <UV> { 0.0121678998693824 0.83235901594162 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 54 {
+    0.861863970756531 -0.134500995278358 0.946888983249664
+    <UV> { 0.124458000063896 0.703450977802277 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 55 {
+    0.861863970756531 0.33890900015831 0.880641996860504
+    <UV> { 0.0121678998693824 0.703450977802277 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 56 {
+    0 -0.11090499907732 1.11550998687744
+    <UV> { 0.124458000063896 0.500304996967316 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 57 {
+    0 0.362504988908768 1.04926002025604
+    <UV> { 0.0121678998693824 0.500304996967316 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 58 {
+    -0.861863970756531 -0.134500995278358 0.946888983249664
+    <UV> { 0.124458000063896 0.297159999608994 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 59 {
+    -0.861863970756531 0.33890900015831 0.880641996860504
+    <UV> { 0.0121678998693824 0.297159999608994 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 60 {
+    -1.19328999519348 -0.187886998057365 0.555925011634827
+    <UV> { 0.124458000063896 0.168250992894173 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 61 {
+    -1.19328999519348 0.285522997379303 0.489679008722305
+    <UV> { 0.0121678998693824 0.168250992894173 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 62 {
+    -1.23883998394012 -0.294135004281998 -0.0328093990683556
+    <UV> { 0.124458000063896 0.0261528994888067 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 63 {
+    -1.23883998394012 0.179272994399071 -0.0990590006113052
+    <UV> { 0.0121678998693824 0.0261528994888067 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 64 {
+    1.23883998394012 -0.294135004281998 -0.0328093990683556
+    <UV> { 0.629447996616364 0.986588001251221 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 65 {
+    1.19328999519348 -0.187886998057365 0.555925011634827
+    <UV> { 0.817396998405457 0.952588975429535 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 66 {
+    0.743149995803833 -0.164740994572639 0.568705976009369
+    <UV> { 0.810468971729279 0.844659984111786 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 67 {
+    0.861863970756531 -0.134500995278358 0.946888983249664
+    <UV> { 0.931800007820129 0.822450995445251 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 68 {
+    0 -0.146332994103432 0.862331986427307
+    <UV> { 0.893216013908386 0.560734987258911 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 69 {
+    0 -0.11090499907732 1.11550998687744
+    <UV> { 0.972842991352081 0.557241022586823 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 70 {
+    -1.40111005306244 0.421494990587234 3.0720899105072
+    <UV> { 0.547608971595764 0.843872010707855 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 71 {
+    -1.38985002040863 0.33831399679184 3.20288991928101
+    <UV> { 0.536781013011932 0.877981007099152 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 72 {
+    -1.44446003437042 0.557693004608154 3.27820992469788
+    <UV> { 0.525656998157501 0.961652994155884 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 73 {
+    -1.63260996341705 0.36591500043869 2.66978001594543
+    <UV> { 0.663221001625061 0.783159971237183 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 74 {
+    -1.70299005508423 0.252959996461868 2.69825005531311
+    <UV> { 0.695959985256195 0.809408009052277 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 75 {
+    -1.39932000637054 0.318165004253387 2.3115599155426
+    <UV> { 0.71035897731781 0.641542017459869 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 76 {
+    -1.4386500120163 0.39300799369812 2.08569002151489
+    <UV> { 0.775964021682739 0.606507003307343 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 77 {
+    -1.41367995738983 0.186766996979713 2.24185991287231
+    <UV> { 0.71035897731781 0.641542017459869 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 78 {
+    -1.39932000637054 0.318165004253387 2.3115599155426
+    <UV> { 0.671051025390625 0.662222981452942 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 79 {
+    -1.09417998790741 0.33296599984169 2.42260003089905
+    <UV> { 0.591723024845123 0.582297027111053 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 80 {
+    -0.883946001529694 0.411673992872238 2.31978988647461
+    <UV> { 0.580062985420227 0.515742003917694 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 81 {
+    -1.01617002487183 0.230076000094414 2.40023994445801
+    <UV> { 0.591723024845123 0.582297027111053 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 82 {
+    -1.09417998790741 0.33296599984169 2.42260003089905
+    <UV> { 0.595448017120361 0.619890987873077 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 83 {
+    1.43974995613098 0.560446977615356 3.27820992469788
+    <UV> { 0.525656998157501 0.961652994155884 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 84 {
+    1.38513994216919 0.341067999601364 3.20288991928101
+    <UV> { 0.536781013011932 0.877981007099152 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 85 {
+    1.81571996212006 0.48513799905777 2.66765999794006
+    <UV> { 0.758260011672974 0.857288002967834 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 86 {
+    1.69826996326447 0.255713999271393 2.69825005531311
+    <UV> { 0.695959985256195 0.809408009052277 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 87 {
+    1.43393003940582 0.395761996507645 2.08569002151489
+    <UV> { 0.775964021682739 0.606507003307343 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 88 {
+    1.40896999835968 0.189520999789238 2.24185991287231
+    <UV> { 0.71035897731781 0.641542017459869 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 89 {
+    0.879230976104736 0.414427995681763 2.31978988647461
+    <UV> { 0.580062985420227 0.515742003917694 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 90 {
+    1.01145994663239 0.232830002903938 2.40023994445801
+    <UV> { 0.591723024845123 0.582297027111053 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 91 {
+    1.04295003414154 0.465613007545471 2.761470079422
+    <UV> { 0.479838997125626 0.644804000854492 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 92 {
+    1.08946001529694 0.335720986127853 2.42260003089905
+    <UV> { 0.595448017120361 0.619890987873077 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 93 {
+    1.39461004734039 0.320919007062912 2.3115599155426
+    <UV> { 0.671051025390625 0.662222981452942 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 94 {
+    1.62788999080658 0.368669003248215 2.66978001594543
+    <UV> { 0.663221001625061 0.783159971237183 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 95 {
+    1.396399974823 0.424248993396759 3.0720899105072
+    <UV> { 0.547608971595764 0.843872010707855 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 96 {
+    0.80084502696991 0.392848014831543 2.85116004943848
+    <UV> { 0.398153007030487 0.739353001117706 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 97 {
+    0.317790985107422 0.128340005874634 0.866881012916565
+    <UV> { 0.398153007030487 0.0197321008890867 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 98 {
+    1.14548003673553 0.362138003110886 2.6207799911499
+    <UV> { 0.52410101890564 0.650807023048401 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 99 {
+    1.08946001529694 0.335720986127853 2.42260003089905
+    <UV> { 0.591723024845123 0.582297027111053 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 100 {
+    1.39461004734039 0.320919007062912 2.3115599155426
+    <UV> { 0.71035897731781 0.641542017459869 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 101 {
+    1.62788999080658 0.368669003248215 2.66978001594543
+    <UV> { 0.695959985256195 0.809408009052277 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 102 {
+    1.43974995613098 0.560446977615356 3.27820992469788
+    <UV> { 0.526001989841461 0.96316397190094 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 103 {
+    1.396399974823 0.424248993396759 3.0720899105072
+    <UV> { 0.536781013011932 0.877981007099152 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 104 {
+    0.80084502696991 0.392848014831543 2.85116004943848
+    <UV> { 0.351639986038208 0.761021971702576 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 105 {
+    0.317790985107422 0.128340005874634 0.866881012916565
+    <UV> { 0.343396991491318 0.0190386008471251 }
+    <RGBA> { 1 1 1 1 }
+  }
+}
+<Group> {
+  <Group> tt_m_chr_avt_acc_hat_antenna {
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 0 1 2 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 3 4 5 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 6 7 8 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 8 7 9 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 6 8 10 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 10 8 11 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 12 13 14 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 14 13 15 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 16 17 18 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 18 17 19 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 16 10 17 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 17 10 11 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 20 12 21 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 21 12 14 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 22 23 24 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 24 23 25 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 26 27 28 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 28 27 29 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 30 31 32 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 32 31 33 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 32 34 30 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 30 34 35 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 34 36 35 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 35 36 37 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 38 2 39 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 39 2 1 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 26 31 27 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 27 31 30 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 40 41 42 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 42 41 43 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 42 43 44 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 44 43 45 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 44 45 46 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 46 45 47 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 46 47 48 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 48 47 49 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 50 51 52 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 52 51 53 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 52 53 54 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 54 53 55 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 54 55 56 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 56 55 57 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 56 57 58 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 58 57 59 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 58 59 60 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 60 59 61 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 60 61 62 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 62 61 63 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 64 65 66 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 66 65 67 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 66 67 68 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 68 67 69 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 70 29 71 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 71 29 27 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 71 27 72 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 72 27 30 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 73 70 74 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 74 70 71 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 74 71 37 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 37 71 72 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 36 75 37 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 37 75 76 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 37 76 74 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 74 76 77 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 74 77 73 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 73 77 78 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 75 79 76 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 76 79 80 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 76 80 77 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 77 80 81 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 77 81 78 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 78 81 82 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 79 38 80 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 80 38 39 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 80 39 81 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 81 39 1 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 81 1 82 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 82 1 0 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 25 23 83 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 83 23 84 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 83 84 85 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 85 84 86 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 85 86 87 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 87 86 88 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 87 88 89 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 89 88 90 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 89 90 91 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 91 90 5 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 3 5 92 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 92 5 90 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 92 90 93 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 93 90 88 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 93 88 94 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 94 88 86 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 94 86 95 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 95 86 84 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 95 84 96 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 96 84 23 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 96 23 97 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 97 23 22 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 5 4 91 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 91 4 98 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 91 98 89 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 89 98 99 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 89 99 87 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 87 99 100 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 87 100 85 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 85 100 101 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 85 101 102 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 102 101 103 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 102 103 25 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 25 103 104 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 25 104 24 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_antenna }
+      <VertexRef> { 24 104 105 <Ref> { tt_m_chr_avt_acc_hat_antenna.egg } }
+    }
+  }
+}

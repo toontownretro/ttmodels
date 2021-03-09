@@ -1,0 +1,1 @@
+egg-texture-cards -o scientist-clothes.egg tt_t_chr_shorts_scientistC.tif tt_t_chr_shorts_scientistB.tif tt_t_chr_shorts_scientistA.tif tt_t_chr_shirt_scientistC.tif tt_t_chr_shirt_scientistB.tif tt_t_chr_shirt_scientistA.tif tt_t_chr_shirtSleeve_scientist.tif

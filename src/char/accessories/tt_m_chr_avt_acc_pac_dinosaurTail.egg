@@ -1,0 +1,752 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "bam2egg 'phase_4\models\accessories\tt_m_chr_avt_acc_pac_dinosaurTail.bam' 'phase_4\models\accessories\tt_m_chr_avt_acc_pac_dinosaurTail.egg'"
+}
+<Texture> tt_t_chr_avt_acc_pac_dinosaur {
+  "tt_t_chr_avt_acc_pac_dinosaur.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> tt_m_chr_avt_acc_pac_dinosaurTail.egg {
+  <Vertex> 0 {
+    -1.03805005550385 0.685176014900208 -0.362776011228561
+    <UV> { 0.158638998866081 0.587314009666443 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 1 {
+    -0.749768972396851 0.627255022525787 1.41280996799469
+    <UV> { 0.117383003234863 0.837406992912292 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 2 {
+    -0.698957026004791 1.26854002475739 0.466518998146057
+    <UV> { 0.219565004110336 0.778078019618988 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 3 {
+    -0.404433012008667 0.552685022354126 1.44879996776581
+    <UV> { 0.454122990369797 0.847177028656006 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 4 {
+    3.42424144594844e-11 2.0961000919342 1.10851001739502
+    <UV> { 0.951973021030426 0.793506026268005 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 5 {
+    -3.42424144594844e-11 1.4527200460434 -0.0115671996027231
+    <UV> { 0.83924800157547 0.439137995243073 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 6 {
+    -0.404433012008667 1.32149004936218 0.109806001186371
+    <UV> { 0.454122990369797 0.847177028656006 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 7 {
+    -3.42424144594844e-11 2.88173007965088 -0.546473979949951
+    <UV> { 0.951973021030426 0.793506026268005 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 8 {
+    5.13634586252198e-11 1.72073996067047 -1.21194994449615
+    <UV> { 0.83924800157547 0.439137995243073 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 9 {
+    -0.388918995857239 1.67443001270294 -1.11948001384735
+    <UV> { 0.454122990369797 0.847177028656006 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 10 {
+    1.0272691725044e-10 3.43902993202209 -1.80218994617462
+    <UV> { 0.951973021030426 0.793506026268005 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 11 {
+    -1.19848131419076e-10 2.60331010818481 -3.31487011909485
+    <UV> { 0.83924800157547 0.439137995243073 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 12 {
+    -0.398414999246597 2.58347010612488 -3.04806995391846
+    <UV> { 0.454122990369797 0.847177028656006 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 13 {
+    0.0301255006343126 3.89122009277344 -3.65172004699707
+    <UV> { 0.951973021030426 0.793506026268005 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 14 {
+    0.0754676014184952 3.35735011100769 -4.5638599395752
+    <UV> { 0.83924800157547 0.439137995243073 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 15 {
+    -0.194135993719101 3.17516994476318 -4.49193000793457
+    <UV> { 0.454122990369797 0.847177028656006 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 16 {
+    0.404724985361099 4.55248022079468 -4.80246019363403
+    <UV> { 0.951973021030426 0.793506026268005 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 17 {
+    0.591359972953796 4.65529012680054 -5.8648099899292
+    <UV> { 0.83924800157547 0.439137995243073 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 18 {
+    0.498241990804672 4.92024993896484 -6.0553297996521
+    <UV> { 0.454122990369797 0.847177028656006 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 19 {
+    1.06465995311737 5.79869985580444 -5.74644994735718
+    <UV> { 0.951973021030426 0.793506026268005 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 20 {
+    1.4156299829483 5.94054985046387 -6.45028018951416
+    <UV> { 0.83924800157547 0.439137995243073 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 21 {
+    0.698957026004791 1.26854002475739 0.466518998146057
+    <UV> { 0.219565004110336 0.778078019618988 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 22 {
+    1.21836996078491 0.191493004560471 0.0346046015620232
+    <UV> { 0.0708857029676437 0.541664004325867 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 23 {
+    1.03805005550385 0.685176014900208 -0.362776011228561
+    <UV> { 0.158638998866081 0.587314009666443 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 24 {
+    0.781481981277466 0.100615002214909 1.41349005699158
+    <UV> { 0.0189356002956629 0.740401983261108 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 25 {
+    0.749768972396851 0.627255022525787 1.41280996799469
+    <UV> { 0.117383003234863 0.837406992912292 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 26 {
+    3.42424144594844e-11 0.0789436027407646 1.79367995262146
+    <UV> { 0.0180853009223938 0.911534011363983 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 27 {
+    0 0.536378979682922 1.69230997562408
+    <UV> { 0.109658002853394 0.975120007991791 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 28 {
+    1.64535999298096 6.38807010650635 -6.53291988372803
+    <UV> { 0.978228986263275 0.143839001655579 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 29 {
+    1.52828001976013 6.29953002929688 -6.39774990081787
+    <UV> { 0.977847993373871 0.250216007232666 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 30 {
+    1.66284000873566 6.1035099029541 -6.44112014770508
+    <UV> { 0.951170980930328 0.168147996068001 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 31 {
+    0.873571991920471 4.38234996795654 -5.70684003829956
+    <UV> { 0.801639020442963 0.230321004986763 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 32 {
+    0.873211979866028 -0.102635003626347 -1.26911997795105
+    <UV> { 0.0672952979803085 0.351374000310898 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 33 {
+    0.717405021190643 1.23100996017456 -2.6723198890686
+    <UV> { 0.282346993684769 0.353006988763809 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 34 {
+    0.592505991458893 2.04922008514404 -1.78707003593445
+    <UV> { 0.377862989902496 0.570919990539551 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 35 {
+    0.631853997707367 2.30876994132996 -4.49509000778198
+    <UV> { 0.505380988121033 0.205814003944397 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 36 {
+    -8.56057100206975e-11 0.796616971492767 -3.09873008728027
+    <UV> { 0.234126999974251 0.229681998491287 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 37 {
+    0.0130609003826976 1.98091995716095 -4.85613012313843
+    <UV> { 0.447701990604401 0.079668402671814 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 38 {
+    -0.611889004707336 2.34487009048462 -4.54266023635864
+    <UV> { 0.505380988121033 0.205814003944397 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 39 {
+    0.506218016147614 4.57100009918213 -5.64939022064209
+    <UV> { 0.850001990795135 0.344610989093781 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 40 {
+    0.17145599424839 4.58198976516724 -5.89773988723755
+    <UV> { 0.801639020442963 0.230321004986763 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 41 {
+    -0.494141012430191 2.92671990394592 -4.03204011917114
+    <UV> { 0.592239022254944 0.356891989707947 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 42 {
+    -0.592505991458893 2.04922008514404 -1.78707003593445
+    <UV> { 0.377862989902496 0.570919990539551 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 43 {
+    0.00598386023193598 3.04365992546082 -3.86585998535156
+    <UV> { 0.657387971878052 0.489868998527527 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 44 {
+    0 2.15210008621216 -1.62120997905731
+    <UV> { 0.445019006729126 0.703177988529205 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 45 {
+    -0.717405021190643 1.23100996017456 -2.6723198890686
+    <UV> { 0.282346993684769 0.353006988763809 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 46 {
+    -3.42424144594844e-11 1.4527200460434 -0.0115671996027231
+    <UV> { 0.839102983474731 0.439103990793228 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 47 {
+    0.404433012008667 0.552685022354126 1.44879996776581
+    <UV> { 0.454122990369797 0.847177028656006 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 48 {
+    -0.404433012008667 0.552685022354126 1.44879996776581
+    <UV> { 0.525433003902435 0.96219402551651 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 49 {
+    5.13634586252198e-11 1.72073996067047 -1.21194994449615
+    <UV> { 0.839102983474731 0.439103990793228 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 50 {
+    0.404433012008667 1.32149004936218 0.109806001186371
+    <UV> { 0.454122990369797 0.847177028656006 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 51 {
+    -0.404433012008667 1.32149004936218 0.109806001186371
+    <UV> { 0.525433003902435 0.96219402551651 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 52 {
+    -1.19848131419076e-10 2.60331010818481 -3.31487011909485
+    <UV> { 0.839102983474731 0.439103990793228 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 53 {
+    0.388918995857239 1.67443001270294 -1.11948001384735
+    <UV> { 0.454122990369797 0.847177028656006 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 54 {
+    -0.388918995857239 1.67443001270294 -1.11948001384735
+    <UV> { 0.525433003902435 0.96219402551651 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 55 {
+    0.0754676014184952 3.35735011100769 -4.5638599395752
+    <UV> { 0.839102983474731 0.439103990793228 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 56 {
+    0.398414999246597 2.58347010612488 -3.04806995391846
+    <UV> { 0.454122990369797 0.847177028656006 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 57 {
+    -0.398414999246597 2.58347010612488 -3.04806995391846
+    <UV> { 0.525433003902435 0.96219402551651 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 58 {
+    0.591359972953796 4.65529012680054 -5.8648099899292
+    <UV> { 0.839102983474731 0.439103990793228 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 59 {
+    0.424762010574341 3.10139989852905 -4.40663003921509
+    <UV> { 0.454122990369797 0.847177028656006 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 60 {
+    -0.194135993719101 3.17516994476318 -4.49193000793457
+    <UV> { 0.525433003902435 0.96219402551651 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 61 {
+    1.4156299829483 5.94054985046387 -6.45028018951416
+    <UV> { 0.839102983474731 0.439103990793228 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 62 {
+    1.0161999464035 4.74442005157471 -5.89620018005371
+    <UV> { 0.454122990369797 0.847177028656006 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 63 {
+    0.498241990804672 4.92024993896484 -6.0553297996521
+    <UV> { 0.525433003902435 0.96219402551651 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 64 {
+    1.59672999382019 6.1138801574707 -6.81374979019165
+    <UV> { 0.921009004116058 0.036838598549366 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 65 {
+    1.72236001491547 6.010009765625 -6.58125019073486
+    <UV> { 0.929847002029419 0.12126500159502 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 66 {
+    1.01960003376007 4.14467000961304 -6.05769014358521
+    <UV> { 0.754871010780334 0.130495995283127 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 67 {
+    0.509365022182465 2.89685010910034 -3.99285006523132
+    <UV> { 0.592239022254944 0.356891989707947 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 68 {
+    0.612621009349823 4.12013006210327 -6.50987005233765
+    <UV> { 0.709703981876373 0.0201945006847382 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 69 {
+    -0.781481981277466 0.100615002214909 1.41349005699158
+    <UV> { 0.0189356002956629 0.740401983261108 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 70 {
+    -3.42424144594844e-11 1.31906998157501 0.681635022163391
+    <UV> { 0.278822988271713 0.921528995037079 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 71 {
+    0.113840997219086 4.40443992614746 -6.30550003051758
+    <UV> { 0.754871010780334 0.130495995283127 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 72 {
+    1.36127996444702 6.28693008422852 -6.57285022735596
+    <UV> { 0.951170980930328 0.168147996068001 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 73 {
+    1.34926998615265 6.23526000976562 -6.7435998916626
+    <UV> { 0.929847002029419 0.12126500159502 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 74 {
+    -1.21836996078491 0.191493004560471 0.0346046015620232
+    <UV> { 0.0708857029676437 0.541664004325867 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 75 {
+    -0.873211979866028 -0.102635003626347 -1.26911997795105
+    <UV> { 0.0672952979803085 0.351374000310898 }
+    <RGBA> { 1 1 1 1 }
+  }
+}
+<Group> {
+  <Group> dinosaurTail {
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 0 1 2 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 3 4 5 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 6 7 8 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 9 10 11 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 12 13 14 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 15 16 17 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 18 19 20 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 21 22 23 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 24 25 26 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 26 25 27 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 28 29 30 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 30 29 31 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 22 32 23 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 23 32 33 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 21 23 34 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 34 23 33 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 24 22 25 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 25 22 21 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 35 36 37 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 37 36 38 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 31 29 39 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 39 29 40 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 41 42 43 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 43 42 44 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 41 38 42 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 42 38 45 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 46 4 47 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 47 4 48 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 49 7 50 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 50 7 51 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 52 10 53 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 53 10 54 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 55 13 56 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 56 13 57 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 58 16 59 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 59 16 60 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 61 19 62 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 62 19 63 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 64 28 65 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 65 28 30 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 65 30 66 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 66 30 31 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 66 31 35 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 35 31 67 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 32 36 33 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 33 36 35 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 33 35 34 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 34 35 67 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 35 37 66 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 66 37 68 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 66 68 65 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 65 68 64 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 69 26 1 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 1 26 27 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 1 27 2 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 2 27 70 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 70 44 2 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 2 44 42 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 2 42 0 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 0 42 45 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 43 39 41 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 41 39 40 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 41 40 38 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 38 40 71 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 38 71 37 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 37 71 68 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 40 29 72 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 72 29 28 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 72 28 73 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 73 28 64 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 69 1 74 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 74 1 0 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 74 0 75 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 75 0 45 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 75 45 36 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 36 45 38 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 64 68 73 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 73 68 71 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 73 71 72 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 72 71 40 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 27 25 70 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 70 25 21 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 70 21 44 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 44 21 34 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 44 34 43 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 43 34 67 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 43 67 39 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_pac_dinosaur }
+      <VertexRef> { 39 67 31 <Ref> { tt_m_chr_avt_acc_pac_dinosaurTail.egg } }
+    }
+  }
+}

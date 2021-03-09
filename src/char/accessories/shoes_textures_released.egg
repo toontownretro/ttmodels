@@ -1,0 +1,285 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "bam2egg 'phase_4\models\accessories\shoes_textures_released.bam' 'phase_4\models\accessories\shoes_textures_released.egg'"
+}
+<Texture> tt_t_chr_avt_acc_sho_wingtips {
+  "tt_t_chr_avt_acc_sho_wingtips.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_sho_maryJaneShoes {
+  "tt_t_chr_avt_acc_sho_maryJaneShoes.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_sho_fashionBootsPurpleLL {
+  "tt_t_chr_avt_acc_sho_fashionBootsPurpleLL.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_sho_fashionBootsPurple {
+  "tt_t_chr_avt_acc_sho_fashionBootsPurple.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_sho_deckShoes {
+  "tt_t_chr_avt_acc_sho_deckShoes.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_sho_cowboyBootsLL {
+  "tt_t_chr_avt_acc_sho_cowboyBootsLL.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_sho_cowboyBoots {
+  "tt_t_chr_avt_acc_sho_cowboyBoots.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_sho_converseStyleWhite {
+  "tt_t_chr_avt_acc_sho_converseStyleWhite.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_sho_converseStylePink {
+  "tt_t_chr_avt_acc_sho_converseStylePink.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_sho_converseStyleBlack {
+  "tt_t_chr_avt_acc_sho_converseStyleBlack.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_sho_athleticYellow {
+  "tt_t_chr_avt_acc_sho_athleticYellow.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<Texture> tt_t_chr_avt_acc_sho_athleticRed {
+  "tt_t_chr_avt_acc_sho_athleticRed.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> shoes_textures_released.egg {
+  <Vertex> 0 {
+    -0.5 0 0.5
+    <UV> { 0 1 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 1 {
+    -0.5 0 -0.5
+    <UV> { 0 0 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 2 {
+    0.5 0 0.5
+    <UV> { 1 1 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 3 {
+    0.5 0 -0.5
+    <UV> { 1 0 }
+    <RGBA> { 1 1 1 1 }
+  }
+}
+<Group> {
+  <Group> {
+    <Switch> { 1 }
+    <Scalar> fps { 2 }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_sho_athleticRed {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_athleticRed }
+          <VertexRef> { 0 1 2 <Ref> { shoes_textures_released.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_athleticRed }
+          <VertexRef> { 2 1 3 <Ref> { shoes_textures_released.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_sho_converseStyleBlack {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_converseStyleBlack }
+          <VertexRef> { 0 1 2 <Ref> { shoes_textures_released.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_converseStyleBlack }
+          <VertexRef> { 2 1 3 <Ref> { shoes_textures_released.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_sho_converseStyleWhite {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_converseStyleWhite }
+          <VertexRef> { 0 1 2 <Ref> { shoes_textures_released.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_converseStyleWhite }
+          <VertexRef> { 2 1 3 <Ref> { shoes_textures_released.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_sho_converseStylePink {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_converseStylePink }
+          <VertexRef> { 0 1 2 <Ref> { shoes_textures_released.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_converseStylePink }
+          <VertexRef> { 2 1 3 <Ref> { shoes_textures_released.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_sho_wingtips {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_wingtips }
+          <VertexRef> { 0 1 2 <Ref> { shoes_textures_released.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_wingtips }
+          <VertexRef> { 2 1 3 <Ref> { shoes_textures_released.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_sho_maryJaneShoes {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_maryJaneShoes }
+          <VertexRef> { 0 1 2 <Ref> { shoes_textures_released.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_maryJaneShoes }
+          <VertexRef> { 2 1 3 <Ref> { shoes_textures_released.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_sho_deckShoes {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_deckShoes }
+          <VertexRef> { 0 1 2 <Ref> { shoes_textures_released.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_deckShoes }
+          <VertexRef> { 2 1 3 <Ref> { shoes_textures_released.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_sho_athleticYellow {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_athleticYellow }
+          <VertexRef> { 0 1 2 <Ref> { shoes_textures_released.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_athleticYellow }
+          <VertexRef> { 2 1 3 <Ref> { shoes_textures_released.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_sho_cowboyBoots {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_cowboyBoots }
+          <VertexRef> { 0 1 2 <Ref> { shoes_textures_released.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_cowboyBoots }
+          <VertexRef> { 2 1 3 <Ref> { shoes_textures_released.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_sho_cowboyBootsLL {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_cowboyBootsLL }
+          <VertexRef> { 0 1 2 <Ref> { shoes_textures_released.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_cowboyBootsLL }
+          <VertexRef> { 2 1 3 <Ref> { shoes_textures_released.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_sho_fashionBootsPurple {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_fashionBootsPurple }
+          <VertexRef> { 0 1 2 <Ref> { shoes_textures_released.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_fashionBootsPurple }
+          <VertexRef> { 2 1 3 <Ref> { shoes_textures_released.egg } }
+        }
+      }
+    }
+    <Group> {
+      <Group> tt_t_chr_avt_acc_sho_fashionBootsPurpleLL {
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_fashionBootsPurpleLL }
+          <VertexRef> { 0 1 2 <Ref> { shoes_textures_released.egg } }
+        }
+        <Polygon> {
+          <TRef> { tt_t_chr_avt_acc_sho_fashionBootsPurpleLL }
+          <VertexRef> { 2 1 3 <Ref> { shoes_textures_released.egg } }
+        }
+      }
+    }
+  }
+}

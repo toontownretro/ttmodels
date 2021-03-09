@@ -1,0 +1,885 @@
+<CoordinateSystem> { Z-Up }
+
+<Comment> {
+  "bam2egg 'phase_4\models\accessories\tt_m_chr_avt_acc_hat_mickeysBandConductorHat.bam' 'phase_4\models\accessories\tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg'"
+}
+<Texture> tt_t_chr_avt_acc_hat_mickeysBandConductorHat {
+  "tt_t_chr_avt_acc_hat_mickeysBandConductorHat.tif"
+  <Scalar> format { rgb }
+  <Scalar> wrapu { repeat }
+  <Scalar> wrapv { repeat }
+  <Scalar> minfilter { linear_mipmap_linear }
+  <Scalar> magfilter { linear }
+  <Scalar> envtype { modulate }
+}
+<VertexPool> tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg {
+  <Vertex> 0 {
+    0.00491501996293664 -1.31623995304108 0.161310002207756
+    <UV> { 0.658427000045776 0.447535008192062 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 1 {
+    -1.00611996650696 -1.03137004375458 0.161309003829956
+    <UV> { 0.461634010076523 0.482073992490768 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 2 {
+    -1.02709996700287 -2.15313005447388 0.12185800075531
+    <UV> { 0.472131013870239 0.280732989311218 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 3 {
+    -1.06997001171112 0.513387978076935 -0.165453001856804
+    <UV> { 0.981212973594666 0.842118978500366 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 4 {
+    -1.00523996353149 -1.03136003017426 -0.165457993745804
+    <UV> { 0.983262002468109 0.522840976715088 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 5 {
+    -0.986983001232147 0.530933976173401 0.160968005657196
+    <UV> { 0.907311975955963 0.841746985912323 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 6 {
+    2.55835441720365e-09 -0.239277005195618 1.18014001846313
+    <UV> { 0.465898990631104 0.649950981140137 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 7 {
+    1.00523996353149 -1.03136003017426 -0.165457993745804
+    <UV> { 0.348928987979889 0.524675011634827 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 8 {
+    -1.00523996353149 -1.03136003017426 -0.165457993745804
+    <UV> { 0.578131973743439 0.520413994789124 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 9 {
+    0.986983001232147 0.530933976173401 0.160968005657196
+    <UV> { 0.415780007839203 0.457331001758575 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 10 {
+    0.616712987422943 0.0590741001069546 2.23586988449097
+    <UV> { 0.175181999802589 0.41210401058197 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 11 {
+    0.778560996055603 -0.742470979690552 1.44969999790192
+    <UV> { 0.216643005609512 0.602945983409882 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 12 {
+    0.00425944989547133 -0.537056028842926 1.64864003658295
+    <UV> { 0.0184241998940706 0.580022990703583 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 13 {
+    0.00425944989547133 0.20092299580574 2.37739992141724
+    <UV> { 0.132537007331848 0.310139000415802 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 14 {
+    -0.986983001232147 0.530933976173401 0.160968005657196
+    <UV> { 0.415780007839203 0.457331001758575 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 15 {
+    -0.778560996055603 -0.742470979690552 1.44969999790192
+    <UV> { 0.216643005609512 0.602945983409882 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 16 {
+    -0.616712987422943 0.0590739995241165 2.23586988449097
+    <UV> { 0.175181999802589 0.41210401058197 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 17 {
+    0.00425944989547133 -0.537056028842926 1.64864003658295
+    <UV> { 0.0195973999798298 0.580022990703583 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 18 {
+    0.00425944989547133 0.20092299580574 2.37739992141724
+    <UV> { 0.132650002837181 0.310139000415802 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 19 {
+    -0.230956003069878 -1.88336002826691 4.50792980194092
+    <UV> { 0.328559994697571 0.886702001094818 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 20 {
+    -0.0246072001755238 -1.82985997200012 2.92710995674133
+    <UV> { 0.534803986549377 0.92264997959137 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 21 {
+    -0.0246072001755238 -2.02074003219604 4.93736982345581
+    <UV> { 0.272531986236572 0.92264997959137 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 22 {
+    0.280256003141403 -1.57598996162415 1.76259994506836
+    <UV> { 0.68673300743103 0.975759983062744 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 23 {
+    0.394856989383698 -1.78178000450134 3.14778995513916
+    <UV> { 0.50601202249527 0.995723009109497 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 24 {
+    1.06997001171112 0.513387978076935 -0.165453001856804
+    <UV> { 0.981974005699158 0.842122972011566 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 25 {
+    0.986983001232147 0.530933976173401 0.160968005657196
+    <UV> { 0.907898008823395 0.841750025749207 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 26 {
+    1.00523996353149 -1.03136003017426 -0.165457993745804
+    <UV> { 0.983578979969025 0.52284300327301 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 27 {
+    0 1.37347996234894 -0.165453001856804
+    <UV> { 0.469334006309509 0.834698975086212 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 28 {
+    1.06997001171112 0.513387978076935 -0.165453001856804
+    <UV> { 0.322102010250092 0.768346011638641 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 29 {
+    -1.06997001171112 0.513387978076935 -0.165453001856804
+    <UV> { 0.611167013645172 0.748483002185822 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 30 {
+    0.00491501996293664 1.37347996234894 -0.165453001856804
+    <UV> { 0.981329023838043 0.970557987689972 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 31 {
+    0.00491501996293664 1.3725700378418 0.160897001624107
+    <UV> { 0.907314002513885 0.970185995101929 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 32 {
+    0.00491501996293664 1.3725700378418 0.160897001624107
+    <UV> { 0.331970006227493 0.163993000984192 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 33 {
+    0.778560996055603 -0.742470979690552 1.44969999790192
+    <UV> { 0.647754013538361 0.577319025993347 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 34 {
+    1.00611996650696 -1.03137004375458 0.161309003829956
+    <UV> { 0.909390985965729 0.522469997406006 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 35 {
+    0.00491501996293664 1.37347996234894 -0.165453001856804
+    <UV> { 0.981468021869659 0.970559000968933 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 36 {
+    0.00491501996293664 1.3725700378418 0.160897001624107
+    <UV> { 0.906729996204376 0.97018301486969 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 37 {
+    0.00425944989547133 -1.1947900056839 1.03079998493195
+    <UV> { 0.0190670005977154 0.75092601776123 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 38 {
+    0.00491501996293664 -1.31623995304108 0.161310002207756
+    <UV> { 0.0190670005977154 0.949061989784241 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 39 {
+    -1.00611996650696 -1.03137004375458 0.161309003829956
+    <UV> { 0.280447006225586 0.90047299861908 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 40 {
+    -0.329470008611679 -1.57598996162415 1.76259994506836
+    <UV> { 0.68673300743103 0.869539976119995 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 41 {
+    -0.0124450996518135 -1.36914002895355 0.244236007332802
+    <UV> { 0.884826004505157 0.924767971038818 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 42 {
+    0.181741997599602 -1.88336002826691 4.50792980194092
+    <UV> { 0.328559994697571 0.958598017692566 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 43 {
+    -0.441987007856369 -1.7847900390625 3.1724898815155
+    <UV> { 0.50278902053833 0.849938988685608 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 44 {
+    -1.00523996353149 -1.03136003017426 -0.165457993745804
+    <UV> { 0.237634003162384 0.201286002993584 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 45 {
+    1.00523996353149 -1.03136003017426 -0.165457993745804
+    <UV> { 0.0129541996866465 0.201862007379532 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 46 {
+    -1.02597999572754 -2.14549994468689 -0.165243998169899
+    <UV> { 0.239713996648788 0.108712002635002 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 47 {
+    1.02597999572754 -2.14549994468689 -0.165243998169899
+    <UV> { 0.00997513998299837 0.109301000833511 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 48 {
+    -1.0307799577713 -3.01522994041443 0.125450998544693
+    <UV> { 0.240002006292343 0.0115141998976469 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 49 {
+    1.0307799577713 -3.01522994041443 0.125450998544693
+    <UV> { 0.010037399828434 0.0121045997366309 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 50 {
+    1.00611996650696 -1.03137004375458 0.161309003829956
+    <UV> { 0.855320990085602 0.483824998140335 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 51 {
+    1.02709996700287 -2.15313005447388 0.12185800075531
+    <UV> { 0.844235002994537 0.280189990997314 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 52 {
+    1.03015005588531 -3.01482009887695 0.393689006567001
+    <UV> { 0.840260028839111 0.116907998919487 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 53 {
+    -1.03015005588531 -3.01482009887695 0.393689006567001
+    <UV> { 0.47563099861145 0.11743800342083 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 54 {
+    1.0307799577713 -3.01522994041443 0.125450998544693
+    <UV> { 0.838544011116028 0.0690281987190247 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 55 {
+    -1.0307799577713 -3.01522994041443 0.125450998544693
+    <UV> { 0.477207988500595 0.0695535019040108 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 56 {
+    0.130579993128777 -1.48061001300812 0.583395004272461
+    <UV> { 0.369616001844406 0.143327996134758 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 57 {
+    0.130579993128777 -1.35936999320984 0.583395004272461
+    <UV> { 0.369616001844406 0.0133584998548031 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 58 {
+    -0.128797993063927 -1.48061001300812 0.583395004272461
+    <UV> { 0.384021013975143 0.143327996134758 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 59 {
+    -0.128797993063927 -1.35936999320984 0.583395004272461
+    <UV> { 0.384021013975143 0.0133584998548031 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 60 {
+    -0.258486986160278 -1.48061001300812 0.358767986297607
+    <UV> { 0.398425996303558 0.143327996134758 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 61 {
+    -0.258486986160278 -1.35936999320984 0.358767986297607
+    <UV> { 0.398425996303558 0.0133584998548031 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 62 {
+    -0.128797993063927 -1.48061001300812 0.134139999747276
+    <UV> { 0.412831008434296 0.143327996134758 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 63 {
+    -0.128797993063927 -1.35936999320984 0.134139999747276
+    <UV> { 0.412831008434296 0.0133584998548031 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 64 {
+    0.130579993128777 -1.48061001300812 0.134139999747276
+    <UV> { 0.427235990762711 0.143327996134758 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 65 {
+    0.130579993128777 -1.35936999320984 0.134139999747276
+    <UV> { 0.427235990762711 0.0133584998548031 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 66 {
+    0.260268986225128 -1.48061001300812 0.358767002820969
+    <UV> { 0.441641002893448 0.143327996134758 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 67 {
+    0.260268986225128 -1.35936999320984 0.358767002820969
+    <UV> { 0.441641002893448 0.0133584998548031 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 68 {
+    0.130579993128777 -1.48061001300812 0.583395004272461
+    <UV> { 0.456045985221863 0.143327996134758 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 69 {
+    0.130579993128777 -1.35936999320984 0.583395004272461
+    <UV> { 0.456045985221863 0.0133584998548031 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 70 {
+    -0.258486986160278 -1.35936999320984 0.358767986297607
+    <UV> { 0.640139997005463 0.750455021858215 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 71 {
+    -0.128797993063927 -1.35936999320984 0.583395004272461
+    <UV> { 0.667150020599365 0.703674018383026 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 72 {
+    -0.128797993063927 -1.35936999320984 0.134139999747276
+    <UV> { 0.667150020599365 0.797236979007721 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 73 {
+    0.130579993128777 -1.35936999320984 0.583395004272461
+    <UV> { 0.721167981624603 0.703674018383026 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 74 {
+    0.130579993128777 -1.35936999320984 0.134139999747276
+    <UV> { 0.721167981624603 0.797236979007721 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 75 {
+    0.260268986225128 -1.35936999320984 0.358767002820969
+    <UV> { 0.748176991939545 0.750455021858215 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 76 {
+    0.130579993128777 -1.48061001300812 0.134139999747276
+    <UV> { 0.825057983398438 0.785845994949341 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 77 {
+    0.260268986225128 -1.48061001300812 0.358767002820969
+    <UV> { 0.852066993713379 0.832628011703491 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 78 {
+    -0.128797993063927 -1.48061001300812 0.134139999747276
+    <UV> { 0.771040022373199 0.785845994949341 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 79 {
+    0.130579993128777 -1.48061001300812 0.583395004272461
+    <UV> { 0.825057983398438 0.87940901517868 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 80 {
+    -0.258486986160278 -1.48061001300812 0.358767986297607
+    <UV> { 0.744029998779297 0.832628011703491 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 81 {
+    -0.128797993063927 -1.48061001300812 0.583395004272461
+    <UV> { 0.771040022373199 0.87940901517868 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 82 {
+    0.00425944989547133 -1.1947900056839 1.03079998493195
+    <UV> { 0.0189546998590231 0.75092601776123 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 83 {
+    1.00611996650696 -1.03137004375458 0.161309003829956
+    <UV> { 0.280447006225586 0.90047299861908 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 84 {
+    0.00491501996293664 -1.31623995304108 0.161310002207756
+    <UV> { 0.0189546998590231 0.949061989784241 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 85 {
+    -1.0307799577713 -3.01522994041443 0.125450998544693
+    <UV> { 0.924641013145447 0.0206343997269869 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 86 {
+    -1.03015005588531 -3.01482009887695 0.393689006567001
+    <UV> { 0.869005978107452 0.0206135995686054 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 87 {
+    -1.02597999572754 -2.14549994468689 -0.165243998169899
+    <UV> { 0.984421014785767 0.235273003578186 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 88 {
+    -1.02709996700287 -2.15313005447388 0.12185800075531
+    <UV> { 0.924628973007202 0.234404996037483 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 89 {
+    -1.00611996650696 -1.03137004375458 0.161309003829956
+    <UV> { 0.908805012702942 0.522467017173767 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 90 {
+    -0.778560996055603 -0.742470979690552 1.44969999790192
+    <UV> { 0.647050976753235 0.57491397857666 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 91 {
+    1.02597999572754 -2.14549994468689 -0.165243998169899
+    <UV> { 0.98496800661087 0.237534999847412 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 92 {
+    1.02709996700287 -2.15313005447388 0.12185800075531
+    <UV> { 0.925222992897034 0.23667000234127 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 93 {
+    1.0307799577713 -3.01522994041443 0.125450998544693
+    <UV> { 0.925550997257233 0.023199999704957 }
+    <RGBA> { 1 1 1 1 }
+  }
+  <Vertex> 94 {
+    1.03015005588531 -3.01482009887695 0.393689006567001
+    <UV> { 0.869728982448578 0.0229502003639936 }
+    <RGBA> { 1 1 1 1 }
+  }
+}
+<Group> {
+  <Group> tt_m_chr_avt_acc_hat_mickeysBandConductorHat {
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 3 4 5 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 6 7 8 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 9 10 11 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 12 10 13 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 14 15 16 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 17 18 16 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 19 20 21 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 20 22 23 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 24 25 26 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 27 28 6 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 6 28 7 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 27 6 29 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 29 6 8 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 30 31 24 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 24 31 25 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 10 9 13 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 13 9 32 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 33 34 25 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 25 34 26 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 35 3 36 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 36 3 5 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 32 14 18 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 18 14 16 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 37 17 15 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 15 17 16 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 38 37 39 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 39 37 15 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 40 41 20 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 20 41 22 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 23 42 20 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 20 42 21 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 40 20 43 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 43 20 19 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 44 45 46 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 46 45 47 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 46 47 48 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 48 47 49 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 50 0 51 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 51 0 2 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 51 2 52 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 52 2 53 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 52 53 54 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 54 53 55 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 56 57 58 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 58 57 59 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 58 59 60 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 60 59 61 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 60 61 62 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 62 61 63 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 62 63 64 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 64 63 65 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 64 65 66 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 66 65 67 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 66 67 68 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 68 67 69 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 70 71 72 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 72 71 73 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 72 73 74 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 74 73 75 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 76 77 78 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 78 77 79 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 78 79 80 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 80 79 81 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 10 12 11 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 11 12 82 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 11 82 83 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 83 82 84 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 85 86 87 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 87 86 88 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 87 88 4 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 4 88 89 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 4 89 5 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 5 89 90 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 26 34 91 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 91 34 92 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 91 92 93 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+    <Polygon> {
+      <TRef> { tt_t_chr_avt_acc_hat_mickeysBandConductorHat }
+      <BFace> { 1 }
+      <VertexRef> { 93 92 94 <Ref> { tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg } }
+    }
+  }
+}

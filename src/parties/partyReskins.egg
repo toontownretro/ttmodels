@@ -1,8 +1,35 @@
 <Comment> {
   "egg-texture-cards ../maps/tt_t_ara_pty_jukeboxBlue.tif -o partyReskins.egg"
 }
+<Texture> tt_t_ara_pty_trampolineWinter {
+  "../maps/tt_t_ara_pty_trampolineWinter.tif"
+}
+<Texture> tt_t_ara_pty_trampolineVictory {
+  "../maps/tt_t_ara_pty_trampolineVictory.tif"
+}
+<Texture> tt_t_ara_pty_trampolineValentine {
+  "../maps/tt_t_ara_pty_trampolineValentine.tif"
+}
+<Texture> tt_t_ara_pty_partyCatchWinter {
+  "../maps/tt_t_ara_pty_partyCatchWinter.tif"
+}
+<Texture> tt_t_ara_pty_partyCatchLeavesWinter {
+  "../maps/tt_t_ara_pty_partyCatchLeavesWinter.tif"
+}
+<Texture> tt_t_ara_pty_partyCatchGroundWinter {
+  "../maps/tt_t_ara_pty_partyCatchGroundWinter.tif"
+}
+<Texture> tt_t_ara_pty_jukeboxValentineB {
+  "../maps/tt_t_ara_pty_jukeboxValentineB.tif"
+}
+<Texture> tt_t_ara_pty_jukeboxValentineA {
+  "../maps/tt_t_ara_pty_jukeboxValentineA.tif"
+}
 <Texture> tt_t_ara_pty_jukeboxBlue {
   "../maps/tt_t_ara_pty_jukeboxBlue.tif"
+}
+<Texture> tt_t_ara_pty_cogPieArenaWinter {
+  "../maps/tt_t_ara_pty_cogPieArenaWinter.tif"
 }
 <Group> {
   <VertexPool> vpool {
@@ -27,6 +54,69 @@
     <Polygon> {
       <RGBA> { 1 1 1 1 }
       <TRef> { tt_t_ara_pty_jukeboxBlue }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_ara_pty_trampolineValentine {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ara_pty_trampolineValentine }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_ara_pty_trampolineVictory {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ara_pty_trampolineVictory }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_ara_pty_trampolineWinter {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ara_pty_trampolineWinter }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_ara_pty_partyCatchWinter {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ara_pty_partyCatchWinter }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_ara_pty_partyCatchLeavesWinter {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ara_pty_partyCatchLeavesWinter }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_ara_pty_partyCatchGroundWinter {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ara_pty_partyCatchGroundWinter }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_ara_pty_cogPieArenaWinter {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ara_pty_cogPieArenaWinter }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_ara_pty_jukeboxValentineA {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ara_pty_jukeboxValentineA }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_ara_pty_jukeboxValentineB {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ara_pty_jukeboxValentineB }
       <VertexRef> { 0 1 2 3 <Ref> { vpool } }
     }
   }

@@ -1,5 +1,14 @@
 <Comment> {
-  "egg-texture-cards tt_t_chr_avt_shirtSleeve_halloween3.tif tt_t_chr_avt_shirtSleeve_halloween4.tif tt_t_chr_avt_shirt_halloween3.tif tt_t_chr_avt_shirt_halloween4.tif tt_t_chr_avt_shorts_halloween3.tif tt_t_chr_avt_shorts_halloween4.tif tt_t_chr_avt_skirt_halloween3.tif tt_t_chr_avt_skirt_halloween4.tif -o special-award-clothes-3.egg"
+  "egg-texture-cards -o special-award-clothes-33.egg tt_t_chr_avt_skirt_racing05.tif tt_t_chr_avt_skirt_racing04.tif tt_t_chr_avt_skirt_racing03.tif tt_t_chr_avt_skirt_halloween3.tif tt_t_chr_avt_skirt_halloween4.tif tt_t_chr_avt_skirt_greentoon1.tif tt_t_chr_avt_skirt_golf04.tif tt_t_chr_avt_skirt_golf03.tif tt_t_chr_avt_skirt_golf02.tif tt_t_chr_avt_shorts_racing05.tif tt_t_chr_avt_shorts_racing04.tif tt_t_chr_avt_shorts_racing03.tif tt_t_chr_avt_shorts_halloween3.tif tt_t_chr_avt_shorts_halloween4.tif tt_t_chr_avt_shorts_greentoon1.tif tt_t_chr_avt_shorts_golf05.tif tt_t_chr_avt_shorts_golf04.tif tt_t_chr_avt_shorts_golf03.tif tt_t_chr_avt_shirt_winter03.tif tt_t_chr_avt_shirt_winter02.tif tt_t_chr_avt_shirt_trolley05.tif tt_t_chr_avt_shirt_trolley04.tif tt_t_chr_avt_shirt_trolley03.tif tt_t_chr_avt_shirt_saveBuilding4.tif tt_t_chr_avt_shirt_saveBuilding3.tif tt_t_chr_avt_shirt_saveBuilding05.tif tt_t_chr_avt_shirt_racing05.tif tt_t_chr_avt_shirt_racing04.tif tt_t_chr_avt_shirt_racing03.tif tt_t_chr_avt_shirt_mostCogsDefeated04.tif tt_t_chr_avt_shirt_mostCogsDefeated03.tif tt_t_chr_avt_shirt_mostCogsDefeated02.tif tt_t_chr_avt_shirt_halloween4.tif tt_t_chr_avt_shirt_halloween3.tif tt_t_chr_avt_shirt_halloween07.tif tt_t_chr_avt_shirt_halloween06.tif tt_t_chr_avt_shirt_greentoon1.tif tt_t_chr_avt_shirt_golf05.tif tt_t_chr_avt_shirt_golf04.tif tt_t_chr_avt_shirt_golf03.tif tt_t_chr_avt_shirt_getConnectedMoverShaker.tif tt_t_chr_avt_shirt_fishing07.tif tt_t_chr_avt_shirt_fishing06.tif tt_t_chr_avt_shirt_fishing05.tif tt_t_chr_avt_shirt_fishing04.tif tt_t_chr_avt_shirt_anniversary.tif tt_t_chr_avt_shirtSleeve_winter03.tif tt_t_chr_avt_shirtSleeve_winter02.tif tt_t_chr_avt_shirtSleeve_trolley05.tif tt_t_chr_avt_shirtSleeve_trolley04.tif tt_t_chr_avt_shirtSleeve_trolley03.tif tt_t_chr_avt_shirtSleeve_saveBuilding4.tif tt_t_chr_avt_shirtSleeve_saveBuilding3.tif tt_t_chr_avt_shirtSleeve_saveBuilding05.tif tt_t_chr_avt_shirtSleeve_racing05.tif tt_t_chr_avt_shirtSleeve_racing04.tif tt_t_chr_avt_shirtSleeve_racing03.tif tt_t_chr_avt_shirtSleeve_mostCogsDefeated04.tif tt_t_chr_avt_shirtSleeve_mostCogsDefeated03.tif tt_t_chr_avt_shirtSleeve_mostCogsDefeated02.tif tt_t_chr_avt_shirtSleeve_halloween3.tif tt_t_chr_avt_shirtSleeve_halloween4.tif tt_t_chr_avt_shirtSleeve_halloween07.tif tt_t_chr_avt_shirtSleeve_halloween06.tif tt_t_chr_avt_shirtSleeve_greentoon1.tif tt_t_chr_avt_shirtSleeve_golf05.tif tt_t_chr_avt_shirtSleeve_golf04.tif tt_t_chr_avt_shirtSleeve_golf03.tif tt_t_chr_avt_shirtSleeve_getConnectedMoverShaker.tif tt_t_chr_avt_shirtSleeve_fishing07.tif tt_t_chr_avt_shirtSleeve_fishing06.tif tt_t_chr_avt_shirtSleeve_fishing05.tif tt_t_chr_avt_shirtSleeve_fishing04.tif tt_t_chr_avt_shirtSleeve_anniversary.tif"
+}
+<Texture> tt_t_chr_avt_skirt_racing05 {
+  tt_t_chr_avt_skirt_racing05.tif
+}
+<Texture> tt_t_chr_avt_skirt_racing04 {
+  tt_t_chr_avt_skirt_racing04.tif
+}
+<Texture> tt_t_chr_avt_skirt_racing03 {
+  tt_t_chr_avt_skirt_racing03.tif
 }
 <Texture> tt_t_chr_avt_skirt_halloween4 {
   tt_t_chr_avt_skirt_halloween4.tif
@@ -7,11 +16,86 @@
 <Texture> tt_t_chr_avt_skirt_halloween3 {
   tt_t_chr_avt_skirt_halloween3.tif
 }
+<Texture> tt_t_chr_avt_skirt_greentoon1 {
+  tt_t_chr_avt_skirt_greentoon1.tif
+}
+<Texture> tt_t_chr_avt_skirt_golf04 {
+  tt_t_chr_avt_skirt_golf04.tif
+}
+<Texture> tt_t_chr_avt_skirt_golf03 {
+  tt_t_chr_avt_skirt_golf03.tif
+}
+<Texture> tt_t_chr_avt_skirt_golf02 {
+  tt_t_chr_avt_skirt_golf02.tif
+}
+<Texture> tt_t_chr_avt_shorts_racing05 {
+  tt_t_chr_avt_shorts_racing05.tif
+}
+<Texture> tt_t_chr_avt_shorts_racing04 {
+  tt_t_chr_avt_shorts_racing04.tif
+}
+<Texture> tt_t_chr_avt_shorts_racing03 {
+  tt_t_chr_avt_shorts_racing03.tif
+}
 <Texture> tt_t_chr_avt_shorts_halloween4 {
   tt_t_chr_avt_shorts_halloween4.tif
 }
 <Texture> tt_t_chr_avt_shorts_halloween3 {
   tt_t_chr_avt_shorts_halloween3.tif
+}
+<Texture> tt_t_chr_avt_shorts_greentoon1 {
+  tt_t_chr_avt_shorts_greentoon1.tif
+}
+<Texture> tt_t_chr_avt_shorts_golf05 {
+  tt_t_chr_avt_shorts_golf05.tif
+}
+<Texture> tt_t_chr_avt_shorts_golf04 {
+  tt_t_chr_avt_shorts_golf04.tif
+}
+<Texture> tt_t_chr_avt_shorts_golf03 {
+  tt_t_chr_avt_shorts_golf03.tif
+}
+<Texture> tt_t_chr_avt_shirt_winter03 {
+  tt_t_chr_avt_shirt_winter03.tif
+}
+<Texture> tt_t_chr_avt_shirt_winter02 {
+  tt_t_chr_avt_shirt_winter02.tif
+}
+<Texture> tt_t_chr_avt_shirt_trolley05 {
+  tt_t_chr_avt_shirt_trolley05.tif
+}
+<Texture> tt_t_chr_avt_shirt_trolley04 {
+  tt_t_chr_avt_shirt_trolley04.tif
+}
+<Texture> tt_t_chr_avt_shirt_trolley03 {
+  tt_t_chr_avt_shirt_trolley03.tif
+}
+<Texture> tt_t_chr_avt_shirt_saveBuilding4 {
+  tt_t_chr_avt_shirt_saveBuilding4.tif
+}
+<Texture> tt_t_chr_avt_shirt_saveBuilding3 {
+  tt_t_chr_avt_shirt_saveBuilding3.tif
+}
+<Texture> tt_t_chr_avt_shirt_saveBuilding05 {
+  tt_t_chr_avt_shirt_saveBuilding05.tif
+}
+<Texture> tt_t_chr_avt_shirt_racing05 {
+  tt_t_chr_avt_shirt_racing05.tif
+}
+<Texture> tt_t_chr_avt_shirt_racing04 {
+  tt_t_chr_avt_shirt_racing04.tif
+}
+<Texture> tt_t_chr_avt_shirt_racing03 {
+  tt_t_chr_avt_shirt_racing03.tif
+}
+<Texture> tt_t_chr_avt_shirt_mostCogsDefeated04 {
+  tt_t_chr_avt_shirt_mostCogsDefeated04.tif
+}
+<Texture> tt_t_chr_avt_shirt_mostCogsDefeated03 {
+  tt_t_chr_avt_shirt_mostCogsDefeated03.tif
+}
+<Texture> tt_t_chr_avt_shirt_mostCogsDefeated02 {
+  tt_t_chr_avt_shirt_mostCogsDefeated02.tif
 }
 <Texture> tt_t_chr_avt_shirt_halloween4 {
   tt_t_chr_avt_shirt_halloween4.tif
@@ -19,11 +103,125 @@
 <Texture> tt_t_chr_avt_shirt_halloween3 {
   tt_t_chr_avt_shirt_halloween3.tif
 }
+<Texture> tt_t_chr_avt_shirt_halloween07 {
+  tt_t_chr_avt_shirt_halloween07.tif
+}
+<Texture> tt_t_chr_avt_shirt_halloween06 {
+  tt_t_chr_avt_shirt_halloween06.tif
+}
+<Texture> tt_t_chr_avt_shirt_greentoon1 {
+  tt_t_chr_avt_shirt_greentoon1.tif
+}
+<Texture> tt_t_chr_avt_shirt_golf05 {
+  tt_t_chr_avt_shirt_golf05.tif
+}
+<Texture> tt_t_chr_avt_shirt_golf04 {
+  tt_t_chr_avt_shirt_golf04.tif
+}
+<Texture> tt_t_chr_avt_shirt_golf03 {
+  tt_t_chr_avt_shirt_golf03.tif
+}
+<Texture> tt_t_chr_avt_shirt_getConnectedMoverShaker {
+  tt_t_chr_avt_shirt_getConnectedMoverShaker.tif
+}
+<Texture> tt_t_chr_avt_shirt_fishing07 {
+  tt_t_chr_avt_shirt_fishing07.tif
+}
+<Texture> tt_t_chr_avt_shirt_fishing06 {
+  tt_t_chr_avt_shirt_fishing06.tif
+}
+<Texture> tt_t_chr_avt_shirt_fishing05 {
+  tt_t_chr_avt_shirt_fishing05.tif
+}
+<Texture> tt_t_chr_avt_shirt_fishing04 {
+  tt_t_chr_avt_shirt_fishing04.tif
+}
+<Texture> tt_t_chr_avt_shirt_anniversary {
+  tt_t_chr_avt_shirt_anniversary.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_winter03 {
+  tt_t_chr_avt_shirtSleeve_winter03.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_winter02 {
+  tt_t_chr_avt_shirtSleeve_winter02.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_trolley05 {
+  tt_t_chr_avt_shirtSleeve_trolley05.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_trolley04 {
+  tt_t_chr_avt_shirtSleeve_trolley04.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_trolley03 {
+  tt_t_chr_avt_shirtSleeve_trolley03.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_saveBuilding4 {
+  tt_t_chr_avt_shirtSleeve_saveBuilding4.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_saveBuilding3 {
+  tt_t_chr_avt_shirtSleeve_saveBuilding3.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_saveBuilding05 {
+  tt_t_chr_avt_shirtSleeve_saveBuilding05.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_racing05 {
+  tt_t_chr_avt_shirtSleeve_racing05.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_racing04 {
+  tt_t_chr_avt_shirtSleeve_racing04.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_racing03 {
+  tt_t_chr_avt_shirtSleeve_racing03.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_mostCogsDefeated04 {
+  tt_t_chr_avt_shirtSleeve_mostCogsDefeated04.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_mostCogsDefeated03 {
+  tt_t_chr_avt_shirtSleeve_mostCogsDefeated03.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_mostCogsDefeated02 {
+  tt_t_chr_avt_shirtSleeve_mostCogsDefeated02.tif
+}
 <Texture> tt_t_chr_avt_shirtSleeve_halloween4 {
   tt_t_chr_avt_shirtSleeve_halloween4.tif
 }
 <Texture> tt_t_chr_avt_shirtSleeve_halloween3 {
   tt_t_chr_avt_shirtSleeve_halloween3.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_halloween07 {
+  tt_t_chr_avt_shirtSleeve_halloween07.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_halloween06 {
+  tt_t_chr_avt_shirtSleeve_halloween06.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_greentoon1 {
+  tt_t_chr_avt_shirtSleeve_greentoon1.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_golf05 {
+  tt_t_chr_avt_shirtSleeve_golf05.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_golf04 {
+  tt_t_chr_avt_shirtSleeve_golf04.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_golf03 {
+  tt_t_chr_avt_shirtSleeve_golf03.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_getConnectedMoverShaker {
+  tt_t_chr_avt_shirtSleeve_getConnectedMoverShaker.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_fishing07 {
+  tt_t_chr_avt_shirtSleeve_fishing07.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_fishing06 {
+  tt_t_chr_avt_shirtSleeve_fishing06.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_fishing05 {
+  tt_t_chr_avt_shirtSleeve_fishing05.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_fishing04 {
+  tt_t_chr_avt_shirtSleeve_fishing04.tif
+}
+<Texture> tt_t_chr_avt_shirtSleeve_anniversary {
+  tt_t_chr_avt_shirtSleeve_anniversary.tif
 }
 <Group> {
   <Switch> { 1 }
@@ -46,31 +244,87 @@
       <UV> { 1 1 }
     }
   }
-  <Group> tt_t_chr_avt_shirtSleeve_halloween3 {
+  <Group> tt_t_chr_avt_skirt_racing05 {
     <Polygon> {
       <RGBA> { 1 1 1 1 }
-      <TRef> { tt_t_chr_avt_shirtSleeve_halloween3 }
+      <TRef> { tt_t_chr_avt_skirt_racing05 }
       <VertexRef> { 0 1 2 3 <Ref> { vpool } }
     }
   }
-  <Group> tt_t_chr_avt_shirtSleeve_halloween4 {
+  <Group> tt_t_chr_avt_skirt_racing04 {
     <Polygon> {
       <RGBA> { 1 1 1 1 }
-      <TRef> { tt_t_chr_avt_shirtSleeve_halloween4 }
+      <TRef> { tt_t_chr_avt_skirt_racing04 }
       <VertexRef> { 0 1 2 3 <Ref> { vpool } }
     }
   }
-  <Group> tt_t_chr_avt_shirt_halloween3 {
+  <Group> tt_t_chr_avt_skirt_racing03 {
     <Polygon> {
       <RGBA> { 1 1 1 1 }
-      <TRef> { tt_t_chr_avt_shirt_halloween3 }
+      <TRef> { tt_t_chr_avt_skirt_racing03 }
       <VertexRef> { 0 1 2 3 <Ref> { vpool } }
     }
   }
-  <Group> tt_t_chr_avt_shirt_halloween4 {
+  <Group> tt_t_chr_avt_skirt_halloween3 {
     <Polygon> {
       <RGBA> { 1 1 1 1 }
-      <TRef> { tt_t_chr_avt_shirt_halloween4 }
+      <TRef> { tt_t_chr_avt_skirt_halloween3 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_skirt_halloween4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_skirt_halloween4 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_skirt_greentoon1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_skirt_greentoon1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_skirt_golf04 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_skirt_golf04 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_skirt_golf03 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_skirt_golf03 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_skirt_golf02 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_skirt_golf02 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shorts_racing05 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shorts_racing05 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shorts_racing04 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shorts_racing04 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shorts_racing03 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shorts_racing03 }
       <VertexRef> { 0 1 2 3 <Ref> { vpool } }
     }
   }
@@ -88,17 +342,423 @@
       <VertexRef> { 0 1 2 3 <Ref> { vpool } }
     }
   }
-  <Group> tt_t_chr_avt_skirt_halloween3 {
+  <Group> tt_t_chr_avt_shorts_greentoon1 {
     <Polygon> {
       <RGBA> { 1 1 1 1 }
-      <TRef> { tt_t_chr_avt_skirt_halloween3 }
+      <TRef> { tt_t_chr_avt_shorts_greentoon1 }
       <VertexRef> { 0 1 2 3 <Ref> { vpool } }
     }
   }
-  <Group> tt_t_chr_avt_skirt_halloween4 {
+  <Group> tt_t_chr_avt_shorts_golf05 {
     <Polygon> {
       <RGBA> { 1 1 1 1 }
-      <TRef> { tt_t_chr_avt_skirt_halloween4 }
+      <TRef> { tt_t_chr_avt_shorts_golf05 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shorts_golf04 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shorts_golf04 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shorts_golf03 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shorts_golf03 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_winter03 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_winter03 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_winter02 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_winter02 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_trolley05 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_trolley05 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_trolley04 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_trolley04 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_trolley03 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_trolley03 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_saveBuilding4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_saveBuilding4 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_saveBuilding3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_saveBuilding3 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_saveBuilding05 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_saveBuilding05 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_racing05 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_racing05 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_racing04 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_racing04 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_racing03 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_racing03 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_mostCogsDefeated04 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_mostCogsDefeated04 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_mostCogsDefeated03 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_mostCogsDefeated03 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_mostCogsDefeated02 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_mostCogsDefeated02 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_halloween4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_halloween4 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_halloween3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_halloween3 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_halloween07 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_halloween07 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_halloween06 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_halloween06 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_greentoon1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_greentoon1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_golf05 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_golf05 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_golf04 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_golf04 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_golf03 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_golf03 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_getConnectedMoverShaker {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_getConnectedMoverShaker }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_fishing07 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_fishing07 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_fishing06 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_fishing06 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_fishing05 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_fishing05 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_fishing04 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_fishing04 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirt_anniversary {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirt_anniversary }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_winter03 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_winter03 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_winter02 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_winter02 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_trolley05 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_trolley05 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_trolley04 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_trolley04 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_trolley03 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_trolley03 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_saveBuilding4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_saveBuilding4 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_saveBuilding3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_saveBuilding3 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_saveBuilding05 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_saveBuilding05 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_racing05 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_racing05 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_racing04 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_racing04 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_racing03 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_racing03 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_mostCogsDefeated04 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_mostCogsDefeated04 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_mostCogsDefeated03 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_mostCogsDefeated03 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_mostCogsDefeated02 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_mostCogsDefeated02 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_halloween3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_halloween3 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_halloween4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_halloween4 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_halloween07 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_halloween07 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_halloween06 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_halloween06 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_greentoon1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_greentoon1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_golf05 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_golf05 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_golf04 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_golf04 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_golf03 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_golf03 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_getConnectedMoverShaker {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_getConnectedMoverShaker }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_fishing07 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_fishing07 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_fishing06 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_fishing06 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_fishing05 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_fishing05 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_fishing04 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_fishing04 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_shirtSleeve_anniversary {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_shirtSleeve_anniversary }
       <VertexRef> { 0 1 2 3 <Ref> { vpool } }
     }
   }

@@ -1,5 +1,9 @@
 <Comment> {
-  "egg-texture-cards -wm clamp -p 240,240 -o tt_m_gui_pat_mainGui.egg ../maps/tt_t_gui_pat_background.tif ../maps/tt_t_gui_pat_squareBlue.tif ../maps/tt_t_gui_pat_squareGreen.tif ../maps/tt_t_gui_pat_squarePink.tif ../maps/tt_t_gui_pat_squarePurple.tif ../maps/tt_t_gui_pat_squareRed.tif ../maps/tt_t_gui_pat_squareYellow.tif ../maps/tt_t_gui_pat_membersOnly.tif"
+  "egg-texture-cards -wm clamp -p 240,240 -o tt_m_gui_pat_mainGui.egg ../mapstt_t_gui_pat_loadingPopup.tif ../maps/tt_t_gui_pat_background.tif ../maps/tt_t_gui_pat_squareBlue.tif ../maps/tt_t_gui_pat_squareGreen.tif ../maps/tt_t_gui_pat_squarePink.tif ../maps/tt_t_gui_pat_squarePurple.tif ../maps/tt_t_gui_pat_squareRed.tif ../maps/tt_t_gui_pat_squareYellow.tif ../maps/tt_t_gui_pat_membersOnly.tif"
+}
+<Texture> tt_t_gui_pat_loadingPopup {
+  "../maps/tt_t_gui_pat_loadingPopup.tif"
+  <Scalar> wrap { clamp }
 }
 <Texture> tt_t_gui_pat_squareYellow {
   "../maps/tt_t_gui_pat_squareYellow.tif"
@@ -165,6 +169,22 @@
       1.43958 1.04375 0
       <UV> { 1 1 }
     }
+    <Vertex> 32 {
+      -1.43958 1.04375 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 33 {
+      -1.43958 -1.04375 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 34 {
+      1.43958 -1.04375 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 35 {
+      1.43958 1.04375 0
+      <UV> { 1 1 }
+    }
   }
   <Group> tt_t_gui_pat_background {
     <Polygon> {
@@ -220,6 +240,13 @@
       <RGBA> { 1 1 1 1 }
       <TRef> { tt_t_gui_pat_membersOnly }
       <VertexRef> { 28 29 30 31 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_pat_loadingPopup {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_pat_loadingPopup }
+      <VertexRef> { 32 33 34 35 <Ref> { vpool } }
     }
   }
 }

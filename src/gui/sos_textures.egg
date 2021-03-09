@@ -40,6 +40,9 @@
 <Texture> compass {
   compass.tif
 }
+<Texture> tt_t_gui_sbk_newsPageTab {
+  "../maps/tt_t_gui_sbk_newsPageTab.tif"
+}
 <Group> {
   <Switch> { 1 }
   <Scalar> fps { 2 }
@@ -149,6 +152,13 @@
     <Polygon> {
       <RGBA> { 1 1 1 1 }
       <TRef> { kartIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_sbk_newsPageTab {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_sbk_newsPageTab }
       <VertexRef> { 0 1 2 3 <Ref> { vpool } }
     }
   }

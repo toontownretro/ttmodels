@@ -87,10 +87,10 @@
   #define TARGET_DIR optchar
   #define SOURCES \
     $[matrix suitA-,mod $[suit_anims],.egg] \
-    cogA_robot-zero.egg
+    cogA_robot-zero.egg 
 
   #define OPTCHAR_OPTS \
-    -TR 0,180,0 -TS 0.25 \
+    -no -TR 0,180,0 -TS 0.25 \
     -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter,to_head,to_shoulder,jnt_22_1,jnt_28_1 \
     -flag pPlane27=pPlane27 \
     -flag pPlane29=pPlane29 \
@@ -122,7 +122,7 @@
     suitA-lose-mod.egg suitA-lose.egg cogA_robot-lose-mod.egg
 
   #define OPTCHAR_OPTS \
-    -TR 0,180,0 -TS 0.25 \
+    -no -TR 0,180,0 -TS 0.25 \
     -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter,to_head,to_shoulder,jnt_22_1,jnt_28_1 \
     -flag TheHandL=hands \
     -flag TheHandR=hands \
@@ -141,7 +141,7 @@
   #define SOURCES suitA-heads.egg
 
   #define OPTCHAR_OPTS \
-    -TT 0,-24.22,0 -TR 0,180,0 -TS 0.25 \
+    -no -TT 0,-24.22,0 -TR 0,180,0 -TS 0.25 \
     -flag legaleagle=legaleagle \
     -flag yesman=yesman \
     -flag numbercruncher=numbercruncher \
@@ -181,50 +181,56 @@
   #define SOURCE_DIR optchar
   #define SOURCES \
     suitA-lose-mod.egg
-  #define UNPAL_SOURCES_NC \
+  #define UNPAL_SOURCES \
     $[matrix suitA-,$[phase_4_anims],.egg] suitA-lose.egg
   #define UNPAL_SOURCES_NC \
     $[matrix suitA-,$[phase_4_anims_NC],.egg]
+  #define EGG2BAM_OPTS -NC
   #define PHASE 4
 #end install_egg
 
 // Phase 5: lose bodies, and phase 5 anims
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES_NC \
+  #define UNPAL_SOURCES \
     $[matrix suitA-,$[phase_5_anims],.egg]
+  #define EGG2BAM_OPTS -NC
   #define PHASE 5
 #end install_egg
 
 // Phase 6: phase 6 anims
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES_NC \
+  #define UNPAL_SOURCES \
     $[matrix suitA-,$[phase_6_anims],.egg]
+  #define EGG2BAM_OPTS -NC
   #define PHASE 6
 #end install_egg
 
 // Phase 7: phase 7 anims
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES_NC \
+  #define UNPAL_SOURCES \
     $[matrix suitA-,$[phase_7_anims],.egg]
+  #define EGG2BAM_OPTS -NC
   #define PHASE 7
 #end install_egg
 
 // Phase 8: phase 8 anims
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES_NC \
+  #define UNPAL_SOURCES \
     $[matrix suitA-,$[phase_8_anims],.egg]
+  #define EGG2BAM_OPTS -NC
   #define PHASE 8
 #end install_egg
 
 // Phase 12: phase 12 anims
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES_NC \
+  #define UNPAL_SOURCES \
     $[matrix suitA-,$[phase_12_anims],.egg]
+  #define EGG2BAM_OPTS -NC
   #define PHASE 12
 #end install_egg
 
