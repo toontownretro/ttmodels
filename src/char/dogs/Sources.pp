@@ -338,14 +338,14 @@
      -p def_left_earC,def_left_earB \
      -p def_left_earD,def_left_earC \
      -p TheNeck,def_neck \
-     -flag *eyes*'=eyes \
-     -flag *head_small*'=head \
-     -flag *head_long*'=head \
-     -flag *head_big*'=head  \
-     -flag *head_front*'=head-front \
-     -flag *ear*'=ears \
-     -flag *muzzle*'=muzzle \
-     -flag *nose*'=nose
+     -flag *eyes*=eyes \
+     -flag *head_small*=head \
+     -flag *head_long*=head \
+     -flag *head_big*=head  \
+     -flag *head_front*=head-front \
+     -flag *ear*=ears \
+     -flag *muzzle*=muzzle \
+     -flag *nose*=nose
 #end optchar_egg
 
 #begin optchar_egg
@@ -393,22 +393,22 @@
      -p def_right_pant_bottom,def_right_pant_top \
      -p def_right_sleeve_short,root \
      -p def_left_sleeve_short,root \
-     -flag *skirt_cap*'=torso-bot-cap \
-     -flag *skirt_inside*'=torso-bot-cap \
-     -flag *shorts_inside*'=torso-bot-cap \
-     -flag *shorts_cap*'=torso-bot-cap \
-     -flag *skirt*uv*'=torso-bot \
-     -flag *skirt_500'=torso-bot \
-     -flag *skirt_200'=torso-bot \
-     -flag *shorts*uv*'=torso-bot \
-     -flag *shorts_500'=torso-bot \
-     -flag *shorts_200'=torso-bot \
-     -flag *shirt*'=torso-top \
-     -flag *blouse*'=torso-top \
-     -flag *sleeve*'=sleeves \
-     -flag *arm*'=arms \
-     -flag *neck*'=neck \
-     -flag *hand*'=hands
+     -flag *skirt_cap*=torso-bot-cap \
+     -flag *skirt_inside*=torso-bot-cap \
+     -flag *shorts_inside*=torso-bot-cap \
+     -flag *shorts_cap*=torso-bot-cap \
+     -flag *skirt*uv*=torso-bot \
+     -flag *skirt_500=torso-bot \
+     -flag *skirt_200=torso-bot \
+     -flag *shorts*uv*=torso-bot \
+     -flag *shorts_500=torso-bot \
+     -flag *shorts_200=torso-bot \
+     -flag *shirt*=torso-top \
+     -flag *blouse*=torso-top \
+     -flag *sleeve*=sleeves \
+     -flag *arm*=arms \
+     -flag *neck*=neck \
+     -flag *hand*=hands
 #end optchar_egg
 
 #begin optchar_egg
@@ -423,8 +423,8 @@
      -rename SSDog_skirt_200,SSDog_skirt \
      -TR 0,180,0 -TS 0.25 \
      -expose joint_hips,joint_shadow,joint_nameTag \
-     -flag *leg*'=legs \
-     -flag *foot*'=feet
+     -flag *leg*=legs \
+     -flag *foot*=feet
 #end optchar_egg
 
 // Phase 3

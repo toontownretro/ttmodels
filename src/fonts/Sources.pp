@@ -41,8 +41,11 @@
 
 #if $[eq $[LANGUAGE], japanese]
   #begin install_misc
-    #define SOURCES DFKyG7.ttc HGHanKointai.ttc HGHeiseiMarugothictaiW8.ttc \
-            MickeyFontFull.ttf
+    #define SOURCES \
+	DCAis5.ttc DCCry5.ttc DCInl5.tcc DFCry5.ttc DFKai3.ttc DFKyG7.ttc \
+	DFLis6.ttc DFMimP3.ttc DFMrg2.ttc DFMrm5.ttc DFPocl7.ttc DFPococ.ttc DFPost7.ttc \
+	DFRys9.ttc DFSht5.ttc DFSht7.ttc DFSKai7.ttc DFTlei5.ttc \
+	HGHanKointai.ttc HGHeiseiMarugothictaiW8.ttc MickeyFontFull.ttf
     #define PHASE 3
   #end install_misc
 
