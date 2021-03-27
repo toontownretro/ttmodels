@@ -3,8 +3,8 @@
 # type rgb, which maintain lossless working copies of the palettes so
 # we can avoid the generational loss of constantly reading and writing
 # the same jpg images.
-:imagetype rgb,rgb
-:shadowtype rgb
+:imagetype png
+:shadowtype png
 
 :palette 4096 4096
 
@@ -22,6 +22,7 @@
 
 # Don't force textures to a power-of-two size.
 :powertwo 0
+
 
 :group phase_1 dir phase_1
 :group phase_2 dir phase_2 on phase_1
@@ -56,9 +57,11 @@
 :group fish on phase_4
 :group pets_gui on phase_4
 :group pets on phase_4
-:group inGameNews_gui on phase_5.5
+:group inGameNews_gui on phase_3.5
 :group boarding_gui on phase_9
 :group fireworks on phase_4
+:group accessories on phase_4
+:group questmap on phase_4
 
 :group tutorial_suits on phase_3.5
 :group suit-heads on phase_4
@@ -220,6 +223,16 @@
 # Parties (Schell Games)
 :group parties on phase_13
 :group parties_stickerbook on phase_4
+
+# Cogdominiums (Schell Games)
+:group cogdominium on phase_5
+:group cogdogame on phase_5
+:group flying_cogdogame on phase_5
+:group maze_cogdogame on phase_5
+:group maze_flying_cogdogame on phase_5
+# Technically unreleased but still included just in case
+:group crane_cogdogame on phase_5
+#:group boardroom_cogdogame on phase_5
 
 
 # The following line flags all textures to use the most generic image
@@ -486,6 +499,7 @@ tree_gen.rgba : 373 337 rgbm
 pine_tree.rgba : 297 543
 pine_tree2.rgba : 294 531
 pine_treeB.rgba : 297 543
+tree_big.tif : 256 512
 # These will go away when ttcentral is built in the level editor
 tree_big.rgba : 256 512 rgbm
 tree_small.rgba : 256 512 rgbm
@@ -573,6 +587,8 @@ GS_roofNeutral.rgb : 409 212
 GS_roofsideNeutral.rgb : 331 140
 GS_sideNeutral.rgb : 271 496
 GS_signBIG_BR.rgba : 520 410
+GS_signBIG_japanese.rgb : 512 410
+GS_signBIG_BR_japanese.rgb : 520 410
 GS_signBIGCastillian.rgba : 520 410
 GS_signBIG_BRCastillian.rgba : 520 410
 GS_signBIGBR_german.rgb : 520 410
@@ -640,7 +656,6 @@ gagShop_BR_french.egg : the_burrrgh_safezone
 gagShop_DL_french.egg : donalds_dreamland_safezone
 
 gagShop_interior_castillian.egg : toon_interior
-gagShop_interior_german.egg : toon_interior
 gagShop_TT_castillian.egg : toontown_central_safezone
 gagShop_DD_castillian.egg : donalds_dock_safezone
 gagShop_DG_castillian.egg : daisys_garden_safezone
@@ -648,6 +663,7 @@ gagShop_MM_castillian.egg : minnies_melody_land_safezone
 gagShop_BR_castillian.egg : the_burrrgh_safezone
 gagShop_DL_castillian.egg : donalds_dreamland_safezone
 
+gagShop_interior_german.egg : toon_interior
 gagShop_TT_german.egg : toontown_central_safezone
 gagShop_DD_german.egg : donalds_dock_safezone
 gagShop_DG_german.egg : daisys_garden_safezone
@@ -655,6 +671,15 @@ gagShop_MM_german.egg : minnies_melody_land_safezone
 gagShop_BR_german.egg : the_burrrgh_safezone
 gagShop_DL_german.egg : donalds_dreamland_safezone
 
+gagShop_interior_japanese.egg : toon_interior
+gagShop_TT_japanese.egg : toontown_central_safezone
+gagShop_DD_japanese.egg : donalds_dock_safezone
+gagShop_DG_japanese.egg : daisys_garden_safezone
+gagShop_MM_japanese.egg : minnies_melody_land_safezone
+gagShop_BR_japanese.egg : the_burrrgh_safezone
+gagShop_DL_japanese.egg : donalds_dreamland_safezone
+
+gagShop_interior_portuguese.egg : toon_interior
 gagShop_TT_portuguese.egg : toontown_central_safezone
 gagShop_DD_portuguese.egg : donalds_dock_safezone
 gagShop_DG_portuguese.egg : daisys_garden_safezone
@@ -715,10 +740,10 @@ money2F.rgb : 256 256
 money2FSide.rgb : 256 512
 
 
-suit_landmark_sales.egg : neighborhood_streets_common
-suit_landmark_corp.egg : neighborhood_streets_common
-suit_landmark_legal.egg : neighborhood_streets_common
-suit_landmark_money.egg : neighborhood_streets_common
+suit_landmark_sales.egg : neighborhood_common
+suit_landmark_corp.egg : neighborhood_common
+suit_landmark_legal.egg : neighborhood_common
+suit_landmark_money.egg : neighborhood_common
 suit_landmark_money2.egg : neighborhood_streets_common
 suit_landmark_big_legal.egg : nondownload
 suit_landmark_rec_tie.egg : nondownload
@@ -726,6 +751,10 @@ suit_landmark_tie.egg : nondownload
 suit_walls.egg : neighborhood_streets_common
 suit-particles_english.egg : tutorial_suits
 suit-particles_castillian.egg : tutorial_suits
+suit-particles_german.egg : tutorial_suits
+suit-particles_french.egg : tutorial_suits
+suit-particles_japanese.egg : tutorial_suits
+suit-particles_portuguese.egg : tutorial_suits
 stun-mod.egg : tutorial_suits
 
 ######################################################################
@@ -741,8 +770,58 @@ Humanist.rgb : 256 256 mipmap sgi
 ImpressBT.rgb : 256 256 mipmap sgi
 vtRemingtonPortable.rgb : 256 128 mipmap sgi
 ComicScriptOutline.rgb ComicScriptShaded.rgb HastyPudding.rgb MinnieFont.rgb MinnieFont_1.rgb SlapstickComicBold.rgb SlapstickComicOblique.rgb TooneyNoodle.rgb ZoinkFat.rgb : 256 256 mipmap sgi
-MickeyFont_*.rgb : 167 157 mipmap sgi blend
-hgraps_*.rgb : 512 512 mipmap sgi blend omit
+MickeyFont_033.rgb : 65 159 mipmap sgi blend
+MickeyFont_038.rgb : 149 156 mipmap sgi blend
+MickeyFont_039.rgb : 84 104 mipmap sgi blend
+MickeyFont_040.rgb : 92 161 mipmap sgi blend
+MickeyFont_041.rgb : 92 161 mipmap sgi blend
+MickeyFont_043.rgb : 114 103 mipmap sgi blend
+MickeyFont_044.rgb : 81 99 mipmap sgi blend
+MickeyFont_045.rgb : 115 66 mipmap sgi blend
+MickeyFont_046.rgb : 57 58 mipmap sgi blend
+MickeyFont_047.rgb : 148 160 mipmap sgi blend
+MickeyFont_048.rgb : 135 157 mipmap sgi blend
+MickeyFont_049.rgb : 93 158 mipmap sgi blend
+MickeyFont_050.rgb : 150 154 mipmap sgi blend
+MickeyFont_051.rgb : 122 156 mipmap sgi blend
+MickeyFont_052.rgb : 144 158 mipmap sgi blend
+MickeyFont_053.rgb : 128 154 mipmap sgi blend
+MickeyFont_054.rgb : 122 158 mipmap sgi blend
+MickeyFont_055.rgb : 137 157 mipmap sgi blend
+MickeyFont_056.rgb : 130 157 mipmap sgi blend
+MickeyFont_057.rgb : 131 158 mipmap sgi blend
+MickeyFont_058.rgb : 58 114 mipmap sgi blend
+MickeyFont_063.rgb : 105 155 mipmap sgi blend
+MickeyFont_065.rgb : 179 159 mipmap sgi blend
+MickeyFont_066.rgb : 128 156 mipmap sgi blend
+MickeyFont_067.rgb : 167 157 mipmap sgi blend
+MickeyFont_068.rgb : 155 157 mipmap sgi blend
+MickeyFont_069.rgb : 114 155 mipmap sgi blend
+MickeyFont_070.rgb : 108 157 mipmap sgi blend
+MickeyFont_071.rgb : 150 157 mipmap sgi blend
+MickeyFont_072.rgb : 164 157 mipmap sgi blend
+MickeyFont_073.rgb : 108 153 mipmap sgi blend
+MickeyFont_074.rgb : 123 156 mipmap sgi blend
+MickeyFont_075.rgb : 151 157 mipmap sgi blend
+MickeyFont_076.rgb : 127 158 mipmap sgi blend
+MickeyFont_077.rgb : 216 158 mipmap sgi blend
+MickeyFont_078.rgb : 154 158 mipmap sgi blend
+MickeyFont_079.rgb : 167 157 mipmap sgi blend
+MickeyFont_080.rgb : 136 158 mipmap sgi blend
+MickeyFont_081.rgb : 157 158 mipmap sgi blend
+MickeyFont_082.rgb : 148 157 mipmap sgi blend
+MickeyFont_083.rgb : 143 157 mipmap sgi blend
+MickeyFont_084.rgb : 134 158 mipmap sgi blend
+MickeyFont_085.rgb : 149 158 mipmap sgi blend
+MickeyFont_086.rgb : 167 158 mipmap sgi blend
+MickeyFont_087.rgb : 198 158 mipmap sgi blend
+MickeyFont_088.rgb : 163 158 mipmap sgi blend
+MickeyFont_089.rgb : 166 157 mipmap sgi blend
+MickeyFont_090.rgb : 144 158 mipmap sgi blend
+MickeyFont_223.rgb : 128 156 mipmap sgi blend
+hgraps_1.rgb : 1024 1024 mipmap sgi blend omit
+hgraps_2.rgb : 1024 1024 mipmap sgi blend omit
+hgraps_3.rgb : 512 512 mipmap sgi blend omit
 Courier_1.rgb : 256 128 mipmap sgi
 CourierBold_1.rgb : 256 128 mipmap sgi
 
@@ -845,6 +924,7 @@ tt_t_gui_pat_squarePurple.tif : 195 195
 tt_t_gui_pat_squareRed.tif : 190 190
 tt_t_gui_pat_squareYellow.tif : 189 189
 tt_t_gui_pat_membersOnly.tif : 691 501
+tt_t_gui_pat_loadingPopup.tif : 512 512 omit
 
 ###################################################################
 # Make a Toon - Age up Revamp
@@ -878,9 +958,9 @@ tt_t_ara_mat_pigSketch_A.tif : 128 128
 tt_t_ara_mat_sketchDogbird.tif : 112 112
 tt_t_ara_mat_rabbitSketch_A.tif : 112 112
 tt_t_ara_mat_monkeySketch_A.tif : 112 112
-tt_t_ara_mat_monkeyColor_A.tif : 112 112
-tt_t_ara_mat_catBlue.tif : 64 64
-tt_t_ara_mat_duckGreen.tif : 64 64
+tt_t_ara_mat_monkeyColor_A.tif : 256 256
+tt_t_ara_mat_catBlue.tif : 256 305
+tt_t_ara_mat_duckGreen.tif : 198 256
 tt_t_ara_mat_floorpaint.tif : 98 98
 tt_t_ara_mat_metal_1.tif : 8 8
 tt_t_ara_mat_wheel.tif : 32 32
@@ -991,6 +1071,1083 @@ tt_t_efx_ext_particleStars.tif : 64 64
 tt_t_efx_ext_skull.tif : 256 256
 tt_t_efx_ext_skullGlow.tif : 128 128
 
+###################################################################
+# Silly Meter toontown_central_safezone phase_4
+###################################################################
+
+tt_m_ara_ttc_sillyMeterSign_groupA_english.egg : toontown_central_safezone
+tt_m_ara_ttc_sillyMeterSign_groupB_english.egg : toontown_central_safezone
+
+tt_m_ara_gen_jellybeanJamSign_castillian.egg : phase_4
+tt_m_ara_gen_jellybeanJamSign_english.egg : phase_4
+tt_m_ara_gen_jellybeanJamSign_french.egg : phase_4
+tt_m_ara_gen_jellybeanJamSign_german.egg : phase_4
+tt_m_ara_gen_jellybeanJamSign_japanese.egg : phase_4
+tt_m_ara_gen_jellybeanJamSign_portuguese.egg : phase_4
+
+tt_m_ara_ddl_jellybeanJamSign_english.egg : phase_8
+
+tt_m_ara_gen_sillyMeterSign_castillian.egg : phase_4
+tt_m_ara_gen_sillyMeterSign_english.egg : phase_4
+tt_m_ara_gen_sillyMeterSign_french.egg : phase_4
+tt_m_ara_gen_sillyMeterSign_german.egg : phase_4
+tt_m_ara_gen_sillyMeterSign_japanese.egg : phase_4
+tt_m_ara_gen_sillyMeterSign_portuguese.egg : phase_4
+
+tt_m_ara_ddl_sillyMeterSign_english.egg : phase_8
+
+tt_m_ara_gen_stormSellbotSign_castillian.egg : phase_4
+tt_m_ara_gen_stormSellbotSign_english.egg : phase_4
+tt_m_ara_gen_stormSellbotSign_french.egg : phase_4
+tt_m_ara_gen_stormSellbotSign_german.egg : phase_4
+tt_m_ara_gen_stormSellbotSign_japanese.egg : phase_4
+tt_m_ara_gen_stormSellbotSign_portuguese.egg : phase_4
+
+tt_m_ara_ddl_stormSellbotSign_english.egg : phase_8
+
+tt_m_ara_gen_trickOrTreatSign_castillian.egg : phase_4
+tt_m_ara_gen_trickOrTreatSign_english.egg : phase_4
+tt_m_ara_gen_trickOrTreatSign_french.egg : phase_4
+tt_m_ara_gen_trickOrTreatSign_german.egg : phase_4
+tt_m_ara_gen_trickOrTreatSign_japanese.egg : phase_4
+tt_m_ara_gen_trickOrTreatSign_portuguese.egg : phase_4
+
+tt_m_ara_ddl_trickOrTreatSign_english.egg : phase_8
+
+tt_m_ara_gen_tunnelAheadSign_castillian.egg : phase_4
+tt_m_ara_gen_tunnelAheadSign_english.egg : phase_4
+tt_m_ara_gen_tunnelAheadSign_french.egg : phase_4
+tt_m_ara_gen_tunnelAheadSign_german.egg : phase_4
+tt_m_ara_gen_tunnelAheadSign_japanese.egg : phase_4
+tt_m_ara_gen_tunnelAheadSign_portuguese.egg : phase_4
+
+tt_m_ara_gen_victoryPartySign_castillian.egg : phase_4
+tt_m_ara_gen_victoryPartySign_english.egg : phase_4
+tt_m_ara_gen_victoryPartySign_french.egg : phase_4
+tt_m_ara_gen_victoryPartySign_german.egg : phase_4
+tt_m_ara_gen_victoryPartySign_japanese.egg : phase_4
+tt_m_ara_gen_victoryPartySign_portuguese.egg : phase_4
+
+tt_m_ara_ddl_victoryPartySign_english.egg : phase_8
+
+tt_m_ara_gen_victorySoonSign_castillian.egg : phase_4
+tt_m_ara_gen_victorySoonSign_english.egg : phase_4
+tt_m_ara_gen_victorySoonSign_french.egg : phase_4
+tt_m_ara_gen_victorySoonSign_german.egg : phase_4
+tt_m_ara_gen_victorySoonSign_japanese.egg : phase_4
+tt_m_ara_gen_victorySoonSign_portuguese.egg : phase_4
+
+tt_m_ara_ddl_victorySoonSign_english.egg : phase_8
+
+tt_m_ara_int_ropes.egg : toontown_central_safezone
+tt_m_ara_int_scientistDuckFlat.egg : toontown_central_safezone
+tt_m_ara_int_scientistHorseFlat.egg : toontown_central_safezone
+tt_m_ara_int_scientistMonkeyFlat.egg : toontown_central_safezone
+tt_m_ara_int_sillyMeterFlat.egg : toontown_central_safezone
+tt_m_ara_int_toonhall.egg : toontown_central_safezone
+tt_m_ara_int_toonhall_english.egg : toontown_central_safezone
+
+# Toontown Central
+
+tt_m_efx_hydrantSquirt.egg : toontown_central_streets
+tt_r_ara_ttc_hydrant.egg : toontown_central_streets
+tt_r_prp_ext_piePackage.egg : toontown_central_streets
+tt_r_ara_ttc_mailbox.egg : toontown_central_streets
+tt_r_ara_ttc_trashcan.egg : toontown_central_streets
+
+# Donald's Dock
+
+tt_r_ara_dod_mailbox.egg : phase_6 #donalds_dock_streets was originally that but at some point changed
+tt_r_ara_dod_trashcan.egg : donalds_dock_streets
+
+# Daisy's Garden
+
+tt_r_ara_dga_hydrant.egg : daisys_garden_streets
+tt_r_ara_dga_mailbox.egg : daisys_garden_streets
+tt_r_ara_dga_trashcan.egg : daisys_garden_streets
+
+# Minnie's Melody Land
+
+tt_r_ara_mml_hydrant.egg : minnies_melody_land_streets
+tt_r_ara_mml_mailbox.egg : minnies_melody_land_streets
+tt_r_ara_mml_trashcan.egg : minnies_melody_land_streets
+
+# The Burrrgh
+
+tt_r_ara_tbr_hydrant.egg : the_burrrgh_streets
+tt_r_ara_tbr_mailbox.egg : the_burrrgh_streets
+tt_r_ara_tbr_trashcan.egg : the_burrrgh_streets
+
+# Donald's Dreamland
+
+tt_r_ara_ddl_hydrant.egg : donalds_dreamland_streets
+tt_r_ara_ddl_mailbox.egg : donalds_dreamland_streets
+tt_r_ara_ddl_trashcan.egg : donalds_dreamland_streets
+
+# New global model dropshadows
+
+tt_t_ara_gen_dropshadow.tif : 64 64
+tt_t_ara_gen_dropshadowSq.tif : 256 256
+
+# Global Event Signs
+
+tt_t_ara_gen_foreSign.tif : 256 256 omit
+tt_t_ara_gen_foreSign_castillian.tif : 256 256 omit
+tt_t_ara_gen_foreSign_french.tif : 256 256 omit
+tt_t_ara_gen_foreSign_german.tif : 256 256 omit
+tt_t_ara_gen_foreSign_portuguese.tif : 256 256 omit
+tt_t_ara_gen_foreSign_japanese.tif : 256 256 omit
+
+tt_t_ara_gen_jellybeanJamSign.tif : 256 256 omit
+tt_t_ara_gen_jellybeanJamSign_castillian.tif : 256 256 omit
+tt_t_ara_gen_jellybeanJamSign_french.tif : 256 256 omit
+tt_t_ara_gen_jellybeanJamSign_german.tif : 256 256 omit
+tt_t_ara_gen_jellybeanJamSign_portuguese.tif : 256 256 omit
+tt_t_ara_gen_jellybeanJamSign_japanese.tif : 256 256 omit
+
+tt_t_ara_gen_trickOrTreatSign.tif : 256 256 omit
+tt_t_ara_gen_trickOrTreatSign_castillian.tif : 256 256 omit
+tt_t_ara_gen_trickOrTreatSign_german.tif : 256 256 omit
+tt_t_ara_gen_trickOrTreatSign_french.tif : 256 256 omit
+tt_t_ara_gen_trickOrTreatSign_portuguese.tif : 256 256 omit
+tt_t_ara_gen_trickOrTreatSign_japanese.tif : 256 256 omit
+
+tt_t_ara_gen_tunnelAheadSign.tif : 256 256 omit
+tt_t_ara_gen_tunnelAheadSign_castillian.tif : 256 256 omit
+tt_t_ara_gen_tunnelAheadSign_german.tif : 256 256 omit
+tt_t_ara_gen_tunnelAheadSign_french.tif : 256 256 omit
+tt_t_ara_gen_tunnelAheadSign_portuguese.tif : 256 256 omit
+tt_t_ara_gen_tunnelAheadSign_japanese.tif : 256 256 omit
+
+tt_t_ara_ttc_sillyMeterSign.tif : 256 256 omit
+tt_t_ara_ttc_sillyMeterSign_castillian.tif : 256 256 omit
+tt_t_ara_ttc_sillyMeterSign_german.tif : 256 256 omit
+tt_t_ara_ttc_sillyMeterSign_french.tif : 256 256 omit
+tt_t_ara_ttc_sillyMeterSign_portuguese.tif : 256 256 omit
+tt_t_ara_ttc_sillyMeterSign_japanese.tif : 256 256 omit
+
+tt_t_ara_ttc_stormSellbotSign.tif : 256 256 omit
+tt_t_ara_ttc_stormSellbotSign_castillian.tif : 256 256 omit
+tt_t_ara_ttc_stormSellbotSign_german.tif : 256 256 omit
+tt_t_ara_ttc_stormSellbotSign_french.tif : 256 256 omit
+tt_t_ara_ttc_stormSellbotSign_portuguese.tif : 256 256 omit
+tt_t_ara_ttc_stormSellbotSign_japanese.tif : 256 256 omit
+
+tt_t_ara_ttc_victoryPartySign.tif : 256 256 omit
+tt_t_ara_ttc_victoryPartySign_castillian.tif : 256 256 omit
+tt_t_ara_ttc_victoryPartySign_german.tif : 256 256 omit
+tt_t_ara_ttc_victoryPartySign_french.tif : 256 256 omit
+tt_t_ara_ttc_victoryPartySign_portuguese.tif : 256 256 omit
+tt_t_ara_ttc_victoryPartySign_japanese.tif : 256 256 omit
+
+tt_t_ara_ttc_victorySoonSign.tif : 256 256 omit
+tt_t_ara_ttc_victorySoonSign_castillian.tif : 256 256 omit
+tt_t_ara_ttc_victorySoonSign_german.tif : 256 256 omit
+tt_t_ara_ttc_victorySoonSign_french.tif : 256 256 omit
+tt_t_ara_ttc_victorySoonSign_portuguese.tif : 128 128
+tt_t_ara_ttc_victorySoonSign_japanese.tif : 256 256 omit
+
+# Dreamland Variants
+
+tt_t_ara_ddl_foreSign.tif : 256 256 omit
+tt_t_ara_ddl_foreSign_castillian.tif : 256 256 omit
+tt_t_ara_ddl_foreSign_french.tif : 256 256 omit
+tt_t_ara_ddl_foreSign_german.tif : 256 256 omit
+tt_t_ara_ddl_foreSign_portuguese.tif : 256 256 omit
+tt_t_ara_ddl_foreSign_japanese.tif : 256 256 omit
+
+tt_t_ara_ddl_jellybeanJamSign.tif : 256 256 omit
+tt_t_ara_ddl_jellybeanJamSign_castillian.tif : 256 256 omit
+tt_t_ara_ddl_jellybeanJamSign_french.tif : 256 256 omit
+tt_t_ara_ddl_jellybeanJamSign_german.tif : 256 256 omit
+tt_t_ara_ddl_jellybeanJamSign_portuguese.tif : 256 256 omit
+tt_t_ara_ddl_jellybeanJamSign_japanese.tif : 256 256 omit
+
+tt_t_ara_ddl_trickOrTreatSign.tif : 256 256 omit
+tt_t_ara_ddl_trickOrTreatSign_castillian.tif : 256 256 omit
+tt_t_ara_ddl_trickOrTreatSign_german.tif : 256 256 omit
+tt_t_ara_ddl_trickOrTreatSign_french.tif : 256 256 omit
+tt_t_ara_ddl_trickOrTreatSign_portuguese.tif : 256 256 omit
+tt_t_ara_ddl_trickOrTreatSign_japanese.tif : 256 256 omit
+
+tt_t_ara_ddl_sillyMeterSign.tif : 256 256 omit
+tt_t_ara_ddl_sillyMeterSign_castillian.tif : 256 256 omit
+tt_t_ara_ddl_sillyMeterSign_german.tif : 256 256 omit
+tt_t_ara_ddl_sillyMeterSign_french.tif : 256 256 omit
+tt_t_ara_ddl_sillyMeterSign_portuguese.tif : 256 256 omit
+tt_t_ara_ddl_sillyMeterSign_japanese.tif : 256 256 omit
+
+tt_t_ara_ddl_stormSellbotSign.tif : 256 256 omit
+tt_t_ara_ddl_stormSellbotSign_castillian.tif : 256 256 omit
+tt_t_ara_ddl_stormSellbotSign_german.tif : 256 256 omit
+tt_t_ara_ddl_stormSellbotSign_french.tif : 256 256 omit
+tt_t_ara_ddl_stormSellbotSign_portuguese.tif : 256 256 omit
+tt_t_ara_ddl_stormSellbotSign_japanese.tif : 256 256 omit
+
+tt_t_ara_ddl_victoryPartySign.tif : 256 256 omit
+tt_t_ara_ddl_victoryPartySign_castillian.tif : 256 256 omit
+tt_t_ara_ddl_victoryPartySign_german.tif : 256 256 omit
+tt_t_ara_ddl_victoryPartySign_french.tif : 256 256 omit
+tt_t_ara_ddl_victoryPartySign_portuguese.tif : 256 256 omit
+tt_t_ara_ddl_victoryPartySign_japanese.tif : 256 256 omit
+
+tt_t_ara_ddl_victorySoonSign.tif : 256 256 omit
+tt_t_ara_ddl_victorySoonSign_castillian.tif : 256 256 omit
+tt_t_ara_ddl_victorySoonSign_german.tif : 256 256 omit
+tt_t_ara_ddl_victorySoonSign_french.tif : 256 256 omit
+tt_t_ara_ddl_victorySoonSign_portuguese.tif : 128 128
+tt_t_ara_ddl_victorySoonSign_japanese.tif : 256 256 omit
+
+# Trading Card Pictures
+
+tt_t_ara_int_gagPicturesAnvil : 512 512
+tt_t_ara_int_gagPicturesBanana.tif : 512 512
+tt_t_ara_int_gagPicturesBikeHorn.tif : 512 512
+tt_t_ara_int_gagPicturesCreamPie.tif : 512 512
+tt_t_ara_int_gagPicturesLipStick.tif : 512 512
+tt_t_ara_int_gagPicturesMagnet.tif : 512 512
+tt_t_ara_int_gagPicturesTnt.tif : 512 512
+tt_t_ara_int_gagPicturesWaterGlass.tif : 512 512
+
+# Office Pictures
+
+tt_t_ara_int_art1.tif : 128 128
+tt_t_ara_int_art2.tif : 128 128
+tt_t_ara_int_art3.tif : 128 128
+tt_t_ara_int_art4.tif : 128 128
+tt_t_ara_int_art5.tif : 256 256
+tt_t_ara_int_art6.tif : 241 326
+tt_t_ara_int_art7.tif : 256 305
+tt_t_ara_int_art8.tif : 128 128
+tt_t_ara_int_art9.tif : 256 256
+tt_t_ara_int_art10.tif : 256 256
+tt_t_ara_int_art11.tif : 256 256
+
+# Blackboard Pictures
+
+tt_t_ara_int_diagramFlippy.tif : 128 128
+tt_t_ara_int_diagramSillyOMeter3.tif : 128 128
+
+# Trading Card Gag Models
+
+tt_t_ara_int_gagAnvil.tif : 256 256 omit
+tt_t_ara_int_gagBananaPeel.tif : 256 256 omit
+tt_t_ara_int_gagBikeHorn.tif : 256 256 omit
+tt_t_ara_int_gagCreamPie.tif : 256 256 omit
+tt_t_ara_int_gagLipStick.tif : 256 256 omit
+tt_t_ara_int_gagMagnet.tif : 256 256 omit
+tt_t_ara_int_gagTNT.tif : 256 256 omit
+tt_t_ara_int_gagWaterGlass.tif : 256 256 omit
+
+# Silly O Meter Repair Sign
+
+tt_t_ara_int_meter_repairsign.tif : 256 128
+tt_t_ara_int_meter_repairsign_portuguese.tif : 128 64
+
+# Office Entrance Sign
+
+tt_t_ara_int_officeSign.tif : 256 256 omit
+tt_t_ara_int_officeSign_portuguese.tif : 256 256 omit
+
+# Silly O Meter Barrier
+
+tt_t_ara_int_rope.tif : 64 64
+
+# Flat Silly Meter and Toon Scientists
+
+tt_t_ara_int_scientistDuckFlat.tif : 256 256 omit
+tt_t_ara_int_scientistHorseFlat.tif : 256 256 omit
+tt_t_ara_int_scientistMonkeyFlat.tif : 256 256 omit
+tt_t_ara_int_sillyMeterFlat.tif : 512 512 omit
+
+# Silly O Meter Sign
+
+tt_t_ara_int_sillyMeterSign.tif : 256 256 omit
+tt_t_ara_int_sillyMeterSign_portuguese.tif : 256 256 omit
+
+# Silly O Meter Assets
+
+tt_t_ara_ttc_progressBar.tif : 32 128 omit
+tt_t_ara_ttc_sillyMeter.tif : 256 256 omit
+
+# Toon Hall Assets
+
+tt_t_ara_int_paintSplat.tif : 128 128
+tt_t_ara_int_toonhall.tif : 1024 1024 omit
+
+# Office Furniture Textures
+
+tt_t_ara_int_furniture_chair_space.tif : 128 128
+tt_t_ara_int_furniture_lamp_space.tif : 128 128
+tt_t_ara_int_furniture_sofa_space.tif : 128 128
+tt_t_ara_int_furniture_tallLamp_space.tif : 128 128
+
+# Toon Hall Exterior Textures
+
+tt_t_ara_ttc_sillyMeterSign_groupPosts.tif : 256 256 omit
+tt_t_ara_ttc_sillyMeterSign_groupPosts_portuguese.tif : 256 256 omit
+tt_t_ara_ttc_sillyMeterSign_groupMain.tif : 256 256 omit
+tt_t_ara_ttc_sillyMeterSign_groupMain_portuguese.tif : 256 256 omit
+
+tt_t_efx_hydrantSquirt.tif : 128 128 omit
+tt_t_ara_ttc_hydrant.tif : 128 128
+tt_r_prp_ext_piePackage.tif : 128 128
+tt_t_ara_ttc_mailbox.tif : 256 256 omit
+tt_t_ara_ttc_trashcan.tif : 256 256 omit
+
+tt_t_ara_dod_mailbox.tif : 128 128
+tt_t_ara_dod_trashcan.tif : 256 256 omit
+
+tt_t_ara_dga_hydrant.tif : 256 256 omit
+tt_t_ara_dga_mailbox.tif : 256 256 omit
+tt_t_ara_dga_trashcan.tif : 256 256 omit
+
+tt_t_ara_mml_hydrant.tif : 256 256 omit
+tt_t_ara_mml_mailbox.tif : 256 256 omit
+tt_t_ara_mml_trashcan.tif : 256 256 omit
+
+tt_t_ara_tbr_hydrant.tif : 128 128
+tt_t_ara_tbr_hydrant_icecube.tif : 32 32
+tt_t_ara_tbr_mailbox.tif : 256 256 omit
+tt_t_ara_tbr_trashcan.tif : 256 256 omit
+
+tt_t_ara_ddl_hydrant.tif : 128 128
+tt_t_ara_ddl_mailbox.tif : 256 256 omit
+tt_t_ara_ddl_trashcan.tif : 256 256 omit
+
+###################################################################
+# Cogdominium
+###################################################################
+
+# Cogdo Exterior
+field_office_sign.egg : cogdominium
+cogdominiumElevator.egg : cogdominium
+tt_m_ara_cbe_fieldOfficeMoverShaker.egg : cogdominium
+tt_m_ara_cbe_walls.egg : cogdominium
+
+# Cogdo Global Gui
+tt_m_gui_csa_flyThru.egg : cogdogame
+tt_m_gui_csa_joke_card.egg : cogdogame
+tt_m_gui_csa_memo_card.egg : cogdogame
+tt_m_ara_csa_memo.egg : cogdogame
+tt_m_ara_csa_joke.egg : cogdogame
+
+# Cogdo Maze Game
+tt_m_ara_cmg_cabinetSmFalling.egg : maze_cogdogame
+tt_m_ara_cmg_grouping_blockerDivider.egg : maze_cogdogame
+tt_m_ara_cmg_level.egg : maze_cogdogame
+tt_m_ara_cmg_splash.egg : maze_cogdogame
+tt_m_ara_cmg_waterBalloon.egg : maze_cogdogame
+
+# GUI 
+tt_m_gui_cmg_bossCog.egg : maze_cogdogame
+tt_m_gui_cmg_miniMap_cards.egg : maze_cogdogame
+
+# Cogdo Flying Game
+tt_m_ara_cfg_gatherableFlash_card.egg : flying_cogdogame
+tt_m_ara_cfg_legalEagleFeather.egg : flying_cogdogame
+tt_m_ara_cfg_level.egg : flying_cogdogame
+tt_m_ara_cfg_propellerPack.egg : flying_cogdogame
+tt_m_ara_cfg_propellerPack_card.egg : flying_cogdogame
+tt_m_ara_cfg_propellers.egg : flying_cogdogame
+tt_m_ara_cfg_redTapePickup.egg : flying_cogdogame
+tt_m_ara_cfg_redTapeRing.egg : flying_cogdogame
+tt_m_ara_cfg_streamer.egg : flying_cogdogame
+tt_m_ara_cfg_toonPropeller.egg : flying_cogdogame
+tt_m_ara_cfg_whirlwind.egg : flying_cogdogame
+
+# GUI
+tt_m_gui_cfg_progressMeter.egg : flying_cogdogame
+tt_m_gui_cfg_propellerMeter.egg : flying_cogdogame
+
+# Cogdo Coin Game
+tt_m_ara_ccg_safesA.egg : cogdominium
+tt_m_ara_ccg_rooftop.egg : cogdominium
+
+# Cogdo Barrel Room
+tt_m_ara_cbr_room.egg : cogdominium
+tt_m_ara_cbr_barrelRoom.egg : cogdominium
+tt_m_ara_cbr_laughBarrel.egg : cogdominium
+tt_t_ara_cbr_laughBarrelUsed.egg : cogdominium
+
+# Cogdo Penthouse Game
+tt_m_ara_crg_goldTrophy.egg : cogdominium
+tt_m_ara_crg_silverTrophy.egg : cogdominium
+tt_m_ara_crg_paintingLegalEagle.egg : cogdominium
+tt_m_ara_crg_paintingMoverShaker.egg : cogdominium
+tt_m_ara_crg_toonCage.egg : cogdominium
+tt_m_ara_ccg_rooftop.egg : cogdominium
+tt_m_ara_crg_penthouse.egg : cogdominium
+tt_m_ara_crg_penthouse_legal.egg : cogdominium
+
+# Cogdo Rooftop Game
+tt_m_ara_crg_penthouse.egg : cogdominium
+tt_m_ara_crg_penthouse_legal.egg : cogdominium
+tt_m_ara_crg_silverTrophy.egg : cogdominium
+tt_m_ara_crg_toonCage.egg : cogdominium
+
+# Cogdo Textures
+
+cogdominiumElevator.tif : 256 256 omit
+
+tt_t_ara_cbe_fieldOffice.tif : 128 128
+tt_t_ara_cbe_fieldOfficeBorder.tif : 64 64
+tt_t_ara_cbe_fieldOfficeSign.tif : 128 64
+tt_t_ara_cbe_wall1.tif : 128 128
+tt_t_ara_cbe_wall2.tif : 128 128
+tt_t_ara_cbe_wall3.tif : 128 128
+
+tt_t_ara_cbr_Barrel_notUsed.tif : 128 128 omit
+tt_t_ara_cbr_Barrel_Used.tif : 128 128 omit
+tt_t_ara_cbr_battleArea.tif : 256 256 omit
+tt_t_ara_cbr_framework.tif : 256 256 omit
+tt_t_ara_cbr_laughBarrel.tif : 128 128 omit
+tt_t_ara_cbr_lightGlow_alpha.tif : 64 64
+tt_t_ara_cbr_pipes.tif : 256 256 omit
+tt_t_ara_cbr_steelWalls.tif : 256 256 omit
+tt_t_ara_cbr_stomper.tif : 256 256 omit
+
+tt_t_ara_ccg_floorCieling_deco.tif : 512 512 omit
+tt_t_ara_ccg_safesA.tif : 512 512 omit
+
+tt_t_ara_ccp_cloudSphere.tif : 1024 1024 omit
+
+tt_t_ara_cfg_boxStack_box_blue.tif : 64 64
+tt_t_ara_cfg_boxStack_box_brown.tif : 64 64
+tt_t_ara_cfg_boxStack_box_gray.tif : 64 64
+tt_t_ara_cfg_boxStack_box_lightGray.tif : 64 64 omit
+tt_t_ara_cfg_boxStack_box_tan.tif : 64 64
+tt_t_ara_cfg_boxStack_box_yellow.tif : 64 64
+tt_t_ara_cfg_cabinetFoggy_darkGray.tif : 128 128
+tt_t_ara_cfg_cabinetFoggy_lightBlue.tif : 128 128
+tt_t_ara_cfg_cabinetFoggy_red.tif : 128 128
+tt_t_ara_cfg_ceiling.tif : 10 10
+tt_t_ara_cfg_eagleNest1.tif : 64 64
+tt_t_ara_cfg_endWall.tif : 256 256 omit
+tt_t_ara_cfg_fogOpaque.tif : 128 128
+tt_t_ara_cfg_fogTranslucent_bm.tif : 128 128
+tt_t_ara_cfg_fogTranslucent_top.tif : 128 128
+tt_t_ara_cfg_groupingFlatLg4.tif : 128 128
+tt_t_ara_cfg_groupingFlatLg6.tif : 128 128
+tt_t_ara_cfg_groupingFlatSm2.tif : 128 102
+tt_t_ara_cfg_groupingFlatSm4.tif : 128 128
+tt_t_ara_cfg_groupingFlatSm6.tif : 128 128
+tt_t_ara_cfg_legalEagleFeather.tif : 128 128 omit
+tt_t_ara_cfg_legalEagleFeather_flash.tif : 128 128 omit
+tt_t_ara_cfg_lightFixture_02.tif : 256 256 omit
+tt_t_ara_cfg_propellerPack.tif : 256 256 omit
+tt_t_ara_cfg_propellerPack_eagleAttack.tif : 256 256 omit
+tt_t_ara_cfg_propellerPack_eagleTarget.tif : 256 256 omit
+tt_t_ara_cfg_propellerPack_flash.tif : 256 256 omit
+tt_t_ara_cfg_propellerPickup.tif : 128 128
+tt_t_ara_cfg_propellers.tif : 128 128 omit
+tt_t_ara_cfg_propellers_flash.tif : 128 128 omit
+tt_t_ara_cfg_redTape.tif : 64 64
+tt_t_ara_cfg_redTapePickup.tif : 64 64 omit
+tt_t_ara_cfg_redTapePickup_flash.tif : 64 64 omit
+tt_t_ara_cfg_streamer.tif : 17 20
+tt_t_ara_cfg_wall.tif : 256 256 omit
+tt_t_ara_cfg_wallFan.tif : 128 128
+tt_t_ara_cfg_whirlwindOuter.tif : 128 128 omit
+
+tt_t_ara_cmg_cabinetSm_red.tif : 128 128
+tt_t_ara_cmg_calculator.tif : 64 64
+tt_t_ara_cmg_ceiling.tif : 128 128
+tt_t_ara_cmg_chair.tif : 64 64
+tt_t_ara_cmg_cubicleWall.tif : 128 128
+tt_t_ara_cmg_divider.tif : 128 128
+tt_t_ara_cmg_envelope.tif : 64 64
+tt_t_ara_cmg_floor.tif : 64 64
+tt_t_ara_cmg_lamp.tif : 96 96
+tt_t_ara_cmg_lampB.tif : 64 64
+tt_t_ara_cmg_lampC.tif : 64 64
+tt_t_ara_cmg_papers.tif : 128 128
+tt_t_ara_cmg_phone_black.tif : 64 64
+tt_t_ara_cmg_splash.tif : 64 64
+tt_t_ara_cmg_typewriter.tif : 92 92
+tt_t_ara_cmg_wallBarrier.tif : 256 256 omit
+tt_t_ara_cmg_waterBalloon.tif : 92 92
+tt_t_ara_cmg_waterCooler.tif : 256 256 omit
+
+tt_t_ara_cpg_bossChair.tif : 512 512 omit
+tt_t_ara_cpg_bossDesk.tif : 512 512 omit
+tt_t_ara_cpg_chairSmall.tif : 512 512 omit
+tt_t_ara_cpg_counter.tif : 512 512 omit
+tt_t_ara_cpg_counterB.tif : 512 512 omit
+tt_t_ara_cpg_deskClock_alpha.tif : 512 512 omit
+tt_t_ara_cpg_deskClockB.tif : 512 512 omit
+tt_t_ara_cpg_floorCieling_decoA.tif : 512 512 omit
+tt_t_ara_cpg_floorLamp.tif : 512 512 omit
+tt_t_ara_cpg_hangingLight.tif : 512 512 omit
+tt_t_ara_cpg_hangingLightB.tif : 512 512 omit
+tt_t_ara_cpg_lamp_alpha.tif : 64 64
+tt_t_ara_cpg_lampA.tif : 512 512 omit
+tt_t_ara_cpg_lampB.tif : 512 512 omit
+tt_t_ara_cpg_machine1.tif : 512 512 omit
+tt_t_ara_cpg_machine3.tif : 512 512 omit
+tt_t_ara_cpg_paintingLegalEagle.tif : 72 128
+tt_t_ara_cpg_paintingMoverShaker.tif : 102 128
+tt_t_ara_cpg_penSet.tif : 256 256 omit
+tt_t_ara_cpg_radio.tif : 512 512 omit
+tt_t_ara_cpg_telephone.tif : 256 256 omit
+tt_t_ara_cpg_toonCage.tif : 256 256
+tt_t_ara_cpg_tubingAndCeilingWallDetail.tif : 512 512 omit
+tt_t_ara_cpg_wallDetail.tif : 512 512 omit
+tt_t_ara_cpg_wallDetailC.tif : 512 512 omit
+
+tt_t_ara_crg_bossChair.tif : 512 512 omit
+tt_t_ara_crg_bossDesk.tif : 512 512 omit
+tt_t_ara_crg_chairSmall.tif : 256 256
+tt_t_ara_crg_cloudCard2.tif : 256 256 omit
+tt_t_ara_crg_counterB.tif : 512 512 omit
+tt_t_ara_crg_deskClockB.tif : 64 64
+tt_t_ara_crg_floor.tif : 512 512 omit
+tt_t_ara_cpg_floorLamp.tif : 128 256
+tt_t_ara_crg_hangingLightB.tif : 512 512
+tt_t_ara_crg_lampA.tif : 512 512
+tt_t_ara_crg_machines.tif : 256 256 omit
+tt_t_ara_crg_penSet.tif : 256 256
+tt_t_ara_crg_radio.tif : 64 64
+tt_t_ara_crg_telephone.tif : 256 256
+tt_t_ara_crg_toonCage.tif : 256 256 omit
+tt_t_ara_crg_trophyCase.tif : 512 512 omit
+tt_t_ara_crg_trophyCase_alpha.tif : 512 512 omit
+tt_t_ara_crg_trophyCase_shadow.tif : 10 10
+tt_t_ara_crg_tubingAndCeilingWallDetail.tif : 512 512 omit
+tt_t_ara_crg_wallDetailC.tif : 512 512 omit
+
+tt_t_ara_csa_bookcase.tif : 256 256 omit
+tt_t_ara_csa_bookStack_book.tif : 16 16
+tt_t_ara_csa_bookStack_bookB.tif : 16 16
+tt_t_ara_csa_bookStack_bookC.tif : 16 16
+tt_t_ara_csa_bookStack_bookD.tif : 16 16
+tt_t_ara_csa_bookStack_bookE.tif : 16 16
+tt_t_ara_csa_bookStack_bookF.tif : 16 16
+tt_t_ara_csa_bookStack_bookG.tif : 16 16
+tt_t_ara_csa_cabinetLg_lightBlue.tif : 128 128
+tt_t_ara_csa_cabinetLg_red.tif : 128 128
+tt_t_ara_csa_cabinetSm_darkGray.tif : 128 128
+tt_t_ara_csa_cabinetSm_lightGray.tif : 128 128
+tt_t_ara_csa_elevator_light_strip.tif : 64 64
+tt_t_ara_csa_elevatorA.tif : 115 77
+tt_t_ara_csa_elevatorB.tif : 256 256 omit
+tt_t_ara_csa_exitDoor.tif : 128 128
+tt_t_ara_csa_joke.tif : 64 64 omit
+tt_t_ara_csa_lightbulbs.tif : 256 128 omit
+tt_t_ara_csa_memo.tif : 64 64 omit
+tt_t_ara_csa_memo_flash.tif : 64 64 omit
+tt_t_ara_csa_paintingFrame.tif : 32 256 omit
+
+tt_t_gui_cfg_healthbar.tif : 32 32
+tt_t_gui_cfg_progressMeter.tif : 64 512 omit
+tt_t_gui_cfg_propellerMeter_arrow.tif : 32 32
+tt_t_gui_cfg_propellerMeter_blade.tif : 32 64
+tt_t_gui_cfg_propellerMeter_center.tif : 32 32
+tt_t_gui_cfg_propellerMeter_frame.tif : 32 256
+
+tt_t_gui_cmg_bossCog_bossBackground.tif : 256 128
+tt_t_gui_cmg_bossCog_bossIcon.tif : 32 64
+tt_t_gui_cmg_bossCog_bossIconX.tif : 32 64
+tt_t_gui_cmg_bossCog_doorClosed.tif : 64 64
+tt_t_gui_cmg_bossCog_doorClosed_old.tif : 64 64
+tt_t_gui_cmg_bossCog_doorOpen.tif : 64 64
+tt_t_gui_cmg_bossCog_doorOpen_old.tif : 64 64
+tt_t_gui_cmg_miniMap_cogIcon.tif : 32 32
+tt_t_gui_cmg_miniMap_entrance.tif : 32 32
+tt_t_gui_cmg_miniMap_exitClosed.tif : 32 32
+tt_t_gui_cmg_miniMap_exitOpen.tif : 32 32
+tt_t_gui_cmg_miniMap_frame.tif : 256 256 omit
+tt_t_gui_cmg_miniMap_waterDrop.tif : 32 32
+
+tt_t_gui_csa_flythruBackground_02.tif : 256 256 omit
+tt_t_gui_csa_flyThruChatBubble.tif : 256 256 omit
+tt_t_gui_csa_joke.tif : 96 96
+tt_t_gui_csa_memo.tif : 64 64 omit
+
+###################################################################
+# Accessories
+###################################################################
+
+# Trunks
+
+tt_m_ara_est_accessoryTrunkBoy.egg : estate_interior
+tt_m_ara_est_accessoryTrunkGirl.egg : estate_interior
+
+# Clothes
+
+backpack_textures.egg : accessories
+backpack_textures_released.egg : accessories
+glasses_textures.egg : accessories
+hat_textures.egg : accessories
+hat_textures_released.egg : accessories
+shoes_textures.egg : accessories
+shoes_textures_released.egg : accessories
+tt_m_chr_avt_acc_hat_antenna.egg : accessories
+tt_m_chr_avt_acc_hat_anvil.egg : accessories
+tt_m_chr_avt_acc_hat_band.egg : accessories
+tt_m_chr_avt_acc_hat_bandana.egg : accessories
+tt_m_chr_avt_acc_hat_baseball.egg : accessories
+tt_m_chr_avt_acc_hat_beeHiveHairdo.egg : accessories
+tt_m_chr_avt_acc_hat_birdNest.egg : accessories
+tt_m_chr_avt_acc_hat_bobbyHat.egg : accessories
+tt_m_chr_avt_acc_hat_bowler.egg : accessories
+tt_m_chr_avt_acc_hat_carmenMirandaFruitHat.egg : accessories
+tt_m_chr_avt_acc_hat_chefsHat.egg : accessories
+tt_m_chr_avt_acc_hat_conquistadorHelmet.egg : accessories
+tt_m_chr_avt_acc_hat_cowboyHat.egg : accessories
+tt_m_chr_avt_acc_hat_crown.egg : accessories
+tt_m_chr_avt_acc_hat_detective.egg : accessories
+tt_m_chr_avt_acc_hat_dinosaur.egg : accessories
+tt_m_chr_avt_acc_hat_feathers.egg : accessories
+tt_m_chr_avt_acc_hat_fedora.egg : accessories
+tt_m_chr_avt_acc_hat_fez.egg : accessories
+tt_m_chr_avt_acc_hat_firefighterHelmet.egg : accessories
+tt_m_chr_avt_acc_hat_fishingHat.egg : accessories
+tt_m_chr_avt_acc_hat_flowerPot.egg : accessories
+tt_m_chr_avt_acc_hat_foilPyramid.egg : accessories
+tt_m_chr_avt_acc_hat_golfHat.egg : accessories
+tt_m_chr_avt_acc_hat_heart.egg : accessories
+tt_m_chr_avt_acc_hat_jugheadHat.egg : accessories
+tt_m_chr_avt_acc_hat_mickeysBandConductorHat.egg : accessories
+tt_m_chr_avt_acc_hat_minersHardhatWithLight.egg : accessories
+tt_m_chr_avt_acc_hat_napoleonHat.egg : accessories
+tt_m_chr_avt_acc_hat_nativeAmericanFeather.egg : accessories
+tt_m_chr_avt_acc_hat_partyHat.egg : accessories
+tt_m_chr_avt_acc_hat_pillBox.egg : accessories
+tt_m_chr_avt_acc_hat_pilotsCap.egg : accessories
+tt_m_chr_avt_acc_hat_pirateHat.egg : accessories
+tt_m_chr_avt_acc_hat_policeHat.egg : accessories
+tt_m_chr_avt_acc_hat_pompadorHairdo.egg : accessories
+tt_m_chr_avt_acc_hat_princess.egg : accessories
+tt_m_chr_avt_acc_hat_propellerHat.egg : accessories
+tt_m_chr_avt_acc_hat_rainbowAfroWig.egg : accessories
+tt_m_chr_avt_acc_hat_ribbon.egg : accessories
+tt_m_chr_avt_acc_hat_robinHoodHat.egg : accessories
+tt_m_chr_avt_acc_hat_romanHelmet.egg : accessories
+tt_m_chr_avt_acc_hat_safari.egg : accessories
+tt_m_chr_avt_acc_hat_sailorHat.egg : accessories
+tt_m_chr_avt_acc_hat_sandbag.egg : accessories
+tt_m_chr_avt_acc_hat_sombreroHat.egg : accessories
+tt_m_chr_avt_acc_hat_spiderAntennaThingy.egg : accessories
+tt_m_chr_avt_acc_hat_strawHat.egg : accessories
+tt_m_chr_avt_acc_hat_sunHat.egg : accessories
+tt_m_chr_avt_acc_hat_tiara.egg : accessories
+tt_m_chr_avt_acc_hat_topHat.egg : accessories
+tt_m_chr_avt_acc_hat_vikingHelmet.egg : accessories
+tt_m_chr_avt_acc_hat_weight.egg : accessories
+tt_m_chr_avt_acc_hat_winter.egg : accessories
+tt_m_chr_avt_acc_hat_witch.egg : accessories
+tt_m_chr_avt_acc_hat_wizard.egg : accessories
+tt_m_chr_avt_acc_msk_3dGlasses.egg : accessories
+tt_m_chr_avt_acc_msk_alienGlasses.egg : accessories
+tt_m_chr_avt_acc_msk_aviator.egg : accessories
+tt_m_chr_avt_acc_msk_catEyeGlasses.egg : accessories
+tt_m_chr_avt_acc_msk_dorkGlasses.egg : accessories
+tt_m_chr_avt_acc_msk_eyepatch.egg : accessories
+tt_m_chr_avt_acc_msk_goggles.egg : accessories
+tt_m_chr_avt_acc_msk_grouchoMarxEyebrow.egg : accessories
+tt_m_chr_avt_acc_msk_heartGlasses.egg : accessories
+tt_m_chr_avt_acc_msk_insectEyeGlasses.egg : accessories
+tt_m_chr_avt_acc_msk_jackieOShades.egg : accessories
+tt_m_chr_avt_acc_msk_masqueradeTypeMask.egg : accessories
+tt_m_chr_avt_acc_msk_masqueradeTypeMask3.egg : accessories
+tt_m_chr_avt_acc_msk_miniblinds.egg : accessories
+tt_m_chr_avt_acc_msk_monocle.egg : accessories
+tt_m_chr_avt_acc_msk_mouthGlasses.egg : accessories
+tt_m_chr_avt_acc_msk_narrowGlasses.egg : accessories
+tt_m_chr_avt_acc_msk_roundGlasses.egg : accessories
+tt_m_chr_avt_acc_msk_scubaMask.egg : accessories
+tt_m_chr_avt_acc_msk_squareRims.egg : accessories
+tt_m_chr_avt_acc_msk_starGlasses.egg : accessories
+tt_m_chr_avt_acc_pac_airplane.egg : accessories
+tt_m_chr_avt_acc_pac_angelWings.egg : accessories
+tt_m_chr_avt_acc_pac_backpack.egg : accessories
+tt_m_chr_avt_acc_pac_backpackWithToys.egg : accessories
+tt_m_chr_avt_acc_pac_band.egg : accessories
+tt_m_chr_avt_acc_pac_batWings.egg : accessories
+tt_m_chr_avt_acc_pac_beeWings.egg : accessories
+tt_m_chr_avt_acc_pac_birdWings.egg : accessories
+tt_m_chr_avt_acc_pac_butterflyWings.egg : accessories
+tt_m_chr_avt_acc_pac_dinosaurTail.egg : accessories
+tt_m_chr_avt_acc_pac_dragonFlyWings.egg : accessories
+tt_m_chr_avt_acc_pac_dragonWing.egg : accessories
+tt_m_chr_avt_acc_pac_flunky.egg : accessories
+tt_m_chr_avt_acc_pac_gags.egg : accessories
+tt_m_chr_avt_acc_pac_jetPack.egg : accessories
+tt_m_chr_avt_acc_pac_scubaTank.egg : accessories
+tt_m_chr_avt_acc_pac_sharkFin.egg : accessories
+tt_m_chr_avt_acc_pac_spiderLegs.egg : accessories
+tt_m_chr_avt_acc_pac_stuffedAnimalBackpackA.egg : accessories
+tt_m_chr_avt_acc_pac_stuffedAnimalBackpackCat.egg : accessories
+tt_m_chr_avt_acc_pac_stuffedAnimalBackpackDog.egg : accessories
+tt_m_chr_avt_acc_pac_supertoonCape.egg : accessories
+tt_m_chr_avt_acc_pac_vampireCape.egg : accessories
+tt_m_chr_avt_acc_pac_woodenSword.egg : accessories
+
+# Trunks
+
+tt_t_ara_est_accessoryTrunkBoy.tif : 256 256 omit
+tt_t_ara_est_accessoryTrunkGirl.tif : 256 256 omit
+
+# Clothes
+
+tt_t_chr_avt_acc_hat_antenna.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_anvil.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_band.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_bandanaRedStripe.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_baseballBlue.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_baseballGreen.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_baseballOrange.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_baseballPurple.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_baseballRed.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_baseballTeal.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_baseballYellow.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_beeHiveHairdo.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_birdNest.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_bobbyHat.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_bowler.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_carmenMirandaFruitHat.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_chefsHat.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_conquistadorHelmet.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_cowboyHat.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_crownGold.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_detective.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_dinosaur.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_feathers.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_fedora.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_fez.tif : 64 64 omit
+tt_t_chr_avt_acc_hat_firefighterHelmet.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_fishingHat.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_flowerPot.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_foilPyramid.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_golfHat.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_heartPink.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_heartYellow.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_jugheadHat.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_mickeysBandConductorHat.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_minersHardhatWithLight.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_napoleonHat.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_nativeAmericanFeather.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_partyHat.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_partyToon.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_pillBox.tif : 64 64 omit
+tt_t_chr_avt_acc_hat_pilotsCap.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_pirateHat.tif : 64 64 omit
+tt_t_chr_avt_acc_hat_policeHat.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_pompadorHairdo.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_princess.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_propellerHat.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_rainbowAfroWig.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_ribbonChecker.tif : 64 64 omit
+tt_t_chr_avt_acc_hat_ribbonCheckerGreen.tif : 64 64 omit
+tt_t_chr_avt_acc_hat_ribbonLtRed.tif : 64 64 omit
+tt_t_chr_avt_acc_hat_ribbonPink.tif : 64 64 omit
+tt_t_chr_avt_acc_hat_ribbonPinkDots.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_ribbonPurple.tif : 64 64 omit
+tt_t_chr_avt_acc_hat_ribbonRainbow.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_ribbonRed.tif : 64 64 omit
+tt_t_chr_avt_acc_hat_ribbonYellow.tif : 64 64 omit
+tt_t_chr_avt_acc_hat_robinHoodHat.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_romanHelmet.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_safariBeige.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_safariBrown.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_safariGreen.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_sailorHat.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_sandbag.tif : 64 64 omit
+tt_t_chr_avt_acc_hat_sombreroHat.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_spiderAntennaThingy.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_strawHat.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_sunHat.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_tiara.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_topHatBlack.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_topHatBlue.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_vikingHelmet.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_weight.tif : 64 64 omit
+tt_t_chr_avt_acc_hat_winter.tif : 64 64 omit
+tt_t_chr_avt_acc_hat_witch.tif : 128 128 omit
+tt_t_chr_avt_acc_hat_wizard.tif : 128 128 omit
+
+tt_t_chr_avt_acc_msk_3dGlasses.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_alienGlasses.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_aviator.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_catEyeGlasses.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_dorkGlasses.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_eyepatchGems.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_eyepatchSkull.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_glassesStarYellow.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_goggles.tif : 128 128 omit
+tt_t_chr_avt_acc_msk_grouchoMarxEyebrow.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_heartGlasses.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_insectEyeGlasses.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_jackieOShades.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_masqueradeTypeMask1.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_masqueradeTypeMask2.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_masqueradeTypeMask3.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_masqueradeTypeMask4.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_masqueradeTypeMask5.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_miniblindsWhite.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_monocle.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_mouthGlasses.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_narrowGlassesPurple.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_roundGlassesBlack.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_scubaMask.tif : 64 64 omit
+tt_t_chr_avt_acc_msk_squareRims.tif : 64 64 omit
+
+tt_t_chr_avt_acc_pac_airplane.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_angelWingsMultiColor.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_angelWingsWhite.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_backpackBlue.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_backpackOrange.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_backpackPolkaDotRed.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_backpackPolkaDotYellow.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_backpackPurple.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_backpackWithToys.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_band.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_batWings.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_beeWings.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_birdWings.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_butterflyWingsStyle1.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_butterflyWingsStyle2.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_dinosaur.tif : 64 64 omit
+tt_t_chr_avt_acc_pac_dragonFlyWings.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_dragonWing.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_flunky.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_gags.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_jetpack.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_scubaTank.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_sharkFin.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_spiderLegs.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_stuffedAnimalBackpackA.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_stuffedAnimalBackpackCat.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_stuffedAnimalBackpackDog.tif : 128 128 omit
+tt_t_chr_avt_acc_pac_supertoonCape.tif : 64 64 omit
+tt_t_chr_avt_acc_pac_vampireCape.tif : 64 64 omit
+tt_t_chr_avt_acc_pac_woodenSword.tif : 64 64 omit
+
+tt_t_chr_avt_acc_sho_athleticBlack.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_athleticGreen.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_athleticRed.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_athleticYellow.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_converseStyleBlack.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_converseStyleGreen.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_converseStylePink.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_converseStyleRed.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_converseStyleWhite.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_converseStyleYellow.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_cowboyBoots.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_cowboyBootsLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_deckShoes.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_dinosaur.tif : 64 64 omit
+tt_t_chr_avt_acc_sho_dinosaurLL.tif : 64 64 omit
+tt_t_chr_avt_acc_sho_docMartinBootsAqua.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_docMartinBootsAquaLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_docMartinBootsBrown.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_docMartinBootsBrownLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_docMartinBootsGreen.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_docMartinBootsGreenLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_docMartinBootsPink.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_docMartinBootsPinkLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_docMartinBootsYellow.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_docMartinBootsYellowLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_fashionBootsBlueSquares.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_fashionBootsBlueSquaresLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_fashionBootsGreenHearts.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_fashionBootsGreenHeartsLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_fashionBootsGreyDots.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_fashionBootsGreyDotsLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_fashionBootsOrangeStars.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_fashionBootsOrangeStarsLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_fashionBootsPinkStars.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_fashionBootsPinkStarsLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_fashionBootsPurple.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_fashionBootsPurpleLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_hiTopSneakers.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_hiTopSneakersPink.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_loafers.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_maryJaneShoes.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_maryJaneShoesBrown.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_maryJaneShoesPurple.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_maryJaneShoesRed.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_motorcycleBoots.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_motorcycleBootsLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_oxfords.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_pirate.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_pirateLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_rainBootsBlue.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_rainBootsBlueLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_rainBootsPink.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_rainBootsPinkLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_rainBootsRedDots.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_rainBootsRedDotsLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_rainBootsYellow.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_rainBootsYellowLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_santaBoots.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_santaBootsLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_superToonRedBoots.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_superToonRedBootsLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_tennisShoesGreen.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_tennisShoesPink.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_tennisShoesPurple.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_tennisShoesViolet.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_tennisShoesYellow.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_wingtips.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_winterBootsBeige.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_winterBootsBeigeLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_winterBootsPink.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_winterBootsPinkLL.tif : 128 128 omit
+tt_t_chr_avt_acc_sho_workBoots.tif : 128 128 omit
+
+###################################################################
+# Questmap
+###################################################################
+
+tt_t_gui_qst_daisys_garden_maps_castillian.egg : questmap
+tt_t_gui_qst_daisys_garden_maps_english.egg : questmap
+tt_t_gui_qst_daisys_garden_maps_french.egg : questmap
+tt_t_gui_qst_daisys_garden_maps_german.egg : questmap
+tt_t_gui_qst_daisys_garden_maps_japanese.egg : questmap
+tt_t_gui_qst_daisys_garden_maps_portuguese.egg : questmap
+tt_t_gui_qst_donalds_dock_maps_castillian.egg : questmap
+tt_t_gui_qst_donalds_dock_maps_english.egg : questmap
+tt_t_gui_qst_donalds_dock_maps_french.egg : questmap
+tt_t_gui_qst_donalds_dock_maps_german.egg : questmap
+tt_t_gui_qst_donalds_dock_maps_japanese.egg : questmap
+tt_t_gui_qst_donalds_dock_maps_portuguese.egg : questmap
+tt_t_gui_qst_donalds_dreamland_maps_castillian.egg : questmap
+tt_t_gui_qst_donalds_dreamland_maps_english.egg : questmap
+tt_t_gui_qst_donalds_dreamland_maps_french.egg : questmap
+tt_t_gui_qst_donalds_dreamland_maps_german.egg : questmap
+tt_t_gui_qst_donalds_dreamland_maps_japanese.egg : questmap
+tt_t_gui_qst_donalds_dreamland_maps_portuguese.egg : questmap
+tt_t_gui_qst_minnies_melody_land_maps_castillian.egg : questmap
+tt_t_gui_qst_minnies_melody_land_maps_english.egg : questmap
+tt_t_gui_qst_minnies_melody_land_maps_french.egg : questmap
+tt_t_gui_qst_minnies_melody_land_maps_german.egg : questmap
+tt_t_gui_qst_minnies_melody_land_maps_japanese.egg : questmap
+tt_t_gui_qst_minnies_melody_land_maps_portuguese.egg : questmap
+tt_t_gui_qst_questmap_gui.egg : questmap
+tt_t_gui_qst_the_burrrgh_maps_castillian.egg : questmap
+tt_t_gui_qst_the_burrrgh_maps_english.egg : questmap
+tt_t_gui_qst_the_burrrgh_maps_french.egg : questmap
+tt_t_gui_qst_the_burrrgh_maps_german.egg : questmap
+tt_t_gui_qst_the_burrrgh_maps_japanese.egg : questmap
+tt_t_gui_qst_the_burrrgh_maps_portuguese.egg : questmap
+tt_t_gui_qst_toontown_central_maps_castillian.egg : questmap
+tt_t_gui_qst_toontown_central_maps_english.egg : questmap
+tt_t_gui_qst_toontown_central_maps_french.egg : questmap
+tt_t_gui_qst_toontown_central_maps_german.egg : questmap
+tt_t_gui_qst_toontown_central_maps_japanese.egg : questmap
+tt_t_gui_qst_toontown_central_maps_portuguese.egg : questmap
+
+tt_t_gui_qst_arrow.tif : 32 32 omit
+tt_t_gui_qst_daisys_garden_5100_castillian.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5100_english.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5100_french.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5100_german.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5100_japanese.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5100_portuguese.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5200_castillian.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5200_english.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5200_french.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5200_german.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5200_japanese.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5200_portuguese.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5300_castillian.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5300_english.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5300_french.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5300_german.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5300_japanese.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5300_portuguese.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1100_castillian.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1100_english.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1100_french.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1100_german.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1100_japanese.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1100_portuguese.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1200_castillian.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1200_english.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1200_french.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1200_german.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1200_japanese.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1200_portuguese.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1300_castillian.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1300_english.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1300_french.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1300_german.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1300_japanese.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1300_portuguese.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1300_portuguese_1.tif : 512 512 omit
+tt_t_gui_qst_donalds_dreamland_9100_castillian.tif : 512 512 omit
+tt_t_gui_qst_donalds_dreamland_9100_english.tif : 512 512 omit
+tt_t_gui_qst_donalds_dreamland_9100_french.tif : 512 512 omit
+tt_t_gui_qst_donalds_dreamland_9100_german.tif : 512 512 omit
+tt_t_gui_qst_donalds_dreamland_9100_japanese.tif : 512 512 omit
+tt_t_gui_qst_donalds_dreamland_9100_portuguese.tif : 512 512 omit
+tt_t_gui_qst_donalds_dreamland_9200_castillian.tif : 512 512 omit
+tt_t_gui_qst_donalds_dreamland_9200_english.tif : 512 512 omit
+tt_t_gui_qst_donalds_dreamland_9200_french.tif : 512 512 omit
+tt_t_gui_qst_donalds_dreamland_9200_german.tif : 512 512 omit
+tt_t_gui_qst_donalds_dreamland_9200_japanese.tif : 512 512 omit
+tt_t_gui_qst_donalds_dreamland_9200_portuguese.tif : 512 512 omit
+tt_t_gui_qst_mapClose.tif : 64 64
+tt_t_gui_qst_mapOpen.tif : 64 64
+tt_t_gui_qst_mapTryToClose.tif : 64 64
+tt_t_gui_qst_mapTryToOpen.tif : 64 64
+tt_t_gui_qst_minnies_melody_land_4100_castillian.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4100_english.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4100_french.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4100_german.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4100_japanese.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4100_portuguese.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4200_castillian.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4200_english.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4200_french.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4200_german.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4200_japanese.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4200_portuguese.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4300_castillian.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4300_english.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4300_french.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4300_german.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4300_japanese.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4300_portuguese.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3100_castillian.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3100_english.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3100_french.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3100_german.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3100_japanese.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3100_portuguese.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3200_castillian.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3200_english.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3200_french.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3200_german.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3200_japanese.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3200_portuguese.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3300_castillian.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3300_english.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3300_french.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3300_german.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3300_japanese.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3300_portuguese.tif : 512 512 omit
+tt_t_gui_qst_toontown_central_2100_castillian.tif : 512 512 omit
+tt_t_gui_qst_toontown_central_2100_english.tif : 512 512 omit
+tt_t_gui_qst_toontown_central_2100_french.tif : 512 512 omit
+tt_t_gui_qst_toontown_central_2100_german.tif : 512 512 omit
+tt_t_gui_qst_toontown_central_2100_japanese.tif : 512 512 omit
+tt_t_gui_qst_toontown_central_2100_portuguese.tif : 512 512 omit
+tt_t_gui_qst_toontown_central_2200_castillian.tif : 512 512 omit
+tt_t_gui_qst_toontown_central_2200_english.tif : 512 512 omit
+tt_t_gui_qst_toontown_central_2200_french.tif : 512 512 omit
+tt_t_gui_qst_toontown_central_2200_german.tif : 512 512 omit
+tt_t_gui_qst_toontown_central_2200_japanese.tif : 512 512 omit
+tt_t_gui_qst_toontown_central_2200_portuguese.tif : 512 512 omit
+tt_t_gui_qst_toontown_central_2300_castillian.tif : 512 512 omit
+tt_t_gui_qst_toontown_central_2300_english.tif : 512 512 omit
+tt_t_gui_qst_toontown_central_2300_french.tif : 512 512 omit
+tt_t_gui_qst_toontown_central_2300_german.tif : 512 512 omit
+tt_t_gui_qst_toontown_central_2300_japanese.tif : 512 512 omit
+tt_t_gui_qst_toontown_central_2300_portuguese.tif : 512 512 omit
+
 # paid features slideshow images
 features-catalog : 491 480
 features-chat : 1600 1128
@@ -1063,10 +2220,10 @@ dogMM_Naked-torso-neutral.egg : makeatoon
 dogSS_Naked-torso-1000.egg : makeatoon
 
 # Cog icons
-CorpIcon.rgba : 256 256
-LegalIcon.rgba : 256 256
-MoneyIcon.rgba : 256 256
-SalesIcon.rgba : 256 256
+CorpIcon.rgba : 550 550
+LegalIcon.rgba : 550 550
+MoneyIcon.rgba : 550 550
+SalesIcon.rgba : 550 550
 cog.rgb : 186 186
 
 # This should be gone now
@@ -1177,6 +2334,8 @@ factoryIcon2.tif : 128 128 linear
 skelecog5.tif : 128 128 linear
 Fish_BG.tif : 512 512 linear
 summons.tif : 90 90 linear
+tt_t_gui_sbk_newsPageTab.tif : 64 64 linear omit
+
 
 InventoryRow.rgba : 425 29 linear
 InventoryButtonDown.rgba : 46 29 linear
@@ -1215,7 +2374,7 @@ inventory_small_magnet.rgba : 128 128 linear
 inventory_bikehorn.rgba : 128 128 linear
 inventory_firehose.rgba : 128 128 linear
 inventory_megaphone.rgba : 64 64 linear
-inventory_squirt_flower.rgba : 32 32 linear
+inventory_squirt_flower.rgba : 128 128 linear
 inventory_seltzer_bottle.rgba : 64 64 linear
 inventory_flower_pot.rgba : 128 128 linear
 inventory_piano.rgba : 114 114 linear
@@ -1274,6 +2433,19 @@ friendslist_gui.egg : gamegui
 name_star.egg : gamegui
 
 name_star.rgb : 32 32
+
+tt_m_gui_gm_toonResistance_fist.egg : gamegui
+tt_m_gui_gm_toontroop_getConnected.egg : gamegui
+tt_m_gui_gm_toontroop_whistle.egg : gamegui
+
+tt_t_gui_gm_toonResistance_fist.tif : 128 128
+tt_t_gui_gm_toontroop_getConnected.tif : 128 128
+tt_t_gui_gm_toontroop_whistle.tif : 128 128
+
+tt_m_gui_gen_emblemIcons.egg : gamegui
+
+tt_t_gui_gen_emblemGold.tif : 128 128
+tt_t_gui_gen_emblemSilver.tif : 128 128
 
 # Friends list panel
 scroll-arrow.egg : gamegui
@@ -1394,6 +2566,10 @@ Waiting4Others.rgba : 420 140 linear
 BATTLE_Menu.rgba : 702 335 linear
 yellowPanel.rgba : 111 117 linear
 tt_t_gui_bat_pass.tif : 128 128 linear
+tt_t_gui_gen_skipSectionDisabled.tif : 32 32
+tt_t_gui_gen_skipSectionDown.tif : 32 32
+tt_t_gui_gen_skipSectionRollOver.tif : 32 32
+tt_t_gui_gen_skipSectionUp.tif : 32 32
 
 battle_gui.egg : battle_gui
 # for fanfare object
@@ -1705,6 +2881,7 @@ cog_disguises_japanese.egg : stickerbook_phase_9
 cog_disguises_castillian.egg : stickerbook_phase_9
 cog_disguises_german.egg : stickerbook_phase_9
 cog_disguises_french.egg : stickerbook_phase_9
+cog_disguises_portuguese.egg : stickerbook_phase_9
 
 ######################################################################
 # FISH
@@ -1941,8 +3118,8 @@ eyesSadClosed.rgb : 64 64 omit linear
 eyesAngry.rgb : 64 64 omit linear
 eyesAngryClosed.rgb : 64 64 omit linear
 muzzleShortSurprised.rgb : 128 128 omit mipmap
-pupils.pic : 32 32 omit mipmap
-pupils.rgb : 32 32 omit mipmap
+pupils.pic : 512 512 omit mipmap
+pupils.rgb : 512 512 omit mipmap
 closed_eyelashesN.rgb : 512 512 linear
 open_eyelashesN.rgb : 512 512 linear
 
@@ -1969,7 +3146,7 @@ ShrtHeadGeneric.rgb : 64 64 mipmap
 nosePurple.rgb : 64 32 mipmap
 noseBlack.pic : 64 32 mipmap
 noseBlack.rgb : 64 32 mipmap
-pupils.rgb : 32 32 mipmap
+pupils.rgb : 512 512 mipmap
 pupils.rgba : 32 32 mipmap
 
 # Bear Head
@@ -2097,7 +3274,7 @@ HorseSmallSurprised.rgb : 1024 1024 mipmap
 horse_muzzle.pic : 128 128 mipmap
 horse_ear.pic : 16 32 mipmap
 horse_head.pic : 64 32 mipmap
-horse_pupils.pic : 32 32 mipmap
+horse_pupils.pic : 512 512 mipmap
 horse_ear.rgb : 16 32 mipmap
 horse_head.rgb : 64 32 mipmap
 horse_muzzle.rgb : 128 128 mipmap
@@ -2293,6 +3470,53 @@ tt_t_chr_avt_skirt_gardening1.tif: 512 256 omit   # 51512 25656
 tt_t_chr_avt_skirt_party1.tif: 512 256 omit   # 51512 25656
 tt_t_chr_avt_skirt_racing1.tif: 512 256 omit   # 51512 25656
 tt_t_chr_avt_skirt_summer1.tif: 512 256 omit   # 51512 25656
+tt_t_chr_avt_skirt_racingGrandPrix.tif: 256 256 omit
+tt_t_chr_avt_shorts_sellbotCrusher.tif: 256 256 omit
+tt_t_chr_avt_shorts_racingGrandPrix.tif: 256 256 omit
+tt_t_chr_avt_shorts_halloweenTurtle.tif: 256 256 omit
+tt_t_chr_avt_shorts_halloween5.tif: 256 256 omit
+tt_t_chr_avt_shorts_cogbuster.tif: 256 256 omit
+tt_t_chr_avt_shirt_whistle.tif: 256 128 omit
+tt_t_chr_avt_shirt_victoryParty02.tif: 256 256 omit
+tt_t_chr_avt_shirt_victoryParty01.tif: 256 256 omit
+tt_t_chr_avt_shirt_trashcan.tif: 256 128 omit
+tt_t_chr_avt_shirt_sellbotVPIcon.tif: 256 256 omit
+tt_t_chr_avt_shirt_sellbotIcon.tif: 256 256 omit
+tt_t_chr_avt_shirt_sellbotCrusher.tif: 256 256 omit
+tt_t_chr_avt_shirt_racingGrandPrix.tif: 256 256 omit
+tt_t_chr_avt_shirt_mostCogsDefeated01.tif: 256 256 omit
+tt_t_chr_avt_shirt_mailbox.tif: 256 128 omit
+tt_t_chr_avt_shirt_loonyLabs.tif: 256 128 omit
+tt_t_chr_avt_shirt_jellyBeans.tif: 128 128 omit
+tt_t_chr_avt_shirt_hydrant.tif: 256 128 omit
+tt_t_chr_avt_shirt_halloweenTurtle.tif: 256 256 omit
+tt_t_chr_avt_shirt_halloween5.tif: 256 256 omit
+tt_t_chr_avt_shirt_doodle.tif: 128 128 omit
+tt_t_chr_avt_shirt_cogbuster.tif: 256 256 omit
+tt_t_chr_avt_shirtSleeve_whistle.tif: 128 64 omit
+tt_t_chr_avt_shirtSleeve_victoryParty02.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_victoryParty01.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_trashcan.tif: 128 64 omit
+tt_t_chr_avt_shirtSleeve_sellbotVPIcon.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_sellbotIcon.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_sellbotCrusher.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_racingGrandPrix.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_mostCogsDefeated01.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_mailbox.tif: 128 64 omit
+tt_t_chr_avt_shirtSleeve_loonyLabs.tif: 128 64 omit
+tt_t_chr_avt_shirtSleeve_jellyBeans.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_hydrant.tif: 128 64 omit
+tt_t_chr_avt_shirtSleeve_halloweenTurtle.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_halloween5.tif: 128 128 omit
+tt_t_chr_avt_shirtSleeve_doodle.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_cogbuster.tif: 64 64 omit
+tt_t_chr_avt_shirt_lawbotIcon.tif: 256 256 omit
+tt_t_chr_avt_shirtSleeve_lawbotIcon.tif: 64 64 omit
+tt_t_chr_avt_shirt_lawbotVPIcon.tif: 256 256 omit
+tt_t_chr_avt_shirtSleeve_lawbotVPIcon.tif: 64 64 omit
+tt_t_chr_avt_shirt_lawbotCrusher.tif: 256 256 omit
+tt_t_chr_avt_shirtSleeve_lawbotCrusher.tif: 64 64 omit
+tt_t_chr_avt_shorts_lawbotCrusher.tif: 256 256 omit
 
 # Special award clothes 2
 
@@ -2339,6 +3563,75 @@ tt_t_chr_avt_skirt_halloween4.tif: 128 128 omit
 tt_t_chr_avt_skirt_saveBuilding1.tif: 128 128 omit
 tt_t_chr_avt_skirt_trolley1.tif: 128 128 omit
 
+# Special award clothes 3
+
+tt_t_chr_avt_skirt_racing05.tif: 128 128 omit
+tt_t_chr_avt_skirt_racing04.tif: 128 128 omit
+tt_t_chr_avt_skirt_racing03.tif: 128 128 omit
+tt_t_chr_avt_skirt_greentoon1.tif: 128 128 omit
+tt_t_chr_avt_skirt_golf04.tif: 128 128 omit
+tt_t_chr_avt_skirt_golf03.tif: 128 128 omit
+tt_t_chr_avt_skirt_golf02.tif: 128 128 omit
+tt_t_chr_avt_shorts_racing05.tif: 128 128 omit
+tt_t_chr_avt_shorts_racing04.tif: 128 128 omit
+tt_t_chr_avt_shorts_racing03.tif: 128 128 omit
+tt_t_chr_avt_shorts_greentoon1.tif: 128 128 omit
+tt_t_chr_avt_shorts_golf05.tif: 128 128 omit
+tt_t_chr_avt_shorts_golf04.tif: 128 128 omit
+tt_t_chr_avt_shorts_golf03.tif: 128 128 omit
+tt_t_chr_avt_shirt_winter03.tif: 128 128 omit
+tt_t_chr_avt_shirt_winter02.tif: 128 128 omit
+tt_t_chr_avt_shirt_trolley05.tif: 128 128 omit
+tt_t_chr_avt_shirt_trolley04.tif: 128 128 omit
+tt_t_chr_avt_shirt_trolley03.tif: 128 128 omit
+tt_t_chr_avt_shirt_saveBuilding4.tif: 128 128 omit
+tt_t_chr_avt_shirt_saveBuilding3.tif: 128 128 omit
+tt_t_chr_avt_shirt_saveBuilding05.tif: 128 128 omit
+tt_t_chr_avt_shirt_racing05.tif: 128 128 omit
+tt_t_chr_avt_shirt_racing04.tif: 128 128 omit
+tt_t_chr_avt_shirt_racing03.tif: 128 128 omit
+tt_t_chr_avt_shirt_mostCogsDefeated04.tif: 128 128 omit
+tt_t_chr_avt_shirt_mostCogsDefeated03.tif: 128 128 omit
+tt_t_chr_avt_shirt_mostCogsDefeated02.tif: 128 128 omit
+tt_t_chr_avt_shirt_halloween07.tif: 128 128 omit
+tt_t_chr_avt_shirt_halloween06.tif: 128 128 omit
+tt_t_chr_avt_shirt_greentoon1.tif: 128 128 omit
+tt_t_chr_avt_shirt_golf05.tif: 128 128 omit
+tt_t_chr_avt_shirt_golf04.tif: 128 128 omit
+tt_t_chr_avt_shirt_golf03.tif: 128 128 omit
+tt_t_chr_avt_shirt_getConnectedMoverShaker.tif: 128 128 omit
+tt_t_chr_avt_shirt_fishing07.tif: 128 128 omit
+tt_t_chr_avt_shirt_fishing06.tif: 128 128 omit
+tt_t_chr_avt_shirt_fishing05.tif: 128 128 omit
+tt_t_chr_avt_shirt_fishing04.tif: 128 128 omit
+tt_t_chr_avt_shirt_anniversary.tif: 128 128 omit
+tt_t_chr_avt_shirtSleeve_winter03.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_winter02.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_trolley05.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_trolley04.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_trolley03.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_saveBuilding4.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_saveBuilding3.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_saveBuilding05.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_racing05.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_racing04.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_racing03.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_mostCogsDefeated04.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_mostCogsDefeated03.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_mostCogsDefeated02.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_halloween07.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_halloween06.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_greentoon1.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_golf05.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_golf04.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_golf03.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_getConnectedMoverShaker.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_fishing07.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_fishing06.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_fishing05.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_fishing04.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_anniversary.tif: 64 64 omit
+
 # Toon Scientists
 
 tt_t_chr_shirtSleeve_scientist.tif: 256 128 omit
@@ -2348,6 +3641,25 @@ tt_t_chr_shirt_scientistC.tif: 512 256 omit
 tt_t_chr_shorts_scientistA.tif: 512 256 omit
 tt_t_chr_shorts_scientistB.tif: 512 256 omit
 tt_t_chr_shorts_scientistC.tif: 512 256 omit
+
+# Halloween 2011 Clothes
+
+tt_t_chr_avt_skirt_pirate.tif: 128 128 omit
+tt_t_chr_avt_shorts_vampire.tif: 256 256 omit
+tt_t_chr_avt_shorts_supertoon.tif: 128 128 omit
+tt_t_chr_avt_shorts_pirate.tif: 128 128 omit
+tt_t_chr_avt_shorts_dinosaur.tif: 128 128 omit
+tt_t_chr_avt_shorts_bee.tif: 128 128 omit
+tt_t_chr_avt_shirt_vampire.tif: 256 256 omit
+tt_t_chr_avt_shirt_supertoon.tif: 128 128 omit
+tt_t_chr_avt_shirt_pirate.tif: 128 128 omit
+tt_t_chr_avt_shirt_dinosaur.tif: 128 128 omit
+tt_t_chr_avt_shirt_bee.tif: 128 128 omit
+tt_t_chr_avt_shirtSleeve_vampire.tif: 128 128 omit
+tt_t_chr_avt_shirtSleeve_supertoon.tif: 32 32 omit
+tt_t_chr_avt_shirtSleeve_pirate.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_dinosaur.tif: 64 64 omit
+tt_t_chr_avt_shirtSleeve_bee.tif: 64 64 omit
 
 # catalog series 7
 shirt_Cat7_01 : 1024 1024 omit mipmap
@@ -2711,6 +4023,27 @@ waiter_m_blazer : 128 128 omit mipmap
 waiter_m_leg : 64 64 omit mipmap
 waiter_m_sleeve : 64 64 omit mipmap
 
+# Sellbot Nerf Suit
+tt_t_ene_sellbotRental_arm.tif : 32 16 omit
+tt_t_ene_sellbotRental_blazer.tif : 256 256 omit
+tt_t_ene_sellbotRental_hand.tif : 64 128 omit
+tt_t_ene_sellbotRental_leg.tif : 64 128 omit
+tt_t_ene_sellbotRental_shoe.tif : 64 64 omit
+tt_t_ene_sellbotRental_sleeve.tif : 64 128 omit
+
+# Lawbot Nerf Suit
+#tt_t_ene_lawbotRental_arm.tif : 32 16 omit
+#tt_t_ene_lawbotRental_blazer.tif : 256 256 omit
+#tt_t_ene_lawbotRental_hand.tif : 64 128 omit
+#tt_t_ene_lawbotRental_leg.tif : 64 128 omit
+#tt_t_ene_lawbotRental_shoe.tif : 64 64 omit
+#tt_t_ene_lawbotRental_sleeve.tif : 64 128 omit
+
+# Suit Revamp
+tt_t_ene_bossbot.tif : 256 256 omit
+tt_t_ene_lawbot.tif : 256 256 omit
+tt_t_ene_cashbot.tif : 256 256 omit
+tt_t_ene_sellbot.tif : 256 256 omit
 
 # Suit heads
 ambulance_chaser.rgb : 256 256
@@ -2751,6 +4084,8 @@ suitA-mod.egg : tutorial_suits
 suitB-mod.egg : tutorial_suits
 suitC-mod.egg : tutorial_suits
 money-suit-textures.egg : tutorial_suits
+tt_m_ene_sellbotRental.egg : tutorial_suits
+suits.egg : tutorial_suits
 
 suitA-heads.egg : suit-heads
 suitB-heads.egg : suit-heads
@@ -2793,7 +4128,7 @@ elevator_button.rgba : 32 32
 elevator_button_panel.rgba : 192 59
 
 cog_life_meter.egg : tutorial_suits
-elevator.egg : suits
+elevator.egg : phase_4
 suit_door.egg : suits
 suit_detail_panel.egg : tutorial_suits
 suit_sign.egg : suits
@@ -3561,10 +4896,6 @@ CogDoor_Button.egg : cogHQ
 woodCrate_cube.egg : cogHQ
 FootFactory.egg : sellbotLegFactory
 square_stomper.egg : cogHQ
-HQ_interior.egg : cogHQ
-HQ_interior_german.egg : cogHQ
-HQ_interior_portuguese.egg : cogHQ
-HQ_interior_french.egg : cogHQ
 platform1.egg : cogHQ
 FactoryGearB.egg : cogHQ
 FactoryGearBpost.egg : cogHQ
@@ -3580,7 +4911,11 @@ CashBotLocomotive.egg : cashbotHQExt
 CashBotBoxCar.egg : cashbotHQExt
 CashBotFlatCar.egg : cashbotHQExt
 CashBotTankCar.egg : cashbotHQExt
+CashBotShippingStation_castillian.egg : cashbotHQExt
 CashBotShippingStation.egg : cashbotHQExt
+CashBotShippingStation_french.egg : cashbotHQExt
+CashBotShippingStation_japanese.egg : cashbotHQExt
+CashBotShippingStation_portuguese.egg : cashbotHQExt
 CashBotSky.egg : cashbotHQExt
 VaultLobby.egg : cashbotHQExt
 MidVault.egg : cashbotHQExt
@@ -3624,13 +4959,18 @@ CashBotWindows1Outside.tif : 256 256
 CashBotYellwWndwGrad.tif : 256 256
 CBCrate.tif : 256 256
 CBCurrencyBack.tif : 256 256
+CBCurrencyBack_french.tif : 256 256
 CBHQDollarDoor.tif : 256 256
+CBHQDoorEuro.tif : 1024 1024
 CBMoneyStackPalletSide3.tif : 256 256
 CBMoneyStackPalletSide2.tif : 256 256
 CBLocomotiveGrills.rgb : 256 256
 CBLogoBB.tif : 256 256
+CBEuroLogoBB.tif : 1024 1024
 CBLogoDecal.tif : 256 256
+CBLogoDecalEuro.tif : 256 256 # Needs Texture Update
 CBMetalCrate.tif : 256 256
+CBMetalCrateEuro.tif : 1024 1024
 CBMint1.tif : 256 256
 CBMint2.tif : 1024 1024
 CBMint3.tif : 256 256
@@ -3665,6 +5005,7 @@ CBWallVault.rgb : 256 256
 CBWallVaultedge.tif : 256 256
 CBWallVaultWheel.rgb : 256 256
 CBWrapperBill.tif : 256 256
+CBWrapperBill_french.tif : 256 256
 CFOCeiling2.tif : 256 256
 CFOVaultmagnet2.tif : 256 256
 LightningBolt1.rgb : 256 256
@@ -3725,10 +5066,16 @@ WoodStrips.tif : 256 256
 WoodStripsFlatCar.tif : 256 256
 GoldBar2.tif : 256 256
 GoldLogo.tif : 256 256
+GoldLogoEuro.tif : 256 256
 GoldBarNumbers.tif : 256 256
 CBCrate.tif : 256 256
+CBCrate_castillian.tif : 256 256
+CBCrate_french.tif : 1440 1440
+CBCrate_japanese.tif : 1440 1440
+CBCrate_portuguese.tif : 256 256
 Pallet1.tif : 256 256
 CBMoneyBags1a.tif : 256 256
+CBMoneyBags1aEuro.tif : 256 256
 MoneyBagsCoinFront.rgb : 256 256
 MoneyBagsCoinBack.rgb : 256 256
 CoinEdge2.tif : 256 256
@@ -3741,15 +5088,30 @@ CBBossBotBack.tif : 256 256
 CBBossBotFront.tif : 512 512
 CBBossBotArm.tif : 256 256
 CashBotDollarSign.rgb : 256 256
+CashBotEuroSign.tif : 128 128
 CashBotCFOHead.tif : 256 256
+EuroMoneyIcon.tif : 128 128
 CBKeys.tif : 256 256
 MoneyIcon.rgb : 256 256
 GoldBar2Logo.tif : 256 256
+GoldBar2LogoEuro.tif : 256 256
 cogbuckProgress.rgb : 200 55
+cogbuckProgress_castillian.tif : 454 125
+cogbuckProgress_japanese.tif : 454 125
+cogbuckProgress_portuguese.tif : 454 125
+cogbuckProgress2_french.tif : 454 125
 CashBotMint.tif : 128 128
 CashBotBossHeadIcon.tif : 128 128
 jury_notice_progress : 454 125
+jury_notice_progress_castillian : 454 125
+jury_notice_progress_french : 454 125
+jury_notice_progress_japanese : 454 125
+jury_notice_progress_portuguese : 454 125
 StockOptionProgress : 154 39
+StockOptionProgress_castillian : 454 125
+StockOptionProgress_french : 454 125
+StockOptionProgress_japanese : 454 125
+StockOptionProgress_portuguese : 154 39
 
 ZONE03a.egg : cashbotHQ
 ZONE04a.egg : cashbotHQ
@@ -3960,22 +5322,224 @@ upper_top.rgb : 650 184
 
 
 # particle attack textures
-audit-div.rgb audit-five.rgb audit-four.rgb audit-minus.rgb audit-mult.rgb audit-one.rgb audit-plus.rgb audit-six.rgb audit-three.rgb audit-two.rgb blah.rgb brainstorm-box.rgb brainstorm-env.rgb brainstorm-track.rgb buzzwords-crash.rgb buzzwords-inc.rgb buzzwords-main.rgb buzzwords-over.rgb buzzwords-syn.rgb doubletalk-double.rgb doubletalk-dup.rgb doubletalk-good.rgb filibuster-cut.rgb filibuster-fiscal.rgb filibuster-impeach.rgb filibuster-inc.rgb jargon-brow.rgb jargon-deep.rgb jargon-hoop.rgb jargon-ipo.rgb legalese-hc.rgb legalese-qpq.rgb legalese-vd.rgb mumbojumbo-boiler.rgb mumbojumbo-creative.rgb mumbojumbo-deben.rgb mumbojumbo-high.rgb mumbojumbo-iron.rgb poundsign.rgb schmooze-genius.rgb schmooze-instant.rgb schmooze-master.rgb schmooze-viz.rgb : 16 16 sgi
+audit-div.rgb : 16 16 sgi
+audit-five.rgb : 16 16 sgi
+audit-four.rgb : 16 16 sgi
+audit-minus.rgb : 16 16 sgi
+audit-mult.rgb : 16 16 sgi
+audit-one.rgb : 16 16 sgi
+audit-plus.rgb : 16 16 sgi
+audit-six.rgb : 16 16 sgi
+audit-three.rgb : 16 16 sgi
+audit-two.rgb : 16 16 sgi
+blah.rgb : 32 16 sgi
+brainstorm-box.rgb : 64 16 sgi
+brainstorm-env.rgb : 64 32 sgi
+brainstorm-track.rgb : 64 8 sgi
+buzzwords-crash.rgb : 64 16 sgi
+buzzwords-inc.rgb : 64 8 sgi
+buzzwords-main.rgb : 64 8 sgi
+buzzwords-over.rgb : 64 8 sgi
+buzzwords-syn.rgb : 64 8 sgi
+doubletalk-double.rgb : 64 32 sgi
+doubletalk-dup.rgb : 64 16 sgi
+doubletalk-good.rgb : 64 32 sgi
+filibuster-cut.rgb : 32 16 sgi
+filibuster-fiscal.rgb : 128 16 sgi
+filibuster-impeach.rgb : 64 8 sgi
+filibuster-inc.rgb : 64 16 sgi
+jargon-brow.rgb : 64 8 sgi
+jargon-deep.rgb : 64 16 sgi
+jargon-hoop.rgb : 64 8 sgi
+jargon-ipo.rgb : 32 8 sgi
+legalese-hc.rgb : 64 32 sgi
+legalese-qpq.rgb : 64 32 sgi
+legalese-vd.rgb : 64 16 sgi
+mumbojumbo-boiler.rgb : 64 8 sgi
+mumbojumbo-creative.rgb : 64 16 sgi
+mumbojumbo-deben.rgb : 64 8 sgi
+mumbojumbo-high.rgb : 64 32 sgi
+mumbojumbo-iron.rgb : 64 16 sgi
+poundsign.rgb : 32 32 sgi
+schmooze-genius.rgb : 64 16 sgi
+schmooze-instant.rgb : 64 32 sgi
+schmooze-master.rgb : 64 8 sgi
+schmooze-viz.rgb : 64 16 sgi
+
 # castillian particle textures
 
-brainstorm-box-castillian.rgb brainstorm-env-castillian.rgb brainstorm-track-castillian.rgb buzzwords-crash-castillian.rgb buzzwords-inc-castillian.rgb buzzwords-main-castillian.rgb buzzwords-over-castillian.rgb buzzwords-syn-castillian.rgb doubletalk-double-castillian.rgb doubletalk-dup-castillian.rgb doubletalk-good-castillian.rgb filibuster-cut-castillian.rgb filibuster-fiscal-castillian.rgb filibuster-impeach-castillian.rgb filibuster-inc-castillian.rgb jargon-brow-castillian.rgb jargon-deep-castillian.rgb jargon-hoop-castillian.rgb jargon-ipo-castillian.rgb mumbojumbo-boiler-castillian.rgb mumbojumbo-creative-castillian.rgb mumbojumbo-deben-castillian.rgb mumbojumbo-high-castillian.rgb mumbojumbo-iron-castillian.rgb schmooze-genius-castillian.rgb schmooze-instant-castillian.rgb schmooze-master-castillian.rgb schmooze-viz-castillian.rgb : 64 24 sgi
+brainstorm-box-castillian.rgb : 64 24 sgi
+brainstorm-env-castillian.rgb : 48 23 sgi
+brainstorm-track-castillian.rgb : 80 10 sgi
+buzzwords-crash-castillian.rgb : 64 24 sgi
+buzzwords-inc-castillian.rgb : 80 10 sgi
+buzzwords-main-castillian.rgb : 80 10 sgi
+buzzwords-over-castillian.rgb : 80 10 sgi
+buzzwords-syn-castillian.rgb : 80 10 sgi
+doubletalk-double-castillian.rgb : 64 24 sgi
+doubletalk-dup-castillian.rgb : 64 16 sgi
+doubletalk-good-castillian.rgb : 96 24 sgi
+filibuster-cut-castillian.rgb : 64 24 sgi
+filibuster-fiscal-castillian.rgb : 128 24 sgi
+filibuster-impeach-castillian.rgb : 64 10 sgi
+filibuster-inc-castillian.rgb : 96 24 sgi
+jargon-brow-castillian.rgb : 80 10 sgi
+jargon-deep-castillian.rgb : 96 24 sgi
+jargon-hoop-castillian.rgb : 64 16 sgi
+jargon-ipo-castillian.rgb : 64 24 sgi
+mumbojumbo-boiler-castillian.rgb : 64 10 sgi
+mumbojumbo-creative-castillian.rgb : 64 24 sgi
+mumbojumbo-deben-castillian.rgb : 80 10 sgi
+mumbojumbo-high-castillian.rgb : 64 24 sgi
+mumbojumbo-iron-castillian.rgb : 64 24 sgi
+schmooze-genius-castillian.rgb : 64 16 sgi
+schmooze-instant-castillian.rgb : 64 24 sgi
+schmooze-master-castillian.rgb : 64 24 sgi
+schmooze-viz-castillian.rgb : 64 16 sgi
+
+# german particle textures
+
+brainstorm-box_german.rgb : 64 24 sgi
+brainstorm-env_german.rgb : 64 24 sgi
+brainstorm-track_german.rgb : 64 10 sgi
+buzzwords-crash_german.rgb : 64 16 sgi
+buzzwords-inc_german.rgb : 80 10 sgi
+buzzwords-main_german.rgb : 80 10 sgi
+buzzwords-over_german.rgb : 80 10 sgi
+buzzwords-syn_german.rgb : 80 10 sgi
+doubletalk-double_german.rgb : 140 24 sgi
+doubletalk-dup_german.rgb : 64 24 sgi
+doubletalk-good_german.rgb : 96 24 sgi
+filibuster-cut_german.rgb : 80 10 sgi
+filibuster-fiscal_german.rgb : 128 24 sgi
+filibuster-impeach_german.rgb : 64 10 sgi
+filibuster-inc_german.rgb : 80 10 sgi
+jargon-brow_german.rgb : 80 10 sgi
+jargon-deep_german.rgb : 64 10 sgi
+jargon-hoop_german.rgb : 64 16 sgi
+jargon-ipo_german.rgb : 80 10 sgi
+mumbojumbo-boiler_german.rgb : 64 10 sgi
+mumbojumbo-creative_german.rgb : 64 24 sgi
+mumbojumbo-deben_german.rgb : 80 10 sgi
+mumbojumbo-high_german.rgb : 64 16 sgi
+mumbojumbo-iron_german.rgb : 64 24 sgi
+schmooze-genius_german.rgb : 64 16 sgi
+schmooze-instant_german.rgb : 80 10 sgi
+schmooze-master_german.rgb : 80 10 sgi
+schmooze-viz_german.rgb : 64 16 sgi
+
+# french particle textures
+
+brainstorm-box_french.rgb : 64 16 sgi
+brainstorm-env_french.rgb : 64 24 sgi
+brainstorm-track_french.rgb : 64 24 sgi
+buzzwords-crash_french.rgb : 64 24 sgi
+buzzwords-inc_french.rgb : 64 16 sgi
+buzzwords-main_french.rgb : 64 24 sgi
+buzzwords-over_french.rgb : 64 16 sgi
+buzzwords-syn_french.rgb : 80 10 sgi
+doubletalk-double_french.rgb : 64 24 sgi
+doubletalk-dup_french.rgb : 64 16 sgi
+doubletalk-good_french.rgb : 96 24 sgi
+filibuster-cut_french.rgb : 64 24 sgi
+filibuster-fiscal_french.rgb : 128 24 sgi
+filibuster-impeach_french.rgb : 64 10 sgi
+filibuster-inc_french.rgb : 96 24 sgi
+jargon-brow_french.rgb : 64 10 sgi
+jargon-deep_french.rgb : 64 24 sgi
+jargon-hoop_french.rgb : 128 24 sgi
+jargon-ipo_french.rgb : 128 24 sgi
+mumbojumbo-boiler_french.rgb : 64 24 sgi
+mumbojumbo-creative_french.rgb : 64 24 sgi
+mumbojumbo-deben_french.rgb : 80 10 sgi
+mumbojumbo-high_french.rgb : 64 16 sgi
+mumbojumbo-iron_french.rgb : 64 24 sgi
+schmooze-genius_french.rgb : 64 16 sgi
+schmooze-instant_french.rgb : 128 24 sgi
+schmooze-master_french.rgb : 80 10 sgi
+schmooze-viz_french.rgb : 64 16 sgi
+
+# japanese particle textures
+
+brainstorm-box_japanese.rgb : 64 24 sgi
+brainstorm-env_japanese.rgb : 48 32 sgi
+brainstorm-track_japanese.rgb : 80 10 sgi
+buzzwords-crash_japanese.rgb : 64 24 sgi
+buzzwords-inc_japanese.rgb : 80 10 sgi
+buzzwords-main_japanese.rgb : 80 10 sgi
+buzzwords-over_japanese.rgb : 80 10 sgi
+buzzwords-syn_japanese.rgb : 80 10 sgi
+doubletalk-double_japanese.rgb : 64 24 sgi
+doubletalk-dup_japanese.rgb : 64 16 sgi
+doubletalk-good_japanese.rgb : 96 24 sgi
+filibuster-cut_japanese.rgb : 64 24 sgi
+filibuster-fiscal_japanese.rgb : 128 24 sgi
+filibuster-impeach_japanese.rgb : 64 10 sgi
+filibuster-inc_japanese.rgb : 96 24 sgi
+jargon-brow_japanese.rgb : 80 10 sgi
+jargon-deep_japanese.rgb : 96 24 sgi
+jargon-hoop_japanese.rgb : 64 16 sgi
+jargon-ipo_japanese.rgb : 64 24 sgi
+legalese-hc_japanese.rgb : 64 32 sgi
+legalese-qpq_japanese.rgb : 64 32 sgi
+legalese-vd_japanese.rgb : 32 32 sgi
+mumbojumbo-boiler_japanese.rgb : 64 10 sgi
+mumbojumbo-creative_japanese.rgb : 64 24 sgi
+mumbojumbo-deben_japanese.rgb : 80 10 sgi
+mumbojumbo-high_japanese.rgb : 64 24 sgi
+mumbojumbo-iron_japanese.rgb : 64 24 sgi
+schmooze-genius_japanese.rgb : 64 16 sgi
+schmooze-instant_japanese.rgb : 64 24 sgi
+schmooze-master_japanese.rgb : 64 24 sgi
+schmooze-viz_japanese.rgb : 64 16 sgi
+
+# portuguese particle textures
+
+brainstorm-box_portuguese.rgb : 64 16 sgi
+brainstorm-env_portuguese.rgb : 64 16 sgi
+brainstorm-track_portuguese.rgb : 80 10 sgi
+buzzwords-crash_portuguese.rgb : 64 24 sgi
+buzzwords-inc_portuguese.rgb : 80 10 sgi
+buzzwords-main_portuguese.rgb : 64 24 sgi
+buzzwords-over_portuguese.rgb : 80 10 sgi
+buzzwords-syn_portuguese.rgb : 80 10 sgi
+doubletalk-double_portuguese.rgb : 64 24 sgi
+doubletalk-dup_portuguese.rgb : 64 16 sgi
+doubletalk-good_portuguese.rgb : 96 24 sgi
+filibuster-cut_portuguese.rgb : 64 24 sgi
+filibuster-fiscal_portuguese.rgb : 128 24 sgi
+filibuster-impeach_portuguese.rgb : 64 10 sgi
+filibuster-inc_portuguese.rgb : 96 24 sgi
+jargon-brow_portuguese.rgb : 64 24 sgi
+jargon-deep_portuguese.rgb : 64 10 sgi
+jargon-hoop_portuguese.rgb : 64 16 sgi
+jargon-ipo_portuguese.rgb : 64 16 sgi
+mumbojumbo-boiler_portuguese.rgb : 64 10 sgi
+mumbojumbo-creative_portuguese.rgb : 64 24 sgi
+mumbojumbo-deben_portuguese.rgb : 80 10 sgi
+mumbojumbo-high_portuguese.rgb : 64 16 sgi
+mumbojumbo-iron_portuguese.rgb : 64 16 sgi
+schmooze-genius_portuguese.rgb : 64 16 sgi
+schmooze-instant_portuguese.rgb : 64 24 sgi
+schmooze-master_portuguese.rgb : 64 24 sgi
+schmooze-viz_portuguese.rgb : 64 16 sgi
 
 dagger.rgb : 93 329 sgi
 fire.rgb : 32 64 sgi
 # old one - still used!
 roll-o-dex.rgb : 4 4 sgi
 rollodex-card.rgb : 172 110 sgi
+rollodex-card_japanese.rgb : 172 110 sgi
 snow-particle.rgb : 16 16 sgi
 gear.rgb : 32 32 sgi force-rgba
 raindrop.rgb : 16 16 sgi
 checkmark.rgba : 16 32 sgi
 dollar-sign.rgba : 92 81 sgi
-dollar-sign-castillian.rgba : 92 81 sgi
+dollar-sign-castillian.rgb : 92 81 sgi
+dollar-sign-german.rgb : 92 81 sgi
+dollar-sign-french.rgb : 92 81 sgi
+dollar-sign-japanese.rgb : 92 81 sgi
+dollar-sign-portuguese.rgb : 92 81 sgi
 spark.rgba : 180 187 sgi
 
 # These are used by the Flunky in the tutorial
@@ -4074,6 +5638,8 @@ tot_jar.egg : phase_4
 
 tt_m_int_snowmanHead_tall.tif : 512 512   # 512 512
 tt_m_int_snowmanHead_short.tif : 512 512   # 512 512
+tt_t_efx_snowmanHead_tall.tif : 256 256 omit   # 512 512
+tt_t_efx_snowmanHead_short.tif : 256 256 omit   # 512 512
 ######################################################################
 # SIGNS
 ######################################################################
@@ -4081,13 +5647,20 @@ neighborhood_sign_arm.rgb : 159 14
 neighborhood_sign_hand.rgba : 90 62
 newsignbase.rgb : 128 128
 cogHQ_sign.rgb : 320 250
+cogHQ_sign_castillian.rgb : 320 250
 cashbotHQ_sign.rgb : 320 250
+cashbotHQ_sign_castillian.rgb : 320 250
+#cashbotHQ_sign_german.rgb : 320 250 // Needs to be created
+cashbotHQ_sign_japanese.rgb : 320 250
+cashbotHQ_sign_portuguese.rgb : 320 250
+cashbotHQ_sign_french.rgb : 320 250
 
 # Hmm... omit these since they will be used in
 # multiple hoods but not very often.
 sign_burrrgh.rgba : 466 445 omit mipmap
 sign_burrrghCastillian.rgb : 466 445 omit mipmap
 sign_burrrgh_german.rgb : 466 445 omit mipmap
+sign_burrrgh_portuguese.tif : 466 445 omit mipmap
 sign_burrrgh_japanese.rgb : 466 445 omit mipmap
 sign_burrrgh_french.rgb : 466 445 omit mipmap
 sign_daisysGarden.rgba : 400 400 omit mipmap
@@ -4112,7 +5685,6 @@ sign_minnies_melodyland_portuguese.tif : 426 380 omit mipmap
 sign_minnies_melodyland_japanese.rgb : 426 380 omit mipmap
 sign_minnies_melodyland_french.rgb : 426 380 omit mipmap
 sign_toontown_central.rgba : 512 364 omit mipmap
-sign_burrrgh_portuguese.tif : 466 445 omit mipmap
 sign_toontown_centralCastillian.rgb : 512 364 omit mipmap
 sign_toontown_central_german.rgb : 512 364 omit mipmap
 sign_toontown_central_portuguese.tif : 512 364 omit mipmap
@@ -4209,6 +5781,11 @@ neighborhood_sign_sellBotHQ_french.egg : neighborhood_common
 sign_sellBotHeadHQ.egg : neighborhood_common
 
 neighborhood_sign_cashBotHQ_english.egg : neighborhood_common
+neighborhood_sign_cashBotHQ_castillian.egg : neighborhood_common
+neighborhood_sign_cashBotHQ_german.egg : neighborhood_common
+neighborhood_sign_cashBotHQ_japanese.egg : neighborhood_common
+neighborhood_sign_cashBotHQ_portuguese.egg : neighborhood_common
+neighborhood_sign_cashBotHQ_french.egg : neighborhood_common
 
 sign_construction.rgba : 560 398 mipmap
 barricade.rgba : 505 180
@@ -4284,10 +5861,10 @@ tt_m_ara_MM_streetlight_winter.egg : winter_minnies_melody_land_streets
 
 #Halloween
 tt_t_ara_TT_streetlight_halloween_ghost.png : 128 256
-tt_t_ara_TT_tree_fat_halloween.png : 128 128
-tt_t_ara_TT_tree_large_halloween.tif : 128 256
-tt_t_ara_TT_tree_small_halloween_pirate.png : 128 256
-tt_t_ara_TT_streetlight_halloween_bowtie.tif : 128 256
+tt_t_ara_TT_tree_fat_halloween.png : 373 337
+tt_t_ara_TT_tree_large_halloween.tif : 256 513
+tt_t_ara_TT_tree_small_halloween_pirate.png : 256 512
+tt_t_ara_TT_streetlight_halloween_bowtie.tif : 256 521
 TT_light_top.rgb : 68 68
 TT_light_base1.rgb : 128 128
 TT_light_base.rgb : 250 114
@@ -4320,7 +5897,7 @@ tt_t_ara_MM_tree_halloween.png : 128 128
 tt_t_ara_BR_pinetree_halloween.png : 128 256
 
 tt_t_ara_DL_streetlight_halloween_mummy.png : 128 256
-tt_t_ara_DL_streetlight_halloween_witch.png : 256 256
+tt_t_ara_DL_streetlight_halloween_witch.png : 427 613
 tt_t_ara_DL_tree_halloween.png : 128 256
 tt_t_prp_ext_streetlight_DL_halloween.tif : 311 590
 tt_t_prp_ext_tree_DL_halloween.tif : 548 870
@@ -4867,6 +6444,10 @@ toonhall.egg : toontown_central_safezone
 HQ_interior_english.egg : hq_interior
 HQ_interior_castillian.egg : hq_interior
 HQ_interior_japanese.egg : hq_interior
+HQ_interior.egg : hq_interior
+HQ_interior_german.egg : hq_interior
+HQ_interior_portuguese.egg : hq_interior
+HQ_interior_french.egg : hq_interior
 HQ_periscope-base-mod.egg : hq_interior
 hqTT_english.egg : toontown_central_tutorial
 hqTT_castillian.egg : toontown_central_tutorial
@@ -4897,7 +6478,7 @@ piers_tt.egg : toontown_central_safezone
 
 # New animated buildings
 tt_r_ara_ttc_B2.egg : toontown_central_streets
-tt_t_ara_ttc_B2.tif : 256 256
+tt_t_ara_ttc_B2.tif : 256 256 omit
 
 
 
@@ -5054,19 +6635,18 @@ small_round_barrel.egg : donalds_dock_common
 DD_lighthouse.egg : donalds_dock_streets
 DD_street_water.egg : donalds_dock_streets
 starfish_treasure.egg : donalds_dock_safezone
-tt_m_ara_DD_hq_english.egg : donalds_dock_streets
-tt_m_ara_DD_SZ_hq_english.egg : donalds_dock_safezone
-hqDD_castillian.egg : donalds_dock_streets
-hqDD_german.egg : donalds_dock_streets
-hqDD_portuguese.egg : donalds_dock_streets
-hqDD_japanese.egg : donalds_dock_streets
-hqDD_french.egg : donalds_dock_streets
-hqDD_SZ_english.egg : donalds_dock_safezone
-hqDD_SZ_castillian.egg : donalds_dock_safezone
-hqDD_SZ_german.egg : donalds_dock_safezone
-hqDD_SZ_japanese.egg : donalds_dock_safezone
-hqDD_SZ_portuguese.egg : donalds_dock_safezone
-hqDD_SZ_french.egg : donalds_dock_safezone
+tt_m_ara_dod_hq_english.egg : donalds_dock_streets
+tt_m_ara_dod_SZ_hq_english.egg : donalds_dock_safezone
+tt_m_ara_dod_hq_castillian.egg : donalds_dock_streets
+tt_m_ara_dod_SZ_hq_castillian.egg : donalds_dock_safezone
+tt_m_ara_dod_hq_german.egg : donalds_dock_streets
+tt_m_ara_dod_SZ_hq_german.egg : donalds_dock_safezone
+tt_m_ara_dod_hq_portuguese.egg : donalds_dock_streets
+tt_m_ara_dod_SZ_hq_portuguese.egg : donalds_dock_safezone
+tt_m_ara_dod_hq_japanese.egg : donalds_dock_streets
+tt_m_ara_dod_SZ_hq_japanese.egg : donalds_dock_safezone
+tt_m_ara_dod_hq_french.egg : donalds_dock_streets
+tt_m_ara_dod_SZ_hq_french.egg : donalds_dock_safezone
 
 ######################################################################
 # MINNIES MELODY LAND
@@ -5333,6 +6913,7 @@ DG_fountain_base.rgb : 329 223
 DG_fountain_head.rgba : 101 170
 DG_fountain_water.rgb : 270 269
 DG_fountains.rgb : 357 176
+tt_t_ara_dga_fountain.tif : 512 512
 Hwood.rgb : 512 512 mipmap
 Vwood.rgb : 512 512 mipmap
 arch_temp.rgb : 128 128
@@ -5418,6 +6999,7 @@ DGpd_pond.rgb : 800 802
 
 daisy_park_table.egg : daisys_garden_common
 daisys_fountain.egg : daisys_garden_common
+tt_m_ara_dga_fountain.egg : daisys_garden_common
 daisys_garden.egg : daisys_garden_safezone
 daisys_garden_ext.egg : daisys_garden_safezone
 daisys_park_bench.egg : daisys_garden_common
@@ -5659,6 +7241,12 @@ DL_donald-500.egg : donald
 # DD donald
 donald-wheel-1000.egg: donald
 
+# Franken Donald
+
+tt_t_chr_csc_donaldCostume.tif : 256 256 omit
+
+tt_a_chr_csc_donaldCostume_default.egg : donald
+
 
 ######################################################################
 # Goofy
@@ -5700,7 +7288,11 @@ TT_G-1000.egg: goofy
 TT_G-1500.egg: goofy
 
 # Super Goofy
-tt_t_chr_csc_goofyCostume.tif : 256 256 # 256 256
+tt_a_chr_csc_goofyCostume_1200.egg : goofy
+tt_a_chr_csc_goofyCostume_800.egg : goofy
+tt_a_chr_csc_goofyCostume_400.egg : goofy
+
+tt_t_chr_csc_goofyCostume.tif : 256 256 omit # 256 256
 
 ######################################################################
 # Mickey
@@ -5862,6 +7454,15 @@ plutoEyes.egg : pluto
 
 
 
+# Western Pluto
+
+tt_a_chr_csc_plutoCostume_1200.egg : pluto
+tt_a_chr_csc_plutoCostume_800.egg : pluto
+tt_a_chr_csc_plutoCostume_400.egg : pluto
+
+tt_t_chr_pluto.tif : 256 256 omit
+tt_t_chr_plutoCostume.tif : 128 128
+
 ######################################################################
 # Daisy
 ######################################################################
@@ -5876,6 +7477,12 @@ dd_pupil1 : 37 64
 daisyduck_1600.egg : daisy
 daisyduck_400.egg : daisy
 daisyduck_800.egg : daisy
+
+# SockHop Daisy
+
+tt_a_chr_csc_daisyCostume_default.egg : daisy
+
+tt_t_chr_csc_daisyCostume.tif : 256 256 omit
 
 ######################################################################
 # Chip 'n Dale
@@ -5894,6 +7501,17 @@ chip_1000.egg : chip_and_dale
 dale_250.egg : chip_and_dale
 dale_500.egg : chip_and_dale
 dale_1000.egg : chip_and_dale
+
+# Police Chip & Jailbird Dale
+
+tt_t_chr_csc_chipBody.tif : 256 256 omit
+tt_t_chr_csc_chipCostume.tif : 256 256 omit
+
+tt_t_chr_csc_daleBody.tif : 256 256 omit
+tt_t_chr_csc_daleCostume.tif : 256 256 omit
+
+tt_a_chr_csc_chipCostume_default.egg : chip_and_dale
+tt_a_chr_csc_daleCostume_default.egg : chip_and_dale
 
 ######################################################################
 # Minigames
@@ -5962,6 +7580,10 @@ FireButton_castillian.tif : 52 52
 
 it.rgb : 128 128 mipmap
 it_japanese.rgb : 128 128 mipmap
+it_german.rgb : 128 128 mipmap
+it_castillian.rgb : 128 128 mipmap
+it_portuguese.rgb : 128 128 mipmap
+it_french.rgb : 128 128 mipmap
 
 tugofwarlines.rgb : 256 8
 
@@ -6684,9 +8306,12 @@ cattlelogLogo_english.rgb : 181 118 linear
 cattlelogLogo_portuguese.tif : 181 118 linear
 cattlelogLogo_french.tif : 181 118 linear
 cattlelogLogo_german.rgb : 181 118 linear
+cattlelogLogo_castillian.rgb : 181 118 linear
 cattlelogSaleCover2_japanese.tif : 373 409 linear
 cattlelogSaleCover2_french.tif : 373 409 linear
 cattlelogSaleCover_german.tif : 372 407 linear
+cattlelogSaleCover_castillian.tif : 373 409 linear
+cattlelogSaleCoverPortuguese.tif : 373 409 linear
 coverPicture.rgb : 300 303 linear
 cover1Picture.rgb : 300 303 linear
 cover4picture.rgb : 300 302 linear
@@ -6808,6 +8433,10 @@ tt_t_prp_ext_snowman_statue_fresh.tif: 456 508
 tt_t_prp_ext_snowman_statue_melty.tif: 512 512
 tt_t_prp_ext_snowman_statue_puddle.tif: 700 256
 tt_t_prp_ext_snowman_statue_icon.tif: 802 796
+tt_t_prp_ext_snowDoodle_statue_fresh.tif: 128 128
+tt_t_prp_ext_snowDoodle_statue_melty.tif: 128 128
+tt_t_prp_ext_snowDoodle_statue_puddle.tif: 128 114
+tt_t_prp_ext_snowDoodle_statue_icon.tif: 128 128
 tt_t_prp_int_fire1.tif : 64 64
 tt_t_prp_int_fire2.tif : 64 64
 tt_t_prp_int_fire3.tif : 64 64
@@ -6821,6 +8450,7 @@ tt_t_prp_int_winter_treeF2.tif : 512 595
 tt_t_prp_int_painting_valentine.tif : 520 467
 tt_t_prp_int_waterCan_heart.tif : 256 256
 tt_t_prp_int_vase_heart.tif : 1024 1024
+tt_t_ara_pty_cogTubeVictory.tif : 256 256
 
 flowerBasket.egg  : stickerbook
 trophyA.egg : stickerbook
@@ -6881,6 +8511,9 @@ tt_m_ara_int_candlestick.egg : estate
 tt_m_ara_int_candlestickLit.egg : estate
 tt_m_ara_int_presents.egg : estate
 tt_m_ara_int_sled.egg : estate
+tt_m_prp_ext_snowDoodle.egg : estate
+tt_m_prp_ext_snowDoodle_icon.egg : estate
+tt_a_ara_pty_tubeCogVictory_default.egg : estate
 
 # All the wallpapers need to be omitted so they can be directly
 # applied to the walls by show code.  Some of them are just horizontal
@@ -7780,6 +9413,8 @@ pumpkin_short.egg : phase_4
 pumpkin_tall.egg : phase_4
 tt_m_int_snowmanHead_short.egg : phase_4
 tt_m_int_snowmanHead_tall.egg : phase_4
+tt_m_efx_snowmanHead_short.egg : phase_4
+tt_m_efx_snowmanHead_tall.egg : phase_4
 
 # candy themed estate furniture
 BottomHostessCupcake1 : 507 388
@@ -8724,7 +10359,17 @@ squareshadow : 512 512
 scale.egg : lawbotHQ
 
 sign_lawbotHQ : 320 250
+sign_lawbotHQ_castillian : 320 250
+#sign_lawbotHQ_german : 320 250 // Needs to be created
+sign_lawbotHQ_japanese : 320 250
+sign_lawbotHQ_portuguese : 320 250
+sign_lawbotHQ_french : 128 128 # Needs to be changed when a higher resolution has been found.
 neighborhood_sign_lawBotHQ_english.egg : neighborhood_common
+neighborhood_sign_lawBotHQ_castillian.egg : neighborhood_common
+#neighborhood_sign_lawBotHQ_german.egg : neighborhood_common
+neighborhood_sign_lawBotHQ_japanese.egg : neighborhood_common
+neighborhood_sign_lawBotHQ_portuguese.egg : neighborhood_common
+neighborhood_sign_lawBotHQ_french.egg : neighborhood_common
 
 LB_Ceiling2 : 256 256
 LB_Marble3 : 256 256
@@ -8929,6 +10574,11 @@ chip_enterance_pillar.tif : 256 256
 chip_enterance_ball.tif : 256 256
 chip_enterance_tee.tif : 256 256
 chip_enterance_sign.tif : 362 181
+chip_enterance_sign_castillian : 362 181
+#chip_enterance_sign_german : 362 181 // Needs to be created
+chip_enterance_sign_japanese : 362 181
+chip_enterance_sign_portuguese : 362 181
+chip_enterance_sign_french : 302 181
 chip_entrance_woods.tif : 256 256
 dale_alph2.tif : 256 256
 school_roof_Bside.tif : 280 201
@@ -9008,6 +10658,10 @@ piece_powerup.tga: 64 64
 acorn_treasure.egg : golf
 chip_dale_NoSign_enterance.egg : golf
 chip_dale_enterance.egg : golf
+chip_dale_enterance_castillian.egg : golf
+#chip_dale_enterance_german.egg : golf // Needs to be created
+chip_dale_enterance_portuguese.egg : golf
+chip_dale_enterance_french.egg : golf
 golf_gazebo.egg : golf
 golf_geyser.egg : golf
 golf_geyser_model.egg : golf
@@ -9218,9 +10872,11 @@ squareShadow_Diffuse.png : 512 512
 PartyInvite_Birthday.png          : 623 399
 PartyInvite_GenericMale.png       : 623 399
 PartyInvite_GenericFemale.png     : 623 399
-tt_t_gui_pty_partyInvite_racing.tif : 256 256
-tt_t_gui_pty_partyInvite_valentine1.tif : 256 256
-tt_t_gui_pty_partyInvite_valentine2.tif : 256 256
+tt_t_gui_pty_partyInvite_racing.tif : 256 256 omit
+tt_t_gui_pty_partyInvite_valentine1.tif : 256 256 omit
+tt_t_gui_pty_partyInvite_valentine2.tif : 256 256 omit
+tt_t_gui_pty_partyInvite_victory1.tif : 256 256 omit
+tt_t_gui_pty_partyInvite_winter1.tif : 256 256 omit
 
 # Jukebox GUI
 bg_Jukebox_GUI.png              : 512 512
@@ -9241,15 +10897,24 @@ MerryGoRound_Diffuse.png : 512 512
 
 # Party Decorations
 partyDecoration_BalloonAnvil_Diffuse.png : 512 512
+partyDecoration_BalloonAnvilValentine_Diffuse.tif : 128 115
 partyDecoration_BalloonStage_Diffuse.png : 512 512
 partyDecoration_Bow_Diffuse.png : 512 512
 partyDecoration_Cake_Diffuse.png : 512 512
 partyDecoration_Castle_Diffuse.png : 512 512
+partyDecoration_cogIceCreamVictory_Diffuse.tif : 128 128
+partyDecoration_cogIceCreamWinter_Diffuse.tif : 128 128
+partyDecoration_CogStatueVictory_Diffuse.tif : 128 128
+partyDecoration_CogStatueWinter_Diffuse.tif : 128 128
 partyDecoration_GiftPile_Diffuse.png : 512 512
 partyDecoration_Horn_Diffuse.png : 512 512
 partyDecoration_MardiGras_Diffuse.png : 512 512
 partyDecoration_NoiseMakers_Diffuse.png : 512 512
 partyDecoration_Pinwheel_Diffuse.png : 512 512
+partyDecoration_snowDoodle_Diffuse.tif : 102 128
+partyDecoration_snowman_Diffuse.tif : 802 796
+partyDecoration_StageWinter_Diffuse.tif : 128 102
+partyDecoration_TubeCogVictory_Diffuse.tif : 128 128
 
 tt_t_ara_pty_balloonsSmall.tif : 128 128
 tt_t_ara_pty_balloonsBig.tif : 128 128
@@ -9277,23 +10942,31 @@ tt_t_ara_pty_bannerValentine.tif : 128 64
 
 # Models
 TrampolineDiffuse1.png   : 512 512 omit
+tt_t_ara_pty_trampolineValentine.tif : 256 256 omit
+tt_t_ara_pty_trampolineVictory.tif : 256 256 omit
+tt_t_ara_pty_trampolineWinter.tif : 256 256 omit
 Rocket_diffuse.png       : 512 512
 tt_t_efx_smoke.tif       : 256 256
 tt_t_efx_fireball.tif    : 256 256
 # jukebox omitted to make reskinning easier
 Jukebox_Diffuse.png      : 256 256 omit
 tt_t_ara_pty_jukeboxBlue.tif : 256 256 omit
+tt_t_ara_pty_jukeboxValentineA.tif : 256 256 omit
+tt_t_ara_pty_jukeboxValentineB.tif : 256 256 omit
 PartyClock_Diffuse.png   : 512 512
 PartyLever_Diffuse.png   : 256 256
 danceFloor_diffuse.png   : 512 512
 danceFloor-DiscoBall_Diffuse2.png    : 512 512
 tt_t_ara_pty_danceDiscoBall10.tif : 256 256
 tt_t_ara_pty_danceDiscoBall20.tif : 256 256
+tt_t_ara_pty_danceDiscoBall_Valentine.tif : 60 41
 danceFloor-Shadow_Diffuse.png   : 512 512
+tt_t_ara_pty_danceFloorValentine.tif : 256 256 omit
 tugDecor_diffuse.png : 512 512
 
 # Cog "Pinata" Activity
 cogPieArena_diffuse.png : 256 256 mipmap
+tt_t_ara_pty_cogPieArenaWinter.tif : 256 256 mipmap omit
 cogPinata_diffuse2.png : 256 256 mipmap
 cogPinata_arenaHole.png : 128 128
 cogPieToss_blueArrowHead.png : 16 32
@@ -9317,7 +10990,10 @@ launchPad_Diffuse2.png : 512 512
 
 PartyCatch_Diffuse.png          : 1026 1026
 PartyCatchLeaves_Diffuse.png    : 360 288
+tt_t_ara_pty_partyCatchLeavesWinter.tif : 256 256 omit
 PartyCatch_ground_diffuse.png    : 512 512
+tt_t_ara_pty_partyCatchGroundWinter.tif : 256 256 omit
+tt_t_ara_pty_partyCatchWinter.tif : 256 256 omit
 tt_t_ara_pty_catchTree_sign.tif  : 128 64
 
 # Trampoline GUI
@@ -9360,6 +11036,33 @@ PartyMerryGoRoundIcon.png   : 512 512
 PartyJukebox40Icon.png : 512 512
 PartyDance20Icon.png    : 512 512
 PartyCogIcon.png : 512 512
+tt_t_ara_pty_iconDanceFloorValentine.tif : 64 64
+tt_t_ara_pty_iconJukeboxValentine.tif : 64 64
+tt_t_ara_pty_iconTrampolineValentine.tif : 64 64
+
+# Victory Party
+tt_t_ara_pty_cannonBalloonsVictory.tif : 256 256 omit
+tt_t_ara_pty_cannonConfetti.tif : 128 128 omit
+tt_t_ara_pty_cannonVictory.tif : 256 256 omit
+tt_t_ara_pty_cogDoodleVictory.tif : 256 256 omit
+tt_t_ara_pty_cogDoodleWinter.tif : 256 256 omit
+tt_t_ara_pty_cogIceCreamVictory.tif : 256 256 omit
+tt_t_ara_pty_cogIceCreamWinter.tif : 256 256 omit
+tt_t_ara_pty_hydrantSummer.tif : 256 256 omit
+tt_t_ara_pty_hydrantWinter.tif : 256 256 omit
+tt_t_ara_pty_mailboxSummer.tif : 256 256 omit
+tt_t_ara_pty_mailboxWinter.tif : 256 256 omit
+tt_t_ara_pty_trashcanSummer.tif : 256 256 omit
+tt_t_ara_pty_trashcanWinter.tif : 256 256 omit
+tt_t_ara_pty_propStage.tif : 256 256 omit
+tt_t_ara_pty_propStageWinter.tif : 256 256 omit
+tt_t_ara_pty_winterPresent.tif : 64 64
+tt_t_gui_pty_pieToss_arrowkeys.tif : 173 124
+tt_t_gui_pty_pieToss_balanceArrow.tif : 43 57
+tt_t_gui_pty_pieToss_balanceBarBG.tif : 512 64 omit
+tt_t_gui_pty_pieToss_balanceBarOrange.tif : 30 30
+tt_t_gui_pty_pieToss_balanceBarPie.tif : 64 64
+tt_t_gui_pty_pieToss_controlkey.tif : 89 65
 
 # For Stickerbook:
 Stickerbook_PartyIcon.png     : 96 96
@@ -9392,7 +11095,8 @@ calendar_popup_cupcake.png : 316 106
 calendar_popup_fun.png : 316 106
 tt_t_gui_sbk_calendar_popup_racing.tif : 128 64
 tt_t_gui_sbk_calendar_popup_valentine1.tif : 128 64
-
+tt_t_gui_sbk_calendar_popup_victoryParty.tif : 128 64
+tt_t_gui_sbk_calendar_popup_winter1.tif : 128 64
 
 ###################################################################
 # In Game News GUI
@@ -9410,21 +11114,36 @@ tt_t_gui_ign_newHover.tif : 54 54
 
 tt_m_gui_ign_directNewsGui.egg : inGameNews_gui
 tt_m_gui_ign_directNewsGuiNav.egg : inGameNews_gui
+tt_m_gui_ign_directNewsGuiNavV2.egg : inGameNews_gui
+tt_m_gui_ign_newsStatusBackground.egg : inGameNews_gui
+tt_m_gui_ign_shtickerBook.egg : inGameNews_gui
 
 tt_i_art_btn_ReturnToMainRo.tif : 119 29
 tt_i_art_btn_ReturnToMain.tif : 119 29
 tt_i_art_btn_ReadMoreRo.tif : 119 29
 tt_i_art_btn_ReadMore.tif : 119 29
 tt_i_art_btn_NavTotRo.tif : 152 26
+tt_i_art_btn_NavTotRo2.tif : 152 26
 tt_i_art_btn_NavTot.tif : 152 26
+tt_i_art_btn_NavTot2.tif : 152 26
 tt_i_art_btn_NavTnrRo.tif : 152 26
+tt_i_art_btn_NavTnrRo2.tif : 152 26
 tt_i_art_btn_NavTnr.tif : 152 26
+tt_i_art_btn_NavTnr2.tif : 152 26
 tt_i_art_btn_NavNewRo.tif : 90 26
+tt_i_art_btn_NavNewRo2.tif : 152 26
 tt_i_art_btn_NavNew.tif : 90 26
+tt_i_art_btn_NavNew2.tif : 90 26
 tt_i_art_btn_NavHomRo.tif : 90 26
+tt_i_art_btn_NavHomRo2.tif : 152 26
 tt_i_art_btn_NavHom.tif : 90 26
+tt_i_art_btn_NavHom2.tif : 90 26
 tt_i_art_btn_NavEvtRo.tif : 90 26
+tt_i_art_btn_NavEvtRo2.tif : 152 26
 tt_i_art_btn_NavEvt.tif : 90 26
+tt_i_art_btn_NavEvt2.tif : 90 26
+tt_i_art_btn_NavExtRo2.tif : 214 32
+tt_i_art_btn_NavExt2.tif : 42 32
 tt_i_art_btn_NavAttRo.tif : 152 26
 tt_i_art_btn_NavAtt.tif : 152 26
 tt_i_art_btn_HomTotRo.tif : 69 63
@@ -9448,6 +11167,24 @@ tt_i_art_btn_ArchiveArrwRightDisabled.tif : 22 36
 tt_i_art_btn_ArchiveArrwLeftRo.tif : 22 43
 tt_i_art_btn_ArchiveArrwLeftNormal.tif : 22 43
 tt_i_art_btn_ArchiveArrwLeftDisabled.tif : 22 43
+
+tt_i_art_err1.tif : 512 256 omit
+
+tt_t_gui_sbk_newsPage1.tif : 106 76
+tt_t_gui_sbk_newsPage2.tif : 106 76
+
+###################################################################
+# Code Redemption GUI
+###################################################################
+
+tt_m_gui_sbk_codeRedemptionGui.egg : stickerbook
+
+tt_t_gui_sbk_cdrCodeBox.tif : 212 70
+tt_t_gui_sbk_cdrFlippy.tif : 214 130
+tt_t_gui_sbk_cdrPresent.tif : 128 256
+tt_t_gui_sbk_cdrResultPanel_error.tif : 190 256
+tt_t_gui_sbk_cdrResultPanel_failure.tif : 190 256
+tt_t_gui_sbk_cdrResultPanel_success.tif : 128 256 omit
 
 
 ## PARTY MODELS ###############################################################
@@ -9508,6 +11245,23 @@ cogTrackerGUI.egg : parties
 stretchingArrow.egg : parties
 cogPinataHole.egg : parties
 
+# Victory Parties
+tt_m_ara_pty_cogDoodleVictory.egg : parties
+tt_m_ara_pty_cogDoodleWinter.egg : parties
+tt_m_ara_pty_cogIceCreamVictory.egg : parties
+tt_m_ara_pty_cogIceCreamWinter.egg : parties
+tt_m_ara_pty_winterPresent.egg : parties
+tt_m_ara_pty_hydrantWinter.egg : parties
+tt_m_ara_pty_propStageWinter.egg : parties
+tt_m_ara_pty_mailboxWinter.egg : parties
+tt_m_ara_pty_trashcanWinter.egg : parties
+tt_m_ara_pty_danceFloorValentine.egg : parties
+tt_m_gui_pty_pieToss_balanceBar.egg : parties
+tt_m_gui_pty_pieToss_controls.egg : parties
+tt_m_ara_pty_bannerVictory.egg : parties
+tt_m_ara_pty_bannerVictory_model.egg : parties
+tt_m_ara_pty_cannonVictory.egg : parties
+tt_m_ara_pty_cannonVictory_model.egg : parties
 
 ## END PARTIES ################################################################
 ###############################################################################

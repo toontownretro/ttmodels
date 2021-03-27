@@ -41,7 +41,11 @@
     facade_c.egg facade_cN.egg facade_d.egg facade_dM.egg \
     facade_dN.egg facade_e.egg facade_eN.egg paper_trashcan.egg \
     couch_1person.egg couch_2person.egg ending_table.egg wood_fence.egg \
-    tt_m_ara_int_toonhall.egg
+    tt_m_ara_int_toonhall_english.egg \
+	tt_m_ara_int_scientistDuckFlat.egg \
+	tt_m_ara_int_scientistHorseFlat.egg \
+	tt_m_ara_int_scientistMonkeyFlat.egg \
+	tt_m_ara_int_sillyMeterFlat.egg
   #define PHASE 3.5
 #end install_egg
 
@@ -52,7 +56,12 @@
     safe_zone_tunnel_TT.egg trolley_station_TT.egg doors.egg TT_pond.egg \
     bank.egg library.egg school_house.egg mercantile.egg gazebo.egg \
     toonhall.egg clothshopTT.egg PetShopInterior.egg PetShopExterior_TT.egg Speedway_Tunnel.egg \
-    partyGate_TT.egg
+    partyGate_TT.egg tt_m_ara_int_ropes.egg \
+	suit_landmark_sales.egg \
+    suit_landmark_corp.egg \
+    suit_landmark_legal.egg \
+    suit_landmark_money.egg \
+    elevator.egg 
 
   #if $[LANGUAGE]
     #define SOURCES $[SOURCES] \
@@ -76,16 +85,17 @@
   #define PHASE 5
 #end install_egg
 
-// Suit buildings are in phase 5
+// Suit buildings are in phase 4
 #begin install_egg
   #define SOURCES \
-    suit_landmark_sales.egg \
-    suit_landmark_corp.egg \
-    suit_landmark_legal.egg \
-    suit_landmark_money.egg \
+    //suit_landmark_sales.egg \
+    //suit_landmark_corp.egg \
+    //suit_landmark_legal.egg \
+    //suit_landmark_money.egg \
     suit_landmark_money2.egg \
     suit_walls.egg suit_door.egg \
-    elevator.egg suit_sign.egg
+    //elevator.egg \
+	suit_sign.egg
   #define PHASE 5
 #end install_egg
 
@@ -111,19 +121,15 @@
 
 // The DD HQ has changed from hqDD_$[LANGUAGE].egg to tt_m_ara_DD_SZ_hq_$[LANGUAGE].egg so changes
 // need to be made for other languages! Thanks
+// DD HQs got changed again to tt_m_ara_dod_hq -Bob
   #if $[LANGUAGE]
     #define SOURCES $[SOURCES] \
-      gagShop_DD_$[LANGUAGE].egg tt_m_ara_DD_hq_$[LANGUAGE].egg \
-      tt_m_ara_DD_SZ_hq_$[LANGUAGE].egg
-    #if $[eq $[LANGUAGE],english]
-    #else
-      #define SOURCES $[SOURCES] \
-        hqDD_$[LANGUAGE].egg hqDD_SZ_$[LANGUAGE].egg 
-    #endif
+      gagShop_DD_$[LANGUAGE].egg tt_m_ara_dod_hq_$[LANGUAGE].egg \
+      tt_m_ara_dod_SZ_hq_$[LANGUAGE].egg
   #else
     #define SOURCES $[SOURCES] \
-      gagShop_DD_english.egg tt_m_ara_DD_hq_english.egg \
-      tt_m_ara_DD_SZ_hq_english.egg
+      gagShop_DD_english.egg tt_m_ara_dod_hq_english.egg \
+      tt_m_ara_dod_SZ_hq_english.egg
   #endif
   #define PHASE 6
 #end install_egg

@@ -67,17 +67,46 @@
     toontown_central_fountain.egg piers_tt.egg fishing_bob.egg \
     mickey_on_horse.egg goofy_statue.egg ripples.egg wake.egg \
     // Holiday decorations
-    winter_tree_Christmas.egg tt_m_int_snowmanHead_short.egg \
-    tt_m_int_snowmanHead_tall.egg \
-    tt_m_ara_TT_test_sillyOMeter.egg \
-    tt_m_ara_TT_sillyOMeter.egg
-
+    winter_tree_Christmas.egg \ 
+	//tt_m_int_snowmanHead_short.egg \
+    //tt_m_int_snowmanHead_tall.egg \
+    //tt_m_ara_TT_test_sillyOMeter.egg \
+    //tt_m_ara_TT_sillyOMeter.egg \
+    tt_a_ara_ttc_sillyMeter_arrowFluid.egg tt_a_ara_ttc_sillyMeter_default.egg \
+	tt_a_ara_ttc_sillyMeter_phaseFive.egg tt_a_ara_ttc_sillyMeter_phaseFour.egg \
+	tt_a_ara_ttc_sillyMeter_phaseFourToFive.egg tt_a_ara_ttc_sillyMeter_phaseOne.egg \
+	tt_a_ara_ttc_sillyMeter_phaseThree.egg tt_a_ara_ttc_sillyMeter_phaseTwo.egg \
+	tt_m_efx_snowmanHead_short.egg tt_m_efx_snowmanHead_tall.egg \
+	tt_m_prp_acs_clipboard.egg tt_m_prp_acs_sillyReader.egg	\
+	  tt_m_ara_ttc_sillyMeterSign_groupA_english.egg \
+	  tt_m_ara_ttc_sillyMeterSign_groupB_english.egg
+	
   #if $[LANGUAGE]
     #define SOURCES $[SOURCES] \
-      neighborhood_sign_sellBotHQ_$[LANGUAGE].egg
+      neighborhood_sign_sellBotHQ_$[LANGUAGE].egg \
+	  tt_m_ara_gen_foreSign_$[LANGUAGE].egg \
+	  tt_m_ara_gen_jellybeanJamSign_$[LANGUAGE].egg \
+	  tt_m_ara_gen_sillyMeterSign_$[LANGUAGE].egg \
+	  tt_m_ara_gen_stormSellbotSign_$[LANGUAGE].egg \
+	  tt_m_ara_gen_trickOrTreatSign_$[LANGUAGE].egg \
+	  tt_m_ara_gen_tunnelAheadSign_$[LANGUAGE].egg \
+	  tt_m_ara_gen_victoryPartySign_$[LANGUAGE].egg \
+	  tt_m_ara_gen_victorySoonSign_$[LANGUAGE].egg 
+	//  tt_m_ara_ttc_sillyMeterSign_groupA_$[LANGUAGE].egg \
+	//  tt_m_ara_ttc_sillyMeterSign_groupB_$[LANGUAGE].egg
   #else
     #define SOURCES $[SOURCES] \
-      neighborhood_sign_sellBotHQ_english.egg
+      neighborhood_sign_sellBotHQ_english.egg \
+	  tt_m_ara_gen_foreSign_english.egg \
+	  tt_m_ara_gen_jellybeanJamSign_english.egg \
+	  tt_m_ara_gen_sillyMeterSign_english.egg \
+	  tt_m_ara_gen_stormSellbotSign_english.egg \
+	  tt_m_ara_gen_trickOrTreatSign_english.egg \
+	  tt_m_ara_gen_tunnelAheadSign_english.egg \
+	  tt_m_ara_gen_victoryPartySign_english.egg \
+	  tt_m_ara_gen_victorySoonSign_english.egg 
+	//  tt_m_ara_ttc_sillyMeterSign_groupA_english.egg \
+	//  tt_m_ara_ttc_sillyMeterSign_groupB_english.egg
   #endif
   #define PHASE 4
 #end install_egg
@@ -210,7 +239,8 @@
     daisys_flowerbox_yellow.egg daisys_flowerbox_pink.egg \
     window_flowerbox_wood.egg window_flowerbox_woven.egg \
     daisys_flower_bed.egg DG_flats.egg trees_DG.egg winter_trees_DG.egg signs_DG.egg flower_treasure.egg \
-    daisys_fountain.egg 
+    //daisys_fountain.egg
+	tt_m_ara_dga_fountain.egg
   #define PHASE 8
 #end install_egg
 
@@ -221,7 +251,14 @@
     trees_DL.egg winter_trees_DL.egg DL_hydrant.egg \
     tt_m_ara_DL_streetlight_halloween.egg tt_m_ara_DL_tree_halloween.egg \
     tt_m_ara_DL_streetlight_winter.egg \
-    DL_weathervane.egg DL_flats.egg signs_DL.egg zzz_treasure.egg
+    DL_weathervane.egg DL_flats.egg signs_DL.egg zzz_treasure.egg \
+	  tt_m_ara_ddl_foreSign_english.egg \
+	  tt_m_ara_ddl_jellybeanJamSign_english.egg \
+	  tt_m_ara_ddl_sillyMeterSign_english.egg \
+	  tt_m_ara_ddl_stormSellbotSign_english.egg \
+	  tt_m_ara_ddl_trickOrTreatSign_english.egg \
+	  tt_m_ara_ddl_victoryPartySign_english.egg \
+	  tt_m_ara_ddl_victorySoonSign_english.egg 
 
   #if $[LANGUAGE]
     #define SOURCES $[SOURCES] \
