@@ -1,0 +1,55 @@
+<Comment> {
+  "egg-texture-cards -suffix _japanese ../maps/tt_t_gui_qst_the_burrrgh_3300_japanese.tif ../maps/tt_t_gui_qst_the_burrrgh_3200_japanese.tif ../maps/tt_t_gui_qst_the_burrrgh_3100_japanese.tif -o tt_m_gui_qst_the_burrrgh_maps_japanese.egg"
+}
+<Texture> tt_t_gui_qst_the_burrrgh_3300 {
+  "../maps/tt_t_gui_qst_the_burrrgh_3300_japanese.tif"
+}
+<Texture> tt_t_gui_qst_the_burrrgh_3200 {
+  "../maps/tt_t_gui_qst_the_burrrgh_3200_japanese.tif"
+}
+<Texture> tt_t_gui_qst_the_burrrgh_3100 {
+  "../maps/tt_t_gui_qst_the_burrrgh_3100_japanese.tif"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_gui_qst_the_burrrgh_3300 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_qst_the_burrrgh_3300 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_qst_the_burrrgh_3200 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_qst_the_burrrgh_3200 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_qst_the_burrrgh_3100 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_qst_the_burrrgh_3100 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

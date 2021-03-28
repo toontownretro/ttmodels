@@ -1,0 +1,45 @@
+<Comment> {
+  "egg-texture-cards -suffix _french ../maps/tt_t_gui_qst_donalds_dreamland_9200_french.tif ../maps/tt_t_gui_qst_donalds_dreamland_9100_french.tif -o tt_m_gui_qst_donalds_dreamland_maps_french.egg"
+}
+<Texture> tt_t_gui_qst_donalds_dreamland_9200 {
+  "../maps/tt_t_gui_qst_donalds_dreamland_9200_french.tif"
+}
+<Texture> tt_t_gui_qst_donalds_dreamland_9100 {
+  "../maps/tt_t_gui_qst_donalds_dreamland_9100_french.tif"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_gui_qst_donalds_dreamland_9200 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_qst_donalds_dreamland_9200 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_qst_donalds_dreamland_9100 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_qst_donalds_dreamland_9100 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

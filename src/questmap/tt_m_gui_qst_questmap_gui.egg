@@ -1,0 +1,75 @@
+<Comment> {
+  "egg-texture-cards ../maps/tt_t_gui_qst_arrow.tif ../maps/tt_t_gui_qst_mapOpen.tif ../maps/tt_t_gui_qst_mapClose.tif ../maps/tt_t_gui_qst_mapTryToClose.tif ../maps/tt_t_gui_qst_mapTryToOpen.tif -o tt_m_gui_qst_questmap_gui.egg"
+}
+<Texture> tt_t_gui_qst_mapTryToOpen {
+  "../maps/tt_t_gui_qst_mapTryToOpen.tif"
+}
+<Texture> tt_t_gui_qst_mapTryToClose {
+  "../maps/tt_t_gui_qst_mapTryToClose.tif"
+}
+<Texture> tt_t_gui_qst_mapOpen {
+  "../maps/tt_t_gui_qst_mapOpen.tif"
+}
+<Texture> tt_t_gui_qst_mapClose {
+  "../maps/tt_t_gui_qst_mapClose.tif"
+}
+<Texture> tt_t_gui_qst_arrow {
+  "../maps/tt_t_gui_qst_arrow.tif"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_gui_qst_arrow {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_qst_arrow }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_qst_mapOpen {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_qst_mapOpen }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_qst_mapClose {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_qst_mapClose }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_qst_mapTryToClose {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_qst_mapTryToClose }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_gui_qst_mapTryToOpen {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_gui_qst_mapTryToOpen }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}
