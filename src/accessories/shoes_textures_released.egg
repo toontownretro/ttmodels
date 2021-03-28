@@ -1,0 +1,145 @@
+<Comment> {
+  "egg-texture-cards tt_t_chr_avt_acc_sho_wingtips.tif tt_t_chr_avt_acc_sho_maryJaneShoes.tif tt_t_chr_avt_acc_sho_fashionBootsPurpleLL.tif tt_t_chr_avt_acc_sho_fashionBootsPurple.tif tt_t_chr_avt_acc_sho_deckShoes.tif tt_t_chr_avt_acc_sho_cowboyBootsLL.tif tt_t_chr_avt_acc_sho_cowboyBoots.tif tt_t_chr_avt_acc_sho_converseStyleWhite.tif tt_t_chr_avt_acc_sho_converseStylePink.tif tt_t_chr_avt_acc_sho_converseStyleBlack.tif tt_t_chr_avt_acc_sho_athleticYellow.tif tt_t_chr_avt_acc_sho_athleticRed.tif -o shoes_textures_released.egg"
+}
+<Texture> tt_t_chr_avt_acc_sho_wingtips {
+  tt_t_chr_avt_acc_sho_wingtips.tif
+}
+<Texture> tt_t_chr_avt_acc_sho_maryJaneShoes {
+  tt_t_chr_avt_acc_sho_maryJaneShoes.tif
+}
+<Texture> tt_t_chr_avt_acc_sho_fashionBootsPurpleLL {
+  tt_t_chr_avt_acc_sho_fashionBootsPurpleLL.tif
+}
+<Texture> tt_t_chr_avt_acc_sho_fashionBootsPurple {
+  tt_t_chr_avt_acc_sho_fashionBootsPurple.tif
+}
+<Texture> tt_t_chr_avt_acc_sho_deckShoes {
+  tt_t_chr_avt_acc_sho_deckShoes.tif
+}
+<Texture> tt_t_chr_avt_acc_sho_cowboyBootsLL {
+  tt_t_chr_avt_acc_sho_cowboyBootsLL.tif
+}
+<Texture> tt_t_chr_avt_acc_sho_cowboyBoots {
+  tt_t_chr_avt_acc_sho_cowboyBoots.tif
+}
+<Texture> tt_t_chr_avt_acc_sho_converseStyleWhite {
+  tt_t_chr_avt_acc_sho_converseStyleWhite.tif
+}
+<Texture> tt_t_chr_avt_acc_sho_converseStylePink {
+  tt_t_chr_avt_acc_sho_converseStylePink.tif
+}
+<Texture> tt_t_chr_avt_acc_sho_converseStyleBlack {
+  tt_t_chr_avt_acc_sho_converseStyleBlack.tif
+}
+<Texture> tt_t_chr_avt_acc_sho_athleticYellow {
+  tt_t_chr_avt_acc_sho_athleticYellow.tif
+}
+<Texture> tt_t_chr_avt_acc_sho_athleticRed {
+  tt_t_chr_avt_acc_sho_athleticRed.tif
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_sho_wingtips {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_sho_wingtips }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_sho_maryJaneShoes {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_sho_maryJaneShoes }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_sho_fashionBootsPurpleLL {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_sho_fashionBootsPurpleLL }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_sho_fashionBootsPurple {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_sho_fashionBootsPurple }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_sho_deckShoes {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_sho_deckShoes }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_sho_cowboyBootsLL {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_sho_cowboyBootsLL }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_sho_cowboyBoots {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_sho_cowboyBoots }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_sho_converseStyleWhite {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_sho_converseStyleWhite }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_sho_converseStylePink {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_sho_converseStylePink }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_sho_converseStyleBlack {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_sho_converseStyleBlack }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_sho_athleticYellow {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_sho_athleticYellow }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_sho_athleticRed {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_sho_athleticRed }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

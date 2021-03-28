@@ -1,0 +1,205 @@
+<Comment> {
+  "egg-texture-cards tt_t_chr_avt_acc_hat_topHatBlue.tif tt_t_chr_avt_acc_hat_safariGreen.tif tt_t_chr_avt_acc_hat_safariBrown.tif tt_t_chr_avt_acc_hat_ribbonRed.tif tt_t_chr_avt_acc_hat_ribbonRainbow.tif tt_t_chr_avt_acc_hat_ribbonPurple.tif tt_t_chr_avt_acc_hat_ribbonPinkDots.tif tt_t_chr_avt_acc_hat_ribbonLtRed.tif tt_t_chr_avt_acc_hat_ribbonCheckerGreen.tif tt_t_chr_avt_acc_hat_ribbonChecker.tif tt_t_chr_avt_acc_hat_partyToon.tif tt_t_chr_avt_acc_hat_heartYellow.tif tt_t_chr_avt_acc_hat_baseballYellow.tif tt_t_chr_avt_acc_hat_baseballTeal.tif tt_t_chr_avt_acc_hat_baseballRed.tif tt_t_chr_avt_acc_hat_baseballPurple.tif tt_t_chr_avt_acc_hat_baseballOrange.tif tt_t_chr_avt_acc_hat_baseballBlue.tif -o hat_textures.egg"
+}
+<Texture> tt_t_chr_avt_acc_hat_topHatBlue {
+  tt_t_chr_avt_acc_hat_topHatBlue.tif
+}
+<Texture> tt_t_chr_avt_acc_hat_safariGreen {
+  tt_t_chr_avt_acc_hat_safariGreen.tif
+}
+<Texture> tt_t_chr_avt_acc_hat_safariBrown {
+  tt_t_chr_avt_acc_hat_safariBrown.tif
+}
+<Texture> tt_t_chr_avt_acc_hat_ribbonRed {
+  tt_t_chr_avt_acc_hat_ribbonRed.tif
+}
+<Texture> tt_t_chr_avt_acc_hat_ribbonRainbow {
+  tt_t_chr_avt_acc_hat_ribbonRainbow.tif
+}
+<Texture> tt_t_chr_avt_acc_hat_ribbonPurple {
+  tt_t_chr_avt_acc_hat_ribbonPurple.tif
+}
+<Texture> tt_t_chr_avt_acc_hat_ribbonPinkDots {
+  tt_t_chr_avt_acc_hat_ribbonPinkDots.tif
+}
+<Texture> tt_t_chr_avt_acc_hat_ribbonLtRed {
+  tt_t_chr_avt_acc_hat_ribbonLtRed.tif
+}
+<Texture> tt_t_chr_avt_acc_hat_ribbonCheckerGreen {
+  tt_t_chr_avt_acc_hat_ribbonCheckerGreen.tif
+}
+<Texture> tt_t_chr_avt_acc_hat_ribbonChecker {
+  tt_t_chr_avt_acc_hat_ribbonChecker.tif
+}
+<Texture> tt_t_chr_avt_acc_hat_partyToon {
+  tt_t_chr_avt_acc_hat_partyToon.tif
+}
+<Texture> tt_t_chr_avt_acc_hat_heartYellow {
+  tt_t_chr_avt_acc_hat_heartYellow.tif
+}
+<Texture> tt_t_chr_avt_acc_hat_baseballYellow {
+  tt_t_chr_avt_acc_hat_baseballYellow.tif
+}
+<Texture> tt_t_chr_avt_acc_hat_baseballTeal {
+  tt_t_chr_avt_acc_hat_baseballTeal.tif
+}
+<Texture> tt_t_chr_avt_acc_hat_baseballRed {
+  tt_t_chr_avt_acc_hat_baseballRed.tif
+}
+<Texture> tt_t_chr_avt_acc_hat_baseballPurple {
+  tt_t_chr_avt_acc_hat_baseballPurple.tif
+}
+<Texture> tt_t_chr_avt_acc_hat_baseballOrange {
+  tt_t_chr_avt_acc_hat_baseballOrange.tif
+}
+<Texture> tt_t_chr_avt_acc_hat_baseballBlue {
+  tt_t_chr_avt_acc_hat_baseballBlue.tif
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_hat_topHatBlue {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_hat_topHatBlue }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_hat_safariGreen {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_hat_safariGreen }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_hat_safariBrown {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_hat_safariBrown }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_hat_ribbonRed {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_hat_ribbonRed }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_hat_ribbonRainbow {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_hat_ribbonRainbow }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_hat_ribbonPurple {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_hat_ribbonPurple }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_hat_ribbonPinkDots {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_hat_ribbonPinkDots }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_hat_ribbonLtRed {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_hat_ribbonLtRed }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_hat_ribbonCheckerGreen {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_hat_ribbonCheckerGreen }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_hat_ribbonChecker {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_hat_ribbonChecker }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_hat_partyToon {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_hat_partyToon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_hat_heartYellow {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_hat_heartYellow }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_hat_baseballYellow {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_hat_baseballYellow }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_hat_baseballTeal {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_hat_baseballTeal }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_hat_baseballRed {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_hat_baseballRed }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_hat_baseballPurple {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_hat_baseballPurple }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_hat_baseballOrange {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_hat_baseballOrange }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_hat_baseballBlue {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_hat_baseballBlue }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

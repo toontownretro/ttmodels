@@ -1,0 +1,75 @@
+<Comment> {
+  "egg-texture-cards tt_t_chr_avt_acc_pac_butterflyWingsStyle2.tif tt_t_chr_avt_acc_pac_backpackPurple.tif tt_t_chr_avt_acc_pac_backpackPolkaDotYellow.tif tt_t_chr_avt_acc_pac_backpackPolkaDotRed.tif tt_t_chr_avt_acc_pac_angelWingsMultiColor.tif -o backpack_textures.egg"
+}
+<Texture> tt_t_chr_avt_acc_pac_butterflyWingsStyle2 {
+  tt_t_chr_avt_acc_pac_butterflyWingsStyle2.tif
+}
+<Texture> tt_t_chr_avt_acc_pac_backpackPurple {
+  tt_t_chr_avt_acc_pac_backpackPurple.tif
+}
+<Texture> tt_t_chr_avt_acc_pac_backpackPolkaDotYellow {
+  tt_t_chr_avt_acc_pac_backpackPolkaDotYellow.tif
+}
+<Texture> tt_t_chr_avt_acc_pac_backpackPolkaDotRed {
+  tt_t_chr_avt_acc_pac_backpackPolkaDotRed.tif
+}
+<Texture> tt_t_chr_avt_acc_pac_angelWingsMultiColor {
+  tt_t_chr_avt_acc_pac_angelWingsMultiColor.tif
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_pac_butterflyWingsStyle2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_pac_butterflyWingsStyle2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_pac_backpackPurple {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_pac_backpackPurple }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_pac_backpackPolkaDotYellow {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_pac_backpackPolkaDotYellow }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_pac_backpackPolkaDotRed {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_pac_backpackPolkaDotRed }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_chr_avt_acc_pac_angelWingsMultiColor {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_chr_avt_acc_pac_angelWingsMultiColor }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}
