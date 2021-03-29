@@ -1,0 +1,1 @@
+egg-texture-cards ../maps/tt_t_gui_csa_memo.tif -o tt_m_gui_csa_memo_card.egg

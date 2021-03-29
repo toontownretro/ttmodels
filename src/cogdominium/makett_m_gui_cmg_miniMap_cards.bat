@@ -1,0 +1,1 @@
+egg-texture-cards -o tt_m_gui_cmg_miniMap_cards.egg ../maps/tt_t_gui_cmg_miniMap_cogIcon.tif ../maps/tt_t_gui_cmg_miniMap_waterDrop.tif ../maps/tt_t_gui_cmg_miniMap_entrance.tif ../maps/tt_t_gui_cmg_miniMap_frame.tif ../maps/tt_t_gui_cmg_miniMap_exitClosed.tif ../maps/tt_t_gui_cmg_miniMap_exitOpen.tif

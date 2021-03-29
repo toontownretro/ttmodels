@@ -1,0 +1,1 @@
+egg-texture-cards ../maps/tt_t_ara_cbe_fieldOfficeSign.tif -o field_office_sign.egg

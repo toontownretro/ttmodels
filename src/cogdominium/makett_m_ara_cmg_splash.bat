@@ -1,0 +1,1 @@
+egg-texture-cards -o tt_m_ara_cmg_splash.egg ../maps/tt_t_ara_cmg_splash.tif

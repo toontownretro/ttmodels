@@ -1,0 +1,1 @@
+egg-texture-cards ../maps/tt_t_ara_csa_memo_flash.tif ../maps/tt_t_ara_cfg_redTapePickup_flash.tif ../maps/tt_t_ara_cfg_propellers_flash.tif ../maps/tt_t_ara_cfg_legalEagleFeather_flash.tif  -o tt_m_ara_cfg_gatherableFlash_card.egg

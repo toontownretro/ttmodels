@@ -3,7 +3,7 @@
 Makefile
 /built/
 *.bam
-*.egg
+# *.egg
 *.pt
 stamp
 *.boo

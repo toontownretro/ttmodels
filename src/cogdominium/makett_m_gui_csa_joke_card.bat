@@ -1,0 +1,1 @@
+egg-texture-cards ../maps/tt_t_gui_csa_joke.tif -o tt_m_gui_csa_joke_card.egg

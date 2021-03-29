@@ -1,5 +1,11 @@
 <Comment> {
-  "egg-texture-cards ../maps/PartyCatchIcon.png ../maps/PartyCannonIcon.png ../maps/PartyTugOfWarIcon.png ../maps/PartyJukeboxIcon.png ../maps/PartyMerryGoRoundIcon.png ../maps/PartyClockIcon.png ../maps/PartyDanceIcon.png ../maps/PartyFireworksIcon.png ../maps/PartyTrampolineIcon.png ../maps/PartyDance20Icon.png ../maps/PartyJukebox40Icon.png ../maps/PartyCogIcon.png -o eventSignIcons.egg"
+  "egg-texture-cards ../maps/PartyCatchIcon.png ../maps/PartyCannonIcon.png ../maps/PartyTugOfWarIcon.png ../maps/PartyJukeboxIcon.png ../maps/PartyMerryGoRoundIcon.png ../maps/PartyClockIcon.png ../maps/PartyDanceIcon.png ../maps/PartyFireworksIcon.png ../maps/PartyTrampolineIcon.png ../maps/PartyDance20Icon.png ../maps/PartyJukebox40Icon.png ../maps/PartyCogIcon.png ../maps/tt_t_ara_pty_iconJukeboxValentine.tif ../maps/tt_t_ara_pty_iconTrampolineValentine.tif -o eventSignIcons.egg"
+}
+<Texture> tt_t_ara_pty_iconTrampolineValentine {
+  "../maps/tt_t_ara_pty_iconTrampolineValentine.tif"
+}
+<Texture> tt_t_ara_pty_iconJukeboxValentine {
+  "../maps/tt_t_ara_pty_iconJukeboxValentine.tif"
 }
 <Texture> PartyTugOfWarIcon {
   "../maps/PartyTugOfWarIcon.png"
@@ -139,6 +145,20 @@
     <Polygon> {
       <RGBA> { 1 1 1 1 }
       <TRef> { PartyCogIcon }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_ara_pty_iconJukeboxValentine {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ara_pty_iconJukeboxValentine }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_ara_pty_iconTrampolineValentine {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ara_pty_iconTrampolineValentine }
       <VertexRef> { 0 1 2 3 <Ref> { vpool } }
     }
   }

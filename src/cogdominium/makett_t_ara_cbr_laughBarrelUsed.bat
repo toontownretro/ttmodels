@@ -1,0 +1,1 @@
+egg-texture-cards ../maps/tt_t_ara_cbr_Barrel_Used.tif -o tt_t_ara_cbr_laughBarrelUsed.egg

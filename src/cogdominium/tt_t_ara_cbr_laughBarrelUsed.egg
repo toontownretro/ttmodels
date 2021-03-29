@@ -1,0 +1,33 @@
+<Comment> {
+  "egg-texture-cards ../maps/tt_t_ara_cbr_Barrel_Used.tif -o tt_t_ara_cbr_laughBarrelUsed.egg"
+}
+<Texture> tt_t_ara_cbr_Barrel_Used {
+  "../maps/tt_t_ara_cbr_Barrel_Used.tif"
+}
+<Group> {
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_ara_cbr_Barrel_Used {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ara_cbr_Barrel_Used }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}
