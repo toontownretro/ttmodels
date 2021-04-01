@@ -2,7 +2,7 @@
 #define INSTALL_TO models/char
 
 // Don't build it
-#define BUILD_DIRECTORY
+//#define BUILD_DIRECTORY
 
 // These are the various animation files generated within this directory
 // for the different characters.

@@ -35,7 +35,7 @@
   #define TARGET_DIR qtess
   #define SOURCES minnie-1200.egg
   #defer COMMAND \
-    egg-qtess -t 1000 -ad -ap \
+    egg-qtess -t 50000 -ad -ap \
 //-f minnie-1200.qtess \
     -o $[target] $[source]
 #end filter_egg
@@ -44,7 +44,7 @@
   #define TARGET_DIR qtess
   #define SOURCES minnie-800.egg
   #defer COMMAND \
-    egg-qtess -t 600 -ad -ap \
+    egg-qtess -t 30000 -ad -ap \
 //-f minnie-800.qtess \
     -o $[target] $[source]
 #end filter_egg
@@ -53,7 +53,7 @@
   #define TARGET_DIR qtess
   #define SOURCES minnie-400.egg
   #defer COMMAND \
-    egg-qtess -t 400 -ad -ap \
+    egg-qtess -t 20000 -ad -ap \
 //-f minnie-400.qtess \
     -o $[target] $[source]
 #end filter_egg
