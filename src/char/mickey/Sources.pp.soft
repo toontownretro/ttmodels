@@ -1,0 +1,147 @@
+#define DIR_TYPE models
+#define INSTALL_TO models/char
+#define DATABASE mickey_cvs
+
+// special start and stop instructions
+#define wait_frames 2 69
+
+#begin soft_char_egg
+  #define SCENE_PREFIX mickey-
+  #define EGG_PREFIX mickey-
+  #define MODEL 1200-zero
+  #define POLY_MODEL 1200
+  #define CHAR_NAME mickey
+#end soft_char_egg
+
+// seperate step for anims so they don't need the LOD in thier names too
+#begin soft_char_egg
+  #define SCENE_PREFIX mickey-
+  #define EGG_PREFIX mickey-
+  #define ANIMS walk wait run \
+    left-start left right-start right
+  #define CHAR_NAME mickey
+#end soft_char_egg
+
+#begin soft_char_egg
+  #define SCENE_PREFIX mickey-
+  #define EGG_PREFIX mickey-
+  #define MODEL 800-zero
+  #define POLY_MODEL 800
+  #define CHAR_NAME mickey
+#end soft_char_egg
+
+#begin soft_char_egg
+  #define SCENE_PREFIX mickey-
+  #define EGG_PREFIX mickey-
+  #define MODEL 400-zero
+  #define POLY_MODEL 400
+  #define CHAR_NAME mickey
+#end soft_char_egg
+
+// Optimize the various characters.
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    mickey-1200.egg mickey-800.egg mickey-400.egg \
+    mickey-wait.egg mickey-walk.egg mickey-run.egg \
+    mickey-left-start.egg mickey-left.egg \
+    mickey-right-start.egg mickey-right.egg
+  #define OPTCHAR-OPTS \
+     -no -TR 0,180,0 -TS 0.25 \
+     -fixrest -zero sphere3,hpr -drop TheEarL,TheEarR \
+     -expose sphere3,joint-pupilL,joint-pupilR \
+     -suppress joint-headnull \
+     -flag 'head?front'=eyes \
+     -flag 'HeadFront'=eyes \
+     -flag 'Head?Front'=eyes \
+     -p root, -p chn17,root -p jnt17-1,chn17 -p eff17,jnt17-1 \
+     -p chn6-Rfoot-1,root -p chn4-Lfoot-1,chn6-Rfoot-1 \
+     -p jnt4-1,chn4-Lfoot-1 -p jnt4-2,jnt4-1 -p eff4,jnt4-2 \
+     -p null91,jnt4-2 -p null90,null91 -p null92,jnt4-1 \
+     -p jnt6-1,chn6-Rfoot-1 -p jnt6-2,jnt6-1 -p eff6,jnt6-2 \
+     -p null98,jnt6-2 -p null97-1,null98 -p null99,jnt6-1 \
+     -p chn8-Rleg-1,root -p chn15,chn8-Rleg-1 -p chn13,chn15 \
+     -p chn3-Lleg-1,chn13 -p jnt3-1,chn3-Lleg-1 -p jnt13-1,jnt3-1 \
+     -p eff13,jnt13-1 -p null1-1-16,jnt13-1 -p jnt3-2,jnt3-1 \
+     -p eff3,jnt3-2 -p chn12,eff3 -p jnt12-1,chn12 -p eff12,jnt12-1 \
+     -p null24-3,jnt12-1 -p null105,jnt3-2 -p null89,jnt3-1 \
+     -p null1-1-2,null89 -p chn2-Rarm,chn15 -p jnt2-1,chn2-Rarm \
+     -p jnt2-2,jnt2-1 -p eff2,jnt2-2 -p chn16-1,eff2 \
+     -p chn1-Larm,chn16-1 -p jnt1-1,chn1-Larm -p jnt1-2,jnt1-1 \
+     -p null79,jnt1-2 -p null78,null79 -p null77,jnt1-1 \
+     -p chn10,chn1-Larm -p jnt10-1,chn10 -p eff10,jnt10-1 \
+     -p null76,jnt10-1 -p chn16,chn16-1 -p eff1-2,chn16 \
+     -p jnt16-1-1,chn16 -p eff16-1,jnt16-1-1 -p null143,jnt16-1-1 \
+     -p jnt16-1,eff2 -p eff16,jnt16-1 -p null113-1,jnt16-1 \
+     -p null87,jnt2-2 -p null86-1,null87 -p null85,jnt2-1 \
+     -p chn11,chn2-Rarm -p jnt11-1,chn11 -p eff11,jnt11-1 \
+     -p null84,jnt11-1 -p jnt8-1,chn8-Rleg-1 -p jnt15-1,jnt8-1 \
+     -p eff15,jnt15-1 -p null1-3,jnt15-1 -p jnt8-2,jnt8-1 \
+     -p eff8,jnt8-2 -p chn12-1,eff8 -p jnt12-1-1,chn12-1 \
+     -p eff12-1,jnt12-1-1 -p null24-8,jnt12-1-1 -p null107,jnt8-2 \
+     -p null96,jnt8-1 -p null27-3,null96 -p null29,root \
+     -p null24-6,null29 -p null30,null29 -p null31,null30 \
+     -p null60,root -p null27-4,null60 -p null27,null27-4 \
+     -p null1-1-7,null27 -p null1-1-3,null1-1-7 -p hipskel,null1-1-3 \
+     -p null1-1-1,hipskel -p null1-1-4-1,null1-1-1 \
+     -p null1-1-9,null1-1-4-1 -p null1-1-10,null1-1-4-1 \
+     -p null1-1,null1-1-10 -p null1-1-8,null1-1-1 -p null2,null1-1-8 \
+     -p null111,null2 -p null110,null111 -p null109,null110 \
+     -p null108,null109 -p null3,null2 -p null4,null3 -p null5,null4 \
+     -p joint-headnull,null5 -p chn19,joint-headnull -p chn18,chn19 \
+     -p jnt19-1,chn19 -p jnt18-1,jnt19-1 -p eff18,jnt18-1 \
+     -p eff19,jnt19-1 -p joint?pupilL,joint-headnull \
+     -p joint?pupilR,joint-headnull -p sphere3,joint-headnull \
+     -p TheEarL,sphere3 -p TheEarR,sphere3 -p null15,null4 \
+     -p null16,null15 -p null17,null16 -p null18,null17 \
+     -p null19,null18 -p null20,null19 -p null21,null20 \
+     -p null115-2,null21 -p Rwristcuff,null115-2 -p null115-1,null115-2 \
+     -p null112-1,null115-1 -p null114,null112-1 -p null45,null112-1 \
+     -p null47,null45 -p null48,null47 -p null116-1,null48 \
+     -p null53,null45 -p null54,null53 -p null56,null45 \
+     -p null57,null56 -p null50,null112-1 -p null51,null50 \
+     -p null8,null4 -p null9,null8 -p null10,null9 -p null11,null10 \
+     -p null12,null11 -p null13,null12 -p null14,null13 \
+     -p null130,null14 -p null131,null130 -p null132-1,null131 \
+     -p null133-1,null132-1 -p null138,null131 -p null139,null138 \
+     -p null140,null139 -p null134,null130 -p null135,null134 \
+     -p null136,null130 -p null137,null136 -p null141,null130 \
+     -p Lwristcuff,null14 -p null1-1-24,null1-1-8 -p null1-2,null1-1-1 \
+     -p null1-1-25,null1-2 -p null1-1-23,null1-2 -p null1-1-4-4,null1-2 \
+     -p null1-1-22,null1-1-4-4 -p null1-1-1-1,null1-1-7 \
+     -p null23-1,null1-1-1-1 -p null23,null1-1-1-1 -p null24,null23 \
+     -p null24-1,null24 -p null25,null24 -p null26,null25 \
+     -p null24-2,null1-1-1-1 -p null104,null24-2 -p null1-1-4,null1-1-7 \
+     -p null27-1,null1-1-4 -p null23-4,null27-1 -p null28,null27-1 \
+     -p null24-7,null28 -p null106,null24-7 -p null27-5,null27 \
+     -p null60-4,null60 -p null60-3,null60-4 -p null60-2,null60-3 \
+     -p null60-1,null60-2
+#end optchar_egg
+
+
+// Phase 3: install the make-a-toon models and anims
+#begin install_egg
+  #define SOURCE_DIR optchar
+  #define SOURCES \
+    mickey-1200.egg mickey-800.egg mickey-400.egg 
+  #define UNPAL_SOURCES \
+    mickey-wait.egg mickey-walk.egg mickey-run.egg
+  #define PHASE 3
+#end install_egg
+
+// Phase 3.5: install the models and anims
+#begin install_egg
+  #define SOURCE_DIR optchar
+  #define UNPAL_SOURCES \
+    mickey-left-start.egg mickey-left.egg \
+    mickey-right-start.egg mickey-right.egg 
+  #define PHASE 3.5
+#end install_egg
+
+// install the closed eyes for blinks
+#begin install_egg
+  #define SOURCES \
+    mickey_eyes_closed.egg
+  #define PHASE 3
+#end install_egg
+
