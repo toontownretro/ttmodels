@@ -7,7 +7,7 @@
 #define bankOpen_frames 1 34
 
 #begin maya_egg
-  #define SOURCES jellybeanBank.mb
+  #define SOURCES jellybeanBank.mb tt_m_ara_est_jellybeanBank.mb
 #end maya_egg
 
 #begin maya_char_egg
@@ -46,7 +46,7 @@
 #begin install_egg
   // This one is installed to a different directory for historical reasons.
   #define INSTALL_TO models/estate
-  #define SOURCES jellybeanBank.egg 
+  #define SOURCES jellybeanBank.egg tt_m_ara_est_jellybeanBank.egg
   #define PHASE 5.5
 #end install_egg
 
