@@ -123,17 +123,19 @@
 // Estate stuff
 #begin install_egg
   #define SOURCES \
-    house_design_gui.egg package_delivery_panel.egg PetTutorial.egg \
+    house_design_gui.egg package_delivery_panel.egg \
     planting_gui.egg \
     planting_but_can_P.egg planting_but_can_Y.egg \ 
     planting_but_shovel_P.egg planting_but_shovel_Y.egg \
     catalogSoundIcons.egg
   #if $[LANGUAGE]
     #define SOURCES $[SOURCES] \
-      catalog_gui_$[LANGUAGE].egg
+      catalog_gui_$[LANGUAGE].egg \
+	  PetTutorial_$[LANGUAGE].egg 
   #else
     #define SOURCES $[SOURCES] \
-      catalog_gui_english.egg
+      catalog_gui_english.egg \
+	  PetTutorial_english.egg
   #endif
   #define PHASE 5.5
 #end install_egg
