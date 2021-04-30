@@ -364,17 +364,17 @@
      -rename MMDog_shorts_200,MMDog_shorts \
      -rename MMDog_skirt_500,MMDog_skirt \
      -rename MMDog_skirt_200,MMDog_skirt \
-     -expose def_head,def_right_pupil,def_left_pupil \
+     -expose def_right_pupil,def_left_pupil \
      $[dog_head_transform] \
      -p def_head,root \
      -p def_right_earA,def_head \
      -p def_left_earA,def_head \
      -p def_right_pupil,def_head \
      -p def_left_pupil,def_head \
-     -p def_right_earB,root \
+     -p def_right_earB,def_right_earA \
      -p def_right_earC,def_right_earB \
      -p def_right_earD,def_right_earC \
-     -p def_left_earB,root \
+     -p def_left_earB,def_left_earA \
      -p def_left_earC,def_left_earB \
      -p def_left_earD,def_left_earC \
      -p TheNeck,def_neck \
@@ -402,8 +402,6 @@
      -expose def_toHead,def_joint_right_hold,def_joint_left_hold,def_joint_attachFlower \
      -zero def_joint_right_hold,ijk \
      -zero def_joint_left_hold,ijk \
-     -zero def_joint_right_hold,ijk \
-     -zero def_joint_left_hold,ijk \
      -p def_right_shoulder,def_right_shoulder \
      -p def_right_sleeve_long,def_right_shoulder \
      -p def_left_sleeve_long,def_left_shoulder \
@@ -411,28 +409,30 @@
      -p def_right_palm,def_right_wrist \
      -p def_right_midA,def_right_palm \
      -p def_right_midB,def_right_midA \
-     -p def_right_thumbA,def_right_wrist \
+     -p def_right_thumbA,def_right_palm\
      -p def_right_thumbB,def_right_thumbA \
      -p def_right_thumbC,def_right_thumbB \
      //-p def_left_forearm,def_left_wrist \
      -p def_left_palm,def_left_wrist \
      -p def_left_midA,def_left_palm \
      -p def_left_midB,def_left_midA \
-     -p def_left_thumbA,def_left_wrist \
+     -p def_left_thumbA,def_left_palm \
      -p def_left_thumbB,def_left_thumbA \
      -p def_left_thumbC,def_left_thumbB \
      -p def_spineB,root \
      -p def_cageA,def_spineB \
      -p def_cageB,def_cageA \
-     -p def_joint_attachFlower,def_cageA \
+     -p def_joint_attachFlower,def_cageB \
      -p def_left_shoulder,def_cageB \
      -p def_right_shoulder,def_cageB \
-     -p def_left_pant_top,MAIN1 \
-     -p def_left_pant_bottom,def_left_pant_top \
-     -p def_right_pant_top,MAIN1 \
-     -p def_right_pant_bottom,def_right_pant_top \
-     -p def_right_sleeve_short,root \
-     -p def_left_sleeve_short,root \
+     -p def_left_pant_top,root \
+     -p def_left_pant_bottom,root \
+     -p def_right_pant_top,root \
+     -p def_right_pant_bottom,root \
+     -p def_right_sleeve_short,def_right_shoulder \
+     -p def_left_sleeve_short,def_left_shoulder \
+	 -drop def_left_hip \
+	 -drop def_right_hip \
      -flag *skirt_cap*=torso-bot-cap \
      -flag *skirt_inside*=torso-bot-cap \
      -flag *shorts_inside*=torso-bot-cap \

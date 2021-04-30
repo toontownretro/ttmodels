@@ -108,7 +108,8 @@
     BossbotPresidentsRm.egg \
     BB_Inside_Elevator.egg \
     optchar/food_belt1_model.egg \
-    optchar/food_belt2_model.egg
+    optchar/food_belt2_model.egg \
+    tt_m_ara_bhq_seltzerBottle.egg
   #define PHASE 12
 #end install_egg
 
