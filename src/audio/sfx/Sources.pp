@@ -387,7 +387,7 @@
     rocket_launch.mp3 \
     bounce1.mp3 bounce2.mp3 bounce3.mp3 \
     tick_counter_overflow.mp3 tick_counter_short.mp3 \
-	tt_s_ara_pty_propsShow_dance.mp3 tt_s_ara_pty_tubeCogVictory_wave.mp3
+    tt_s_ara_pty_propsShow_dance.mp3 tt_s_ara_pty_tubeCogVictory_wave.mp3
   #define PHASE 13
 #end install_audio
 
@@ -403,9 +403,9 @@
 #begin install_audio
   #define SOURCES \
     tt_s_prp_sillyMeterArrow.mp3 tt_s_prp_sillyMeterPhaseFive.mp3 \
-	tt_s_prp_sillyMeterPhaseFour.mp3 tt_s_prp_sillyMeterPhaseFourToFive.mp3 \
-	tt_s_prp_sillyMeterPhaseOne.mp3 tt_s_prp_sillyMeterPhaseThree.mp3 \
-	tt_s_prp_sillyMeterPhaseTwo.mp3
+    tt_s_prp_sillyMeterPhaseFour.mp3 tt_s_prp_sillyMeterPhaseFourToFive.mp3 \
+    tt_s_prp_sillyMeterPhaseOne.mp3 tt_s_prp_sillyMeterPhaseThree.mp3 \
+    tt_s_prp_sillyMeterPhaseTwo.mp3
 #define PHASE 4
 #end install_audio
 
@@ -414,14 +414,14 @@
 #begin install_audio
   #define SOURCES \
     tt_s_ara_ttc_hydrant_fightBoost.mp3 tt_s_ara_ttc_hydrant_fightCheer.mp3 \
-	tt_s_ara_ttc_hydrant_fightIdle.mp3 tt_s_ara_ttc_hydrant_fightSad.mp3 \
-	tt_s_ara_ttc_hydrant_firstMoveArmUp1.mp3 tt_s_ara_ttc_hydrant_firstMoveArmUp2.mp3 \
-	tt_s_ara_ttc_hydrant_firstMoveArmUp3.mp3 tt_s_ara_ttc_hydrant_firstMoveJump.mp3 \
-	tt_s_ara_ttc_hydrant_firstMoveJumpBalance.mp3 tt_s_ara_ttc_hydrant_firstMoveJumpSpin.mp3 \
-	tt_s_ara_ttc_hydrant_firstMoveStruggle.mp3 tt_s_ara_ttc_hydrant_idle0.mp3 \
-	tt_s_ara_ttc_hydrant_idle1.mp3 tt_s_ara_ttc_hydrant_idle2.mp3 \
-	tt_s_ara_ttc_hydrant_idleAwesome3.mp3 tt_s_ara_ttc_hydrant_idleIntoFight.mp3 \
-	tt_s_ara_ttc_hydrant_victoryDance.mp3
+    tt_s_ara_ttc_hydrant_fightIdle.mp3 tt_s_ara_ttc_hydrant_fightSad.mp3 \
+    tt_s_ara_ttc_hydrant_firstMoveArmUp1.mp3 tt_s_ara_ttc_hydrant_firstMoveArmUp2.mp3 \
+    tt_s_ara_ttc_hydrant_firstMoveArmUp3.mp3 tt_s_ara_ttc_hydrant_firstMoveJump.mp3 \
+    tt_s_ara_ttc_hydrant_firstMoveJumpBalance.mp3 tt_s_ara_ttc_hydrant_firstMoveJumpSpin.mp3 \
+    tt_s_ara_ttc_hydrant_firstMoveStruggle.mp3 tt_s_ara_ttc_hydrant_idle0.mp3 \
+    tt_s_ara_ttc_hydrant_idle1.mp3 tt_s_ara_ttc_hydrant_idle2.mp3 \
+    tt_s_ara_ttc_hydrant_idleAwesome3.mp3 tt_s_ara_ttc_hydrant_idleIntoFight.mp3 \
+    tt_s_ara_ttc_hydrant_victoryDance.mp3
 #define PHASE 5
 #end install_audio
 
@@ -430,10 +430,10 @@
 #begin install_audio
   #define SOURCES \
     tt_s_ara_ttc_mailbox_fightBoost.mp3 tt_s_ara_ttc_mailbox_fightCheer.mp3 \
-	tt_s_ara_ttc_mailbox_fightIdle.mp3 tt_s_ara_ttc_mailbox_fightSad.mp3 \
-	tt_s_ara_ttc_mailbox_idle0.mp3 tt_s_ara_ttc_mailbox_idleAwesome3.mp3 \
-	tt_s_ara_ttc_mailbox_idleIntoFight.mp3 tt_s_ara_ttc_mailbox_idleLook1.mp3 \
-	tt_s_ara_ttc_mailbox_idleTake2.mp3 tt_s_ara_ttc_mailbox_victoryDance.mp3
+    tt_s_ara_ttc_mailbox_fightIdle.mp3 tt_s_ara_ttc_mailbox_fightSad.mp3 \
+    tt_s_ara_ttc_mailbox_idle0.mp3 tt_s_ara_ttc_mailbox_idleAwesome3.mp3 \
+    tt_s_ara_ttc_mailbox_idleIntoFight.mp3 tt_s_ara_ttc_mailbox_idleLook1.mp3 \
+    tt_s_ara_ttc_mailbox_idleTake2.mp3 tt_s_ara_ttc_mailbox_victoryDance.mp3
 #define PHASE 5
 #end install_audio
 
@@ -442,10 +442,10 @@
 #begin install_audio
   #define SOURCES \
     tt_s_ara_ttc_trashcan_fightBoost.mp3 tt_s_ara_ttc_trashcan_fightCheer.mp3 \
-	tt_s_ara_ttc_trashcan_fightIdle.mp3 tt_s_ara_ttc_trashcan_fightSad.mp3 \
-	tt_s_ara_ttc_trashcan_idleAwesome3.mp3 tt_s_ara_ttc_trashcan_idleHiccup0.mp3 \
-	tt_s_ara_ttc_trashcan_idleIntoFight.mp3 tt_s_ara_ttc_trashcan_idleLook1.mp3 \
-	tt_s_ara_ttc_trashcan_idleTake2.mp3 tt_s_ara_ttc_trashcan_victoryDance.mp3
+    tt_s_ara_ttc_trashcan_fightIdle.mp3 tt_s_ara_ttc_trashcan_fightSad.mp3 \
+    tt_s_ara_ttc_trashcan_idleAwesome3.mp3 tt_s_ara_ttc_trashcan_idleHiccup0.mp3 \
+    tt_s_ara_ttc_trashcan_idleIntoFight.mp3 tt_s_ara_ttc_trashcan_idleLook1.mp3 \
+    tt_s_ara_ttc_trashcan_idleTake2.mp3 tt_s_ara_ttc_trashcan_victoryDance.mp3
 #define PHASE 5
 #end install_audio
 
@@ -454,14 +454,14 @@
 #begin install_audio
   #define SOURCES \
     tt_s_ara_dod_mailbox_fightBoost.mp3 tt_s_ara_dod_mailbox_fightCheer.mp3 \
-	tt_s_ara_dod_mailbox_fightIdle.mp3 tt_s_ara_dod_mailbox_fightSad.mp3 \
-	tt_s_ara_dod_mailbox_firstMoveFlagSpin1.mp3 tt_s_ara_dod_mailbox_firstMoveFlagSpin2.mp3 \
-	tt_s_ara_dod_mailbox_firstMoveFlagSpin3.mp3 tt_s_ara_dod_mailbox_firstMoveJump.mp3 \
-	tt_s_ara_dod_mailbox_firstMoveJump3Summersaults.mp3 tt_s_ara_dod_mailbox_firstMoveJumpFall.mp3 \
-	tt_s_ara_dod_mailbox_firstMoveJumpSummersault.mp3 tt_s_ara_dod_mailbox_firstMoveStruggle.mp3 \
-	tt_s_ara_dod_mailbox_idle0.mp3 tt_s_ara_dod_mailbox_idle1.mp3 tt_s_ara_dod_mailbox_idle2.mp3 \
-	tt_s_ara_dod_mailbox_idleAwesome3.mp3 tt_s_ara_dod_mailbox_idleIntoFight.mp3 \
-	tt_s_ara_dod_mailbox_victoryDance.mp3
+    tt_s_ara_dod_mailbox_fightIdle.mp3 tt_s_ara_dod_mailbox_fightSad.mp3 \
+    tt_s_ara_dod_mailbox_firstMoveFlagSpin1.mp3 tt_s_ara_dod_mailbox_firstMoveFlagSpin2.mp3 \
+    tt_s_ara_dod_mailbox_firstMoveFlagSpin3.mp3 tt_s_ara_dod_mailbox_firstMoveJump.mp3 \
+    tt_s_ara_dod_mailbox_firstMoveJump3Summersaults.mp3 tt_s_ara_dod_mailbox_firstMoveJumpFall.mp3 \
+    tt_s_ara_dod_mailbox_firstMoveJumpSummersault.mp3 tt_s_ara_dod_mailbox_firstMoveStruggle.mp3 \
+    tt_s_ara_dod_mailbox_idle0.mp3 tt_s_ara_dod_mailbox_idle1.mp3 tt_s_ara_dod_mailbox_idle2.mp3 \
+    tt_s_ara_dod_mailbox_idleAwesome3.mp3 tt_s_ara_dod_mailbox_idleIntoFight.mp3 \
+    tt_s_ara_dod_mailbox_victoryDance.mp3
 #define PHASE 6
 #end install_audio
 
@@ -470,10 +470,10 @@
 #begin install_audio
   #define SOURCES \
     tt_s_ara_dod_trashcan_fightBoost.mp3 tt_s_ara_dod_trashcan_fightCheer.mp3 \
-	tt_s_ara_dod_trashcan_fightIdle.mp3 tt_s_ara_dod_trashcan_fightSad.mp3 \
-	tt_s_ara_dod_trashcan_idle0.mp3 tt_s_ara_dod_trashcan_idle1.mp3 \
-	tt_s_ara_dod_trashcan_idleAwesome3.mp3 tt_s_ara_dod_trashcan_idleBounce2.mp3 \
-	tt_s_ara_dod_trashcan_idleIntoFight.mp3 tt_s_ara_dod_trashcan_victoryDance.mp3
+    tt_s_ara_dod_trashcan_fightIdle.mp3 tt_s_ara_dod_trashcan_fightSad.mp3 \
+    tt_s_ara_dod_trashcan_idle0.mp3 tt_s_ara_dod_trashcan_idle1.mp3 \
+    tt_s_ara_dod_trashcan_idleAwesome3.mp3 tt_s_ara_dod_trashcan_idleBounce2.mp3 \
+    tt_s_ara_dod_trashcan_idleIntoFight.mp3 tt_s_ara_dod_trashcan_victoryDance.mp3
 #define PHASE 6
 #end install_audio
 
@@ -482,10 +482,10 @@
 #begin install_audio
   #define SOURCES \
     tt_s_ara_mml_hydrant_fightBoost.mp3 tt_s_ara_mml_hydrant_fightCheer.mp3 \
-	tt_s_ara_mml_hydrant_fightIdle.mp3 tt_s_ara_mml_hydrant_fightSad.mp3 \
-	tt_s_ara_mml_hydrant_idle0.mp3 tt_s_ara_mml_hydrant_idle1.mp3 \
-	tt_s_ara_mml_hydrant_idle2.mp3 tt_s_ara_mml_hydrant_idleAwesome3.mp3 \
-	tt_s_ara_mml_hydrant_idleIntoFight.mp3 tt_s_ara_mml_hydrant_victoryDance.mp3
+    tt_s_ara_mml_hydrant_fightIdle.mp3 tt_s_ara_mml_hydrant_fightSad.mp3 \
+    tt_s_ara_mml_hydrant_idle0.mp3 tt_s_ara_mml_hydrant_idle1.mp3 \
+    tt_s_ara_mml_hydrant_idle2.mp3 tt_s_ara_mml_hydrant_idleAwesome3.mp3 \
+    tt_s_ara_mml_hydrant_idleIntoFight.mp3 tt_s_ara_mml_hydrant_victoryDance.mp3
 #define PHASE 6
 #end install_audio
 
@@ -494,10 +494,10 @@
 #begin install_audio
   #define SOURCES \
     tt_s_ara_mml_mailbox_fightBoost.mp3 tt_s_ara_mml_mailbox_fightCheer.mp3 \
-	tt_s_ara_mml_mailbox_fightIdle.mp3 tt_s_ara_mml_mailbox_fightSad.mp3 \
-	tt_s_ara_mml_mailbox_idle0.mp3 tt_s_ara_mml_mailbox_idleAwesome3.mp3 \
-	tt_s_ara_mml_mailbox_idleIntoFight.mp3 tt_s_ara_mml_mailbox_idleLook2.mp3 \
-	tt_s_ara_mml_mailbox_idleTake1.mp3 tt_s_ara_mml_mailbox_victoryDance.mp3
+    tt_s_ara_mml_mailbox_fightIdle.mp3 tt_s_ara_mml_mailbox_fightSad.mp3 \
+    tt_s_ara_mml_mailbox_idle0.mp3 tt_s_ara_mml_mailbox_idleAwesome3.mp3 \
+    tt_s_ara_mml_mailbox_idleIntoFight.mp3 tt_s_ara_mml_mailbox_idleLook2.mp3 \
+    tt_s_ara_mml_mailbox_idleTake1.mp3 tt_s_ara_mml_mailbox_victoryDance.mp3
 #define PHASE 6
 #end install_audio
 
@@ -506,11 +506,11 @@
 #begin install_audio
   #define SOURCES \
     tt_s_ara_mml_trashcan_fightBoost.mp3 tt_s_ara_mml_trashcan_fightCheer0.mp3 \
-	tt_s_ara_mml_trashcan_fightCheer1.mp3 tt_s_ara_mml_trashcan_fightIdle.mp3 \
-	tt_s_ara_mml_trashcan_fightSad.mp3 tt_s_ara_mml_trashcan_idleAwesome3.mp3 \
-	tt_s_ara_mml_trashcan_idleBounce0.mp3 tt_s_ara_mml_trashcan_idleHelicopter2.mp3 \
-	tt_s_ara_mml_trashcan_idleIntoFight.mp3 tt_s_ara_mml_trashcan_idleLook1.mp3 \
-	tt_s_ara_mml_trashcan_victoryDance.mp3
+    tt_s_ara_mml_trashcan_fightCheer1.mp3 tt_s_ara_mml_trashcan_fightIdle.mp3 \
+    tt_s_ara_mml_trashcan_fightSad.mp3 tt_s_ara_mml_trashcan_idleAwesome3.mp3 \
+    tt_s_ara_mml_trashcan_idleBounce0.mp3 tt_s_ara_mml_trashcan_idleHelicopter2.mp3 \
+    tt_s_ara_mml_trashcan_idleIntoFight.mp3 tt_s_ara_mml_trashcan_idleLook1.mp3 \
+    tt_s_ara_mml_trashcan_victoryDance.mp3
 #define PHASE 6
 #end install_audio
 
@@ -519,10 +519,10 @@
 #begin install_audio
   #define SOURCES \
     tt_s_ara_ddl_hydrant_fightBoost.mp3 tt_s_ara_ddl_hydrant_fightCheer.mp3 \
-	tt_s_ara_ddl_hydrant_fightIdle.mp3 tt_s_ara_ddl_hydrant_fightSad.mp3 \
-	tt_s_ara_ddl_hydrant_idle0.mp3 tt_s_ara_ddl_hydrant_idle1.mp3 \
-	tt_s_ara_ddl_hydrant_idle2.mp3 tt_s_ara_ddl_hydrant_idleAwesome3.mp3 \
-	tt_s_ara_ddl_hydrant_idleIntoFight.mp3 tt_s_ara_ddl_hydrant_victoryDance.mp3
+    tt_s_ara_ddl_hydrant_fightIdle.mp3 tt_s_ara_ddl_hydrant_fightSad.mp3 \
+    tt_s_ara_ddl_hydrant_idle0.mp3 tt_s_ara_ddl_hydrant_idle1.mp3 \
+    tt_s_ara_ddl_hydrant_idle2.mp3 tt_s_ara_ddl_hydrant_idleAwesome3.mp3 \
+    tt_s_ara_ddl_hydrant_idleIntoFight.mp3 tt_s_ara_ddl_hydrant_victoryDance.mp3
 #define PHASE 8
 #end install_audio
 
@@ -531,10 +531,10 @@
 #begin install_audio
   #define SOURCES \
     tt_s_ara_ddl_mailbox_fightBoost.mp3 tt_s_ara_ddl_mailbox_fightCheer.mp3 \
-	tt_s_ara_ddl_mailbox_fightIdle.mp3 tt_s_ara_ddl_mailbox_fightSad.mp3 \
-	tt_s_ara_ddl_mailbox_idleAwesome3.mp3 tt_s_ara_ddl_mailbox_idleIntoFight.mp3 \
-	tt_s_ara_ddl_mailbox_idleShake2.mp3 tt_s_ara_ddl_mailbox_idleSleep0.mp3 \
-	tt_s_ara_ddl_mailbox_idleSnore1.mp3 tt_s_ara_ddl_mailbox_victoryDance.mp3
+    tt_s_ara_ddl_mailbox_fightIdle.mp3 tt_s_ara_ddl_mailbox_fightSad.mp3 \
+    tt_s_ara_ddl_mailbox_idleAwesome3.mp3 tt_s_ara_ddl_mailbox_idleIntoFight.mp3 \
+    tt_s_ara_ddl_mailbox_idleShake2.mp3 tt_s_ara_ddl_mailbox_idleSleep0.mp3 \
+    tt_s_ara_ddl_mailbox_idleSnore1.mp3 tt_s_ara_ddl_mailbox_victoryDance.mp3
 #define PHASE 8
 #end install_audio
 
@@ -543,10 +543,10 @@
 #begin install_audio
   #define SOURCES \
     tt_s_ara_ddl_trashcan_fightBoost.mp3 tt_s_ara_ddl_trashcan_fightCheer.mp3 \
-	tt_s_ara_ddl_trashcan_fightIdle.mp3 tt_s_ara_ddl_trashcan_fightSad.mp3 \
-	tt_s_ara_ddl_trashcan_idleAwesome3.mp3 tt_s_ara_ddl_trashcan_idleIntoFight.mp3 \
-	tt_s_ara_ddl_trashcan_idleShake2.mp3 tt_s_ara_ddl_trashcan_idleSleep0.mp3 \
-	tt_s_ara_ddl_trashcan_idleSnore1.mp3 tt_s_ara_ddl_trashcan_victoryDance.mp3
+    tt_s_ara_ddl_trashcan_fightIdle.mp3 tt_s_ara_ddl_trashcan_fightSad.mp3 \
+    tt_s_ara_ddl_trashcan_idleAwesome3.mp3 tt_s_ara_ddl_trashcan_idleIntoFight.mp3 \
+    tt_s_ara_ddl_trashcan_idleShake2.mp3 tt_s_ara_ddl_trashcan_idleSleep0.mp3 \
+    tt_s_ara_ddl_trashcan_idleSnore1.mp3 tt_s_ara_ddl_trashcan_victoryDance.mp3
 #define PHASE 8
 #end install_audio
 
@@ -555,10 +555,10 @@
 #begin install_audio
   #define SOURCES \
     tt_s_ara_dga_hydrant_fightBoost.mp3 tt_s_ara_dga_hydrant_fightCheer.mp3 \
-	tt_s_ara_dga_hydrant_fightIdle.mp3 tt_s_ara_dga_hydrant_fightSad.mp3 \
-	tt_s_ara_dga_hydrant_idle0.mp3 tt_s_ara_dga_hydrant_idleAwesome3.mp3 \
-	tt_s_ara_dga_hydrant_idleIntoFight.mp3 tt_s_ara_dga_hydrant_idleLook1.mp3 \
-	tt_s_ara_dga_hydrant_idleSneeze2.mp3 tt_s_ara_dga_hydrant_victoryDance.mp3
+    tt_s_ara_dga_hydrant_fightIdle.mp3 tt_s_ara_dga_hydrant_fightSad.mp3 \
+    tt_s_ara_dga_hydrant_idle0.mp3 tt_s_ara_dga_hydrant_idleAwesome3.mp3 \
+    tt_s_ara_dga_hydrant_idleIntoFight.mp3 tt_s_ara_dga_hydrant_idleLook1.mp3 \
+    tt_s_ara_dga_hydrant_idleSneeze2.mp3 tt_s_ara_dga_hydrant_victoryDance.mp3
 #define PHASE 8
 #end install_audio
 
@@ -567,10 +567,10 @@
 #begin install_audio
   #define SOURCES \
     tt_s_ara_dga_mailbox_fightBoost.mp3 tt_s_ara_dga_mailbox_fightCheer.mp3 \
-	tt_s_ara_dga_mailbox_fightIdle.mp3 tt_s_ara_dga_mailbox_fightSad.mp3 \
-	tt_s_ara_dga_mailbox_idle0.mp3 tt_s_ara_dga_mailbox_idleAwesome3.mp3 \
-	tt_s_ara_dga_mailbox_idleIntoFight.mp3 tt_s_ara_dga_mailbox_idleLook2.mp3 \
-	tt_s_ara_dga_mailbox_idleTake1.mp3 tt_s_ara_dga_mailbox_victoryDance.mp3
+    tt_s_ara_dga_mailbox_fightIdle.mp3 tt_s_ara_dga_mailbox_fightSad.mp3 \
+    tt_s_ara_dga_mailbox_idle0.mp3 tt_s_ara_dga_mailbox_idleAwesome3.mp3 \
+    tt_s_ara_dga_mailbox_idleIntoFight.mp3 tt_s_ara_dga_mailbox_idleLook2.mp3 \
+    tt_s_ara_dga_mailbox_idleTake1.mp3 tt_s_ara_dga_mailbox_victoryDance.mp3
 #define PHASE 8
 #end install_audio
 
@@ -579,14 +579,14 @@
 #begin install_audio
   #define SOURCES \
     tt_s_ara_dga_trashcan_fightBoost.mp3 tt_s_ara_dga_trashcan_fightCheer.mp3 \
-	tt_s_ara_dga_trashcan_fightIdle.mp3 tt_s_ara_dga_trashcan_fightSad.mp3 \
-	tt_s_ara_dga_trashcan_firstMoveJump.mp3 tt_s_ara_dga_trashcan_firstMoveJumpHit.mp3 \
-	tt_s_ara_dga_trashcan_firstMoveJumpJuggle.mp3 tt_s_ara_dga_trashcan_firstMoveLidFlip1.mp3 \
-	tt_s_ara_dga_trashcan_firstMoveLidFlip2.mp3 tt_s_ara_dga_trashcan_firstMoveLidFlip3.mp3 \
-	tt_s_ara_dga_trashcan_firstMoveStruggle.mp3 tt_s_ara_dga_trashcan_idleAwesome3.mp3 \
-	tt_s_ara_dga_trashcan_idleHiccup0.mp3 tt_s_ara_dga_trashcan_idleIntoFight.mp3 \
-	tt_s_ara_dga_trashcan_idleLook1.mp3 tt_s_ara_dga_trashcan_idleTake2.mp3 \
-	tt_s_ara_dga_trashcan_victoryDance.mp3
+    tt_s_ara_dga_trashcan_fightIdle.mp3 tt_s_ara_dga_trashcan_fightSad.mp3 \
+    tt_s_ara_dga_trashcan_firstMoveJump.mp3 tt_s_ara_dga_trashcan_firstMoveJumpHit.mp3 \
+    tt_s_ara_dga_trashcan_firstMoveJumpJuggle.mp3 tt_s_ara_dga_trashcan_firstMoveLidFlip1.mp3 \
+    tt_s_ara_dga_trashcan_firstMoveLidFlip2.mp3 tt_s_ara_dga_trashcan_firstMoveLidFlip3.mp3 \
+    tt_s_ara_dga_trashcan_firstMoveStruggle.mp3 tt_s_ara_dga_trashcan_idleAwesome3.mp3 \
+    tt_s_ara_dga_trashcan_idleHiccup0.mp3 tt_s_ara_dga_trashcan_idleIntoFight.mp3 \
+    tt_s_ara_dga_trashcan_idleLook1.mp3 tt_s_ara_dga_trashcan_idleTake2.mp3 \
+    tt_s_ara_dga_trashcan_victoryDance.mp3
 #define PHASE 8
 #end install_audio
 
@@ -595,10 +595,10 @@
 #begin install_audio
   #define SOURCES \
     tt_s_ara_tbr_hydrant_fightBoost.mp3 tt_s_ara_tbr_hydrant_fightCheer.mp3 \
-	tt_s_ara_tbr_hydrant_fightIdle.mp3 tt_s_ara_tbr_hydrant_fightSad.mp3 \
-	tt_s_ara_tbr_hydrant_idleAwesome3.mp3 tt_s_ara_tbr_hydrant_idleIntoFight.mp3 \
-	tt_s_ara_tbr_hydrant_idleRubNose0.mp3 tt_s_ara_tbr_hydrant_idleShiver1.mp3 \
-	tt_s_ara_tbr_hydrant_idleSneeze2.mp3 tt_s_ara_tbr_hydrant_victoryDance.mp3
+    tt_s_ara_tbr_hydrant_fightIdle.mp3 tt_s_ara_tbr_hydrant_fightSad.mp3 \
+    tt_s_ara_tbr_hydrant_idleAwesome3.mp3 tt_s_ara_tbr_hydrant_idleIntoFight.mp3 \
+    tt_s_ara_tbr_hydrant_idleRubNose0.mp3 tt_s_ara_tbr_hydrant_idleShiver1.mp3 \
+    tt_s_ara_tbr_hydrant_idleSneeze2.mp3 tt_s_ara_tbr_hydrant_victoryDance.mp3
 #define PHASE 8
 #end install_audio
 
@@ -607,10 +607,10 @@
 #begin install_audio
   #define SOURCES \
     tt_s_ara_tbr_mailbox_fightBoost.mp3 tt_s_ara_tbr_mailbox_fightCheer.mp3 \
-	tt_s_ara_tbr_mailbox_fightIdle.mp3 tt_s_ara_tbr_mailbox_fightSad.mp3 \
-	tt_s_ara_tbr_mailbox_idleAwesome3.mp3 tt_s_ara_tbr_mailbox_idleIntoFight.mp3 \
-	tt_s_ara_tbr_mailbox_idleShiver1.mp3 tt_s_ara_tbr_mailbox_idleSneeze2.mp3 \
-	tt_s_ara_tbr_mailbox_idleSpin0.mp3 tt_s_ara_tbr_mailbox_victoryDance.mp3
+    tt_s_ara_tbr_mailbox_fightIdle.mp3 tt_s_ara_tbr_mailbox_fightSad.mp3 \
+    tt_s_ara_tbr_mailbox_idleAwesome3.mp3 tt_s_ara_tbr_mailbox_idleIntoFight.mp3 \
+    tt_s_ara_tbr_mailbox_idleShiver1.mp3 tt_s_ara_tbr_mailbox_idleSneeze2.mp3 \
+    tt_s_ara_tbr_mailbox_idleSpin0.mp3 tt_s_ara_tbr_mailbox_victoryDance.mp3
 #define PHASE 8
 #end install_audio
 
@@ -619,10 +619,10 @@
 #begin install_audio
   #define SOURCES \
     tt_s_ara_tbr_trashcan_fightBoost.mp3 tt_s_ara_tbr_trashcan_fightCheer.mp3 \
-	tt_s_ara_tbr_trashcan_fightIdle.mp3 tt_s_ara_tbr_trashcan_fightSad.mp3 \
-	tt_s_ara_tbr_trashcan_idle0.mp3 tt_s_ara_tbr_trashcan_idleAwesome3.mp3 \
-	tt_s_ara_tbr_trashcan_idleIntoFight.mp3 tt_s_ara_tbr_trashcan_idleShiver1.mp3 \
-	tt_s_ara_tbr_trashcan_idleSneeze2.mp3 tt_s_ara_tbr_trashcan_victoryDance.mp3
+    tt_s_ara_tbr_trashcan_fightIdle.mp3 tt_s_ara_tbr_trashcan_fightSad.mp3 \
+    tt_s_ara_tbr_trashcan_idle0.mp3 tt_s_ara_tbr_trashcan_idleAwesome3.mp3 \
+    tt_s_ara_tbr_trashcan_idleIntoFight.mp3 tt_s_ara_tbr_trashcan_idleShiver1.mp3 \
+    tt_s_ara_tbr_trashcan_idleSneeze2.mp3 tt_s_ara_tbr_trashcan_victoryDance.mp3
 #define PHASE 8
 #end install_audio
 
@@ -640,12 +640,12 @@
 #begin install_audio
   #define SOURCES \
     tt_s_ara_cfg_eagleCry.mp3 tt_s_ara_cfg_propellerBreaks.mp3 \
-	tt_s_ara_cfg_propellers_damaged.mp3 tt_s_ara_cfg_toonFalls.mp3 \
-	tt_s_ara_cfg_toonHit.mp3 tt_s_ara_cfg_toonInWhirlwind.mp3 \
-	tt_s_ara_cfg_whirlwind.mp3 tt_s_ara_cmg_bossCogAngry.mp3 \
-	tt_s_ara_cmg_cogStomp.mp3 tt_s_ara_cmg_groundquake.mp3 \
-	tt_s_ara_cmg_itemHitsFloor.mp3 tt_s_ara_cmg_toonHit.mp3 \
-	tt_s_ara_cmg_waterCoolerFill.mp3
+    tt_s_ara_cfg_propellers_damaged.mp3 tt_s_ara_cfg_toonFalls.mp3 \
+    tt_s_ara_cfg_toonHit.mp3 tt_s_ara_cfg_toonInWhirlwind.mp3 \
+    tt_s_ara_cfg_whirlwind.mp3 tt_s_ara_cmg_bossCogAngry.mp3 \
+    tt_s_ara_cmg_cogStomp.mp3 tt_s_ara_cmg_groundquake.mp3 \
+    tt_s_ara_cmg_itemHitsFloor.mp3 tt_s_ara_cmg_toonHit.mp3 \
+    tt_s_ara_cmg_waterCoolerFill.mp3
 #define PHASE 5
 #end install_audio
 

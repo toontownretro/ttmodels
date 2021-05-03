@@ -359,7 +359,7 @@
      -rename SSDog_skirt_500,SSDog_skirt \
      -rename SSDog_skirt_200,SSDog_skirt \
      -TR 0,180,0 -TS 0.25 \
-     -expose def_toHead,def_joint_right_hold,def_joint_left_hold,def_left_hip,def_right_hip,def_joint_attachFlower \
+     -expose def_head,def_joint_right_hold,def_joint_left_hold,def_left_hip,def_right_hip,def_joint_attachFlower \
      -zero def_joint_right_hold,ijk \
      -zero def_joint_left_hold,ijk \
 	 -zero def_right_hip,ijk \

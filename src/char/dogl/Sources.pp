@@ -357,12 +357,11 @@
      -rename LLDog_skirt_500,LLDog_skirt \       
      -rename LLDog_skirt_200,LLDog_skirt \ 
      -TR 0,180,0 -TS 0.25 \
-     -expose def_joint_right_hold,def_joint_left_hold,def_joint_attachFlower \
+     -expose def_head,def_joint_right_hold,def_joint_left_hold,def_joint_attachFlower \
      -zero def_joint_right_hold,ijk \
      -zero def_joint_left_hold,ijk \
      -zero def_joint_right_hold,ijk \
      -zero def_joint_left_hold,ijk \
-	 -drop def_toHead \
      -p def_right_shoulder,def_right_shoulder \
      -p def_right_sleeve_long,def_right_shoulder \
      -p def_left_sleeve_long,def_left_shoulder \
