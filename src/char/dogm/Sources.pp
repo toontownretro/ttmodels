@@ -253,7 +253,7 @@
   #define CHAR_NAME dog-head-ss
   #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogMMskirt500:mf_ear_long_left_500 -subset dogMMskirt500:mf_ear_long_right_500 -subset dogMMskirt500:mf_eyes_500 \
                                         -subset dogMMskirt500:mf_head_small_500 -subset dogMMskirt500:mf_muzzle_short_500 -subset dogMMskirt500:mf_nose_small_500 \
-                                        -subset dogMMskirt500:mf_pupil_left_500 -subset dogMMskirt500:mf_pupil_right_500 \
+                                        -subset dogMMskirt500:mf_pupil_left_500 -subset dogMMskirt500:mf_pupil_right_500 -subset dogMMskirt500:mf_head_front_short_500 \
                                         -subroot dogMMskirt500:Skeleton
 #end maya_char_egg
 
