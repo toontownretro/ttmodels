@@ -32,9 +32,7 @@
     tt_m_ara_TT_trees_halloween.egg tt_m_ara_TT_streetlight_halloween.egg \
     tt_m_ara_TT_streetlight_winter.egg \
     streetlight_TT.egg big_planter.egg \
-    tunnel_sign_orange.egg \
-    tt_m_ara_ddl_streetlight_halloween.egg \
-    tt_m_ara_ddl_tree_halloween.egg \
+    tunnel_sign_orange.egg 
     // BR sky has to be put in here because it is used by many hoods during halloween
     BR_sky.egg
 
@@ -252,6 +250,8 @@
     tt_m_ara_DL_streetlight_halloween.egg tt_m_ara_DL_tree_halloween.egg \
     tt_m_ara_DL_streetlight_winter.egg \
     DL_weathervane.egg DL_flats.egg signs_DL.egg zzz_treasure.egg \
+    tt_m_ara_ddl_streetlight_halloween.egg \
+    tt_m_ara_ddl_tree_halloween.egg \
 	  tt_m_ara_ddl_foreSign_english.egg \
 	  tt_m_ara_ddl_jellybeanJamSign_english.egg \
 	  tt_m_ara_ddl_sillyMeterSign_english.egg \

@@ -1,5 +1,5 @@
 <Comment> {
-  "egg-texture-cards -wm clamp -o feature_gui_french.egg ../maps/features-catalog_french.jpg ../maps/features-chat_french.jpg ../maps/features-clothes_french.jpg ../maps/features-cogHq_french.jpg ../maps/features-furniture_french.jpg ../maps/features-gags_french.jpg ../maps/features-holidays_french.jpg ../maps/features-hoods_french.jpg ../maps/features-mailers_french.jpg ../maps/features-minigames_french.jpg ../maps/features-quests_french.jpg ../maps/features-sixToons_french.jpg ../maps/features-typeAName_french.jpg ../maps/features-karting_french.jpg ../maps/features-tricks_french.jpg ../maps/features-bigger.jpg ../maps/features-rental.jpg ../maps/features-garden.jpg ../maps/features-kartingAccessories_french.jpg"
+  "egg-texture-cards -wm clamp -o feature_gui_french.egg ../maps/features-catalog_french.jpg ../maps/features-chat_french.jpg ../maps/features-clothes_french.jpg ../maps/features-cogHq_french.jpg ../maps/features-furniture_french.jpg ../maps/features-gags_french.jpg ../maps/features-holidays_french.jpg ../maps/features-hoods_french.jpg ../maps/features-mailers_french.jpg ../maps/features-minigames_french.jpg ../maps/features-quests_french.jpg ../maps/features-sixToons_french.jpg ../maps/features-typeAName_french.jpg ../maps/features-karting_french.jpg ../maps/features-tricks_french.jpg ../maps/features-bigger.jpg ../maps/features-rental.jpg ../maps/features-garden.jpg ../maps/features-kartingAccessories_french.jpg ../maps/features-species.jpg ../maps/features-golf.jpg ../maps/features-fishing.jpg ../maps/features-parties.jpg -suffix _french"
 }
 <Texture> features-typeAName {
   "../maps/features-typeAName_french.jpg"
@@ -7,6 +7,10 @@
 }
 <Texture> features-tricks {
   "../maps/features-tricks_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-species {
+  "../maps/features-species.jpg"
   <Scalar> wrap { clamp }
 }
 <Texture> features-sixToons {
@@ -19,6 +23,10 @@
 }
 <Texture> features-quests {
   "../maps/features-quests_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-parties {
+  "../maps/features-parties.jpg"
   <Scalar> wrap { clamp }
 }
 <Texture> features-minigames {
@@ -45,6 +53,10 @@
   "../maps/features-holidays_french.jpg"
   <Scalar> wrap { clamp }
 }
+<Texture> features-golf {
+  "../maps/features-golf.jpg"
+  <Scalar> wrap { clamp }
+}
 <Texture> features-garden {
   "../maps/features-garden.jpg"
   <Scalar> wrap { clamp }
@@ -55,6 +67,10 @@
 }
 <Texture> features-furniture {
   "../maps/features-furniture_french.jpg"
+  <Scalar> wrap { clamp }
+}
+<Texture> features-fishing {
+  "../maps/features-fishing.jpg"
   <Scalar> wrap { clamp }
 }
 <Texture> features-cogHq {
@@ -228,6 +244,34 @@
     <Polygon> {
       <RGBA> { 1 1 1 1 }
       <TRef> { features-kartingAccessories }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-species {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-species }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-golf {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-golf }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-fishing {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-fishing }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> features-parties {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { features-parties }
       <VertexRef> { 0 1 2 3 <Ref> { vpool } }
     }
   }

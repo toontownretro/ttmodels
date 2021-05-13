@@ -61,7 +61,7 @@
 :group boarding_gui on phase_9
 :group fireworks on phase_4
 :group accessories on phase_4
-:group questmap on phase_4
+:group questmaps on phase_4
 
 :group tutorial_suits on phase_3.5
 :group suit-heads on phase_4
@@ -143,6 +143,9 @@
 :group toontown_central_safezone on toontown_central_common trolley
 :group winter_toontown_central_safezone on toontown_central_common trolley
 :group halloween_toontown_central_safezone on toontown_central_common trolley
+# Moved from phase 4 to 3.5
+:group winter_toontown_central_tutorial on phase_3.5
+:group halloween_toontown_central_tutorial on phase_3.5
 
 :group minnies_melody_land_common on phase_6 neighborhood_common
 :group minnies_melody_land_streets on minnies_melody_land_common neighborhood_streets_common
@@ -232,7 +235,7 @@
 :group maze_flying_cogdogame on phase_5
 # Technically unreleased but still included just in case
 :group crane_cogdogame on phase_5
-#:group boardroom_cogdogame on phase_5
+:group boardroom_cogdogame on phase_5
 
 
 # The following line flags all textures to use the most generic image
@@ -840,7 +843,12 @@ TooneyNoodle.egg  : nondownload
 ZoinkFat.egg : nondownload
 
 # Neighborhood sign fonts
-Comedy.rgb Portago.rgb Musicals.rgb Aftershock.rgb Ironwork.rgb JiggeryPokery.rgb : 256 128 mipmap sgi
+Comedy.rgb : 256 128 mipmap sgi
+Portago.rgb : 128 128 mipmap sgi
+Musicals.rgb : 256 128 mipmap sgi
+Aftershock.rgb : 256 256 mipmap sgi alpha
+Ironwork.rgb : 256 128 mipmap sgi
+JiggeryPokery.rgb : 256 128 mipmap sgi
 Comedy.egg : phase_3
 Portago.egg : phase_3
 Musicals.egg : phase_3
@@ -903,12 +911,29 @@ bodyGeneric.rgb : 297 207
 tt_m_gui_ups_mainGui.egg : upsell
 tt_m_gui_ups_panelBg.egg : upsell
 tt_m_gui_ups_logo_noText.egg: upsell
+tt_m_gui_ups_logo_noText_english.egg: upsell
+tt_m_gui_ups_logo_noText_castillian.egg: upsell
+tt_m_gui_ups_logo_noText_japanese.egg: upsell
+tt_m_gui_ups_logo_noText_portuguese.egg: upsell
 
 tt_t_gui_ups_panelBg.tif : 512 512
 tt_t_gui_ups_logo_noBubbles.tif : linear omit
 tt_t_gui_ups_logo_bubbles.tif : linear omit
 tt_t_gui_ups_banner.tif : 320 116
 tt_t_gui_ups_logo_noText.tif : linear omit
+
+tt_t_gui_ups_banner_castillian.tif : 320 116
+tt_t_gui_ups_logo_noText_castillian.tif : linear omit
+
+
+tt_t_gui_ups_logo_bubbles_japanese.tif : linear omit
+tt_t_gui_ups_banner_japanese.tif : 320 116
+tt_t_gui_ups_logo_noText_japanese.tif : linear omit
+
+
+tt_t_gui_ups_logo_noBubbles_portuguese.tif : linear omit
+tt_t_gui_ups_banner_portuguese.tif : 320 116
+tt_t_gui_ups_logo_noText_portuguese.tif : linear omit
 
 ###################################################################
 # Pick a Toon - Age up Revamp
@@ -1146,6 +1171,9 @@ tt_m_ara_int_scientistMonkeyFlat.egg : toontown_central_safezone
 tt_m_ara_int_sillyMeterFlat.egg : toontown_central_safezone
 tt_m_ara_int_toonhall.egg : toontown_central_safezone
 tt_m_ara_int_toonhall_english.egg : toontown_central_safezone
+
+tt_m_prp_acs_sillyReader.egg : toontown_central_safezone
+tt_m_prp_acs_clipboard.egg : toontown_central_safezone
 
 # Toontown Central
 
@@ -1414,6 +1442,11 @@ tt_t_ara_tbr_trashcan.tif : 256 256 omit
 tt_t_ara_ddl_hydrant.tif : 128 128
 tt_t_ara_ddl_mailbox.tif : 256 256 omit
 tt_t_ara_ddl_trashcan.tif : 256 256 omit
+
+# Silly Scientist Items
+
+tt_t_prp_acs_sillyReader.tif : 128 128
+tt_t_prp_acs_clipboard.tif : 128 128
 
 ###################################################################
 # Cogdominium
@@ -2001,75 +2034,89 @@ tt_t_chr_avt_acc_sho_workBoots.tif : 128 128 omit
 # Questmap
 ###################################################################
 
-tt_t_gui_qst_daisys_garden_maps_castillian.egg : questmap
-tt_t_gui_qst_daisys_garden_maps_english.egg : questmap
-tt_t_gui_qst_daisys_garden_maps_french.egg : questmap
-tt_t_gui_qst_daisys_garden_maps_german.egg : questmap
-tt_t_gui_qst_daisys_garden_maps_japanese.egg : questmap
-tt_t_gui_qst_daisys_garden_maps_portuguese.egg : questmap
-tt_t_gui_qst_donalds_dock_maps_castillian.egg : questmap
-tt_t_gui_qst_donalds_dock_maps_english.egg : questmap
-tt_t_gui_qst_donalds_dock_maps_french.egg : questmap
-tt_t_gui_qst_donalds_dock_maps_german.egg : questmap
-tt_t_gui_qst_donalds_dock_maps_japanese.egg : questmap
-tt_t_gui_qst_donalds_dock_maps_portuguese.egg : questmap
-tt_t_gui_qst_donalds_dreamland_maps_castillian.egg : questmap
-tt_t_gui_qst_donalds_dreamland_maps_english.egg : questmap
-tt_t_gui_qst_donalds_dreamland_maps_french.egg : questmap
-tt_t_gui_qst_donalds_dreamland_maps_german.egg : questmap
-tt_t_gui_qst_donalds_dreamland_maps_japanese.egg : questmap
-tt_t_gui_qst_donalds_dreamland_maps_portuguese.egg : questmap
-tt_t_gui_qst_minnies_melody_land_maps_castillian.egg : questmap
-tt_t_gui_qst_minnies_melody_land_maps_english.egg : questmap
-tt_t_gui_qst_minnies_melody_land_maps_french.egg : questmap
-tt_t_gui_qst_minnies_melody_land_maps_german.egg : questmap
-tt_t_gui_qst_minnies_melody_land_maps_japanese.egg : questmap
-tt_t_gui_qst_minnies_melody_land_maps_portuguese.egg : questmap
-tt_t_gui_qst_questmap_gui.egg : questmap
-tt_t_gui_qst_the_burrrgh_maps_castillian.egg : questmap
-tt_t_gui_qst_the_burrrgh_maps_english.egg : questmap
-tt_t_gui_qst_the_burrrgh_maps_french.egg : questmap
-tt_t_gui_qst_the_burrrgh_maps_german.egg : questmap
-tt_t_gui_qst_the_burrrgh_maps_japanese.egg : questmap
-tt_t_gui_qst_the_burrrgh_maps_portuguese.egg : questmap
-tt_t_gui_qst_toontown_central_maps_castillian.egg : questmap
-tt_t_gui_qst_toontown_central_maps_english.egg : questmap
-tt_t_gui_qst_toontown_central_maps_french.egg : questmap
-tt_t_gui_qst_toontown_central_maps_german.egg : questmap
-tt_t_gui_qst_toontown_central_maps_japanese.egg : questmap
-tt_t_gui_qst_toontown_central_maps_portuguese.egg : questmap
+tt_t_gui_qst_daisys_garden_maps_castillian.egg : questmaps
+tt_t_gui_qst_daisys_garden_maps_english.egg : questmaps
+tt_t_gui_qst_daisys_garden_maps_french.egg : questmaps
+tt_t_gui_qst_daisys_garden_maps_german.egg : questmaps
+tt_t_gui_qst_daisys_garden_maps_japanese.egg : questmaps
+tt_t_gui_qst_daisys_garden_maps_portuguese.egg : questmaps
+
+tt_t_gui_qst_donalds_dock_maps_castillian.egg : questmaps
+tt_t_gui_qst_donalds_dock_maps_english.egg : questmaps
+tt_t_gui_qst_donalds_dock_maps_french.egg : questmaps
+tt_t_gui_qst_donalds_dock_maps_german.egg : questmaps
+tt_t_gui_qst_donalds_dock_maps_japanese.egg : questmaps
+tt_t_gui_qst_donalds_dock_maps_portuguese.egg : questmaps
+
+tt_t_gui_qst_donalds_dreamland_maps_castillian.egg : questmaps
+tt_t_gui_qst_donalds_dreamland_maps_english.egg : questmaps
+tt_t_gui_qst_donalds_dreamland_maps_french.egg : questmaps
+tt_t_gui_qst_donalds_dreamland_maps_german.egg : questmaps
+tt_t_gui_qst_donalds_dreamland_maps_japanese.egg : questmaps
+tt_t_gui_qst_donalds_dreamland_maps_portuguese.egg : questmaps
+
+tt_t_gui_qst_minnies_melody_land_maps_castillian.egg : questmaps
+tt_t_gui_qst_minnies_melody_land_maps_english.egg : questmaps
+tt_t_gui_qst_minnies_melody_land_maps_french.egg : questmaps
+tt_t_gui_qst_minnies_melody_land_maps_german.egg : questmaps
+tt_t_gui_qst_minnies_melody_land_maps_japanese.egg : questmaps
+tt_t_gui_qst_minnies_melody_land_maps_portuguese.egg : questmaps
+
+tt_t_gui_qst_questmap_gui.egg : questmaps
+
+tt_t_gui_qst_the_burrrgh_maps_castillian.egg : questmaps
+tt_t_gui_qst_the_burrrgh_maps_english.egg : questmaps
+tt_t_gui_qst_the_burrrgh_maps_french.egg : questmaps
+tt_t_gui_qst_the_burrrgh_maps_german.egg : questmaps
+tt_t_gui_qst_the_burrrgh_maps_japanese.egg : questmaps
+tt_t_gui_qst_the_burrrgh_maps_portuguese.egg : questmaps
+
+tt_t_gui_qst_toontown_central_maps_castillian.egg : questmaps
+tt_t_gui_qst_toontown_central_maps_english.egg : questmaps
+tt_t_gui_qst_toontown_central_maps_french.egg : questmaps
+tt_t_gui_qst_toontown_central_maps_german.egg : questmaps
+tt_t_gui_qst_toontown_central_maps_japanese.egg : questmaps
+tt_t_gui_qst_toontown_central_maps_portuguese.egg : questmaps
+
 
 tt_t_gui_qst_arrow.tif : 32 32 omit
+
 tt_t_gui_qst_daisys_garden_5100_castillian.tif : 512 512 omit
 tt_t_gui_qst_daisys_garden_5100_english.tif : 512 512 omit
 tt_t_gui_qst_daisys_garden_5100_french.tif : 512 512 omit
 tt_t_gui_qst_daisys_garden_5100_german.tif : 512 512 omit
 tt_t_gui_qst_daisys_garden_5100_japanese.tif : 512 512 omit
 tt_t_gui_qst_daisys_garden_5100_portuguese.tif : 512 512 omit
+
 tt_t_gui_qst_daisys_garden_5200_castillian.tif : 512 512 omit
 tt_t_gui_qst_daisys_garden_5200_english.tif : 512 512 omit
 tt_t_gui_qst_daisys_garden_5200_french.tif : 512 512 omit
 tt_t_gui_qst_daisys_garden_5200_german.tif : 512 512 omit
 tt_t_gui_qst_daisys_garden_5200_japanese.tif : 512 512 omit
 tt_t_gui_qst_daisys_garden_5200_portuguese.tif : 512 512 omit
+
 tt_t_gui_qst_daisys_garden_5300_castillian.tif : 512 512 omit
 tt_t_gui_qst_daisys_garden_5300_english.tif : 512 512 omit
 tt_t_gui_qst_daisys_garden_5300_french.tif : 512 512 omit
 tt_t_gui_qst_daisys_garden_5300_german.tif : 512 512 omit
 tt_t_gui_qst_daisys_garden_5300_japanese.tif : 512 512 omit
 tt_t_gui_qst_daisys_garden_5300_portuguese.tif : 512 512 omit
+
+
 tt_t_gui_qst_donalds_dock_1100_castillian.tif : 512 512 omit
 tt_t_gui_qst_donalds_dock_1100_english.tif : 512 512 omit
 tt_t_gui_qst_donalds_dock_1100_french.tif : 512 512 omit
 tt_t_gui_qst_donalds_dock_1100_german.tif : 512 512 omit
 tt_t_gui_qst_donalds_dock_1100_japanese.tif : 512 512 omit
 tt_t_gui_qst_donalds_dock_1100_portuguese.tif : 512 512 omit
+
 tt_t_gui_qst_donalds_dock_1200_castillian.tif : 512 512 omit
 tt_t_gui_qst_donalds_dock_1200_english.tif : 512 512 omit
 tt_t_gui_qst_donalds_dock_1200_french.tif : 512 512 omit
 tt_t_gui_qst_donalds_dock_1200_german.tif : 512 512 omit
 tt_t_gui_qst_donalds_dock_1200_japanese.tif : 512 512 omit
 tt_t_gui_qst_donalds_dock_1200_portuguese.tif : 512 512 omit
+
 tt_t_gui_qst_donalds_dock_1300_castillian.tif : 512 512 omit
 tt_t_gui_qst_donalds_dock_1300_english.tif : 512 512 omit
 tt_t_gui_qst_donalds_dock_1300_french.tif : 512 512 omit
@@ -2077,70 +2124,87 @@ tt_t_gui_qst_donalds_dock_1300_german.tif : 512 512 omit
 tt_t_gui_qst_donalds_dock_1300_japanese.tif : 512 512 omit
 tt_t_gui_qst_donalds_dock_1300_portuguese.tif : 512 512 omit
 tt_t_gui_qst_donalds_dock_1300_portuguese_1.tif : 512 512 omit
+
+
 tt_t_gui_qst_donalds_dreamland_9100_castillian.tif : 512 512 omit
 tt_t_gui_qst_donalds_dreamland_9100_english.tif : 512 512 omit
 tt_t_gui_qst_donalds_dreamland_9100_french.tif : 512 512 omit
 tt_t_gui_qst_donalds_dreamland_9100_german.tif : 512 512 omit
 tt_t_gui_qst_donalds_dreamland_9100_japanese.tif : 512 512 omit
 tt_t_gui_qst_donalds_dreamland_9100_portuguese.tif : 512 512 omit
+
 tt_t_gui_qst_donalds_dreamland_9200_castillian.tif : 512 512 omit
 tt_t_gui_qst_donalds_dreamland_9200_english.tif : 512 512 omit
 tt_t_gui_qst_donalds_dreamland_9200_french.tif : 512 512 omit
 tt_t_gui_qst_donalds_dreamland_9200_german.tif : 512 512 omit
 tt_t_gui_qst_donalds_dreamland_9200_japanese.tif : 512 512 omit
 tt_t_gui_qst_donalds_dreamland_9200_portuguese.tif : 512 512 omit
+
+
 tt_t_gui_qst_mapClose.tif : 64 64
 tt_t_gui_qst_mapOpen.tif : 64 64
 tt_t_gui_qst_mapTryToClose.tif : 64 64
 tt_t_gui_qst_mapTryToOpen.tif : 64 64
+
+
 tt_t_gui_qst_minnies_melody_land_4100_castillian.tif : 512 512 omit
 tt_t_gui_qst_minnies_melody_land_4100_english.tif : 512 512 omit
 tt_t_gui_qst_minnies_melody_land_4100_french.tif : 512 512 omit
 tt_t_gui_qst_minnies_melody_land_4100_german.tif : 512 512 omit
 tt_t_gui_qst_minnies_melody_land_4100_japanese.tif : 512 512 omit
 tt_t_gui_qst_minnies_melody_land_4100_portuguese.tif : 512 512 omit
+
 tt_t_gui_qst_minnies_melody_land_4200_castillian.tif : 512 512 omit
 tt_t_gui_qst_minnies_melody_land_4200_english.tif : 512 512 omit
 tt_t_gui_qst_minnies_melody_land_4200_french.tif : 512 512 omit
 tt_t_gui_qst_minnies_melody_land_4200_german.tif : 512 512 omit
 tt_t_gui_qst_minnies_melody_land_4200_japanese.tif : 512 512 omit
 tt_t_gui_qst_minnies_melody_land_4200_portuguese.tif : 512 512 omit
+
 tt_t_gui_qst_minnies_melody_land_4300_castillian.tif : 512 512 omit
 tt_t_gui_qst_minnies_melody_land_4300_english.tif : 512 512 omit
 tt_t_gui_qst_minnies_melody_land_4300_french.tif : 512 512 omit
 tt_t_gui_qst_minnies_melody_land_4300_german.tif : 512 512 omit
 tt_t_gui_qst_minnies_melody_land_4300_japanese.tif : 512 512 omit
 tt_t_gui_qst_minnies_melody_land_4300_portuguese.tif : 512 512 omit
+
+
 tt_t_gui_qst_the_burrrgh_3100_castillian.tif : 512 512 omit
 tt_t_gui_qst_the_burrrgh_3100_english.tif : 512 512 omit
 tt_t_gui_qst_the_burrrgh_3100_french.tif : 512 512 omit
 tt_t_gui_qst_the_burrrgh_3100_german.tif : 512 512 omit
 tt_t_gui_qst_the_burrrgh_3100_japanese.tif : 512 512 omit
 tt_t_gui_qst_the_burrrgh_3100_portuguese.tif : 512 512 omit
+
 tt_t_gui_qst_the_burrrgh_3200_castillian.tif : 512 512 omit
 tt_t_gui_qst_the_burrrgh_3200_english.tif : 512 512 omit
 tt_t_gui_qst_the_burrrgh_3200_french.tif : 512 512 omit
 tt_t_gui_qst_the_burrrgh_3200_german.tif : 512 512 omit
 tt_t_gui_qst_the_burrrgh_3200_japanese.tif : 512 512 omit
 tt_t_gui_qst_the_burrrgh_3200_portuguese.tif : 512 512 omit
+
 tt_t_gui_qst_the_burrrgh_3300_castillian.tif : 512 512 omit
 tt_t_gui_qst_the_burrrgh_3300_english.tif : 512 512 omit
 tt_t_gui_qst_the_burrrgh_3300_french.tif : 512 512 omit
 tt_t_gui_qst_the_burrrgh_3300_german.tif : 512 512 omit
 tt_t_gui_qst_the_burrrgh_3300_japanese.tif : 512 512 omit
 tt_t_gui_qst_the_burrrgh_3300_portuguese.tif : 512 512 omit
+
+
 tt_t_gui_qst_toontown_central_2100_castillian.tif : 512 512 omit
 tt_t_gui_qst_toontown_central_2100_english.tif : 512 512 omit
 tt_t_gui_qst_toontown_central_2100_french.tif : 512 512 omit
 tt_t_gui_qst_toontown_central_2100_german.tif : 512 512 omit
 tt_t_gui_qst_toontown_central_2100_japanese.tif : 512 512 omit
 tt_t_gui_qst_toontown_central_2100_portuguese.tif : 512 512 omit
+
 tt_t_gui_qst_toontown_central_2200_castillian.tif : 512 512 omit
 tt_t_gui_qst_toontown_central_2200_english.tif : 512 512 omit
 tt_t_gui_qst_toontown_central_2200_french.tif : 512 512 omit
 tt_t_gui_qst_toontown_central_2200_german.tif : 512 512 omit
 tt_t_gui_qst_toontown_central_2200_japanese.tif : 512 512 omit
 tt_t_gui_qst_toontown_central_2200_portuguese.tif : 512 512 omit
+
 tt_t_gui_qst_toontown_central_2300_castillian.tif : 512 512 omit
 tt_t_gui_qst_toontown_central_2300_english.tif : 512 512 omit
 tt_t_gui_qst_toontown_central_2300_french.tif : 512 512 omit
@@ -2148,24 +2212,124 @@ tt_t_gui_qst_toontown_central_2300_german.tif : 512 512 omit
 tt_t_gui_qst_toontown_central_2300_japanese.tif : 512 512 omit
 tt_t_gui_qst_toontown_central_2300_portuguese.tif : 512 512 omit
 
+
 # paid features slideshow images
 features-catalog : 491 480
+features-catalog_castillian : 660 510
+features-catalog_japanese : 660 510
+features-catalog_german : 660 510
+features-catalog_portuguese : 660 510
+features-catalog_french : 660 510
+
 features-chat : 1600 1128
+features-chat_castillian : 660 510
+features-chat_japanese : 1660 1200
+features-chat_german : 660 510
+features-chat_portuguese : 660 510
+features-chat_french : 660 510
+
 features-clothes : 800 600
+features-clothes_castillian : 660 510
+features-clothes_japanese : 1600 1280
+features-clothes_german : 660 510
+features-clothes_portuguese : 660 510
+features-clothes_french : 660 510
+
 features-cogHq : 800 600
+features-cogHq_castillian : 660 510
+features-cogHq_japanese : 1600 1200
+features-cogHq_german : 660 510
+features-cogHq_portuguese : 660 510
+features-cogHq_french : 660 510
+
 features-furniture : 800 600
+features-furniture_castillian : 660 510
+features-furniture_japanese : 1600 1200
+features-furniture_german : 660 510
+features-furniture_portuguese : 660 510
+features-furniture_french : 660 510
+
 features-gags : 701 526
+features-gags_castillian : 660 510
+features-gags_japanese : 1600 1301
+features-gags_german : 660 510
+features-gags_portuguese : 660 510
+features-gags_french : 660 510
+
 features-holidays : 815 743
+features-holidays_castillian : 660 510
+features-holidays_japanese : 1600 1459
+features-holidays_german : 660 510
+features-holidays_portuguese : 660 510
+features-holidays_french : 660 510
+
 features-hoods : 1024 796
+features-hoods_castillian : 660 510
+features-hoods_japanese : 1600 1244
+features-hoods_german : 660 510
+features-hoods_portuguese : 660 510
+features-hoods_french : 660 510
+
 features-mailers : 1191 1438 omit
 features-mailers-UK : 552 770 omit
+features-mailers_castillian : 471 450 omit
+features-mailers_japanese : 938 700 omit
+features-mailers_german : 660 510 omit
+features-mailers_portuguese : 660 510 omit
+features-mailers_french : 471 450 omit
+
 features-minigames : 801 600
+features-minigames_castillian : 660 510
+features-minigames_japanese : 1600 1215
+features-minigames_german : 660 510
+features-minigames_portuguese : 660 510
+features-minigames_french : 660 510
+
 features-quests : 801 600
+features-quests_castillian : 660 510
+features-quests_japanese : 1600 1200
+features-quests_german : 660 510
+features-quests_portuguese : 660 510
+features-quests_french : 660 510
+
 features-sixToons : 800 600
+features-sixToons_castillian : 660 510
+features-sixToons_japanese : 1600 1280
+features-sixToons_german : 660 510
+features-sixToons_portuguese : 660 510
+features-sixToons_french : 660 510
+
 features-typeAName : 800 600
+features-typeAName_castillian : 660 510
+features-typeAName_japanese : 1600 1280
+features-typeAName_german : 660 510
+features-typeAName_portuguese : 660 510
+features-typeAName_french : 660 510
+
+features-competition_castillian : 660 510
+features-competition_german : 660 510
+
 features-karting : 800 600
+features-karting_castillian : 800 600
+features-karting_japanese : 800 600
+features-karting_german : 800 600
+features-karting_french : 800 600
+features-karting_portuguese : 660 510
+
 features-kartingAccessories : 984 776
+features-kartingAccessories_castillian : 984 776
+features-kartingAccessories_japanese : 984 776
+features-kartingAccessories_german : 984 776
+features-kartingAccessories_portuguese : 660 510
+features-kartingAccessories_french : 984 776
+
 features-tricks : 620 430
+features-tricks_castillian : 620 430
+features-tricks_japanese : 620 430
+features-tricks_german : 620 430
+features-tricks_portuguese : 620 430
+features-tricks_french : 660 510
+
 features-bigger : 897 1095
 features-rental : 798 599
 features-garden : 800 600
@@ -2175,11 +2339,32 @@ features-golf : 800 600
 features-parties : 650 509
 
 feature_gui_english.egg : features
+feature_gui_castillian.egg : features
+feature_gui_japanese.egg : features
+feature_gui_german.egg : features
+feature_gui_portuguese.egg : features
+feature_gui_french.egg : features
 
 scroll_arrows_gui.egg : features
 
 MembersOnly : 691 501
 members_only_gui_english.egg : features
+
+MembersOnly_castillian : 691 515
+members_only_gui_castillian.egg : features
+
+MembersOnly_japanese : 690 507
+members_only_gui_japanese.egg : features
+
+MembersOnly_german : 688 506
+members_only_gui_german.egg : features
+
+MembersOnly_portuguese : 688 506
+members_only_gui_portuguese.egg : features
+
+MembersOnly_french : 688 506
+members_only_gui_french.egg : features
+
 
 # These gui elements should remain full resolution
 # Unless they are way too big, then scale them down
@@ -2729,7 +2914,7 @@ fish.tif : 64 32
 gui_gear.tif : 64 64
 switch.tif : 64 64
 district.tif : 64 64
-robot.tif : 64 256
+robot.tif : 125 117
 teleportIcon.tif : 64 64
 
 frame.egg : stickerbook
@@ -2842,7 +3027,7 @@ meritProgress.rgb : 154 39
 meritProgress1.rgb : 154 39
 meritProgress_german.rgb : 157 39
 tube.rgb : 186 308
-robot.rgb : 64 256
+robot.rgb : 126 271
 robot_hole.rgb : 126 271
 cog_base.rgb : 591 455
 tag_sellbot2.rgb : 60 153
@@ -4856,7 +5041,12 @@ Elevator.egg : cogHQ
 RoundShadow.egg : cashbotHQ
 SquareShadow.egg : cashbotHQ
 CBMetalCrate2.egg : cashbotHQ
+CBMetalCrate2_english.egg : cashbotHQ
+CBMetalCrate2_german.egg : cashbotHQ
+CBMetalCrate2_french.egg : cashbotHQ
 DoubleMoneyStack.egg : cashbotHQ
+DoubleMoneyStack_english.egg : cashbotHQ
+DoubleMoneyStack_french.egg : cashbotHQ
 metal_crateB.egg : cogHQ
 FloorWear.egg : cogHQ
 woodCrateB.egg : cogHQ
@@ -4876,7 +5066,7 @@ Cog_Tunnel.egg : cogHQ_phase_6
 BossRoomHQ.egg : bossRoomHQ
 PaintMixer.egg : cogHQ
 sellbotBoss-head-zero.egg : bossRoomHQ
-bossCog-legs-zero.egg : bossRoomHQ cashbotHQ
+bossCog-legs-zero.egg : bossRoomHQ
 sellbotBoss-torso-zero.egg : bossRoomHQ
 sellbotBoss-zero.egg : nondownload
 bossCog-treads.egg : bossRoomHQ cashbotHQ
@@ -4908,18 +5098,37 @@ sellbotHQsign.egg : cogHQ
 
 
 CashBotLocomotive.egg : cashbotHQExt
+CashBotLocomotive_english.egg : cashbotHQExt
+CashBotLocomotive_german.egg : cashbotHQExt
+CashBotLocomotive_french.egg : cashbotHQExt
 CashBotBoxCar.egg : cashbotHQExt
+CashBotBoxCar_english.egg : cashbotHQExt
+CashBotBoxCar_german.egg : cashbotHQExt
+CashBotBoxCar_french.egg : cashbotHQExt
 CashBotFlatCar.egg : cashbotHQExt
 CashBotTankCar.egg : cashbotHQExt
+CashBotTankCar_english.egg : cashbotHQExt
+CashBotTankCar_german.egg : cashbotHQExt
+CashBotTankCar_french.egg : cashbotHQExt
 CashBotShippingStation_castillian.egg : cashbotHQExt
 CashBotShippingStation.egg : cashbotHQExt
+CashBotShippingStation_english.egg : cashbotHQExt
 CashBotShippingStation_french.egg : cashbotHQExt
 CashBotShippingStation_japanese.egg : cashbotHQExt
 CashBotShippingStation_portuguese.egg : cashbotHQExt
 CashBotSky.egg : cashbotHQExt
 VaultLobby.egg : cashbotHQExt
+VaultLobby_english.egg : cashbotHQExt
+VaultLobby_german.egg : cashbotHQExt
+VaultLobby_french.egg : cashbotHQExt
 MidVault.egg : cashbotHQExt
+MidVault_english.egg : cashbotHQExt
+MidVault_german.egg : cashbotHQExt
+MidVault_french.egg : cashbotHQExt
 EndVault.egg : cashbotHQExt
+EndVault_english.egg : cashbotHQExt
+EndVault_german.egg : cashbotHQExt
+EndVault_french.egg : cashbotHQExt
 CBLightning.egg : cashbotHQExt
 CBSafe.egg : cashbotHQExt
 CBMagnet.egg : cashbotHQExt
@@ -5130,15 +5339,36 @@ ZONE31a.egg : cashbotHQ
 connector_7cubeR2.egg : cashbotHQ
 connector_7cubeL2.egg : cashbotHQ
 boiler_A1.egg : cashbotHQ
+boiler_A1_english.egg : cashbotHQ
+boiler_A1_german.egg : cashbotHQ
+boiler_A1_french.egg : cashbotHQ
 boiler_A2.egg : cashbotHQ
 boiler_B1.egg : cashbotHQ
 boiler_B2.egg : cashbotHQ
 crates_A.egg : cashbotHQ
+crates_A_english.egg : cashbotHQ
+crates_A_german.egg : cashbotHQ
+crates_A_french.egg : cashbotHQ
 crates_C1.egg : cashbotHQ
+crates_C1_english.egg : cashbotHQ
+crates_C1_german.egg : cashbotHQ
+crates_C1_french.egg : cashbotHQ
 crates_D.egg : cashbotHQ
+crates_D_english.egg : cashbotHQ
+crates_D_german.egg : cashbotHQ
+crates_D_french.egg : cashbotHQ
 crates_E.egg : cashbotHQ
+crates_E_english.egg : cashbotHQ
+crates_E_german.egg : cashbotHQ
+crates_E_french.egg : cashbotHQ
 crates_F1.egg : cashbotHQ
+crates_F1_english.egg : cashbotHQ
+crates_F1_german.egg : cashbotHQ
+crates_F1_french.egg : cashbotHQ
 crates_G1.egg : cashbotHQ
+crates_G1_english.egg : cashbotHQ
+crates_G1_german.egg : cashbotHQ
+crates_G1_french.egg : cashbotHQ
 DoorFrame.egg : cashbotHQ
 gears_A1.egg : cashbotHQ
 gears_B1.egg : cashbotHQ
@@ -5146,9 +5376,19 @@ gears_B2.egg : cashbotHQ
 gears_C1.egg : cashbotHQ
 gears_C2.egg : cashbotHQ
 shelf_A1.egg : cashbotHQ
+shelf_A1_english.egg : cashbotHQ
+shelf_A1_french.egg : cashbotHQ
 shelf_A1Gold.egg : cashbotHQ
+shelf_A1Gold_english.egg : cashbotHQ
+shelf_A1Gold_german.egg : cashbotHQ
+shelf_A1Gold_french.egg : cashbotHQ
 shelf_A1MoneyBags.egg : cashbotHQ
+shelf_A1MoneyBags_english.egg : cashbotHQ
+shelf_A1MoneyBags_german.egg : cashbotHQ
+shelf_A1MoneyBags_french.egg : cashbotHQ
 shelf_A1Money.egg : cashbotHQ
+shelf_A1Money_english.egg : cashbotHQ
+shelf_A1Money_french.egg : cashbotHQ
 pipes_A1.egg : cashbotHQ
 pipes_A2.egg : cashbotHQ
 pipes_A3.egg : cashbotHQ
@@ -5164,25 +5404,52 @@ pipes_D4.egg : cashbotHQ
 pipes_D5.egg : cashbotHQ
 pipes_E.egg : cashbotHQ
 GoldBar.egg : cashbotHQ
+GoldBar_english.egg : cashbotHQ
+GoldBar_german.egg : cashbotHQ
+GoldBar_french.egg : cashbotHQ
 GoldBarStack.egg : cashbotHQ
+GoldBarStack_english.egg : cashbotHQ
+GoldBarStack_german.egg : cashbotHQ
+GoldBarStack_french.egg : cashbotHQ
 CBWoodCrate.egg : cashbotHQ
 CBMetalCrate.egg : cashbotHQ
+CBMetalCrate_english.egg : cashbotHQ
+CBMetalCrate_german.egg : cashbotHQ
+CBMetalCrate_french.egg : cashbotHQ
 MoneyStack.egg : cashbotHQ
 MoneyBag.egg : cashbotHQ
+MoneyBag_english.egg : cashbotHQ
+MoneyBag_german.egg : cashbotHQ
+MoneyBag_french.egg : cashbotHQ
 CBCoin1.egg : cashbotHQ
 CashBotSafe.egg : cashbotHQ
 CashBotHQCshRegister.egg : cashbotHQ
 cashbotBoss-zero.egg : cashbotHQ
 MintGear.egg : cashbotHQ
+MintGear_english.egg : cashbotHQ
+MintGear_german.egg : cashbotHQ
+MintGear_french.egg : cashbotHQ
 MoneyStackPallet.egg : cashbotHQ
 VaultDoorCover.egg : cashbotHQ
 MintGearPost.egg : cashbotHQ
 DoubleCoinStack.egg : cashbotHQ
+DoubleCoinStack_english.egg : cashbotHQ
+DoubleCoinStack_german.egg : cashbotHQ
+DoubleCoinStack_french.egg : cashbotHQ
 DoubleGoldStack.egg : cashbotHQ
+DoubleGoldStack_english.egg : cashbotHQ
+DoubleGoldStack_german.egg : cashbotHQ
+DoubleGoldStack_french.egg : cashbotHQ
 cashbotBoss-head-zero.egg : cashbotHQ
 cashbotBoss-torso-zero.egg : cashbotHQ
 CFOElevator.egg : cashbotHQ
+CFOElevator_english.egg : cashbotHQ
+CFOElevator_german.egg : cashbotHQ
+CFOElevator_french.egg : cashbotHQ
 mintElevator.egg : cashbotHQ
+mintElevator_english.egg : cashbotHQ
+mintElevator_german.egg : cashbotHQ
+mintElevator_french.egg : cashbotHQ
 
 # BossbotHQ
 
@@ -5846,7 +6113,7 @@ tt_t_ara_TT_streetlight_winter_three_lightTT.tif : 128 256 # 256 521
 tree_Christmas.egg : toontown_central_safezone
 
 tree_Christmas.egg : winter_toontown_central_safezone
-tt_m_ara_TT_streetlight_winter.egg : winter_toontown_central_safezone
+tt_m_ara_TT_streetlight_winter.egg : winter_toontown_central_tutorial # winter_toontown_central_safezone (changed for consistency)
 winter_palm_tree_topflat.egg : winter_donalds_dock_common
 tt_m_ara_DD_streetlight_winter.egg : winter_donalds_dock_common
 winter_pine_trees.egg : winter_the_burrrgh_common
@@ -5898,12 +6165,12 @@ tt_t_ara_BR_pinetree_halloween.png : 128 256
 
 tt_t_ara_DL_streetlight_halloween_mummy.png : 128 256
 tt_t_ara_DL_streetlight_halloween_witch.png : 427 613
-tt_t_ara_DL_tree_halloween.png : 128 256
+tt_t_ara_DL_tree_halloween.png : 548 870
 tt_t_prp_ext_streetlight_DL_halloween.tif : 311 590
 tt_t_prp_ext_tree_DL_halloween.tif : 548 870
 
-tt_m_ara_TT_trees_halloween.egg : halloween_toontown_central_safezone
-tt_m_ara_TT_streetlight_halloween.egg : halloween_toontown_central_safezone
+tt_m_ara_TT_trees_halloween.egg : halloween_toontown_central_tutorial #halloween_toontown_central_safezone (changed for consistency)
+tt_m_ara_TT_streetlight_halloween.egg : halloween_toontown_central_tutorial #halloween_toontown_central_safezone (changed for consistency)
 tt_m_ara_DD_palmtree_topflat_halloween.egg : halloween_donalds_dock_common
 tt_m_ara_DD_streetlight_halloween.egg : halloween_donalds_dock_common
 tt_m_ara_BR_pinetrees_halloween.egg : halloween_the_burrrgh_common
@@ -5914,8 +6181,8 @@ tt_m_ara_DL_streetlight_halloween.egg : halloween_donalds_dreamland_streets
 tt_m_ara_MM_tree_halloween.egg : halloween_minnies_melody_land_streets
 tt_m_ara_MM_streetlight_halloween.egg : halloween_minnies_melody_land_streets
 
-tt_m_ara_ddl_streetlight_halloween.egg : halloween_common
-tt_m_ara_ddl_tree_halloween.egg : halloween_common
+tt_m_ara_ddl_streetlight_halloween.egg : halloween_donalds_dreamland_streets # halloween_common (consistency)
+tt_m_ara_ddl_tree_halloween.egg : halloween_donalds_dreamland_streets # halloween_common (changed for consistency)
 
 tt_m_prp_ext_flyingWitch.egg : halloween_common
 
@@ -6083,6 +6350,7 @@ hqTT_hat_back.rgb : 280 299
 hqTT_hat_frt.rgb : 284 294
 hqTT_hat_frtCastillian.rgb : 284 294
 hqTT_hat_frt_japanese.rgb : 284 294
+hqTT_hat_frt_german.rgb : 284 294
 hqTT_hat_frt_portuguese.tif : 284 294
 hqTT_hat_frt_french.tif : 284 294
 hqTT_hat_rim.rgb : 256 255
@@ -8077,6 +8345,18 @@ beanBankLid.tif : 256 256
 beanBankPigHead.tif : 512 512
 beanBankPigBody.tif : 512 512
 beanBankPigEar.tif : 512 512
+
+tt_t_ara_est_beanBankGlass.tif : 512 512
+tt_t_ara_est_beanBankInterior.tif : 32 32
+tt_t_ara_est_beanBankJellybeans.tif : 377 230
+tt_t_ara_est_beanBankLabel.tif : 512 512
+tt_t_ara_est_beanBankLid.tif : 32 32
+tt_t_ara_est_beanBankMainBase.tif : 64 64
+tt_t_ara_est_beanBankPedal.tif : 256 256
+tt_t_ara_est_beanBankPigBody.tif : 64 64
+tt_t_ara_est_beanBankPigEar.tif : 32 32
+tt_t_ara_est_beanBankPigHead.tif : 64 64
+
 jellybeansjar2.tif : 377 230
 FlatBldPole2.rgb : 128 256
 FlatBldRoof.rgb : 256 256
@@ -9320,6 +9600,7 @@ terrainHouse.egg : estate
 closetGirl.egg : estate_interior
 closetBoy.egg : estate_interior
 jellybeanBank.egg : estate_interior
+tt_m_ara_est_jellybeanBank.egg : estate_interior
 jellybeanJar.egg : estate_interior
 # These two are nondownload until they're working.
 jellyBeanBellows-mod.egg : nondownload
@@ -10329,8 +10610,8 @@ LB_LtGreen : 256 256
 
 LawbotPlaza.egg : lawbotHQExt
 
-Hands_Tie : 1024 1024
 LB_Head : 1024 1024
+Hands_Tie : 1024 1024
 LB_Hair1 : 1024 1024
 LB_Robe : 1024 1024
 LB_HandTop : 256 256
