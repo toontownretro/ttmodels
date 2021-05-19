@@ -6,6 +6,9 @@
 :imagetype png
 :shadowtype png
 
+# Palette images should be no larger than 256x256 for old graphics
+# card support.
+# No longer the case.
 :palette 4096 4096
 
 # The original palettes were 256x256 with a margin of 2.  With bigger
@@ -401,7 +404,7 @@ wall_sm_cement.rgb : 256 256 mipmap
 wall_sm_cement_blue.rgb : 256 256 mipmap
 wall_sm_wood.rgb : 128 256 mipmap
 wall_bricks.rgb : 256 256 mipmap
-wall_fence_wood.rgba : 360 196 mipmap
+wall_fence_wood.rgba : 360 196 mipmap repeat_u clamp_v
 foundation_wall_brick.rgb : 256 66 mipmap
 foundation_wall_rock.rgb : 512 165 mipmap
 
@@ -463,7 +466,7 @@ sidewalk_red.rgb : 256 256 omit mipmap aniso 4
 sidewalk_purple.rgb : 256 256 omit mipmap aniso 4
 burrrgh_sidewalk.rgb : 256 256 omit mipmap aniso 4
 DL_sidewalk.rgb : 256 256 omit mipmap aniso 4
-keyboard_segment.rgb : 128 128 omit mipmap aniso 8
+keyboard_segment.rgb : 128 128 omit mipmap aniso 8 repeat_u clamp_v
 sidewalk.rgb : 256 256 omit mipmap aniso 4
 sidewalkbrown.rgb : 256 256 omit mipmap aniso 4
 sidewalk_brown.rgb : 256 256 omit mipmap aniso 4
@@ -610,11 +613,11 @@ GS_box_bot.rgb : 165 166
 GS_box_frt.rgb : 128 128
 GS_box_top.rgb : 128 37
 GS_boxside.rgb : 128 128
-GS_fireworks.rgba : 158 200
+GS_fireworks.rgba : 158 200 clamp_u clamp_v
 GS_front.rgb : 271 497
-GS_hang_rope.rgba : 115 23
+GS_hang_rope.rgba : 115 23 clamp_u
 GS_hat.rgb : 344 224
-GS_hook.rgba  : 65 51
+GS_hook.rgba  : 65 51 clamp_v
 GS_roof.rgb : 409 212
 GS_roofside.rgb : 331 140
 # This is omitted because it also appears on tug_of_war_rope, and
@@ -630,7 +633,7 @@ GS_windowR.rgba   : 187 225
 GS_windowT1.rgba : 157 72
 GS_wood.rgb : 128 37
 cornices.rgb : 512 97
-flat_chimney.rgba : 256 190
+flat_chimney.rgba : 256 190 clamp_u
 safebox_bot.rgb : 233 215
 windowL1.rgba  : 131 33
 trim.rgb : 310 32
@@ -640,7 +643,7 @@ flat_chimneyTop.rgb : 71 40
 floor_wood.rgb : 162 248 omit mipmap aniso 4
 flower_bed_purple_tutorial.rgb : 252 216
 french_window.rgb : 494 347
-windowL1Neutral.rgb : 131 33
+windowL1Neutral.rgb : 131 33 clamp_u clamp_v
 
 gagShop_interior_english.egg : toon_interior
 gagShop_TT_english.egg : toontown_central_safezone
@@ -880,7 +883,7 @@ RedDogSaloon.egg : phase_3
 
 # pre-load
 logo-background.rgb : 327 262 omit linear
-toontown-logo.rgba : 435 178 omit linear
+toontown-logo.rgba : 435 178 omit linear clamp_u
 
 # make-a-toon
 SIZE_CHART_AVATARS.rgb : 512 58
@@ -1185,7 +1188,7 @@ tt_r_ara_ttc_trashcan.egg : toontown_central_streets
 
 # Donald's Dock
 
-tt_r_ara_dod_mailbox.egg : phase_6 #donalds_dock_streets was originally that but at some point changed
+tt_r_ara_dod_mailbox.egg : donalds_dock_streets
 tt_r_ara_dod_trashcan.egg : donalds_dock_streets
 
 # Daisy's Garden
@@ -1418,12 +1421,12 @@ tt_t_ara_ttc_sillyMeterSign_groupMain.tif : 256 256 omit
 tt_t_ara_ttc_sillyMeterSign_groupMain_portuguese.tif : 256 256 omit
 
 tt_t_efx_hydrantSquirt.tif : 128 128 omit
-tt_t_ara_ttc_hydrant.tif : 128 128
-tt_r_prp_ext_piePackage.tif : 128 128
+tt_t_ara_ttc_hydrant.tif : 128 128 omit
+tt_r_prp_ext_piePackage.tif : 128 128 omit
 tt_t_ara_ttc_mailbox.tif : 256 256 omit
 tt_t_ara_ttc_trashcan.tif : 256 256 omit
 
-tt_t_ara_dod_mailbox.tif : 128 128
+tt_t_ara_dod_mailbox.tif : 128 128 omit
 tt_t_ara_dod_trashcan.tif : 256 256 omit
 
 tt_t_ara_dga_hydrant.tif : 256 256 omit
@@ -1434,12 +1437,12 @@ tt_t_ara_mml_hydrant.tif : 256 256 omit
 tt_t_ara_mml_mailbox.tif : 256 256 omit
 tt_t_ara_mml_trashcan.tif : 256 256 omit
 
-tt_t_ara_tbr_hydrant.tif : 128 128
-tt_t_ara_tbr_hydrant_icecube.tif : 32 32
+tt_t_ara_tbr_hydrant.tif : 128 128 omit
+tt_t_ara_tbr_hydrant_icecube.tif : 32 32 omit
 tt_t_ara_tbr_mailbox.tif : 256 256 omit
 tt_t_ara_tbr_trashcan.tif : 256 256 omit
 
-tt_t_ara_ddl_hydrant.tif : 128 128
+tt_t_ara_ddl_hydrant.tif : 128 128 omit
 tt_t_ara_ddl_mailbox.tif : 256 256 omit
 tt_t_ara_ddl_trashcan.tif : 256 256 omit
 
@@ -2062,7 +2065,7 @@ tt_t_gui_qst_minnies_melody_land_maps_german.egg : questmaps
 tt_t_gui_qst_minnies_melody_land_maps_japanese.egg : questmaps
 tt_t_gui_qst_minnies_melody_land_maps_portuguese.egg : questmaps
 
-tt_t_gui_qst_questmap_gui.egg : questmaps
+tt_m_gui_qst_questmap_gui.egg : questmaps
 
 tt_t_gui_qst_the_burrrgh_maps_castillian.egg : questmaps
 tt_t_gui_qst_the_burrrgh_maps_english.egg : questmaps
@@ -2677,11 +2680,19 @@ squirt1.rgb : 512 413
 squirt2.rgb : 512 413
 suits_english.rgb : 512 413
 suits_castillian.rgb : 512 413
+suits_japanese.rgb : 512 413
+suits_german.rgb : 512 413
+suits_portuguese.rgb : 512 413
+suits_french.rgb : 512 413
 toon_buildings.rgb : 512 413
 suit_buildings.rgb : 512 413
 tutorial_gui.egg : tutorial
 tutorial_gui_english.egg : tutorial
 tutorial_gui_castillian.egg : tutorial
+tutorial_gui_japanese.egg : tutorial
+tutorial_gui_german.egg : tutorial
+tutorial_gui_portuguese.egg : tutorial
+tutorial_gui_french.egg : tutorial
 
 trolley-dialog-image.rgb : 200 164
 hq-dialog-image.rgb : 153 211
@@ -2899,7 +2910,7 @@ fishingTrophy.egg : stickerbook
 fishingBook.egg : stickerbook
 bubble.egg : phase_4
 fishingTrophyBowl.egg : stickerbook
-FishBingo.egg : phase_4
+FishBingo.egg : fishing_gui # was originally phase_4
 
 sos_frame.rgb : 804 527
 namelistBox.rgb : 131 265
@@ -3272,7 +3283,7 @@ yellow1.rgb : 32 32
 yellow2.rgb : 32 32
 fence_wood_504.rgba : 256 128 mipmap
 wheel.rgba : 128 128
-awning_edge.rgba : 64 64
+awning_edge.rgba : 64 64 clamp_v
 fence.rgba : 1024 512 mipmap
 ts_ground.rgb : 64 256 mipmap
 trollykey.rgb : 256 128
@@ -5046,6 +5057,10 @@ CBMetalCrate2_german.egg : cashbotHQ
 CBMetalCrate2_french.egg : cashbotHQ
 DoubleMoneyStack.egg : cashbotHQ
 DoubleMoneyStack_english.egg : cashbotHQ
+DoubleMoneyStack_castillian.egg : cashbotHQ
+DoubleMoneyStack_japanese.egg : cashbotHQ
+DoubleMoneyStack_german.egg : cashbotHQ
+DoubleMoneyStack_portuguese.egg : cashbotHQ
 DoubleMoneyStack_french.egg : cashbotHQ
 metal_crateB.egg : cogHQ
 FloorWear.egg : cogHQ
@@ -5069,7 +5084,7 @@ sellbotBoss-head-zero.egg : bossRoomHQ
 bossCog-legs-zero.egg : bossRoomHQ
 sellbotBoss-torso-zero.egg : bossRoomHQ
 sellbotBoss-zero.egg : nondownload
-bossCog-treads.egg : bossRoomHQ cashbotHQ
+bossCog-treads.egg : bossRoomHQ
 gearProp.egg : bossRoomHQ
 SelbotLegFactory.egg : sellbotLegFactory
 cube_tenfoot.egg : cogHQ
@@ -5095,6 +5110,11 @@ cogHQ_elevator.egg : cogHQ
 BotCam-zero.egg : cogHQ
 BotFoot-zero.egg : cogHQ
 sellbotHQsign.egg : cogHQ
+sellbotHQsign_castillian.egg : cogHQ
+sellbotHQsign_japanese.egg : cogHQ
+sellbotHQsign_german.egg : cogHQ
+sellbotHQsign_portuguese.egg : cogHQ
+sellbotHQsign_french.egg : cogHQ
 
 
 CashBotLocomotive.egg : cashbotHQExt
@@ -5168,6 +5188,10 @@ CashBotWindows1Outside.tif : 256 256
 CashBotYellwWndwGrad.tif : 256 256
 CBCrate.tif : 256 256
 CBCurrencyBack.tif : 256 256
+CBCurrencyBack_castillian.tif : 256 256
+CBCurrencyBack_japanese.tif : 256 256
+CBCurrencyBack_german.tif : 256 256
+CBCurrencyBack_portuguese.tif : 256 256
 CBCurrencyBack_french.tif : 256 256
 CBHQDollarDoor.tif : 256 256
 CBHQDoorEuro.tif : 1024 1024
@@ -5214,6 +5238,10 @@ CBWallVault.rgb : 256 256
 CBWallVaultedge.tif : 256 256
 CBWallVaultWheel.rgb : 256 256
 CBWrapperBill.tif : 256 256
+CBWrapperBill_castillian.tif : 256 256
+CBWrapperBill_japanese.tif : 256 256
+CBWrapperBill_german.tif : 256 256
+CBWrapperBill_portuguese.tif : 256 256
 CBWrapperBill_french.tif : 256 256
 CFOCeiling2.tif : 256 256
 CFOVaultmagnet2.tif : 256 256
@@ -5281,6 +5309,7 @@ CBCrate.tif : 256 256
 CBCrate_castillian.tif : 256 256
 CBCrate_french.tif : 1440 1440
 CBCrate_japanese.tif : 1440 1440
+CBCrate_german.tif : 256 256
 CBCrate_portuguese.tif : 256 256
 Pallet1.tif : 256 256
 CBMoneyBags1a.tif : 256 256
@@ -5377,6 +5406,10 @@ gears_C1.egg : cashbotHQ
 gears_C2.egg : cashbotHQ
 shelf_A1.egg : cashbotHQ
 shelf_A1_english.egg : cashbotHQ
+shelf_A1_castillian.egg : cashbotHQ
+shelf_A1_japanese.egg : cashbotHQ
+shelf_A1_german.egg : cashbotHQ
+shelf_A1_portuguese.egg : cashbotHQ
 shelf_A1_french.egg : cashbotHQ
 shelf_A1Gold.egg : cashbotHQ
 shelf_A1Gold_english.egg : cashbotHQ
@@ -5388,6 +5421,10 @@ shelf_A1MoneyBags_german.egg : cashbotHQ
 shelf_A1MoneyBags_french.egg : cashbotHQ
 shelf_A1Money.egg : cashbotHQ
 shelf_A1Money_english.egg : cashbotHQ
+shelf_A1Money_castillian.egg : cashbotHQ
+shelf_A1Money_japanese.egg : cashbotHQ
+shelf_A1Money_german.egg : cashbotHQ
+shelf_A1Money_portuguese.egg : cashbotHQ
 shelf_A1Money_french.egg : cashbotHQ
 pipes_A1.egg : cashbotHQ
 pipes_A2.egg : cashbotHQ
@@ -5412,6 +5449,12 @@ GoldBarStack_english.egg : cashbotHQ
 GoldBarStack_german.egg : cashbotHQ
 GoldBarStack_french.egg : cashbotHQ
 CBWoodCrate.egg : cashbotHQ
+CBWoodCrate_english.egg : cashbotHQ
+CBWoodCrate_castillian.egg : cashbotHQ
+CBWoodCrate_japanese.egg : cashbotHQ
+#CBWoodCrate_german.egg : cashbotHQ
+CBWoodCrate_portuguese.egg : cashbotHQ
+CBWoodCrate_french.egg : cashbotHQ
 CBMetalCrate.egg : cashbotHQ
 CBMetalCrate_english.egg : cashbotHQ
 CBMetalCrate_german.egg : cashbotHQ
@@ -5430,6 +5473,11 @@ MintGear_english.egg : cashbotHQ
 MintGear_german.egg : cashbotHQ
 MintGear_french.egg : cashbotHQ
 MoneyStackPallet.egg : cashbotHQ
+MoneyStackPallet_castillian.egg : cashbotHQ
+MoneyStackPallet_japanese.egg : cashbotHQ
+MoneyStackPallet_german.egg : cashbotHQ
+MoneyStackPallet_portuguese.egg : cashbotHQ
+MoneyStackPallet_french.egg : cashbotHQ
 VaultDoorCover.egg : cashbotHQ
 MintGearPost.egg : cashbotHQ
 DoubleCoinStack.egg : cashbotHQ
@@ -5569,6 +5617,9 @@ lawbook_pages.rgb : 128 64
 newspaper_back.rgb : 128 128
 newspaper_front.rgb : 128 128
 newspaper_frontCastillian.rgb : 128 128
+newspaper_front_japanese.rgb : 128 128
+newspaper_front_portuguese.rgb : 128 128
+newspaper_front_french.rgb : 128 128
 newspaper_side.rgb : 256 64
 pink_slip.rgb : 256 128
 sm_teeth.rgb : 128 128
@@ -5825,8 +5876,11 @@ gavel.egg : battle_props
 half-windsor.egg : battle_props
 lawbook.egg : battle_props
 newspaper_english.egg : battle_props
-newspaper.egg : battle_props
 newspaper_castillian.egg : battle_props
+newspaper_japanese.egg : battle_props
+newspaper_portuguese.egg : battle_props
+newspaper_french.egg : battle_props
+newspaper.egg : battle_props
 pink-slip.egg : battle_props
 power-tie.egg : battle_props
 teeth-mod.egg : battle_props
@@ -6215,7 +6269,7 @@ texpath3.rgb : 256 256
 columns.rgb : 64 128
 railsTop.rgb : 32 32
 stairs.rgb : 256 256
-treetops.rgba : 512 256
+treetops.rgba : 512 256 repeat_u clamp_v
 tt_central_fence.rgb : 256 128
 tt_fence_post.rgb : 64 256
 fence2.rgba : 32 128
@@ -6299,10 +6353,10 @@ school_window_sm_curved.rgb : 185 229
 wall_stone.rgb : 28 112
 wall_trim.rgb : 135 16
 ice_cream.rgba : 83 114
-BG5_1.rgba : 512 260
-BG5_2.rgba : 512 257
-BG5_3.rgba : 512 257
-BG5_4sign.rgba : 512 257
+BG5_1.rgba : 512 260 clamp_u clamp_v
+BG5_2.rgba : 512 257 clamp_u clamp_v
+BG5_3.rgba : 512 257 repeat_u clamp_v
+BG5_4sign.rgba : 512 257 clamp_u clamp_v
 TT_fireplug_body.rgb : 256 256
 TT_hydrant_base.rgb : 324 319
 TT_hydrant_side.rgb : 100 48
@@ -6367,7 +6421,7 @@ hq_gray.rgb : 156 144
 hq_light.rgb : 235 138
 hq_sidewood.rgb : 128 51
 tower_top.rgba : 128 130
-fence_stoneWall.rgb : 512 506 aniso 4
+fence_stoneWall.rgb : 512 506 aniso 4 repeat_u clamp_v
 fence_wood_flower.rgb : 512 506 aniso 4
 site_plan.rgb : 1024 893
 hqTT_eye.rgba : 256 256
@@ -6587,7 +6641,7 @@ ear_protection.rgba : 316 316
 easel2.rgb : 278 432
 bird_painting.rgb : 389 512
 gloves.rgba : 320 378
-hedge.rgb : 216 185
+hedge.rgb : 216 185 repeat_u clamp_v
 
 
 clothshop.egg : toontown_central_safezone
@@ -6759,10 +6813,10 @@ gold.rgb : 32 32
 palmtop.rgba : 128 128
 palmtop2.rgba : 133 86
 palmtrunk.rgba : 64 256
-ropes.rgba : 256 128
+ropes.rgba : 256 128 repeat_u clamp_v
 sidewalk.rgb : 256 256 omit mipmap aniso 4
 stairs.rgb : 256 256
-treetops.rgba : 512 256
+treetops.rgba : 512 256 clamp_v
 duckboat_whistle.rgb : 64 128
 boathorn.rgb : 512 256
 boatpoles.rgb : 64 256
@@ -6780,7 +6834,7 @@ pierpilon.rgb : 128 256
 pierpilon_underwater.rgb : 64 64
 pierpilon_upper.rgb : 128 256
 pierpilon_top.rgb : 64 64
-pierwall1.rgb : 128 64
+pierwall1.rgb : 128 64 repeat_u clamp_v
 pierwall3.rgb : 128 128
 pond_edge_1.rgb : 256 128
 pond_land_edge.rgb : 256 128
@@ -6894,6 +6948,7 @@ trashcan_DD_english.egg : donalds_dock_streets
 trashcan_DD_german.egg : donalds_dock_streets
 trashcan_DD_castillian.egg : donalds_dock_streets
 trashcan_DD_portuguese.egg : donalds_dock_streets
+trashcan_DD_japanese.egg : donalds_dock_streets
 trashcan_DD_french.egg : donalds_dock_streets
 neighborhood_tunnel_DD.egg : donalds_dock_streets
 safe_zone_entrance_tunnel_DD.egg : donalds_dock_streets
@@ -6922,7 +6977,7 @@ tt_m_ara_dod_SZ_hq_french.egg : donalds_dock_safezone
 bighorn_base.rgb : 128 128
 gold_horn_base.rgb : 128 128
 horn_gold.rgb : 128 256
-melodyland_half_stage.rgba : 256 256
+melodyland_half_stage.rgba : 256 256 clamp_u clamp_v
 melodyland_wall3.rgb : 512 128
 melodyland_wall4.rgb : 503 121
 minnie_drum_mag.rgb : 256 64
@@ -6934,20 +6989,20 @@ minnies_sidewalk.rgb : 256 256 omit mipmap aniso 4
 musical_notes2.rgba : 128 128
 round_keyboard.rgb : 256 256 aniso 4
 small_wall_brick.rgb : 512 128
-quarter_keyboard.rgb : 128 129 aniso 4
+quarter_keyboard.rgb : 128 129 aniso 4 clamp_u clamp_v
 gramophone_2piece_flatten.rgb : 256 256
 music_wall2.rgb : 793 475
 music_wall_bg.rgb : 128 64
-music_wall_wave2.rgba : 256 128
-music_wall_wave3.rgba : 256 128
+music_wall_wave2.rgba : 256 128 repeat_u clamp_v
+music_wall_wave3.rgba : 256 128 repeat_u clamp_v
 round2.rgb : 128 128
-trumpet_side2.rgba : 256 128
-trumpet_big.rgba : 71 268
-trumpet_small.rgba : 66 170
-violin.rgba : 164 262
+trumpet_side2.rgba : 256 128 clamp_u clamp_v
+trumpet_big.rgba : 71 268 clamp_u clamp_v
+trumpet_small.rgba : 66 170 clamp_u clamp_v
+violin.rgba : 164 262 clamp_u clamp_v
 minnie_planter.rgb : 503 121
-pong.rgba : 62 111
-pentagram.rgb : 256 128
+pong.rgba : 62 111 clamp_u clamp_v
+pentagram.rgb : 256 128 repeat_u clamp_v
 MM_planter_leaf.rgba : 216 216
 MM_planterbox_side.rgb : 554 362
 MM_transhcan_top.rgb : 161 451
@@ -7046,7 +7101,7 @@ burrrgh_sidewalk.rgb : 256 256 omit mipmap aniso 4
 icewater.rgb : 126 136
 snow_mountain.rgb : 512 64
 snow_wall_front.rgb : 512 128
-snow_wall_front2.rgb : 512 128
+snow_wall_front2.rgb : 512 128 repeat_u clamp_v
 snowfield_mountain.rgb : 256 256
 snowpile.rgb : 128 128
 igloo_entrance_top.rgb : 128 256
@@ -7174,7 +7229,7 @@ stone2.rgb : 105 102
 DG_daisys_pond.rgb : 246 222
 flower_bed.rgb : 216 216 mipmap
 flower_bed2a.rgb : 216 216 mipmap
-trees_bg.rgba : 256 219
+trees_bg.rgba : 256 219 repeat_u clamp_v
 DG_arch_flowers.rgba : 272 307
 DG_arch_flowers2.rgba : 272 307
 DG_fountain_base.rgb : 329 223
@@ -7213,7 +7268,7 @@ planer_conc_front.rgb : 338 72
 planer_conc_top.rgb : 223 14
 wood_fence.rgba : 128 153 mipmap
 flower_bed2b.rgba : 216 216 mipmap
-flower_bed_purple.rgba : 216 216 mipmap
+flower_bed_purple.rgba : 216 216 mipmap repeat_u clamp_v
 DG_flower_basket.rgba : 223 180 mipmap
 DG_flower_simple_woodbox.rgba : 274 71 mipmap
 DG_trowel.rgba : 110 207
@@ -7317,7 +7372,7 @@ door_double_roundDL.rgba : 323 353 mipmap
 dreamland_cloud_temp.rgba : 512 128
 cloudfloor.rgb : 16 16
 bedknob.rgba : 128 256
-bed_headboard_post.rgb : 49 147
+bed_headboard_post.rgb : 49 147 clamp_u clamp_v
 patch1.rgb : 256 256
 patch2.rgb : 256 256
 bedpostback.rgb : 512 256
@@ -7396,7 +7451,7 @@ DL_sign4.rgba : 512 196
 zzz.rgba : 135 64
 bed_headboard_head_half.rgb : 254 243
 nightskytop.rgb : 128 128
-clouds_edgeDL.rgba : 512 166
+clouds_edgeDL.rgba : 512 166 repeat_u clamp_v
 windows.rgb : 470 470
 
 # hq
@@ -7417,7 +7472,7 @@ hqDL_sign_german.rgb : 300 70
 hqDL_sign_portuguese.tif : 300 70
 hqDL_sign_japanese.rgb : 300 70
 hqDL_sign_french.rgb : 300 70
-cloudsDL.rgba : 512 256
+cloudsDL.rgba : 512 256 repeat_u clamp_v
 DL_pond_moon.rgb : 554 552
 water3_old.rgb : 512 512
 DL_light_base.rgb : 451 320
@@ -8314,10 +8369,10 @@ topSphereA.tif : 64 64
 water_surface.tif : 724 726
 weight1ton2.tif : 307 282
 bathtubBed.tif : 512 512
-bathtubCilinder.tif : 256 256
+bathtubCilinder.tif : 256 256 mipmap
 bathtubLeg.tif : 256 256
 faucetCenter.tif : 256 256
-faucetHandle.tif : 256 256
+faucetHandle.tif : 256 256 mipmap
 bedCoverBatthtub.tif : 507 227
 closetBoyDoor.tif : 256 256
 closetBoyDoor2.tif : 256 256
@@ -8568,7 +8623,7 @@ mattressSideB2.tif : 512 93
 mattressTop2.tif : 260 449
 catalogBackground.rgb : 800 600 linear
 monkeyCattlelogCover.tif : 373 409 linear
-cover3Picture.rgb : 256 256 linear
+cover3Picture.rgb : 256 256 linear clamp_u clamp_v
 beanBankDisplay.rgb : 104 145 linear
 catalogBase.rgb : 323 466 linear
 clarabelleFrame.rgb : 232 282 linear
@@ -8597,7 +8652,7 @@ cover1Picture.rgb : 300 303 linear
 cover4picture.rgb : 300 302 linear
 cover5Picture.tif : 373 409 linear
 cover6Picture.tif : 300 302 linear
-cover7picture.tif : 373 409 linear
+cover7picture.tif : 373 409 linear clamp_u clamp_v
 cattlelogSaleCover3.tif : 373 409 linear
 square11.rgb : 166 134 linear
 square12.rgb : 143 138 linear
@@ -9136,7 +9191,7 @@ MushroomPot.tif : 256 256
 StemL.tif : 256 256
 RedCap.tif : 512 512
 YellowCap.tif : 512 512
-cover2Picture.tif : 300 302 linear
+cover2Picture.tif : 300 302 linear clamp_u clamp_v
 toonTownBugTV_accessories.tif : 512 512
 degasHorseStar.tif : 730 901
 MagPie.tif : 1062 803
@@ -9940,6 +9995,12 @@ PetTutorialCattlelog.jpg : 231 260
 PetTutorialSpeedChat.jpg : 470 305
 PetTutorialPanel.tif : 253 374
 PetTutorial.egg : estate
+PetTutorial_english.egg : estate
+#PetTutorial_castillian.egg : estate
+PetTutorial_japanese.egg : estate
+PetTutorial_german.egg : estate
+PetTutorial_portuguese.egg : estate
+PetTutorial_french.egg : estate
 
 # karting stuff
 Car1.tif : 256 256

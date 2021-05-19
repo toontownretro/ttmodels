@@ -32,7 +32,7 @@
     tt_m_ara_TT_trees_halloween.egg tt_m_ara_TT_streetlight_halloween.egg \
     tt_m_ara_TT_streetlight_winter.egg \
     streetlight_TT.egg big_planter.egg \
-    tunnel_sign_orange.egg 
+    tunnel_sign_orange.egg \
     // BR sky has to be put in here because it is used by many hoods during halloween
     BR_sky.egg
 
