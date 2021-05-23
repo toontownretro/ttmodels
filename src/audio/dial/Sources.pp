@@ -181,6 +181,14 @@
 
 #begin install_audio
   #define SOURCES \
+    Skel_COG_VO_grunt.mp3 Skel_COG_VO_murmur.mp3 \
+    Skel_COG_VO_statement.mp3 Skel_COG_VO_question.mp3 \
+	tt_s_ara_cfg_eagleCry.mp3 tt_s_ara_cmg_bossCogAngry.mp3
+  #define PHASE 5
+#end install_audio
+
+#begin install_audio
+  #define SOURCES \
     donald.wav goofy.wav chip.wav dale.wav ChipDale.mp3
   #define PHASE 6
 #end install_audio
@@ -210,3 +218,10 @@
     #define PHASE 6
   #end install_audio
 #endif
+
+#begin install_audio
+  #define SOURCES \
+    Boss_COG_VO_murmur.mp3 Boss_COG_VO_grunt.mp3 \
+    Boss_COG_VO_question.mp3 Boss_COG_VO_statement.mp3 
+  #define PHASE 9
+#end install_audio

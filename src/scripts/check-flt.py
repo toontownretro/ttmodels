@@ -22,7 +22,7 @@ for model in srcModels:
     model = os.path.basename(model)
     origModels = (os.popen("find . -name " + model + " -print")).readlines()
     if (len(origModels) > 1):
-        print ("      Warning: found " + `len(origModels)` + " versions")
+        print ("      Warning: found " + repr(len(origModels)) + " versions")
     for origModel in origModels:
         # Strip off the trailing newline
         origModel = origModel[:-1]
@@ -38,7 +38,7 @@ for model in srcModels:
 if (len(oldModels) == 0):
     print ("All flt files are up to date")
 else:
-    print ("Need to update " + `len(oldModels)` + " file(s)")
+    print ("Need to update " + repr(len(oldModels)) + " file(s)")
     print ("Below are the commands to update. They are NOT done by this script")
     for oldModel in oldModels:
         print ("fltcopy -f " + os.path.join(origDir, oldModel))
