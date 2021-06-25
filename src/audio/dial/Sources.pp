@@ -182,8 +182,7 @@
 #begin install_audio
   #define SOURCES \
     Skel_COG_VO_grunt.mp3 Skel_COG_VO_murmur.mp3 \
-    Skel_COG_VO_statement.mp3 Skel_COG_VO_question.mp3 \
-	tt_s_ara_cfg_eagleCry.mp3 tt_s_ara_cmg_bossCogAngry.mp3
+    Skel_COG_VO_statement.mp3 Skel_COG_VO_question.mp3 
   #define PHASE 5
 #end install_audio
 

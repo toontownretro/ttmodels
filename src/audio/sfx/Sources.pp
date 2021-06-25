@@ -292,7 +292,7 @@
     CHQ_FACT_switch_depressed.mp3 CHQ_FACT_switch_popup.mp3 CHQ_FACT_switch_pressed.mp3 \
     CHQ_FACT_whistling_wind.mp3 CHQ_GOON_hunker_down.mp3 CHQ_FACT_crate_sliding.mp3 \
     CHQ_GOON_tractor_beam_alarmed.mp3 CHQ_VP_tractor_treads.mp3 CHQ_HQ_door_open_close.mp3 \
-    CHQ_SOS_cage_door.mp3 CHQ_SOS_cage_land.mp3 CHQ_SOS_cage_lower.mp3 \
+    CHQ_SOS_cage_land.mp3 \
     CHQ_SOS_pies_restock.mp3 CHQ_VP_big_death.mp3 CHQ_VP_big_jump_stomp.mp3 \
     CHQ_VP_boss_cog_wwipe.mp3 CHQ_VP_collapse.mp3 CHQ_VP_door_close.mp3 \
     CHQ_VP_door_open.mp3 CHQ_VP_headshake.mp3 CHQ_VP_raise_up.mp3 \
@@ -645,7 +645,8 @@
     tt_s_ara_cfg_whirlwind.mp3 tt_s_ara_cmg_bossCogAngry.mp3 \
     tt_s_ara_cmg_cogStomp.mp3 tt_s_ara_cmg_groundquake.mp3 \
     tt_s_ara_cmg_itemHitsFloor.mp3 tt_s_ara_cmg_toonHit.mp3 \
-    tt_s_ara_cmg_waterCoolerFill.mp3
+    tt_s_ara_cmg_waterCoolerFill.mp3 \
+    CHQ_SOS_cage_door.mp3 CHQ_SOS_cage_lower.mp3
 #define PHASE 5
 #end install_audio
 
