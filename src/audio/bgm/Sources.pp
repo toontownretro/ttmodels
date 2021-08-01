@@ -30,7 +30,7 @@
     encntr_sting_announce.mid \
     encntr_toon_winning.mid encntr_hall_of_fame.mid \
     CogHQ_finale.mid\
-    encntr_head_suit_theme.mid // CHQ_FACT_bg.mid Moved to phase_5 for Cogdominiums.
+    encntr_head_suit_theme.mid CHQ_FACT_bg.mid //Remove CHQ_FACT_bg.mid after Field Offices are finished
   #define PHASE 9
 #end install_audio
 
@@ -60,6 +60,14 @@
   #define SOURCES \
     MM_SZ.mid MM_SZ_activity.mid MM_nbrhood.mid
   #define PHASE 6
+#end install_audio
+
+// Suit interiors (Disable after Field Offices are finished
+#begin install_audio
+  #define SOURCES \
+    encntr_general_bg_indoor.mid tt_elevator.mid \
+    encntr_toon_winning_indoor.mid encntr_suit_winning_indoor.mid
+  #define PHASE 7
 #end install_audio
 
 // Suit interiors & Cogdominiums

@@ -301,7 +301,10 @@
     Boss_COG_VO_murmur.mp3 Boss_COG_VO_grunt.mp3 Boss_COG_VO_question.mp3 Boss_COG_VO_statement.mp3 \
     CHQ_FACT_conveyor_belt.mp3 CHQ_FACT_gears_turning.mp3 CHQ_FACT_paint_splash.mp3 \
     CHQ_FACT_lava_fall_in.mp3 CHQ_VP_ramp_slide.mp3 \
-    CHQ_VP_swipe.mp3 CHQ_door_close.mp3 CHQ_door_open.mp3 toon_decompress.mp3
+    CHQ_VP_swipe.mp3 CHQ_door_close.mp3 CHQ_door_open.mp3 toon_decompress.mp3 \
+	// Remove after Field Offices are finished
+    CHQ_SOS_cage_door.mp3 CHQ_SOS_cage_lower.mp3 CHQ_FACT_stomper_raise.mp3 \
+	CHQ_VP_door_open.mp3 CHQ_VP_door_close.mp3 CHQ_FACT_elevator_up_down.mp3
   #define PHASE 9
 #end install_audio
 
