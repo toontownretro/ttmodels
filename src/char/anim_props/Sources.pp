@@ -20,7 +20,7 @@ fightBoost fightCheer fightIdle fightIntoIdle fightSad \
 firstMoveArmUp1 firstMoveArmUp2 firstMoveArmUp3 firstMoveIntoSleep \
 firstMoveJump firstMoveJumpBalance firstMoveJumpSpin firstMoveOutOfSleep \
 firstMoveSleepIdle firstMoveStruggle idle0 idle1 idle2 idleAwesome3 \
-intoFightIdle victoryDance
+idleIntoFight victoryDance
 
 #begin maya_char_egg
     #define MAYA_PREFIX tt_a_ara_ttc_hydrant_
