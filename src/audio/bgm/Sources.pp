@@ -30,7 +30,7 @@
     encntr_sting_announce.mid \
     encntr_toon_winning.mid encntr_hall_of_fame.mid \
     CogHQ_finale.mid\
-    encntr_head_suit_theme.mid CHQ_FACT_bg.mid
+    encntr_head_suit_theme.mid // CHQ_FACT_bg.mid Moved to phase_5 for Cogdominiums.
   #define PHASE 9
 #end install_audio
 
@@ -62,12 +62,13 @@
   #define PHASE 6
 #end install_audio
 
-// Suit interiors
+// Suit interiors & Cogdominiums
 #begin install_audio
   #define SOURCES \
     encntr_general_bg_indoor.mid tt_elevator.mid \
-    encntr_toon_winning_indoor.mid encntr_suit_winning_indoor.mid
-  #define PHASE 7
+    encntr_toon_winning_indoor.mid encntr_suit_winning_indoor.mid \
+	CHQ_FACT_bg.mid
+  #define PHASE 5 // Moved from 7 to 5 for usage in Cogdominiums
 #end install_audio
 
 // The Brrrgh

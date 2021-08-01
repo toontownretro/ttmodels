@@ -287,20 +287,20 @@
 #begin install_audio
   #define SOURCES \
     CHQ_FACT_arms_retracting.mp3 CHQ_FACT_crate_effort.mp3 CHQ_FACT_door_open_final.mp3 \
-    CHQ_FACT_door_open_sliding.mp3 CHQ_FACT_door_unlock.mp3 CHQ_FACT_elevator_up_down.mp3 \
+    CHQ_FACT_door_open_sliding.mp3 CHQ_FACT_door_unlock.mp3 \
     CHQ_FACT_stomper_large.mp3 CHQ_FACT_stomper_med.mp3 \
     CHQ_FACT_switch_depressed.mp3 CHQ_FACT_switch_popup.mp3 CHQ_FACT_switch_pressed.mp3 \
     CHQ_FACT_whistling_wind.mp3 CHQ_GOON_hunker_down.mp3 CHQ_FACT_crate_sliding.mp3 \
     CHQ_GOON_tractor_beam_alarmed.mp3 CHQ_VP_tractor_treads.mp3 CHQ_HQ_door_open_close.mp3 \
     CHQ_SOS_cage_land.mp3 \
     CHQ_SOS_pies_restock.mp3 CHQ_VP_big_death.mp3 CHQ_VP_big_jump_stomp.mp3 \
-    CHQ_VP_boss_cog_wwipe.mp3 CHQ_VP_collapse.mp3 CHQ_VP_door_close.mp3 \
-    CHQ_VP_door_open.mp3 CHQ_VP_headshake.mp3 CHQ_VP_raise_up.mp3 \
+    CHQ_VP_boss_cog_wwipe.mp3 CHQ_VP_collapse.mp3 \
+    CHQ_VP_headshake.mp3 CHQ_VP_raise_up.mp3 \
     CHQ_GOON_rattle_shake.mp3 CHQ_VP_reeling_backwards.mp3 CHQ_VP_spin.mp3 \
     CHQ_VP_raining_gears.mp3 CHQ_VP_frisbee_gears.mp3 \
     Boss_COG_VO_murmur.mp3 Boss_COG_VO_grunt.mp3 Boss_COG_VO_question.mp3 Boss_COG_VO_statement.mp3 \
     CHQ_FACT_conveyor_belt.mp3 CHQ_FACT_gears_turning.mp3 CHQ_FACT_paint_splash.mp3 \
-    CHQ_FACT_lava_fall_in.mp3 CHQ_FACT_stomper_raise.mp3 CHQ_VP_ramp_slide.mp3 \
+    CHQ_FACT_lava_fall_in.mp3 CHQ_VP_ramp_slide.mp3 \
     CHQ_VP_swipe.mp3 CHQ_door_close.mp3 CHQ_door_open.mp3 toon_decompress.mp3
   #define PHASE 9
 #end install_audio
@@ -646,7 +646,8 @@
     tt_s_ara_cmg_cogStomp.mp3 tt_s_ara_cmg_groundquake.mp3 \
     tt_s_ara_cmg_itemHitsFloor.mp3 tt_s_ara_cmg_toonHit.mp3 \
     tt_s_ara_cmg_waterCoolerFill.mp3 \
-    CHQ_SOS_cage_door.mp3 CHQ_SOS_cage_lower.mp3
+    CHQ_SOS_cage_door.mp3 CHQ_SOS_cage_lower.mp3 CHQ_FACT_stomper_raise.mp3 \
+	CHQ_VP_door_open.mp3 CHQ_VP_door_close.mp3 CHQ_FACT_elevator_up_down.mp3
 #define PHASE 5
 #end install_audio
 
