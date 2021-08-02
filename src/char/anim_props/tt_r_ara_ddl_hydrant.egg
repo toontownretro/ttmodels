@@ -3,9 +3,8 @@
 <Comment> {
   "bam2egg 'phase_8\models\char\tt_r_ara_ddl_hydrant.bam' 'phase_8\models\char\tt_r_ara_ddl_hydrant.egg'"
 }
-<Texture> phase_4_palette_2tmla_1 {
-  "phase_4/maps/phase_4_palette_2tmla_1.jpg"
-  <Scalar> alpha-file { "phase_4/maps/phase_4_palette_2tmla_1_a.rgb" }
+<Texture> tt_t_ara_gen_dropshadow {
+  ../../maps/tt_t_ara_gen_dropshadow.tif
   <Scalar> format { luminance_alpha }
   <Scalar> wrapu { repeat }
   <Scalar> wrapv { repeat }
@@ -13,8 +12,8 @@
   <Scalar> magfilter { linear }
   <Scalar> envtype { modulate }
 }
-<Texture> donalds_dreamland_streets_palette_3cmla_1 {
-  "phase_8/maps/donalds_dreamland_streets_palette_3cmla_1.jpg"
+<Texture> tt_t_ara_ddl_hydrant {
+  ../../maps/tt_t_ara_ddl_hydrant.tif
   <Scalar> format { rgb }
   <Scalar> wrapu { repeat }
   <Scalar> wrapv { repeat }
@@ -25,25 +24,25 @@
 <VertexPool> tt_r_ara_ddl_hydrant.egg {
   <Vertex> 0 {
     1.60000002384186 1.59227001667023 0.025000000372529
-    <UV> { 0.764111042022705 0.386474221944809 }
+    <UV> { 0 0 }
     <RGBA> { 1 1 1 0.5 }
     // def_shadow:1
   }
   <Vertex> 1 {
     -1.60000002384186 1.59227001667023 0.025000000372529
-    <UV> { 0.987245738506317 0.386474221944809 }
+    <UV> { 0 1 }
     <RGBA> { 1 1 1 0.5 }
     // def_shadow:1
   }
   <Vertex> 2 {
     1.60000002384186 -1.6076899766922 0.025000000372529
-    <UV> { 0.764111042022705 0.614259004592896 }
+    <UV> { 1 0 }
     <RGBA> { 1 1 1 0.5 }
     // def_shadow:1
   }
   <Vertex> 3 {
     -1.60000002384186 -1.6076899766922 0.025000000372529
-    <UV> { 0.987245738506317 0.614259004592896 }
+    <UV> { 1 1 }
     <RGBA> { 1 1 1 0.5 }
     // def_shadow:1
   }
@@ -3110,11 +3109,11 @@
         <Group> dropshadow_ddl_high {
           <Scalar> alpha { blend }
           <Polygon> {
-            <TRef> { phase_4_palette_2tmla_1 }
+            <TRef> { tt_t_ara_gen_dropshadow }
             <VertexRef> { 0 1 2 <Ref> { tt_r_ara_ddl_hydrant.egg } }
           }
           <Polygon> {
-            <TRef> { phase_4_palette_2tmla_1 }
+            <TRef> { tt_t_ara_gen_dropshadow }
             <VertexRef> { 2 1 3 <Ref> { tt_r_ara_ddl_hydrant.egg } }
           }
         }
@@ -3140,1171 +3139,1171 @@
           }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 4 5 6 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 6 5 7 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 8 9 10 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 10 9 11 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 12 13 14 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 14 13 15 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 16 17 18 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 18 17 19 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 20 21 22 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 22 21 23 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 24 25 26 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 26 25 27 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 28 29 30 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 30 29 31 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 32 33 34 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 34 33 35 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 36 37 38 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 38 37 39 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 40 41 42 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 42 41 43 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 44 45 46 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 46 45 47 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 48 49 50 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 50 49 51 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 52 53 54 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 54 53 55 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 56 57 58 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 58 57 59 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 60 61 62 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 62 61 63 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 64 65 66 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 66 65 67 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 68 69 70 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 70 69 71 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 72 73 74 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 74 73 75 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 76 77 78 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 78 77 79 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 80 81 82 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 82 81 83 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 84 85 86 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 86 85 87 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 88 89 85 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 85 89 87 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 84 90 85 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 85 90 88 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 91 92 93 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 93 92 94 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 95 96 97 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 97 96 98 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 99 100 101 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 101 100 102 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 103 104 105 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 105 104 106 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 106 107 105 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 105 107 108 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 108 109 105 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 105 109 103 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 110 111 112 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 112 111 113 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 114 115 116 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 116 115 117 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 118 119 115 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 115 119 117 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 120 121 122 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 122 121 123 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 124 125 126 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 126 125 127 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 127 125 128 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 128 125 129 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 129 125 130 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 130 125 124 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 131 132 133 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 133 132 134 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 134 132 135 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 135 132 136 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 136 132 137 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 137 132 131 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 98 96 138 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 138 96 139 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 102 100 140 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 140 100 141 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 113 111 142 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 142 111 143 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 144 145 146 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 146 145 147 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 148 144 149 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 149 144 146 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 150 110 151 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 151 110 112 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 152 153 154 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 154 153 155 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 156 157 158 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 158 157 159 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 160 161 162 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 162 161 163 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 164 165 166 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 166 165 167 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 168 95 169 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 169 95 97 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 170 99 171 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 171 99 101 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 172 173 174 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 174 173 175 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 174 175 176 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 176 175 177 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 176 177 178 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 178 177 179 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 178 179 180 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 180 179 181 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 180 181 182 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 182 181 183 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 182 183 172 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 172 183 173 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 184 185 186 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 186 185 187 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 186 187 77 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 77 187 79 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 188 189 190 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 190 189 191 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 190 191 192 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 192 191 193 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 194 195 196 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 196 195 197 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 196 197 198 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 198 197 199 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 200 169 201 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 201 169 97 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 201 97 202 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 202 97 98 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 202 98 203 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 203 98 138 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 204 205 206 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 206 205 207 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 206 207 208 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 208 207 209 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 208 209 210 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 210 209 211 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 212 213 214 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 214 213 215 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 214 215 121 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 121 215 123 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 148 118 144 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 144 118 115 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 144 115 145 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 145 115 114 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 216 217 218 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 218 217 219 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 218 219 220 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 220 219 221 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 220 221 222 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 222 221 223 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 222 223 92 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 92 223 94 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 224 225 226 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 226 225 227 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 226 227 228 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 228 227 229 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 228 229 230 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 230 229 231 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 230 231 232 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 232 231 233 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 232 233 234 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 234 233 235 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 68 70 236 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 236 70 237 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 81 236 83 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 83 236 237 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 238 80 239 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 239 80 82 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 238 239 69 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 69 239 71 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 240 241 242 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 242 241 243 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 73 240 75 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 75 240 242 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 184 244 185 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 185 244 245 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 246 247 248 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 248 247 249 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 250 251 252 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 252 251 253 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 254 255 256 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 256 255 257 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 258 259 260 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 260 259 261 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 262 263 264 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 264 263 265 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 266 267 268 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 268 267 269 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 270 59 271 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 271 59 272 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 273 274 65 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 65 274 275 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 276 63 277 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 277 63 278 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 55 279 280 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 280 279 281 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 265 263 282 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 282 263 283 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 284 285 286 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 286 285 287 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 288 289 290 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 290 289 291 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 292 293 294 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 294 293 295 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 296 297 298 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 298 297 299 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 300 301 302 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 302 301 303 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 304 305 306 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 306 305 307 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 308 262 309 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 309 262 264 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 287 285 310 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 310 285 311 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 291 289 312 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 312 289 313 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 76 78 314 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 314 78 315 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 314 315 244 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 244 315 245 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 316 317 318 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 318 317 319 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 318 319 320 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 320 319 321 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 320 321 322 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 322 321 323 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 322 323 324 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 324 323 325 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 324 325 326 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 326 325 327 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 326 327 328 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 328 327 329 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 330 331 332 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 332 331 333 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 332 333 334 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 334 333 335 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 334 335 336 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 336 335 337 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 336 337 338 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 338 337 339 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 338 339 340 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 340 339 341 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 340 341 342 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 342 341 343 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 243 241 344 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 344 241 345 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 344 345 346 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 346 345 347 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 346 347 74 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 74 347 72 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 348 349 350 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 350 349 351 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 350 351 352 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 352 351 353 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 354 355 356 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 356 355 357 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 356 357 358 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 358 357 359 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 360 361 362 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 362 361 363 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 362 363 364 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 364 363 365 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 366 283 367 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 367 283 263 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 367 263 368 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 368 263 262 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 368 262 369 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 369 262 308 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 370 371 372 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 372 371 373 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 372 373 374 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 374 373 267 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 374 267 375 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 375 267 266 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 371 376 373 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 373 376 377 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 373 377 267 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 267 377 269 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 378 379 380 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 380 379 381 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 380 381 382 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 382 381 383 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 384 385 386 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 386 385 387 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 386 387 388 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 388 387 389 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 390 391 392 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 392 391 393 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 392 393 394 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 394 393 395 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
       }
@@ -4315,11 +4314,11 @@
         <Group> dropshadow_ddl_med {
           <Scalar> alpha { blend }
           <Polygon> {
-            <TRef> { phase_4_palette_2tmla_1 }
+            <TRef> { tt_t_ara_gen_dropshadow }
             <VertexRef> { 0 1 2 <Ref> { tt_r_ara_ddl_hydrant.egg } }
           }
           <Polygon> {
-            <TRef> { phase_4_palette_2tmla_1 }
+            <TRef> { tt_t_ara_gen_dropshadow }
             <VertexRef> { 2 1 3 <Ref> { tt_r_ara_ddl_hydrant.egg } }
           }
         }
@@ -4345,883 +4344,883 @@
           }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 4 5 6 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 6 5 7 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 8 9 10 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 10 9 11 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 12 13 14 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 14 13 15 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 16 17 18 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 18 17 19 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 20 21 22 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 22 21 23 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 24 25 26 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 26 25 27 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 28 29 30 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 30 29 31 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 32 33 34 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 34 33 35 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 36 37 38 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 38 37 39 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 40 41 42 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 42 41 43 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 44 45 46 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 46 45 47 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 48 49 50 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 50 49 51 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 52 53 54 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 54 53 55 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 56 57 58 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 58 57 59 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 60 61 62 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 62 61 63 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 64 65 66 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 66 65 67 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 68 69 70 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 70 69 71 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 72 73 74 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 74 73 75 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 76 77 78 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 78 77 79 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 80 81 82 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 82 81 83 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 84 85 86 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 86 85 87 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 88 89 85 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 85 89 87 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 84 90 85 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 85 90 88 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 231 235 230 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 230 235 234 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 210 204 211 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 211 204 205 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 170 141 171 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 171 141 140 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 103 104 105 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 105 104 106 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 106 107 105 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 105 107 108 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 108 109 105 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 105 109 103 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 150 143 151 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 151 143 142 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 117 116 146 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 146 116 147 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 122 120 213 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 213 120 212 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 124 125 126 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 126 125 127 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 127 125 128 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 128 125 129 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 129 125 130 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 130 125 124 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 131 132 133 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 133 132 134 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 134 132 135 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 135 132 136 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 136 132 137 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 137 132 131 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 117 146 119 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 119 146 149 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 152 153 154 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 154 153 155 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 156 157 158 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 158 157 159 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 231 230 229 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 229 230 228 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 225 229 224 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 224 229 228 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 160 161 162 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 162 161 163 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 164 165 166 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 166 165 167 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 172 173 174 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 174 173 175 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 174 175 176 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 176 175 177 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 176 177 178 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 178 177 179 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 178 179 180 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 180 179 181 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 180 181 182 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 182 181 183 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 182 183 172 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 172 183 173 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 184 185 186 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 186 185 187 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 186 187 77 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 77 187 79 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 93 91 223 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 223 91 222 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 223 222 221 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 221 222 220 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 221 220 217 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 217 220 216 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 188 189 190 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 190 189 191 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 190 191 192 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 192 191 193 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 194 195 196 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 196 195 197 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 196 197 198 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 198 197 199 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 203 200 138 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 138 200 169 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 138 169 139 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 139 169 168 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 68 70 236 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 236 70 237 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 81 236 83 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 83 236 237 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 238 80 239 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 239 80 82 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 238 239 69 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 69 239 71 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 240 241 242 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 242 241 243 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 73 240 75 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 75 240 242 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 184 244 185 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 185 244 245 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 352 348 353 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 353 348 349 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 354 355 358 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 358 355 359 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 360 361 364 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 364 361 365 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 246 247 248 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 248 247 249 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 250 251 252 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 252 251 253 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 254 255 256 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 256 255 257 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 258 259 260 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 260 259 261 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 266 375 371 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 371 375 370 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 268 266 376 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 376 266 371 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 270 59 271 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 271 59 272 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 273 274 65 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 65 274 275 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 276 63 277 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 277 63 278 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 55 279 280 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 280 279 281 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 378 379 382 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 382 379 383 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 286 284 310 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 310 284 311 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 312 290 313 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 313 290 288 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 292 293 294 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 294 293 295 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 296 297 298 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 298 297 299 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 384 385 388 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 388 385 389 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 391 395 390 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 390 395 394 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 300 301 302 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 302 301 303 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 304 305 306 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 306 305 307 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 76 78 314 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 314 78 315 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 314 315 244 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 244 315 245 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 316 317 318 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 318 317 319 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 318 319 320 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 320 319 321 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 320 321 322 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 322 321 323 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 322 323 324 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 324 323 325 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 324 325 326 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 326 325 327 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 326 327 328 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 328 327 329 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 330 331 332 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 332 331 333 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 332 333 334 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 334 333 335 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 334 335 336 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 336 335 337 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 336 337 338 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 338 337 339 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 338 339 340 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 340 339 341 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 340 341 342 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 342 341 343 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 243 241 344 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 344 241 345 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 344 345 346 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 346 345 347 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 346 347 74 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 74 347 72 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 282 309 283 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 283 309 308 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 283 308 366 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 366 308 369 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
       }
@@ -5232,11 +5231,11 @@
         <Group> dropshadow_ddl_low {
           <Scalar> alpha { blend }
           <Polygon> {
-            <TRef> { phase_4_palette_2tmla_1 }
+            <TRef> { tt_t_ara_gen_dropshadow }
             <VertexRef> { 0 1 2 <Ref> { tt_r_ara_ddl_hydrant.egg } }
           }
           <Polygon> {
-            <TRef> { phase_4_palette_2tmla_1 }
+            <TRef> { tt_t_ara_gen_dropshadow }
             <VertexRef> { 2 1 3 <Ref> { tt_r_ara_ddl_hydrant.egg } }
           }
         }
@@ -5262,515 +5261,515 @@
           }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 396 397 192 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 192 397 193 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 398 399 198 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 198 399 199 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 400 77 401 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 401 77 79 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 402 403 77 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 77 403 79 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 88 404 405 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 405 404 86 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 406 407 408 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 408 407 409 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 410 235 411 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 411 235 234 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 412 413 414 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 414 413 415 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 416 417 418 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 418 417 419 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 103 104 105 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 105 104 106 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 106 107 105 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 105 107 108 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 108 109 105 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 105 109 103 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 420 421 422 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 422 421 423 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 424 425 426 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 426 425 427 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 428 429 430 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 430 429 431 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 124 125 126 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 126 125 127 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 127 125 128 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 128 125 129 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 129 125 130 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 130 125 124 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 424 426 432 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 432 426 433 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 410 411 434 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 434 411 435 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 436 434 437 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 437 434 435 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 216 217 438 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 438 217 439 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 438 439 408 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 408 439 406 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 440 441 442 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 442 441 443 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 442 443 444 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 444 443 445 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 446 236 447 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 447 236 237 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 238 446 239 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 239 446 447 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 245 244 401 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 401 244 400 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 402 244 403 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 403 244 245 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 448 449 450 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 450 449 451 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 452 453 454 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 454 453 455 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 360 361 456 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 456 361 457 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 458 459 460 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 460 459 461 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 462 458 463 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 463 458 460 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 270 464 271 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 271 464 465 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 273 274 466 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 466 274 467 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 468 469 277 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 277 469 278 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 470 471 280 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 280 471 281 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 378 379 472 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 472 379 473 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 474 475 310 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 310 475 311 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 312 476 313 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 313 476 477 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 478 479 480 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 480 479 481 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 482 483 484 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 484 483 485 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 316 486 318 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 318 486 487 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 318 487 320 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 320 487 488 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 320 488 322 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 322 488 489 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 322 489 324 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 324 489 490 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 324 490 326 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 326 490 491 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 326 491 328 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 328 491 492 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 493 331 494 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 494 331 333 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 494 333 495 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 495 333 335 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 495 335 496 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 496 335 337 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 496 337 497 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 497 337 339 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 497 339 498 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 498 339 341 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 498 341 499 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 499 341 343 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 237 236 500 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 500 236 501 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 500 501 239 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 239 501 238 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 502 503 504 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 504 503 505 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 504 505 506 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 506 505 507 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 72 73 508 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 508 73 240 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 508 240 242 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 242 240 241 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 242 241 509 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 509 241 345 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 509 345 346 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 346 345 347 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 346 347 508 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
         <Polygon> {
-          <TRef> { donalds_dreamland_streets_palette_3cmla_1 }
+          <TRef> { tt_t_ara_ddl_hydrant }
           <VertexRef> { 508 347 72 <Ref> { tt_r_ara_ddl_hydrant.egg } }
         }
       }
