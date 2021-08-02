@@ -1,11 +1,12 @@
 #define DIR_TYPE models
 #define INSTALL_TO models/cogdominium
 
+// Don't build it yet
+#define BUILD_DIRECTORY
 
 #begin maya_egg
   #define SOURCES $[wildcard *.mb]
 #end maya_egg
-
 
 #begin install_egg
   // Global Cog-Dominium files.
