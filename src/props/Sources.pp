@@ -75,36 +75,36 @@
 	tt_a_ara_ttc_sillyMeter_phaseFourToFive.egg tt_a_ara_ttc_sillyMeter_phaseOne.egg \
 	tt_a_ara_ttc_sillyMeter_phaseThree.egg tt_a_ara_ttc_sillyMeter_phaseTwo.egg \
 	tt_m_efx_snowmanHead_short.egg tt_m_efx_snowmanHead_tall.egg \
-	tt_m_prp_acs_clipboard.egg tt_m_prp_acs_sillyReader.egg	\
-	  tt_m_ara_ttc_sillyMeterSign_groupA_english.egg \
-	  tt_m_ara_ttc_sillyMeterSign_groupB_english.egg
+	tt_m_prp_acs_clipboard.egg tt_m_prp_acs_sillyReader.egg	
+	//tt_m_ara_ttc_sillyMeterSign_groupA_english.egg \
+	//tt_m_ara_ttc_sillyMeterSign_groupB_english.egg
 	
   #if $[LANGUAGE]
     #define SOURCES $[SOURCES] \
-      neighborhood_sign_sellBotHQ_$[LANGUAGE].egg \
-	  tt_m_ara_gen_foreSign_$[LANGUAGE].egg \
-	  tt_m_ara_gen_jellybeanJamSign_$[LANGUAGE].egg \
-	  tt_m_ara_gen_sillyMeterSign_$[LANGUAGE].egg \
-	  tt_m_ara_gen_stormSellbotSign_$[LANGUAGE].egg \
-	  tt_m_ara_gen_trickOrTreatSign_$[LANGUAGE].egg \
-	  tt_m_ara_gen_tunnelAheadSign_$[LANGUAGE].egg \
-	  tt_m_ara_gen_victoryPartySign_$[LANGUAGE].egg \
-	  tt_m_ara_gen_victorySoonSign_$[LANGUAGE].egg 
-	//  tt_m_ara_ttc_sillyMeterSign_groupA_$[LANGUAGE].egg \
-	//  tt_m_ara_ttc_sillyMeterSign_groupB_$[LANGUAGE].egg
+      neighborhood_sign_sellBotHQ_$[LANGUAGE].egg 
+	  //tt_m_ara_gen_foreSign_$[LANGUAGE].egg \
+	  //tt_m_ara_gen_jellybeanJamSign_$[LANGUAGE].egg \
+	  //tt_m_ara_gen_sillyMeterSign_$[LANGUAGE].egg \
+	  //tt_m_ara_gen_stormSellbotSign_$[LANGUAGE].egg \
+	  //tt_m_ara_gen_trickOrTreatSign_$[LANGUAGE].egg \
+	  //tt_m_ara_gen_tunnelAheadSign_$[LANGUAGE].egg \
+	  //tt_m_ara_gen_victoryPartySign_$[LANGUAGE].egg \
+	  //tt_m_ara_gen_victorySoonSign_$[LANGUAGE].egg \
+	  //tt_m_ara_ttc_sillyMeterSign_groupA_$[LANGUAGE].egg \
+	  //tt_m_ara_ttc_sillyMeterSign_groupB_$[LANGUAGE].egg
   #else
     #define SOURCES $[SOURCES] \
-      neighborhood_sign_sellBotHQ_english.egg \
-	  tt_m_ara_gen_foreSign_english.egg \
-	  tt_m_ara_gen_jellybeanJamSign_english.egg \
-	  tt_m_ara_gen_sillyMeterSign_english.egg \
-	  tt_m_ara_gen_stormSellbotSign_english.egg \
-	  tt_m_ara_gen_trickOrTreatSign_english.egg \
-	  tt_m_ara_gen_tunnelAheadSign_english.egg \
-	  tt_m_ara_gen_victoryPartySign_english.egg \
-	  tt_m_ara_gen_victorySoonSign_english.egg 
-	//  tt_m_ara_ttc_sillyMeterSign_groupA_english.egg \
-	//  tt_m_ara_ttc_sillyMeterSign_groupB_english.egg
+      neighborhood_sign_sellBotHQ_english.egg 
+	  //tt_m_ara_gen_foreSign_english.egg \
+	  //tt_m_ara_gen_jellybeanJamSign_english.egg \
+	  //tt_m_ara_gen_sillyMeterSign_english.egg \
+	  //tt_m_ara_gen_stormSellbotSign_english.egg \
+	  //tt_m_ara_gen_trickOrTreatSign_english.egg \
+	  //tt_m_ara_gen_tunnelAheadSign_english.egg \
+	  //tt_m_ara_gen_victoryPartySign_english.egg \
+	  //tt_m_ara_gen_victorySoonSign_english.egg \
+	  //tt_m_ara_ttc_sillyMeterSign_groupA_english.egg \
+      //tt_m_ara_ttc_sillyMeterSign_groupB_english.egg
   #endif
   #define PHASE 4
 #end install_egg
@@ -252,13 +252,13 @@
     DL_weathervane.egg DL_flats.egg signs_DL.egg zzz_treasure.egg \
     tt_m_ara_ddl_streetlight_halloween.egg \
     tt_m_ara_ddl_tree_halloween.egg \
-	  tt_m_ara_ddl_foreSign_english.egg \
-	  tt_m_ara_ddl_jellybeanJamSign_english.egg \
-	  tt_m_ara_ddl_sillyMeterSign_english.egg \
-	  tt_m_ara_ddl_stormSellbotSign_english.egg \
-	  tt_m_ara_ddl_trickOrTreatSign_english.egg \
-	  tt_m_ara_ddl_victoryPartySign_english.egg \
-	  tt_m_ara_ddl_victorySoonSign_english.egg 
+	//tt_m_ara_ddl_foreSign_english.egg \
+	//tt_m_ara_ddl_jellybeanJamSign_english.egg \
+	//tt_m_ara_ddl_sillyMeterSign_english.egg \
+	//tt_m_ara_ddl_stormSellbotSign_english.egg \
+	//tt_m_ara_ddl_trickOrTreatSign_english.egg \
+	//tt_m_ara_ddl_victoryPartySign_english.egg \
+	//tt_m_ara_ddl_victorySoonSign_english.egg 
 
   #if $[LANGUAGE]
     #define SOURCES $[SOURCES] \

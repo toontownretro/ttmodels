@@ -16,7 +16,7 @@
 	field_office_sign.egg \
 	tt_m_ara_cbe_fieldOfficeMoverShaker.egg \
 	tt_m_ara_cbe_walls.egg \
-	tt_m_ara_cbr_barrelRoom.egg \
+	//tt_m_ara_cbr_barrelRoom.egg \
 	tt_m_ara_cbr_laughBarrel.egg \
 	tt_m_ara_ccg_rooftop.egg \
 	tt_m_ara_ccg_safesA.egg \
@@ -38,12 +38,12 @@
 	tt_m_ara_crg_goldTrophy.egg \
 	tt_m_ara_crg_paintingLegalEagle.egg \
 	tt_m_ara_crg_paintingMoverShaker.egg \
-	tt_m_ara_crg_penthouse.egg \
-	tt_m_ara_crg_penthouse_legal.egg \
+	//tt_m_ara_crg_penthouse.egg \
+	//tt_m_ara_crg_penthouse_legal.egg \
 	tt_m_ara_crg_silverTrophy.egg \ 
 	tt_m_ara_crg_toonCage.egg \
-	tt_m_ara_csa_elevatorB.egg \
-	tt_m_ara_csa_exitDoor.egg \
+	//tt_m_ara_csa_elevatorB.egg \
+	//tt_m_ara_csa_exitDoor.egg \
 	tt_m_ara_csa_memo.egg \
 	tt_m_ara_csa_joke.egg \
 	tt_m_gui_cmg_bossCog.egg \
