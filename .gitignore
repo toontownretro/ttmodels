@@ -15,3 +15,5 @@ stamp
 *.vcxproj
 *.mel
 *.swatch
+*.swatches
+*.txo
