@@ -1,0 +1,65 @@
+<Comment> {
+  "egg-texture-cards ../maps/tt_t_ara_cfg_propellerPack_flash.tif ../maps/tt_t_ara_cfg_propellerPack_eagleTarget.tif ../maps/tt_t_ara_cfg_propellerPack_eagleAttack.tif ../maps/tt_t_ara_cfg_propellerPack.tif -o tt_m_ara_cfg_propellerPack_card.egg"
+}
+<Texture> tt_t_ara_cfg_propellerPack_flash {
+  "../maps/tt_t_ara_cfg_propellerPack_flash.tif"
+}
+<Texture> tt_t_ara_cfg_propellerPack_eagleTarget {
+  "../maps/tt_t_ara_cfg_propellerPack_eagleTarget.tif"
+}
+<Texture> tt_t_ara_cfg_propellerPack_eagleAttack {
+  "../maps/tt_t_ara_cfg_propellerPack_eagleAttack.tif"
+}
+<Texture> tt_t_ara_cfg_propellerPack {
+  "../maps/tt_t_ara_cfg_propellerPack.tif"
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> tt_t_ara_cfg_propellerPack_flash {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ara_cfg_propellerPack_flash }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_ara_cfg_propellerPack_eagleTarget {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ara_cfg_propellerPack_eagleTarget }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_ara_cfg_propellerPack_eagleAttack {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ara_cfg_propellerPack_eagleAttack }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_ara_cfg_propellerPack {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ara_cfg_propellerPack }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}
