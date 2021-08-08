@@ -35,7 +35,7 @@
 	//tt_m_ara_cmg_quadrant9.egg \
 	tt_m_ara_cmg_splash.egg \
 	tt_m_ara_cmg_waterBalloon.egg \
-	tt_m_ara_crg_goldTrophy.egg \
+	//tt_m_ara_crg_goldTrophy.egg \
 	tt_m_ara_crg_paintingLegalEagle.egg \
 	tt_m_ara_crg_paintingMoverShaker.egg \
 	//tt_m_ara_crg_penthouse.egg \
