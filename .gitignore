@@ -2,6 +2,7 @@
 # ppremake system.
 Makefile
 /built/
+built/
 *.bam
 # *.egg
 *.pt
