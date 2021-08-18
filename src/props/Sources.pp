@@ -1,6 +1,10 @@
 #define DIR_TYPE models
 #define INSTALL_TO models/props
 
+// Some props need all of their translates preserved.
+// flt files will always preserve the translates if it can.
+#define MAYA2EGG_OPTS -uo ft -trans all -tbnall -nv 60
+
 #begin flt_egg
   #define SOURCES $[wildcard *.flt]
 #end flt_egg
