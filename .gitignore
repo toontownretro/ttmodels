@@ -13,6 +13,7 @@ stamp
 **/optchar
 **/topstrip
 **/txocache.dat
+**/images
 *.vcxproj
 *.mel
 *.swatch
