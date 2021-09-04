@@ -67,4 +67,4 @@
 #define FLT2EGG_OPTS -tbnall -nv 60
 #define LWO2EGG_OPTS -tbnall -nv 60
 #define SOFT2EGG_OPTS -tbnall -nv 60
-#define EGG2BAM_OPTS -txo -ctex -txocache $[TOPDIR]/src/maps/txocache.dat
+#define EGG2BAM_OPTS -txo -txopz
