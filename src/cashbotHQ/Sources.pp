@@ -117,7 +117,7 @@
 	goldbar.egg
   #elif $[eq $[LANGUAGE], portuguese]
     #define SOURCES $[SOURCES] \
-	CBWoodCrate_portuguese.egg 
+	CBWoodCrate_portuguese.egg \
 	boiler_A1.egg \
 	CBMetalCrate.egg \
 	crates_A.egg \
@@ -140,7 +140,7 @@
 	goldbar.egg 
   #else
     #define SOURCES $[SOURCES] \
-	CBWoodCrate.egg 
+	CBWoodCrate.egg \
 	boiler_A1.egg \
 	CBMetalCrate.egg \
 	crates_A.egg \
