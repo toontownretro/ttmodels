@@ -10,14 +10,14 @@
 
 // The animations get split up into three phases
 #define phase_3_dog_anims \
-    neutral run 
+    neutral run
 #define phase_3.5_dog_anims \
     walk teleport book jump jump-z press-button pie-throw victory-dance conked leap_zhang \
     sidestep-left cringe running-jump jump-back-right duck wave angry shrug \
     tutorial-neutral left-point right-point-start right-point \
     give-props-start give-props right-hand-start \
     right-hand jump-zhang leap_z leap_zstart leap_zend leap_zhanglong \
-    jump-zstart jump-zend 
+    jump-zstart jump-zend
 #define phase_4_dog_anims \
     swim tug-o-war sad-neutral losewalk bored taunt \
     up down left right fish periscope slip-forward slip-backward  \
@@ -36,7 +36,7 @@
 #define phase_6_dog_anims \
     headdown-putt into-putt loop-putt rotateL-putt rotateR-putt swing-putt look-putt lookloop-putt bad-putt badloop-putt good-putt
 #define phase_9_dog_anims \
-    push block 
+    push block
 #define phase_10_dog_anims \
     leverReach leverPull leverNeutral
 #define dog_anims \
@@ -388,7 +388,7 @@
      -flag 'TheHandL'=hands \
      -flag 'TheHandR'=hands
 #end optchar_egg
-  
+
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
@@ -435,7 +435,7 @@
     $[matrix dogMM_Shorts-,head torso,-,$[filter $[nc_anims],$[phase_3.5_dog_anims_male]],.egg] \
     $[matrix dogMM_Skirt-,head torso,-,$[filter $[nc_anims],$[phase_3.5_dog_anims_female]],.egg] \
     $[matrix dogMM_Shorts-legs-,$[filter $[nc_anims],$[phase_3.5_dog_anims]],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 3.5
 #end install_egg
 
@@ -466,7 +466,7 @@
     $[matrix dogMM_Shorts-,head torso,-,$[filter $[nc_anims],$[phase_5_dog_anims_male]],.egg] \
     $[matrix dogMM_Skirt-,head torso,-,$[filter $[nc_anims],$[phase_5_dog_anims_female]],.egg] \
     $[matrix dogMM_Shorts-legs-,$[filter $[nc_anims],$[phase_5_dog_anims]],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 5
 #end install_egg
 

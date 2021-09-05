@@ -179,7 +179,7 @@
   #define PHASE 6
   // Channel compression really seems to break the classic chars.
   // Turn it off.
-  #define EGG2BAM_OPTS -NC $[EGG2BAM_OPTS]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
 #end install_egg
 
 

@@ -36,7 +36,7 @@
 	-p def_l_thumb1,def_l_wrist \
 	-p def_l_thumb2,def_l_thumb1 \
 	-p def_neck,def_armBase \
-	-p def_head,def_neck \	
+	-p def_head,def_neck \
 	-p def_r_shoulder,def_armBase \
 	-p def_r_elbow,def_r_shoulder \
 	-p def_r_wrist,def_r_elbow \
@@ -50,11 +50,11 @@
 	-p def_l_hip,def_hips \
 	-p def_l_knee,def_l_hip \
 	-p def_l_ankle,def_l_knee \
-	-p def_l_ball,def_l_ankle \	
+	-p def_l_ball,def_l_ankle \
 	-p def_r_hip,def_hips \
 	-p def_r_knee,def_r_hip \
 	-p def_r_ankle,def_r_knee \
-	-p def_r_ball,def_r_ankle 
+	-p def_r_ball,def_r_ankle
 #end optchar_egg
 
 
@@ -68,7 +68,7 @@
   #define PHASE 6
   // Channel compression really seems to break the classic chars.
   // Turn it off.
-  #define EGG2BAM_OPTS -NC $[EGG2BAM_OPTS]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
 #end install_egg
 
 

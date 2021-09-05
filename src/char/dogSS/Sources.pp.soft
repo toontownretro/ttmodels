@@ -10,7 +10,7 @@
 // for the different characters.
 // The animations get split up into three phases
 #define phase_3_dog_anims \
-    neutral run 
+    neutral run
 #define phase_3.5_dog_anims \
     walk teleport book jump jump-z victory-dance pie-throw press-button conked \
     sidestep-left cringe running-jump jump-back-right duck wave angry shrug \
@@ -34,7 +34,7 @@
 #define phase_6_dog_anims \
     headdown-putt into-putt loop-putt rotateL-putt rotateR-putt swing-putt look-putt lookloop-putt bad-putt badloop-putt good-putt
 #define phase_9_dog_anims \
-    push block 
+    push block
 #define phase_10_dog_anims \
     leverReach leverPull leverNeutral
 #define dog_anims \
@@ -103,12 +103,12 @@
   $[filter-out $[male_only],$[phase_6_dog_anims]]
 
 #define phase_9_dog_anims_male \
-  $[filter-out $[female_only],$[phase_9_dog_anims]] 
+  $[filter-out $[female_only],$[phase_9_dog_anims]]
 #define phase_9_dog_anims_female \
   $[filter-out $[male_only],$[phase_9_dog_anims]]
 
 #define phase_10_dog_anims_male \
-  $[filter-out $[female_only],$[phase_10_dog_anims]] 
+  $[filter-out $[female_only],$[phase_10_dog_anims]]
 #define phase_10_dog_anims_female \
   $[filter-out $[male_only],$[phase_10_dog_anims]]
 
@@ -435,7 +435,7 @@
     $[matrix dogSS_Shorts-,head torso,-,$[filter $[nc_anims],$[phase_5_dog_anims_male]],.egg] \
     $[matrix dogSS_Skirt-torso-,$[filter $[nc_anims],$[phase_5_dog_anims_female]],.egg] \
     $[matrix dogSS_Shorts-legs-,$[filter $[nc_anims],$[phase_5_dog_anims]],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 5
 #end install_egg
 

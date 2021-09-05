@@ -2,14 +2,14 @@
 #define INSTALL_TO models/golf
 
 #begin copy_egg
-  #define SOURCES hole1.mb hole2.mb hole3.mb hole4.mb hole5.mb hole6.mb hole7.mb hole8.mb hole9.mb hole10.mb hole11.mb hole12.mb hole13.mb hole14.mb hole15.mb hole16.mb hole17.mb hole18.mb windmillTest.mb 
-  #define TARGETS hole1_camera.mb hole2_camera.mb hole3_camera.mb hole4_camera.mb hole5_camera.mb hole6_camera.mb hole7_camera.mb hole8_camera.mb hole9_camera.mb hole10_camera.mb hole11_camera.mb hole12_camera.mb hole13_camera.mb hole14_camera.mb hole15_camera.mb hole16_camera.mb hole17_camera.mb hole18_camera.mb windmillTest_camera.mb 
+  #define SOURCES hole1.mb hole2.mb hole3.mb hole4.mb hole5.mb hole6.mb hole7.mb hole8.mb hole9.mb hole10.mb hole11.mb hole12.mb hole13.mb hole14.mb hole15.mb hole16.mb hole17.mb hole18.mb windmillTest.mb
+  #define TARGETS hole1_camera.mb hole2_camera.mb hole3_camera.mb hole4_camera.mb hole5_camera.mb hole6_camera.mb hole7_camera.mb hole8_camera.mb hole9_camera.mb hole10_camera.mb hole11_camera.mb hole12_camera.mb hole13_camera.mb hole14_camera.mb hole15_camera.mb hole16_camera.mb hole17_camera.mb hole18_camera.mb windmillTest_camera.mb
 #end copy_egg
 
 #define nc_anims \
   hole1_camera.mb hole2_camera.mb hole3_camera.mb hole4_camera.mb hole5_camera.mb hole6_camera.mb hole7_camera.mb hole8_camera.mb hole9_camera.mb hole10_camera.mb hole11_camera.mb hole12_camera.mb hole13_camera.mb hole14_camera.mb hole15_camera.mb hole16_camera.mb hole17_camera.mb hole18_camera.mb windmillTest_camera.mb golf_geyser.mb golf_waterfall.mb
 
-   
+
 #begin maya_egg
   #define SOURCES $[filter-out $[nc_anims],$[wildcard *.mb]]
 #end maya_egg
@@ -21,7 +21,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME hole1
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -39,7 +39,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME hole2
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -57,7 +57,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME hole3
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -75,7 +75,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME hole4
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -93,7 +93,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME hole5
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -112,7 +112,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME hole6
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -131,7 +131,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME hole7
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -149,7 +149,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME hole8
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -167,7 +167,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME hole9
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -185,7 +185,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME hole10
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -203,7 +203,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME hole11
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -221,7 +221,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME hole12
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -239,7 +239,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME hole13
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -258,7 +258,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME hole14
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -277,7 +277,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME hole15
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -295,7 +295,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME hole16
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -314,7 +314,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME hole17
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -332,7 +332,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME hole18
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -351,7 +351,7 @@
   #define MODEL camera
   #define ANIMS camera
   #define CHAR_NAME windmillTest
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset flyover
 #end maya_char_egg
 
 #begin optchar_egg
@@ -380,7 +380,7 @@
     golf_geyser.egg
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS] \
     -expose uvj_WakeWhiteTide1 \ // wave
-    -flag mesh_tide1 
+    -flag mesh_tide1
 #end optchar_egg
 
 // watefall character
@@ -401,7 +401,7 @@
     golf_waterfall.egg
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS] \
     -expose uvj_WakeWhiteTide1 \ // wave
-    -flag mesh_tide1 
+    -flag mesh_tide1
 #end optchar_egg
 
 // models
@@ -410,7 +410,7 @@
   #define SOURCES \
     chip_dale_enterance.egg \
     chip_dale_NoSign_enterance.egg \
-    golfTrophy.egg \ 
+    golfTrophy.egg \
     golf_ball.egg \
     golf_blocker.egg \
     golf_blocker.egg \
@@ -468,7 +468,7 @@
     regular_checker_piecewhite.egg \
     regularchecker_tutorial.egg \
     picnic_game_menu.egg \
-    findfour_game.egg 
+    findfour_game.egg
   #define PHASE 6
 #end install_egg
 
@@ -516,6 +516,6 @@
     optchar/windmillTest_camera.egg \
     optchar/golf_geyser.egg \
     optchar/golf_waterfall.egg
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 6
 #end install_egg

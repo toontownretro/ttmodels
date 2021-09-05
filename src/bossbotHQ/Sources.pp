@@ -15,7 +15,7 @@
 
 //for now we don't want every maya file
 //#begin install_egg
-//  #define SOURCES \ 
+//  #define SOURCES \
 //        $[fltfiles:%.flt=%.egg] $[mayafiles:%.mb=%.egg]
 //        #define PHASE 12
 //#end install_egg
@@ -73,8 +73,8 @@
     BossbotTeeOffRoom.egg \
     Connector_Tunnel_B.egg \
     BossbotFairwayRoom_A.egg \
-    BossbotGreenRoom_A.egg \ 
-    BossbotKartBoardingRm.egg \ 
+    BossbotGreenRoom_A.egg \
+    BossbotKartBoardingRm.egg \
     BanquetInterior_1.egg\
     BossbotMazex4_C.egg \
     BossbotMazex3_straight_C.egg \
@@ -114,10 +114,9 @@
 #end install_egg
 
 #begin install_egg
-  #define UNPAL_SOURCES \
-      optchar/food_belt1.egg \     
-      optchar/food_belt2.egg      
-  #define EGG2BAM_OPTS -NC
+  #define UNPAL_SOURCES_NC \
+      optchar/food_belt1.egg \
+      optchar/food_belt2.egg
   #define PHASE 12
 #end install_egg
 

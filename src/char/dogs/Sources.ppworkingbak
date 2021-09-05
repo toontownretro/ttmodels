@@ -366,7 +366,7 @@
     $[matrix tt_a_chr_dgs_,shorts,_torso_ _head_ _legs_,$[filter $[nc_anims],$[phase_5_dog_anims]],.egg] \
     $[matrix tt_a_chr_dgs_,skirt,_torso_,$[filter $[nc_anims],$[phase_5_dog_anims_female]],.egg] \
     $[matrix tt_a_chr_dgs_,shorts,_legs_,$[filter $[nc_anims],$[phase_5_dog_anims]],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 5
 #end install_egg
 

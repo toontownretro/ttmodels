@@ -264,7 +264,7 @@
         optchar/tt_m_ara_pty_bannerJellybean.egg \
         optchar/tt_m_ara_pty_bannerValentine.egg \
         optchar/tt_m_ara_pty_heartWing.egg
-    #define EGG2BAM_OPTS -NC
+    #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
     #define PHASE 13
 #end install_egg
 

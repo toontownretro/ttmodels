@@ -455,7 +455,7 @@
     $[matrix dogLL_Shorts-,head torso legs,-,$[phase_3_dog_anims_male],.egg] \
     $[matrix dogLL_Skirt-torso-,$[phase_3_dog_anims_female],.egg] \
     $[matrix dogLL_Naked-torso-,$[dog_anims_naked],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 3
 #end install_egg
 
@@ -466,7 +466,7 @@
     $[matrix dogLL_Shorts-,head torso,-,$[phase_3.5_dog_anims_male],.egg] \
     $[matrix dogLL_Skirt-torso-,$[phase_3.5_dog_anims_female],.egg] \
     $[matrix dogLL_Shorts-legs-,$[phase_3.5_dog_anims],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 3.5
 #end install_egg
 
@@ -477,7 +477,7 @@
     $[matrix dogLL_Shorts-,head torso,-,$[phase_4_dog_anims_male],.egg] \
     $[matrix dogLL_Skirt-torso-,$[phase_4_dog_anims_female],.egg] \
     $[matrix dogLL_Shorts-legs-,$[phase_4_dog_anims],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 4
 #end install_egg
 
@@ -488,7 +488,7 @@
     $[matrix dogLL_Shorts-,head torso,-,$[filter-out $[nc_anims],$[phase_5_dog_anims_male]],.egg] \
     $[matrix dogLL_Skirt-torso-,$[filter-out $[nc_anims],$[phase_5_dog_anims_female]],.egg] \
     $[matrix dogLL_Shorts-legs-,$[filter-out $[nc_anims],$[phase_5_dog_anims]],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 5
 #end install_egg
 
@@ -499,7 +499,7 @@
     $[matrix dogLL_Shorts-,head torso,-,$[filter $[nc_anims],$[phase_5_dog_anims_male]],.egg] \
     $[matrix dogLL_Skirt-torso-,$[filter $[nc_anims],$[phase_5_dog_anims_female]],.egg] \
     $[matrix dogLL_Shorts-legs-,$[filter $[nc_anims],$[phase_5_dog_anims]],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 5
 #end install_egg
 
@@ -510,7 +510,7 @@
     $[matrix dogLL_Shorts-,head torso,-,$[phase_5.5_dog_anims_male],.egg] \
     $[matrix dogLL_Skirt-torso-,$[phase_5.5_dog_anims_female],.egg] \
     $[matrix dogLL_Shorts-legs-,$[phase_5.5_dog_anims],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 5.5
 #end install_egg
 
@@ -521,7 +521,7 @@
     $[matrix dogLL_Shorts-,head torso,-,$[phase_6_dog_anims_male],.egg] \
     $[matrix dogLL_Skirt-torso-,$[phase_6_dog_anims_female],.egg] \
     $[matrix dogLL_Shorts-legs-,$[phase_6_dog_anims],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 6
 #end install_egg
 
@@ -532,7 +532,7 @@
     $[matrix dogLL_Shorts-,head torso,-,$[phase_9_dog_anims_male],.egg] \
     $[matrix dogLL_Skirt-torso-,$[phase_9_dog_anims_female],.egg] \
     $[matrix dogLL_Shorts-legs-,$[phase_9_dog_anims],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 9
 #end install_egg
 
@@ -543,6 +543,6 @@
     $[matrix dogLL_Shorts-,head torso,-,$[phase_10_dog_anims_male],.egg] \
     $[matrix dogLL_Skirt-torso-,$[phase_10_dog_anims_female],.egg] \
     $[matrix dogLL_Shorts-legs-,$[phase_10_dog_anims],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 10
 #end install_egg

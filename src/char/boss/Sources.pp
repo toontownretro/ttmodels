@@ -35,7 +35,7 @@
 #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -TS 0.12
 // Can't use client/server maya2egg here because there is some bug or incompatibility w/
 // opening and closing these .mb's on modern Maya.
-#define MAYA2EGG maya2egg
+//#define MAYA2EGG maya2egg
 
 #begin maya_egg
   // These files aren't animated, but they're associated with the boss

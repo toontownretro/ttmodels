@@ -128,7 +128,7 @@
   #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogLLshorts:lm_hand_left_zero -subset dogLLshorts:lm_hand_right_zero -subset dogLLshorts:lm_neck_zero \
                                             -subset dogLLshorts:lm_arm_left_zero -subset dogLLshorts:lm_arm_right_zero -subset dogLLshorts:lm_shirt_uv_zero \
                                             -subset dogLLshorts:lm_sleeve_left_zero -subset dogLLshorts:lm_sleeve_right_zero \
-                                            -subset dogLLshorts:lm_shorts_large_uv_zero -subset dogLLshorts:lm_shorts_inside_zero \ 
+                                            -subset dogLLshorts:lm_shorts_large_uv_zero -subset dogLLshorts:lm_shorts_inside_zero \
                                             -subroot dogLLshorts:Skeleton
 #end maya_char_egg
 
@@ -141,7 +141,7 @@
   #define ANIMS $[dog_anims_male]
   #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogLLshorts:lm_ear_long_left_zero -subset dogLLshorts:lm_ear_long_right_zero -subset dogLLshorts:lm_eyes_zero\
                                         -subset dogLLshorts:lm_head_long_zero -subset dogLLshorts:lm_muzzle_big_zero -subset dogLLshorts:lm_nose_small_zero \
-                                        -subset dogLLshorts:lm_pupil_left_zero -subset dogLLshorts:lm_pupil_right_zero -subset dogLLshorts:lm_head_front_long_zero \ 
+                                        -subset dogLLshorts:lm_pupil_left_zero -subset dogLLshorts:lm_pupil_right_zero -subset dogLLshorts:lm_head_front_long_zero \
                                         -subroot dogLLshorts:Skeleton
 #end maya_char_egg
 
@@ -152,7 +152,7 @@
   #define POLY_MODEL 1000
   #define CHAR_NAME dog-legs-l
   #define ANIMS $[dog_anims_male]
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogLLshorts:lm_foot_left_zero -subset dogLLshorts:lm_foot_right_zero -subset dogLLshorts:lm_leg_left_zero -subset dogLLshorts:lm_leg_right_zero \ 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogLLshorts:lm_foot_left_zero -subset dogLLshorts:lm_foot_right_zero -subset dogLLshorts:lm_leg_left_zero -subset dogLLshorts:lm_leg_right_zero \
                                                                         -subroot dogLLshorts:Skeleton
 #end maya_char_egg
 
@@ -162,7 +162,7 @@
   #define EGG_PREFIX tt_a_chr_dgl_shorts_legs_
   #define ANIMS $[filter $[female_only],$[dog_anims]]
   #define CHAR_NAME dog-legs-l
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogLLskirt:lf_TheFootL -subset dogLLskirt:lf_TheFootR -subset dogLLskirt:lf_TheLegL -subset dogLLskirt:lf_TheLegR \ 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogLLskirt:lf_TheFootL -subset dogLLskirt:lf_TheFootR -subset dogLLskirt:lf_TheLegL -subset dogLLskirt:lf_TheLegR \
                                          -subroot dogLLskirt:Skeleton
 #end maya_char_egg
 
@@ -176,7 +176,7 @@
   #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogLLskirt:lf_hand_left_zero -subset dogLLskirt:lf_hand_right_zero -subset dogLLskirt:lf_neck_zero \
                                             -subset dogLLskirt:lf_arm_left_zero -subset dogLLskirt:lf_arm_right_zero -subset dogLLskirt:lf_blouse_uv_zero \
                                             -subset dogLLskirt:lf_sleeve_left_zero -subset dogLLskirt:lf_sleeve_right_zero \
-                                            -subset dogLLskirt:lf_skirt_large_uv_zero -subset dogLLskirt:lf_skirt_cap_zero \ 
+                                            -subset dogLLskirt:lf_skirt_large_uv_zero -subset dogLLskirt:lf_skirt_cap_zero \
                                             -subroot dogLLskirt:Skeleton
 #end maya_char_egg
 
@@ -190,7 +190,7 @@
   #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogLLshorts500:lm_hand_left_500 -subset dogLLshorts500:lm_hand_right_500 -subset dogLLshorts500:lm_neck_500 \
                                             -subset dogLLshorts500:lm_arm_left_500 -subset dogLLshorts500:lm_arm_right_500 -subset dogLLshorts500:lm_shirt_500 \
                                             -subset dogLLshorts500:lm_sleeve_left_500 -subset dogLLshorts500:lm_sleeve_right_500 \
-                                            -subset dogLLshorts500:lm_shorts_500 -subset dogLLshorts500:lm_shorts_inside_500 \ 
+                                            -subset dogLLshorts500:lm_shorts_500 -subset dogLLshorts500:lm_shorts_inside_500 \
                                             -subroot dogLLshorts500:Skeleton
 #end maya_char_egg
 
@@ -202,7 +202,7 @@
   #define CHAR_NAME dog-head-ll
   #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogLLshorts500:lm_ear_long_left_500 -subset dogLLshorts500:lm_ear_long_right_500 -subset dogLLshorts500:lm_eyes_500 \
                                         -subset dogLLshorts500:lm_head_long_500 -subset dogLLshorts500:lm_muzzle_long_500 -subset dogLLshorts500:lm_nose_long_500 \
-                                        -subset dogLLshorts500:lm_pupil_left_500 -subset dogLLshorts500:lm_pupil_right_500 -subset dogLLshorts500:lm_head_front_long_500 \ 
+                                        -subset dogLLshorts500:lm_pupil_left_500 -subset dogLLshorts500:lm_pupil_right_500 -subset dogLLshorts500:lm_head_front_long_500 \
                                         -subroot dogLLshorts500:Skeleton
 #end maya_char_egg
 
@@ -212,7 +212,7 @@
   #define MODEL default
   #define POLY_MODEL 500
   #define CHAR_NAME dog-legs-l
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogLLshorts500:lm_foot_left_500 -subset dogLLshorts500:lm_foot_right_500 -subset dogLLshorts500:lm_leg_left_500 -subset dogLLshorts500:lm_leg_right_500 \ 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogLLshorts500:lm_foot_left_500 -subset dogLLshorts500:lm_foot_right_500 -subset dogLLshorts500:lm_leg_left_500 -subset dogLLshorts500:lm_leg_right_500 \
                                             -subroot dogLLshorts500:Skeleton
 #end maya_char_egg
 
@@ -226,7 +226,7 @@
   #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogLLskirt500:lf_hand_left_500 -subset dogLLskirt500:lf_hand_right_500 -subset dogLLskirt500:lf_neck_500 \
                                             -subset dogLLskirt500:lf_arm_left_500 -subset dogLLskirt500:lf_arm_right_500 -subset dogLLskirt500:lf_blouse_500 \
                                             -subset dogLLskirt500:lf_sleeve_left_500 -subset dogLLskirt500:lf_sleeve_right_500 \
-                                            -subset dogLLskirt500:lf_skirt_500 -subset dogLLskirt500:lf_skirt_cap_500 \ 
+                                            -subset dogLLskirt500:lf_skirt_500 -subset dogLLskirt500:lf_skirt_cap_500 \
                                             -subroot dogLLskirt500:Skeleton
 #end maya_char_egg
 
@@ -240,7 +240,7 @@
   #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogLLshorts200:lm_hand_left_200 -subset dogLLshorts200:lm_hand_right_200 -subset dogLLshorts200:lm_neck_200 \
                                             -subset dogLLshorts200:lm_arm_right_200 -subset dogLLshorts200:lm_arm_left_200 -subset dogLLshorts200:lm_shirt_200 \
                                             -subset dogLLshorts200:lm_sleeve_left_200 -subset dogLLshorts200:lm_sleeve_right_200 \
-                                            -subset dogLLshorts200:lm_shorts_200 -subset dogLLshorts200:lm_shorts_cap_200 \ 
+                                            -subset dogLLshorts200:lm_shorts_200 -subset dogLLshorts200:lm_shorts_cap_200 \
                                             -subroot dogLLshorts200:Skeleton
 #end maya_char_egg
 
@@ -252,7 +252,7 @@
   #define CHAR_NAME dog-head-ll
   #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogLLshorts200:lm_ear_left_200 -subset dogLLshorts200:lm_ear_right_200 -subset dogLLshorts200:lm_eyes_200 \
                                         -subset dogLLshorts200:lm_head_long_200 -subset dogLLshorts200:lm_muzzle_big_200 -subset dogLLshorts200:lm_nose_long_200 \
-                                        -subset dogLLshorts200:lm_pupil_left_200 -subset dogLLshorts200:lm_pupil_right_200 \ 
+                                        -subset dogLLshorts200:lm_pupil_left_200 -subset dogLLshorts200:lm_pupil_right_200 \
                                         -subroot dogLLshorts200:Skeleton
 #end maya_char_egg
 
@@ -262,7 +262,7 @@
   #define MODEL default
   #define POLY_MODEL 250
   #define CHAR_NAME dog-legs-l
-  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogLLshorts200:lm_foot_left_200 -subset dogLLshorts200:lm_foot_right_200 -subset dogLLshorts200:lm_leg_left_200 -subset dogLLshorts200:lm_leg_right_200 \ 
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogLLshorts200:lm_foot_left_200 -subset dogLLshorts200:lm_foot_right_200 -subset dogLLshorts200:lm_leg_left_200 -subset dogLLshorts200:lm_leg_right_200 \
                                             -subroot dogLLshorts200:Skeleton
 #end maya_char_egg
 
@@ -276,7 +276,7 @@
   #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogLLskirt200:lf_hand_left_200 -subset dogLLskirt200:lf_hand_right_200 -subset dogLLskirt200:lf_neck_200 \
                                             -subset dogLLskirt200:lf_arm_left_200 -subset dogLLskirt200:lf_arm_right_200 -subset dogLLskirt200:lf_blouse_200 \
                                             -subset dogLLskirt200:lf_sleeve_left_200 -subset dogLLskirt200:lf_sleeve_right_200 \
-                                            -subset dogLLskirt200:lf_skirt_uv_200 -subset dogLLskirt200:lf_skirt_cap_200 \ 
+                                            -subset dogLLskirt200:lf_skirt_uv_200 -subset dogLLskirt200:lf_skirt_cap_200 \
                                             -subroot dogLLskirt200:Skeleton
 #end maya_char_egg
 
@@ -317,11 +317,11 @@
   #define TARGET_DIR optchar
   #define SOURCES \
     $[matrix topstrip/tt_a_chr_dgl_,shorts,_head_,1000 500 250 $[dog_anims_male],.egg]
-  #define OPTCHAR_OPTS \  
-     -rename LLDog_shorts_500,LLDog_shorts \     
-     -rename LLDog_shorts_200,LLDog_shorts \       
-     -rename LLDog_skirt_500,LLDog_skirt \       
-     -rename LLDog_skirt_200,LLDog_skirt \ 
+  #define OPTCHAR_OPTS \
+     -rename LLDog_shorts_500,LLDog_shorts \
+     -rename LLDog_shorts_200,LLDog_shorts \
+     -rename LLDog_skirt_500,LLDog_skirt \
+     -rename LLDog_skirt_200,LLDog_skirt \
      -expose def_head,def_right_pupil,def_left_pupil \
      $[dog_head_transform] \
      -p def_head,root \
@@ -337,11 +337,11 @@
      -p def_left_earD,def_left_earC \
      -p TheNeck,def_neck \
      -flag *eyes*=eyes \
-     -flag *head_small*=head \     
-     -flag *head_long*=head \     
+     -flag *head_small*=head \
+     -flag *head_long*=head \
      -flag *head_big*=head  \
      -flag *head_front*=head-front \
-     -flag *ear*=ears \ 
+     -flag *ear*=ears \
      -flag *muzzle*=muzzle \
      -flag *nose*=nose
 #end optchar_egg
@@ -351,11 +351,11 @@
   #define SOURCES \
     $[matrix topstrip/tt_a_chr_dgl_,shorts,_torso_,1000 500 250 $[dog_anims_male],.egg] \
     $[matrix topstrip/tt_a_chr_dgl_,skirt,_torso_,1000 500 250 $[dog_anims_female],.egg]
-  #define OPTCHAR_OPTS \  
-     -rename LLDog_shorts_500,LLDog_shorts \     
-     -rename LLDog_shorts_200,LLDog_shorts \       
-     -rename LLDog_skirt_500,LLDog_skirt \       
-     -rename LLDog_skirt_200,LLDog_skirt \ 
+  #define OPTCHAR_OPTS \
+     -rename LLDog_shorts_500,LLDog_shorts \
+     -rename LLDog_shorts_200,LLDog_shorts \
+     -rename LLDog_skirt_500,LLDog_skirt \
+     -rename LLDog_skirt_200,LLDog_skirt \
      -TR 0,180,0 -TS 0.25 \
      -expose def_head,def_joint_right_hold,def_joint_left_hold,def_joint_attachFlower \
      -zero def_joint_right_hold,ijk \
@@ -391,22 +391,22 @@
      -p def_right_pant_bottom,root \
      -p def_right_sleeve_short,def_right_shoulder \
      -p def_left_sleeve_short,def_left_shoulder \
-     -flag *skirt_cap*=torso-bot-cap \     
+     -flag *skirt_cap*=torso-bot-cap \
      -flag *skirt_inside*=torso-bot-cap \
-     -flag *shorts_inside*=torso-bot-cap \     
+     -flag *shorts_inside*=torso-bot-cap \
      -flag *shorts_cap*=torso-bot-cap \
-     -flag *skirt*uv*=torso-bot \     
-     -flag *skirt_500=torso-bot \     
+     -flag *skirt*uv*=torso-bot \
+     -flag *skirt_500=torso-bot \
      -flag *skirt_200=torso-bot \
-     -flag *shorts*uv*=torso-bot \     
-     -flag *shorts_500=torso-bot \     
+     -flag *shorts*uv*=torso-bot \
+     -flag *shorts_500=torso-bot \
      -flag *shorts_200=torso-bot \
      -flag *shirt*=torso-top \
      -flag *blouse*=torso-top \
      -flag *sleeve*=sleeves \
      -flag *arm*=arms \
      -flag *neck*=neck \
-     -flag *hand*=hands 
+     -flag *hand*=hands
 #end optchar_egg
 
 #begin optchar_egg
@@ -414,11 +414,11 @@
   #define SOURCES \
     $[matrix PFS/tt_a_chr_dgl_,shorts,_legs_,1000 500 250,.egg] \
     $[matrix PFS/tt_a_chr_dgl_,shorts,_legs_,$[dog_anims],.egg]
-  #define OPTCHAR_OPTS \  
-     -rename LLDog_shorts_500,LLDog_shorts \     
-     -rename LLDog_shorts_200,LLDog_shorts \       
-     -rename LLDog_skirt_500,LLDog_skirt \       
-     -rename LLDog_skirt_200,LLDog_skirt \ 
+  #define OPTCHAR_OPTS \
+     -rename LLDog_shorts_500,LLDog_shorts \
+     -rename LLDog_shorts_200,LLDog_shorts \
+     -rename LLDog_skirt_500,LLDog_skirt \
+     -rename LLDog_skirt_200,LLDog_skirt \
      -TR 0,180,0 -TS 0.25 \
      -expose joint_hips,joint_shadow,joint_nameTag \
      -flag *leg*=legs \
@@ -431,32 +431,29 @@
   #define SOURCES \
     $[matrix  tt_a_chr_dgl_,shorts,_torso_ _head_ _legs_,1000 500 250,.egg] \
     $[matrix  tt_a_chr_dgl_,skirt,_torso_,1000 500 250,.egg]
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix  tt_a_chr_dgl_,shorts,_torso_ _head_ _legs_,$[phase_3_dog_anims_male] ,.egg] \
     $[matrix  tt_a_chr_dgl_,skirt,_torso_,$[phase_3_dog_anims_female] ,.egg]
-  #define EGG2BAM_OPTS -NC
   #define PHASE 3
 #end install_egg
 
 // Phase 3.5
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix tt_a_chr_dgl_,shorts,_torso_ _head_,$[phase_3.5_dog_anims_male],.egg] \
     $[matrix tt_a_chr_dgl_,skirt,_torso_,$[phase_3.5_dog_anims_female],.egg] \
     $[matrix tt_a_chr_dgl_,shorts,_legs_,$[phase_3.5_dog_anims],.egg]
-  #define EGG2BAM_OPTS -NC
   #define PHASE 3.5
 #end install_egg
 
 // Phase 4
 #begin install_egg
   #define SOURCE_DIR optchar
-  #define UNPAL_SOURCES \
+  #define UNPAL_SOURCES_NC \
     $[matrix tt_a_chr_dgl_,shorts,_torso_ _head_,$[phase_4_dog_anims_male],.egg] \
     $[matrix tt_a_chr_dgl_,skirt,_torso_,$[phase_4_dog_anims_female],.egg] \
     $[matrix tt_a_chr_dgl_,shorts,_legs_,$[phase_4_dog_anims],.egg]
-  #define EGG2BAM_OPTS -NC
   #define PHASE 4
 #end install_egg
 
@@ -467,7 +464,7 @@
     $[matrix tt_a_chr_dgl_,shorts,_torso_ _head_,$[filter-out $[nc_anims],$[phase_5_dog_anims_male]],.egg] \
     $[matrix tt_a_chr_dgl_,skirt,_torso_,$[filter-out $[nc_anims],$[phase_5_dog_anims_female]],.egg] \
     $[matrix tt_a_chr_dgl_,shorts,_legs_,$[filter-out $[nc_anims],$[phase_5_dog_anims]],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 5
 #end install_egg
 
@@ -478,7 +475,7 @@
     $[matrix tt_a_chr_dgl_,shorts,_torso_ _head_,$[filter $[nc_anims],$[phase_5_dog_anims_male]],.egg] \
     $[matrix tt_a_chr_dgl_,skirt,_torso_,$[filter $[nc_anims],$[phase_5_dog_anims_female]],.egg] \
     $[matrix tt_a_chr_dgl_,shorts,_legs_,$[filter $[nc_anims],$[phase_5_dog_anims]],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 5
 #end install_egg
 
@@ -489,7 +486,7 @@
     $[matrix tt_a_chr_dgl_,shorts,_torso_ _head_,$[phase_5.5_dog_anims_male],.egg] \
     $[matrix tt_a_chr_dgl_,skirt,_torso_,$[phase_5.5_dog_anims_female],.egg] \
     $[matrix tt_a_chr_dgl_,shorts,_legs_,$[phase_5.5_dog_anims],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 5.5
 #end install_egg
 
@@ -500,7 +497,7 @@
     $[matrix tt_a_chr_dgl_,shorts,_torso_ _head_,$[phase_6_dog_anims_male],.egg] \
     $[matrix tt_a_chr_dgl_,skirt,_torso_,$[phase_6_dog_anims_female],.egg] \
     $[matrix tt_a_chr_dgl_,shorts,_legs_,$[phase_6_dog_anims],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 6
 #end install_egg
 
@@ -511,7 +508,7 @@
     $[matrix tt_a_chr_dgl_,shorts,_torso_ _head_,$[phase_9_dog_anims_male],.egg] \
     $[matrix tt_a_chr_dgl_,skirt,_torso_,$[phase_9_dog_anims_female],.egg] \
     $[matrix tt_a_chr_dgl_,shorts,_legs_,$[phase_9_dog_anims],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 9
 #end install_egg
 
@@ -522,6 +519,6 @@
     $[matrix tt_a_chr_dgl_,shorts,_torso_ _head_,$[phase_10_dog_anims_male],.egg] \
     $[matrix tt_a_chr_dgl_,skirt,_torso_,$[phase_10_dog_anims_female],.egg] \
     $[matrix tt_a_chr_dgl_,shorts,_legs_,$[phase_10_dog_anims],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 10
 #end install_egg

@@ -124,6 +124,6 @@
   #define SOURCE_DIR optchar
   #define UNPAL_SOURCES \
      $[matrix tt_a_chr_csc_goofyCostume_, $[nc_anims],.egg]
-   #define EGG2BAM_OPTS -NC
+   #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 6
 #end install_egg

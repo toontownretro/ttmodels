@@ -16,7 +16,7 @@
 
 #define ttc_B2_anims \
 default dance
- 
+
 #begin maya_char_egg
     #define MAYA_PREFIX tt_a_ara_ttc_B2_
     #define EGG_PREFIX tt_a_ara_ttc_B2_
@@ -35,6 +35,6 @@ default dance
   #define SOURCE_DIR optchar
   #define SOURCES \
      tt_r_ara_ttc_B2.egg $[matrix tt_a_ara_ttc_B2_,$[ttc_B2_anims],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 5
 #end install_egg

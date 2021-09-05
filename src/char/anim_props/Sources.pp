@@ -31,16 +31,16 @@ idleIntoFight victoryDance
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES tt_r_ara_ttc_hydrant.egg $[matrix tt_a_ara_ttc_hydrant_,$[ttc_hydrant_anims],.egg] 
+  #define SOURCES tt_r_ara_ttc_hydrant.egg $[matrix tt_a_ara_ttc_hydrant_,$[ttc_hydrant_anims],.egg]
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS]\
-        -dart structured 
+        -dart structured
 #end optchar_egg
 
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-     tt_r_ara_ttc_hydrant.egg $[matrix tt_a_ara_ttc_hydrant_,$[ttc_hydrant_anims],.egg] 
-  #define EGG2BAM_OPTS -NC
+     tt_r_ara_ttc_hydrant.egg $[matrix tt_a_ara_ttc_hydrant_,$[ttc_hydrant_anims],.egg]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 5
 #end install_egg
 
@@ -80,16 +80,16 @@ idleTake2 victoryDance
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES tt_r_ara_ttc_mailbox.egg $[matrix tt_a_ara_ttc_mailbox_,$[ttc_mailbox_anims],.egg] 
+  #define SOURCES tt_r_ara_ttc_mailbox.egg $[matrix tt_a_ara_ttc_mailbox_,$[ttc_mailbox_anims],.egg]
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS]\
-        -dart structured 
+        -dart structured
 #end optchar_egg
 
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-     tt_r_ara_ttc_mailbox.egg $[matrix tt_a_ara_ttc_mailbox_,$[ttc_mailbox_anims],.egg] 
-  #define EGG2BAM_OPTS -NC
+     tt_r_ara_ttc_mailbox.egg $[matrix tt_a_ara_ttc_mailbox_,$[ttc_mailbox_anims],.egg]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 5
 #end install_egg
 
@@ -117,16 +117,16 @@ fightBoost
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES tt_r_prp_ext_piePackage.egg $[matrix tt_a_prp_ext_piePackage_,$[piepackage_anims],.egg] 
+  #define SOURCES tt_r_prp_ext_piePackage.egg $[matrix tt_a_prp_ext_piePackage_,$[piepackage_anims],.egg]
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS]\
-        -dart structured 
+        -dart structured
 #end optchar_egg
 
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-     tt_r_prp_ext_piePackage.egg $[matrix tt_a_prp_ext_piePackage_,$[piepackage_anims],.egg] 
-  #define EGG2BAM_OPTS -NC
+     tt_r_prp_ext_piePackage.egg $[matrix tt_a_prp_ext_piePackage_,$[piepackage_anims],.egg]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 5
 #end install_egg
 
@@ -156,16 +156,16 @@ idleTake2 victoryDance
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES tt_r_ara_ttc_trashcan.egg $[matrix tt_a_ara_ttc_trashcan_,$[ttc_trashcan_anims],.egg] 
+  #define SOURCES tt_r_ara_ttc_trashcan.egg $[matrix tt_a_ara_ttc_trashcan_,$[ttc_trashcan_anims],.egg]
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS]\
-        -dart structured 
+        -dart structured
 #end optchar_egg
 
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-     tt_r_ara_ttc_trashcan.egg $[matrix tt_a_ara_ttc_trashcan_,$[ttc_trashcan_anims],.egg] 
-  #define EGG2BAM_OPTS -NC
+     tt_r_ara_ttc_trashcan.egg $[matrix tt_a_ara_ttc_trashcan_,$[ttc_trashcan_anims],.egg]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 5
 #end install_egg
 
@@ -201,16 +201,16 @@ victoryDance
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES tt_r_ara_dod_mailbox.egg $[matrix tt_a_ara_dod_mailbox_,$[dod_mailbox_anims],.egg] 
+  #define SOURCES tt_r_ara_dod_mailbox.egg $[matrix tt_a_ara_dod_mailbox_,$[dod_mailbox_anims],.egg]
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS]\
-        -dart structured 
+        -dart structured
 #end optchar_egg
 
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-     tt_r_ara_dod_mailbox.egg $[matrix tt_a_ara_dod_mailbox_,$[dod_mailbox_anims],.egg] 
-  #define EGG2BAM_OPTS -NC
+     tt_r_ara_dod_mailbox.egg $[matrix tt_a_ara_dod_mailbox_,$[dod_mailbox_anims],.egg]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 6
 #end install_egg
 
@@ -241,16 +241,16 @@ victoryDance
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES tt_r_ara_dod_trashcan.egg $[matrix tt_a_ara_dod_trashcan_,$[dod_trashcan_anims],.egg] 
+  #define SOURCES tt_r_ara_dod_trashcan.egg $[matrix tt_a_ara_dod_trashcan_,$[dod_trashcan_anims],.egg]
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS]\
-        -dart structured 
+        -dart structured
 #end optchar_egg
 
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-     tt_r_ara_dod_trashcan.egg $[matrix tt_a_ara_dod_trashcan_,$[dod_trashcan_anims],.egg] 
-  #define EGG2BAM_OPTS -NC
+     tt_r_ara_dod_trashcan.egg $[matrix tt_a_ara_dod_trashcan_,$[dod_trashcan_anims],.egg]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 6
 #end install_egg
 
@@ -281,16 +281,16 @@ victoryDance
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES tt_r_ara_dga_hydrant.egg $[matrix tt_a_ara_dga_hydrant_,$[dga_hydrant_anims],.egg] 
+  #define SOURCES tt_r_ara_dga_hydrant.egg $[matrix tt_a_ara_dga_hydrant_,$[dga_hydrant_anims],.egg]
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS]\
-        -dart structured 
+        -dart structured
 #end optchar_egg
 
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-     tt_r_ara_dga_hydrant.egg $[matrix tt_a_ara_dga_hydrant_,$[dga_hydrant_anims],.egg] 
-  #define EGG2BAM_OPTS -NC
+     tt_r_ara_dga_hydrant.egg $[matrix tt_a_ara_dga_hydrant_,$[dga_hydrant_anims],.egg]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 8
 #end install_egg
 
@@ -320,16 +320,16 @@ idleTake1 victoryDance
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES tt_r_ara_dga_mailbox.egg $[matrix tt_a_ara_dga_mailbox_,$[dga_mailbox_anims],.egg] 
+  #define SOURCES tt_r_ara_dga_mailbox.egg $[matrix tt_a_ara_dga_mailbox_,$[dga_mailbox_anims],.egg]
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS]\
-        -dart structured 
+        -dart structured
 #end optchar_egg
 
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-     tt_r_ara_dga_mailbox.egg $[matrix tt_a_ara_dga_mailbox_,$[dga_mailbox_anims],.egg] 
-  #define EGG2BAM_OPTS -NC
+     tt_r_ara_dga_mailbox.egg $[matrix tt_a_ara_dga_mailbox_,$[dga_mailbox_anims],.egg]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 8
 #end install_egg
 
@@ -362,16 +362,16 @@ victoryDance
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES tt_r_ara_dga_trashcan.egg $[matrix tt_a_ara_dga_trashcan_,$[dga_trashcan_anims],.egg] 
+  #define SOURCES tt_r_ara_dga_trashcan.egg $[matrix tt_a_ara_dga_trashcan_,$[dga_trashcan_anims],.egg]
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS]\
-        -dart structured 
+        -dart structured
 #end optchar_egg
 
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-     tt_r_ara_dga_trashcan.egg $[matrix tt_a_ara_dga_trashcan_,$[dga_trashcan_anims],.egg] 
-  #define EGG2BAM_OPTS -NC
+     tt_r_ara_dga_trashcan.egg $[matrix tt_a_ara_dga_trashcan_,$[dga_trashcan_anims],.egg]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 8
 #end install_egg
 
@@ -401,16 +401,16 @@ idleIntoFight victoryDance
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES tt_r_ara_mml_hydrant.egg $[matrix tt_a_ara_mml_hydrant_,$[mml_hydrant_anims],.egg] 
+  #define SOURCES tt_r_ara_mml_hydrant.egg $[matrix tt_a_ara_mml_hydrant_,$[mml_hydrant_anims],.egg]
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS]\
-        -dart structured 
+        -dart structured
 #end optchar_egg
 
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-     tt_r_ara_mml_hydrant.egg $[matrix tt_a_ara_mml_hydrant_,$[mml_hydrant_anims],.egg] 
-  #define EGG2BAM_OPTS -NC
+     tt_r_ara_mml_hydrant.egg $[matrix tt_a_ara_mml_hydrant_,$[mml_hydrant_anims],.egg]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 6
 #end install_egg
 
@@ -440,16 +440,16 @@ idleTake1 victoryDance
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES tt_r_ara_mml_mailbox.egg $[matrix tt_a_ara_mml_mailbox_,$[mml_mailbox_anims],.egg] 
+  #define SOURCES tt_r_ara_mml_mailbox.egg $[matrix tt_a_ara_mml_mailbox_,$[mml_mailbox_anims],.egg]
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS]\
-        -dart structured 
+        -dart structured
 #end optchar_egg
 
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-     tt_r_ara_mml_mailbox.egg $[matrix tt_a_ara_mml_mailbox_,$[mml_mailbox_anims],.egg] 
-  #define EGG2BAM_OPTS -NC
+     tt_r_ara_mml_mailbox.egg $[matrix tt_a_ara_mml_mailbox_,$[mml_mailbox_anims],.egg]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 6
 #end install_egg
 
@@ -479,16 +479,16 @@ idleLook1 victoryDance
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES tt_r_ara_mml_trashcan.egg $[matrix tt_a_ara_mml_trashcan_,$[mml_trashcan_anims],.egg] 
+  #define SOURCES tt_r_ara_mml_trashcan.egg $[matrix tt_a_ara_mml_trashcan_,$[mml_trashcan_anims],.egg]
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS]\
-        -dart structured 
+        -dart structured
 #end optchar_egg
 
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-     tt_r_ara_mml_trashcan.egg $[matrix tt_a_ara_mml_trashcan_,$[mml_trashcan_anims],.egg] 
-  #define EGG2BAM_OPTS -NC
+     tt_r_ara_mml_trashcan.egg $[matrix tt_a_ara_mml_trashcan_,$[mml_trashcan_anims],.egg]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 6
 #end install_egg
 
@@ -518,16 +518,16 @@ victoryDance
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES tt_r_ara_tbr_hydrant.egg $[matrix tt_a_ara_tbr_hydrant_,$[tbr_hydrant_anims],.egg] 
+  #define SOURCES tt_r_ara_tbr_hydrant.egg $[matrix tt_a_ara_tbr_hydrant_,$[tbr_hydrant_anims],.egg]
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS]\
-        -dart structured 
+        -dart structured
 #end optchar_egg
 
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-     tt_r_ara_tbr_hydrant.egg $[matrix tt_a_ara_tbr_hydrant_,$[tbr_hydrant_anims],.egg] 
-  #define EGG2BAM_OPTS -NC
+     tt_r_ara_tbr_hydrant.egg $[matrix tt_a_ara_tbr_hydrant_,$[tbr_hydrant_anims],.egg]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 8
 #end install_egg
 
@@ -557,16 +557,16 @@ victoryDance
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES tt_r_ara_tbr_mailbox.egg $[matrix tt_a_ara_tbr_mailbox_,$[tbr_mailbox_anims],.egg] 
+  #define SOURCES tt_r_ara_tbr_mailbox.egg $[matrix tt_a_ara_tbr_mailbox_,$[tbr_mailbox_anims],.egg]
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS]\
-        -dart structured 
+        -dart structured
 #end optchar_egg
 
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-     tt_r_ara_tbr_mailbox.egg $[matrix tt_a_ara_tbr_mailbox_,$[tbr_mailbox_anims],.egg] 
-  #define EGG2BAM_OPTS -NC
+     tt_r_ara_tbr_mailbox.egg $[matrix tt_a_ara_tbr_mailbox_,$[tbr_mailbox_anims],.egg]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 8
 #end install_egg
 
@@ -596,16 +596,16 @@ victoryDance
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES tt_r_ara_tbr_trashcan.egg $[matrix tt_a_ara_tbr_trashcan_,$[tbr_trashcan_anims],.egg] 
+  #define SOURCES tt_r_ara_tbr_trashcan.egg $[matrix tt_a_ara_tbr_trashcan_,$[tbr_trashcan_anims],.egg]
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS]\
-        -dart structured 
+        -dart structured
 #end optchar_egg
 
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-     tt_r_ara_tbr_trashcan.egg $[matrix tt_a_ara_tbr_trashcan_,$[tbr_trashcan_anims],.egg] 
-  #define EGG2BAM_OPTS -NC
+     tt_r_ara_tbr_trashcan.egg $[matrix tt_a_ara_tbr_trashcan_,$[tbr_trashcan_anims],.egg]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 8
 #end install_egg
 
@@ -635,16 +635,16 @@ victoryDance
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES tt_r_ara_ddl_hydrant.egg $[matrix tt_a_ara_ddl_hydrant_,$[ddl_hydrant_anims],.egg] 
+  #define SOURCES tt_r_ara_ddl_hydrant.egg $[matrix tt_a_ara_ddl_hydrant_,$[ddl_hydrant_anims],.egg]
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS]\
-        -dart structured 
+        -dart structured
 #end optchar_egg
 
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-     tt_r_ara_ddl_hydrant.egg $[matrix tt_a_ara_ddl_hydrant_,$[ddl_hydrant_anims],.egg] 
-  #define EGG2BAM_OPTS -NC
+     tt_r_ara_ddl_hydrant.egg $[matrix tt_a_ara_ddl_hydrant_,$[ddl_hydrant_anims],.egg]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 8
 #end install_egg
 
@@ -674,16 +674,16 @@ victoryDance
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES tt_r_ara_ddl_mailbox.egg $[matrix tt_a_ara_ddl_mailbox_,$[ddl_mailbox_anims],.egg] 
+  #define SOURCES tt_r_ara_ddl_mailbox.egg $[matrix tt_a_ara_ddl_mailbox_,$[ddl_mailbox_anims],.egg]
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS]\
-        -dart structured 
+        -dart structured
 #end optchar_egg
 
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-     tt_r_ara_ddl_mailbox.egg $[matrix tt_a_ara_ddl_mailbox_,$[ddl_mailbox_anims],.egg] 
-  #define EGG2BAM_OPTS -NC
+     tt_r_ara_ddl_mailbox.egg $[matrix tt_a_ara_ddl_mailbox_,$[ddl_mailbox_anims],.egg]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 8
 #end install_egg
 
@@ -713,15 +713,15 @@ victoryDance
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES tt_r_ara_ddl_trashcan.egg $[matrix tt_a_ara_ddl_trashcan_,$[ddl_trashcan_anims],.egg] 
+  #define SOURCES tt_r_ara_ddl_trashcan.egg $[matrix tt_a_ara_ddl_trashcan_,$[ddl_trashcan_anims],.egg]
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS]\
-        -dart structured 
+        -dart structured
 #end optchar_egg
 
 #begin install_egg
   #define SOURCE_DIR optchar
   #define SOURCES \
-     tt_r_ara_ddl_trashcan.egg $[matrix tt_a_ara_ddl_trashcan_,$[ddl_trashcan_anims],.egg] 
-  #define EGG2BAM_OPTS -NC
+     tt_r_ara_ddl_trashcan.egg $[matrix tt_a_ara_ddl_trashcan_,$[ddl_trashcan_anims],.egg]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 8
 #end install_egg

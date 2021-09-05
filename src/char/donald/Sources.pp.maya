@@ -41,7 +41,7 @@
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    donald-wheel-1000.egg donald-wheel-wheel.egg 
+    donald-wheel-1000.egg donald-wheel-wheel.egg
   #define OPTCHAR_OPTS \
      -no -TR 0,180,0 -TS 0.175 \
      -expose joint_pupilL,joint_pupilR \
@@ -55,7 +55,7 @@
   #define SOURCES \
     DL_donald-1000.egg DL_donald-500.egg DL_donald-250.egg \
     DL_donald-walk.egg DL_donald-neutral.egg DL_donald-transition.egg \
-    DL_donald-transBack.egg 
+    DL_donald-transBack.egg
   #define OPTCHAR_OPTS \
     -no -TR 0,180,0 -TS 0.175 \
     -p meatALL,root \
@@ -179,7 +179,7 @@
   #define PHASE 6
   // Channel compression really seems to break the classic chars.
   // Turn it off.
-  #define EGG2BAM_OPTS -NC $[EGG2BAM_OPTS]
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
 #end install_egg
 
 

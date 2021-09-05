@@ -87,7 +87,7 @@
   #define TARGET_DIR optchar
   #define SOURCES \
     $[matrix suitA-,mod $[suit_anims],.egg] \
-    cogA_robot-zero.egg 
+    cogA_robot-zero.egg
 
   #define OPTCHAR_OPTS \
     -no -TR 0,180,0 -TS 0.25 \
@@ -185,7 +185,7 @@
     $[matrix suitA-,$[phase_4_anims],.egg] suitA-lose.egg
   #define UNPAL_SOURCES_NC \
     $[matrix suitA-,$[phase_4_anims_NC],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 4
 #end install_egg
 
@@ -194,7 +194,7 @@
   #define SOURCE_DIR optchar
   #define UNPAL_SOURCES \
     $[matrix suitA-,$[phase_5_anims],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 5
 #end install_egg
 
@@ -203,7 +203,7 @@
   #define SOURCE_DIR optchar
   #define UNPAL_SOURCES \
     $[matrix suitA-,$[phase_6_anims],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 6
 #end install_egg
 
@@ -212,7 +212,7 @@
   #define SOURCE_DIR optchar
   #define UNPAL_SOURCES \
     $[matrix suitA-,$[phase_7_anims],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 7
 #end install_egg
 
@@ -221,7 +221,7 @@
   #define SOURCE_DIR optchar
   #define UNPAL_SOURCES \
     $[matrix suitA-,$[phase_8_anims],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 8
 #end install_egg
 
@@ -230,7 +230,7 @@
   #define SOURCE_DIR optchar
   #define UNPAL_SOURCES \
     $[matrix suitA-,$[phase_12_anims],.egg]
-  #define EGG2BAM_OPTS -NC
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 12
 #end install_egg
 
