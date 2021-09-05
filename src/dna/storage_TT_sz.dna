@@ -63,3 +63,15 @@ place_model "phase_4/models/modules/toonhall" [
 place_model "phase_4/models/props/exteriorfish-zero" [
 	store_node [ "prop" "animated_prop_PetShopFishAnimatedProp" "exteriorfish" ]
 	]
+
+// Legacy option for playgrounds
+place_model "phase_3.5/models/props/mailbox_TT" [
+	store_node [ "prop" "prop_mailbox_TT" "" ]
+	]
+place_model "phase_5/models/props/TT_hydrant" [
+	store_node [ "prop" "prop_hydrant" ]
+	]
+place_model "phase_5/models/props/trashcan_TT" [
+	store_node [ "prop" "prop_trashcan_metal" ]
+	]
+	

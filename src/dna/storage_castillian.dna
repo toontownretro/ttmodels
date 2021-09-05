@@ -1,4 +1,5 @@
 
+
 model "phase_3.5/models/modules/walls" [
 	store_node [ "wall_collide" "wall_collide" ]
 	store_node [ "wall_collide" "wall_camera_collide" ]
@@ -87,7 +88,9 @@ model "phase_3.5/models/modules/walls" [
 
 	]
 
+
 model "phase_3.5/models/modules/doors_practical" [
+
 	store_node [ "door_double" "door_double_pillars_ur"  ]
 	store_node [ "door_double" "door_double_pillars_ul"  ]
 
@@ -99,6 +102,24 @@ model "phase_3.5/models/modules/doors_practical" [
 
 	store_node [ "door_double" "door_double_round_ur"  ]
 	store_node [ "door_double" "door_double_round_ul"  ]
+
+	store_node [ "door_double" "door_double_clothesshop_ur" "door_double_clothshop" ]
+	store_node [ "door_double" "door_double_clothesshop_ul" "door_double_clothshop" ]
+
+	]
+
+model "phase_4/models/modules/doors" [
+	store_node [ "door_single" "door_garage_ur"  ]
+	store_node [ "door_single" "door_garage_ul"  ]
+
+	store_node [ "door_single" "door_single_round_ur"  ]
+	store_node [ "door_single" "door_single_round_ul"  ]
+
+	store_node [ "door_single" "door_single_shuttered_ur"  ]
+	store_node [ "door_single" "door_single_shuttered_ul"  ]
+
+	store_node [ "door_single" "door_single_square_ur"  ]
+	store_node [ "door_single" "door_single_square_ul"  ]
 	]
 
 model "phase_3.5/models/modules/street_modules_enhanced" [
@@ -257,6 +278,7 @@ model "phase_3.5/models/modules/windows" [
 
 	store_node [ "window" "window_sm_round_ur" ]
 	store_node [ "window" "window_sm_round_ul" ]
+
 	]
 
 model "phase_3.5/models/modules/cornices" [
@@ -285,115 +307,101 @@ model "phase_3.5/models/modules/cornices" [
 	store_node [ "cornice" "cornice_curved_ul" ]
 	]
 
-model "phase_3.5/models/props/mailbox_TT" [
-	store_node [ "prop" "prop_mailbox_TT" "" ]
+
+model "phase_4/models/props/sign_general1" [
+	store_node [ "sign" "sign_general1" "g1" ]
 	]
 
-model "phase_3.5/models/modules/facade_a" [
-	store_node [ "prop" "prop_facade_a" "" ]
-	]
-model "phase_3.5/models/modules/facade_aN" [
-	store_node [ "prop" "prop_facade_aN" "" ]
-	]
-model "phase_3.5/models/modules/facade_b" [
-	store_node [ "prop" "prop_facade_b" "" ]
-	]
-model "phase_3.5/models/modules/facade_bN" [
-	store_node [ "prop" "prop_facade_bN" "" ]
-	]
-model "phase_3.5/models/modules/facade_c" [
-	store_node [ "prop" "prop_facade_c" "" ]
-	]
-model "phase_3.5/models/modules/facade_cN" [
-	store_node [ "prop" "prop_facade_cN" "" ]
-	]
-model "phase_3.5/models/modules/facade_d" [
-	store_node [ "prop" "prop_facade_d" "" ]
-	]
-model "phase_3.5/models/modules/facade_dM" [
-	store_node [ "prop" "prop_facade_dM" "" ]
-	]
-model "phase_3.5/models/modules/facade_dN" [
-	store_node [ "prop" "prop_facade_dN" "" ]
-	]
-model "phase_3.5/models/modules/facade_e" [
-	store_node [ "prop" "prop_facade_e" "" ]
-	]
-model "phase_3.5/models/modules/facade_eN" [
-	store_node [ "prop" "prop_facade_eN" "" ]
+model "phase_4/models/props/tunnel_sign_cogHQ" [
+	store_node [ "sign" "sign_cogHQ" "g1" ]
 	]
 
 model "phase_3.5/models/props/neighborhood_sign_TT" [
 	store_node [ "prop" "neighborhood_sign_TT" "" ]
 	]
+model "phase_4/models/props/neighborhood_sign_DD" [
+	store_node [ "prop" "neighborhood_sign_DD" "" ]
+	]
+model "phase_4/models/props/neighborhood_sign_DL" [
+	store_node [ "prop" "neighborhood_sign_DL" "" ]
+	]
+model "phase_4/models/props/neighborhood_sign_DG" [
+	store_node [ "prop" "neighborhood_sign_DG" "" ]
+	]
+model "phase_4/models/props/neighborhood_sign_BR" [
+	store_node [ "prop" "neighborhood_sign_BR" "" ]
+	]
+model "phase_4/models/props/neighborhood_sign_MM" [
+	store_node [ "prop" "neighborhood_sign_MM" "" ]
+	]
 
+model "phase_4/models/props/tunnel_sign_blue" [
+	store_node [ "sign" "tunnel_sign_blue" "g1" ]
+	]
+model "phase_4/models/props/tunnel_sign_green" [
+	store_node [ "sign" "tunnel_sign_green" "g1" ]
+	]
+model "phase_4/models/props/tunnel_sign_magenta" [
+	store_node [ "sign" "tunnel_sign_magenta" "g1" ]
+	]
 model "phase_3.5/models/props/tunnel_sign_orange" [
 	store_node [ "sign" "tunnel_sign_orange" "g1" ]
 	]
+model "phase_4/models/props/tunnel_sign_red" [
+	store_node [ "sign" "tunnel_sign_red" "g1" ]
+	]
 
+model "phase_4/models/props/construction_sign" [
+	store_node [ "prop" "prop_construction_sign" ]
+	]
+
+
+// This font is no longer used.
+//store_font [ "font" "comic"
+//             "phase_3/models/fonts/Comic" ]
+
+// We switched the interface font from impress to humanist
+// Warning!  This is overridden in PlayGame.py
+store_font [ "font" "humanist"
+             "phase_3/models/fonts/ImpressBT.ttf" ]
+
+// Warning!  This is overridden in PlayGame.py
 store_font [ "font" "mickey"
              "phase_3/models/fonts/MickeyFont" ]
+
+// This is used on some signs "TO COG HEADQUARTERS" etc.
+// Warning!  This is overridden in PlayGame.py
+store_font [ "font" "suit"
+             "phase_3/models/fonts/vtRemingtonPortable.ttf" ]
+
 
 model "phase_3.5/models/props/mickeySZ" [
 	store_node [ "graphic" "mickeySZ" ]
 	]
-
-model "phase_3.5/models/modules/TT_A1" [
-	store_node [ "toon_landmark" "toon_landmark_TT_A1" "TT_A1"  ]
+model "phase_4/models/props/minnieSZ" [
+	store_node [ "graphic" "minnieSZ" ]
+	]
+model "phase_4/models/props/donaldSZ" [
+	store_node [ "graphic" "donaldSZ" ]
+	]
+model "phase_4/models/props/donald_DL_SZ" [
+	store_node [ "graphic" "donald_DL_SZ" ]
+	]
+model "phase_4/models/props/daisySZ" [
+	store_node [ "graphic" "daisySZ" ]
+	]
+model "phase_4/models/props/goofySZ" [
+	store_node [ "graphic" "goofySZ" ]
+	]
+model "phase_4/models/props/plutoSZ" [
+	store_node [ "graphic" "plutoSZ" ]
 	]
 
-model "phase_3.5/models/modules/hqTT" [
-	store_node [ "toon_landmark" "toon_landmark_hqTT" "" ]
+model "phase_4/models/props/piers_tt" [
+	store_node [ "prop" "fishing_spot" "" ]
 	]
 
-model "phase_3.5/models/props/trees" [
-	store_node [ "holiday_prop" "prop_tree_large_brickbox_ur" ]
-	store_node [ "holiday_prop" "prop_tree_large_brickbox_ul" ]
-	store_node [ "holiday_prop" "prop_tree_small_brickbox_ur" ]
-	store_node [ "holiday_prop" "prop_tree_small_brickbox_ul" ]
-	store_node [ "holiday_prop" "prop_tree_fat_brickbox_ur" ]
-	store_node [ "holiday_prop" "prop_tree_fat_brickbox_ul" ]
-
-	store_node [ "holiday_prop" "prop_tree_large_woodbox_ur" ]
-	store_node [ "holiday_prop" "prop_tree_large_woodbox_ul" ]
-	store_node [ "holiday_prop" "prop_tree_small_woodbox_ur" ]
-	store_node [ "holiday_prop" "prop_tree_small_woodbox_ul" ]
-
-	store_node [ "holiday_prop" "prop_tree_large_ur" "prop_tree_large_no_box_ur" ]
-	store_node [ "holiday_prop" "prop_tree_large_ul" "prop_tree_large_no_box_ul" ]
-	store_node [ "holiday_prop" "prop_tree_small_ur" "prop_tree_small_nobox_ur" ]
-	store_node [ "holiday_prop" "prop_tree_small_ul" "prop_tree_small_no_box_ul" ]
-	store_node [ "holiday_prop" "prop_tree_fat_ur" "prop_tree_fat_no_box_ur" ]
-	store_node [ "holiday_prop" "prop_tree_fat_ul" "prop_tree_fat_no_box_ul" ]
-	]
-
-store_texture [ "texture" "street_street_TT_tex"	
-		"phase_3.5/maps/sidewalkbrown.txo"		]
-store_texture [ "texture" "street_sidewalk_TT_tex"
-		"phase_3.5/maps/sidewalk_4cont_brown.txo"	]
-store_texture [ "texture" "street_curb_TT_tex"
-		"phase_3.5/maps/curb_brown_even.txo"	]
 
 
-model "phase_3.5/models/props/streetlight_TT" [
-	store_node [ "prop" "prop_post_sign" ]
-	store_node [ "prop" "prop_post_one_light" ]
-	store_node [ "prop" "prop_post_three_light" ]
-	]
 
-model "phase_3.5/models/modules/wood_fence" [
-	store_node [ "prop" "prop_wood_fence" "" ]
-	]
-
-model "phase_3.5/models/modules/safe_zone_entrance_tunnel_TT" [
-	store_node [ "prop" "prop_safe_zone_entrance_tunnel" ]
-        ]
-
-model "phase_3.5/models/props/big_planter" [
-	store_node [ "prop" "prop_big_planter" "" ]
-        ]
-
-model "phase_3.5/models/props/cellar_door" [
-	store_node [ "prop" "prop_cellar_door" "" ]
-	]
 

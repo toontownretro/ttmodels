@@ -31,3 +31,8 @@ place_model "phase_6/models/cogHQ/Cog_Tunnel" [
 	store_node [ "prop" "prop_cog_tunnel" "" ]
 	]
 store_font [ "font" "TT_Comedy" "phase_3/models/fonts/Comedy" ]
+
+// Legacy for streets
+place_model "phase_5/models/props/trashcan_TT" [
+	store_node [ "prop" "prop_trashcan_metal" "" ]
+	]

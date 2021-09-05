@@ -65,7 +65,7 @@ store_texture [ "texture" "street_sidewalk_BR_tex"
 store_texture [ "texture" "street_curb_BR_tex"
 		"phase_3.5/maps/snow.txo" 	]
 
-store_font [ "font" "BR_Aftershock"
+store_font [ "font" "BR_Aftershock" 
              "phase_3/models/fonts/DFKyG7.ttc:1" ]
 
 hood_model "phase_8/models/props/signs_BR" [
