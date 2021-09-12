@@ -19,7 +19,7 @@
 fightBoost fightCheer fightIdle fightIntoIdle fightSad \
 firstMoveArmUp1 firstMoveArmUp2 firstMoveArmUp3 firstMoveIntoSleep \
 firstMoveJump firstMoveJumpBalance firstMoveJumpSpin firstMoveOutOfSleep \
-firstMoveSleepIdle firstMoveStruggle idle0 idle1 idle2 idleAwesome3 \
+firstMoveSleepIdle firstMoveStruggle Idle0 idle1 idle2 idleAwesome3 \
 idleIntoFight victoryDance
 
 #begin maya_char_egg
