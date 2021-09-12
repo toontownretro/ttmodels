@@ -50,7 +50,7 @@ idleIntoFight victoryDance
 
 #begin install_egg
   #define SOURCES \
-   tt_m_prp_ext_spray.egg
+   tt_m_efx_hydrantSquirt.egg
   #define PHASE 5
 #end install_egg
 
