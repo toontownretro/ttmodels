@@ -103,3 +103,74 @@
 //  #define PHASE 4
 //#end install_egg
 
+
+// TTF Fonts
+
+// This is no longer used.
+//#begin install_misc
+//  // Toon font.
+//  #define SOURCES Comic.ttf
+//  #define PHASE 3
+//#end install_misc
+
+#begin install_misc
+  // Interface fonts.
+  #define SOURCES \
+    MinnieFont.ttf \
+    HastyPudding.ttf Comic.ttf Humanist.ttf //Ironwork.ttf Comedy.ttf
+  #define PHASE 3
+#end install_misc
+
+#begin install_misc
+  // Nametag fonts.
+  #define SOURCES \
+    Scurlock.ttf AnimGothic.ttf Danger.ttf \
+    Alie.ttf OysterBar.ttf RedDogSaloon.ttf
+  #define PHASE 3
+#end install_misc
+
+#begin install_misc
+  // Toontown Central.
+  #define SOURCES Comedy.ttf Courier.ttf CourierBold.ttf
+  #define PHASE 3
+#end install_misc
+
+#begin install_misc
+  // Donald's Dock.
+  #define SOURCES Portago.ttf
+  #define PHASE 3
+#end install_misc
+
+#begin install_misc
+  // Minnie's Melodyland
+  #define SOURCES Musicals.ttf
+  #define PHASE 3
+#end install_misc
+
+#begin install_misc
+  // The Brrrgh.
+  #define SOURCES Aftershock.ttf
+  #define PHASE 3
+#end install_misc
+
+#begin install_misc
+  // Daisy's Garden.
+  #define SOURCES Ironwork.ttf
+  #define PHASE 3
+#end install_misc
+
+#begin install_misc
+  // Donald's Dreamland.
+  #define SOURCES JiggeryPokery.ttf
+  #define PHASE 3
+#end install_misc
+
+// We are not using any of these right now
+//#begin install_misc
+//  // Sign fonts.
+//  #define SOURCES \
+//    ComicScriptOutline.ttf ComicScriptShaded.ttf HastyPudding.ttf \
+//    SlapstickComicBold.ttf Humanist.ttf \
+//    SlapstickComicOblique.ttf TooneyNoodle.ttf ZoinkFat.ttf
+//  #define PHASE 4
+//#end install_misc
