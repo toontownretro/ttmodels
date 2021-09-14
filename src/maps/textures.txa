@@ -34,7 +34,7 @@
 :group phase_4 dir phase_4 on phase_3.5
 :group phase_5 dir phase_5 on phase_4
 :group phase_5.5 dir phase_5.5 on phase_5
-:group phase_6 dir phase_6 on phase_5
+:group phase_6 dir phase_6 on phase_5.5
 :group phase_7 dir phase_7 on phase_6
 :group phase_8 dir phase_8 on phase_7
 :group phase_9 dir phase_9 on phase_8
@@ -143,9 +143,9 @@
 :group toontown_central_tutorial on neighborhood_common_tutorial
 :group toontown_central_common on neighborhood_common
 :group toontown_central_streets on neighborhood_streets_common toontown_central_common
-:group toontown_central_safezone on toontown_central_common trolley
-:group winter_toontown_central_safezone on toontown_central_common trolley
-:group halloween_toontown_central_safezone on toontown_central_common trolley
+:group toontown_central_safezone on toontown_central_common
+:group winter_toontown_central_safezone on toontown_central_common
+:group halloween_toontown_central_safezone on toontown_central_common
 # Moved from phase 4 to 3.5
 :group winter_toontown_central_tutorial on phase_3.5
 :group halloween_toontown_central_tutorial on phase_3.5
@@ -860,8 +860,8 @@ Ironwork.egg : phase_3
 JiggeryPokery.egg : phase_3
 
 # Racing fonts?
-Courier.egg : goofy_speedway_safezone
-CourierBold.egg : goofy_speedway_safezone
+Courier.egg : phase_3 # goofy_speedway_safezone
+CourierBold.egg : phase_3 # goofy_speedway_safezone
 
 # Name tag fonts
 Scurlock_1.rgb : 256 128 mipmap sgi
@@ -1420,7 +1420,7 @@ tt_t_ara_ttc_sillyMeterSign_groupPosts_portuguese.tif : 256 256 omit
 tt_t_ara_ttc_sillyMeterSign_groupMain.tif : 256 256 omit
 tt_t_ara_ttc_sillyMeterSign_groupMain_portuguese.tif : 256 256 omit
 
-tt_t_efx_hydrantSquirt.tif : 128 128 omit
+tt_t_prp_ext_spray.tif : 128 128 omit
 tt_t_ara_ttc_hydrant.tif : 128 128 omit
 tt_r_prp_ext_piePackage.tif : 128 128 omit
 tt_t_ara_ttc_mailbox.tif : 256 256 omit
@@ -2762,10 +2762,10 @@ Waiting4Others.rgba : 420 140 linear
 BATTLE_Menu.rgba : 702 335 linear
 yellowPanel.rgba : 111 117 linear
 tt_t_gui_bat_pass.tif : 128 128 linear
-tt_t_gui_gen_skipSectionDisabled.tif : 32 32
-tt_t_gui_gen_skipSectionDown.tif : 32 32
-tt_t_gui_gen_skipSectionRollOver.tif : 32 32
-tt_t_gui_gen_skipSectionUp.tif : 32 32
+tt_t_gui_gen_skipSectionDisabled.tif : 64 64
+tt_t_gui_gen_skipSectionDown.tif : 64 64
+tt_t_gui_gen_skipSectionRollOver.tif : 64 64
+tt_t_gui_gen_skipSectionUp.tif : 64 64
 
 battle_gui.egg : battle_gui
 # for fanfare object
@@ -3542,7 +3542,7 @@ desat_shirt_22.rgb : 256 128 omit mipmap
 desat_shirt_23.rgb : 256 128 omit mipmap
 
 desat_sleeve_1.rgb : 256 128 omit mipmap
-desat_sleeve_2.rgb : 256 128 omit mipmap
+desat_sleeve_2.rgb : 256 128 omit mipmap force-rgb
 desat_sleeve_3.rgb : 256 128 omit mipmap
 desat_sleeve_4.rgb : 256 128 omit mipmap
 desat_sleeve_5.rgb : 256 128 omit mipmap
@@ -3550,14 +3550,14 @@ desat_sleeve_6.rgb : 256 128 omit mipmap
 desat_sleeve_7.rgb : 256 128 omit mipmap
 desat_sleeve_8.rgb : 256 128 omit mipmap
 desat_sleeve_9.rgb : 256 128 omit mipmap
-desat_sleeve_10.rgb : 256 128 omit mipmap
+desat_sleeve_10.rgb : 256 128 omit mipmap force-rgb
 desat_sleeve_15.rgb : 256 128 omit mipmap
 desat_sleeve_16.rgb : 256 128 omit mipmap
 desat_sleeve_19.rgb : 256 128 omit mipmap
-desat_sleeve_20.rgb : 256 128 omit mipmap
+desat_sleeve_20.rgb : 256 128 omit mipmap force-rgb
 
 
-desat_shorts_1.rgb : 256 128 omit mipmap
+desat_shorts_1.rgb : 256 128 omit mipmap force-rgb
 desat_shorts_2.rgb : 256 128 omit mipmap
 desat_shorts_3.rgb : 256 128 omit mipmap
 desat_shorts_4.rgb : 256 128 omit mipmap
@@ -4212,9 +4212,9 @@ s_leg.rgb : 128 256 omit mipmap
 s_sleeve.rgb : 128 256 omit mipmap
 s_arm.rgb : 128 64 omit mipmap
 arm.rgb : 128 64 mipmap
-shoe.rgb : 64 64 mipmap
+shoe.rgb : 64 64 omit mipmap
 hat.rgb : 32 32 mipmap
-hand.rgb : 64 128 mipmap
+hand.rgb : 64 128 omit mipmap
 waiter_m_blazer : 128 128 omit mipmap
 waiter_m_leg : 64 64 omit mipmap
 waiter_m_sleeve : 64 64 omit mipmap
@@ -5175,7 +5175,7 @@ CashBotArch1bx.tif : 256 256
 CashBotColumns1.tif : 256 256
 CashBotColumnsBase.tif : 256 256
 CashBotRegister1.tif : 256 256
-CashBotRegister2.tif : 256 256
+CashBotRegister2.tif : 256 256 force-rgb
 CashBotRegister3.tif : 256 256
 CashBotRegister4.tif : 256 256
 CashBotSqrWindows1.tif : 256 256
@@ -5194,7 +5194,7 @@ CBCurrencyBack_german.tif : 256 256
 CBCurrencyBack_portuguese.tif : 256 256
 CBCurrencyBack_french.tif : 256 256
 CBHQDollarDoor.tif : 256 256
-CBHQDoorEuro.tif : 1024 1024
+CBHQDoorEuro.tif : 1024 1024 force-rgb
 CBMoneyStackPalletSide3.tif : 256 256
 CBMoneyStackPalletSide2.tif : 256 256
 CBLocomotiveGrills.rgb : 256 256
@@ -5320,7 +5320,7 @@ CoinEdge2.tif : 256 256
 CashBotRegister3.tif : 256 256
 CBRoundEnd.rgb : 256 256
 CashBotRegister1.tif : 256 256
-CashBotRegister2.tif : 256 256
+CashBotRegister2.tif : 256 256 force-rgb
 CashBotRegister4.tif : 256 256
 CBBossBotBack.tif : 256 256
 CBBossBotFront.tif : 512 512
@@ -8369,10 +8369,10 @@ topSphereA.tif : 64 64
 water_surface.tif : 724 726
 weight1ton2.tif : 307 282
 bathtubBed.tif : 512 512
-bathtubCilinder.tif : 256 256 mipmap
+bathtubCilinder.tif : 256 256 force-rgb
 bathtubLeg.tif : 256 256
 faucetCenter.tif : 256 256
-faucetHandle.tif : 256 256 mipmap
+faucetHandle.tif : 256 256 force-rgb
 bedCoverBatthtub.tif : 507 227
 closetBoyDoor.tif : 256 256
 closetBoyDoor2.tif : 256 256
@@ -9992,8 +9992,20 @@ PetNamePannel3.tif :  644 675
 PetNamePanel.egg : pets_gui
 
 PetTutorialCattlelog.jpg : 231 260
+PetTutorialCattlelog_japanese.jpg : 223 263
+PetTutorialCattlelog_german.jpg : 223 226
+PetTutorialCattlelog_portuguese.jpg : 223 226
+PetTutorialCattlelog_french.jpg : 163 244
 PetTutorialSpeedChat.jpg : 470 305
+PetTutorialSpeedChat_japanese.jpg : 428 282
+PetTutorialSpeedChat_german.jpg : 428 282
+PetTutorialSpeedChat_portuguese.jpg : 428 282
+PetTutorialSpeedChat_french.jpg : 331 285
 PetTutorialPanel.tif : 253 374
+PetTutorialPanel_japanese.tif : 206 326 force-rgb
+PetTutorialPanel_german.tif : 206 345
+PetTutorialPanel_portuguese.tif : 206 345
+PetTutorialPanel_french.tif : 177 351
 PetTutorial.egg : estate
 PetTutorial_english.egg : estate
 #PetTutorial_castillian.egg : estate
@@ -10691,7 +10703,7 @@ lawbotBoss-head-zero.egg : lawbotHQ
 gold1 : 512 512
 gold2 : 512 512
 gold2b : 512 512
-gold4 : 512 512
+gold4 : 512 512 force-rgb
 gold5 : 512 512
 GoldChain : 512 512
 GoldChain2 : 512 512
@@ -11072,7 +11084,7 @@ golfclubface : 128 128
 bossbotBoss-head-zero.egg : bossbotHQ
 bossbotBoss-legs-zero.egg : bossbotHQ
 bossbotBoss-torso-zero.egg : bossbotHQ
-BB_Elevator.egg : bossbotHQ
+BB_Elevator.egg : bossbotHQExt
 BB_Inside_Elevator.egg : bossbotHQ
 BanquetIcons.egg : bossbotHQ
 BanquetTableChairs.egg : bossbotHQ
@@ -11088,11 +11100,11 @@ BossbotMazex3_straight_C.egg : bossbotHQ
 BossbotMazex4_C.egg : bossbotHQ
 BossbotPresidentsRm.egg : bossbotHQ
 BossbotTeeOffRoom.egg : bossbotHQ
-CogGolfCourtyard.egg : bossbotHQ
-Coggolf_cart3.egg : bossbotHQ
+CogGolfCourtyard.egg : bossbotHQExt
+Coggolf_cart3.egg : bossbotHQExt
 Connector_Tunnel_A.egg : bossbotHQ
 Connector_Tunnel_B.egg : bossbotHQ
-Golfzone_To_Bossbot_Tunnel.egg : bossbotHQ
+Golfzone_To_Bossbot_Tunnel.egg : golf
 bossbotBoss-golfclub.egg : bossbotHQ
 bust_a_cog_background.egg : bossbotHQ
 bust_a_cog_ball_blue.egg : bossbotHQ
@@ -11113,7 +11125,7 @@ bust_a_cog_shooter.egg : bossbotHQ
 canoffood.egg : bossbotHQ
 food_belt1_model.egg : bossbotHQ
 food_belt2_model.egg : bossbotHQ
-garden_pedestal.egg : bossbotHQ
+garden_pedestal.egg : estate
 mole_cog.egg : bossbotHQ
 mole_hit.egg : bossbotHQ
 mole_hole.egg : bossbotHQ
