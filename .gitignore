@@ -19,5 +19,6 @@ stamp
 *.swatch
 *.swatches
 *.txo
+*.txo.pz
 *.tmp
 ttmodels_index
