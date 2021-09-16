@@ -1475,7 +1475,7 @@ tt_m_ara_cmg_level.egg : maze_cogdogame
 tt_m_ara_cmg_splash.egg : maze_cogdogame
 tt_m_ara_cmg_waterBalloon.egg : maze_cogdogame
 
-# GUI
+# GUI 
 tt_m_gui_cmg_bossCog.egg : maze_cogdogame
 tt_m_gui_cmg_miniMap_cards.egg : maze_cogdogame
 
@@ -4548,7 +4548,7 @@ circle_Head1.rgb : 512 512 linear
 circle_shaft1.rgb : 512 512 linear
 square_head1.rgb : 512 512 linear
 crate_cubeB2.rgb : 581 585
-FootFactorySingleSqWndw.rgb : 133 256
+FootFactorySingleSqWndw.rgb : 133 256 force-rgb
 FootFactoryLogo.rgb : 256 256
 FootFactory_BootEdge.rgb : 256 128
 FootFactoryDoor2.rgb : 256 256
@@ -5849,7 +5849,7 @@ roll-o-dex.rgb : 4 4
 rollodex-card.rgb : 172 110
 rollodex-card_japanese.rgb : 172 110
 snow-particle.rgb : 16 16
-gear.rgb : 32 32 force-rgba
+gear.rgb : 186 186 force-rgba
 raindrop.rgb : 16 16
 checkmark.rgba : 16 32
 dollar-sign.rgba : 92 81
