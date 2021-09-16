@@ -48,9 +48,14 @@ idleIntoFight victoryDance
 /// HYDRANT SQUIRT
 //////////////////
 
+#begin maya_egg
+  #define SOURCES \
+    tt_m_efx_hydrantSquirt.mb
+#end maya_egg
+
 #begin install_egg
   #define SOURCES \
-   tt_m_efx_hydrantSquirt.egg
+    tt_m_efx_hydrantSquirt.egg
   #define PHASE 5
 #end install_egg
 
