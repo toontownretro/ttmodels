@@ -771,65 +771,65 @@ stun-mod.egg : tutorial_suits
 # format (we can't use "rgb", because that indicates the channel
 # format: rgb as opposed to rgba).
 
-Comic.rgb : 256 256 mipmap sgi
-Humanist.rgb : 256 256 mipmap sgi
-ImpressBT.rgb : 256 256 mipmap sgi
-vtRemingtonPortable.rgb : 256 128 mipmap sgi
-ComicScriptOutline.rgb ComicScriptShaded.rgb HastyPudding.rgb MinnieFont.rgb MinnieFont_1.rgb SlapstickComicBold.rgb SlapstickComicOblique.rgb TooneyNoodle.rgb ZoinkFat.rgb : 256 256 mipmap sgi
-MickeyFont_033.rgb : 65 159 mipmap sgi blend
-MickeyFont_038.rgb : 149 156 mipmap sgi blend
-MickeyFont_039.rgb : 84 104 mipmap sgi blend
-MickeyFont_040.rgb : 92 161 mipmap sgi blend
-MickeyFont_041.rgb : 92 161 mipmap sgi blend
-MickeyFont_043.rgb : 114 103 mipmap sgi blend
-MickeyFont_044.rgb : 81 99 mipmap sgi blend
-MickeyFont_045.rgb : 115 66 mipmap sgi blend
-MickeyFont_046.rgb : 57 58 mipmap sgi blend
-MickeyFont_047.rgb : 148 160 mipmap sgi blend
-MickeyFont_048.rgb : 135 157 mipmap sgi blend
-MickeyFont_049.rgb : 93 158 mipmap sgi blend
-MickeyFont_050.rgb : 150 154 mipmap sgi blend
-MickeyFont_051.rgb : 122 156 mipmap sgi blend
-MickeyFont_052.rgb : 144 158 mipmap sgi blend
-MickeyFont_053.rgb : 128 154 mipmap sgi blend
-MickeyFont_054.rgb : 122 158 mipmap sgi blend
-MickeyFont_055.rgb : 137 157 mipmap sgi blend
-MickeyFont_056.rgb : 130 157 mipmap sgi blend
-MickeyFont_057.rgb : 131 158 mipmap sgi blend
-MickeyFont_058.rgb : 58 114 mipmap sgi blend
-MickeyFont_063.rgb : 105 155 mipmap sgi blend
-MickeyFont_065.rgb : 179 159 mipmap sgi blend
-MickeyFont_066.rgb : 128 156 mipmap sgi blend
-MickeyFont_067.rgb : 167 157 mipmap sgi blend
-MickeyFont_068.rgb : 155 157 mipmap sgi blend
-MickeyFont_069.rgb : 114 155 mipmap sgi blend
-MickeyFont_070.rgb : 108 157 mipmap sgi blend
-MickeyFont_071.rgb : 150 157 mipmap sgi blend
-MickeyFont_072.rgb : 164 157 mipmap sgi blend
-MickeyFont_073.rgb : 108 153 mipmap sgi blend
-MickeyFont_074.rgb : 123 156 mipmap sgi blend
-MickeyFont_075.rgb : 151 157 mipmap sgi blend
-MickeyFont_076.rgb : 127 158 mipmap sgi blend
-MickeyFont_077.rgb : 216 158 mipmap sgi blend
-MickeyFont_078.rgb : 154 158 mipmap sgi blend
-MickeyFont_079.rgb : 167 157 mipmap sgi blend
-MickeyFont_080.rgb : 136 158 mipmap sgi blend
-MickeyFont_081.rgb : 157 158 mipmap sgi blend
-MickeyFont_082.rgb : 148 157 mipmap sgi blend
-MickeyFont_083.rgb : 143 157 mipmap sgi blend
-MickeyFont_084.rgb : 134 158 mipmap sgi blend
-MickeyFont_085.rgb : 149 158 mipmap sgi blend
-MickeyFont_086.rgb : 167 158 mipmap sgi blend
-MickeyFont_087.rgb : 198 158 mipmap sgi blend
-MickeyFont_088.rgb : 163 158 mipmap sgi blend
-MickeyFont_089.rgb : 166 157 mipmap sgi blend
-MickeyFont_090.rgb : 144 158 mipmap sgi blend
-MickeyFont_223.rgb : 128 156 mipmap sgi blend
-hgraps_1.rgb : 1024 1024 mipmap sgi blend omit
-hgraps_2.rgb : 1024 1024 mipmap sgi blend omit
-hgraps_3.rgb : 512 512 mipmap sgi blend omit
-Courier_1.rgb : 256 128 mipmap sgi
-CourierBold_1.rgb : 256 128 mipmap sgi
+Comic.rgb : 256 256 mipmap
+Humanist.rgb : 256 256 mipmap
+ImpressBT.rgb : 256 256 mipmap
+vtRemingtonPortable.rgb : 256 128 mipmap
+ComicScriptOutline.rgb ComicScriptShaded.rgb HastyPudding.rgb MinnieFont.rgb MinnieFont_1.rgb SlapstickComicBold.rgb SlapstickComicOblique.rgb TooneyNoodle.rgb ZoinkFat.rgb : 256 256 mipmap
+MickeyFont_033.rgb : 65 159 mipmap blend
+MickeyFont_038.rgb : 149 156 mipmap blend
+MickeyFont_039.rgb : 84 104 mipmap blend
+MickeyFont_040.rgb : 92 161 mipmap blend
+MickeyFont_041.rgb : 92 161 mipmap blend
+MickeyFont_043.rgb : 114 103 mipmap blend
+MickeyFont_044.rgb : 81 99 mipmap blend
+MickeyFont_045.rgb : 115 66 mipmap blend
+MickeyFont_046.rgb : 57 58 mipmap blend
+MickeyFont_047.rgb : 148 160 mipmap blend
+MickeyFont_048.rgb : 135 157 mipmap blend
+MickeyFont_049.rgb : 93 158 mipmap blend
+MickeyFont_050.rgb : 150 154 mipmap blend
+MickeyFont_051.rgb : 122 156 mipmap blend
+MickeyFont_052.rgb : 144 158 mipmap blend
+MickeyFont_053.rgb : 128 154 mipmap blend
+MickeyFont_054.rgb : 122 158 mipmap blend
+MickeyFont_055.rgb : 137 157 mipmap blend
+MickeyFont_056.rgb : 130 157 mipmap blend
+MickeyFont_057.rgb : 131 158 mipmap blend
+MickeyFont_058.rgb : 58 114 mipmap blend
+MickeyFont_063.rgb : 105 155 mipmap blend
+MickeyFont_065.rgb : 179 159 mipmap blend
+MickeyFont_066.rgb : 128 156 mipmap blend
+MickeyFont_067.rgb : 167 157 mipmap blend
+MickeyFont_068.rgb : 155 157 mipmap blend
+MickeyFont_069.rgb : 114 155 mipmap blend
+MickeyFont_070.rgb : 108 157 mipmap blend
+MickeyFont_071.rgb : 150 157 mipmap blend
+MickeyFont_072.rgb : 164 157 mipmap blend
+MickeyFont_073.rgb : 108 153 mipmap blend
+MickeyFont_074.rgb : 123 156 mipmap blend
+MickeyFont_075.rgb : 151 157 mipmap blend
+MickeyFont_076.rgb : 127 158 mipmap blend
+MickeyFont_077.rgb : 216 158 mipmap blend
+MickeyFont_078.rgb : 154 158 mipmap blend
+MickeyFont_079.rgb : 167 157 mipmap blend
+MickeyFont_080.rgb : 136 158 mipmap blend
+MickeyFont_081.rgb : 157 158 mipmap blend
+MickeyFont_082.rgb : 148 157 mipmap blend
+MickeyFont_083.rgb : 143 157 mipmap blend
+MickeyFont_084.rgb : 134 158 mipmap blend
+MickeyFont_085.rgb : 149 158 mipmap blend
+MickeyFont_086.rgb : 167 158 mipmap blend
+MickeyFont_087.rgb : 198 158 mipmap blend
+MickeyFont_088.rgb : 163 158 mipmap blend
+MickeyFont_089.rgb : 166 157 mipmap blend
+MickeyFont_090.rgb : 144 158 mipmap blend
+MickeyFont_223.rgb : 128 156 mipmap blend
+hgraps_1.rgb : 1024 1024 mipmap blend omit
+hgraps_2.rgb : 1024 1024 mipmap blend omit
+hgraps_3.rgb : 512 512 mipmap blend omit
+Courier_1.rgb : 256 128 mipmap
+CourierBold_1.rgb : 256 128 mipmap
 
 Comic.egg : phase_3
 Humanist.egg : phase_3
@@ -846,12 +846,12 @@ TooneyNoodle.egg  : nondownload
 ZoinkFat.egg : nondownload
 
 # Neighborhood sign fonts
-Comedy.rgb : 256 128 mipmap sgi
-Portago.rgb : 128 128 mipmap sgi
-Musicals.rgb : 256 128 mipmap sgi
-Aftershock.rgb : 256 256 mipmap sgi alpha
-Ironwork.rgb : 256 128 mipmap sgi
-JiggeryPokery.rgb : 256 128 mipmap sgi
+Comedy.rgb : 256 128 mipmap
+Portago.rgb : 128 128 mipmap
+Musicals.rgb : 256 128 mipmap
+Aftershock.rgb : 256 256 mipmap alpha
+Ironwork.rgb : 256 128 mipmap
+JiggeryPokery.rgb : 256 128 mipmap
 Comedy.egg : phase_3
 Portago.egg : phase_3
 Musicals.egg : phase_3
@@ -864,17 +864,17 @@ Courier.egg : phase_3 # goofy_speedway_safezone
 CourierBold.egg : phase_3 # goofy_speedway_safezone
 
 # Name tag fonts
-Scurlock_1.rgb : 256 128 mipmap sgi
+Scurlock_1.rgb : 256 128 mipmap
 Scurlock.egg : phase_3
-AnimGothic_1.rgb : 256 128 mipmap sgi
+AnimGothic_1.rgb : 256 128 mipmap
 AnimGothic.egg : phase_3
-Danger_1.rgb : 256 256 mipmap sgi
+Danger_1.rgb : 256 256 mipmap
 Danger.egg : phase_3
-Alie_1.rgb : 256 256 mipmap sgi
+Alie_1.rgb : 256 256 mipmap
 Alie.egg : phase_3
-OysterBar_1.rgb : 256 256 mipmap sgi
+OysterBar_1.rgb : 256 256 mipmap
 OysterBar.egg : phase_3
-RedDogSaloon_1.rgb : 128 256 mipmap sgi
+RedDogSaloon_1.rgb : 128 256 mipmap
 RedDogSaloon.egg : phase_3
 
 ######################################################################
@@ -1475,7 +1475,7 @@ tt_m_ara_cmg_level.egg : maze_cogdogame
 tt_m_ara_cmg_splash.egg : maze_cogdogame
 tt_m_ara_cmg_waterBalloon.egg : maze_cogdogame
 
-# GUI 
+# GUI
 tt_m_gui_cmg_bossCog.egg : maze_cogdogame
 tt_m_gui_cmg_miniMap_cards.egg : maze_cogdogame
 
@@ -5600,8 +5600,8 @@ phone_reciever.rgb : 128 64
 eraser.rgb : 32 32
 pencil.rgb : 32 128
 daggerHandle.rgb : 16 32
-golf_ball.rgb : 128 128 sgi
-golf_club.rgb : 32 128 sgi
+golf_ball.rgb : 128 128
+golf_club.rgb : 32 128
 baseball.rgb : 128 64
 bird_bod.rgb : 256 128
 bird_tail.rgb : 64 128
@@ -5640,225 +5640,225 @@ upper_top.rgb : 650 184
 
 
 # particle attack textures
-audit-div.rgb : 16 16 sgi
-audit-five.rgb : 16 16 sgi
-audit-four.rgb : 16 16 sgi
-audit-minus.rgb : 16 16 sgi
-audit-mult.rgb : 16 16 sgi
-audit-one.rgb : 16 16 sgi
-audit-plus.rgb : 16 16 sgi
-audit-six.rgb : 16 16 sgi
-audit-three.rgb : 16 16 sgi
-audit-two.rgb : 16 16 sgi
-blah.rgb : 32 16 sgi
-brainstorm-box.rgb : 64 16 sgi
-brainstorm-env.rgb : 64 32 sgi
-brainstorm-track.rgb : 64 8 sgi
-buzzwords-crash.rgb : 64 16 sgi
-buzzwords-inc.rgb : 64 8 sgi
-buzzwords-main.rgb : 64 8 sgi
-buzzwords-over.rgb : 64 8 sgi
-buzzwords-syn.rgb : 64 8 sgi
-doubletalk-double.rgb : 64 32 sgi
-doubletalk-dup.rgb : 64 16 sgi
-doubletalk-good.rgb : 64 32 sgi
-filibuster-cut.rgb : 32 16 sgi
-filibuster-fiscal.rgb : 128 16 sgi
-filibuster-impeach.rgb : 64 8 sgi
-filibuster-inc.rgb : 64 16 sgi
-jargon-brow.rgb : 64 8 sgi
-jargon-deep.rgb : 64 16 sgi
-jargon-hoop.rgb : 64 8 sgi
-jargon-ipo.rgb : 32 8 sgi
-legalese-hc.rgb : 64 32 sgi
-legalese-qpq.rgb : 64 32 sgi
-legalese-vd.rgb : 64 16 sgi
-mumbojumbo-boiler.rgb : 64 8 sgi
-mumbojumbo-creative.rgb : 64 16 sgi
-mumbojumbo-deben.rgb : 64 8 sgi
-mumbojumbo-high.rgb : 64 32 sgi
-mumbojumbo-iron.rgb : 64 16 sgi
-poundsign.rgb : 32 32 sgi
-schmooze-genius.rgb : 64 16 sgi
-schmooze-instant.rgb : 64 32 sgi
-schmooze-master.rgb : 64 8 sgi
-schmooze-viz.rgb : 64 16 sgi
+audit-div.rgb : 16 16
+audit-five.rgb : 16 16
+audit-four.rgb : 16 16
+audit-minus.rgb : 16 16
+audit-mult.rgb : 16 16
+audit-one.rgb : 16 16
+audit-plus.rgb : 16 16
+audit-six.rgb : 16 16
+audit-three.rgb : 16 16
+audit-two.rgb : 16 16
+blah.rgb : 32 16
+brainstorm-box.rgb : 64 16
+brainstorm-env.rgb : 64 32
+brainstorm-track.rgb : 64 8
+buzzwords-crash.rgb : 64 16
+buzzwords-inc.rgb : 64 8
+buzzwords-main.rgb : 64 8
+buzzwords-over.rgb : 64 8
+buzzwords-syn.rgb : 64 8
+doubletalk-double.rgb : 64 32
+doubletalk-dup.rgb : 64 16
+doubletalk-good.rgb : 64 32
+filibuster-cut.rgb : 32 16
+filibuster-fiscal.rgb : 128 16
+filibuster-impeach.rgb : 64 8
+filibuster-inc.rgb : 64 16
+jargon-brow.rgb : 64 8
+jargon-deep.rgb : 64 16
+jargon-hoop.rgb : 64 8
+jargon-ipo.rgb : 32 8
+legalese-hc.rgb : 64 32
+legalese-qpq.rgb : 64 32
+legalese-vd.rgb : 64 16
+mumbojumbo-boiler.rgb : 64 8
+mumbojumbo-creative.rgb : 64 16
+mumbojumbo-deben.rgb : 64 8
+mumbojumbo-high.rgb : 64 32
+mumbojumbo-iron.rgb : 64 16
+poundsign.rgb : 32 32
+schmooze-genius.rgb : 64 16
+schmooze-instant.rgb : 64 32
+schmooze-master.rgb : 64 8
+schmooze-viz.rgb : 64 16
 
 # castillian particle textures
 
-brainstorm-box-castillian.rgb : 64 24 sgi
-brainstorm-env-castillian.rgb : 48 23 sgi
-brainstorm-track-castillian.rgb : 80 10 sgi
-buzzwords-crash-castillian.rgb : 64 24 sgi
-buzzwords-inc-castillian.rgb : 80 10 sgi
-buzzwords-main-castillian.rgb : 80 10 sgi
-buzzwords-over-castillian.rgb : 80 10 sgi
-buzzwords-syn-castillian.rgb : 80 10 sgi
-doubletalk-double-castillian.rgb : 64 24 sgi
-doubletalk-dup-castillian.rgb : 64 16 sgi
-doubletalk-good-castillian.rgb : 96 24 sgi
-filibuster-cut-castillian.rgb : 64 24 sgi
-filibuster-fiscal-castillian.rgb : 128 24 sgi
-filibuster-impeach-castillian.rgb : 64 10 sgi
-filibuster-inc-castillian.rgb : 96 24 sgi
-jargon-brow-castillian.rgb : 80 10 sgi
-jargon-deep-castillian.rgb : 96 24 sgi
-jargon-hoop-castillian.rgb : 64 16 sgi
-jargon-ipo-castillian.rgb : 64 24 sgi
-mumbojumbo-boiler-castillian.rgb : 64 10 sgi
-mumbojumbo-creative-castillian.rgb : 64 24 sgi
-mumbojumbo-deben-castillian.rgb : 80 10 sgi
-mumbojumbo-high-castillian.rgb : 64 24 sgi
-mumbojumbo-iron-castillian.rgb : 64 24 sgi
-schmooze-genius-castillian.rgb : 64 16 sgi
-schmooze-instant-castillian.rgb : 64 24 sgi
-schmooze-master-castillian.rgb : 64 24 sgi
-schmooze-viz-castillian.rgb : 64 16 sgi
+brainstorm-box-castillian.rgb : 64 24
+brainstorm-env-castillian.rgb : 48 23
+brainstorm-track-castillian.rgb : 80 10
+buzzwords-crash-castillian.rgb : 64 24
+buzzwords-inc-castillian.rgb : 80 10
+buzzwords-main-castillian.rgb : 80 10
+buzzwords-over-castillian.rgb : 80 10
+buzzwords-syn-castillian.rgb : 80 10
+doubletalk-double-castillian.rgb : 64 24
+doubletalk-dup-castillian.rgb : 64 16
+doubletalk-good-castillian.rgb : 96 24
+filibuster-cut-castillian.rgb : 64 24
+filibuster-fiscal-castillian.rgb : 128 24
+filibuster-impeach-castillian.rgb : 64 10
+filibuster-inc-castillian.rgb : 96 24
+jargon-brow-castillian.rgb : 80 10
+jargon-deep-castillian.rgb : 96 24
+jargon-hoop-castillian.rgb : 64 16
+jargon-ipo-castillian.rgb : 64 24
+mumbojumbo-boiler-castillian.rgb : 64 10
+mumbojumbo-creative-castillian.rgb : 64 24
+mumbojumbo-deben-castillian.rgb : 80 10
+mumbojumbo-high-castillian.rgb : 64 24
+mumbojumbo-iron-castillian.rgb : 64 24
+schmooze-genius-castillian.rgb : 64 16
+schmooze-instant-castillian.rgb : 64 24
+schmooze-master-castillian.rgb : 64 24
+schmooze-viz-castillian.rgb : 64 16
 
 # german particle textures
 
-brainstorm-box_german.rgb : 64 24 sgi
-brainstorm-env_german.rgb : 64 24 sgi
-brainstorm-track_german.rgb : 64 10 sgi
-buzzwords-crash_german.rgb : 64 16 sgi
-buzzwords-inc_german.rgb : 80 10 sgi
-buzzwords-main_german.rgb : 80 10 sgi
-buzzwords-over_german.rgb : 80 10 sgi
-buzzwords-syn_german.rgb : 80 10 sgi
-doubletalk-double_german.rgb : 140 24 sgi
-doubletalk-dup_german.rgb : 64 24 sgi
-doubletalk-good_german.rgb : 96 24 sgi
-filibuster-cut_german.rgb : 80 10 sgi
-filibuster-fiscal_german.rgb : 128 24 sgi
-filibuster-impeach_german.rgb : 64 10 sgi
-filibuster-inc_german.rgb : 80 10 sgi
-jargon-brow_german.rgb : 80 10 sgi
-jargon-deep_german.rgb : 64 10 sgi
-jargon-hoop_german.rgb : 64 16 sgi
-jargon-ipo_german.rgb : 80 10 sgi
-mumbojumbo-boiler_german.rgb : 64 10 sgi
-mumbojumbo-creative_german.rgb : 64 24 sgi
-mumbojumbo-deben_german.rgb : 80 10 sgi
-mumbojumbo-high_german.rgb : 64 16 sgi
-mumbojumbo-iron_german.rgb : 64 24 sgi
-schmooze-genius_german.rgb : 64 16 sgi
-schmooze-instant_german.rgb : 80 10 sgi
-schmooze-master_german.rgb : 80 10 sgi
-schmooze-viz_german.rgb : 64 16 sgi
+brainstorm-box_german.rgb : 64 24
+brainstorm-env_german.rgb : 64 24
+brainstorm-track_german.rgb : 64 10
+buzzwords-crash_german.rgb : 64 16
+buzzwords-inc_german.rgb : 80 10
+buzzwords-main_german.rgb : 80 10
+buzzwords-over_german.rgb : 80 10
+buzzwords-syn_german.rgb : 80 10
+doubletalk-double_german.rgb : 140 24
+doubletalk-dup_german.rgb : 64 24
+doubletalk-good_german.rgb : 96 24
+filibuster-cut_german.rgb : 80 10
+filibuster-fiscal_german.rgb : 128 24
+filibuster-impeach_german.rgb : 64 10
+filibuster-inc_german.rgb : 80 10
+jargon-brow_german.rgb : 80 10
+jargon-deep_german.rgb : 64 10
+jargon-hoop_german.rgb : 64 16
+jargon-ipo_german.rgb : 80 10
+mumbojumbo-boiler_german.rgb : 64 10
+mumbojumbo-creative_german.rgb : 64 24
+mumbojumbo-deben_german.rgb : 80 10
+mumbojumbo-high_german.rgb : 64 16
+mumbojumbo-iron_german.rgb : 64 24
+schmooze-genius_german.rgb : 64 16
+schmooze-instant_german.rgb : 80 10
+schmooze-master_german.rgb : 80 10
+schmooze-viz_german.rgb : 64 16
 
 # french particle textures
 
-brainstorm-box_french.rgb : 64 16 sgi
-brainstorm-env_french.rgb : 64 24 sgi
-brainstorm-track_french.rgb : 64 24 sgi
-buzzwords-crash_french.rgb : 64 24 sgi
-buzzwords-inc_french.rgb : 64 16 sgi
-buzzwords-main_french.rgb : 64 24 sgi
-buzzwords-over_french.rgb : 64 16 sgi
-buzzwords-syn_french.rgb : 80 10 sgi
-doubletalk-double_french.rgb : 64 24 sgi
-doubletalk-dup_french.rgb : 64 16 sgi
-doubletalk-good_french.rgb : 96 24 sgi
-filibuster-cut_french.rgb : 64 24 sgi
-filibuster-fiscal_french.rgb : 128 24 sgi
-filibuster-impeach_french.rgb : 64 10 sgi
-filibuster-inc_french.rgb : 96 24 sgi
-jargon-brow_french.rgb : 64 10 sgi
-jargon-deep_french.rgb : 64 24 sgi
-jargon-hoop_french.rgb : 128 24 sgi
-jargon-ipo_french.rgb : 128 24 sgi
-mumbojumbo-boiler_french.rgb : 64 24 sgi
-mumbojumbo-creative_french.rgb : 64 24 sgi
-mumbojumbo-deben_french.rgb : 80 10 sgi
-mumbojumbo-high_french.rgb : 64 16 sgi
-mumbojumbo-iron_french.rgb : 64 24 sgi
-schmooze-genius_french.rgb : 64 16 sgi
-schmooze-instant_french.rgb : 128 24 sgi
-schmooze-master_french.rgb : 80 10 sgi
-schmooze-viz_french.rgb : 64 16 sgi
+brainstorm-box_french.rgb : 64 16
+brainstorm-env_french.rgb : 64 24
+brainstorm-track_french.rgb : 64 24
+buzzwords-crash_french.rgb : 64 24
+buzzwords-inc_french.rgb : 64 16
+buzzwords-main_french.rgb : 64 24
+buzzwords-over_french.rgb : 64 16
+buzzwords-syn_french.rgb : 80 10
+doubletalk-double_french.rgb : 64 24
+doubletalk-dup_french.rgb : 64 16
+doubletalk-good_french.rgb : 96 24
+filibuster-cut_french.rgb : 64 24
+filibuster-fiscal_french.rgb : 128 24
+filibuster-impeach_french.rgb : 64 10
+filibuster-inc_french.rgb : 96 24
+jargon-brow_french.rgb : 64 10
+jargon-deep_french.rgb : 64 24
+jargon-hoop_french.rgb : 128 24
+jargon-ipo_french.rgb : 128 24
+mumbojumbo-boiler_french.rgb : 64 24
+mumbojumbo-creative_french.rgb : 64 24
+mumbojumbo-deben_french.rgb : 80 10
+mumbojumbo-high_french.rgb : 64 16
+mumbojumbo-iron_french.rgb : 64 24
+schmooze-genius_french.rgb : 64 16
+schmooze-instant_french.rgb : 128 24
+schmooze-master_french.rgb : 80 10
+schmooze-viz_french.rgb : 64 16
 
 # japanese particle textures
 
-brainstorm-box_japanese.rgb : 64 24 sgi
-brainstorm-env_japanese.rgb : 48 32 sgi
-brainstorm-track_japanese.rgb : 80 10 sgi
-buzzwords-crash_japanese.rgb : 64 24 sgi
-buzzwords-inc_japanese.rgb : 80 10 sgi
-buzzwords-main_japanese.rgb : 80 10 sgi
-buzzwords-over_japanese.rgb : 80 10 sgi
-buzzwords-syn_japanese.rgb : 80 10 sgi
-doubletalk-double_japanese.rgb : 64 24 sgi
-doubletalk-dup_japanese.rgb : 64 16 sgi
-doubletalk-good_japanese.rgb : 96 24 sgi
-filibuster-cut_japanese.rgb : 64 24 sgi
-filibuster-fiscal_japanese.rgb : 128 24 sgi
-filibuster-impeach_japanese.rgb : 64 10 sgi
-filibuster-inc_japanese.rgb : 96 24 sgi
-jargon-brow_japanese.rgb : 80 10 sgi
-jargon-deep_japanese.rgb : 96 24 sgi
-jargon-hoop_japanese.rgb : 64 16 sgi
-jargon-ipo_japanese.rgb : 64 24 sgi
-legalese-hc_japanese.rgb : 64 32 sgi
-legalese-qpq_japanese.rgb : 64 32 sgi
-legalese-vd_japanese.rgb : 32 32 sgi
-mumbojumbo-boiler_japanese.rgb : 64 10 sgi
-mumbojumbo-creative_japanese.rgb : 64 24 sgi
-mumbojumbo-deben_japanese.rgb : 80 10 sgi
-mumbojumbo-high_japanese.rgb : 64 24 sgi
-mumbojumbo-iron_japanese.rgb : 64 24 sgi
-schmooze-genius_japanese.rgb : 64 16 sgi
-schmooze-instant_japanese.rgb : 64 24 sgi
-schmooze-master_japanese.rgb : 64 24 sgi
-schmooze-viz_japanese.rgb : 64 16 sgi
+brainstorm-box_japanese.rgb : 64 24
+brainstorm-env_japanese.rgb : 48 32
+brainstorm-track_japanese.rgb : 80 10
+buzzwords-crash_japanese.rgb : 64 24
+buzzwords-inc_japanese.rgb : 80 10
+buzzwords-main_japanese.rgb : 80 10
+buzzwords-over_japanese.rgb : 80 10
+buzzwords-syn_japanese.rgb : 80 10
+doubletalk-double_japanese.rgb : 64 24
+doubletalk-dup_japanese.rgb : 64 16
+doubletalk-good_japanese.rgb : 96 24
+filibuster-cut_japanese.rgb : 64 24
+filibuster-fiscal_japanese.rgb : 128 24
+filibuster-impeach_japanese.rgb : 64 10
+filibuster-inc_japanese.rgb : 96 24
+jargon-brow_japanese.rgb : 80 10
+jargon-deep_japanese.rgb : 96 24
+jargon-hoop_japanese.rgb : 64 16
+jargon-ipo_japanese.rgb : 64 24
+legalese-hc_japanese.rgb : 64 32
+legalese-qpq_japanese.rgb : 64 32
+legalese-vd_japanese.rgb : 32 32
+mumbojumbo-boiler_japanese.rgb : 64 10
+mumbojumbo-creative_japanese.rgb : 64 24
+mumbojumbo-deben_japanese.rgb : 80 10
+mumbojumbo-high_japanese.rgb : 64 24
+mumbojumbo-iron_japanese.rgb : 64 24
+schmooze-genius_japanese.rgb : 64 16
+schmooze-instant_japanese.rgb : 64 24
+schmooze-master_japanese.rgb : 64 24
+schmooze-viz_japanese.rgb : 64 16
 
 # portuguese particle textures
 
-brainstorm-box_portuguese.rgb : 64 16 sgi
-brainstorm-env_portuguese.rgb : 64 16 sgi
-brainstorm-track_portuguese.rgb : 80 10 sgi
-buzzwords-crash_portuguese.rgb : 64 24 sgi
-buzzwords-inc_portuguese.rgb : 80 10 sgi
-buzzwords-main_portuguese.rgb : 64 24 sgi
-buzzwords-over_portuguese.rgb : 80 10 sgi
-buzzwords-syn_portuguese.rgb : 80 10 sgi
-doubletalk-double_portuguese.rgb : 64 24 sgi
-doubletalk-dup_portuguese.rgb : 64 16 sgi
-doubletalk-good_portuguese.rgb : 96 24 sgi
-filibuster-cut_portuguese.rgb : 64 24 sgi
-filibuster-fiscal_portuguese.rgb : 128 24 sgi
-filibuster-impeach_portuguese.rgb : 64 10 sgi
-filibuster-inc_portuguese.rgb : 96 24 sgi
-jargon-brow_portuguese.rgb : 64 24 sgi
-jargon-deep_portuguese.rgb : 64 10 sgi
-jargon-hoop_portuguese.rgb : 64 16 sgi
-jargon-ipo_portuguese.rgb : 64 16 sgi
-mumbojumbo-boiler_portuguese.rgb : 64 10 sgi
-mumbojumbo-creative_portuguese.rgb : 64 24 sgi
-mumbojumbo-deben_portuguese.rgb : 80 10 sgi
-mumbojumbo-high_portuguese.rgb : 64 16 sgi
-mumbojumbo-iron_portuguese.rgb : 64 16 sgi
-schmooze-genius_portuguese.rgb : 64 16 sgi
-schmooze-instant_portuguese.rgb : 64 24 sgi
-schmooze-master_portuguese.rgb : 64 24 sgi
-schmooze-viz_portuguese.rgb : 64 16 sgi
+brainstorm-box_portuguese.rgb : 64 16
+brainstorm-env_portuguese.rgb : 64 16
+brainstorm-track_portuguese.rgb : 80 10
+buzzwords-crash_portuguese.rgb : 64 24
+buzzwords-inc_portuguese.rgb : 80 10
+buzzwords-main_portuguese.rgb : 64 24
+buzzwords-over_portuguese.rgb : 80 10
+buzzwords-syn_portuguese.rgb : 80 10
+doubletalk-double_portuguese.rgb : 64 24
+doubletalk-dup_portuguese.rgb : 64 16
+doubletalk-good_portuguese.rgb : 96 24
+filibuster-cut_portuguese.rgb : 64 24
+filibuster-fiscal_portuguese.rgb : 128 24
+filibuster-impeach_portuguese.rgb : 64 10
+filibuster-inc_portuguese.rgb : 96 24
+jargon-brow_portuguese.rgb : 64 24
+jargon-deep_portuguese.rgb : 64 10
+jargon-hoop_portuguese.rgb : 64 16
+jargon-ipo_portuguese.rgb : 64 16
+mumbojumbo-boiler_portuguese.rgb : 64 10
+mumbojumbo-creative_portuguese.rgb : 64 24
+mumbojumbo-deben_portuguese.rgb : 80 10
+mumbojumbo-high_portuguese.rgb : 64 16
+mumbojumbo-iron_portuguese.rgb : 64 16
+schmooze-genius_portuguese.rgb : 64 16
+schmooze-instant_portuguese.rgb : 64 24
+schmooze-master_portuguese.rgb : 64 24
+schmooze-viz_portuguese.rgb : 64 16
 
-dagger.rgb : 93 329 sgi
-fire.rgb : 32 64 sgi
+dagger.rgb : 93 329
+fire.rgb : 32 64
 # old one - still used!
-roll-o-dex.rgb : 4 4 sgi
-rollodex-card.rgb : 172 110 sgi
-rollodex-card_japanese.rgb : 172 110 sgi
-snow-particle.rgb : 16 16 sgi
-gear.rgb : 32 32 sgi force-rgba
-raindrop.rgb : 16 16 sgi
-checkmark.rgba : 16 32 sgi
-dollar-sign.rgba : 92 81 sgi
-dollar-sign-castillian.rgb : 92 81 sgi
-dollar-sign-german.rgb : 92 81 sgi
-dollar-sign-french.rgb : 92 81 sgi
-dollar-sign-japanese.rgb : 92 81 sgi
-dollar-sign-portuguese.rgb : 92 81 sgi
-spark.rgba : 180 187 sgi
+roll-o-dex.rgb : 4 4
+rollodex-card.rgb : 172 110
+rollodex-card_japanese.rgb : 172 110
+snow-particle.rgb : 16 16
+gear.rgb : 32 32 force-rgba
+raindrop.rgb : 16 16
+checkmark.rgba : 16 32
+dollar-sign.rgba : 92 81
+dollar-sign-castillian.rgb : 92 81
+dollar-sign-german.rgb : 92 81
+dollar-sign-french.rgb : 92 81
+dollar-sign-japanese.rgb : 92 81
+dollar-sign-portuguese.rgb : 92 81
+spark.rgba : 180 187
 
 # These are used by the Flunky in the tutorial
 clip-on-tie-mod.egg : tutorial_battle_props
