@@ -21,6 +21,6 @@ for file in files:
         if file.find("halloween3.tif")>-1 or file.find("halloween4.tif")>-1:
             clothingTextures.write(file+"\n")
         
-print "Okie Dokie, Job done!"
+print("Okie Dokie, Job done!")
         
 clothingTextures.close()
