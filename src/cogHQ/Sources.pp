@@ -44,11 +44,24 @@
 // Begin cashbotHQ phase 10
 #begin install_egg
   #define SOURCES \
-    CashBotShippingStation.egg CashBotLocomotive.egg mintElevator.egg \
+    CashBotLocomotive.egg mintElevator.egg \
     CashBotBoxCar.egg CashBotTankCar.egg CashBotFlatCar.egg \
     VaultLobby.egg MidVault.egg EndVault.egg CashBotBossEyes.egg \
     CFOElevator.egg DoubleMoneyStack.egg CBMetalCrate2.egg RoundShadow.egg \
     SquareShadow.egg
+  #if $[eq $[LANGUAGE], castillian]
+    #define SOURCES $[SOURCES] CashBotShippingStation_castillian.egg
+  #elif $[eq $[LANGUAGE], french]
+    #define SOURCES $[SOURCES] CashBotShippingStation_french.egg
+  #elif $[eq $[LANGUAGE], german]
+    #define SOURCES $[SOURCES] CashBotShippingStation_german.egg
+  #elif $[eq $[LANGUAGE], japanese]
+    #define SOURCES $[SOURCES] CashBotShippingStation_japanese.egg
+  #elif $[eq $[LANGUAGE], portuguese]
+    #define SOURCES $[SOURCES] CashBotShippingStation_portuguese.egg
+  #else
+    #define SOURCES $[SOURCES] CashBotShippingStation_english.egg
+  #endif
   #define PHASE 10
 #end install_egg
 
