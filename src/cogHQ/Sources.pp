@@ -26,11 +26,18 @@
     woodCrate_cube.egg woodCrateB.egg \
     CogDoor_Button.egg FactoryGearBpost.egg \
     StairTen3060_15wide.egg StairTen45.egg StairTen3060.egg \
-    CogDoorHandShake.egg sellbotHQsign.egg \
+    CogDoorHandShake.egg \
     PaintMixer.egg BossRoomHQ.egg cube_tenfoot.egg \
     // Final model names
     SellbotFactoryExterior.egg SellbotHQLobby.egg SellbotHQExterior.egg SelbotLegFactory.egg \
     cog_sky.egg cogHQ_elevator.egg
+  #if $[LANGUAGE]
+    #define SOURCES $[SOURCES] \
+      sellbotHQsign_$[LANGUAGE].egg
+  #else
+    #define SOURCES $[SOURCES] \
+      sellbotHQsign.egg
+  #endif
   #define PHASE 9
 #end install_egg
 
@@ -44,23 +51,49 @@
 // Begin cashbotHQ phase 10
 #begin install_egg
   #define SOURCES \
-    CashBotLocomotive.egg mintElevator.egg \
-    CashBotBoxCar.egg CashBotTankCar.egg CashBotFlatCar.egg \
-    VaultLobby.egg MidVault.egg EndVault.egg CashBotBossEyes.egg \
-    CFOElevator.egg DoubleMoneyStack.egg CBMetalCrate2.egg RoundShadow.egg \
-    SquareShadow.egg
-  #if $[eq $[LANGUAGE], castillian]
-    #define SOURCES $[SOURCES] CashBotShippingStation_castillian.egg
+    CashBotFlatCar.egg \
+    CashBotBossEyes.egg \
+    RoundShadow.egg \
+    SquareShadow.egg	
+  #if $[eq $[LANGUAGE], german]
+    #define SOURCES $[SOURCES] \
+      CashBotShippingStation_german.egg \
+	  CashBotLocomotive_german.egg \
+	  CashBotBoxCar_german.egg \
+	  CashBotTankCar_german.egg \
+	  VaultLobby_german.egg \
+	  MidVault_german.egg \
+	  EndVault_german.egg \
+	  CFOElevator_german.egg \
+	  DoubleMoneyStack_german.egg \
+	  CBMetalCrate2_german.egg \
+	  mintElevator_german.egg
   #elif $[eq $[LANGUAGE], french]
-    #define SOURCES $[SOURCES] CashBotShippingStation_french.egg
-  #elif $[eq $[LANGUAGE], german]
-    #define SOURCES $[SOURCES] CashBotShippingStation_german.egg
-  #elif $[eq $[LANGUAGE], japanese]
-    #define SOURCES $[SOURCES] CashBotShippingStation_japanese.egg
-  #elif $[eq $[LANGUAGE], portuguese]
-    #define SOURCES $[SOURCES] CashBotShippingStation_portuguese.egg
+    #define SOURCES $[SOURCES] \
+      CashBotShippingStation_french.egg \
+	  CashBotLocomotive_french.egg \
+	  CashBotBoxCar_french.egg \
+	  CashBotTankCar_french.egg \
+	  VaultLobby_french.egg \
+	  MidVault_french.egg \
+	  EndVault_french.egg \
+	  CFOElevator_french.egg \
+	  DoubleMoneyStack_french.egg \
+	  CBMetalCrate2_french.egg \
+	  mintElevator_french.egg
   #else
-    #define SOURCES $[SOURCES] CashBotShippingStation_english.egg
+    #define SOURCES $[SOURCES] \
+      CashBotShippingStation_english.egg \
+	  CashBotLocomotive_english.egg \
+	  CashBotBoxCar_english.egg \
+	  CashBotTankCar_english.egg \
+	  VaultLobby_english.egg \
+	  MidVault_english.egg \
+	  EndVault_english.egg \
+	  CFOElevator_english.egg \
+	  DoubleMoneyStack_english.egg \
+	  CBMetalCrate2_english.egg \
+	  mintElevator_english.egg
   #endif
   #define PHASE 10
 #end install_egg
