@@ -54,23 +54,10 @@
     CashBotFlatCar.egg \
     CashBotBossEyes.egg \
     RoundShadow.egg \
-    SquareShadow.egg	
-  #if $[eq $[LANGUAGE], german]
+    SquareShadow.egg
+  #if $[eq $[LANGUAGE], french]
     #define SOURCES $[SOURCES] \
-      CashBotShippingStation_german.egg \
-	  CashBotLocomotive_german.egg \
-	  CashBotBoxCar_german.egg \
-	  CashBotTankCar_german.egg \
-	  VaultLobby_german.egg \
-	  MidVault_german.egg \
-	  EndVault_german.egg \
-	  CFOElevator_german.egg \
-	  DoubleMoneyStack_german.egg \
-	  CBMetalCrate2_german.egg \
-	  mintElevator_german.egg
-  #elif $[eq $[LANGUAGE], french]
-    #define SOURCES $[SOURCES] \
-      CashBotShippingStation_french.egg \
+          CashBotShippingStation_french.egg \
 	  CashBotLocomotive_french.egg \
 	  CashBotBoxCar_french.egg \
 	  CashBotTankCar_french.egg \
@@ -81,9 +68,48 @@
 	  DoubleMoneyStack_french.egg \
 	  CBMetalCrate2_french.egg \
 	  mintElevator_french.egg
+  #elif $[eq $[LANGUAGE], german]
+    #define SOURCES $[SOURCES] \
+          CashBotShippingStation_german.egg \
+	  CashBotLocomotive_german.egg \
+	  CashBotBoxCar_german.egg \
+	  CashBotTankCar_german.egg \
+	  VaultLobby_german.egg \
+	  MidVault_german.egg \
+	  EndVault_german.egg \
+	  CFOElevator_german.egg \
+	  DoubleMoneyStack_german.egg \
+	  CBMetalCrate2_german.egg \
+	  mintElevator_german.egg
+  #elif $[eq $[LANGUAGE], japanese]
+    #define SOURCES $[SOURCES] \
+          CashBotShippingStation_japanese.egg \
+	  CashBotLocomotive.egg \
+	  CashBotBoxCar.egg \
+	  CashBotTankCar.egg \
+	  VaultLobby.egg \
+	  MidVault.egg \
+	  EndVault.egg \
+	  CFOElevator.egg \
+	  DoubleMoneyStack.egg \
+	  CBMetalCrate2.egg \
+	  mintElevator.egg
+  #elif $[eq $[LANGUAGE], portuguese]
+    #define SOURCES $[SOURCES] \
+          CashBotShippingStation_portuguese.egg \
+	  CashBotLocomotive.egg \
+	  CashBotBoxCar.egg \
+	  CashBotTankCar.egg \
+	  VaultLobby.egg \
+	  MidVault.egg \
+	  EndVault.egg \
+	  CFOElevator.egg \
+	  DoubleMoneyStack.egg \
+	  CBMetalCrate2.egg \
+	  mintElevator.egg
   #else
     #define SOURCES $[SOURCES] \
-      CashBotShippingStation_english.egg \
+          CashBotShippingStation_english.egg \
 	  CashBotLocomotive_english.egg \
 	  CashBotBoxCar_english.egg \
 	  CashBotTankCar_english.egg \
