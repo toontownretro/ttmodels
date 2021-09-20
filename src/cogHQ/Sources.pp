@@ -57,7 +57,7 @@
     SquareShadow.egg
   #if $[eq $[LANGUAGE], french]
     #define SOURCES $[SOURCES] \
-          CashBotShippingStation_french.egg \
+      CashBotShippingStation_french.egg \
 	  CashBotLocomotive_french.egg \
 	  CashBotBoxCar_french.egg \
 	  CashBotTankCar_french.egg \
@@ -70,7 +70,7 @@
 	  mintElevator_french.egg
   #elif $[eq $[LANGUAGE], german]
     #define SOURCES $[SOURCES] \
-          CashBotShippingStation_german.egg \
+      CashBotShippingStation_german.egg \
 	  CashBotLocomotive_german.egg \
 	  CashBotBoxCar_german.egg \
 	  CashBotTankCar_german.egg \
@@ -83,7 +83,7 @@
 	  mintElevator_german.egg
   #elif $[eq $[LANGUAGE], japanese]
     #define SOURCES $[SOURCES] \
-          CashBotShippingStation_japanese.egg \
+      CashBotShippingStation_japanese.egg \
 	  CashBotLocomotive.egg \
 	  CashBotBoxCar.egg \
 	  CashBotTankCar.egg \
@@ -96,7 +96,7 @@
 	  mintElevator.egg
   #elif $[eq $[LANGUAGE], portuguese]
     #define SOURCES $[SOURCES] \
-          CashBotShippingStation_portuguese.egg \
+      CashBotShippingStation_portuguese.egg \
 	  CashBotLocomotive.egg \
 	  CashBotBoxCar.egg \
 	  CashBotTankCar.egg \
@@ -109,7 +109,7 @@
 	  mintElevator.egg
   #else
     #define SOURCES $[SOURCES] \
-          CashBotShippingStation_english.egg \
+      CashBotShippingStation_english.egg \
 	  CashBotLocomotive_english.egg \
 	  CashBotBoxCar_english.egg \
 	  CashBotTankCar_english.egg \
