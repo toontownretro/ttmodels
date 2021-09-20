@@ -4,7 +4,7 @@
   "bam2egg 'phase_8\models\char\tt_r_ara_dga_hydrant.bam' 'phase_8\models\char\tt_r_ara_dga_hydrant.egg'"
 }
 <Texture> tt_t_ara_dga_hydrant {
-  /c/Users/Admin/player/ttmodels/src/maps/tt_t_ara_dga_hydrant.tif
+  ../../maps/tt_t_ara_dga_hydrant.tif
   <Scalar> format { rgb }
   <Scalar> wrapu { repeat }
   <Scalar> wrapv { repeat }
@@ -13,7 +13,7 @@
   <Scalar> envtype { modulate }
 }
 <Texture> tt_t_ara_gen_dropshadow {
-  /c/Users/Admin/player/ttmodels/src/maps/tt_t_ara_gen_dropshadow.tif
+  ../../maps/tt_t_ara_gen_dropshadow.tif
   <Scalar> format { luminance_alpha }
   <Scalar> wrapu { repeat }
   <Scalar> wrapv { repeat }
