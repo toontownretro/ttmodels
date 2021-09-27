@@ -126,6 +126,17 @@
   #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS]
 #end maya_char_egg
 
+// Flappy Cog
+#begin maya_char_egg
+  #define MAYA_PREFIX tt_a_ara_pty_tubeCogVictory_
+  #define EGG_PREFIX tt_a_ara_pty_tubeCogVictory_
+  #define MODEL default
+  #define POLY_MODEL  default
+  #define ANIMS $[tubeCogVictory_anims]
+  #define CHAR_NAME tubeCogVictory
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS]
+#end maya_char_egg
+
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
@@ -202,6 +213,12 @@
     -flag collisionMesh
 #end optchar_egg
 
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES $[matrix tt_a_ara_pty_tubeCogVictory_,$[tubeCogVictory_anims],.egg]
+#end optchar_egg
+
+
 
 //=============================================================================
 // Install
@@ -225,6 +242,16 @@
 #begin install_egg
   #define SOURCES \
     partyInviteGUI.egg
+  #define PHASE 5.5
+#end install_egg
+
+// Phase 5.5 source eggs include the flappy cog model and wave animation
+#begin install_egg
+// This one is also used in gardening
+  #define INSTALL_TO models/estate
+  #define SOURCES \
+     tt_a_ara_pty_tubeCogVictory_default.egg $[matrix tt_a_ara_pty_tubeCogVictory_,$[tubeCogVictory_anims],.egg] 
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 5.5
 #end install_egg
 
