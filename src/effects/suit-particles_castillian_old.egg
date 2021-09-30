@@ -1,5 +1,5 @@
 <Comment> {
-  "egg-texture-cards -o suit-particles_castillian.egg -suffix -castillian -wm clamp -f1 alpha -b audit-div.rgb audit-five.rgb audit-four.rgb audit-minus.rgb audit-mult.rgb audit-one.rgb audit-plus.rgb audit-six.rgb audit-three.rgb audit-two.rgb blah.rgb brainstorm-box-castillian.rgb brainstorm-env-castillian.rgb brainstorm-track-castillian.rgb buzzwords-crash-castillian.rgb buzzwords-inc-castillian.rgb buzzwords-main-castillian.rgb buzzwords-over-castillian.rgb buzzwords-syn-castillian.rgb dagger.rgb doubletalk-double-castillian.rgb doubletalk-dup-castillian.rgb doubletalk-good-castillian.rgb filibuster-cut-castillian.rgb filibuster-fiscal-castillian.rgb filibuster-impeach-castillian.rgb filibuster-inc-castillian.rgb fire.rgb gear.rgb jargon-brow-castillian.rgb jargon-deep-castillian.rgb jargon-hoop-castillian.rgb jargon-ipo-castillian.rgb legalese-hc.rgb legalese-qpq.rgb legalese-vd.rgb mumbojumbo-boiler-castillian.rgb mumbojumbo-creative-castillian.rgb mumbojumbo-deben-castillian.rgb mumbojumbo-high-castillian.rgb mumbojumbo-iron-castillian.rgb poundsign.rgb raindrop.rgb roll-o-dex.rgb rollodex-card.rgb schmooze-genius-castillian.rgb schmooze-instant-castillian.rgb schmooze-master-castillian.rgb schmooze-viz-castillian.rgb snow-particle.rgb checkmark.rgba dollar-sign.rgba spark.rgba"
+  "egg-texture-cards -o suit-particles_castillian.egg -suffix -castillian -wm clamp -f1 alpha -b audit-div.rgb audit-five.rgb audit-four.rgb audit-minus.rgb audit-mult.rgb audit-one.rgb audit-plus.rgb audit-six.rgb audit-three.rgb audit-two.rgb blah.rgb brainstorm-box-castillian.rgb brainstorm-env-castillian.rgb brainstorm-track-castillian.rgb buzzwords-crash-castillian.rgb buzzwords-inc-castillian.rgb buzzwords-main-castillian.rgb buzzwords-over-castillian.rgb buzzwords-syn-castillian.rgb dagger.rgb doubletalk-double-castillian.rgb doubletalk-dup-castillian.rgb doubletalk-good-castillian.rgb filibuster-cut-castillian.rgb filibuster-fiscal-castillian.rgb filibuster-impeach-castillian.rgb filibuster-inc-castillian.rgb fire.rgb gear.rgb jargon-brow-castillian.rgb jargon-deep-castillian.rgb jargon-hoop-castillian.rgb jargon-ipo-castillian.rgb legalese-hc.rgb legalese-qpq.rgb legalese-vd.rgb mumbojumbo-boiler-castillian.rgb mumbojumbo-creative-castillian.rgb mumbojumbo-deben-castillian.rgb mumbojumbo-high-castillian.rgb mumbojumbo-iron-castillian.rgb poundsign.rgb raindrop.rgb roll-o-dex.rgb rollodex-card.rgb schmooze-genius-castillian.rgb schmooze-instant-castillian.rgb schmooze-master-castillian.rgb schmooze-viz-castillian.rgb snow-particle.rgb checkmark.rgba dollar-sign-castillian.rgb spark.rgba"
 }
 <Texture> spark {
   spark.rgba
@@ -130,7 +130,7 @@
   <Scalar> wrap { clamp }
 }
 <Texture> dollar-sign {
-  dollar-sign.rgba
+  dollar-sign-castillian.rgb
   <Scalar> wrap { clamp }
 }
 <Texture> dagger {
