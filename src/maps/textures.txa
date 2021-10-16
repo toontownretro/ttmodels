@@ -3283,7 +3283,7 @@ yellow1.rgb : 32 32
 yellow2.rgb : 32 32
 fence_wood_504.rgba : 256 128 mipmap
 wheel.rgba : 128 128
-awning_edge.rgba : 64 64 clamp_v
+awning_edge.rgba : 64 64 force-rgba
 fence.rgba : 1024 512 mipmap
 ts_ground.rgb : 64 256 mipmap
 trollykey.rgb : 256 128
