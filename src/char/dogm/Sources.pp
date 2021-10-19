@@ -28,7 +28,8 @@
 //    sidestep-right
     struggle smooch sprinkle-dust \
     happy-dance firehose water-gun juggle hold-bottle spit \
-    hypnotize hold-magnet melt climb
+    hypnotize hold-magnet melt climb \
+    shift shaking spin bounce
 #define phase_5.5_dog_anims \
     jellybeanJar phoneBack phoneNeutral takePhone callPet feedPet into_dig loop_dig water
 #define phase_6_dog_anims \

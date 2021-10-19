@@ -14,9 +14,8 @@
     hold-pencil hold-eraser pickpocket throw-paper magic1 magic2 magic3 \
     pen-squirt finger-wag phone landing stomp roll-o-dex effort speak \
     pencil-sharpener rake walknreach hypnotize lured \
-    soak squirt-large
-#define phase_6_anims \
-    jump
+    soak squirt-large jump
+#define phase_6_anims
 #define phase_7_anims
 #define phase_8_anims
 #define phase_12_anims \

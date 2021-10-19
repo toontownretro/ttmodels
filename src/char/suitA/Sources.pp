@@ -17,17 +17,14 @@
     golf-club-swing roll-o-dex drop throw-object throw-paper glower \
     pickpocket fingerwag landing speak  \
     rake hypnotize lured soak squirt-large magic1 \
-    magic2 phone awalk
+    magic2 phone awalk effort fountain-pen song-and-dance cigar-smoke
 
 // animations that will not be compressed due to noticeable artifacts w/default compression level
 #define phase_4_anims_NC  neutral
 
-#define phase_6_anims \
-    effort
-#define phase_7_anims \
-    fountain-pen
-#define phase_8_anims \
-    song-and-dance cigar-smoke
+#define phase_6_anims
+#define phase_7_anims
+#define phase_8_anims
 #define phase_12_anims \
     sit-eat-out sit-eat-loop sit-eat-in \
     rightsit-hungry leftsit-hungry sit-angry sit \
