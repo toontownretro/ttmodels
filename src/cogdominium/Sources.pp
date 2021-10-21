@@ -38,8 +38,7 @@
 	tt_m_ara_crg_goldTrophy.egg \
 	tt_m_ara_crg_paintingLegalEagle.egg \
 	tt_m_ara_crg_paintingMoverShaker.egg \
-	//tt_m_ara_crg_penthouse.egg \
-	//tt_m_ara_crg_penthouse_legal.egg \
+	tt_m_ara_crg_penthouse.egg \
 	tt_m_ara_crg_silverTrophy.egg \ 
 	tt_m_ara_crg_toonCage.egg \
 	//tt_m_ara_csa_elevatorB.egg \
@@ -76,7 +75,8 @@
 	tt_m_ara_cfg_whirlwind.egg \
 	tt_m_gui_cfg_progressMeter.egg \
 	tt_m_gui_cfg_propellerMeter.egg \
-	tt_t_ara_cbr_laughBarrelUsed.egg
+	tt_t_ara_cbr_laughBarrelUsed.egg \
+	tt_m_ara_cpg_penthouse.egg
   #define PHASE 5
 #end install_egg
 
