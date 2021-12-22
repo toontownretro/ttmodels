@@ -15,7 +15,8 @@
     pen-squirt finger-wag phone landing stomp roll-o-dex effort speak \
     pencil-sharpener rake walknreach hypnotize lured \
     soak squirt-large jump
-#define phase_6_anims
+#define phase_6_anims \
+    jump //Legacy
 #define phase_7_anims
 #define phase_8_anims
 #define phase_12_anims \

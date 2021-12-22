@@ -22,9 +22,12 @@
 // animations that will not be compressed due to noticeable artifacts w/default compression level
 #define phase_4_anims_NC  neutral
 
-#define phase_6_anims
-#define phase_7_anims
-#define phase_8_anims
+#define phase_6_anims \
+    effort //Legacy
+#define phase_7_anims \
+    fountain-pen //Legacy
+#define phase_8_anims \
+    song-and-dance cigar-smoke //Legacy
 #define phase_12_anims \
     sit-eat-out sit-eat-loop sit-eat-in \
     rightsit-hungry leftsit-hungry sit-angry sit \
