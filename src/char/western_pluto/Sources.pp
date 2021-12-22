@@ -87,7 +87,7 @@
   #define SOURCES \
     $[matrix PFS/tt_a_chr_csc_plutoCostume_,$[plutoCostumeAnims] 1200 800 400,.egg]
   #define OPTCHAR_OPTS \
-    -TR 0,180,0 \
+    -TR 0,180,0 -TS 0.75 \
     -flag tt_m_chr_csc_plutoEyesOpen*=eyesOpen \
     -flag tt_m_chr_csc_plutoEyesClosed*=eyesClosed
 #end optchar_egg

@@ -31,21 +31,9 @@
    	tt_a_chr_csc_daisyCostume_default.egg \
   	$[matrix tt_a_chr_csc_daisyCostume_,$[anims],.egg]
   #define OPTCHAR_OPTS \
-     -TR 0,180,0 -TS 5.08 \
-     -flag pupil_left=eyespupil\
-     -flag pupil_right=eyespupil \
-     -flag eyelash_open_left=eyesopen \
-     -flag eyelash_open_right=eyesopen \
-     -flag eyeball_left=eyes \
-     -flag eyeball_right=eyes \
-     -flag eyelids_blink_left=eyesclose \
-     -flag eyelids_blink_right=eyesclose \
-     -flag eyelash_closed_left=eyesclose \
-     -flag eyelash_closed_right=eyesclose \
-     -suppress joint_headnull \
-     -flag head?front=eyes \
-     -flag HeadFront=eyes \
-     -flag Head?Front=eyes
+    //-TR 0,180,0 -TS 5.08 \
+    -flag eyesOpen*=eyesOpen \
+    -flag eyesClosed*=eyesClosed
 #end optchar_egg
 
 #begin install_egg

@@ -59,7 +59,7 @@
 #define nc_anims \
    climb
 
-#define walk_frames 2 25
+#define walk_frames 0 24
 #define tug-o-war_frames 2 21
 #define into_dig_frames 1 10
 #define loop_dig_frames 1 41

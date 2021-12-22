@@ -158,7 +158,7 @@
   #define SOURCES \
     HQ_periscope-mod.egg HQ_periscope-chan.egg
   #define OPTCHAR_OPTS \
-    -TS 0.25
+    -TS 7.5
 #end optchar_egg
 
 // Optimize the various characters.

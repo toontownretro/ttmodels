@@ -3441,7 +3441,7 @@ DuckBigVerySad.rgb : 1024 1024 mipmap
 DuckSmallAnger.rgb : 1024 1024 mipmap
 DuckSmallLaugh.rgb : 1024 1024 mipmap
 DuckSmallNeutral.rgb : 1024 1024 mipmap
-DuckSmallSmile.rgb : 96 96 mipmap
+DuckSmallSmile.rgb : 1024 1024 mipmap
 DuckSmallSurprise.rgb : 1024 1024 mipmap
 DuckSmallVerySad.rgb : 1024 1024 mipmap
 duck_head_new.pic : 256 256 mipmap

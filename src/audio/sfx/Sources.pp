@@ -10,7 +10,7 @@
     GUI_rollover.mp3 GUI_balloon_popup.mp3 \
     tt_s_ara_mat_crash_boing.mp3 tt_s_ara_mat_crash_glassBoing.mp3 \
     tt_s_ara_mat_crash_wood.mp3 tt_s_ara_mat_crash_woodBoing.mp3 \
-    tt_s_ara_mat_crash_woodGlass.mp3
+    tt_s_ara_mat_crash_woodGlass.mp3 clock03.mp3
 #define PHASE 3
 #end install_audio
 

@@ -56,8 +56,8 @@
      -flag pupil_right=eyespupil \
      -flag eyelash_open_left=eyesopen \
      -flag eyelash_open_right=eyesopen \
-     -flag eyeball_left=eyes \
-     -flag eyeball_right=eyes \
+     -flag eyeball_left=eyesopen \
+     -flag eyeball_right=eyesopen \
      -flag eyelids_blink_left=eyesclose \
      -flag eyelids_blink_right=eyesclose \
      -flag eyelash_closed_left=eyesclose \
