@@ -404,7 +404,7 @@ wall_sm_cement.rgb : 256 256 mipmap
 wall_sm_cement_blue.rgb : 256 256 mipmap
 wall_sm_wood.rgb : 128 256 mipmap
 wall_bricks.rgb : 256 256 mipmap
-wall_fence_wood.rgba : 360 196 mipmap repeat_u clamp_v
+wall_fence_wood.rgba : 360 196 mipmap
 foundation_wall_brick.rgb : 256 66 mipmap
 foundation_wall_rock.rgb : 512 165 mipmap
 
@@ -466,7 +466,7 @@ sidewalk_red.rgb : 256 256 omit mipmap aniso 4
 sidewalk_purple.rgb : 256 256 omit mipmap aniso 4
 burrrgh_sidewalk.rgb : 256 256 omit mipmap aniso 4
 DL_sidewalk.rgb : 256 256 omit mipmap aniso 4
-keyboard_segment.rgb : 128 128 omit mipmap aniso 8 repeat_u clamp_v
+keyboard_segment.rgb : 128 128 omit mipmap aniso 8
 sidewalk.rgb : 256 256 omit mipmap aniso 4
 sidewalkbrown.rgb : 256 256 omit mipmap aniso 4
 sidewalk_brown.rgb : 256 256 omit mipmap aniso 4
@@ -613,11 +613,11 @@ GS_box_bot.rgb : 165 166
 GS_box_frt.rgb : 128 128
 GS_box_top.rgb : 128 37
 GS_boxside.rgb : 128 128
-GS_fireworks.rgba : 158 200 clamp_u clamp_v
+GS_fireworks.rgba : 158 200
 GS_front.rgb : 271 497
-GS_hang_rope.rgba : 115 23 clamp_u
+GS_hang_rope.rgba : 115 23
 GS_hat.rgb : 344 224
-GS_hook.rgba  : 65 51 clamp_v
+GS_hook.rgba  : 65 51
 GS_roof.rgb : 409 212
 GS_roofside.rgb : 331 140
 # This is omitted because it also appears on tug_of_war_rope, and
@@ -633,7 +633,7 @@ GS_windowR.rgba   : 187 225
 GS_windowT1.rgba : 157 72
 GS_wood.rgb : 128 37
 cornices.rgb : 512 97
-flat_chimney.rgba : 256 190 clamp_u
+flat_chimney.rgba : 256 190
 safebox_bot.rgb : 233 215
 windowL1.rgba  : 131 33
 trim.rgb : 310 32
@@ -643,7 +643,7 @@ flat_chimneyTop.rgb : 71 40
 floor_wood.rgb : 162 248 omit mipmap aniso 4
 flower_bed_purple_tutorial.rgb : 252 216
 french_window.rgb : 494 347
-windowL1Neutral.rgb : 131 33 clamp_u clamp_v
+windowL1Neutral.rgb : 131 33
 
 gagShop_interior_english.egg : toon_interior
 gagShop_TT_english.egg : toontown_central_safezone
@@ -767,7 +767,7 @@ stun-mod.egg : tutorial_suits
 # FONTS
 ######################################################################
 # Keep the fonts high res and don't jpeg them.  No reason not to
-# palettize them, though.  We use the keyword "sgi" to indicate SGI RGB
+# palettize them, though.  We use the keyword "sgi" to indicate RGB
 # format (we can't use "rgb", because that indicates the channel
 # format: rgb as opposed to rgba).
 
@@ -883,7 +883,7 @@ RedDogSaloon.egg : phase_3
 
 # pre-load
 logo-background.rgb : 327 262 omit linear
-toontown-logo.rgba : 435 178 omit linear clamp_u
+toontown-logo.rgba : 435 178 omit linear
 
 # make-a-toon
 SIZE_CHART_AVATARS.rgb : 512 58
@@ -1537,7 +1537,7 @@ tt_t_ara_cbr_Barrel_notUsed.tif : 128 128 omit
 tt_t_ara_cbr_Barrel_Used.tif : 128 128 omit
 tt_t_ara_cbr_battleArea.tif : 256 256 omit
 tt_t_ara_cbr_framework.tif : 256 256 omit
-tt_t_ara_cbr_laughBarrel.tif : 128 128 omit
+tt_t_ara_cbr_laughBarrel.tif : 256 256 omit
 tt_t_ara_cbr_lightGlow_alpha.tif : 64 64
 tt_t_ara_cbr_pipes.tif : 256 256 omit
 tt_t_ara_cbr_steelWalls.tif : 256 256 omit
@@ -3284,7 +3284,7 @@ yellow2.rgb : 32 32
 fence_wood_504.rgba : 256 128 mipmap
 wheel.rgba : 128 128
 awning_edge.rgba : 64 64 force-rgba
-fence.rgba : 1024 512 mipmap
+fence.rgba : 186 146 mipmap
 ts_ground.rgb : 64 256 mipmap
 trollykey.rgb : 256 128
 tunnel_entrance_half.rgb : 105 256
@@ -5033,7 +5033,7 @@ pocketFront1.rgb : 192 192
 platformTop.rgb : 256 256
 platformSide.rgb : 512 59
 CeilingSquares.rgb : 512 512
-SolidPaint.rgb : 512 511
+SolidPaint.rgb : 512 511 force-rgb
 SiloWalkway.rgb : 270 240
 triStairs4.rgb : 1024 561
 RollUpDoors.tif : 256 256
@@ -5672,7 +5672,7 @@ jargon-hoop.rgb : 64 8
 jargon-ipo.rgb : 32 8
 legalese-hc.rgb : 64 32
 legalese-qpq.rgb : 64 32
-legalese-vd.rgb : 64 16
+legalese-vd.rgb : 32 32
 mumbojumbo-boiler.rgb : 64 8
 mumbojumbo-creative.rgb : 64 16
 mumbojumbo-deben.rgb : 64 8
@@ -6042,7 +6042,7 @@ tunnel_sign_green.rgba : 256 140 omit
 tunnel_sign_magenta.rgba : 256 140 omit
 tunnel_sign_orange.rgba : 256 140 omit
 tunnel_sign_red.rgba : 256 140 omit
-cogHQ_sign.rgba : 320 250 omit
+cogHQ_sign.rgba : 315 244 omit
 
 neighborhood_sign_BR_english.egg : neighborhood_common
 neighborhood_sign_DD_english.egg : neighborhood_common
@@ -6269,7 +6269,7 @@ texpath3.rgb : 256 256
 columns.rgb : 64 128
 railsTop.rgb : 32 32
 stairs.rgb : 256 256
-treetops.rgba : 512 256 repeat_u clamp_v
+treetops.rgba : 512 256
 tt_central_fence.rgb : 256 128
 tt_fence_post.rgb : 64 256
 fence2.rgba : 32 128
@@ -6353,10 +6353,10 @@ school_window_sm_curved.rgb : 185 229
 wall_stone.rgb : 28 112
 wall_trim.rgb : 135 16
 ice_cream.rgba : 83 114
-BG5_1.rgba : 512 260 clamp_u clamp_v
-BG5_2.rgba : 512 257 clamp_u clamp_v
-BG5_3.rgba : 512 257 repeat_u clamp_v
-BG5_4sign.rgba : 512 257 clamp_u clamp_v
+BG5_1.rgba : 512 260
+BG5_2.rgba : 512 257
+BG5_3.rgba : 512 257
+BG5_4sign.rgba : 512 257
 TT_fireplug_body.rgb : 256 256
 TT_hydrant_base.rgb : 324 319
 TT_hydrant_side.rgb : 100 48
@@ -6421,7 +6421,7 @@ hq_gray.rgb : 156 144
 hq_light.rgb : 235 138
 hq_sidewood.rgb : 128 51
 tower_top.rgba : 128 130
-fence_stoneWall.rgb : 512 506 aniso 4 repeat_u clamp_v
+fence_stoneWall.rgb : 512 506 aniso 4
 fence_wood_flower.rgb : 512 506 aniso 4
 site_plan.rgb : 1024 893
 hqTT_eye.rgba : 256 256
@@ -6560,7 +6560,7 @@ floor2.rgb : 512 512 omit mipmap aniso 4
 glass.rgba : 512 512
 glass.rgb : 512 512
 gorilla_hole.rgb : 258 258
-handle.rgba : 32 64
+handle.rgba : 128 128
 int_gray.rgb : 156 144
 int_speaker_end.rgb : 68 65
 int_speaker_in.rgb : 256 256
@@ -6641,7 +6641,7 @@ ear_protection.rgba : 316 316
 easel2.rgb : 278 432
 bird_painting.rgb : 389 512
 gloves.rgba : 320 378
-hedge.rgb : 216 185 repeat_u clamp_v
+hedge.rgb : 216 185
 
 
 clothshop.egg : toontown_central_safezone
@@ -6813,10 +6813,10 @@ gold.rgb : 32 32
 palmtop.rgba : 128 128
 palmtop2.rgba : 133 86
 palmtrunk.rgba : 64 256
-ropes.rgba : 256 128 repeat_u clamp_v
+ropes.rgba : 256 128
 sidewalk.rgb : 256 256 omit mipmap aniso 4
 stairs.rgb : 256 256
-treetops.rgba : 512 256 clamp_v
+treetops.rgba : 512 256
 duckboat_whistle.rgb : 64 128
 boathorn.rgb : 512 256
 boatpoles.rgb : 64 256
@@ -6834,7 +6834,7 @@ pierpilon.rgb : 128 256
 pierpilon_underwater.rgb : 64 64
 pierpilon_upper.rgb : 128 256
 pierpilon_top.rgb : 64 64
-pierwall1.rgb : 128 64 repeat_u clamp_v
+pierwall1.rgb : 128 64
 pierwall3.rgb : 128 128
 pond_edge_1.rgb : 256 128
 pond_land_edge.rgb : 256 128
@@ -6977,7 +6977,7 @@ tt_m_ara_dod_SZ_hq_french.egg : donalds_dock_safezone
 bighorn_base.rgb : 128 128
 gold_horn_base.rgb : 128 128
 horn_gold.rgb : 128 256
-melodyland_half_stage.rgba : 256 256 clamp_u clamp_v
+melodyland_half_stage.rgba : 256 256
 melodyland_wall3.rgb : 512 128
 melodyland_wall4.rgb : 503 121
 minnie_drum_mag.rgb : 256 64
@@ -6989,20 +6989,20 @@ minnies_sidewalk.rgb : 256 256 omit mipmap aniso 4
 musical_notes2.rgba : 128 128
 round_keyboard.rgb : 256 256 aniso 4
 small_wall_brick.rgb : 512 128
-quarter_keyboard.rgb : 128 129 aniso 4 clamp_u clamp_v
+quarter_keyboard.rgb : 128 129 aniso 4
 gramophone_2piece_flatten.rgb : 256 256
 music_wall2.rgb : 793 475
 music_wall_bg.rgb : 128 64
-music_wall_wave2.rgba : 256 128 repeat_u clamp_v
-music_wall_wave3.rgba : 256 128 repeat_u clamp_v
+music_wall_wave2.rgba : 256 128
+music_wall_wave3.rgba : 256 128
 round2.rgb : 128 128
-trumpet_side2.rgba : 256 128 clamp_u clamp_v
-trumpet_big.rgba : 71 268 clamp_u clamp_v
-trumpet_small.rgba : 66 170 clamp_u clamp_v
-violin.rgba : 164 262 clamp_u clamp_v
+trumpet_side2.rgba : 256 128
+trumpet_big.rgba : 71 268
+trumpet_small.rgba : 66 170
+violin.rgba : 164 262
 minnie_planter.rgb : 503 121
-pong.rgba : 62 111 clamp_u clamp_v
-pentagram.rgb : 256 128 repeat_u clamp_v
+pong.rgba : 62 111
+pentagram.rgb : 256 128
 MM_planter_leaf.rgba : 216 216
 MM_planterbox_side.rgb : 554 362
 MM_transhcan_top.rgb : 161 451
@@ -7101,7 +7101,7 @@ burrrgh_sidewalk.rgb : 256 256 omit mipmap aniso 4
 icewater.rgb : 126 136
 snow_mountain.rgb : 512 64
 snow_wall_front.rgb : 512 128
-snow_wall_front2.rgb : 512 128 repeat_u clamp_v
+snow_wall_front2.rgb : 512 128
 snowfield_mountain.rgb : 256 256
 snowpile.rgb : 128 128
 igloo_entrance_top.rgb : 128 256
@@ -7229,7 +7229,7 @@ stone2.rgb : 105 102
 DG_daisys_pond.rgb : 246 222
 flower_bed.rgb : 216 216 mipmap
 flower_bed2a.rgb : 216 216 mipmap
-trees_bg.rgba : 256 219 repeat_u clamp_v
+trees_bg.rgba : 256 219
 DG_arch_flowers.rgba : 272 307
 DG_arch_flowers2.rgba : 272 307
 DG_fountain_base.rgb : 329 223
@@ -7268,7 +7268,7 @@ planer_conc_front.rgb : 338 72
 planer_conc_top.rgb : 223 14
 wood_fence.rgba : 128 153 mipmap
 flower_bed2b.rgba : 216 216 mipmap
-flower_bed_purple.rgba : 216 216 mipmap repeat_u clamp_v
+flower_bed_purple.rgba : 216 216 mipmap
 DG_flower_basket.rgba : 223 180 mipmap
 DG_flower_simple_woodbox.rgba : 274 71 mipmap
 DG_trowel.rgba : 110 207
@@ -7372,7 +7372,7 @@ door_double_roundDL.rgba : 323 353 mipmap
 dreamland_cloud_temp.rgba : 512 128
 cloudfloor.rgb : 16 16
 bedknob.rgba : 128 256
-bed_headboard_post.rgb : 49 147 clamp_u clamp_v
+bed_headboard_post.rgb : 49 147
 patch1.rgb : 256 256
 patch2.rgb : 256 256
 bedpostback.rgb : 512 256
@@ -7451,7 +7451,7 @@ DL_sign4.rgba : 512 196
 zzz.rgba : 135 64
 bed_headboard_head_half.rgb : 254 243
 nightskytop.rgb : 128 128
-clouds_edgeDL.rgba : 512 166 repeat_u clamp_v
+clouds_edgeDL.rgba : 512 166
 windows.rgb : 470 470
 
 # hq
@@ -7472,7 +7472,7 @@ hqDL_sign_german.rgb : 300 70
 hqDL_sign_portuguese.tif : 300 70
 hqDL_sign_japanese.rgb : 300 70
 hqDL_sign_french.rgb : 300 70
-cloudsDL.rgba : 512 256 repeat_u clamp_v
+cloudsDL.rgba : 512 256
 DL_pond_moon.rgb : 554 552
 water3_old.rgb : 512 512
 DL_light_base.rgb : 451 320
@@ -8222,7 +8222,7 @@ apple.tif : 256 256
 apple_stalk.tif : 256 256
 forest_tree.tif : 910 400
 leaves.rgb : 256 256
-orange.tif : 8 8
+orange.tif : 256 256
 watermelon.tif : 256 256
 pear.tif : 512 512
 coconut.tif : 512 512
@@ -8623,7 +8623,7 @@ mattressSideB2.tif : 512 93
 mattressTop2.tif : 260 449
 catalogBackground.rgb : 800 600 linear
 monkeyCattlelogCover.tif : 373 409 linear
-cover3Picture.rgb : 256 256 linear clamp_u clamp_v
+cover3Picture.rgb : 256 256 linear
 beanBankDisplay.rgb : 104 145 linear
 catalogBase.rgb : 323 466 linear
 clarabelleFrame.rgb : 232 282 linear
@@ -8652,7 +8652,7 @@ cover1Picture.rgb : 300 303 linear
 cover4picture.rgb : 300 302 linear
 cover5Picture.tif : 373 409 linear
 cover6Picture.tif : 300 302 linear
-cover7picture.tif : 373 409 linear clamp_u clamp_v
+cover7picture.tif : 373 409 linear
 cattlelogSaleCover3.tif : 373 409 linear
 square11.rgb : 166 134 linear
 square12.rgb : 143 138 linear
@@ -9191,7 +9191,7 @@ MushroomPot.tif : 256 256
 StemL.tif : 256 256
 RedCap.tif : 512 512
 YellowCap.tif : 512 512
-cover2Picture.tif : 300 302 linear clamp_u clamp_v
+cover2Picture.tif : 300 302 linear
 toonTownBugTV_accessories.tif : 512 512
 degasHorseStar.tif : 730 901
 MagPie.tif : 1062 803
@@ -10496,7 +10496,8 @@ kartshop_roofbeams.png : 128 128
 kartshop_roofcrest.png : 512 512
 kartshop_roofrails.png : 64 64
 # alpha issues?
-kartshop_sign.png : 128 128
+kartshop_sign.tif : 229 224
+kartshop_sign.png : 256 256
 kartshop_trophywindowback.png : 1024 1024
 kartshop_wallhanging2.png : 128 128
 kartshop_windowframe.png : 256 256
@@ -10720,8 +10721,8 @@ sign_lawbotHQ_portuguese : 320 250
 sign_lawbotHQ_french : 128 128 # Needs to be changed when a higher resolution has been found.
 neighborhood_sign_lawBotHQ_english.egg : neighborhood_common
 neighborhood_sign_lawBotHQ_castillian.egg : neighborhood_common
-#neighborhood_sign_lawBotHQ_german.egg : neighborhood_common
 neighborhood_sign_lawBotHQ_japanese.egg : neighborhood_common
+#neighborhood_sign_lawBotHQ_german.egg : neighborhood_common
 neighborhood_sign_lawBotHQ_portuguese.egg : neighborhood_common
 neighborhood_sign_lawBotHQ_french.egg : neighborhood_common
 
@@ -10953,7 +10954,7 @@ golf_tunnel2.egg : golf
 # golf props
 golf_props_goofyStatue_flat : 544 715
 golf_props_Statue_base : 256 256
-golf_ball.tif : 128 128
+golf_ball.tif : 256 256
 
 # outdoor area
 outdoor_area_ground.tif : 512 455
@@ -11050,6 +11051,7 @@ CogCart_Chair_1.tif : 128 128
 Golfheadlamp.tif : 128 128
 Cogkart3_windshield.tif: 128 128
 CogHedgeMaze2.tif: 256 256
+flag.tif : 64 64
 StoneWall1eVine.tif : 256 256
 BQ_Fireplace_1.tif : 1024 1024
 roof2.tif : 256 256
@@ -11390,6 +11392,10 @@ PartyMerryGoRoundIcon.png   : 512 512
 PartyJukebox40Icon.png : 512 512
 PartyDance20Icon.png    : 512 512
 PartyCogIcon.png : 512 512
+PartyVictoryTrampolineIcon.png : 512 512
+PartyWinterTrampolineIcon.png : 512 512
+PartyWinterCatchIcon.png : 512 512
+PartyWinterCogIcon.png : 512 512
 tt_t_ara_pty_iconDanceFloorValentine.tif : 64 64
 tt_t_ara_pty_iconJukeboxValentine.tif : 64 64
 tt_t_ara_pty_iconTrampolineValentine.tif : 64 64
@@ -11497,7 +11503,7 @@ tt_i_art_btn_NavEvtRo2.tif : 152 26
 tt_i_art_btn_NavEvt.tif : 90 26
 tt_i_art_btn_NavEvt2.tif : 90 26
 tt_i_art_btn_NavExtRo2.tif : 214 32
-tt_i_art_btn_NavExt2.tif : 42 32
+tt_i_art_btn_NavExt2.tif : 165 32
 tt_i_art_btn_NavAttRo.tif : 152 26
 tt_i_art_btn_NavAtt.tif : 152 26
 tt_i_art_btn_HomTotRo.tif : 69 63

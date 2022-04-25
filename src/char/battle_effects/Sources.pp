@@ -74,7 +74,7 @@
   #define SOURCES \
     stun-mod.egg stun-chan.egg
   #define OPTCHAR_OPTS \
-     -TR 0,180,0 -TS 0.25
+     -no -TR 0,180,0 -TS 0.25
 #end optchar_egg
 
 
@@ -85,7 +85,7 @@
     splat-mod.egg splat-chan.egg    
   // We don't want to rotate splat; it will be billboarded at runtime.
   #define OPTCHAR_OPTS \
-     -TS 0.25 \
+     -no -TS 0.25 \
      -flag splatter=splat
 #end optchar_egg
 
@@ -95,7 +95,7 @@
     dust-mod.egg dust-chan.egg    
   // We don't want to rotate dust; it will be billboarded at runtime.
   #define OPTCHAR_OPTS \
-     -TS 0.25 \
+     -no -TS 0.25 \
      -flag TheCloud8=cloud1 \
      -flag TheCloud6=cloud2 \
      -flag TheCloud5=cloud3 \
@@ -115,7 +115,7 @@
     kapow-mod.egg kapow-chan.egg    
   // We don't want to rotate kapow; it will be billboarded at runtime.
   #define OPTCHAR_OPTS \
-     -TS 0.25 \
+     -no -TS 0.25 \
      -flag TheLettering=letters \
      -flag TheExplosion=explosion
 #end optchar_egg
@@ -126,8 +126,8 @@
     suit_explosion-mod.egg suit_explosion-chan.egg    
   // We don't want to rotate suit_explosion; it will be billboarded at runtime.
   #define OPTCHAR_OPTS \
-     -expose joint-scale-POW,joint-scale-BOOM,joint-scale-BLAM \
-     -TS 0.25
+     -expose joint_scale_POW,joint_scale_BOOM,joint_scale_BLAM \
+     -no -TS 0.25
 #end optchar_egg
 
 #begin optchar_egg
@@ -135,7 +135,7 @@
   #define SOURCES \
     spray.egg    
   #define OPTCHAR_OPTS \
-     -expose joint-attachSplash -TR 0,180,0 -TS 0.25 
+     -expose joint_attachSplash -no -TR 0,180,0 -TS 0.25 
 #end optchar_egg
 
 // INSTALL

@@ -23,6 +23,7 @@
     applause confused give swing \
     fishEND reelH reelneutral pole cast reel fishneutral poleneutral fishAGAIN \
     bow castlong think petin petloop petend begCycle intoBeg begOut curtsy gameThrow
+    //scientistEmcee
 #define phase_5_dog_anims \
     lose toss shout tickle \
 //    sidestep-right
@@ -48,6 +49,7 @@
     tutorial-neutral left-point right-point-start right-point \
     give-props-start give-props right-hand-start \
     right-hand bow
+    //scientistEmcee
 
 // These animations (also listed above) are defined only on the skirts
 // body types.
@@ -61,6 +63,7 @@
 // These animations (also listed above) should not be compressed.
 #define nc_anims \
    right-hand climb
+   //scientistEmcee
 
 #define tug-o-war_frames 2 21
 #define into_dig_frames 1 10

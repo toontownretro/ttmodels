@@ -1,11 +1,41 @@
 <CoordinateSystem> { Z-Up }
 
-<Comment> {
-  "bam2egg 'phase_5\models\cogdominium\tt_m_ara_cfg_legalEaglePaths.bam' 'phase_5\models\cogdominium\tt_m_ara_cfg_legalEaglePaths.egg'"
+<VertexPool> retreat_path.pool {
+  <Vertex> 0 { 0 0 0 1 }
+  <Vertex> 1 { 0 3 0 1 }
+  <Vertex> 2 { 0 5.9541 0 1 }
+  <Vertex> 3 { 0 6.4506 3.64959 1 }
 }
-<Group> {
-  <Group> retreat_path {
+<NURBSCurve> retreat_path {
+  <Char*> type { XYZ }
+  <Order> { 4 }
+  <Knots> {
+    0 0 0 0 1 1 
+    1 1 
   }
-  <Group> charge_path {
+  <VertexRef> {
+    0 1 2 3
+    <Ref> { retreat_path.pool }
+  }
+}
+<CoordinateSystem> { Z-Up }
+
+<VertexPool> charge_path.pool {
+  <Vertex> 0 { 0 0.0177588 0 1 }
+  <Vertex> 1 { 0 -3.3483 0 1 }
+  <Vertex> 2 { 0 -6.01783 19.7468 1 }
+  <Vertex> 3 { 0 -13.2761 19.7468 1 }
+  <Vertex> 4 { 0 -14.4677 69.1444 1 }
+}
+<NURBSCurve> charge_path {
+  <Char*> type { XYZ }
+  <Order> { 4 }
+  <Knots> {
+    0 0 0 0 1 2 
+    2 2 2 
+  }
+  <VertexRef> {
+    0 1 2 3 4
+    <Ref> { charge_path.pool }
   }
 }

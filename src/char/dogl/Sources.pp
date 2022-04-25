@@ -20,6 +20,7 @@
     applause confused give swing \
     fishEND reelH reelneutral pole cast reel fishneutral poleneutral fishAGAIN \
     gameThrow bow curtsy castlong think petin petloop petend begCycle intoBeg begOut
+    //scientistGame scientistJealous scientistWork
 #define phase_5_dog_anims \
     lose shout toss tickle \
 //    sidestep-right
@@ -43,7 +44,7 @@
 // body types.
 #define male_only \
     gameThrow bow
-
+    //scientistGame scientistJealous scientistWork
 // These animations (also listed above) are defined only on the skirts
 // body types.
 #define female_only \
@@ -57,6 +58,7 @@
 // These animations (also listed above) should not be compressed.
 #define nc_anims \
    climb
+   //scientistGame scientistJealous scientistWork
 
 #define feedPet_frames 2 65
 #define tug-o-war_frames 2 21
