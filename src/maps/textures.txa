@@ -1475,7 +1475,7 @@ tt_m_ara_cmg_level.egg : maze_cogdogame
 tt_m_ara_cmg_splash.egg : maze_cogdogame
 tt_m_ara_cmg_waterBalloon.egg : maze_cogdogame
 
-# GUI 
+# GUI
 tt_m_gui_cmg_bossCog.egg : maze_cogdogame
 tt_m_gui_cmg_miniMap_cards.egg : maze_cogdogame
 
@@ -1674,7 +1674,7 @@ tt_t_ara_csa_memo.tif : 64 64 omit
 tt_t_ara_csa_memo_flash.tif : 64 64 omit
 tt_t_ara_csa_paintingFrame.tif : 32 256 omit
 
-tt_t_gui_cfg_healthbar.tif : 32 32
+tt_t_gui_cfg_healthBar.tif : 32 32
 tt_t_gui_cfg_progressMeter.tif : 64 512 omit
 tt_t_gui_cfg_propellerMeter_arrow.tif : 32 32
 tt_t_gui_cfg_propellerMeter_blade.tif : 32 64
