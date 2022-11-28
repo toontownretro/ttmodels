@@ -4,7 +4,7 @@ Makefile
 /built/
 built/
 *.bam
-# *.egg
+*.egg
 *.pt
 stamp
 *.boo
