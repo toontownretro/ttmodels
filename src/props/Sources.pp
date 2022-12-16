@@ -3,7 +3,7 @@
 
 // Some props need all of their translates preserved.
 // flt files will always preserve the translates if it can.
-#define MAYA2EGG_OPTS -uo ft -trans all -tbnall -nv 60
+#define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -trans all
 
 #begin flt_egg
   #define SOURCES $[wildcard *.flt]
