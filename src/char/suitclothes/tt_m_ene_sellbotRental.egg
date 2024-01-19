@@ -1,5 +1,5 @@
 <Comment> {
-  "egg-texture-cards -o tt_m_ene_sellbotRental.egg tt_t_ene_sellbotRental_sleeve.tif tt_t_ene_sellbotRental_shoe.tif tt_t_ene_sellbotRental_leg.tif tt_t_ene_sellbotRental_hand.tif tt_t_ene_sellbotRental_blazer.tif tt_t_ene_sellbotRental_arm.tif"
+  "egg-texture-cards -o tt_m_ene_sellbotRental.egg tt_t_ene_sellbotRental_sleeve.tif tt_t_ene_sellbotRental_shoe.tif tt_t_ene_sellbotRental_leg.tif tt_t_ene_sellbotRental_hand.tif tt_t_ene_sellbotRental_blazer.tif tt_t_ene_sellbotRental_arm.tif ../../maps/tt_t_ene_sellbotRental.png"
 }
 <Texture> tt_t_ene_sellbotRental_sleeve {
   tt_t_ene_sellbotRental_sleeve.tif
@@ -19,67 +19,77 @@
 <Texture> tt_t_ene_sellbotRental_arm {
   tt_t_ene_sellbotRental_arm.tif
 }
+<Texture> tt_t_ene_sellbotRental {
+  "../../maps/tt_t_ene_sellbotRental.png"
+}
 <Group> {
   <Switch> { 1 }
   <Scalar> fps { 2 }
   <VertexPool> vpool {
-    <Vertex> 1 {
+    <Vertex> 0 {
       -0.5 0.5 0
       <UV> { 0 1 }
     }
-    <Vertex> 2 {
+    <Vertex> 1 {
       -0.5 -0.5 0
       <UV> { 0 0 }
     }
-    <Vertex> 3 {
+    <Vertex> 2 {
       0.5 -0.5 0
       <UV> { 1 0 }
     }
-    <Vertex> 4 {
+    <Vertex> 3 {
       0.5 0.5 0
       <UV> { 1 1 }
-    }
-  }
-  <Group> tt_t_ene_sellbotRental_hand {
-    <Polygon> {
-      <RGBA> { 1 1 1 1 }
-      <TRef> { tt_t_ene_sellbotRental_hand }
-      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
-    }
-  }
-  <Group> tt_t_ene_sellbotRental_leg {
-    <Polygon> {
-      <RGBA> { 1 1 1 1 }
-      <TRef> { tt_t_ene_sellbotRental_leg }
-      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
-    }
-  }
-  <Group> tt_t_ene_sellbotRental_shoe {
-    <Polygon> {
-      <RGBA> { 1 1 1 1 }
-      <TRef> { tt_t_ene_sellbotRental_shoe }
-      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
     }
   }
   <Group> tt_t_ene_sellbotRental_sleeve {
     <Polygon> {
       <RGBA> { 1 1 1 1 }
       <TRef> { tt_t_ene_sellbotRental_sleeve }
-      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
     }
   }
-  <Group> tt_t_ene_sellbotRental_arm {
+  <Group> tt_t_ene_sellbotRental_shoe {
     <Polygon> {
       <RGBA> { 1 1 1 1 }
-      <TRef> { tt_t_ene_sellbotRental_arm }
-      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+      <TRef> { tt_t_ene_sellbotRental_shoe }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_ene_sellbotRental_leg {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ene_sellbotRental_leg }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_ene_sellbotRental_hand {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ene_sellbotRental_hand }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
     }
   }
   <Group> tt_t_ene_sellbotRental_blazer {
     <Polygon> {
       <RGBA> { 1 1 1 1 }
       <TRef> { tt_t_ene_sellbotRental_blazer }
-      <VertexRef> { 1 2 3 4 <Ref> { vpool } }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_ene_sellbotRental_arm {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ene_sellbotRental_arm }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> tt_t_ene_sellbotRental {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { tt_t_ene_sellbotRental }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
     }
   }
 }

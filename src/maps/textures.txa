@@ -4218,6 +4218,7 @@ hand.rgb : 64 128 omit mipmap
 waiter_m_blazer : 128 128 omit mipmap
 waiter_m_leg : 64 64 omit mipmap
 waiter_m_sleeve : 64 64 omit mipmap
+tt_t_ene_waiter.png : 512 512 omit
 
 # Sellbot Nerf Suit
 tt_t_ene_sellbotRental_arm.tif : 32 16 omit
@@ -4226,6 +4227,7 @@ tt_t_ene_sellbotRental_hand.tif : 64 128 omit
 tt_t_ene_sellbotRental_leg.tif : 64 128 omit
 tt_t_ene_sellbotRental_shoe.tif : 64 64 omit
 tt_t_ene_sellbotRental_sleeve.tif : 64 128 omit
+tt_t_ene_sellbotRental.png : 512 512 omit
 
 # Lawbot Nerf Suit
 #tt_t_ene_lawbotRental_arm.tif : 32 16 omit
@@ -4234,12 +4236,13 @@ tt_t_ene_sellbotRental_sleeve.tif : 64 128 omit
 #tt_t_ene_lawbotRental_leg.tif : 64 128 omit
 #tt_t_ene_lawbotRental_shoe.tif : 64 64 omit
 #tt_t_ene_lawbotRental_sleeve.tif : 64 128 omit
+#tt_t_ene_lawbotRental.png : 512 512 omit
 
 # Suit Revamp
-tt_t_ene_bossbot.tif : 256 256 omit
-tt_t_ene_lawbot.tif : 256 256 omit
-tt_t_ene_cashbot.tif : 256 256 omit
-tt_t_ene_sellbot.tif : 256 256 omit
+tt_t_ene_bossbot.png : 512 512 omit
+tt_t_ene_lawbot.png : 512 512 omit
+tt_t_ene_cashbot.png : 512 512 omit
+tt_t_ene_sellbot.png : 512 512 omit
 
 # Suit heads
 ambulance_chaser.rgb : 256 256

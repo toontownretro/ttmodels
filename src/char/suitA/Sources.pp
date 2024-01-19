@@ -82,16 +82,37 @@
   #define CHAR_NAME suitA-lose
 #end maya_char_egg
 
+#begin filter_egg
+  #define TARGET_DIR PFS
+  #define SOURCES \
+    $[matrix suitA-,mod $[suit_anims],.egg]
+  #defer COMMAND \
+    egg-rename -strip_prefix suitA_zero: -d $[TARGET_DIR] $[source]
+#end filter_egg
+
 // Optimize the various characters.
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
-    $[matrix suitA-,mod $[suit_anims],.egg] \
+    $[matrix PFS/suitA-,mod $[suit_anims],.egg] \
     cogA_robot-zero.egg
 
   #define OPTCHAR_OPTS \
     -no -TR 0,180,0 -TS 0.25 \
     -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter,to_head,to_shoulder,jnt_22_1,jnt_28_1 \
+    -flag body=body \
+    -flag TheHandL=hands \
+    -flag TheHandR=hands \
+    -flag TheArmL=arms \
+    -flag TheArmR=arms \
+    -flag TheTorso=torso \
+    -flag TheLegL=legs \
+    -flag TheLegR=legs \
+    -flag dropShadow=dropShadow \
+    -flag CorpIcon=CorpIcon \
+    -flag SalesIcon=SalesIcon \
+    -flag LegalIcon=LegalIcon \
+    -flag MoneyIcon=MoneyIcon \
     -flag pPlane27=pPlane27 \
     -flag pPlane29=pPlane29 \
     -flag pPlane30=pPlane30 \
@@ -104,13 +125,6 @@
     -flag pPlane37=pPlane37 \
     -flag pPlane39=pPlane39 \
     -flag pPlane41=pPlane41 \
-    -flag TheHandL=hands \
-    -flag TheHandR=hands \
-    -flag TheArmL=arms \
-    -flag TheArmR=arms \
-    -flag TheTorso=torso \
-    -flag TheLegL=legs \
-    -flag TheLegR=legs \
     -flag tie=tie
 
 #end optchar_egg
@@ -142,6 +156,8 @@
 
   #define OPTCHAR_OPTS \
     -no -TT 0,-24.22,0 -TR 0,180,0 -TS 0.25 \
+    -keep joint_head \
+    -expose joint_head \
     -flag legaleagle=legaleagle \
     -flag yesman=yesman \
     -flag numbercruncher=numbercruncher \
