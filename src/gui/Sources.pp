@@ -63,7 +63,7 @@
     tt_m_gui_brd_leaveBtn.egg tt_m_gui_ign_newsBtnGui.egg \
     tt_m_gui_ign_directNewsGui.egg tt_m_gui_ign_directNewsGuiNav.egg \
 	tt_m_gui_ign_directNewsGuiNavV2.egg tt_m_gui_ign_newsStatusBackground.egg \
-	tt_m_gui_ign_shtickerBook.egg
+	tt_m_gui_ign_shtickerBook.egg playingCardSOS.egg
 
   #if $[LANGUAGE]
     #define SOURCES $[SOURCES] \
