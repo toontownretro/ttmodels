@@ -64,10 +64,13 @@
     tt_m_prp_int_winter_wreath.mb tt_m_prp_int_winter_tree.mb \
     tt_m_prp_int_painting_valentine.mb tt_m_prp_int_roseWatercan_valentine.mb \
     tt_m_prp_int_roseVase_valentine.mb tt_m_ara_int_candlestick.mb \
-    tt_m_ara_int_candlestickLit.mb tt_m_ara_int_presents.mb tt_m_ara_int_sled.mb
+    tt_m_ara_int_candlestickLit.mb tt_m_ara_int_presents.mb tt_m_ara_int_sled.mb \
+	tt_m_prp_ext_snowDoodle.mb tt_m_prp_ext_snowDoodle_icon.mb \
+	tt_m_ara_est_accessoryTrunkBoy.mb tt_m_ara_est_accessoryTrunkGirl.mb
 
 #begin maya_egg
   #define SOURCES $[most_maya_files]
+//  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -ui ft
 #end maya_egg
 
 #begin maya_char_egg
@@ -96,7 +99,7 @@
 #end maya_char_egg
 
 #define OPTCHAR_OPTS \
-   -TR 0,180,0 -TS 0.25
+   -no -TR 0,180,0 -TS 0.25
 
 #begin optchar_egg
   #define TARGET_DIR optchar
@@ -177,7 +180,7 @@
     planterC.egg sack.egg sand_mound.egg garden_slab.egg planterD.egg \
     gardenTutorialPages.egg garden_pedestal.egg toonStatueStoneTex.egg \
     gag_fan.egg trolley_bed.egg fireplace_coral.egg \
-    tt_m_prp_ext_snowman_icon.egg  tt_m_prp_ext_snowman.egg \
+    tt_m_prp_ext_snowman_icon.egg tt_m_prp_ext_snowman.egg \
 	gag_fan.egg trolley_bed.egg fireplace_coral.egg \
     tt_m_prp_int_fireplace_coral.egg tt_m_prp_int_fireplace_girlee.egg \
     tt_m_prp_int_fireplace_round.egg tt_m_prp_int_fireplace_square.egg \
@@ -186,9 +189,18 @@
 	tt_t_ara_int_stringLightsMoulding.egg tt_t_ara_int_valentineMoulding.egg \
 	tt_m_prp_int_painting_valentine.egg tt_m_prp_int_roseWatercan_valentine.egg \
 	tt_m_prp_int_roseVase_valentine.egg tt_m_ara_int_candlestick.egg \
-    tt_m_ara_int_candlestickLit.egg tt_m_ara_int_presents.egg tt_m_ara_int_sled.egg
+    tt_m_ara_int_candlestickLit.egg tt_m_ara_int_presents.egg tt_m_ara_int_sled.egg \
+	tt_m_prp_ext_snowDoodle.egg tt_m_prp_ext_snowDoodle_icon.egg \
+	tt_m_ara_est_accessoryTrunkBoy.egg tt_m_ara_est_accessoryTrunkGirl.egg
 
   #define PHASE 5.5
+#end install_egg
+
+// Begin Estate
+#begin install_egg
+  #define SOURCES \
+    tt_m_prp_ext_snowman.egg
+  #define PHASE 13
 #end install_egg
 
 #begin install_egg
