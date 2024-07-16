@@ -1,4 +1,4 @@
-group "goofySpeedway" [
+group "outdoorZone" [
  visgroup "8000:safe_zone" [
   vis [   "8000:safe_zone"   ]
   node "level" [
@@ -65,8 +65,8 @@ group "goofySpeedway" [
      nhpr [ -66.64 0 0 ]
     ]
    ]
-   prop "goofy_speedway_DNARoot" [
-    code [ "goofy_speedway" ]
+   prop "golf_hub2_DNARoot" [
+    code [ "golf_hub2" ]
     pos [ 0 0 0 ]
     nhpr [ 0 0 0 ]
    ]
@@ -80,7 +80,7 @@ group "goofySpeedway" [
     pos [ -20 -100 0.129929 ]
     nhpr [ -15 0 0 ]
     sign [
-     scale [ 1.45 1 1.5 ]
+     scale [ 1.5 1 1.5 ]
      baseline [
       code [ "suit" ]
       color [ 0.00392157 0 0 1 ]
