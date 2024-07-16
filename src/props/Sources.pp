@@ -3,7 +3,7 @@
 
 // Some props need all of their translates preserved.
 // flt files will always preserve the translates if it can.
-#define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -trans all
+#define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -trans all -tbnall -nv 60
 
 #begin flt_egg
   #define SOURCES $[wildcard *.flt]
@@ -74,41 +74,35 @@
     //tt_m_int_snowmanHead_tall.egg \
     //tt_m_ara_TT_test_sillyOMeter.egg \
     //tt_m_ara_TT_sillyOMeter.egg \
-    tt_a_ara_ttc_sillyMeter_arrowFluid.egg tt_a_ara_ttc_sillyMeter_default.egg \
-	tt_a_ara_ttc_sillyMeter_phaseFive.egg tt_a_ara_ttc_sillyMeter_phaseFour.egg \
-	tt_a_ara_ttc_sillyMeter_phaseFourToFive.egg tt_a_ara_ttc_sillyMeter_phaseOne.egg \
-	tt_a_ara_ttc_sillyMeter_phaseThree.egg tt_a_ara_ttc_sillyMeter_phaseTwo.egg \
 	tt_m_efx_snowmanHead_short.egg tt_m_efx_snowmanHead_tall.egg \
-	tt_m_prp_acs_clipboard.egg tt_m_prp_acs_sillyReader.egg	
-	//tt_m_ara_ttc_sillyMeterSign_groupA_english.egg \
-	//tt_m_ara_ttc_sillyMeterSign_groupB_english.egg
+	tt_m_prp_acs_clipboard.egg tt_m_prp_acs_sillyReader.egg
 	
   #if $[LANGUAGE]
     #define SOURCES $[SOURCES] \
-      neighborhood_sign_sellBotHQ_$[LANGUAGE].egg 
-	  //tt_m_ara_gen_foreSign_$[LANGUAGE].egg \
-	  //tt_m_ara_gen_jellybeanJamSign_$[LANGUAGE].egg \
-	  //tt_m_ara_gen_sillyMeterSign_$[LANGUAGE].egg \
-	  //tt_m_ara_gen_stormSellbotSign_$[LANGUAGE].egg \
-	  //tt_m_ara_gen_trickOrTreatSign_$[LANGUAGE].egg \
-	  //tt_m_ara_gen_tunnelAheadSign_$[LANGUAGE].egg \
-	  //tt_m_ara_gen_victoryPartySign_$[LANGUAGE].egg \
-	  //tt_m_ara_gen_victorySoonSign_$[LANGUAGE].egg \
-	  //tt_m_ara_ttc_sillyMeterSign_groupA_$[LANGUAGE].egg \
-	  //tt_m_ara_ttc_sillyMeterSign_groupB_$[LANGUAGE].egg
+      neighborhood_sign_sellBotHQ_$[LANGUAGE].egg \
+	  tt_m_ara_gen_foreSign_$[LANGUAGE].egg \
+	  tt_m_ara_gen_jellybeanJamSign_$[LANGUAGE].egg \
+	  tt_m_ara_gen_sillyMeterSign_$[LANGUAGE].egg \
+	  tt_m_ara_gen_stormSellbotSign_$[LANGUAGE].egg \
+	  tt_m_ara_gen_trickOrTreatSign_$[LANGUAGE].egg \
+	  tt_m_ara_gen_tunnelAheadSign_$[LANGUAGE].egg \
+	  tt_m_ara_gen_victoryPartySign_$[LANGUAGE].egg \
+	  tt_m_ara_gen_victorySoonSign_$[LANGUAGE].egg \
+	  tt_m_ara_ttc_sillyMeterSign_groupA_$[LANGUAGE].egg \
+	  tt_m_ara_ttc_sillyMeterSign_groupB_$[LANGUAGE].egg
   #else
     #define SOURCES $[SOURCES] \
-      neighborhood_sign_sellBotHQ_english.egg 
-	  //tt_m_ara_gen_foreSign_english.egg \
-	  //tt_m_ara_gen_jellybeanJamSign_english.egg \
-	  //tt_m_ara_gen_sillyMeterSign_english.egg \
-	  //tt_m_ara_gen_stormSellbotSign_english.egg \
-	  //tt_m_ara_gen_trickOrTreatSign_english.egg \
-	  //tt_m_ara_gen_tunnelAheadSign_english.egg \
-	  //tt_m_ara_gen_victoryPartySign_english.egg \
-	  //tt_m_ara_gen_victorySoonSign_english.egg \
-	  //tt_m_ara_ttc_sillyMeterSign_groupA_english.egg \
-      //tt_m_ara_ttc_sillyMeterSign_groupB_english.egg
+      neighborhood_sign_sellBotHQ_english.egg \
+	  tt_m_ara_gen_foreSign_english.egg \
+	  tt_m_ara_gen_jellybeanJamSign_english.egg \
+	  tt_m_ara_gen_sillyMeterSign_english.egg \
+	  tt_m_ara_gen_stormSellbotSign_english.egg \
+	  tt_m_ara_gen_trickOrTreatSign_english.egg \
+	  tt_m_ara_gen_tunnelAheadSign_english.egg \
+	  tt_m_ara_gen_victoryPartySign_english.egg \
+	  tt_m_ara_gen_victorySoonSign_english.egg \
+	  tt_m_ara_ttc_sillyMeterSign_groupA_english.egg \
+	  tt_m_ara_ttc_sillyMeterSign_groupB_english.egg
   #endif
   #define PHASE 4
 #end install_egg
@@ -255,14 +249,7 @@
     tt_m_ara_DL_streetlight_winter.egg \
     DL_weathervane.egg DL_flats.egg signs_DL.egg zzz_treasure.egg \
     tt_m_ara_ddl_streetlight_halloween.egg \
-    tt_m_ara_ddl_tree_halloween.egg \
-	//tt_m_ara_ddl_foreSign_english.egg \
-	//tt_m_ara_ddl_jellybeanJamSign_english.egg \
-	//tt_m_ara_ddl_sillyMeterSign_english.egg \
-	//tt_m_ara_ddl_stormSellbotSign_english.egg \
-	//tt_m_ara_ddl_trickOrTreatSign_english.egg \
-	//tt_m_ara_ddl_victoryPartySign_english.egg \
-	//tt_m_ara_ddl_victorySoonSign_english.egg 
+    tt_m_ara_ddl_tree_halloween.egg
 
   #if $[LANGUAGE]
     #define SOURCES $[SOURCES] \
@@ -278,6 +265,25 @@
   #else
     #define SOURCES $[SOURCES] \
       neighborhood_sign_lawBotHQ_english.egg
+  #endif
+
+  #if $[LANGUAGE]
+    #define SOURCES $[SOURCES] \
+	  tt_m_ara_ddl_foreSign_$[LANGUAGE].egg \
+	  tt_m_ara_ddl_jellybeanJamSign_$[LANGUAGE].egg \
+	  tt_m_ara_ddl_stormSellbotSign_$[LANGUAGE].egg \
+	  tt_m_ara_ddl_trickOrTreatSign_$[LANGUAGE].egg \
+	  tt_m_ara_ddl_victoryPartySign_$[LANGUAGE].egg \
+	  tt_m_ara_ddl_victorySoonSign_$[LANGUAGE].egg
+  #else
+    #define SOURCES $[SOURCES] \
+	  tt_m_ara_ddl_foreSign_english.egg \
+	  tt_m_ara_ddl_jellybeanJamSign_english.egg \
+	  tt_m_ara_ddl_sillyMeterSign_english.egg \
+	  tt_m_ara_ddl_stormSellbotSign_english.egg \
+	  tt_m_ara_ddl_trickOrTreatSign_english.egg \
+	  tt_m_ara_ddl_victoryPartySign_english.egg \
+	  tt_m_ara_ddl_victorySoonSign_english.egg 
   #endif
   #define PHASE 8
 #end install_egg
