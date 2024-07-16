@@ -41,11 +41,18 @@
     facade_c.egg facade_cN.egg facade_d.egg facade_dM.egg \
     facade_dN.egg facade_e.egg facade_eN.egg paper_trashcan.egg \
     couch_1person.egg couch_2person.egg ending_table.egg wood_fence.egg \
-    tt_m_ara_int_toonhall_english.egg \
 	tt_m_ara_int_scientistDuckFlat.egg \
 	tt_m_ara_int_scientistHorseFlat.egg \
-	tt_m_ara_int_scientistMonkeyFlat.egg \
-	tt_m_ara_int_sillyMeterFlat.egg
+	tt_m_ara_int_scientistMonkeyFlat.egg
+
+  #if $[LANGUAGE]
+    #define SOURCES $[SOURCES] \
+      tt_m_ara_int_toonhall_$[LANGUAGE].egg tt_m_ara_int_sillyMeterFlat_$[LANGUAGE].egg
+  #else
+    #define SOURCES $[SOURCES] \
+      tt_m_ara_int_toonhall_english.egg tt_m_ara_int_sillyMeterFlat_english.egg
+  #endif
+
   #define PHASE 3.5
 #end install_egg
 
@@ -121,7 +128,6 @@
 
 // The DD HQ has changed from hqDD_$[LANGUAGE].egg to tt_m_ara_DD_SZ_hq_$[LANGUAGE].egg so changes
 // need to be made for other languages! Thanks
-// DD HQs got changed again to tt_m_ara_dod_hq -Bob
   #if $[LANGUAGE]
     #define SOURCES $[SOURCES] \
       gagShop_DD_$[LANGUAGE].egg tt_m_ara_dod_hq_$[LANGUAGE].egg \
