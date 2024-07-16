@@ -24,7 +24,7 @@
 :coverage 3.0
 
 # Don't force textures to a power-of-two size.
-:powertwo 0
+:powertwo 1
 
 
 :group phase_1 dir phase_1
@@ -912,11 +912,19 @@ bodyGeneric.rgb : 297 207
 ###################################################################
 
 tt_m_gui_ups_mainGui.egg : upsell
+tt_m_gui_ups_mainGui_english.egg : upsell
+tt_m_gui_ups_mainGui_castillian.egg : upsell
+tt_m_gui_ups_mainGui_japanese.egg : upsell
+tt_m_gui_ups_mainGui_german.egg : upsell
+tt_m_gui_ups_mainGui_french.egg : upsell
+tt_m_gui_ups_mainGui_portuguese.egg : upsell
 tt_m_gui_ups_panelBg.egg : upsell
 tt_m_gui_ups_logo_noText.egg: upsell
 tt_m_gui_ups_logo_noText_english.egg: upsell
 tt_m_gui_ups_logo_noText_castillian.egg: upsell
 tt_m_gui_ups_logo_noText_japanese.egg: upsell
+tt_m_gui_ups_logo_noText_german.egg: upsell
+tt_m_gui_ups_logo_noText_french.egg: upsell
 tt_m_gui_ups_logo_noText_portuguese.egg: upsell
 
 tt_t_gui_ups_panelBg.tif : 512 512
@@ -925,6 +933,7 @@ tt_t_gui_ups_logo_bubbles.tif : linear omit
 tt_t_gui_ups_banner.tif : 320 116
 tt_t_gui_ups_logo_noText.tif : linear omit
 
+tt_t_gui_ups_logo_bubbles_castillian.tif : linear omit
 tt_t_gui_ups_banner_castillian.tif : 320 116
 tt_t_gui_ups_logo_noText_castillian.tif : linear omit
 
@@ -932,6 +941,16 @@ tt_t_gui_ups_logo_noText_castillian.tif : linear omit
 tt_t_gui_ups_logo_bubbles_japanese.tif : linear omit
 tt_t_gui_ups_banner_japanese.tif : 320 116
 tt_t_gui_ups_logo_noText_japanese.tif : linear omit
+
+
+tt_t_gui_ups_logo_noBubbles_german.tif : linear omit
+tt_t_gui_ups_banner_german.tif : 320 116
+tt_t_gui_ups_logo_noText_german.tif : linear omit
+
+
+tt_t_gui_ups_logo_noBubbles_french.tif : linear omit
+tt_t_gui_ups_banner_french.tif : 320 116
+tt_t_gui_ups_logo_noText_french.tif : linear omit
 
 
 tt_t_gui_ups_logo_noBubbles_portuguese.tif : linear omit
@@ -943,6 +962,12 @@ tt_t_gui_ups_logo_noText_portuguese.tif : linear omit
 ###################################################################
 
 tt_m_gui_pat_mainGui.egg : pickatoon
+tt_m_gui_pat_mainGui_english.egg : pickatoon
+tt_m_gui_pat_mainGui_castillian.egg : pickatoon
+tt_m_gui_pat_mainGui_japanese.egg : pickatoon
+tt_m_gui_pat_mainGui_german.egg : pickatoon
+tt_m_gui_pat_mainGui_french.egg : pickatoon
+tt_m_gui_pat_mainGui_portuguese.egg : pickatoon
 
 tt_t_gui_pat_background.tif : 640 480
 tt_t_gui_pat_squareBlue.tif : 201 201
@@ -952,6 +977,11 @@ tt_t_gui_pat_squarePurple.tif : 195 195
 tt_t_gui_pat_squareRed.tif : 190 190
 tt_t_gui_pat_squareYellow.tif : 189 189
 tt_t_gui_pat_membersOnly.tif : 691 501
+tt_t_gui_pat_membersOnly_castillian.tif : 691 501
+tt_t_gui_pat_membersOnly_japanese.tif : 691 501
+tt_t_gui_pat_membersOnly_german.tif : 691 501
+tt_t_gui_pat_membersOnly_french.tif : 691 501
+tt_t_gui_pat_membersOnly_portuguese.tif : 691 501
 tt_t_gui_pat_loadingPopup.tif : 512 512 omit
 
 ###################################################################
@@ -1100,11 +1130,21 @@ tt_t_efx_ext_skull.tif : 256 256
 tt_t_efx_ext_skullGlow.tif : 128 128
 
 ###################################################################
-# Silly Meter toontown_central_safezone phase_4
+# Silly Meter
 ###################################################################
 
 tt_m_ara_ttc_sillyMeterSign_groupA_english.egg : toontown_central_safezone
+tt_m_ara_ttc_sillyMeterSign_groupA_portuguese.egg : toontown_central_safezone
+tt_m_ara_ttc_sillyMeterSign_groupA_japanese.egg : toontown_central_safezone
+tt_m_ara_ttc_sillyMeterSign_groupA_german.egg : toontown_central_safezone
+tt_m_ara_ttc_sillyMeterSign_groupA_french.egg : toontown_central_safezone
+tt_m_ara_ttc_sillyMeterSign_groupA_castillian.egg : toontown_central_safezone
 tt_m_ara_ttc_sillyMeterSign_groupB_english.egg : toontown_central_safezone
+tt_m_ara_ttc_sillyMeterSign_groupB_portuguese.egg : toontown_central_safezone
+tt_m_ara_ttc_sillyMeterSign_groupB_japanese.egg : toontown_central_safezone
+tt_m_ara_ttc_sillyMeterSign_groupB_german.egg : toontown_central_safezone
+tt_m_ara_ttc_sillyMeterSign_groupB_french.egg : toontown_central_safezone
+tt_m_ara_ttc_sillyMeterSign_groupB_castillian.egg : toontown_central_safezone
 
 tt_m_ara_gen_jellybeanJamSign_castillian.egg : phase_4
 tt_m_ara_gen_jellybeanJamSign_english.egg : phase_4
@@ -1113,7 +1153,12 @@ tt_m_ara_gen_jellybeanJamSign_german.egg : phase_4
 tt_m_ara_gen_jellybeanJamSign_japanese.egg : phase_4
 tt_m_ara_gen_jellybeanJamSign_portuguese.egg : phase_4
 
+tt_m_ara_ddl_jellybeanJamSign_castillian.egg : phase_8
 tt_m_ara_ddl_jellybeanJamSign_english.egg : phase_8
+tt_m_ara_ddl_jellybeanJamSign_french.egg : phase_8
+tt_m_ara_ddl_jellybeanJamSign_german.egg : phase_8
+tt_m_ara_ddl_jellybeanJamSign_japanese.egg : phase_8
+tt_m_ara_ddl_jellybeanJamSign_portuguese.egg : phase_8
 
 tt_m_ara_gen_sillyMeterSign_castillian.egg : phase_4
 tt_m_ara_gen_sillyMeterSign_english.egg : phase_4
@@ -1122,7 +1167,12 @@ tt_m_ara_gen_sillyMeterSign_german.egg : phase_4
 tt_m_ara_gen_sillyMeterSign_japanese.egg : phase_4
 tt_m_ara_gen_sillyMeterSign_portuguese.egg : phase_4
 
+tt_m_ara_ddl_sillyMeterSign_castillian.egg : phase_8
 tt_m_ara_ddl_sillyMeterSign_english.egg : phase_8
+tt_m_ara_ddl_sillyMeterSign_french.egg : phase_8
+tt_m_ara_ddl_sillyMeterSign_german.egg : phase_8
+tt_m_ara_ddl_sillyMeterSign_japanese.egg : phase_8
+tt_m_ara_ddl_sillyMeterSign_portuguese.egg : phase_8
 
 tt_m_ara_gen_stormSellbotSign_castillian.egg : phase_4
 tt_m_ara_gen_stormSellbotSign_english.egg : phase_4
@@ -1131,7 +1181,12 @@ tt_m_ara_gen_stormSellbotSign_german.egg : phase_4
 tt_m_ara_gen_stormSellbotSign_japanese.egg : phase_4
 tt_m_ara_gen_stormSellbotSign_portuguese.egg : phase_4
 
+tt_m_ara_ddl_stormSellbotSign_castillian.egg : phase_8
 tt_m_ara_ddl_stormSellbotSign_english.egg : phase_8
+tt_m_ara_ddl_stormSellbotSign_french.egg : phase_8
+tt_m_ara_ddl_stormSellbotSign_german.egg : phase_8
+tt_m_ara_ddl_stormSellbotSign_japanese.egg : phase_8
+tt_m_ara_ddl_stormSellbotSign_portuguese.egg : phase_8
 
 tt_m_ara_gen_trickOrTreatSign_castillian.egg : phase_4
 tt_m_ara_gen_trickOrTreatSign_english.egg : phase_4
@@ -1140,7 +1195,12 @@ tt_m_ara_gen_trickOrTreatSign_german.egg : phase_4
 tt_m_ara_gen_trickOrTreatSign_japanese.egg : phase_4
 tt_m_ara_gen_trickOrTreatSign_portuguese.egg : phase_4
 
+tt_m_ara_ddl_trickOrTreatSign_castillian.egg : phase_8
 tt_m_ara_ddl_trickOrTreatSign_english.egg : phase_8
+tt_m_ara_ddl_trickOrTreatSign_french.egg : phase_8
+tt_m_ara_ddl_trickOrTreatSign_german.egg : phase_8
+tt_m_ara_ddl_trickOrTreatSign_japanese.egg : phase_8
+tt_m_ara_ddl_trickOrTreatSign_portuguese.egg : phase_8
 
 tt_m_ara_gen_tunnelAheadSign_castillian.egg : phase_4
 tt_m_ara_gen_tunnelAheadSign_english.egg : phase_4
@@ -1149,6 +1209,13 @@ tt_m_ara_gen_tunnelAheadSign_german.egg : phase_4
 tt_m_ara_gen_tunnelAheadSign_japanese.egg : phase_4
 tt_m_ara_gen_tunnelAheadSign_portuguese.egg : phase_4
 
+tt_m_ara_ddl_tunnelAheadSign_castillian.egg : phase_8
+tt_m_ara_ddl_tunnelAheadSign_english.egg : phase_8
+tt_m_ara_ddl_tunnelAheadSign_french.egg : phase_8
+tt_m_ara_ddl_tunnelAheadSign_german.egg : phase_8
+tt_m_ara_ddl_tunnelAheadSign_japanese.egg : phase_8
+tt_m_ara_ddl_tunnelAheadSign_portuguese.egg : phase_8
+
 tt_m_ara_gen_victoryPartySign_castillian.egg : phase_4
 tt_m_ara_gen_victoryPartySign_english.egg : phase_4
 tt_m_ara_gen_victoryPartySign_french.egg : phase_4
@@ -1156,7 +1223,12 @@ tt_m_ara_gen_victoryPartySign_german.egg : phase_4
 tt_m_ara_gen_victoryPartySign_japanese.egg : phase_4
 tt_m_ara_gen_victoryPartySign_portuguese.egg : phase_4
 
+tt_m_ara_ddl_victoryPartySign_castillian.egg : phase_8
 tt_m_ara_ddl_victoryPartySign_english.egg : phase_8
+tt_m_ara_ddl_victoryPartySign_french.egg : phase_8
+tt_m_ara_ddl_victoryPartySign_german.egg : phase_8
+tt_m_ara_ddl_victoryPartySign_japanese.egg : phase_8
+tt_m_ara_ddl_victoryPartySign_portuguese.egg : phase_8
 
 tt_m_ara_gen_victorySoonSign_castillian.egg : phase_4
 tt_m_ara_gen_victorySoonSign_english.egg : phase_4
@@ -1165,15 +1237,30 @@ tt_m_ara_gen_victorySoonSign_german.egg : phase_4
 tt_m_ara_gen_victorySoonSign_japanese.egg : phase_4
 tt_m_ara_gen_victorySoonSign_portuguese.egg : phase_4
 
+tt_m_ara_ddl_victorySoonSign_castillian.egg : phase_8
 tt_m_ara_ddl_victorySoonSign_english.egg : phase_8
+tt_m_ara_ddl_victorySoonSign_french.egg : phase_8
+tt_m_ara_ddl_victorySoonSign_german.egg : phase_8
+tt_m_ara_ddl_victorySoonSign_japanese.egg : phase_8
+tt_m_ara_ddl_victorySoonSign_portuguese.egg : phase_8
 
 tt_m_ara_int_ropes.egg : toontown_central_safezone
 tt_m_ara_int_scientistDuckFlat.egg : toontown_central_safezone
 tt_m_ara_int_scientistHorseFlat.egg : toontown_central_safezone
 tt_m_ara_int_scientistMonkeyFlat.egg : toontown_central_safezone
-tt_m_ara_int_sillyMeterFlat.egg : toontown_central_safezone
+tt_m_ara_int_sillyMeterFlat_english.egg : toontown_central_safezone
+tt_m_ara_int_sillyMeterFlat_castillian.egg : toontown_central_safezone
+tt_m_ara_int_sillyMeterFlat_japanese.egg : toontown_central_safezone
+tt_m_ara_int_sillyMeterFlat_german.egg : toontown_central_safezone
+tt_m_ara_int_sillyMeterFlat_portuguese.egg : toontown_central_safezone
+tt_m_ara_int_sillyMeterFlat_french.egg : toontown_central_safezone
 tt_m_ara_int_toonhall.egg : toontown_central_safezone
 tt_m_ara_int_toonhall_english.egg : toontown_central_safezone
+tt_m_ara_int_toonhall_portuguese.egg : toontown_central_safezone
+tt_m_ara_int_toonhall_japanese.egg : toontown_central_safezone
+tt_m_ara_int_toonhall_german.egg : toontown_central_safezone
+tt_m_ara_int_toonhall_french.egg : toontown_central_safezone
+tt_m_ara_int_toonhall_castillian.egg : toontown_central_safezone
 
 tt_m_prp_acs_sillyReader.egg : toontown_central_safezone
 tt_m_prp_acs_clipboard.egg : toontown_central_safezone
@@ -1372,13 +1459,21 @@ tt_t_ara_int_gagWaterGlass.tif : 256 256 omit
 
 # Silly O Meter Repair Sign
 
-tt_t_ara_int_meter_repairsign.tif : 256 128
-tt_t_ara_int_meter_repairsign_portuguese.tif : 128 64
+tt_t_ara_int_meter_repairSign.tif : 256 128
+tt_t_ara_int_meter_repairSign_castillian.tif : 256 128
+tt_t_ara_int_meter_repairSign_japanese.tif : 256 128
+tt_t_ara_int_meter_repairSign_german.tif : 256 128
+tt_t_ara_int_meter_repairSign_portuguese.tif : 128 64 # Update
+tt_t_ara_int_meter_repairSign_french.tif : 256 128
 
 # Office Entrance Sign
 
 tt_t_ara_int_officeSign.tif : 256 256 omit
+tt_t_ara_int_officeSign_castillian.tif : 256 256 omit
+tt_t_ara_int_officeSign_japanese.tif : 256 256 omit
+tt_t_ara_int_officeSign_german.tif : 256 256 omit
 tt_t_ara_int_officeSign_portuguese.tif : 256 256 omit
+tt_t_ara_int_officeSign_french.tif : 256 256 omit
 
 # Silly O Meter Barrier
 
@@ -1394,7 +1489,11 @@ tt_t_ara_int_sillyMeterFlat.tif : 512 512 omit
 # Silly O Meter Sign
 
 tt_t_ara_int_sillyMeterSign.tif : 256 256 omit
+tt_t_ara_int_sillyMeterSign_castillian.tif : 256 256 omit
+tt_t_ara_int_sillyMeterSign_japanese.tif : 256 256 omit
+tt_t_ara_int_sillyMeterSign_german.tif : 256 256 omit
 tt_t_ara_int_sillyMeterSign_portuguese.tif : 256 256 omit
+tt_t_ara_int_sillyMeterSign_french.tif : 256 256 omit
 
 # Silly O Meter Assets
 
@@ -1416,9 +1515,17 @@ tt_t_ara_int_furniture_tallLamp_space.tif : 128 128
 # Toon Hall Exterior Textures
 
 tt_t_ara_ttc_sillyMeterSign_groupPosts.tif : 256 256 omit
+tt_t_ara_ttc_sillyMeterSign_groupPosts_castillian.tif : 256 256 omit
+tt_t_ara_ttc_sillyMeterSign_groupPosts_japanese.tif : 256 256 omit
+tt_t_ara_ttc_sillyMeterSign_groupPosts_german.tif : 256 256 omit
 tt_t_ara_ttc_sillyMeterSign_groupPosts_portuguese.tif : 256 256 omit
+tt_t_ara_ttc_sillyMeterSign_groupPosts_french.tif : 256 256 omit
 tt_t_ara_ttc_sillyMeterSign_groupMain.tif : 256 256 omit
+tt_t_ara_ttc_sillyMeterSign_groupMain_castillian.tif : 256 256 omit
+tt_t_ara_ttc_sillyMeterSign_groupMain_japanese.tif : 256 256 omit
+tt_t_ara_ttc_sillyMeterSign_groupMain_german.tif : 256 256 omit
 tt_t_ara_ttc_sillyMeterSign_groupMain_portuguese.tif : 256 256 omit
+tt_t_ara_ttc_sillyMeterSign_groupMain_french.tif : 256 256 omit
 
 tt_t_prp_ext_spray.tif : 128 128 omit
 tt_t_ara_ttc_hydrant.tif : 128 128 omit
@@ -1473,7 +1580,15 @@ tt_m_ara_cmg_cabinetSmFalling.egg : maze_cogdogame
 tt_m_ara_cmg_grouping_blockerDivider.egg : maze_cogdogame
 tt_m_ara_cmg_level.egg : maze_cogdogame
 tt_m_ara_cmg_splash.egg : maze_cogdogame
-tt_m_ara_cmg_waterBalloon.egg : maze_cogdogame
+tt_m_ara_cmg_maze1.egg : maze_cogdogame
+tt_m_ara_cmg_maze2.egg : maze_cogdogame
+tt_m_ara_cmg_maze3.egg : maze_cogdogame
+tt_m_ara_cmg_maze4.egg : maze_cogdogame
+tt_m_ara_cmg_maze5.egg : maze_cogdogame
+tt_m_ara_cmg_maze6.egg : maze_cogdogame
+tt_m_ara_cmg_maze7.egg : maze_cogdogame
+tt_m_ara_cmg_maze8.egg : maze_cogdogame
+tt_m_ara_cmg_maze9.egg : maze_cogdogame
 
 # GUI
 tt_m_gui_cmg_bossCog.egg : maze_cogdogame
@@ -1491,14 +1606,22 @@ tt_m_ara_cfg_redTapeRing.egg : flying_cogdogame
 tt_m_ara_cfg_streamer.egg : flying_cogdogame
 tt_m_ara_cfg_toonPropeller.egg : flying_cogdogame
 tt_m_ara_cfg_whirlwind.egg : flying_cogdogame
+tt_m_ara_cfg_quadrant1.egg : flying_cogdogame
+tt_m_ara_cfg_quadrant2.egg : flying_cogdogame
+tt_m_ara_cfg_quadrant3.egg : flying_cogdogame
+tt_m_ara_cfg_quadrant4.egg : flying_cogdogame
+tt_m_ara_cfg_quadrant5.egg : flying_cogdogame
+tt_m_ara_cfg_quadrant6.egg : flying_cogdogame
+tt_m_ara_cfg_quadrant7.egg : flying_cogdogame
+tt_m_ara_cfg_quadrant8.egg : flying_cogdogame
 
 # GUI
 tt_m_gui_cfg_progressMeter.egg : flying_cogdogame
 tt_m_gui_cfg_propellerMeter.egg : flying_cogdogame
 
-# Cogdo Coin Game
-tt_m_ara_ccg_safesA.egg : cogdominium
-tt_m_ara_ccg_rooftop.egg : cogdominium
+# Cogdo Crane Game
+tt_m_ara_ccg_safesA.egg : crane_cogdogame
+tt_m_ara_ccg_rooftop.egg : crane_cogdogame
 
 # Cogdo Barrel Room
 tt_m_ara_cbr_room.egg : cogdominium
@@ -1506,7 +1629,7 @@ tt_m_ara_cbr_barrelRoom.egg : cogdominium
 tt_m_ara_cbr_laughBarrel.egg : cogdominium
 tt_t_ara_cbr_laughBarrelUsed.egg : cogdominium
 
-# Cogdo Penthouse Game
+# Cogdo Rooftop Game
 tt_m_ara_crg_goldTrophy.egg : cogdominium
 tt_m_ara_crg_silverTrophy.egg : cogdominium
 tt_m_ara_crg_paintingLegalEagle.egg : cogdominium
@@ -1514,9 +1637,7 @@ tt_m_ara_crg_paintingMoverShaker.egg : cogdominium
 tt_m_ara_crg_toonCage.egg : cogdominium
 tt_m_ara_ccg_rooftop.egg : cogdominium
 tt_m_ara_crg_penthouse.egg : cogdominium
-tt_m_ara_crg_penthouse_legal.egg : cogdominium
-
-# Cogdo Rooftop Game
+tt_m_ara_cpg_penthouse.egg : cogdominium
 tt_m_ara_crg_penthouse.egg : cogdominium
 tt_m_ara_crg_penthouse_legal.egg : cogdominium
 tt_m_ara_crg_silverTrophy.egg : cogdominium
@@ -1548,28 +1669,29 @@ tt_t_ara_ccg_safesA.tif : 512 512 omit
 
 tt_t_ara_ccp_cloudSphere.tif : 1024 1024 omit
 
-tt_t_ara_cfg_boxStack_box_blue.tif : 64 64
-tt_t_ara_cfg_boxStack_box_brown.tif : 64 64
-tt_t_ara_cfg_boxStack_box_gray.tif : 64 64
-tt_t_ara_cfg_boxStack_box_lightGray.tif : 64 64 omit
-tt_t_ara_cfg_boxStack_box_tan.tif : 64 64
+tt_t_ara_cfg_boxStack_box_blueGray.tif : 64 64
+tt_t_ara_cfg_boxStack_box_darkBrown.tif : 64 64
+tt_t_ara_cfg_boxStack_box_darkGray.tif : 64 64
+tt_t_ara_cfg_boxStack_box_lightBrown.tif : 64 64 omit
+tt_t_ara_cfg_boxStack_box_lightGray.tif : 64 64
 tt_t_ara_cfg_boxStack_box_yellow.tif : 64 64
 tt_t_ara_cfg_cabinetFoggy_darkGray.tif : 128 128
 tt_t_ara_cfg_cabinetFoggy_lightBlue.tif : 128 128
 tt_t_ara_cfg_cabinetFoggy_red.tif : 128 128
 tt_t_ara_cfg_ceiling.tif : 10 10
-tt_t_ara_cfg_eagleNest1.tif : 64 64
+tt_t_ara_cfg_eagleNest.tif : 64 64
 tt_t_ara_cfg_endWall.tif : 256 256 omit
 tt_t_ara_cfg_fogOpaque.tif : 128 128
 tt_t_ara_cfg_fogTranslucent_bm.tif : 128 128
 tt_t_ara_cfg_fogTranslucent_top.tif : 128 128
-tt_t_ara_cfg_groupingFlatLg4.tif : 128 128
+tt_t_ara_cfg_groupingFlatLg3.tif : 128 128
+tt_t_ara_cfg_groupingFlatLg5.tif : 128 102
 tt_t_ara_cfg_groupingFlatLg6.tif : 128 128
-tt_t_ara_cfg_groupingFlatSm2.tif : 128 102
+tt_t_ara_cfg_groupingFlatSm2.tif : 128 128
 tt_t_ara_cfg_groupingFlatSm4.tif : 128 128
-tt_t_ara_cfg_groupingFlatSm6.tif : 128 128
 tt_t_ara_cfg_legalEagleFeather.tif : 128 128 omit
 tt_t_ara_cfg_legalEagleFeather_flash.tif : 128 128 omit
+tt_t_ara_cfg_lightFixture.tif : 256 256 omit
 tt_t_ara_cfg_lightFixture_02.tif : 256 256 omit
 tt_t_ara_cfg_propellerPack.tif : 256 256 omit
 tt_t_ara_cfg_propellerPack_eagleAttack.tif : 256 256 omit
@@ -1586,10 +1708,12 @@ tt_t_ara_cfg_wall.tif : 256 256 omit
 tt_t_ara_cfg_wallFan.tif : 128 128
 tt_t_ara_cfg_whirlwindOuter.tif : 128 128 omit
 
+tt_t_ara_cmg_bin.tif : 32 32
 tt_t_ara_cmg_cabinetSm_red.tif : 128 128
 tt_t_ara_cmg_calculator.tif : 64 64
 tt_t_ara_cmg_ceiling.tif : 128 128
 tt_t_ara_cmg_chair.tif : 64 64
+tt_t_ara_cmg_checkWriter.tif : 32 32
 tt_t_ara_cmg_cubicleWall.tif : 128 128
 tt_t_ara_cmg_divider.tif : 128 128
 tt_t_ara_cmg_envelope.tif : 64 64
@@ -1695,8 +1819,10 @@ tt_t_gui_cmg_miniMap_exitOpen.tif : 32 32
 tt_t_gui_cmg_miniMap_frame.tif : 256 256 omit
 tt_t_gui_cmg_miniMap_waterDrop.tif : 32 32
 
+tt_t_gui_csa_flythruBackground.tif : 256 256
 tt_t_gui_csa_flythruBackground_02.tif : 256 256 omit
 tt_t_gui_csa_flyThruChatBubble.tif : 256 256 omit
+tt_t_gui_csa_flyThruChatBubble_02.tif : 128 128
 tt_t_gui_csa_joke.tif : 96 96
 tt_t_gui_csa_memo.tif : 64 64 omit
 
@@ -2762,10 +2888,10 @@ Waiting4Others.rgba : 420 140 linear
 BATTLE_Menu.rgba : 702 335 linear
 yellowPanel.rgba : 111 117 linear
 tt_t_gui_bat_pass.tif : 128 128 linear
-tt_t_gui_gen_skipSectionDisabled.tif : 64 64
-tt_t_gui_gen_skipSectionDown.tif : 64 64
-tt_t_gui_gen_skipSectionRollOver.tif : 64 64
-tt_t_gui_gen_skipSectionUp.tif : 64 64
+tt_t_gui_gen_skipSectionDisabled.tif : 32 32 linear
+tt_t_gui_gen_skipSectionDown.tif : 32 32 linear
+tt_t_gui_gen_skipSectionRollOver.tif : 32 32 linear
+tt_t_gui_gen_skipSectionUp.tif : 32 32 linear
 
 battle_gui.egg : battle_gui
 # for fanfare object
@@ -4682,17 +4808,17 @@ machine_iron.tif : 512 512
 switch_ball.tif : 512 512
 gear_bone.tif : 256 256
 gear_inside.tif : 256 256
-gear8t_outside.tif : 256 256
+gear8t_outside.tif : 256 256 force-rgb
 gear_teeth1.tif : 256 256
 gear_axis_end.tif : 256 256
 gear_axis.tif : 256 256
 machine_mid.tif : 512 512
 machine_column.tif : 512 512
 machine_part.tif : 256 256
-switch_box.tif : 256 256
+switch_box.tif : 256 256 force-rgb
 machine_under.tif : 1024 1024
 machine_columnTop.tif : 256 256
-machine_sideParts.tif : 512 512
+machine_sideParts.tif : 512 512 force-rgb
 box1.rgb : 1024 1024
 support1_side.rgb : 453 156
 support_front.rgb : 512 512
@@ -5640,16 +5766,16 @@ upper_top.rgb : 650 184
 
 
 # particle attack textures
-audit-div.rgb : 16 16
-audit-five.rgb : 16 16
-audit-four.rgb : 16 16
-audit-minus.rgb : 16 16
-audit-mult.rgb : 16 16
-audit-one.rgb : 16 16
-audit-plus.rgb : 16 16
-audit-six.rgb : 16 16
-audit-three.rgb : 16 16
-audit-two.rgb : 16 16
+audit-div.rgb : 512 512
+audit-five.rgb : 512 512
+audit-four.rgb : 512 512
+audit-minus.rgb : 512 512
+audit-mult.rgb : 512 512
+audit-one.rgb : 512 512
+audit-plus.rgb : 512 512
+audit-six.rgb : 512 512
+audit-three.rgb : 512 512
+audit-two.rgb : 512 512
 blah.rgb : 32 16
 brainstorm-box.rgb : 64 16
 brainstorm-env.rgb : 64 32
@@ -10952,7 +11078,7 @@ golf_tunnel1.egg : golf
 golf_tunnel2.egg : golf
 
 # golf props
-golf_props_goofyStatue_flat : 544 715
+golf_props_goofyStatue_flat : 544 715 force-rgba
 golf_props_Statue_base : 256 256
 golf_ball.tif : 256 256
 
@@ -11501,7 +11627,7 @@ tt_i_art_btn_NavHom2.tif : 90 26
 tt_i_art_btn_NavEvtRo.tif : 90 26
 tt_i_art_btn_NavEvtRo2.tif : 152 26
 tt_i_art_btn_NavEvt.tif : 90 26
-tt_i_art_btn_NavEvt2.tif : 90 26
+tt_i_art_btn_NavEvt2.tif : 152 26
 tt_i_art_btn_NavExtRo2.tif : 214 32
 tt_i_art_btn_NavExt2.tif : 165 32
 tt_i_art_btn_NavAttRo.tif : 152 26
