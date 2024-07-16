@@ -13,7 +13,7 @@
 
 // Must filter out animated assets because it is done through a maya_char_egg process
 #begin maya_egg
-  #define SOURCES $[patsubst cogPinata_%, , rocket_%, , jukebox_%, , trampoline_%, , tt_m_ara_pty_gagGlobe%, , tt_m_ara_pty_bannerJellybean%, , tt_m_ara_pty_bannerValentine%, , tt_m_ara_pty_heartWing%, , %,%, $[wildcard *.mb]]
+  #define SOURCES $[patsubst cogPinata_%, , rocket_%, , jukebox_%, , trampoline_%, , tt_m_ara_pty_gagGlobe%, , tt_m_ara_pty_bannerJellybean%, , tt_m_ara_pty_bannerValentine%, , tt_m_ara_pty_heartWing%, , tt_a_ara_pty_tubeCogVictory%, , tt_a_ara_pty_hydra%, , tt_m_ara_pty_cannonVictory%, , tt_m_ara_pty_bannerVictory%, , tt_r_ara_pty_%, , %,%, $[wildcard *.mb]]
 #end maya_egg
 
 // Cog "Pinata" (animated)
@@ -79,6 +79,17 @@
   #define CHAR_NAME jukebox
 #end maya_char_egg
 
+// Cannons (Animated)
+#begin maya_char_egg
+  #define MAYA_PREFIX tt_m_ara_pty_
+  #define EGG_PREFIX tt_m_ara_pty_
+  #define MODEL cannonVictory
+  #define POLY_MODEL cannonVictory_model
+  #define ANIMS cannonVictory
+  #define CHAR_NAME CannonVictory
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS]
+#end maya_char_egg
+
 // Jelly bean banner
 #begin maya_char_egg
   #define MAYA_PREFIX tt_m_ara_pty_
@@ -98,6 +109,17 @@
   #define POLY_MODEL bannerValentine_model
   #define ANIMS bannerValentine
   #define CHAR_NAME ValentineBanner
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS]
+#end maya_char_egg
+
+// Victory banner
+#begin maya_char_egg
+  #define MAYA_PREFIX tt_m_ara_pty_
+  #define EGG_PREFIX tt_m_ara_pty_
+  #define MODEL bannerVictory
+  #define POLY_MODEL bannerVictory_model
+  #define ANIMS bannerVictory
+  #define CHAR_NAME bannerVictory
   #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS]
 #end maya_char_egg
 
@@ -126,13 +148,34 @@
   #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS]
 #end maya_char_egg
 
+// Hydra
+#begin maya_char_egg
+  #define MAYA_PREFIX tt_a_ara_pty_hydra_
+  #define EGG_PREFIX tt_a_ara_pty_hydra_
+  #define MODEL dance
+  #define POLY_MODEL default
+  #define ANIMS dance
+  #define CHAR_NAME hydra
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS]
+#end maya_char_egg
+
+// Hydra (Winter)
+#begin maya_char_egg
+  #define MAYA_PREFIX tt_r_ara_pty_
+  #define EGG_PREFIX tt_r_ara_pty_
+  #define MODEL winterProps
+  #define POLY_MODEL winterProps
+  #define CHAR_NAME hydra
+  #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS]
+#end maya_char_egg
+
 // Flappy Cog
 #begin maya_char_egg
   #define MAYA_PREFIX tt_a_ara_pty_tubeCogVictory_
   #define EGG_PREFIX tt_a_ara_pty_tubeCogVictory_
-  #define MODEL default
-  #define POLY_MODEL  default
-  #define ANIMS $[tubeCogVictory_anims]
+  #define MODEL wave
+  #define POLY_MODEL default
+  #define ANIMS wave
   #define CHAR_NAME tubeCogVictory
   #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS]
 #end maya_char_egg
@@ -170,6 +213,20 @@
 #begin optchar_egg
   #define TARGET_DIR optchar
   #define SOURCES \
+    tt_m_ara_pty_bannerVictory_model.egg \
+    tt_m_ara_pty_bannerVictory.egg
+  #define OPTCHAR_OPTS $[OPTCHAR_OPTS] \
+//    -dart structured \
+    -expose bannerJoint \
+    -expose balloonJointL \
+    -expose balloonJointR \
+    -flag balloonsLMesh \
+    -flag balloonsRMesh
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
     tt_m_ara_pty_heartWing_model.egg \
     tt_m_ara_pty_heartWing.egg
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS] \
@@ -188,6 +245,17 @@
     jukebox_model.egg jukebox_dance.egg
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS] \
     -flag jukeboxBody=jukeboxBody -flag jukeboxGlass=jukeboxGlass
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    tt_m_ara_pty_cannonVictory_model.egg \
+    tt_m_ara_pty_cannonVictory.egg
+  #define OPTCHAR_OPTS $[OPTCHAR_OPTS] \
+    -dart structured \
+    -expose uvj_confetti \
+    -flag joint2 
 #end optchar_egg
 
 #begin optchar_egg
@@ -215,7 +283,31 @@
 
 #begin optchar_egg
   #define TARGET_DIR optchar
-  #define SOURCES $[matrix tt_a_ara_pty_tubeCogVictory_,$[tubeCogVictory_anims],.egg]
+  #define SOURCES \
+	tt_a_ara_pty_tubeCogVictory_default.egg \
+	tt_a_ara_pty_tubeCogVictory_wave.egg
+  #define OPTCHAR_OPTS $[OPTCHAR_OPTS] \
+    -dart structured \
+	-keepall
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    tt_a_ara_pty_hydra_default.egg \
+    tt_a_ara_pty_hydra_dance.egg
+  #define OPTCHAR_OPTS $[OPTCHAR_OPTS] \
+    -dart structured \
+	-keepall
+#end optchar_egg
+
+#begin optchar_egg
+  #define TARGET_DIR optchar
+  #define SOURCES \
+    tt_r_ara_pty_winterProps.egg
+  #define OPTCHAR_OPTS $[OPTCHAR_OPTS] \
+    -dart structured \
+	-keepall
 #end optchar_egg
 
 
@@ -247,10 +339,10 @@
 
 // Phase 5.5 source eggs include the flappy cog model and wave animation
 #begin install_egg
-// This one is also used in gardening
   #define INSTALL_TO models/estate
   #define SOURCES \
-     tt_a_ara_pty_tubeCogVictory_default.egg $[matrix tt_a_ara_pty_tubeCogVictory_,$[tubeCogVictory_anims],.egg] 
+     optchar/tt_a_ara_pty_tubeCogVictory_default.egg \
+	 optchar/tt_a_ara_pty_tubeCogVictory_wave.egg
   #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 5.5
 #end install_egg
@@ -274,14 +366,25 @@
     optchar/tt_m_ara_pty_gagGlobe_model.egg  \
     optchar/tt_m_ara_pty_bannerJellybean_model.egg \
     optchar/tt_m_ara_pty_bannerValentine_model.egg \
+	optchar/tt_m_ara_pty_bannerVictory_model.egg \
     optchar/tt_m_ara_pty_heartWing_model.egg \
+	optchar/tt_m_ara_pty_cannonVictory_model.egg \
+	optchar/tt_a_ara_pty_hydra_default.egg \
+	optchar/tt_r_ara_pty_winterProps.egg \
     tt_m_ara_pty_cakeTower.egg \
     //tt_m_ara_pty_heartWing.egg \
     //tt_m_ara_pty_bannerValentine.egg \
     $[matrix optchar/cogPinata_,idle up down bodyHitBack bodyHitFront headHitBack headHitFront,_anim.egg] \
     optchar/cogPinata_actor.egg \
     cogPieArena_model.egg stretchingArrow.egg cogPinataHole.egg \
-    cogTrackerGUI.egg
+    cogTrackerGUI.egg tt_m_ara_pty_winterPresent.egg \
+	tt_m_ara_pty_cogIceCreamWinter.egg tt_m_ara_pty_cogIceCreamVictory.egg \
+	tt_m_ara_pty_cogDoodleWinter.egg tt_m_ara_pty_cogDoodleVictory.egg \
+	tt_m_ara_pty_danceFloorValentine.egg \
+	tt_m_gui_pty_pieToss_balanceBar.egg tt_m_gui_pty_pieToss_controls.egg \
+	tt_m_ara_pty_hydrantWinter.egg tt_m_ara_pty_mailboxWinter.egg tt_m_ara_pty_trashcanWinter.egg \
+	tt_m_ara_pty_propStageWinter.egg tt_a_ara_pty_propsShow_dance.egg \
+	tt_m_ara_pty_partyCatchTreeWinter.egg tt_m_ara_pty_cogPieArenaWinter.egg
   #define PHASE 13
 #end install_egg
 
@@ -290,7 +393,10 @@
         optchar/tt_m_ara_pty_gagGlobe.egg  \
         optchar/tt_m_ara_pty_bannerJellybean.egg \
         optchar/tt_m_ara_pty_bannerValentine.egg \
-        optchar/tt_m_ara_pty_heartWing.egg
+		optchar/tt_m_ara_pty_bannerVictory.egg \
+        optchar/tt_m_ara_pty_heartWing.egg \
+		optchar/tt_m_ara_pty_cannonVictory.egg \
+		optchar/tt_a_ara_pty_hydra_dance.egg
     #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
     #define PHASE 13
 #end install_egg
