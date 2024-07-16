@@ -1,41 +1,54 @@
-<CoordinateSystem> { Z-Up }
+<CoordinateSystem> { Y-Up }
 
-<VertexPool> retreat_path.pool {
-  <Vertex> 0 { 0 0 0 1 }
-  <Vertex> 1 { 0 3 0 1 }
-  <Vertex> 2 { 0 5.9541 0 1 }
-  <Vertex> 3 { 0 6.4506 3.64959 1 }
+<Comment> {
+  "maya2egg_client -no -fri 24 -uo ft -o tt_m_ara_cfg_legalEaglePaths.egg tt_m_ara_cfg_legalEaglePaths.mb"
 }
-<NURBSCurve> retreat_path {
-  <Char*> type { XYZ }
-  <Order> { 4 }
-  <Knots> {
-    0 0 0 0 1 1 
-    1 1 
+<Group> retreat_path {
+  <VertexPool> retreat_pathShape.cvs {
+    <Vertex> 0 {
+      0 3.94324572994265e-18 -0.0177588 1
+    }
+    <Vertex> 1 {
+      0 -7.43471950670482e-16 3.3483 1
+    }
+    <Vertex> 2 {
+      0 -1.336226684856e-15 6.01783 1
+    }
+    <Vertex> 3 {
+      0 19.7468 13.2761 1
+    }
+    <Vertex> 4 {
+      0 69.1444 14.4677 1
+    }
   }
-  <VertexRef> {
-    0 1 2 3
-    <Ref> { retreat_path.pool }
+  <NurbsCurve> retreat_pathShape {
+    <Order> { 4 }
+    <Knots> {
+      0 0 0 0 1 2 2 2 2
+    }
+    <VertexRef> { 0 1 2 3 4 <Ref> { retreat_pathShape.cvs } }
   }
 }
-<CoordinateSystem> { Z-Up }
-
-<VertexPool> charge_path.pool {
-  <Vertex> 0 { 0 0.0177588 0 1 }
-  <Vertex> 1 { 0 -3.3483 0 1 }
-  <Vertex> 2 { 0 -6.01783 19.7468 1 }
-  <Vertex> 3 { 0 -13.2761 19.7468 1 }
-  <Vertex> 4 { 0 -14.4677 69.1444 1 }
-}
-<NURBSCurve> charge_path {
-  <Char*> type { XYZ }
-  <Order> { 4 }
-  <Knots> {
-    0 0 0 0 1 2 
-    2 2 2 
+<Group> charge_path {
+  <VertexPool> charge_pathShape.cvs {
+    <Vertex> 0 {
+      0 0 0 1
+    }
+    <Vertex> 1 {
+      0 6.66133814775094e-16 -3 1
+    }
+    <Vertex> 2 {
+      0 1.32207578218413e-15 -5.9541 1
+    }
+    <Vertex> 3 {
+      0 3.64959 -6.4506 1
+    }
   }
-  <VertexRef> {
-    0 1 2 3 4
-    <Ref> { charge_path.pool }
+  <NurbsCurve> charge_pathShape {
+    <Order> { 4 }
+    <Knots> {
+      0 0 0 0 1 1 1 1
+    }
+    <VertexRef> { 0 1 2 3 <Ref> { charge_pathShape.cvs } }
   }
 }
