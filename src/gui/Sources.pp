@@ -27,20 +27,23 @@
     pick_a_toon_gui.egg tt_m_gui_mat_nameShop.egg \
     trashcan_gui.egg quit_button.egg chat_button_gui.egg \
     toon_council.egg cog_icons.egg \
-    tt_m_gui_mat_mainGui.egg tt_m_gui_mat_spotlight.egg \
-    tt_m_gui_pat_mainGui.egg tt_m_gui_ups_mainGui.egg \
+    tt_m_gui_mat_spotlight.egg \
+    tt_m_gui_pat_mainGui.egg \
     nameshop_gui.egg \
-    ChatPanel.egg scroll_arrows_gui.egg tt_m_gui_ups_panelBg.egg \
-    tt_m_gui_ups_logo_noText.egg
+    ChatPanel.egg scroll_arrows_gui.egg tt_m_gui_ups_panelBg.egg
     // We are not using these anymore
     // loading-screen.egg login-background.egg month_year_gui.egg
 
   #if $[LANGUAGE]
     #define SOURCES $[SOURCES] \
-      feature_gui_$[LANGUAGE].egg members_only_gui_$[LANGUAGE].egg
+      feature_gui_$[LANGUAGE].egg members_only_gui_$[LANGUAGE].egg \
+	  tt_m_gui_mat_mainGui_$[LANGUAGE].egg tt_m_gui_ups_mainGui_$[LANGUAGE].egg \
+	  tt_m_gui_ups_logo_noText_$[LANGUAGE].egg
   #else
     #define SOURCES $[SOURCES] \
-      feature_gui_english.egg members_only_gui_english.egg
+      feature_gui_english.egg members_only_gui_english.egg \
+	  tt_m_gui_mat_mainGui_english.egg tt_m_gui_ups_mainGui_english.egg \
+	  tt_m_gui_ups_logo_noText_english.egg
   #endif
   #define PHASE 3
 #end install_egg

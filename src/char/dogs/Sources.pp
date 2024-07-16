@@ -62,7 +62,7 @@
    climb
    //scientistGame scientistJealous scientistWork
 
-#define walk_frames 0 24
+#define walk_frames 0 23
 #define tug-o-war_frames 2 21
 #define into_dig_frames 1 10
 #define loop_dig_frames 1 41
@@ -391,13 +391,17 @@
      -p def_joint_attachFlower,def_cageB \
      -p def_left_shoulder,def_cageB \
      -p def_right_shoulder,def_cageB \
-	 -p def_left_hip,root \
-	 -p def_left_knee,def_left_hip \
-     -p def_left_pant_top,def_left_hip \
-     -p def_left_pant_bottom,def_left_hip \
-	 -p def_right_hip,root \
-     -p def_right_pant_top,def_right_hip \
-     -p def_right_pant_bottom,def_right_hip \
+//	 -p def_left_hip,root \
+//	 -p def_left_knee,def_left_hip \
+//   -p def_left_pant_top,def_left_hip \
+//   -p def_left_pant_bottom,def_left_hip \
+//	 -p def_right_hip,root \
+//   -p def_right_pant_top,def_right_hip \
+//   -p def_right_pant_bottom,def_right_hip \
+     -p def_left_pant_top,root \
+     -p def_left_pant_bottom,def_left_pant_top \
+     -p def_right_pant_top,root \
+     -p def_right_pant_bottom,def_right_pant_top \
 	 -p def_left_shoulder,def_cageB \
 	 -p def_right_shoulder,def_cageB \
      -p def_right_sleeve_short,def_right_shoulder \
@@ -432,6 +436,14 @@
      -rename SSDog_skirt_200,SSDog_skirt \
      -TR 0,180,0 -TS 0.25 \
      -expose joint_hips,joint_shadow,joint_nameTag \
+	 -p def_left_hip,root \
+	 -p def_left_knee,def_left_hip \
+	 -p def_left_ankle,def_left_knee \
+	 -p def_left_ball,def_left_ankle \
+	 -p def_right_hip,root \
+	 -p def_right_knee,def_right_hip \
+	 -p def_right_ankle,def_right_knee \
+	 -p def_right_ball,def_right_ankle \
      -flag *leg*=legs \
      -flag *foot*=feet
 #end optchar_egg

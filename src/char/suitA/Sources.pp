@@ -36,8 +36,9 @@
 #define suit_anims \
     $[phase_4_anims] $[phase_5_anims] $[phase_4_anims_NC] $[phase_6_anims] $[phase_7_anims] $[phase_8_anims] $[phase_12_anims]
 
-#define neutral_frames 1 60
+#define neutral_frames 0 49
 #define tug-o-war_frames 2 21
+#define landing_frames 1 79
 
 //#######################################High Lod####################################################
 #begin maya_char_egg
@@ -92,18 +93,18 @@
   #define OPTCHAR_OPTS \
     -no -TR 0,180,0 -TS 0.25 \
     -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter,to_head,to_shoulder,jnt_22_1,jnt_28_1 \
-    -flag pPlane27=pPlane27 \
-    -flag pPlane29=pPlane29 \
-    -flag pPlane30=pPlane30 \
-    -flag pPlane31=pPlane31 \
-    -flag pPlane32=pPlane32 \
-    -flag pPlane33=pPlane33 \
-    -flag pPlane34=pPlane34 \
-    -flag pPlane35=pPlane35 \
-    -flag pPlane36=pPlane36 \
-    -flag pPlane37=pPlane37 \
-    -flag pPlane39=pPlane39 \
-    -flag pPlane41=pPlane41 \
+    -flag pPlane27=pPlane \
+    -flag pPlane29=pPlane \
+    -flag pPlane30=pPlane \
+    -flag pPlane31=pPlane \
+    -flag pPlane32=pPlane \
+    -flag pPlane33=pPlane \
+    -flag pPlane34=pPlane \
+    -flag pPlane35=pPlane \
+    -flag pPlane36=pPlane \
+    -flag pPlane37=pPlane \
+    -flag pPlane39=pPlane \
+    -flag pPlane41=pPlane \
     -flag TheHandL=hands \
     -flag TheHandR=hands \
     -flag TheArmL=arms \
@@ -124,6 +125,18 @@
   #define OPTCHAR_OPTS \
     -no -TR 0,180,0 -TS 0.25 \
     -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter,to_head,to_shoulder,jnt_22_1,jnt_28_1 \
+    -flag pPlane27=pPlane \
+    -flag pPlane29=pPlane \
+    -flag pPlane30=pPlane \
+    -flag pPlane31=pPlane \
+    -flag pPlane32=pPlane \
+    -flag pPlane33=pPlane \
+    -flag pPlane34=pPlane \
+    -flag pPlane35=pPlane \
+    -flag pPlane36=pPlane \
+    -flag pPlane37=pPlane \
+    -flag pPlane39=pPlane \
+    -flag pPlane41=pPlane \
     -flag TheHandL=hands \
     -flag TheHandR=hands \
     -flag TheArmL=arms \

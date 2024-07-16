@@ -1,25 +1,26 @@
 <Comment> {
-  "egg-texture-cards ../maps/tt_t_ara_cbe_fieldOfficeSign.tif -o field_office_sign.egg"
+  "egg-texture-cards -wm clamp -p 240,240 -o field_office_sign.egg ../maps/tt_t_ara_cbe_fieldOfficeSign.tif"
 }
 <Texture> tt_t_ara_cbe_fieldOfficeSign {
   "../maps/tt_t_ara_cbe_fieldOfficeSign.tif"
+  <Scalar> wrap { clamp }
 }
 <Group> {
   <VertexPool> vpool {
     <Vertex> 0 {
-      -0.5 0.5 0
+      -0.266666666666667 0.133333333333333 0
       <UV> { 0 1 }
     }
     <Vertex> 1 {
-      -0.5 -0.5 0
+      -0.266666666666667 -0.133333333333333 0
       <UV> { 0 0 }
     }
     <Vertex> 2 {
-      0.5 -0.5 0
+      0.266666666666667 -0.133333333333333 0
       <UV> { 1 0 }
     }
     <Vertex> 3 {
-      0.5 0.5 0
+      0.266666666666667 0.133333333333333 0
       <UV> { 1 1 }
     }
   }

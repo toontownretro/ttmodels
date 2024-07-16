@@ -1,5 +1,5 @@
 <Comment> {
-  "egg-texture-cards -wm clamp -p 240,240 -o tt_m_gui_pat_mainGui.egg ../mapstt_t_gui_pat_loadingPopup.tif ../maps/tt_t_gui_pat_background.tif ../maps/tt_t_gui_pat_squareBlue.tif ../maps/tt_t_gui_pat_squareGreen.tif ../maps/tt_t_gui_pat_squarePink.tif ../maps/tt_t_gui_pat_squarePurple.tif ../maps/tt_t_gui_pat_squareRed.tif ../maps/tt_t_gui_pat_squareYellow.tif ../maps/tt_t_gui_pat_membersOnly.tif"
+  "egg-texture-cards -wm clamp -p 240,240 -o tt_m_gui_pat_mainGui.egg ../maps/tt_t_gui_pat_loadingPopup.tif ../maps/tt_t_gui_pat_background.tif ../maps/tt_t_gui_pat_squareBlue.tif ../maps/tt_t_gui_pat_squareGreen.tif ../maps/tt_t_gui_pat_squarePink.tif ../maps/tt_t_gui_pat_squarePurple.tif ../maps/tt_t_gui_pat_squareRed.tif ../maps/tt_t_gui_pat_squareYellow.tif ../maps/tt_t_gui_pat_membersOnly.tif"
 }
 <Texture> tt_t_gui_pat_loadingPopup {
   "../maps/tt_t_gui_pat_loadingPopup.tif"

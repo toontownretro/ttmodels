@@ -51,7 +51,7 @@
    	daisyduck_1600.egg daisyduck_800.egg daisyduck_400.egg \
   	$[matrix daisyduck_,$[anims],.egg]
   #define OPTCHAR_OPTS \
-     -TR 0,180,0 -TS 5.08 \
+     -no -TR 0,180,0 -TS 5.08 \
      -flag pupil_left=eyespupil\
      -flag pupil_right=eyespupil \
      -flag eyelash_open_left=eyesopen \

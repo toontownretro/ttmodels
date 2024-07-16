@@ -1,17 +1,17 @@
 <Comment> {
-  "egg-texture-cards -o suits.egg tt_t_ene_sellbot.tif tt_t_ene_lawbot.tif tt_t_ene_cashbot.tif tt_t_ene_bossbot.tif"
+  "egg-texture-cards -o suits.egg ../../maps/tt_t_ene_sellbot.tif ../../maps/tt_t_ene_lawbot.tif ../../maps/tt_t_ene_cashbot.tif ../../maps/tt_t_ene_bossbot.tif"
 }
 <Texture> tt_t_ene_sellbot {
-  tt_t_ene_sellbot.tif
+  ../../maps/tt_t_ene_sellbot.tif
 }
 <Texture> tt_t_ene_lawbot {
-  tt_t_ene_lawbot.tif
+  ../../maps/tt_t_ene_lawbot.tif
 }
 <Texture> tt_t_ene_cashbot {
-  tt_t_ene_cashbot.tif
+  ../../maps/tt_t_ene_cashbot.tif
 }
 <Texture> tt_t_ene_bossbot {
-  tt_t_ene_bossbot.tif
+  ../../maps/tt_t_ene_bossbot.tif
 }
 <Group> {
   <Switch> { 1 }

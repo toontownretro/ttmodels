@@ -28,6 +28,7 @@
 #define suit_anims \
     $[phase_3.5_anims] $[phase_4_anims] $[phase_5_anims] $[phase_6_anims] $[phase_7_anims] $[phase_8_anims] $[phase_12_anims]
 
+#define neutral_frames 0 49 // 0 48
 #define tug-o-war_frames 2 21
 
 #begin maya_char_egg
@@ -82,6 +83,19 @@
   #define OPTCHAR_OPTS \
      -TR 0,180,0 -TS 0.25 \
      -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter \
+     -flag pPlane21=pPlane \
+     -flag pPlane22=pPlane \
+     -flag pPlane24=pPlane \
+     -flag pPlane26=pPlane \
+     -flag pPlane32=pPlane \
+     -flag pPlane34=pPlane \
+     -flag pPlane36=pPlane \
+     -flag pPlane38=pPlane \
+     -flag pPlane39=pPlane \
+     -flag pPlane41=pPlane \
+     -flag pPlane42=pPlane \
+     -flag pPlane43=pPlane \
+     -flag pPlane44=pPlane \
      -flag TheHandL=hands \
      -flag TheHandR=hands \
      -flag TheSleeveL=arms \
@@ -101,6 +115,19 @@
   #define OPTCHAR_OPTS \
      -TR 0,180,0 -TS 0.25 \
      -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter \
+     -flag pPlane21=pPlane21 \
+     -flag pPlane22=pPlane22 \
+     -flag pPlane24=pPlane24 \
+     -flag pPlane26=pPlane26 \
+     -flag pPlane32=pPlane32 \
+     -flag pPlane34=pPlane34 \
+     -flag pPlane36=pPlane36 \
+     -flag pPlane38=pPlane38 \
+     -flag pPlane39=pPlane39 \
+     -flag pPlane41=pPlane41 \
+     -flag pPlane42=pPlane42 \
+     -flag pPlane43=pPlane43 \
+     -flag pPlane44=pPlane44 \
      -flag TheHandL=hands \
      -flag TheHandR=hands \
      -flag TheSleeveL=arms \

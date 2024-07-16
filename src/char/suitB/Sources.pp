@@ -25,6 +25,7 @@
 #define suit_anims \
     $[phase_4_anims] $[phase_5_anims] $[phase_6_anims] $[phase_7_anims] $[phase_8_anims] $[phase_12_anims]
 
+#define neutral_frames 0 71
 #define tug-o-war_frames 2 21
 
 #begin maya_char_egg
@@ -80,17 +81,17 @@
   #define OPTCHAR_OPTS \
      -TR 0,180,0 -TS 0.25 \
      -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter,to_MAIN,jnt1_2,jnt2_2,scale-jnt2_1,scale-jnt1_1,jnt3_2,jnt9_2,to_head \
-     -flag pPlane16=pPlane16 \
-     -flag pPlane83=pPlane83 \
-     -flag pPlane85=pPlane85 \
-     -flag pPlane87=pPlane87 \
-     -flag pPlane89=pPlane89 \
-     -flag pPlane92=pPlane92 \
-     -flag pPlane95=pPlane95 \
-     -flag pPlane98=pPlane98 \
-     -flag pPlane105=pPlane105 \
-     -flag pPlane109=pPlane109 \
-     -flag pPlane117=pPlane117 \
+     -flag pPlane16=pPlane \
+     -flag pPlane83=pPlane \
+     -flag pPlane85=pPlane \
+     -flag pPlane87=pPlane \
+     -flag pPlane89=pPlane \
+     -flag pPlane92=pPlane \
+     -flag pPlane95=pPlane \
+     -flag pPlane98=pPlane \
+     -flag pPlane105=pPlane \
+     -flag pPlane109=pPlane \
+     -flag pPlane117=pPlane \
      -flag TheHandL=hands \
      -flag TheHandR=hands \
      -flag TheSleeveL=arms \
@@ -109,6 +110,17 @@
   #define OPTCHAR_OPTS \
      -TR 0,180,0 -TS 0.25 \
      -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter,to_MAIN,jnt1_2,jnt2_2,scale-jnt2_1,scale-jnt1_1,jnt3_2,jnt9_2,to_head \
+     -flag pPlane16=pPlane \
+     -flag pPlane83=pPlane \
+     -flag pPlane85=pPlane \
+     -flag pPlane87=pPlane \
+     -flag pPlane89=pPlane \
+     -flag pPlane92=pPlane \
+     -flag pPlane95=pPlane \
+     -flag pPlane98=pPlane \
+     -flag pPlane105=pPlane \
+     -flag pPlane109=pPlane \
+     -flag pPlane117=pPlane \
      -flag TheHandL=hands \
      -flag TheHandR=hands \
      -flag TheSleeveL=arms \
