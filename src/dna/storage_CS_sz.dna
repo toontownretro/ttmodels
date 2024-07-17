@@ -1,0 +1,8 @@
+
+place_model "phase_9/models/cogHQ/SellbotHQExterior" [
+	store_node [ "prop" "SellbotHQExterior" ""]
+	]
+
+place_model "phase_9/models/cogHQ/SellbotFactoryExterior" [
+	store_node [ "prop" "SellbotFactoryExterior" ""]
+	]

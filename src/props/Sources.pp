@@ -271,6 +271,7 @@
     #define SOURCES $[SOURCES] \
 	  tt_m_ara_ddl_foreSign_$[LANGUAGE].egg \
 	  tt_m_ara_ddl_jellybeanJamSign_$[LANGUAGE].egg \
+	  tt_m_ara_ddl_sillyMeterSign_$[LANGUAGE].egg \
 	  tt_m_ara_ddl_stormSellbotSign_$[LANGUAGE].egg \
 	  tt_m_ara_ddl_trickOrTreatSign_$[LANGUAGE].egg \
 	  tt_m_ara_ddl_victoryPartySign_$[LANGUAGE].egg \

@@ -24,7 +24,7 @@
 :coverage 3.0
 
 # Don't force textures to a power-of-two size.
-:powertwo 1
+:powertwo 0
 
 
 :group phase_1 dir phase_1
@@ -1448,14 +1448,14 @@ tt_t_ara_int_diagramSillyOMeter3.tif : 128 128
 
 # Trading Card Gag Models
 
-tt_t_ara_int_gagAnvil.tif : 256 256 omit
-tt_t_ara_int_gagBananaPeel.tif : 256 256 omit
-tt_t_ara_int_gagBikeHorn.tif : 256 256 omit
-tt_t_ara_int_gagCreamPie.tif : 256 256 omit
-tt_t_ara_int_gagLipStick.tif : 256 256 omit
-tt_t_ara_int_gagMagnet.tif : 256 256 omit
-tt_t_ara_int_gagTNT.tif : 256 256 omit
-tt_t_ara_int_gagWaterGlass.tif : 256 256 omit
+tt_t_ara_int_gagAnvil.tif : 256 256
+tt_t_ara_int_gagBananaPeel.tif : 256 256
+tt_t_ara_int_gagBikeHorn.tif : 256 256
+tt_t_ara_int_gagCreamPie.tif : 256 256
+tt_t_ara_int_gagLipStick.tif : 256 256
+tt_t_ara_int_gagMagnet.tif : 256 256
+tt_t_ara_int_gagTNT.tif : 256 256
+tt_t_ara_int_gagWaterGlass.tif : 256 256
 
 # Silly O Meter Repair Sign
 
@@ -1468,12 +1468,12 @@ tt_t_ara_int_meter_repairSign_french.tif : 256 128
 
 # Office Entrance Sign
 
-tt_t_ara_int_officeSign.tif : 256 256 omit
-tt_t_ara_int_officeSign_castillian.tif : 256 256 omit
-tt_t_ara_int_officeSign_japanese.tif : 256 256 omit
-tt_t_ara_int_officeSign_german.tif : 256 256 omit
-tt_t_ara_int_officeSign_portuguese.tif : 256 256 omit
-tt_t_ara_int_officeSign_french.tif : 256 256 omit
+tt_t_ara_int_officeSign.tif : 256 256
+tt_t_ara_int_officeSign_castillian.tif : 256 256
+tt_t_ara_int_officeSign_japanese.tif : 256 256
+tt_t_ara_int_officeSign_german.tif : 256 256
+tt_t_ara_int_officeSign_portuguese.tif : 256 256
+tt_t_ara_int_officeSign_french.tif : 256 256
 
 # Silly O Meter Barrier
 
@@ -1481,29 +1481,29 @@ tt_t_ara_int_rope.tif : 64 64
 
 # Flat Silly Meter and Toon Scientists
 
-tt_t_ara_int_scientistDuckFlat.tif : 256 256 omit
-tt_t_ara_int_scientistHorseFlat.tif : 256 256 omit
-tt_t_ara_int_scientistMonkeyFlat.tif : 256 256 omit
-tt_t_ara_int_sillyMeterFlat.tif : 512 512 omit
+tt_t_ara_int_scientistDuckFlat.tif : 256 256
+tt_t_ara_int_scientistHorseFlat.tif : 256 256
+tt_t_ara_int_scientistMonkeyFlat.tif : 256 256
+tt_t_ara_int_sillyMeterFlat.tif : 512 512
 
 # Silly O Meter Sign
 
-tt_t_ara_int_sillyMeterSign.tif : 256 256 omit
-tt_t_ara_int_sillyMeterSign_castillian.tif : 256 256 omit
-tt_t_ara_int_sillyMeterSign_japanese.tif : 256 256 omit
-tt_t_ara_int_sillyMeterSign_german.tif : 256 256 omit
-tt_t_ara_int_sillyMeterSign_portuguese.tif : 256 256 omit
-tt_t_ara_int_sillyMeterSign_french.tif : 256 256 omit
+tt_t_ara_int_sillyMeterSign.tif : 256 256
+tt_t_ara_int_sillyMeterSign_castillian.tif : 256 256
+tt_t_ara_int_sillyMeterSign_japanese.tif : 256 256
+tt_t_ara_int_sillyMeterSign_german.tif : 256 256
+tt_t_ara_int_sillyMeterSign_portuguese.tif : 256 256
+tt_t_ara_int_sillyMeterSign_french.tif : 256 256
 
 # Silly O Meter Assets
 
 tt_t_ara_ttc_progressBar.tif : 32 128 omit
-tt_t_ara_ttc_sillyMeter.tif : 256 256 omit
+tt_t_ara_ttc_sillyMeter.tif : 256 256
 
 # Toon Hall Assets
 
 tt_t_ara_int_paintSplat.tif : 128 128
-tt_t_ara_int_toonhall.tif : 1024 1024 omit
+tt_t_ara_int_toonhall.tif : 1024 1024
 
 # Office Furniture Textures
 
@@ -1514,44 +1514,44 @@ tt_t_ara_int_furniture_tallLamp_space.tif : 128 128
 
 # Toon Hall Exterior Textures
 
-tt_t_ara_ttc_sillyMeterSign_groupPosts.tif : 256 256 omit
-tt_t_ara_ttc_sillyMeterSign_groupPosts_castillian.tif : 256 256 omit
-tt_t_ara_ttc_sillyMeterSign_groupPosts_japanese.tif : 256 256 omit
-tt_t_ara_ttc_sillyMeterSign_groupPosts_german.tif : 256 256 omit
-tt_t_ara_ttc_sillyMeterSign_groupPosts_portuguese.tif : 256 256 omit
-tt_t_ara_ttc_sillyMeterSign_groupPosts_french.tif : 256 256 omit
-tt_t_ara_ttc_sillyMeterSign_groupMain.tif : 256 256 omit
-tt_t_ara_ttc_sillyMeterSign_groupMain_castillian.tif : 256 256 omit
-tt_t_ara_ttc_sillyMeterSign_groupMain_japanese.tif : 256 256 omit
-tt_t_ara_ttc_sillyMeterSign_groupMain_german.tif : 256 256 omit
-tt_t_ara_ttc_sillyMeterSign_groupMain_portuguese.tif : 256 256 omit
-tt_t_ara_ttc_sillyMeterSign_groupMain_french.tif : 256 256 omit
+tt_t_ara_ttc_sillyMeterSign_groupPosts.tif : 256 256
+tt_t_ara_ttc_sillyMeterSign_groupPosts_castillian.tif : 256 256
+tt_t_ara_ttc_sillyMeterSign_groupPosts_japanese.tif : 256 256
+tt_t_ara_ttc_sillyMeterSign_groupPosts_german.tif : 256 256
+tt_t_ara_ttc_sillyMeterSign_groupPosts_portuguese.tif : 256 256
+tt_t_ara_ttc_sillyMeterSign_groupPosts_french.tif : 256 256
+tt_t_ara_ttc_sillyMeterSign_groupMain.tif : 256 256
+tt_t_ara_ttc_sillyMeterSign_groupMain_castillian.tif : 256 256
+tt_t_ara_ttc_sillyMeterSign_groupMain_japanese.tif : 256 256
+tt_t_ara_ttc_sillyMeterSign_groupMain_german.tif : 256 256
+tt_t_ara_ttc_sillyMeterSign_groupMain_portuguese.tif : 256 256
+tt_t_ara_ttc_sillyMeterSign_groupMain_french.tif : 256 256
 
-tt_t_prp_ext_spray.tif : 128 128 omit
-tt_t_ara_ttc_hydrant.tif : 128 128 omit
-tt_r_prp_ext_piePackage.tif : 128 128 omit
-tt_t_ara_ttc_mailbox.tif : 256 256 omit
-tt_t_ara_ttc_trashcan.tif : 256 256 omit
+tt_t_prp_ext_spray.tif : 128 128
+tt_t_ara_ttc_hydrant.tif : 128 128
+tt_r_prp_ext_piePackage.tif : 128 128
+tt_t_ara_ttc_mailbox.tif : 256 256
+tt_t_ara_ttc_trashcan.tif : 256 256
 
-tt_t_ara_dod_mailbox.tif : 128 128 omit
-tt_t_ara_dod_trashcan.tif : 256 256 omit
+tt_t_ara_dod_mailbox.tif : 128 128
+tt_t_ara_dod_trashcan.tif : 256 256
 
-tt_t_ara_dga_hydrant.tif : 256 256 omit
-tt_t_ara_dga_mailbox.tif : 256 256 omit
-tt_t_ara_dga_trashcan.tif : 256 256 omit
+tt_t_ara_dga_hydrant.tif : 256 256
+tt_t_ara_dga_mailbox.tif : 256 256
+tt_t_ara_dga_trashcan.tif : 256 256
 
-tt_t_ara_mml_hydrant.tif : 256 256 omit
-tt_t_ara_mml_mailbox.tif : 256 256 omit
-tt_t_ara_mml_trashcan.tif : 256 256 omit
+tt_t_ara_mml_hydrant.tif : 256 256
+tt_t_ara_mml_mailbox.tif : 256 256
+tt_t_ara_mml_trashcan.tif : 256 256
 
-tt_t_ara_tbr_hydrant.tif : 128 128 omit
-tt_t_ara_tbr_hydrant_icecube.tif : 32 32 omit
-tt_t_ara_tbr_mailbox.tif : 256 256 omit
-tt_t_ara_tbr_trashcan.tif : 256 256 omit
+tt_t_ara_tbr_hydrant.tif : 128 128
+tt_t_ara_tbr_hydrant_icecube.tif : 32 32
+tt_t_ara_tbr_mailbox.tif : 256 256
+tt_t_ara_tbr_trashcan.tif : 256 256
 
-tt_t_ara_ddl_hydrant.tif : 128 128 omit
-tt_t_ara_ddl_mailbox.tif : 256 256 omit
-tt_t_ara_ddl_trashcan.tif : 256 256 omit
+tt_t_ara_ddl_hydrant.tif : 128 128
+tt_t_ara_ddl_mailbox.tif : 256 256
+tt_t_ara_ddl_trashcan.tif : 256 256
 
 # Silly Scientist Items
 
@@ -1645,7 +1645,7 @@ tt_m_ara_crg_toonCage.egg : cogdominium
 
 # Cogdo Textures
 
-cogdominiumElevator.tif : 256 256 omit
+cogdominiumElevator.tif : 256 256
 
 tt_t_ara_cbe_fieldOffice.tif : 128 128
 tt_t_ara_cbe_fieldOfficeBorder.tif : 64 64
@@ -1656,18 +1656,18 @@ tt_t_ara_cbe_wall3.tif : 128 128
 
 tt_t_ara_cbr_Barrel_notUsed.tif : 128 128 omit
 tt_t_ara_cbr_Barrel_Used.tif : 128 128 omit
-tt_t_ara_cbr_battleArea.tif : 256 256 omit
-tt_t_ara_cbr_framework.tif : 256 256 omit
-tt_t_ara_cbr_laughBarrel.tif : 256 256 omit
+tt_t_ara_cbr_battleArea.tif : 256 256
+tt_t_ara_cbr_framework.tif : 256 256
+tt_t_ara_cbr_laughBarrel.tif : 256 256
 tt_t_ara_cbr_lightGlow_alpha.tif : 64 64
-tt_t_ara_cbr_pipes.tif : 256 256 omit
-tt_t_ara_cbr_steelWalls.tif : 256 256 omit
-tt_t_ara_cbr_stomper.tif : 256 256 omit
+tt_t_ara_cbr_pipes.tif : 256 256
+tt_t_ara_cbr_steelWalls.tif : 256 256
+tt_t_ara_cbr_stomper.tif : 256 256
 
-tt_t_ara_ccg_floorCieling_deco.tif : 512 512 omit
-tt_t_ara_ccg_safesA.tif : 512 512 omit
+tt_t_ara_ccg_floorCieling_deco.tif : 512 512
+tt_t_ara_ccg_safesA.tif : 512 512
 
-tt_t_ara_ccp_cloudSphere.tif : 1024 1024 omit
+tt_t_ara_ccp_cloudSphere.tif : 1024 1024
 
 tt_t_ara_cfg_boxStack_box_blueGray.tif : 64 64
 tt_t_ara_cfg_boxStack_box_darkBrown.tif : 64 64
@@ -1680,7 +1680,7 @@ tt_t_ara_cfg_cabinetFoggy_lightBlue.tif : 128 128
 tt_t_ara_cfg_cabinetFoggy_red.tif : 128 128
 tt_t_ara_cfg_ceiling.tif : 10 10
 tt_t_ara_cfg_eagleNest.tif : 64 64
-tt_t_ara_cfg_endWall.tif : 256 256 omit
+tt_t_ara_cfg_endWall.tif : 256 256
 tt_t_ara_cfg_fogOpaque.tif : 128 128
 tt_t_ara_cfg_fogTranslucent_bm.tif : 128 128
 tt_t_ara_cfg_fogTranslucent_top.tif : 128 128
@@ -1691,12 +1691,12 @@ tt_t_ara_cfg_groupingFlatSm2.tif : 128 128
 tt_t_ara_cfg_groupingFlatSm4.tif : 128 128
 tt_t_ara_cfg_legalEagleFeather.tif : 128 128 omit
 tt_t_ara_cfg_legalEagleFeather_flash.tif : 128 128 omit
-tt_t_ara_cfg_lightFixture.tif : 256 256 omit
-tt_t_ara_cfg_lightFixture_02.tif : 256 256 omit
-tt_t_ara_cfg_propellerPack.tif : 256 256 omit
-tt_t_ara_cfg_propellerPack_eagleAttack.tif : 256 256 omit
-tt_t_ara_cfg_propellerPack_eagleTarget.tif : 256 256 omit
-tt_t_ara_cfg_propellerPack_flash.tif : 256 256 omit
+tt_t_ara_cfg_lightFixture.tif : 256 256
+tt_t_ara_cfg_lightFixture_02.tif : 256 256
+tt_t_ara_cfg_propellerPack.tif : 256 256
+tt_t_ara_cfg_propellerPack_eagleAttack.tif : 256 256
+tt_t_ara_cfg_propellerPack_eagleTarget.tif : 256 256
+tt_t_ara_cfg_propellerPack_flash.tif : 256 256
 tt_t_ara_cfg_propellerPickup.tif : 128 128
 tt_t_ara_cfg_propellers.tif : 128 128 omit
 tt_t_ara_cfg_propellers_flash.tif : 128 128 omit
@@ -1704,7 +1704,7 @@ tt_t_ara_cfg_redTape.tif : 64 64
 tt_t_ara_cfg_redTapePickup.tif : 64 64 omit
 tt_t_ara_cfg_redTapePickup_flash.tif : 64 64 omit
 tt_t_ara_cfg_streamer.tif : 17 20
-tt_t_ara_cfg_wall.tif : 256 256 omit
+tt_t_ara_cfg_wall.tif : 256 256
 tt_t_ara_cfg_wallFan.tif : 128 128
 tt_t_ara_cfg_whirlwindOuter.tif : 128 128 omit
 
@@ -1725,58 +1725,58 @@ tt_t_ara_cmg_papers.tif : 128 128
 tt_t_ara_cmg_phone_black.tif : 64 64
 tt_t_ara_cmg_splash.tif : 64 64
 tt_t_ara_cmg_typewriter.tif : 92 92
-tt_t_ara_cmg_wallBarrier.tif : 256 256 omit
+tt_t_ara_cmg_wallBarrier.tif : 256 256
 tt_t_ara_cmg_waterBalloon.tif : 92 92
-tt_t_ara_cmg_waterCooler.tif : 256 256 omit
+tt_t_ara_cmg_waterCooler.tif : 256 256
 
-tt_t_ara_cpg_bossChair.tif : 512 512 omit
-tt_t_ara_cpg_bossDesk.tif : 512 512 omit
-tt_t_ara_cpg_chairSmall.tif : 512 512 omit
-tt_t_ara_cpg_counter.tif : 512 512 omit
-tt_t_ara_cpg_counterB.tif : 512 512 omit
-tt_t_ara_cpg_deskClock_alpha.tif : 512 512 omit
-tt_t_ara_cpg_deskClockB.tif : 512 512 omit
-tt_t_ara_cpg_floorCieling_decoA.tif : 512 512 omit
-tt_t_ara_cpg_floorLamp.tif : 512 512 omit
-tt_t_ara_cpg_hangingLight.tif : 512 512 omit
-tt_t_ara_cpg_hangingLightB.tif : 512 512 omit
+tt_t_ara_cpg_bossChair.tif : 512 512
+tt_t_ara_cpg_bossDesk.tif : 512 512
+tt_t_ara_cpg_chairSmall.tif : 512 512
+tt_t_ara_cpg_counter.tif : 512 512
+tt_t_ara_cpg_counterB.tif : 512 512
+tt_t_ara_cpg_deskClock_alpha.tif : 512 512
+tt_t_ara_cpg_deskClockB.tif : 512 512
+tt_t_ara_cpg_floorCieling_decoA.tif : 512 512
+tt_t_ara_cpg_floorLamp.tif : 512 512
+tt_t_ara_cpg_hangingLight.tif : 512 512
+tt_t_ara_cpg_hangingLightB.tif : 512 512
 tt_t_ara_cpg_lamp_alpha.tif : 64 64
-tt_t_ara_cpg_lampA.tif : 512 512 omit
-tt_t_ara_cpg_lampB.tif : 512 512 omit
-tt_t_ara_cpg_machine1.tif : 512 512 omit
-tt_t_ara_cpg_machine3.tif : 512 512 omit
+tt_t_ara_cpg_lampA.tif : 512 512
+tt_t_ara_cpg_lampB.tif : 512 512
+tt_t_ara_cpg_machine1.tif : 512 512
+tt_t_ara_cpg_machine3.tif : 512 512
 tt_t_ara_cpg_paintingLegalEagle.tif : 72 128
 tt_t_ara_cpg_paintingMoverShaker.tif : 102 128
-tt_t_ara_cpg_penSet.tif : 256 256 omit
-tt_t_ara_cpg_radio.tif : 512 512 omit
-tt_t_ara_cpg_telephone.tif : 256 256 omit
+tt_t_ara_cpg_penSet.tif : 256 256
+tt_t_ara_cpg_radio.tif : 512 512
+tt_t_ara_cpg_telephone.tif : 256 256
 tt_t_ara_cpg_toonCage.tif : 256 256
-tt_t_ara_cpg_tubingAndCeilingWallDetail.tif : 512 512 omit
-tt_t_ara_cpg_wallDetail.tif : 512 512 omit
-tt_t_ara_cpg_wallDetailC.tif : 512 512 omit
+tt_t_ara_cpg_tubingAndCeilingWallDetail.tif : 512 512
+tt_t_ara_cpg_wallDetail.tif : 512 512
+tt_t_ara_cpg_wallDetailC.tif : 512 512
 
-tt_t_ara_crg_bossChair.tif : 512 512 omit
-tt_t_ara_crg_bossDesk.tif : 512 512 omit
+tt_t_ara_crg_bossChair.tif : 512 512
+tt_t_ara_crg_bossDesk.tif : 512 512
 tt_t_ara_crg_chairSmall.tif : 256 256
-tt_t_ara_crg_cloudCard2.tif : 256 256 omit
-tt_t_ara_crg_counterB.tif : 512 512 omit
+tt_t_ara_crg_cloudCard2.tif : 256 256
+tt_t_ara_crg_counterB.tif : 512 512
 tt_t_ara_crg_deskClockB.tif : 64 64
-tt_t_ara_crg_floor.tif : 512 512 omit
+tt_t_ara_crg_floor.tif : 512 512
 tt_t_ara_cpg_floorLamp.tif : 128 256
 tt_t_ara_crg_hangingLightB.tif : 512 512
 tt_t_ara_crg_lampA.tif : 512 512
-tt_t_ara_crg_machines.tif : 256 256 omit
+tt_t_ara_crg_machines.tif : 256 256
 tt_t_ara_crg_penSet.tif : 256 256
 tt_t_ara_crg_radio.tif : 64 64
 tt_t_ara_crg_telephone.tif : 256 256
-tt_t_ara_crg_toonCage.tif : 256 256 omit
-tt_t_ara_crg_trophyCase.tif : 512 512 omit
-tt_t_ara_crg_trophyCase_alpha.tif : 512 512 omit
+tt_t_ara_crg_toonCage.tif : 256 256
+tt_t_ara_crg_trophyCase.tif : 512 512
+tt_t_ara_crg_trophyCase_alpha.tif : 512 512
 tt_t_ara_crg_trophyCase_shadow.tif : 10 10
-tt_t_ara_crg_tubingAndCeilingWallDetail.tif : 512 512 omit
-tt_t_ara_crg_wallDetailC.tif : 512 512 omit
+tt_t_ara_crg_tubingAndCeilingWallDetail.tif : 512 512
+tt_t_ara_crg_wallDetailC.tif : 512 512
 
-tt_t_ara_csa_bookcase.tif : 256 256 omit
+tt_t_ara_csa_bookcase.tif : 256 256
 tt_t_ara_csa_bookStack_book.tif : 16 16
 tt_t_ara_csa_bookStack_bookB.tif : 16 16
 tt_t_ara_csa_bookStack_bookC.tif : 16 16
@@ -1790,16 +1790,16 @@ tt_t_ara_csa_cabinetSm_darkGray.tif : 128 128
 tt_t_ara_csa_cabinetSm_lightGray.tif : 128 128
 tt_t_ara_csa_elevator_light_strip.tif : 64 64
 tt_t_ara_csa_elevatorA.tif : 115 77
-tt_t_ara_csa_elevatorB.tif : 256 256 omit
+tt_t_ara_csa_elevatorB.tif : 256 256
 tt_t_ara_csa_exitDoor.tif : 128 128
 tt_t_ara_csa_joke.tif : 64 64 omit
-tt_t_ara_csa_lightbulbs.tif : 256 128 omit
+tt_t_ara_csa_lightbulbs.tif : 256 128
 tt_t_ara_csa_memo.tif : 64 64 omit
 tt_t_ara_csa_memo_flash.tif : 64 64 omit
-tt_t_ara_csa_paintingFrame.tif : 32 256 omit
+tt_t_ara_csa_paintingFrame.tif : 32 256
 
 tt_t_gui_cfg_healthBar.tif : 32 32
-tt_t_gui_cfg_progressMeter.tif : 64 512 omit
+tt_t_gui_cfg_progressMeter.tif : 64 512
 tt_t_gui_cfg_propellerMeter_arrow.tif : 32 32
 tt_t_gui_cfg_propellerMeter_blade.tif : 32 64
 tt_t_gui_cfg_propellerMeter_center.tif : 32 32
@@ -1820,8 +1820,8 @@ tt_t_gui_cmg_miniMap_frame.tif : 256 256 omit
 tt_t_gui_cmg_miniMap_waterDrop.tif : 32 32
 
 tt_t_gui_csa_flythruBackground.tif : 256 256
-tt_t_gui_csa_flythruBackground_02.tif : 256 256 omit
-tt_t_gui_csa_flyThruChatBubble.tif : 256 256 omit
+tt_t_gui_csa_flythruBackground_02.tif : 256 256
+tt_t_gui_csa_flyThruChatBubble.tif : 256 256
 tt_t_gui_csa_flyThruChatBubble_02.tif : 128 128
 tt_t_gui_csa_joke.tif : 96 96
 tt_t_gui_csa_memo.tif : 64 64 omit
@@ -1948,8 +1948,8 @@ tt_m_chr_avt_acc_pac_woodenSword.egg : accessories
 
 # Trunks
 
-tt_t_ara_est_accessoryTrunkBoy.tif : 256 256 omit
-tt_t_ara_est_accessoryTrunkGirl.tif : 256 256 omit
+tt_t_ara_est_accessoryTrunkBoy.tif : 256 256
+tt_t_ara_est_accessoryTrunkGirl.tif : 256 256
 
 # Clothes
 
@@ -2210,64 +2210,64 @@ tt_t_gui_qst_toontown_central_maps_portuguese.egg : questmaps
 
 tt_t_gui_qst_arrow.tif : 32 32 omit
 
-tt_t_gui_qst_daisys_garden_5100_castillian.tif : 512 512 omit
-tt_t_gui_qst_daisys_garden_5100_english.tif : 512 512 omit
-tt_t_gui_qst_daisys_garden_5100_french.tif : 512 512 omit
-tt_t_gui_qst_daisys_garden_5100_german.tif : 512 512 omit
-tt_t_gui_qst_daisys_garden_5100_japanese.tif : 512 512 omit
-tt_t_gui_qst_daisys_garden_5100_portuguese.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5100_castillian.tif : 512 512
+tt_t_gui_qst_daisys_garden_5100_english.tif : 512 512
+tt_t_gui_qst_daisys_garden_5100_french.tif : 512 512
+tt_t_gui_qst_daisys_garden_5100_german.tif : 512 512
+tt_t_gui_qst_daisys_garden_5100_japanese.tif : 512 512
+tt_t_gui_qst_daisys_garden_5100_portuguese.tif : 512 512
 
-tt_t_gui_qst_daisys_garden_5200_castillian.tif : 512 512 omit
-tt_t_gui_qst_daisys_garden_5200_english.tif : 512 512 omit
-tt_t_gui_qst_daisys_garden_5200_french.tif : 512 512 omit
-tt_t_gui_qst_daisys_garden_5200_german.tif : 512 512 omit
-tt_t_gui_qst_daisys_garden_5200_japanese.tif : 512 512 omit
-tt_t_gui_qst_daisys_garden_5200_portuguese.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5200_castillian.tif : 512 512
+tt_t_gui_qst_daisys_garden_5200_english.tif : 512 512
+tt_t_gui_qst_daisys_garden_5200_french.tif : 512 512
+tt_t_gui_qst_daisys_garden_5200_german.tif : 512 512
+tt_t_gui_qst_daisys_garden_5200_japanese.tif : 512 512
+tt_t_gui_qst_daisys_garden_5200_portuguese.tif : 512 512
 
-tt_t_gui_qst_daisys_garden_5300_castillian.tif : 512 512 omit
-tt_t_gui_qst_daisys_garden_5300_english.tif : 512 512 omit
-tt_t_gui_qst_daisys_garden_5300_french.tif : 512 512 omit
-tt_t_gui_qst_daisys_garden_5300_german.tif : 512 512 omit
-tt_t_gui_qst_daisys_garden_5300_japanese.tif : 512 512 omit
-tt_t_gui_qst_daisys_garden_5300_portuguese.tif : 512 512 omit
-
-
-tt_t_gui_qst_donalds_dock_1100_castillian.tif : 512 512 omit
-tt_t_gui_qst_donalds_dock_1100_english.tif : 512 512 omit
-tt_t_gui_qst_donalds_dock_1100_french.tif : 512 512 omit
-tt_t_gui_qst_donalds_dock_1100_german.tif : 512 512 omit
-tt_t_gui_qst_donalds_dock_1100_japanese.tif : 512 512 omit
-tt_t_gui_qst_donalds_dock_1100_portuguese.tif : 512 512 omit
-
-tt_t_gui_qst_donalds_dock_1200_castillian.tif : 512 512 omit
-tt_t_gui_qst_donalds_dock_1200_english.tif : 512 512 omit
-tt_t_gui_qst_donalds_dock_1200_french.tif : 512 512 omit
-tt_t_gui_qst_donalds_dock_1200_german.tif : 512 512 omit
-tt_t_gui_qst_donalds_dock_1200_japanese.tif : 512 512 omit
-tt_t_gui_qst_donalds_dock_1200_portuguese.tif : 512 512 omit
-
-tt_t_gui_qst_donalds_dock_1300_castillian.tif : 512 512 omit
-tt_t_gui_qst_donalds_dock_1300_english.tif : 512 512 omit
-tt_t_gui_qst_donalds_dock_1300_french.tif : 512 512 omit
-tt_t_gui_qst_donalds_dock_1300_german.tif : 512 512 omit
-tt_t_gui_qst_donalds_dock_1300_japanese.tif : 512 512 omit
-tt_t_gui_qst_donalds_dock_1300_portuguese.tif : 512 512 omit
-tt_t_gui_qst_donalds_dock_1300_portuguese_1.tif : 512 512 omit
+tt_t_gui_qst_daisys_garden_5300_castillian.tif : 512 512
+tt_t_gui_qst_daisys_garden_5300_english.tif : 512 512
+tt_t_gui_qst_daisys_garden_5300_french.tif : 512 512
+tt_t_gui_qst_daisys_garden_5300_german.tif : 512 512
+tt_t_gui_qst_daisys_garden_5300_japanese.tif : 512 512
+tt_t_gui_qst_daisys_garden_5300_portuguese.tif : 512 512
 
 
-tt_t_gui_qst_donalds_dreamland_9100_castillian.tif : 512 512 omit
-tt_t_gui_qst_donalds_dreamland_9100_english.tif : 512 512 omit
-tt_t_gui_qst_donalds_dreamland_9100_french.tif : 512 512 omit
-tt_t_gui_qst_donalds_dreamland_9100_german.tif : 512 512 omit
-tt_t_gui_qst_donalds_dreamland_9100_japanese.tif : 512 512 omit
-tt_t_gui_qst_donalds_dreamland_9100_portuguese.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1100_castillian.tif : 512 512
+tt_t_gui_qst_donalds_dock_1100_english.tif : 512 512
+tt_t_gui_qst_donalds_dock_1100_french.tif : 512 512
+tt_t_gui_qst_donalds_dock_1100_german.tif : 512 512
+tt_t_gui_qst_donalds_dock_1100_japanese.tif : 512 512
+tt_t_gui_qst_donalds_dock_1100_portuguese.tif : 512 512
 
-tt_t_gui_qst_donalds_dreamland_9200_castillian.tif : 512 512 omit
-tt_t_gui_qst_donalds_dreamland_9200_english.tif : 512 512 omit
-tt_t_gui_qst_donalds_dreamland_9200_french.tif : 512 512 omit
-tt_t_gui_qst_donalds_dreamland_9200_german.tif : 512 512 omit
-tt_t_gui_qst_donalds_dreamland_9200_japanese.tif : 512 512 omit
-tt_t_gui_qst_donalds_dreamland_9200_portuguese.tif : 512 512 omit
+tt_t_gui_qst_donalds_dock_1200_castillian.tif : 512 512
+tt_t_gui_qst_donalds_dock_1200_english.tif : 512 512
+tt_t_gui_qst_donalds_dock_1200_french.tif : 512 512
+tt_t_gui_qst_donalds_dock_1200_german.tif : 512 512
+tt_t_gui_qst_donalds_dock_1200_japanese.tif : 512 512
+tt_t_gui_qst_donalds_dock_1200_portuguese.tif : 512 512
+
+tt_t_gui_qst_donalds_dock_1300_castillian.tif : 512 512
+tt_t_gui_qst_donalds_dock_1300_english.tif : 512 512
+tt_t_gui_qst_donalds_dock_1300_french.tif : 512 512
+tt_t_gui_qst_donalds_dock_1300_german.tif : 512 512
+tt_t_gui_qst_donalds_dock_1300_japanese.tif : 512 512
+tt_t_gui_qst_donalds_dock_1300_portuguese.tif : 512 512
+tt_t_gui_qst_donalds_dock_1300_portuguese_1.tif : 512 512
+
+
+tt_t_gui_qst_donalds_dreamland_9100_castillian.tif : 512 512
+tt_t_gui_qst_donalds_dreamland_9100_english.tif : 512 512
+tt_t_gui_qst_donalds_dreamland_9100_french.tif : 512 512
+tt_t_gui_qst_donalds_dreamland_9100_german.tif : 512 512
+tt_t_gui_qst_donalds_dreamland_9100_japanese.tif : 512 512
+tt_t_gui_qst_donalds_dreamland_9100_portuguese.tif : 512 512
+
+tt_t_gui_qst_donalds_dreamland_9200_castillian.tif : 512 512
+tt_t_gui_qst_donalds_dreamland_9200_english.tif : 512 512
+tt_t_gui_qst_donalds_dreamland_9200_french.tif : 512 512
+tt_t_gui_qst_donalds_dreamland_9200_german.tif : 512 512
+tt_t_gui_qst_donalds_dreamland_9200_japanese.tif : 512 512
+tt_t_gui_qst_donalds_dreamland_9200_portuguese.tif : 512 512
 
 
 tt_t_gui_qst_mapClose.tif : 64 64
@@ -2276,70 +2276,70 @@ tt_t_gui_qst_mapTryToClose.tif : 64 64
 tt_t_gui_qst_mapTryToOpen.tif : 64 64
 
 
-tt_t_gui_qst_minnies_melody_land_4100_castillian.tif : 512 512 omit
-tt_t_gui_qst_minnies_melody_land_4100_english.tif : 512 512 omit
-tt_t_gui_qst_minnies_melody_land_4100_french.tif : 512 512 omit
-tt_t_gui_qst_minnies_melody_land_4100_german.tif : 512 512 omit
-tt_t_gui_qst_minnies_melody_land_4100_japanese.tif : 512 512 omit
-tt_t_gui_qst_minnies_melody_land_4100_portuguese.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4100_castillian.tif : 512 512
+tt_t_gui_qst_minnies_melody_land_4100_english.tif : 512 512
+tt_t_gui_qst_minnies_melody_land_4100_french.tif : 512 512
+tt_t_gui_qst_minnies_melody_land_4100_german.tif : 512 512
+tt_t_gui_qst_minnies_melody_land_4100_japanese.tif : 512 512
+tt_t_gui_qst_minnies_melody_land_4100_portuguese.tif : 512 512
 
-tt_t_gui_qst_minnies_melody_land_4200_castillian.tif : 512 512 omit
-tt_t_gui_qst_minnies_melody_land_4200_english.tif : 512 512 omit
-tt_t_gui_qst_minnies_melody_land_4200_french.tif : 512 512 omit
-tt_t_gui_qst_minnies_melody_land_4200_german.tif : 512 512 omit
-tt_t_gui_qst_minnies_melody_land_4200_japanese.tif : 512 512 omit
-tt_t_gui_qst_minnies_melody_land_4200_portuguese.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4200_castillian.tif : 512 512
+tt_t_gui_qst_minnies_melody_land_4200_english.tif : 512 512
+tt_t_gui_qst_minnies_melody_land_4200_french.tif : 512 512
+tt_t_gui_qst_minnies_melody_land_4200_german.tif : 512 512
+tt_t_gui_qst_minnies_melody_land_4200_japanese.tif : 512 512
+tt_t_gui_qst_minnies_melody_land_4200_portuguese.tif : 512 512
 
-tt_t_gui_qst_minnies_melody_land_4300_castillian.tif : 512 512 omit
-tt_t_gui_qst_minnies_melody_land_4300_english.tif : 512 512 omit
-tt_t_gui_qst_minnies_melody_land_4300_french.tif : 512 512 omit
-tt_t_gui_qst_minnies_melody_land_4300_german.tif : 512 512 omit
-tt_t_gui_qst_minnies_melody_land_4300_japanese.tif : 512 512 omit
-tt_t_gui_qst_minnies_melody_land_4300_portuguese.tif : 512 512 omit
-
-
-tt_t_gui_qst_the_burrrgh_3100_castillian.tif : 512 512 omit
-tt_t_gui_qst_the_burrrgh_3100_english.tif : 512 512 omit
-tt_t_gui_qst_the_burrrgh_3100_french.tif : 512 512 omit
-tt_t_gui_qst_the_burrrgh_3100_german.tif : 512 512 omit
-tt_t_gui_qst_the_burrrgh_3100_japanese.tif : 512 512 omit
-tt_t_gui_qst_the_burrrgh_3100_portuguese.tif : 512 512 omit
-
-tt_t_gui_qst_the_burrrgh_3200_castillian.tif : 512 512 omit
-tt_t_gui_qst_the_burrrgh_3200_english.tif : 512 512 omit
-tt_t_gui_qst_the_burrrgh_3200_french.tif : 512 512 omit
-tt_t_gui_qst_the_burrrgh_3200_german.tif : 512 512 omit
-tt_t_gui_qst_the_burrrgh_3200_japanese.tif : 512 512 omit
-tt_t_gui_qst_the_burrrgh_3200_portuguese.tif : 512 512 omit
-
-tt_t_gui_qst_the_burrrgh_3300_castillian.tif : 512 512 omit
-tt_t_gui_qst_the_burrrgh_3300_english.tif : 512 512 omit
-tt_t_gui_qst_the_burrrgh_3300_french.tif : 512 512 omit
-tt_t_gui_qst_the_burrrgh_3300_german.tif : 512 512 omit
-tt_t_gui_qst_the_burrrgh_3300_japanese.tif : 512 512 omit
-tt_t_gui_qst_the_burrrgh_3300_portuguese.tif : 512 512 omit
+tt_t_gui_qst_minnies_melody_land_4300_castillian.tif : 512 512
+tt_t_gui_qst_minnies_melody_land_4300_english.tif : 512 512
+tt_t_gui_qst_minnies_melody_land_4300_french.tif : 512 512
+tt_t_gui_qst_minnies_melody_land_4300_german.tif : 512 512
+tt_t_gui_qst_minnies_melody_land_4300_japanese.tif : 512 512
+tt_t_gui_qst_minnies_melody_land_4300_portuguese.tif : 512 512
 
 
-tt_t_gui_qst_toontown_central_2100_castillian.tif : 512 512 omit
-tt_t_gui_qst_toontown_central_2100_english.tif : 512 512 omit
-tt_t_gui_qst_toontown_central_2100_french.tif : 512 512 omit
-tt_t_gui_qst_toontown_central_2100_german.tif : 512 512 omit
-tt_t_gui_qst_toontown_central_2100_japanese.tif : 512 512 omit
-tt_t_gui_qst_toontown_central_2100_portuguese.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3100_castillian.tif : 512 512
+tt_t_gui_qst_the_burrrgh_3100_english.tif : 512 512
+tt_t_gui_qst_the_burrrgh_3100_french.tif : 512 512
+tt_t_gui_qst_the_burrrgh_3100_german.tif : 512 512
+tt_t_gui_qst_the_burrrgh_3100_japanese.tif : 512 512
+tt_t_gui_qst_the_burrrgh_3100_portuguese.tif : 512 512
 
-tt_t_gui_qst_toontown_central_2200_castillian.tif : 512 512 omit
-tt_t_gui_qst_toontown_central_2200_english.tif : 512 512 omit
-tt_t_gui_qst_toontown_central_2200_french.tif : 512 512 omit
-tt_t_gui_qst_toontown_central_2200_german.tif : 512 512 omit
-tt_t_gui_qst_toontown_central_2200_japanese.tif : 512 512 omit
-tt_t_gui_qst_toontown_central_2200_portuguese.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3200_castillian.tif : 512 512
+tt_t_gui_qst_the_burrrgh_3200_english.tif : 512 512
+tt_t_gui_qst_the_burrrgh_3200_french.tif : 512 512
+tt_t_gui_qst_the_burrrgh_3200_german.tif : 512 512
+tt_t_gui_qst_the_burrrgh_3200_japanese.tif : 512 512
+tt_t_gui_qst_the_burrrgh_3200_portuguese.tif : 512 512
 
-tt_t_gui_qst_toontown_central_2300_castillian.tif : 512 512 omit
-tt_t_gui_qst_toontown_central_2300_english.tif : 512 512 omit
-tt_t_gui_qst_toontown_central_2300_french.tif : 512 512 omit
-tt_t_gui_qst_toontown_central_2300_german.tif : 512 512 omit
-tt_t_gui_qst_toontown_central_2300_japanese.tif : 512 512 omit
-tt_t_gui_qst_toontown_central_2300_portuguese.tif : 512 512 omit
+tt_t_gui_qst_the_burrrgh_3300_castillian.tif : 512 512
+tt_t_gui_qst_the_burrrgh_3300_english.tif : 512 512
+tt_t_gui_qst_the_burrrgh_3300_french.tif : 512 512
+tt_t_gui_qst_the_burrrgh_3300_german.tif : 512 512
+tt_t_gui_qst_the_burrrgh_3300_japanese.tif : 512 512
+tt_t_gui_qst_the_burrrgh_3300_portuguese.tif : 512 512
+
+
+tt_t_gui_qst_toontown_central_2100_castillian.tif : 512 512
+tt_t_gui_qst_toontown_central_2100_english.tif : 512 512
+tt_t_gui_qst_toontown_central_2100_french.tif : 512 512
+tt_t_gui_qst_toontown_central_2100_german.tif : 512 512
+tt_t_gui_qst_toontown_central_2100_japanese.tif : 512 512
+tt_t_gui_qst_toontown_central_2100_portuguese.tif : 512 512
+
+tt_t_gui_qst_toontown_central_2200_castillian.tif : 512 512
+tt_t_gui_qst_toontown_central_2200_english.tif : 512 512
+tt_t_gui_qst_toontown_central_2200_french.tif : 512 512
+tt_t_gui_qst_toontown_central_2200_german.tif : 512 512
+tt_t_gui_qst_toontown_central_2200_japanese.tif : 512 512
+tt_t_gui_qst_toontown_central_2200_portuguese.tif : 512 512
+
+tt_t_gui_qst_toontown_central_2300_castillian.tif : 512 512
+tt_t_gui_qst_toontown_central_2300_english.tif : 512 512
+tt_t_gui_qst_toontown_central_2300_french.tif : 512 512
+tt_t_gui_qst_toontown_central_2300_german.tif : 512 512
+tt_t_gui_qst_toontown_central_2300_japanese.tif : 512 512
+tt_t_gui_qst_toontown_central_2300_portuguese.tif : 512 512
 
 
 # paid features slideshow images
@@ -10841,7 +10841,7 @@ scale.egg : lawbotHQ
 
 sign_lawbotHQ : 320 250
 sign_lawbotHQ_castillian : 320 250
-#sign_lawbotHQ_german : 320 250 // Needs to be created
+sign_lawbotHQ_german : 320 250
 sign_lawbotHQ_japanese : 320 250
 sign_lawbotHQ_portuguese : 320 250
 sign_lawbotHQ_french : 128 128 # Needs to be changed when a higher resolution has been found.
@@ -11056,7 +11056,7 @@ chip_enterance_ball.tif : 256 256
 chip_enterance_tee.tif : 256 256
 chip_enterance_sign.tif : 362 181
 chip_enterance_sign_castillian : 362 181
-#chip_enterance_sign_german : 362 181 // Needs to be created
+chip_enterance_sign_german : 362 181
 chip_enterance_sign_japanese : 362 181
 chip_enterance_sign_portuguese : 362 181
 chip_enterance_sign_french : 302 181
