@@ -31,9 +31,9 @@ for filename in files:
             print(filename, '->', newFilename)
 
             if os.name == 'posix':
-                os.system('mv %s %s' % (filename, newFilename))
+                os.system('cp %s %s' % (filename, newFilename))
             else:
-                os.system('move /Y %s %s' % (filename, newFilename))
+                os.system('copy /Y %s %s' % (filename, newFilename))
 
             # Delete the old files
             os.remove(filename)
