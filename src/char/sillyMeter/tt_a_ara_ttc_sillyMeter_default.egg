@@ -4,7 +4,7 @@
   ""
 }
 <Texture> tt_t_ara_ttc_sillyMeter {
-  ../maps/tt_t_ara_ttc_sillyMeter.tif
+  ../../maps/tt_t_ara_ttc_sillyMeter.tif
   <Scalar> format { rgb }
   <Scalar> wrapu { repeat }
   <Scalar> wrapv { repeat }
@@ -13,7 +13,7 @@
   <Scalar> envtype { modulate }
 }
 <Texture> tt_t_ara_ttc_progressBar {
-  ../maps/tt_t_ara_ttc_progressBar.tif
+  ../../maps/tt_t_ara_ttc_progressBar.tif
   <Scalar> format { rgba }
   <Scalar> wrapu { repeat }
   <Scalar> wrapv { repeat }
@@ -22,7 +22,7 @@
   <Scalar> envtype { modulate }
 }
 <Texture> tt_t_ara_gen_dropshadow {
-  ../maps/tt_t_ara_gen_dropshadow.tif
+  ../../maps/tt_t_ara_gen_dropshadow.tif
   <Scalar> format { luminance_alpha }
   <Scalar> wrapu { repeat }
   <Scalar> wrapv { repeat }
