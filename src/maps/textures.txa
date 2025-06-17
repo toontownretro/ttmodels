@@ -886,7 +886,7 @@ logo-background.rgb : 327 262 omit linear
 toontown-logo.rgba : 435 178 omit linear
 
 # make-a-toon
-SIZE_CHART_AVATARS.rgb : 512 58
+SIZE_CHART_AVATARS.rgb : 2048 232
 cezanne_horse.rgba : 460 512
 flowerPainting.rgb : 460 512
 modernistMickey.rgb : 415 495
