@@ -10,6 +10,7 @@
 #end maya_egg
 
 #begin install_egg
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -flatten 1 -flatten-strong 1 -combine-geoms 1
   #define SOURCES toontown_central.egg
   #define PHASE 4
 #end install_egg

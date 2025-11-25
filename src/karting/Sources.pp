@@ -44,20 +44,20 @@
 // All karting models in phase 6
 #begin install_egg
   #define SOURCES \
-        // Race track models
+  // Race track models
 	// series one
-        RT_RuralB.egg RT_SpeedwayA.egg RT_UrbanA.egg \
+  RT_RuralB.egg RT_SpeedwayA.egg RT_UrbanA.egg \
 	// series two
-        RT_RuralB2.egg RT_SpeedwayB.egg RT_UrbanB.egg \
-        // kart models
+  RT_RuralB2.egg RT_SpeedwayB.egg RT_UrbanB.egg \
+  // kart models
 	optchar/Kart2_Final.egg optchar/Kart1_Final.egg optchar/Kart3_Final.egg optchar/Kart1_LOD_Final.egg optchar/Kart1_LOD3_Final.egg \
 	optchar/Kart2_LOD2_Final.egg optchar/Kart2_LOD3_Final.egg optchar/Kart3_Final_LOD2.egg optchar/Kart3_Final_LOD3.egg \
 	kart1_textures.egg kart2_textures.egg kart3_textures.egg rim_textures.egg accessory_textures.egg racing_textures.egg\
 	// Accessory models
 	optchar/accessory_frontMiddle_0.egg optchar/accessory_frontMiddle_1.egg optchar/accessory_frontMiddle_2.egg \
-        optchar/accessory_frontMiddle_3.egg optchar/accessory_frontMiddle_4.egg optchar/accessory_frontMiddle_5.egg \
-        optchar/accessory_frontMiddle_6.egg optchar/accessory_frontMiddle_7.egg optchar/accessory_frontMiddle_8.egg \
-        optchar/accessory_frontMiddle_9.egg optchar/accessory_frontMiddle_10.egg \
+  optchar/accessory_frontMiddle_3.egg optchar/accessory_frontMiddle_4.egg optchar/accessory_frontMiddle_5.egg \
+  optchar/accessory_frontMiddle_6.egg optchar/accessory_frontMiddle_7.egg optchar/accessory_frontMiddle_8.egg \
+  optchar/accessory_frontMiddle_9.egg optchar/accessory_frontMiddle_10.egg \
 	optchar/accessory_backMiddle_0.egg optchar/accessory_backMiddle_1.egg optchar/accessory_backMiddle_2.egg \
  	optchar/accessory_backMiddle_3.egg optchar/accessory_backMiddle_4.egg optchar/accessory_backMiddle_5.egg \
 	optchar/accessory_backMiddle_6.egg optchar/accessory_backMiddle_7.egg \
@@ -67,7 +67,7 @@
 	optchar/accessory_rear_ww_0.egg optchar/accessory_rear_ww_1.egg optchar/accessory_rear_ww_2.egg \
  	optchar/accessory_rear_ww_3.egg optchar/accessory_rear_ww_4.egg optchar/accessory_rear_ww_5.egg \
 	optchar/accessory_rear_ww_6.egg	optchar/accessory_rear_ww_7.egg optchar/accessory_rear_ww_8.egg \
-        optchar/accessory_rear_ww_9.egg optchar/accessory_rear_ww_10.egg optchar/accessory_rear_ww_11.egg \
+  optchar/accessory_rear_ww_9.egg optchar/accessory_rear_ww_10.egg optchar/accessory_rear_ww_11.egg \
 	optchar/accessory_rear_ww_12.egg \
 	// Racing Gui
 	speedometer.egg race_mapspot.egg \
@@ -76,14 +76,25 @@
 	driftSmoke.egg particleSpark.egg \
 	// Racing Props
 	qbox.egg \
-    // Racing Pie in yo face
-    pie_splat_1.egg \
+  // Racing Pie in yo face
+  pie_splat_1.egg \
 	// Goofy Speedway Models
-	optchar/announcer.egg optchar/cone.egg optchar/GoofyStadium_Lamppost_Base1.egg optchar/GoofyStadium_Mailbox.egg \
-     	optchar/GoofyStadium_TreeBase.egg optchar/kartShop.egg optchar/kartPad.egg optchar/krate.egg optchar/Parkingspot.egg \
-	optchar/KartArea_Tires.egg optchar/typ_leaderBoardSign2.egg optchar/KartArea_WrenchJack.egg optchar/GasolineAlley_TT.egg \
-	optchar/KartShowBlock.egg optchar/KartShowBlockSign.egg optchar/flag.egg optchar/KartShop_Interior.egg  \
-        tt_m_ara_gfs_leaderBoardCrashed.egg 
+  optchar/kartShop.egg optchar/kartPad.egg optchar/krate.egg optchar/Parkingspot.egg \
+	optchar/flag.egg 
+  #define PHASE 6
+#end install_egg
+
+// All karting models in phase 6 (To flatten)
+#begin install_egg
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -flatten 1
+  #define SOURCES \
+    // Goofy Speedway Models
+    optchar/announcer.egg optchar/cone.egg \
+    optchar/GoofyStadium_Lamppost_Base1.egg optchar/GoofyStadium_Mailbox.egg optchar/GoofyStadium_TreeBase.egg \
+    optchar/GasolineAlley_TT.egg optchar/KartArea_WrenchJack.egg optchar/KartArea_Tires.egg \
+    optchar/KartShowBlock.egg optchar/KartShowBlockSign.egg optchar/KartShop_Interior.egg \
+    optchar/typ_leaderBoardSign2.egg \
+    tt_m_ara_gfs_leaderBoardCrashed.egg
   #define PHASE 6
 #end install_egg
 

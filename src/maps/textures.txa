@@ -9,7 +9,7 @@
 # Palette images should be no larger than 256x256 for old graphics
 # card support.
 # No longer the case.
-:palette 4096 4096
+:palette 1024 1024
 
 # The original palettes were 256x256 with a margin of 2.  With bigger
 # palettes we need a larger pixel margin to maintain the same UV-range
@@ -17,7 +17,7 @@
 # calculate the pixel margin to use with this equation:
 # margin = (2/256)*size
 # (2/256)*4096 = 32
-:margin 32
+:margin 8
 
 # Allow textures that repeat up to three times to be palettized. This
 # requires stamping multiple copies of the texture into the palette.

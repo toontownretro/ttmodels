@@ -62,6 +62,7 @@
     -flag mesh_tide1
 #end optchar_egg
 
+// All bossbotHQ models in phase 12
 #begin install_egg
   #define SOURCES \
     CogGolfHub.egg \
@@ -75,12 +76,10 @@
     BossbotFairwayRoom_A.egg \
     BossbotGreenRoom_A.egg \
     BossbotKartBoardingRm.egg \
-    BanquetInterior_1.egg\
     BossbotMazex4_C.egg \
     BossbotMazex3_straight_C.egg \
     BossbotMazex2_straight_C.egg \
     BossbotMazex1_C.egg \
-    BanquetTableChairs.egg \
     bust_a_cog_ball_white.egg \
     bust_a_cog_hole.egg \
     bust_a_cog_ball_blue.egg \
@@ -110,6 +109,15 @@
     optchar/food_belt1_model.egg \
     optchar/food_belt2_model.egg \
     tt_m_ara_bhq_seltzerBottle.egg
+  #define PHASE 12
+#end install_egg
+
+// All bossbotHQ models in phase 12 (To flatten)
+#begin install_egg
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -flatten 1 -flatten-strong 1 -combine-geoms 1
+  #define SOURCES \
+    BanquetInterior_1.egg \
+    BanquetTableChairs.egg
   #define PHASE 12
 #end install_egg
 

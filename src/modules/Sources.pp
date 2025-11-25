@@ -56,7 +56,7 @@
     safe_zone_tunnel_TT.egg trolley_station_TT.egg doors.egg TT_pond.egg \
     bank.egg library.egg school_house.egg mercantile.egg gazebo.egg \
     toonhall.egg clothshopTT.egg PetShopInterior.egg PetShopExterior_TT.egg Speedway_Tunnel.egg \
-    partyGate_TT.egg tt_m_ara_int_ropes.egg \
+    tt_m_ara_int_ropes.egg \
 	suit_landmark_sales.egg \
     suit_landmark_corp.egg \
     suit_landmark_legal.egg \
@@ -71,6 +71,12 @@
       gagShop_TT_english.egg gagShop_interior_english.egg
   #endif
 
+  #define PHASE 4
+#end install_egg
+
+#begin install_egg
+  #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -flatten 1 -flatten-strong 1 -combine-geoms 1
+  #define SOURCES partyGate_TT.egg
   #define PHASE 4
 #end install_egg
 
