@@ -92,13 +92,7 @@
      -flag pPlane109=pPlane109 \
      -flag pPlane117=pPlane117 \
      -flag TheHandL=hands \
-     -flag TheHandR=hands \
-     -flag TheSleeveL=arms \
-     -flag TheSleeveR=arms \
-     -flag TheTorso=torso \
-     -flag TheLegL=legs \
-     -flag TheLegR=legs \
-     -flag tie=tie
+     -flag TheHandR=hands
 #end optchar_egg
 
 #begin optchar_egg
@@ -110,13 +104,7 @@
      -TR 0,180,0 -TS 0.25 \
      -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter,to_MAIN,jnt1_2,jnt2_2,scale-jnt2_1,scale-jnt1_1,jnt3_2,jnt9_2,to_head \
      -flag TheHandL=hands \
-     -flag TheHandR=hands \
-     -flag TheSleeveL=arms \
-     -flag TheSleeveR=arms \
-     -flag TheTorso=torso \
-     -flag TheLegL=legs \
-     -flag TheLegR=legs \
-     -flag tie=tie
+     -flag TheHandR=hands
 #end optchar_egg
 
 // Translate, scale, and rotate the heads.

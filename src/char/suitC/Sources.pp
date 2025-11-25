@@ -83,13 +83,7 @@
      -TR 0,180,0 -TS 0.25 \
      -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter \
      -flag TheHandL=hands \
-     -flag TheHandR=hands \
-     -flag TheSleeveL=arms \
-     -flag TheSleeveR=arms \
-     -flag TheTorso=torso \
-     -flag TheLegL=legs \
-     -flag TheLegR=legs \
-     -flag tie=tie
+     -flag TheHandR=hands
 #end optchar_egg
 
 // Optimize the various characters.
@@ -102,13 +96,7 @@
      -TR 0,180,0 -TS 0.25 \
      -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter \
      -flag TheHandL=hands \
-     -flag TheHandR=hands \
-     -flag TheSleeveL=arms \
-     -flag TheSleeveR=arms \
-     -flag TheTorso=torso \
-     -flag TheLegL=legs \
-     -flag TheLegR=legs \
-     -flag tie=tie
+     -flag TheHandR=hands
 #end optchar_egg
 
 // Filter the heads to expose the various head types.

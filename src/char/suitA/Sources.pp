@@ -105,13 +105,7 @@
     -flag pPlane39=pPlane39 \
     -flag pPlane41=pPlane41 \
     -flag TheHandL=hands \
-    -flag TheHandR=hands \
-    -flag TheArmL=arms \
-    -flag TheArmR=arms \
-    -flag TheTorso=torso \
-    -flag TheLegL=legs \
-    -flag TheLegR=legs \
-    -flag tie=tie
+    -flag TheHandR=hands
 
 #end optchar_egg
 
@@ -125,13 +119,7 @@
     -no -TR 0,180,0 -TS 0.25 \
     -expose joint_Rhold,joint_Lhold,joint_head,joint_shadow,joint_nameTag,joint_attachMeter,to_head,to_shoulder,jnt_22_1,jnt_28_1 \
     -flag TheHandL=hands \
-    -flag TheHandR=hands \
-    -flag TheArmL=arms \
-    -flag TheArmR=arms \
-    -flag TheTorso=torso \
-    -flag TheLegL=legs \
-    -flag TheLegR=legs \
-    -flag tie=tie
+    -flag TheHandR=hands
 
 #end optchar_egg
 
