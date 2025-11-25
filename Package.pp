@@ -63,8 +63,17 @@
 // Define some global variables for this tree.
 // NOTE: run maya2egg_server before make
 #define MAYA2EGG maya2egg_client
-#define MAYA2EGG_OPTS -uo ft -tbnall -nv 60
-#define FLT2EGG_OPTS -tbnall -nv 60
-#define LWO2EGG_OPTS -tbnall -nv 60
-#define SOFT2EGG_OPTS -tbnall -nv 60
+// Use this if your WU are ft
+#define MAYA2EGG_OPTS -no -fri 24 -uo ft
+#define FLT2EGG_OPTS -no -uo ft
+// Use this if your WU are CM
+// #define MAYA2EGG_OPTS -uo ft -tbnall -nv 60
+// #define FLT2EGG_OPTS -tbnall -nv 60
+#define SOFT2EGG_OPTS
 #define EGG2BAM_OPTS -txo -txopz
+
+// Finish me!
+// #define LANGUAGES english castillian japanese german portuguese french
+//  #define DEFAULT_LANGUAGE english
+//  
+//  #if $[not $[LANGUAGE]]

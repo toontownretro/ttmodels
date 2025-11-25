@@ -1,0 +1,5 @@
+
+place_model "phase_11/models/lawbotHQ/LawbotPlaza" [
+	store_node [ "prop" "LawbotPlaza" ""]
+	]
+

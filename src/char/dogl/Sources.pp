@@ -65,6 +65,8 @@
 #define into_dig_frames 1 10
 #define loop_dig_frames 1 41
 #define water_frames 1 36
+#define intoSit_frames 2 21
+#define walk_frames 0 23 // Temp
 
 
 #define dog_anims_male \
@@ -156,6 +158,8 @@
   #define CHAR_NAME dog-legs-l
   #define ANIMS $[dog_anims_male]
   #define MAYA2EGG_OPTS $[MAYA2EGG_OPTS] -subset dogLLshorts:lm_foot_left_zero -subset dogLLshorts:lm_foot_right_zero -subset dogLLshorts:lm_leg_left_zero -subset dogLLshorts:lm_leg_right_zero \
+										 -subset dogLLshorts:lm_shoe_left_zero -subset dogLLshorts:lm_shoe_right_zero -subset dogLLshorts:lm_boot_long_left_zero -subset dogLLshorts:lm_boot_long_right_zero \
+										 -subset dogLLshorts:lm_boot_short_left_zero -subset dogLLshorts:lm_boot_short_right_zero \
                                                                         -subroot dogLLshorts:Skeleton
 #end maya_char_egg
 
@@ -388,10 +392,14 @@
      -p def_joint_attachFlower,def_cageA \
      -p def_left_shoulder,def_cageB \
      -p def_right_shoulder,def_cageB \
+//     -p def_left_pant_top,root \
+//     -p def_left_pant_bottom,root \
+//     -p def_right_pant_top,root \
+//     -p def_right_pant_bottom,root \
      -p def_left_pant_top,root \
-     -p def_left_pant_bottom,root \
+     -p def_left_pant_bottom,def_left_pant_top \
      -p def_right_pant_top,root \
-     -p def_right_pant_bottom,root \
+     -p def_right_pant_bottom,def_left_pant_top \
      -p def_right_sleeve_short,def_right_shoulder \
      -p def_left_sleeve_short,def_left_shoulder \
      -flag *skirt_cap*=torso-bot-cap \
@@ -424,8 +432,19 @@
      -rename LLDog_skirt_200,LLDog_skirt \
      -TR 0,180,0 -TS 0.25 \
      -expose joint_hips,joint_shadow,joint_nameTag \
+	 -p def_left_hip,root \
+	 -p def_left_knee,def_left_hip \
+	 -p def_left_ankle,def_left_knee \
+	 -p def_left_ball,def_left_ankle \
+	 -p def_right_hip,root \
+	 -p def_right_knee,def_right_hip \
+	 -p def_right_ankle,def_right_knee \
+	 -p def_right_ball,def_right_ankle \
      -flag *leg*=legs \
-     -flag *foot*=feet
+     -flag *foot*=feet \
+	 -flag *shoe*=shoes \
+	 -flag *boot_long*=boots_long \
+	 -flag *boot_short*=boots_short
 #end optchar_egg
 
 // Phase 3

@@ -234,6 +234,92 @@ group "toontownCentral" [
     code [ "door_double_curved_ur" ]
     color [ 0.88 0.45 0.38 1 ]
    ]
+   sign [
+    code [ "TTC_sign2" ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0.690196 0.00784314 0.0941176 1 ]
+     pos [ 0.05 0 0.71 ]
+     scale [ 1.3 1 1.2 ]
+     width [ 276.707 ]
+     height [ 276.707 ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+     text [
+      letters [ "M" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+    ]
+    baseline [
+     code [ "mickey" ]
+     color [ 0 0.501961 0 1 ]
+     pos [ 0 0 -0.58 ]
+     scale [ 1.2 1 1.2 ]
+     text [
+      letters [ "T" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "T" ]
+     ]
+     text [
+      letters [ "H" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "P" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+    ]
+   ]
    prop "prop_dentist_DNARoot" [
     code [ "prop_dentist" ]
     pos [ 12.6 -2.98 11 ]
@@ -394,6 +480,78 @@ group "toontownCentral" [
    door [
     code [ "door_double_curved_ur" ]
     color [ 1 0.88 0.56 1 ]
+   ]
+   sign [
+    code [ "TTC_sign2" ]
+    color [ 1 0.88 0.56 1 ]
+    pos [ 0 0 0.62 ]
+    scale [ 0.8 1 0.8 ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0 0.501961 0.25098 1 ]
+     pos [ 0 0 0.46 ]
+     scale [ 1.7 1 1.7 ]
+     kern [ 0.148191 ]
+     wiggle [ 3.52817 ]
+     stumble [ 0.049758 ]
+     stomp [ 0.03343 ]
+     flags [ "d" ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "n" ]
+     ]
+     text [
+      letters [ "e" ]
+     ]
+     text [
+      letters [ "-" ]
+     ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ "i" ]
+     ]
+     text [
+      letters [ "n" ]
+     ]
+     text [
+      letters [ "e" ]
+     ]
+     text [
+      letters [ "r" ]
+     ]
+    ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0 0.501961 0.25098 1 ]
+     pos [ 0 0 -0.84 ]
+     scale [ 1.4 1 1.3 ]
+     kern [ 0.163083 ]
+     wiggle [ 3.8979 ]
+     stomp [ -0.001083 ]
+     flags [ "d" ]
+     text [
+      letters [ "M" ]
+     ]
+     text [
+      letters [ "i" ]
+     ]
+     text [
+      letters [ "n" ]
+     ]
+     text [
+      letters [ "e" ]
+     ]
+     text [
+      letters [ "r" ]
+     ]
+     text [
+      letters [ "s" ]
+     ]
+    ]
    ]
    prop "prop_tree_small_brickbox_ur_DNARoot" [
     code [ "prop_tree_small_brickbox_ur" ]
@@ -931,6 +1089,85 @@ group "toontownCentral" [
     code [ "door_double_square_ur" ]
     color [ 1 0.87 0.38 1 ]
    ]
+   sign [
+    code [ "TTC_sign2" ]
+    color [ 1 0.88 0.56 1 ]
+    pos [ 0 0 -0.87 ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0.709804 0.00784314 0.0941176 1 ]
+     pos [ 0 0 0.61 ]
+     scale [ 1.5 1 1.2 ]
+     kern [ 0.122954 ]
+     wiggle [ 4.88131 ]
+     text [
+      letters [ "t" ]
+     ]
+     text [
+      letters [ "o" ]
+     ]
+     text [
+      letters [ "o" ]
+     ]
+     text [
+      letters [ "n" ]
+     ]
+     text [
+      letters [ "t" ]
+     ]
+     text [
+      letters [ "o" ]
+     ]
+     text [
+      letters [ "w" ]
+     ]
+     text [
+      letters [ "n" ]
+     ]
+    ]
+    baseline [
+     code [ "mickey" ]
+     color [ 0 0.607843 0 1 ]
+     pos [ 0 0 -0.67 ]
+     kern [ 0.220758 ]
+     text [
+      letters [ "S" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "G" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "F" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "C" ]
+     ]
+     text [
+      letters [ "T" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "Y" ]
+     ]
+    ]
+   ]
   ]
   flat_building "tb0:random_DNARoot" [
    pos [ 763.729 813.107 -0.170639 ]
@@ -1462,6 +1699,68 @@ group "toontownCentral" [
    door [
     code [ "door_double_curved_ur" ]
     color [ 1 0.88 0.56 1 ]
+   ]
+   sign [
+    code [ "sign_general1" ]
+    color [ 1 0.88 0.56 1 ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0 0.501961 0 1 ]
+     pos [ 0 0 -0.15 ]
+     scale [ 1.5 1 1.8 ]
+     kern [ 0.060969 ]
+     wiggle [ 5 ]
+     stumble [ 0.05 ]
+     stomp [ 0.018506 ]
+     width [ 25 ]
+     height [ 25 ]
+     flags [ "d" ]
+     text [
+      letters [ "D" ]
+     ]
+     text [
+      letters [ "r" ]
+     ]
+     text [
+      letters [ "." ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "T" ]
+     ]
+     text [
+      letters [ "o" ]
+     ]
+     text [
+      letters [ "m" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "F" ]
+     ]
+     text [
+      letters [ "o" ]
+     ]
+     text [
+      letters [ "o" ]
+     ]
+     text [
+      letters [ "l" ]
+     ]
+     text [
+      letters [ "e" ]
+     ]
+     text [
+      letters [ "r" ]
+     ]
+     text [
+      letters [ "y" ]
+     ]
+    ]
    ]
   ]
   flat_building "tb10:20_DNARoot" [
@@ -3084,6 +3383,173 @@ group "toontownCentral" [
     code [ "door_double_square_ur" ]
     color [ 1 0.87 0.38 1 ]
    ]
+   sign [
+    code [ "TTC_sign2" ]
+    color [ 1 0.88 0.56 1 ]
+    pos [ -0.22 0 -2.81 ]
+    scale [ 1.4 1 1.1 ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0.0666667 0.376471 0.541176 1 ]
+     pos [ 0 0 0.55 ]
+     scale [ 1.1 1 1.9 ]
+     wiggle [ 3 ]
+     stumble [ 0.07 ]
+     stomp [ 0.04 ]
+     width [ 50 ]
+     height [ 50 ]
+     flags [ "c" ]
+     text [
+      letters [ "H" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "U" ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "F" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "P" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+    ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0.501961 0.25098 0 1 ]
+     pos [ 1.77 0 0.51 ]
+     hpr [ 0 0 -6 ]
+     scale [ 1 1 1.9 ]
+     kern [ -0.035845 ]
+     wiggle [ 3.50797 ]
+     stomp [ -0.062248 ]
+     width [ 9.05158 ]
+     height [ 9.05158 ]
+     text [
+      letters [ "B" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "D" ]
+     ]
+    ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0.764706 0.0235294 0.235294 1 ]
+     pos [ 0 0 -0.89 ]
+     text [
+      letters [ "S" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "Y" ]
+     ]
+     text [
+      letters [ "," ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "W" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "'" ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "P" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "!" ]
+     ]
+    ]
+   ]
   ]
   flat_building "tb25:10_10_DNARoot" [
    pos [ -896.382 2693.85 -0.0153428 ]
@@ -3221,6 +3687,84 @@ group "toontownCentral" [
    door [
     code [ "door_double_curved_ur" ]
     color [ 1 0.88 0.56 1 ]
+   ]
+   sign [
+    code [ "TTC_sign2" ]
+    color [ 1 0.88 0.56 1 ]
+    pos [ 0 0 -0.99 ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0.776471 0 0 1 ]
+     pos [ 0 0 0.31 ]
+     scale [ 1.7 1 1.7 ]
+     kern [ 0.275404 ]
+     wiggle [ 6.25714 ]
+     text [
+      letters [ "J" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "'" ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+    ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0.0156863 0.54902 0.74902 1 ]
+     pos [ 0 0 -0.87 ]
+     kern [ 0.171677 ]
+     wiggle [ 5.38531 ]
+     stomp [ 0.034373 ]
+     text [
+      letters [ "J" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "K" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "P" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+    ]
    ]
   ]
   flat_building "tb25:random20_DNARoot" [
@@ -3468,6 +4012,82 @@ group "toontownCentral" [
    door [
     code [ "door_double_square_ur" ]
     color [ 1 0.63 0.38 1 ]
+   ]
+   sign [
+    code [ "TTC_sign3" ]
+    color [ 1 0.88 0.56 1 ]
+    pos [ 0 0 -0.98 ]
+    hpr [ 0 0 2 ]
+    baseline [
+     code [ "mickey" ]
+     color [ 1 0.356863 0.0509804 1 ]
+     pos [ 0 0 1.28 ]
+     scale [ 1.5 1 1 ]
+     kern [ 0.137741 ]
+     width [ 35.2871 ]
+     height [ 35.2871 ]
+     text [
+      letters [ "T" ]
+     ]
+     text [
+      letters [ "H" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+    ]
+    baseline [
+     code [ "mickey" ]
+     color [ 1 0.356863 0.0509804 1 ]
+     pos [ -0.1 0 -0.33 ]
+     hpr [ 0 0 -1 ]
+     scale [ 1.1 1 1.1 ]
+     width [ 36.739 ]
+     height [ 36.739 ]
+     flags [ "b" ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "U" ]
+     ]
+     text [
+      letters [ "G" ]
+     ]
+     text [
+      letters [ "H" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "'" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "P" ]
+     ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "C" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+    ]
    ]
   ]
   flat_building "tb29:random20_DNARoot" [
@@ -4283,6 +4903,76 @@ group "toontownCentral" [
     code [ "door_double_square_ur" ]
     color [ 1 0.63 0.38 1 ]
    ]
+   sign [
+    code [ "TTC_sign1" ]
+    pos [ 0 0 1 ]
+    scale [ 0.7 1 0.7 ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0.72549 0.027451 0.27451 1 ]
+     pos [ 0 0 -0.17 ]
+     scale [ 2.1 1 1.2 ]
+     kern [ 0.19903 ]
+     wiggle [ 6.05491 ]
+     stomp [ -0.062151 ]
+     width [ 31.1081 ]
+     height [ 31.1081 ]
+     text [
+      letters [ "T" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "-" ]
+     ]
+     text [
+      letters [ "H" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+    ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0 0.501961 0.25098 1 ]
+     pos [ 0 0 -1.28 ]
+     scale [ 1.4 1 1 ]
+     kern [ 0.1 ]
+     width [ 45.0857 ]
+     height [ 45.0857 ]
+     text [
+      letters [ "T" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+     text [
+      letters [ "H" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "P" ]
+     ]
+    ]
+   ]
   ]
   flat_building "tb33:random_DNARoot" [
    pos [ -858.33 2058.88 -0.756727 ]
@@ -4432,6 +5122,118 @@ group "toontownCentral" [
    door [
     code [ "door_double_square_ur" ]
     color [ 1 0.63 0.38 1 ]
+   ]
+   prop "prop_marquee_DNARoot" [
+    code [ "prop_marquee" ]
+    pos [ 12.5 -3 4.38 ]
+    hpr [ 0 0 0 ]
+    sign [
+     color [ 1 0.88 0.56 1 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0 0.25098 0.501961 1 ]
+      pos [ 0 0 -0.25 ]
+      scale [ 0.9 1 0.9 ]
+      wiggle [ 1.63273 ]
+      stumble [ -0.01226 ]
+      text [
+       letters [ "N" ]
+      ]
+      text [
+       letters [ "O" ]
+      ]
+      text [
+       letters [ "W" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "P" ]
+      ]
+      text [
+       letters [ "L" ]
+      ]
+      text [
+       letters [ "A" ]
+      ]
+      text [
+       letters [ "Y" ]
+      ]
+      text [
+       letters [ "I" ]
+      ]
+      text [
+       letters [ "N" ]
+      ]
+      text [
+       letters [ "G" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0 0.501961 1 1 ]
+      pos [ -0.49 0 -1.56 ]
+      scale [ 0.9 1 0.9 ]
+      stomp [ 0.054882 ]
+      width [ 1953.13 ]
+      height [ 1953.13 ]
+      text [
+       letters [ "S" ]
+      ]
+      text [
+       letters [ "T" ]
+      ]
+      text [
+       letters [ "E" ]
+      ]
+      text [
+       letters [ "A" ]
+      ]
+      text [
+       letters [ "M" ]
+      ]
+      text [
+       letters [ "B" ]
+      ]
+      text [
+       letters [ "O" ]
+      ]
+      text [
+       letters [ "A" ]
+      ]
+      text [
+       letters [ "T" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "W" ]
+      ]
+      text [
+       letters [ "I" ]
+      ]
+      text [
+       letters [ "L" ]
+      ]
+      text [
+       letters [ "L" ]
+      ]
+      text [
+       letters [ "I" ]
+      ]
+      text [
+       letters [ "E" ]
+      ]
+     ]
+    ]
    ]
   ]
   flat_building "tb38:random20_DNARoot" [
@@ -4729,6 +5531,65 @@ group "toontownCentral" [
     code [ "door_double_square_ur" ]
     color [ 0.745098 0.792157 0.552941 1 ]
    ]
+   sign [
+    code [ "TTC_sign2" ]
+    pos [ 0 0 0.26 ]
+    scale [ 0.7 1 0.7 ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0.501961 0.25098 0.25098 1 ]
+     pos [ 0 0 0.75 ]
+     scale [ 2 1 1.1 ]
+     width [ 37.9377 ]
+     height [ 37.9377 ]
+     flags [ "d" ]
+     text [
+      letters [ "M" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "K" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "Y" ]
+     ]
+    ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0.501961 0.25098 0.25098 1 ]
+     pos [ 0 0 -0.53 ]
+     scale [ 2.3 1 1.1 ]
+     width [ 102.291 ]
+     height [ 102.291 ]
+     flags [ "d" ]
+     text [
+      letters [ "T" ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "C" ]
+     ]
+     text [
+      letters [ "K" ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+    ]
+   ]
   ]
   flat_building "tb43:random20_DNARoot" [
    pos [ -1137.46 1984.33 -0.375708 ]
@@ -4949,6 +5810,152 @@ group "toontownCentral" [
    door [
     code [ "door_double_curved_ur" ]
     color [ 1 0.88 0.56 1 ]
+   ]
+   sign [
+    code [ "TTC_sign2" ]
+    color [ 1 0.88 0.56 1 ]
+    pos [ 0 0 -0.97 ]
+    scale [ 1 1 0.9 ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0 0.501961 1 1 ]
+     pos [ 0.22 0 0.26 ]
+     scale [ 1.2 1 1.2 ]
+     wiggle [ 4.86944 ]
+     text [
+      letters [ "C" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "B" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "T" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+    ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0.843137 0.0156863 0.156863 1 ]
+     pos [ -2.39 0 0 ]
+     scale [ 1.2 1 1.2 ]
+     kern [ -0.029772 ]
+     wiggle [ -3.7255 ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "D" ]
+     ]
+    ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0.501961 0.501961 1 1 ]
+     pos [ 3.19 0 -0.16 ]
+     scale [ 1.2 1 1.2 ]
+     kern [ 0.113477 ]
+     wiggle [ -6.40935 ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "T" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+    ]
    ]
   ]
   flat_building "tb43:random20_DNARoot" [
@@ -5394,6 +6401,97 @@ group "toontownCentral" [
     code [ "door_double_curved_ur" ]
     color [ 1 0.88 0.56 1 ]
    ]
+   sign [
+    code [ "TTC_sign2" ]
+    color [ 1 0.88 0.56 1 ]
+    pos [ 0 0 -0.69 ]
+    scale [ 0.9 1 0.9 ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0.764706 0.0235294 0.235294 1 ]
+     pos [ 0.04 0 0.62 ]
+     scale [ 1 1 1.4 ]
+     kern [ 0.051385 ]
+     wiggle [ 2.62807 ]
+     stumble [ 0.085556 ]
+     stomp [ 0.05 ]
+     width [ 50 ]
+     height [ 50 ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "F" ]
+     ]
+     text [
+      letters [ "U" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "D" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "G" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "M" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+    ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0 0.501961 0.25098 1 ]
+     pos [ 0 0 -0.86 ]
+     scale [ 1.3 1 1.4 ]
+     kern [ 0.124529 ]
+     wiggle [ 6.52308 ]
+     stumble [ 0.1 ]
+     stomp [ 0.02 ]
+     text [
+      letters [ "S" ]
+     ]
+     text [
+      letters [ "H" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "P" ]
+     ]
+    ]
+   ]
   ]
   flat_building "tb60:20_DNARoot" [
    pos [ -1529.93 1939.55 0.280989 ]
@@ -5424,6 +6522,74 @@ group "toontownCentral" [
    door [
     code [ "door_double_curved_ur" ]
     color [ 0.05 0.75 0.27 1 ]
+   ]
+   sign [
+    code [ "TTC_sign2" ]
+    color [ 1 0.88 0.56 1 ]
+    pos [ 0 0 0.37 ]
+    scale [ 0.8 1 0.8 ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0.501961 0 0.25098 1 ]
+     pos [ 0.15 0 0.39 ]
+     scale [ 2 1 2 ]
+     kern [ 0.078774 ]
+     wiggle [ 1.35566 ]
+     stumble [ 0.008135 ]
+     stomp [ 0.032597 ]
+     width [ 54.401 ]
+     height [ 54.401 ]
+     text [
+      letters [ "T" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "C" ]
+     ]
+     text [
+      letters [ "K" ]
+     ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+    ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0.501961 0 0.25098 1 ]
+     pos [ 0 0 -1 ]
+     scale [ 1.5 1 1.5 ]
+     kern [ 0.111783 ]
+     wiggle [ 3 ]
+     text [
+      letters [ "M" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "C" ]
+     ]
+     text [
+      letters [ "H" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+    ]
    ]
   ]
   flat_building "tb49:20_DNARoot" [
@@ -5913,6 +7079,111 @@ group "toontownCentral" [
     code [ "door_double_curved_ur" ]
     color [ 0.05 0.75 0.27 1 ]
    ]
+   sign [
+    code [ "TTC_sign3" ]
+    pos [ 0 0 -3.77 ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0 0.501961 0 1 ]
+     pos [ -0.19 0 0.94 ]
+     scale [ 1.1 1 1.2 ]
+     wiggle [ 6.77971 ]
+     stumble [ 0.06932 ]
+     stomp [ 0.026188 ]
+     width [ 25 ]
+     height [ 25 ]
+     text [
+      letters [ "F" ]
+     ]
+     text [
+      letters [ "U" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "Y" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "M" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "Y" ]
+     ]
+    ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0 0.25098 0.25098 1 ]
+     pos [ -0.37 0 -0.18 ]
+     scale [ 1.2 1 0.8 ]
+     kern [ 0.063308 ]
+     width [ 27.3769 ]
+     height [ 27.3769 ]
+     text [
+      letters [ "S" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "V" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "G" ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "&" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+    ]
+   ]
   ]
   landmark_building "tb54:toon_landmark_TT_A3_DNARoot" [
    code [ "toon_landmark_TT_A3" ]
@@ -5922,6 +7193,74 @@ group "toontownCentral" [
    door [
     code [ "door_double_square_ur" ]
     color [ 0.88 0.45 0.38 1 ]
+   ]
+   sign [
+    code [ "TTC_sign2" ]
+    color [ 1 0.88 0.56 1 ]
+    baseline [
+     code [ "mickey" ]
+     color [ 0 0.501961 0.752941 1 ]
+     pos [ 0 0 0.28 ]
+     hpr [ 0 0 -3 ]
+     kern [ 0.177503 ]
+     wiggle [ 2.7934 ]
+     stomp [ 0.081645 ]
+     flags [ "cdb" ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "U" ]
+     ]
+     text [
+      letters [ "G" ]
+     ]
+     text [
+      letters [ "H" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "G" ]
+     ]
+    ]
+    baseline [
+     code [ "mickey" ]
+     color [ 0 0.501961 0.752941 1 ]
+     pos [ -0.08 0 -0.95 ]
+     kern [ 0.063849 ]
+     wiggle [ 3.97854 ]
+     stomp [ 0.053734 ]
+     flags [ "b" ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+    ]
    ]
   ]
   flat_building "tb55:20_DNARoot" [
@@ -6958,6 +8297,134 @@ group "toontownCentral" [
     pos [ 12 -3 5 ]
     nhpr [ 0 0 0 ]
     color [ 1 0.88 0.8 1 ]
+    sign [
+     color [ 1 0.88 0.56 1 ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0 0.792157 0.792157 1 ]
+      pos [ 0 0 -0.12 ]
+      scale [ 0.9 1 0.9 ]
+      wiggle [ -2.51509 ]
+      text [
+       letters [ "N" ]
+      ]
+      text [
+       letters [ "O" ]
+      ]
+      text [
+       letters [ "W" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "P" ]
+      ]
+      text [
+       letters [ "L" ]
+      ]
+      text [
+       letters [ "A" ]
+      ]
+      text [
+       letters [ "Y" ]
+      ]
+      text [
+       letters [ "I" ]
+      ]
+      text [
+       letters [ "N" ]
+      ]
+      text [
+       letters [ "G" ]
+      ]
+     ]
+     baseline [
+      code [ "mickey" ]
+      color [ 0 0.501961 0 1 ]
+      pos [ 0 0 -1.59 ]
+      scale [ 0.9 1 1 ]
+      wiggle [ -4.53148 ]
+      text [
+       letters [ "M" ]
+      ]
+      text [
+       letters [ "R" ]
+      ]
+      text [
+       letters [ "." ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "M" ]
+      ]
+      text [
+       letters [ "O" ]
+      ]
+      text [
+       letters [ "U" ]
+      ]
+      text [
+       letters [ "S" ]
+      ]
+      text [
+       letters [ "E" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "T" ]
+      ]
+      text [
+       letters [ "A" ]
+      ]
+      text [
+       letters [ "K" ]
+      ]
+      text [
+       letters [ "E" ]
+      ]
+      text [
+       letters [ "S" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "A" ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ " " ]
+      ]
+      text [
+       letters [ "T" ]
+      ]
+      text [
+       letters [ "R" ]
+      ]
+      text [
+       letters [ "I" ]
+      ]
+      text [
+       letters [ "P" ]
+      ]
+     ]
+    ]
    ]
   ]
   flat_building "tb63:20_DNARoot" [
@@ -7019,6 +8486,85 @@ group "toontownCentral" [
     code [ "door_double_curved_ur" ]
     color [ 1 0.87 0.38 1 ]
    ]
+   sign [
+    code [ "TTC_sign3" ]
+    color [ 1 0.88 0.56 1 ]
+    pos [ 0 0 1.53 ]
+    scale [ 0.8 1 0.8 ]
+    baseline [
+     code [ "mickey" ]
+     color [ 1 0 0 1 ]
+     pos [ -0.3 0 -0.33 ]
+     scale [ 1.2 1 1.3 ]
+     kern [ 0.04 ]
+     wiggle [ 3.45308 ]
+     stumble [ 0.070882 ]
+     stomp [ 0.031987 ]
+     width [ 31.3264 ]
+     height [ 31.3264 ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "." ]
+     ]
+     text [
+      letters [ "M" ]
+     ]
+     text [
+      letters [ "." ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "U" ]
+     ]
+     text [
+      letters [ "P" ]
+     ]
+     text [
+      letters [ "H" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "C" ]
+     ]
+    ]
+    baseline [
+     code [ "mickey" ]
+     color [ 1 0 0 1 ]
+     pos [ 0 0 0.97 ]
+     scale [ 1.5 1 1.5 ]
+     kern [ 0.108364 ]
+     text [
+      letters [ "D" ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "." ]
+     ]
+    ]
+   ]
   ]
   flat_building "tb64:20_DNARoot" [
    pos [ -574.225 495.361 -1.62629 ]
@@ -7047,6 +8593,76 @@ group "toontownCentral" [
    door [
     code [ "door_double_curved_ur" ]
     color [ 0.88 0.45 0.38 1 ]
+   ]
+   sign [
+    code [ "TTC_sign1" ]
+    color [ 1 0.88 0.56 1 ]
+    pos [ 0 0 -2.29 ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0.501961 0.501961 1 1 ]
+     pos [ 0 0 0.97 ]
+     scale [ 1.1 1 1.3 ]
+     kern [ 0.073341 ]
+     wiggle [ 2.7148 ]
+     width [ 20 ]
+     height [ 20 ]
+     text [
+      letters [ "T" ]
+     ]
+     text [
+      letters [ "H" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+    ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0.501961 0.501961 1 1 ]
+     pos [ 0 0 -0.81 ]
+     scale [ 1.4 1 1.4 ]
+     kern [ 0.109621 ]
+     wiggle [ 0.96288 ]
+     stumble [ 0.040154 ]
+     stomp [ -0.019753 ]
+     width [ 29.685 ]
+     height [ 29.685 ]
+     flags [ "b" ]
+     text [
+      letters [ "M" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "R" ]
+     ]
+     text [
+      letters [ "Y" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "M" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "M" ]
+     ]
+     text [
+      letters [ "E" ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+    ]
    ]
   ]
   flat_building "tb0:20_DNARoot" [
@@ -7085,6 +8701,89 @@ group "toontownCentral" [
    door [
     code [ "door_double_curved_ur" ]
     color [ 0.88 0.45 0.38 1 ]
+   ]
+   sign [
+    code [ "TTC_sign3" ]
+    pos [ 0 0 0.49 ]
+    scale [ 1.2 1 1.2 ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0 0.25098 0.501961 1 ]
+     pos [ -0.07 0 1.11 ]
+     scale [ 1.1 1 1 ]
+     kern [ 0.032945 ]
+     width [ 38.5624 ]
+     height [ 38.5624 ]
+     text [
+      letters [ "L" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "U" ]
+     ]
+     text [
+      letters [ "G" ]
+     ]
+     text [
+      letters [ "H" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+     text [
+      letters [ "G" ]
+     ]
+    ]
+    baseline [
+     code [ "TT_Comedy" ]
+     color [ 0.666667 0.0823529 0.462745 1 ]
+     pos [ -0.02 0 -0.21 ]
+     scale [ 1.5 1 1.5 ]
+     kern [ 0.034834 ]
+     width [ 27.7616 ]
+     height [ 27.7616 ]
+     text [
+      letters [ "G" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ " " ]
+     ]
+     text [
+      letters [ "S" ]
+     ]
+     text [
+      letters [ "T" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "T" ]
+     ]
+     text [
+      letters [ "I" ]
+     ]
+     text [
+      letters [ "O" ]
+     ]
+     text [
+      letters [ "N" ]
+     ]
+    ]
    ]
   ]
   flat_building "tb66:20_DNARoot" [

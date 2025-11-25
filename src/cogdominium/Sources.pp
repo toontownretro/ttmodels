@@ -1,25 +1,23 @@
 #define DIR_TYPE models
 #define INSTALL_TO models/cogdominium
 
-// Don't build it yet
-// #define BUILD_DIRECTORY
-
 #begin maya_egg
   #define SOURCES $[wildcard *.mb]
 #end maya_egg
 
 #begin install_egg
   #define SOURCES \
-	// Global Cogdominium files shared along all departments
+	// Global Cogdominium files shared between all departments
     cogdominiumElevator.egg \
 	field_office_sign.egg \
 	tt_m_ara_cbe_walls.egg \
 	tt_m_ara_csa_elevatorB.egg \
 	tt_m_ara_csa_exitDoor.egg \
-	//tt_m_ara_csa_exitDoor_old.egg \
+	tt_m_ara_csa_exitDoor_old.egg \
 	tt_m_ara_csa_memo.egg \
 	tt_m_ara_csa_joke.egg \
 	tt_m_gui_csa_flyThru.egg \
+	tt_m_gui_csa_flyThru_02.egg \
 	tt_m_gui_csa_memo_card.egg \
 	tt_m_gui_csa_joke_card.egg \
 	// Department exclusive files
@@ -36,20 +34,20 @@
 	tt_m_ara_cmg_grouping_blockerDivider.egg \
 	tt_m_ara_cmg_level.egg \
 	tt_m_ara_cmg_quadrant1_old.egg \
-	//tt_m_ara_cmg_quadrant2_old.egg \
-	//tt_m_ara_cmg_quadrant3_old.egg \
-	//tt_m_ara_cmg_quadrant4_old.egg \
-	//tt_m_ara_cmg_quadrant5_old.egg \
-	//tt_m_ara_cmg_quadrant6_old.egg \
+	tt_m_ara_cmg_quadrant2_old.egg \
+	tt_m_ara_cmg_quadrant3_old.egg \
+	tt_m_ara_cmg_quadrant4_old.egg \
+	tt_m_ara_cmg_quadrant5_old.egg \
+	tt_m_ara_cmg_quadrant6_old.egg \
 	//tt_m_ara_cmg_quadrant7_old.egg \
 	//tt_m_ara_cmg_quadrant8_old.egg \
 	//tt_m_ara_cmg_quadrant9_old.egg \
-	//tt_m_ara_cmg_quadrant1.egg \
-	//tt_m_ara_cmg_quadrant2.egg \
-	//tt_m_ara_cmg_quadrant3.egg \
-	//tt_m_ara_cmg_quadrant4.egg \
-	//tt_m_ara_cmg_quadrant5.egg \
-	//tt_m_ara_cmg_quadrant6.egg \
+	tt_m_ara_cmg_quadrant1.egg \
+	tt_m_ara_cmg_quadrant2.egg \
+	tt_m_ara_cmg_quadrant3.egg \
+	tt_m_ara_cmg_quadrant4.egg \
+	tt_m_ara_cmg_quadrant5.egg \
+	tt_m_ara_cmg_quadrant6.egg \
 	//tt_m_ara_cmg_quadrant7.egg \
 	//tt_m_ara_cmg_quadrant8.egg \
 	//tt_m_ara_cmg_quadrant9.egg \
@@ -69,22 +67,22 @@
 	tt_m_ara_cfg_propellerPack.egg \
 	tt_m_ara_cfg_propellerPack_card.egg \
 	tt_m_ara_cfg_propellers.egg \
-	//tt_m_ara_cfg_quadrant1_old.egg \
-	//tt_m_ara_cfg_quadrant2_old.egg \
+	tt_m_ara_cfg_quadrant1_old.egg \
+	tt_m_ara_cfg_quadrant2_old.egg \
 	//tt_m_ara_cfg_quadrant3_old.egg \
 	//tt_m_ara_cfg_quadrant4_old.egg \
 	//tt_m_ara_cfg_quadrant5_old.egg \
 	//tt_m_ara_cfg_quadrant6_old.egg \
 	//tt_m_ara_cfg_quadrant7_old.egg \
 	//tt_m_ara_cfg_quadrant8_old.egg \
-	//tt_m_ara_cfg_quadrant1.egg \
-	//tt_m_ara_cfg_quadrant2.egg \
-	//tt_m_ara_cfg_quadrant3.egg \
-	//tt_m_ara_cfg_quadrant4.egg \
-	//tt_m_ara_cfg_quadrant5.egg \
-	//tt_m_ara_cfg_quadrant6.egg \
-	//tt_m_ara_cfg_quadrant7.egg \
-	//tt_m_ara_cfg_quadrant8.egg \
+	tt_m_ara_cfg_quadrant1.egg \
+	tt_m_ara_cfg_quadrant2.egg \
+	tt_m_ara_cfg_quadrant3.egg \
+	tt_m_ara_cfg_quadrant4.egg \
+	tt_m_ara_cfg_quadrant5.egg \
+	tt_m_ara_cfg_quadrant6.egg \
+	tt_m_ara_cfg_quadrant7.egg \
+	tt_m_ara_cfg_quadrant8.egg \
 	tt_m_ara_cfg_redTapePickup.egg \
 	tt_m_ara_cfg_redTapeRing.egg \
 	tt_m_ara_cfg_streamer.egg \

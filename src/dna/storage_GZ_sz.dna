@@ -1,5 +1,5 @@
 place_model "phase_6/models/golf/golf_hub2" [
-	store_node [ "prop" "goofy_speedway" "" ]
+	store_node [ "prop" "golf_hub2" "" ]
 	]
 
 place_model "phase_6/models/golf/golf_hub_tunnel_ent" [

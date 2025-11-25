@@ -1,4 +1,4 @@
-﻿store_suit_point [ 0, STREET_POINT, 55 240 -0.5 ]
+store_suit_point [ 0, STREET_POINT, 55 240 -0.5 ]
 store_suit_point [ 1, STREET_POINT, 55 225 -0.5 ]
 store_suit_point [ 2, STREET_POINT, 65 225 -0.5 ]
 store_suit_point [ 3, STREET_POINT, 65 240 -0.5 ]
@@ -178,12 +178,12 @@ group "theBurrrgh" [
   suit_edge [ 0 171 ]
   suit_edge [ 171 3 ]
   suit_edge [ 3 171 ]
-  battle_cell [ 20 20 60 232 0 ]
+  battle_cell [ 20 20 60 232 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_40x40" ]
-    pos [ 80 200 0 ]
-    nhpr [ 90 0 0 ]
+    pos [ 80 200 7.62939e-06 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_BR_tex" ]
     texture [ "street_sidewalk_BR_tex" ]
     texture [ "street_curb_BR_tex" ]
@@ -202,6 +202,16 @@ group "theBurrrgh" [
     sign [
      code [ "TB_sign1" ]
      pos [ -0.0441061 0 3.23482 ]
+     baseline [
+      code [ "BR_Aftershock" ]
+      color [ 0.501961 0 1 1 ]
+      pos [ -0.0553396 0 0.714799 ]
+      scale [ 1.42449 1 1.19366 ]
+      flags [ "b" ]
+      text [
+       letters [ "A" ]
+      ]
+     ]
      baseline [
       code [ "BR_Aftershock" ]
       color [ 0.501961 0 1 1 ]
@@ -370,11 +380,6 @@ group "theBurrrgh" [
       color [ 1 1 1 1 ]
      ]
     ]
-    prop "BR_hydrant_DNARoot" [
-     code [ "BR_hydrant" ]
-     pos [ 15 -5 0 ]
-     nhpr [ 90 0 0 ]
-    ]
    ]
    flat_building "tb10:random_DNARoot" [
     pos [ 40 235 0 ]
@@ -403,11 +408,6 @@ group "theBurrrgh" [
       color [ 1 1 1 1 ]
      ]
     ]
-    prop "prop_BR_trashcan_DNARoot" [
-     code [ "prop_BR_trashcan" ]
-     pos [ 15 -7.6554 0 ]
-     nhpr [ 0 0 0 ]
-    ]
    ]
   ]
   group "props" [
@@ -417,11 +417,11 @@ group "theBurrrgh" [
     nhpr [ -180 0 0 ]
     sign [
      code [ "tunnel_sign_blue" ]
-     pos [ 0.447265 0 -3.37866 ]
-     scale [ 1.4059 1 1.29715 ]
+     pos [ 0 0 -1.19 ]
+     scale [ 1.5 1 1.5 ]
      baseline [
       code [ "mickey" ]
-      color [ 0 0.501961 1 1 ]
+      color [ 0 0.501961 0.501961 1 ]
       pos [ 0 0 -0.631843 ]
       scale [ 1.41001 1 1.48408 ]
       kern [ 0.0754488 ]
@@ -474,15 +474,15 @@ group "theBurrrgh" [
       ]
      ]
      baseline [
-      pos [ 0 0 1.57597 ]
-      scale [ 2.51314 1 2.02763 ]
+      pos [ 0 0 1.5 ]
+      scale [ 2.5 1 2.5 ]
       graphic [
        code [ "plutoSZ" ]
       ]
      ]
      baseline [
       code [ "mickey" ]
-      color [ 0 0.376471 0.74902 1 ]
+      color [ 0 0.501961 0.501961 1 ]
       pos [ 0 0 -1.76694 ]
       scale [ 1.60733 1 1.31429 ]
       width [ 30.7672 ]
@@ -518,6 +518,18 @@ group "theBurrrgh" [
     ]
    ]
   ]
+  interactive_prop "interactive_prop_phase_8_models_char__tbr_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_8_models_char__tbr_hydrant" ]
+   anim [ "tt_a_ara_tbr_hydrant_idleRubNose0" ]
+   cell_id [ 0 ]
+   pos [ 75.8168 225.281 7.62939e-06 ]
+   nhpr [ -90 0 0 ]
+  ]
+  prop "prop_tt_m_ara_gen_tunnelAheadSign_DNARoot" [
+   code [ "prop_tt_m_ara_gen_tunnelAheadSign" ]
+   pos [ 51.3094 205.7 -0.499985 ]
+   nhpr [ 165 0 0 ]
+  ]
  ]
  visgroup "3302" [
   vis [   "3302"   "3301"   "3303"   "3304"   "3305"   ]
@@ -535,7 +547,7 @@ group "theBurrrgh" [
   suit_edge [ 4 167 ]
   suit_edge [ 167 7 ]
   suit_edge [ 7 167 ]
-  battle_cell [ 20 20 60 259 0 ]
+  battle_cell [ 20 20 60 259 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_full_corner" ]
@@ -747,6 +759,13 @@ group "theBurrrgh" [
   ]
   group "props" [
   ]
+  interactive_prop "interactive_prop_phase_8_models_char__tbr_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_8_models_char__tbr_trashcan" ]
+   anim [ "tt_a_ara_tbr_trashcan_idle0" ]
+   cell_id [ 0 ]
+   pos [ 44.5534 251.459 7.62939e-06 ]
+   nhpr [ 105 0 0 ]
+  ]
  ]
  visgroup "3303" [
   vis [   "3303"   "3301"   "3302"   "3304"   "3305"   "3306"   "3307"   "3328"   "3308"   ]
@@ -762,7 +781,7 @@ group "theBurrrgh" [
   suit_edge [ 11 144 ]
   suit_edge [ 144 8 ]
   suit_edge [ 8 144 ]
-  battle_cell [ 20 20 100 260 0 ]
+  battle_cell [ 20 20 100 260 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_40x40" ]
@@ -774,7 +793,7 @@ group "theBurrrgh" [
    ]
   ]
   group "buildings" [
-landmark_building "tb30:toon_landmark_BR_A2_DNARoot" [
+   landmark_building "tb30:toon_landmark_BR_A2_DNARoot" [
     code [ "toon_landmark_BR_A2" ]
     title [ "Voyons Voir, dégivrage de monocles" ]
     pos [ 110 240 0 ]
@@ -927,11 +946,6 @@ landmark_building "tb30:toon_landmark_BR_A2_DNARoot" [
       color [ 1 1 1 1 ]
      ]
     ]
-    prop "BR_mailbox_DNARoot" [
-     code [ "BR_mailbox" ]
-     pos [ 10 -7.57901 0 ]
-     nhpr [ -90 0 0 ]
-    ]
    ]
    flat_building "tb28:random_DNARoot" [
     pos [ 105 280 0 ]
@@ -1048,6 +1062,13 @@ landmark_building "tb30:toon_landmark_BR_A2_DNARoot" [
     nhpr [ 180 0 0 ]
    ]
   ]
+  interactive_prop "interactive_prop_phase_8_models_char__tbr_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_8_models_char__tbr_trashcan" ]
+   anim [ "tt_a_ara_tbr_trashcan_idle0" ]
+   cell_id [ 0 ]
+   pos [ 101.583 275.997 -7.62939e-06 ]
+   nhpr [ 0 0 0 ]
+  ]
  ]
  visgroup "3304" [
   vis [   "3304"   "3302"   "3301"   "3303"   "3305"   "3306"   "3307"   "3308"   "3310"   "3328"   "3326"   ]
@@ -1064,7 +1085,7 @@ landmark_building "tb30:toon_landmark_BR_A2_DNARoot" [
   suit_edge [ 15 145 ]
   suit_edge [ 145 12 ]
   suit_edge [ 12 145 ]
-  battle_cell [ 20 20 138 257 0 ]
+  battle_cell [ 20 20 138 257 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_full_corner" ]
@@ -1484,12 +1505,12 @@ landmark_building "tb30:toon_landmark_BR_A2_DNARoot" [
   suit_edge [ 14 146 ]
   suit_edge [ 146 13 ]
   suit_edge [ 13 146 ]
-  battle_cell [ 20 20 140 229 0 ]
+  battle_cell [ 20 20 140 229 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_40x40" ]
-    pos [ 160 200 0 ]
-    nhpr [ 90 0 0 ]
+    pos [ 160 200 8.39233e-05 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_BR_tex" ]
     texture [ "street_sidewalk_BR_tex" ]
     texture [ "street_curb_BR_tex" ]
@@ -1504,7 +1525,7 @@ landmark_building "tb30:toon_landmark_BR_A2_DNARoot" [
    ]
   ]
   group "buildings" [
-  landmark_building "tb12:toon_landmark_BR_B2_DNARoot" [
+   landmark_building "tb12:toon_landmark_BR_B2_DNARoot" [
     code [ "toon_landmark_BR_B2" ]
     title [ "Chaussons pour chatons" ]
     pos [ 160 229.969 0 ]
@@ -1709,7 +1730,7 @@ landmark_building "tb30:toon_landmark_BR_A2_DNARoot" [
     ]
     prop "prop_snow_pile_quarter_DNARoot" [
      code [ "prop_snow_pile_quarter" ]
-     pos [ 20 -1.98711e-006 0 ]
+     pos [ 20 -1.98711e-06 0 ]
      nhpr [ -90 0 0 ]
      scale [ 1.98074 1.98074 1.98074 ]
     ]
@@ -1753,11 +1774,6 @@ landmark_building "tb30:toon_landmark_BR_A2_DNARoot" [
       color [ 1 1 1 1 ]
      ]
     ]
-    prop "BR_hydrant_DNARoot" [
-     code [ "BR_hydrant" ]
-     pos [ 14.233 -8.45199 0 ]
-     nhpr [ 90 0 0 ]
-    ]
    ]
    flat_building "tb12:random_DNARoot" [
     pos [ 160 250 0 ]
@@ -1800,6 +1816,13 @@ landmark_building "tb30:toon_landmark_BR_A2_DNARoot" [
     nhpr [ 90 0 0 ]
    ]
   ]
+  interactive_prop "interactive_prop_phase_8_models_char__tbr_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_8_models_char__tbr_hydrant" ]
+   anim [ "tt_a_ara_tbr_hydrant_idleRubNose0" ]
+   cell_id [ 0 ]
+   pos [ 153.93 206.554 8.39233e-05 ]
+   nhpr [ -120 0 0 ]
+  ]
  ]
  visgroup "3306" [
   vis [   "3306"   "3305"   "3304"   "3303"   "3307"   "3308"   "3309"   "3311"   "3312"   "3313"   "3314"   "3315"   "3316"   "3328"   ]
@@ -1816,7 +1839,7 @@ landmark_building "tb30:toon_landmark_BR_A2_DNARoot" [
   suit_edge [ 22 147 ]
   suit_edge [ 147 26 ]
   suit_edge [ 26 147 ]
-  battle_cell [ 20 20 140 180 0 ]
+  battle_cell [ 20 20 140 180 -0.5 ]
   group "streets" [
    street "street_sidewalk_10x20_DNARoot" [
     code [ "street_sidewalk_10x20" ]
@@ -1852,7 +1875,7 @@ landmark_building "tb30:toon_landmark_BR_A2_DNARoot" [
    ]
   ]
   group "buildings" [
-landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
+   landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     code [ "toon_landmark_BR_C1" ]
     title [ "Sports d'hibernation" ]
     pos [ 110 169.969 0 ]
@@ -1988,8 +2011,8 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_snow_pile_quarter_DNARoot" [
      code [ "prop_snow_pile_quarter" ]
-     pos [ -4.80825e-006 1.07269e-006 0 ]
-     nhpr [ 2.0326e-014 0 0 ]
+     pos [ -4.80825e-06 1.07269e-06 0 ]
+     nhpr [ 2.0326e-14 0 0 ]
      scale [ 2.89083 2.89083 2.89083 ]
     ]
     prop "BR_potbelly_stove_DNARoot" [
@@ -2087,18 +2110,25 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_snow_pile_half_DNARoot" [
      code [ "prop_snow_pile_half" ]
-     pos [ 9.99999 -6.11959e-006 0 ]
-     nhpr [ -5.87031e-014 0 0 ]
+     pos [ 9.99998 -1.52588e-05 0 ]
+     nhpr [ -0 0 -0 ]
      scale [ 2.14561 2.14561 2.14561 ]
     ]
     prop "prop_icecube_glove_DNARoot" [
      code [ "prop_icecube_glove" ]
-     pos [ 5.26299 -1.56701 2.36977 ]
-     nhpr [ 90 -19.5647 0 ]
+     pos [ 5.263 -1.56702 1.45 ]
+     nhpr [ 90 340.435 -0 ]
     ]
    ]
   ]
   group "props" [
+  ]
+  interactive_prop "interactive_prop_phase_8_models_char__tbr_mailbox_DNARoot" [
+   code [ "interactive_prop_phase_8_models_char__tbr_mailbox" ]
+   anim [ "tt_a_ara_tbr_mailbox_idle0" ]
+   cell_id [ 0 ]
+   pos [ 126.305 192.359 7.62939e-06 ]
+   nhpr [ 75 0 0 ]
   ]
  ]
  visgroup "3307" [
@@ -2115,7 +2145,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 27 149 ]
   suit_edge [ 149 30 ]
   suit_edge [ 30 149 ]
-  battle_cell [ 20 20 180 180 0 ]
+  battle_cell [ 20 20 180 180 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_40x40" ]
@@ -2309,9 +2339,9 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
    ]
    flat_building "tb15:random_DNARoot" [
-    pos [ 175 150 0 ]
+    pos [ 167 150 0 ]
     nhpr [ -180 0 0 ]
-    width [ 20 ]
+    width [ 12 ]
     wall [
      height [ 20 ]
      code [ "wall_md_blank_ur" ]
@@ -2364,6 +2394,13 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     nhpr [ 0 0 0 ]
    ]
   ]
+  interactive_prop "interactive_prop_phase_8_models_char__tbr_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_8_models_char__tbr_hydrant" ]
+   anim [ "tt_a_ara_tbr_hydrant_idleRubNose0" ]
+   cell_id [ 0 ]
+   pos [ 192.588 165.727 0 ]
+   nhpr [ -165 0 0 ]
+  ]
  ]
  visgroup "3308" [
   vis [   "3308"   "3309"   "3310"   "3311"   "3312"   "3313"   "3314"   "3315"   "3316"   "3307"   "3306"   "3305"   ]
@@ -2377,7 +2414,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 34 123 ]
   suit_edge [ 150 32 ]
   suit_edge [ 32 150 ]
-  battle_cell [ 20 20 220 180 0 ]
+  battle_cell [ 20 20 220 180 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_t_intersection" ]
@@ -2501,12 +2538,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_snow_tree_small_brickbox_ur_DNARoot" [
      code [ "prop_snow_tree_small_brickbox_ur" ]
-     pos [ 5.058 -4.992 2.0504e-005 ]
-     nhpr [ 180 0 0 ]
-    ]
-    prop "BR_hydrant_DNARoot" [
-     code [ "BR_hydrant" ]
-     pos [ 10 -8.037 0 ]
+     pos [ 5.058 -4.992 2.0504e-05 ]
      nhpr [ 180 0 0 ]
     ]
    ]
@@ -2564,7 +2596,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     prop "prop_BR_roman_entrance_DNARoot" [
      code [ "prop_BR_roman_entrance" ]
      pos [ 10 -5.00001 0 ]
-     nhpr [ -2.89091e-014 0 0 ]
+     nhpr [ -2.89091e-14 0 0 ]
      scale [ 0.857236 0.857236 0.857236 ]
     ]
    ]
@@ -2580,12 +2612,12 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 36 124 ]
   suit_edge [ 172 33 ]
   suit_edge [ 33 172 ]
-  battle_cell [ 20 20 220 225 0 ]
+  battle_cell [ 20 20 220 225 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_40x40" ]
     pos [ 240 200 0 ]
-    nhpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_BR_tex" ]
     texture [ "street_sidewalk_BR_tex" ]
     texture [ "street_curb_BR_tex" ]
@@ -2670,6 +2702,13 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
      ]
     ]
    ]
+   interactive_prop "interactive_prop_phase_8_models_char__tbr_mailbox_DNARoot" [
+    code [ "interactive_prop_phase_8_models_char__tbr_mailbox" ]
+    anim [ "tt_a_ara_tbr_mailbox_idle0" ]
+    cell_id [ 0 ]
+    pos [ 232.62 215.26 0 ]
+    nhpr [ 270 0 0 ]
+   ]
    flat_building "tb23:random_DNARoot" [
     pos [ 200 200 0 ]
     nhpr [ 90 0 0 ]
@@ -2697,11 +2736,13 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
       color [ 1 1 1 1 ]
      ]
     ]
+	/*
     prop "BR_mailbox_DNARoot" [
      code [ "BR_mailbox" ]
      pos [ 15.259 -32.617 0 ]
-     nhpr [ 90 0 0 ]
+     nhpr [ 90 -0 0 ]
     ]
+	*/
     prop "prop_snowman_DNARoot" [
      code [ "prop_snowman" ]
      pos [ 37.386 -41.87 0 ]
@@ -2731,12 +2772,12 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 38 125 ]
   suit_edge [ 152 35 ]
   suit_edge [ 35 152 ]
-  battle_cell [ 20 20 223 257 0 ]
+  battle_cell [ 20 20 223 257 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_full_corner" ]
     pos [ 200 240 0 ]
-    nhpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_BR_tex" ]
     texture [ "street_sidewalk_BR_tex" ]
     texture [ "street_curb_BR_tex" ]
@@ -2744,7 +2785,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
    street "street_4way_intersection_DNARoot" [
     code [ "street_sidewalk_10x20" ]
     pos [ 220 300 0 ]
-    nhpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     texture [ "street_street_BR_tex" ]
     texture [ "street_sidewalk_BR_tex" ]
     texture [ "street_curb_BR_tex" ]
@@ -2817,6 +2858,13 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
       ]
      ]
     ]
+   ]   
+   interactive_prop "interactive_prop_phase_8_models_char__tbr_hydrant_DNARoot" [
+    code [ "interactive_prop_phase_8_models_char__tbr_hydrant" ]
+    anim [ "tt_a_ara_tbr_hydrant_idleRubNose0" ]
+    cell_id [ 0 ]
+    pos [ 220 271.84 0 ]
+    nhpr [ 0 0 0 ]   
    ]
    flat_building "tb28:random_DNARoot" [
     pos [ 180 300 0 ]
@@ -3200,7 +3248,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 40 126 ]
   suit_edge [ 168 37 ]
   suit_edge [ 37 168 ]
-  battle_cell [ 20 20 260 260 0 ]
+  battle_cell [ 20 20 260 260 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_40x40" ]
@@ -3388,11 +3436,13 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
       color [ 1 1 1 1 ]
      ]
     ]
+	/*
     prop "BR_hydrant_DNARoot" [
      code [ "BR_hydrant" ]
-     pos [ 0 -8.155 0 ]
-     nhpr [ 0 0 0 ]
+     pos [ 0 -8.15503 0 ]
+     nhpr [ -0 0 -0 ]
     ]
+	*/
     prop "prop_post_three_light_DNARoot" [
      code [ "prop_post_three_light" ]
      pos [ 15 -35 0 ]
@@ -3416,7 +3466,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
  visgroup "3312" [
   vis [   "3312"   "3311"   "3310"   "3309"   "3308"   "3307"   "3306"   "3305"   "3313"   "3314"   "3315"   "3316"   ]
   suit_edge [ 32 41 ]
-  battle_cell [ 20 20 260 180 0 ]
+  battle_cell [ 20 20 260 180 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_40x40" ]
@@ -3480,9 +3530,9 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
    landmark_building "tb1:toon_landmark_hqBR_DNARoot" [
     code [ "toon_landmark_hqBR" ]
     building_type [ "hq" ]
-    title [ "QG des Toons" ]
+    title [ "Quartier Général des Toons" ]
     pos [ 268.052 228.052 0 ]
-    nhpr [ -45 0 0 ]
+    nhpr [ -45 0 -0 ]
    ]
    prop "neighborhood_sign_BR_DNARoot" [
     code [ "neighborhood_sign_BR" ]
@@ -3500,12 +3550,12 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 42 127 ]
   suit_edge [ 173 41 ]
   suit_edge [ 41 173 ]
-  battle_cell [ 20 20 299 181 0 ]
+  battle_cell [ 20 20 299 181 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_full_corner" ]
     pos [ 320 200 0 ]
-    nhpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     texture [ "street_street_BR_tex" ]
     texture [ "street_sidewalk_BR_tex" ]
     texture [ "street_curb_BR_tex" ]
@@ -3788,7 +3838,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_snow_pile_quarter_DNARoot" [
      code [ "prop_snow_pile_quarter" ]
-     pos [ 20 -6.99382e-006 0 ]
+     pos [ 20 -6.99382e-06 0 ]
      nhpr [ -90 0 0 ]
      scale [ 2.43601 2.43601 2.43601 ]
     ]
@@ -3800,7 +3850,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     prop "prop_skates_flat_DNARoot" [
      code [ "prop_skates_flat" ]
      pos [ 20.9262 -16.7673 -0.0133596 ]
-     nhpr [ -45 1.11016 2.90871e-006 ]
+     nhpr [ -45 1.11016 2.90871e-06 ]
     ]
    ]
    flat_building "tb16:random_DNARoot" [
@@ -3843,7 +3893,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 45 128 ]
   suit_edge [ 174 44 ]
   suit_edge [ 44 174 ]
-  battle_cell [ 20 20 300 220 0 ]
+  battle_cell [ 20 20 300 220 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_40x40" ]
@@ -3884,13 +3934,8 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_smokestack_DNARoot" [
      code [ "prop_smokestack" ]
-     pos [ 10.799 1.77499 14.6633 ]
-     nhpr [ -15 0 0 ]
-    ]
-    prop "prop_BR_trashcan_DNARoot" [
-     code [ "prop_BR_trashcan" ]
-     pos [ -0.800992 -32.86 0 ]
-     nhpr [ -180 0 0 ]
+     pos [ 10.799 3 14.6633 ]
+     nhpr [ 345 0 -0 ]
     ]
    ]
    flat_building "tb8:random_DNARoot" [
@@ -3938,8 +3983,8 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     sign [
      code [ "TB_sign1" ]
-     pos [ 0 0 -0.957258 ]
-     scale [ 1.1325 1 0.750428 ]
+     pos [ 0 0 -0.977532 ]
+     scale [ 1.44932 1 1.18899 ]
      baseline [
       code [ "BR_Aftershock" ]
       color [ 1 0.501961 1 1 ]
@@ -3991,6 +4036,13 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     nhpr [ 90 0 0 ]
    ]
   ]
+  interactive_prop "interactive_prop_phase_8_models_char__tbr_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_8_models_char__tbr_trashcan" ]
+   anim [ "tt_a_ara_tbr_trashcan_idle0" ]
+   cell_id [ 0 ]
+   pos [ 285.926 206.708 -1.52588e-05 ]
+   nhpr [ 120 0 0 ]
+  ]
  ]
  visgroup "3315" [
   vis [   "3315"   "3314"   "3313"   "3312"   "3311"   "3310"   "3309"   "3308"   "3307"   "3306"   "3316"   "3318"   "3317"   ]
@@ -3998,7 +4050,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 48 39 ]
   suit_edge [ 46 49 ]
   suit_edge [ 49 50 ]
-  battle_cell [ 20 20 300 260 0 ]
+  battle_cell [ 20 20 300 260 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_t_intersection" ]
@@ -4111,7 +4163,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 47 169 ]
   suit_edge [ 169 50 ]
   suit_edge [ 50 169 ]
-  battle_cell [ 20 20 350 260 0 ]
+  battle_cell [ 20 20 350 260 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_full_corner" ]
@@ -4253,7 +4305,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     prop "prop_post_three_light_DNARoot" [
      code [ "prop_post_three_light" ]
      pos [ -7.287 -7.046 0 ]
-     nhpr [ 1.00179e-005 0 0 ]
+     nhpr [ 1.00179e-05 0 0 ]
     ]
    ]
    flat_building "tb25:random_DNARoot" [
@@ -4371,11 +4423,6 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
      scale [ 0.829536 0.829536 0.829536 ]
      color [ 0.59 1 0.92 1 ]
     ]
-    prop "BR_hydrant_DNARoot" [
-     code [ "BR_hydrant" ]
-     pos [ 19.6305 -8.61816 0 ]
-     nhpr [ 0 0 0 ]
-    ]
    ]
   ]
   group "props" [
@@ -4385,6 +4432,13 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     nhpr [ 180 0 0 ]
    ]
   ]
+  interactive_prop "interactive_prop_phase_8_models_char__tbr_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_8_models_char__tbr_hydrant" ]
+   anim [ "tt_a_ara_tbr_hydrant_idleRubNose0" ]
+   cell_id [ 0 ]
+   pos [ 330.848 274.351 -3.8147e-06 ]
+   nhpr [ 30 0 0 ]
+  ]
  ]
  visgroup "3317" [
   vis [   "3317"   "3316"   "3315"   "3311"   "3318"   "3319"   "3310"   "3327"   ]
@@ -4393,7 +4447,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 57 58 ]
   suit_edge [ 59 60 ]
   suit_edge [ 60 51 ]
-  battle_cell [ 20 20 350 210 0 ]
+  battle_cell [ 20 20 350 210 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_full_corner" ]
@@ -4642,7 +4696,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   group "props" [
    prop "neighborhood_sign_BR_DNARoot" [
     code [ "neighborhood_sign_BR" ]
-    pos [ 365.799 191.403 3.05176e-005 ]
+    pos [ 365.799 191.403 3.05176e-05 ]
     nhpr [ -180 0 0 ]
    ]
   ]
@@ -4662,7 +4716,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 58 170 ]
   suit_edge [ 170 59 ]
   suit_edge [ 59 170 ]
-  battle_cell [ 20 20 385 210 0 ]
+  battle_cell [ 20 20 385 210 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_double_corner" ]
@@ -4702,7 +4756,6 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     sign [
      code [ "sign_general1" ]
      color [ 0 0.819608 1 1 ]
-     scale [ 0.82218 1 1 ]
      baseline [
       code [ "humanist" ]
       color [ 1 0.501961 1 1 ]
@@ -4882,8 +4935,8 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_snow_pile_quarter_DNARoot" [
      code [ "prop_snow_pile_quarter" ]
-     pos [ -1.48619e-005 -3.05176e-005 0 ]
-     nhpr [ 1.22834e-013 0 0 ]
+     pos [ -1.48619e-05 -3.05176e-05 0 ]
+     nhpr [ 1.22834e-13 0 0 ]
      scale [ 3.68443 3.68443 3.68443 ]
     ]
     prop "prop_ski_flat_DNARoot" [
@@ -4893,7 +4946,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_snow_pile_half_DNARoot" [
      code [ "prop_snow_pile_half" ]
-     pos [ 9.099e-006 -15 0 ]
+     pos [ 9.099e-06 -15 0 ]
      nhpr [ 90 0 0 ]
      scale [ 2.25741 2.25741 2.25741 ]
     ]
@@ -4988,11 +5041,6 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
       code [ "cornice_ice_ur" ]
       color [ 1 1 1 1 ]
      ]
-    ]
-    prop "BR_mailbox_DNARoot" [
-     code [ "BR_mailbox" ]
-     pos [ 13.793 -8.07301 0 ]
-     nhpr [ -90 0 0 ]
     ]
     prop "prop_stovepipe_DNARoot" [
      code [ "prop_stovepipe" ]
@@ -5121,9 +5169,16 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   group "props" [
    prop "neighborhood_sign_lawBotHQ_DNARoot" [
     code [ "neighborhood_sign_lawBotHQ" ]
-    pos [ 428.321 221.733 3.05176e-005 ]
+    pos [ 428.321 221.733 3.05176e-05 ]
     nhpr [ 90 0 0 ]
    ]
+  ]
+  interactive_prop "interactive_prop_phase_8_models_char__tbr_mailbox_DNARoot" [
+   code [ "interactive_prop_phase_8_models_char__tbr_mailbox" ]
+   anim [ "tt_a_ara_tbr_mailbox_idle0" ]
+   cell_id [ 0 ]
+   pos [ 408.469 195.134 -7.62939e-06 ]
+   nhpr [ -165 0 0 ]
   ]
  ]
  visgroup "3319" [
@@ -5144,7 +5199,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 67 158 ]
   suit_edge [ 158 72 ]
   suit_edge [ 72 158 ]
-  battle_cell [ 20 20 405 249 0 ]
+  battle_cell [ 20 20 405 249 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_tight_corner" ]
@@ -5264,7 +5319,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_post_three_light_DNARoot" [
      code [ "prop_post_three_light" ]
-     pos [ 7.90198 -17.5581 3.05176e-005 ]
+     pos [ 7.90198 -17.5581 3.05176e-05 ]
      nhpr [ -90 0 0 ]
     ]
    ]
@@ -5408,6 +5463,13 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   ]
   group "props" [
   ]
+  interactive_prop "interactive_prop_phase_8_models_char__tbr_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_8_models_char__tbr_hydrant" ]
+   anim [ "tt_a_ara_tbr_hydrant_idleRubNose0" ]
+   cell_id [ 0 ]
+   pos [ 424.098 240.646 7.62939e-06 ]
+   nhpr [ -105 0 0 ]
+  ]
  ]
  visgroup "3320" [
   vis [   "3320"   "3319"   "3318"   "3321"   "3322"   "3327"   "3330"   ]
@@ -5427,7 +5489,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 84 160 ]
   suit_edge [ 160 87 ]
   suit_edge [ 87 160 ]
-  battle_cell [ 20 20 388 327 0 ]
+  battle_cell [ 20 20 388 327 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_tight_corner" ]
@@ -5478,7 +5540,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_snow_pile_half_DNARoot" [
      code [ "prop_snow_pile_half" ]
-     pos [ 6.47574 -1.14441e-005 3.05176e-005 ]
+     pos [ 6.47574 -1.14441e-05 3.05176e-05 ]
      nhpr [ 0 0 0 ]
      scale [ 1.66662 1.66662 1.66662 ]
     ]
@@ -5533,11 +5595,6 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
       code [ "cornice_curved_ur" ]
       color [ 0.34 0.9 0.87 1 ]
      ]
-    ]
-    prop "prop_BR_trashcan_DNARoot" [
-     code [ "prop_BR_trashcan" ]
-     pos [ -22.6539 -17.8035 0 ]
-     nhpr [ 0 0 0 ]
     ]
    ]
    flat_building "tb17:random_DNARoot" [
@@ -5723,6 +5780,13 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   ]
   group "props" [
   ]
+  interactive_prop "interactive_prop_phase_8_models_char__tbr_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_8_models_char__tbr_trashcan" ]
+   anim [ "tt_a_ara_tbr_trashcan_idle0" ]
+   cell_id [ 0 ]
+   pos [ 376.896 314.497 0 ]
+   nhpr [ 150 0 0 ]
+  ]
  ]
  visgroup "3321" [
   vis [   "3321"   "3320"   "3319"   "3318"   "3327"   "3322"   "3323"   "3324"   "3330"   ]
@@ -5739,12 +5803,12 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 88 175 ]
   suit_edge [ 175 81 ]
   suit_edge [ 81 175 ]
-  battle_cell [ 20 20 370 370 0 ]
+  battle_cell [ 20 20 370 370 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_full_corner" ]
-    pos [ 360 390 0 ]
-    nhpr [ -90 0 0 ]
+    pos [ 360 390 7.62939e-06 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_BR_tex" ]
     texture [ "street_sidewalk_BR_tex" ]
     texture [ "street_curb_BR_tex" ]
@@ -5877,11 +5941,6 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
       color [ 1 1 1 1 ]
      ]
     ]
-    prop "BR_hydrant_DNARoot" [
-     code [ "BR_hydrant" ]
-     pos [ 16.029 -8.46098 -0.000671387 ]
-     nhpr [ 90 0 0 ]
-    ]
    ]
    flat_building "tb11:random_DNARoot" [
     pos [ 350 390 0 ]
@@ -5942,7 +6001,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_snow_tree_small_woodbox_ul_DNARoot" [
      code [ "prop_snow_tree_small_woodbox_ul" ]
-     pos [ -1.64902 -32.0929 3.05176e-005 ]
+     pos [ -1.64902 -32.0929 3.05176e-05 ]
      nhpr [ -90 0 0 ]
      scale [ 0.730693 0.730693 0.730693 ]
     ]
@@ -5954,6 +6013,13 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     pos [ 357.552 388.647 0 ]
     nhpr [ 0 0 0 ]
    ]
+  ]
+  interactive_prop "interactive_prop_phase_8_models_char__tbr_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_8_models_char__tbr_hydrant" ]
+   anim [ "tt_a_ara_tbr_hydrant_idleRubNose0" ]
+   cell_id [ 0 ]
+   pos [ 394.503 377.436 7.62939e-06 ]
+   nhpr [ -90 0 0 ]
   ]
  ]
  visgroup "3322" [
@@ -5971,7 +6037,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 94 162 ]
   suit_edge [ 162 98 ]
   suit_edge [ 98 162 ]
-  battle_cell [ 20 20 330 350 0 ]
+  battle_cell [ 20 20 330 350 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_full_corner" ]
@@ -6117,11 +6183,6 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
       color [ 0.34 0.9 0.87 1 ]
      ]
     ]
-    prop "BR_hydrant_DNARoot" [
-     code [ "BR_hydrant" ]
-     pos [ -7.13597 -7.01399 0 ]
-     nhpr [ 90 0 0 ]
-    ]
    ]
    flat_building "tb11:random_DNARoot" [
     pos [ 335 390 0 ]
@@ -6181,7 +6242,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_snow_tree_small_woodbox_ur_DNARoot" [
      code [ "prop_snow_tree_small_woodbox_ur" ]
-     pos [ 6.28101 -6.53799 3.05176e-005 ]
+     pos [ 6.28101 -6.53799 3.05176e-05 ]
      nhpr [ -180 0 0 ]
      scale [ 0.823931 0.823931 0.823931 ]
     ]
@@ -6225,8 +6286,8 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_snow_pile_half_DNARoot" [
      code [ "prop_snow_pile_half" ]
-     pos [ 15 1.43444e-005 0 ]
-     nhpr [ 9.5792e-014 0 0 ]
+     pos [ 15 1.43444e-05 0 ]
+     nhpr [ 9.5792e-14 0 0 ]
      scale [ 2.02911 2.02911 2.02911 ]
     ]
     prop "prop_icecube_glove_DNARoot" [
@@ -6262,6 +6323,13 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   ]
   group "props" [
   ]
+  interactive_prop "interactive_prop_phase_8_models_char__tbr_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_8_models_char__tbr_hydrant" ]
+   anim [ "tt_a_ara_tbr_hydrant_idleRubNose0" ]
+   cell_id [ 0 ]
+   pos [ 344.348 355.649 2.28882e-05 ]
+   nhpr [ -90 0 0 ]
+  ]
  ]
  visgroup "3323" [
   vis [   "3323"   "3322"   "3321"   "3324"   "3325"   "3326"   "3330"   ]
@@ -6277,12 +6345,12 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 102 163 ]
   suit_edge [ 163 99 ]
   suit_edge [ 99 163 ]
-  battle_cell [ 20 20 313 320 0 ]
+  battle_cell [ 20 20 313 320 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_full_corner" ]
-    pos [ 350 340 0 ]
-    nhpr [ -180 0 0 ]
+    pos [ 350 340 1.52588e-05 ]
+    nhpr [ 180 0 -0 ]
     texture [ "street_street_BR_tex" ]
     texture [ "street_sidewalk_BR_tex" ]
     texture [ "street_curb_BR_tex" ]
@@ -6343,11 +6411,6 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
       code [ "cornice_ice_ur" ]
       color [ 1 1 1 1 ]
      ]
-    ]
-    prop "BR_mailbox_DNARoot" [
-     code [ "BR_mailbox" ]
-     pos [ 0.354 -7.30801 0 ]
-     nhpr [ -90 0 0 ]
     ]
    ]
    flat_building "tb9:random_DNARoot" [
@@ -6553,6 +6616,13 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     nhpr [ 180 0 0 ]
    ]
   ]
+  interactive_prop "interactive_prop_phase_8_models_char__tbr_mailbox_DNARoot" [
+   code [ "interactive_prop_phase_8_models_char__tbr_mailbox" ]
+   anim [ "tt_a_ara_tbr_mailbox_idle0" ]
+   cell_id [ 0 ]
+   pos [ 309.239 304.011 1.52588e-05 ]
+   nhpr [ 165 0 0 ]
+  ]
  ]
  visgroup "3324" [
   vis [   "3324"   "3323"   "3322"   "3321"   "3325"   "3326"   "3330"   ]
@@ -6568,7 +6638,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 105 164 ]
   suit_edge [ 164 104 ]
   suit_edge [ 104 164 ]
-  battle_cell [ 20 20 280 330 0 ]
+  battle_cell [ 20 20 280 330 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_full_corner" ]
@@ -6759,7 +6829,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_snow_tree_small_woodbox_ul_DNARoot" [
      code [ "prop_snow_tree_small_woodbox_ul" ]
-     pos [ 1.99301 -5.24099 3.63798e-012 ]
+     pos [ 1.99301 -5.24099 3.63798e-12 ]
      nhpr [ -90 0 0 ]
     ]
     prop "prop_post_one_light_DNARoot" [
@@ -6825,7 +6895,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 110 166 ]
   suit_edge [ 166 111 ]
   suit_edge [ 111 166 ]
-  battle_cell [ 20 20 280 370 0 ]
+  battle_cell [ 20 20 280 370 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_keyboard_10x40" ]
@@ -6862,11 +6932,6 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     prop "prop_icecube_shoe_v_DNARoot" [
      code [ "prop_icecube_shoe_v" ]
      pos [ 1.80199 -3.31102 0 ]
-     nhpr [ -90 0 0 ]
-    ]
-    prop "BR_hydrant_DNARoot" [
-     code [ "BR_hydrant" ]
-     pos [ 17.848 -1.679 0 ]
      nhpr [ -90 0 0 ]
     ]
    ]
@@ -7138,7 +7203,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_post_one_light_DNARoot" [
      code [ "prop_post_one_light" ]
-     pos [ 7.93099 -16.363 3.05176e-005 ]
+     pos [ 7.93099 -16.363 3.05176e-05 ]
      nhpr [ 90 0 0 ]
     ]
    ]
@@ -7197,13 +7262,20 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   ]
   group "props" [
   ]
+  interactive_prop "interactive_prop_phase_8_models_char__tbr_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_8_models_char__tbr_hydrant" ]
+   anim [ "tt_a_ara_tbr_hydrant_idleRubNose0" ]
+   cell_id [ 0 ]
+   pos [ 264.169 355.234 7.62939e-06 ]
+   nhpr [ 150 0 0 ]
+  ]
  ]
  visgroup "3326" [
   vis [   "3326"   "3325"   "3324"   "3323"   "3310"   "3304"   ]
   suit_edge [ 110 114 ]
   suit_edge [ 114 115 ]
   suit_edge [ 115 111 ]
-  battle_cell [ 20 20 250 370 0 ]
+  battle_cell [ 20 20 250 370 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_20x40" ]
@@ -7377,8 +7449,8 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_cog_smoke_stack_DNARoot" [
      code [ "prop_cog_smoke_stack" ]
-     pos [ 61.358 -23.683 0 ]
-     nhpr [ -180 0 0 ]
+     pos [ 61.358 -23.6825 0 ]
+     nhpr [ 180 0 -0 ]
     ]
    ]
    flat_building "tb0:random_DNARoot" [
@@ -7585,39 +7657,48 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
      color [ 0.752941 0.752941 0.752941 1 ]
      baseline [
       code [ "suit" ]
-      color [ 0.752941 0.752941 0.752941 1 ]
-      pos [ 0 0 -1.24324 ]
-      scale [ 2.35727 1 1.47138 ]
+      color [ 0.733333 0.733333 0.733333 1 ]
+      pos [ 0 0 -0.570422 ]
+      scale [ 2.9822 1 1.50138 ]
+      text [
+       letters [ "L" ]
+      ]
+      text [
+       letters [ "O" ]
+      ]
+      text [
+       letters [ "I" ]
+      ]
+      text [
+       letters [ "B" ]
+      ]
+      text [
+       letters [ "O" ]
+      ]
+      text [
+       letters [ "T" ]
+      ]
+     ]
+     baseline [
+      code [ "suit" ]
+      color [ 0.733333 0.733333 0.733333 1 ]
+      pos [ -0.350675 0 -1.68829 ]
+      scale [ 3.66422 1 1.2772 ]
+      flags [ "c" ]
       text [
        letters [ "Q" ]
       ]
       text [
        letters [ "G" ]
       ]
-      text [
-       letters [ " " ]
-      ]
-      text [
-       letters [ "L" ]
-      ]
-      text [
-       letters [ "o" ]
-      ]
-      text [
-       letters [ "i" ]
-      ]
-      text [
-       letters [ "b" ]
-      ]
-      text [
-       letters [ "o" ]
-      ]
-      text [
-       letters [ "t" ]
-      ]
      ]
     ]
    ]
+  ]
+  prop "prop_tt_m_ara_gen_tunnelAheadSign_DNARoot" [
+   code [ "prop_tt_m_ara_gen_tunnelAheadSign" ]
+   pos [ 226.921 378.492 -0.500034 ]
+   nhpr [ 90 0 0 ]
   ]
  ]
  visgroup "3327" [
@@ -7637,7 +7718,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   suit_edge [ 73 159 ]
   suit_edge [ 159 66 ]
   suit_edge [ 66 159 ]
-  battle_cell [ 20 20 390 295 0 ]
+  battle_cell [ 20 20 390 295 -0.5 ]
   group "streets" [
    street "street_40x40_DNARoot" [
     code [ "street_tight_corner" ]
@@ -7669,7 +7750,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_icecube_shoe_h_DNARoot" [
      code [ "prop_icecube_shoe_h" ]
-     pos [ 17.952 -3.58403 -1.90735e-006 ]
+     pos [ 17.952 -3.58403 -1.90735e-06 ]
      nhpr [ -90 0 0 ]
     ]
     prop "prop_post_three_light_DNARoot" [
@@ -7884,14 +7965,14 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_snow_tree_small_woodbox_ul_DNARoot" [
      code [ "prop_snow_tree_small_woodbox_ul" ]
-     pos [ 7.90851 -17.1989 -3.63798e-012 ]
+     pos [ 7.90851 -17.1989 -3.63798e-12 ]
      nhpr [ -90 0 0 ]
      scale [ 0.63084 0.63084 0.63084 ]
     ]
     prop "prop_snow_pile_quarter_DNARoot" [
      code [ "prop_snow_pile_quarter" ]
-     pos [ 1.43444e-005 -1.18021e-005 0 ]
-     nhpr [ 1.61613e-014 0 0 ]
+     pos [ 1.43444e-05 -1.18021e-05 0 ]
+     nhpr [ 1.61613e-14 0 0 ]
      scale [ 2.28399 2.28399 2.28399 ]
     ]
    ]
@@ -8178,8 +8259,8 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_snow_pile_quarter_DNARoot" [
      code [ "prop_snow_pile_quarter" ]
-     pos [ -6.99382e-006 -1.70826e-006 0 ]
-     nhpr [ -1.00179e-005 0 0 ]
+     pos [ -6.99382e-06 -1.70826e-06 0 ]
+     nhpr [ -1.00179e-05 0 0 ]
      scale [ 2.47185 2.47185 2.47185 ]
     ]
     prop "prop_trashcan_metal_DNARoot" [
@@ -8190,7 +8271,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     prop "prop_smokestack_DNARoot" [
      code [ "prop_smokestack" ]
      pos [ 3.688 5.0016 18.5299 ]
-     nhpr [ -1.00179e-005 0 0 ]
+     nhpr [ -1.00179e-05 0 0 ]
     ]
    ]
    flat_building "tb15:random_DNARoot" [
@@ -8435,12 +8516,12 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
    ]
    prop "prop_snowman_flat_DNARoot" [
     code [ "prop_snowman_flat" ]
-    pos [ 93.2215 112.769 3.05176e-005 ]
+    pos [ 93.2215 112.769 3.05176e-05 ]
     nhpr [ -45 0 0 ]
    ]
    prop "prop_skates_flat_DNARoot" [
     code [ "prop_skates_flat" ]
-    pos [ 91.401 69.5612 -3.8147e-006 ]
+    pos [ 91.401 69.5612 -3.8147e-06 ]
     nhpr [ -120 0 0 ]
    ]
    prop "prop_snow_tree_large_ul_DNARoot" [
@@ -8698,7 +8779,7 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
     ]
     prop "prop_snow_pile_quarter_DNARoot" [
      code [ "prop_snow_pile_quarter" ]
-     pos [ 15 1.17217e-005 0 ]
+     pos [ 15 1.17217e-05 0 ]
      nhpr [ -90 0 0 ]
      scale [ 3.56638 3.56638 3.56638 ]
     ]
@@ -8767,4 +8848,3 @@ landmark_building "tb21:toon_landmark_BR_C1_DNARoot" [
   ]
  ]
 ]
-

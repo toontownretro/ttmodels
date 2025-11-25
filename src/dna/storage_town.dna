@@ -78,6 +78,6 @@ place_model "phase_5/models/cogdominium/tt_m_ara_cbe_walls" [
 	store_node [ "cogdo_wall" "wall_cogdo_build5_ul" ]
 	]
 
-//hood_model "phase_5/models/cogdominium/tt_m_ara_cbe_fieldOfficeMoverShaker" [
-//	store_node [ "tt_m_ara_cbe_fieldOfficeMoverShaker" "tt_m_ara_cbe_fieldOfficeMoverShaker" "" ]
-//	]
+hood_model "phase_5/models/cogdominium/tt_m_ara_cbe_fieldOfficeMoverShaker" [
+	store_node [ "tt_m_ara_cbe_fieldOfficeMoverShaker" "tt_m_ara_cbe_fieldOfficeMoverShaker" "" ]
+	]

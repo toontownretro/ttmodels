@@ -429,14 +429,16 @@
      -p def_joint_attachFlower,def_cageB \
      -p def_left_shoulder,def_cageB \
      -p def_right_shoulder,def_cageB \
+//     -p def_left_pant_top,root \
+//     -p def_left_pant_bottom,root \
+//     -p def_right_pant_top,root \
+//     -p def_right_pant_bottom,root \
      -p def_left_pant_top,root \
-     -p def_left_pant_bottom,root \
+     -p def_left_pant_bottom,def_left_pant_top \
      -p def_right_pant_top,root \
-     -p def_right_pant_bottom,root \
+     -p def_right_pant_bottom,def_left_pant_top \
      -p def_right_sleeve_short,def_right_shoulder \
      -p def_left_sleeve_short,def_left_shoulder \
-	 -drop def_left_hip \
-	 -drop def_right_hip \
      -flag *skirt_cap*=torso-bot-cap \
      -flag *skirt_inside*=torso-bot-cap \
      -flag *shorts_inside*=torso-bot-cap \
@@ -467,6 +469,14 @@
      -rename MMDog_skirt_200,MMDog_skirt \
      -TR 0,180,0 -TS 0.25 \
      -expose joint_hips,joint_shadow,joint_nameTag \
+	 -p def_left_hip,root \
+	 -p def_left_knee,def_left_hip \
+	 -p def_left_ankle,def_left_knee \
+	 -p def_left_ball,def_left_ankle \
+	 -p def_right_hip,root \
+	 -p def_right_knee,def_right_hip \
+	 -p def_right_ankle,def_right_knee \
+	 -p def_right_ball,def_right_ankle \
      -flag *leg*=legs \
      -flag *foot*=feet
 #end optchar_egg

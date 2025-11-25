@@ -1,0 +1,4 @@
+
+place_model "phase_10/models/cogHQ/CashBotShippingStation" [
+	store_node [ "prop" "CashBotShippingStation" ""]
+	]

@@ -1,5 +1,5 @@
 <Comment> {
-  "egg-texture-cards -wm clamp -p 152,152 -o tt_m_gui_ign_newsStatusBackground.egg ../maps/tt_i_art_err1.tif"
+  "egg-texture-cards -wm clamp -o tt_m_gui_ign_newsStatusBackground.egg ../maps/tt_i_art_err1.tif"
 }
 <Texture> tt_i_art_err1 {
   "../maps/tt_i_art_err1.tif"
@@ -8,19 +8,19 @@
 <Group> {
   <VertexPool> vpool {
     <Vertex> 0 {
-      -1.68421052631579 0.842105263157895 0
+      -0.5 0.5 0
       <UV> { 0 1 }
     }
     <Vertex> 1 {
-      -1.68421052631579 -0.842105263157895 0
+      -0.5 -0.5 0
       <UV> { 0 0 }
     }
     <Vertex> 2 {
-      1.68421052631579 -0.842105263157895 0
+      0.5 -0.5 0
       <UV> { 1 0 }
     }
     <Vertex> 3 {
-      1.68421052631579 0.842105263157895 0
+      0.5 0.5 0
       <UV> { 1 1 }
     }
   }

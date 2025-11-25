@@ -1,8 +1,4 @@
 
-place_model "phase_4/models/modules/bank" [
-	store_node [ "toon_landmark" "toon_landmark_TT_bank" "" ]
-        ]
-
 place_model "phase_12/models/bossbotHQ/CogGolfCourtyard" [
 	store_node [ "prop" "CogGolfCourtyard" ""]
 	]

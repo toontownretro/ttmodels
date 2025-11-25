@@ -48,6 +48,13 @@
   #define PHASE 6
 #end install_egg
 
+// Begin cogHQ phase 7
+//#begin install_egg
+//  #define SOURCES \
+//    FactoryInterior1.egg FactoryLayout2.egg FootFactory.egg LobbyTest.egg Stomper.egg
+//  #define PHASE 6
+//#end install_egg
+
 // Begin cashbotHQ phase 10
 #begin install_egg
   #define SOURCES \

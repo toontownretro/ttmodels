@@ -3,7 +3,9 @@
 
 #begin install_egg
   #define SOURCES \
-    money-suit-textures.egg
+    money-suit-textures.egg \
+    tt_m_ene_sellbotRental.egg \
+    suits.egg
   #define PHASE 3.5
 #end install_egg
 

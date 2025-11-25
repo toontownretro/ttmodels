@@ -150,7 +150,7 @@
   #define SOURCES \
     dog-lashes.egg
   #define OPTCHAR_OPTS \
-    $[dog_head_transform] \
+    -no $[dog_head_transform] \
     $[flag_lashes]
 #end optchar_egg
 
@@ -161,7 +161,7 @@
   #define SOURCES \
     cat-lashes.egg
   #define OPTCHAR_OPTS \
-    $[cat_head_transform] \
+    -no $[cat_head_transform] \
     $[flag_lashes]
 #end optchar_egg
 
@@ -170,7 +170,7 @@
   #define SOURCES \
     duck-lashes.egg
   #define OPTCHAR_OPTS \
-    $[duck_head_transform] \
+    -no $[duck_head_transform] \
     $[flag_lashes]
 #end optchar_egg
 
@@ -179,7 +179,7 @@
   #define SOURCES \
     mouse-lashes.egg
   #define OPTCHAR_OPTS \
-    $[mouse_head_transform] \
+    -no $[mouse_head_transform] \
     $[flag_lashes]
 #end optchar_egg
 
@@ -188,7 +188,7 @@
   #define SOURCES \
     rabbit-lashes.egg
   #define OPTCHAR_OPTS \
-    $[rabbit_head_transform] \
+    -no $[rabbit_head_transform] \
     $[flag_lashes]
 #end optchar_egg
 
@@ -197,7 +197,7 @@
   #define SOURCES \
     monkey-lashes.egg
   #define OPTCHAR_OPTS \
-    $[monkey_head_transform] \
+    -no $[monkey_head_transform] \
     $[flag_lashes]
 #end optchar_egg
 
@@ -206,7 +206,7 @@
   #define SOURCES \
     bear-lashes.egg
   #define OPTCHAR_OPTS \
-    $[bear_head_transform] \
+    -no $[bear_head_transform] \
     $[flag_lashes]
 #end optchar_egg
 
@@ -215,7 +215,7 @@
   #define SOURCES \
     horse-lashes.egg
   #define OPTCHAR_OPTS \
-    $[horse_head_transform] \
+    -no $[horse_head_transform] \
     $[flag_lashes]
 #end optchar_egg
 
@@ -224,7 +224,7 @@
   #define SOURCES \
     pig-lashes.egg
   #define OPTCHAR_OPTS \
-    $[pig_head_transform] \
+    -no $[pig_head_transform] \
     $[flag_lashes]
 #end optchar_egg
 
@@ -233,7 +233,7 @@
   #define SOURCES \
     $[matrix monkey-heads-,1000 500 250,.egg]
   #define OPTCHAR_OPTS \
-    $[monkey_head_transform] \
+    -no $[monkey_head_transform] \
     -expose joint_pupilL_short,joint_pupilR_short \
     -expose joint_pupilL_long,joint_pupilR_long \
     $[flag_heads]
@@ -244,7 +244,7 @@
   #define SOURCES \
     $[matrix bear-heads-,1000 500 250,.egg]
   #define OPTCHAR_OPTS \
-    $[bear_head_transform] \
+    -no $[bear_head_transform] \
     -expose joint_pupilL_short,joint_pupilR_short \
     -expose joint_pupilL_long,joint_pupilR_long \
     $[flag_heads]
@@ -255,7 +255,7 @@
   #define SOURCES \
     $[matrix horse-heads-,1000 500 250,.egg]
   #define OPTCHAR_OPTS \
-    $[horse_head_transform] \
+    -no $[horse_head_transform] \
     -expose joint_pupilL_short,joint_pupilR_short \
     -expose joint_pupilL_long,joint_pupilR_long \
     $[flag_heads]
@@ -266,7 +266,7 @@
   #define SOURCES \
     $[matrix cat-heads-,1000 500 250,.egg]
   #define OPTCHAR_OPTS \
-    $[cat_head_transform] \
+    -no $[cat_head_transform] \
     -expose joint_pupilL_short,joint_pupilR_short \
     -expose joint_pupilL_long,joint_pupilR_long \
     $[flag_heads]
@@ -277,7 +277,7 @@
   #define SOURCES \
     $[matrix rabbit-heads-,1000 500 250,.egg]
   #define OPTCHAR_OPTS \
-    $[rabbit_head_transform] \
+    -no $[rabbit_head_transform] \
     -expose joint_pupilL_short,joint_pupilR_short \
     -expose joint_pupilL_long,joint_pupilR_long \
     $[flag_heads]
@@ -288,7 +288,7 @@
   #define SOURCES \
     $[matrix duck-heads-,1000 500 250,.egg]
   #define OPTCHAR_OPTS \
-    $[duck_head_transform] \
+    -no $[duck_head_transform] \
     -expose joint_pupilL_short,joint_pupilR_short \
     -expose joint_pupilL_long,joint_pupilR_long \
     $[flag_heads]
@@ -299,7 +299,7 @@
   #define SOURCES \
     $[matrix mouse-heads-,1000 500 250,.egg]
   #define OPTCHAR_OPTS \
-    $[mouse_head_transform] \
+    -no $[mouse_head_transform] \
     -expose joint_pupilL_short,joint_pupilR_short \
     -expose joint_pupilL_long,joint_pupilR_long \
     $[flag_heads]
@@ -310,7 +310,7 @@
   #define SOURCES \
     $[matrix pig-heads-,1000 500 250,.egg]
   #define OPTCHAR_OPTS \
-    $[pig_head_transform] \
+    -no $[pig_head_transform] \
     -expose joint_pupilL_short,joint_pupilR_short \
     -expose joint_pupilL_long,joint_pupilR_long \
     $[flag_heads]

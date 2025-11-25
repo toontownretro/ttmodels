@@ -3,6 +3,8 @@
 Makefile
 /built/
 built/
+/.mayaSwatches/
+.mayaSwatches/
 *.bam
 *.egg
 *.pt
@@ -23,3 +25,4 @@ stamp
 *.txo.pz
 *.tmp
 ttmodels_index
+index_name.txt

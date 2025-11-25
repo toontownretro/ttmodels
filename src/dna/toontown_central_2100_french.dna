@@ -288,7 +288,7 @@ group "toontownCentral" [
    street "street_full_corner_DNARoot" [
     code [ "street_full_corner" ]
     pos [ -90 -140 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -297,7 +297,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb2:random20_DNARoot" [
     pos [ -120 -180 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -325,18 +325,13 @@ group "toontownCentral" [
     prop "prop_tree_small_brickbox_ul_DNARoot" [
      code [ "prop_tree_small_brickbox_ul" ]
      pos [ -24 -8 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      scale [ 0.8 0.8 0.8 ]
-    ]
-    prop "prop_trashcan_metal_DNARoot" [
-     code [ "prop_trashcan_metal" ]
-     pos [ -2 -5 0 ]
-     hpr [ 0 0 0 ]
     ]
    ]
    flat_building "tb44:random20_DNARoot" [
     pos [ -90 -140 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 20 ]
     wall [
      height [ 20 ]
@@ -355,17 +350,12 @@ group "toontownCentral" [
     prop "prop_cellar_door_DNARoot" [
      code [ "prop_cellar_door" ]
      pos [ 2 0 0 ]
-     hpr [ 0 0 0 ]
-    ]
-    prop "prop_mailbox_TT_DNARoot" [
-     code [ "prop_mailbox_TT" ]
-     pos [ 15 -7 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb44:random_DNARoot" [
     pos [ -90 -160 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -394,7 +384,7 @@ group "toontownCentral" [
    ]
    flat_building "tb2:random_DNARoot" [
     pos [ -90 -160 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -404,7 +394,7 @@ group "toontownCentral" [
    ]
    flat_building "tb2:random_DNARoot" [
     pos [ -90 -170 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -414,7 +404,7 @@ group "toontownCentral" [
    ]
    flat_building "tb2:random_DNARoot" [
     pos [ -90 -180 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -424,7 +414,7 @@ group "toontownCentral" [
    ]
    flat_building "tb2:random_DNARoot" [
     pos [ -100 -180 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -434,7 +424,7 @@ group "toontownCentral" [
    ]
    flat_building "tb2:random_DNARoot" [
     pos [ -110 -180 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -444,12 +434,12 @@ group "toontownCentral" [
     prop "prop_tree_large_ul_DNARoot" [
      code [ "prop_tree_large_ul" ]
      pos [ 0 10 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -90 0 -0 ]
     ]
    ]
    flat_building "tb2:random_DNARoot" [
     pos [ -120 -190 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -479,6 +469,13 @@ group "toontownCentral" [
   ]
   group "props" [
   ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_mailbox_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_mailbox" ]
+   anim [ "tt_a_ara_ttc_mailbox_idle0" ]
+   cell_id [ 0 ]
+   pos [ -95.6682 -155.582 3.8147e-06 ]
+   nhpr [ -90 0 -0 ]
+  ]
  ]
  visgroup "2102" [
   vis [   "2101"   "2102"   "2103"   "2104"   "2105"   "2106"   "2107"   "2132"   "2144"   "2155"   ]
@@ -500,7 +497,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb2:random20_DNARoot" [
     pos [ -130 -180 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -529,12 +526,12 @@ group "toontownCentral" [
     prop "prop_cellar_door_DNARoot" [
      code [ "prop_cellar_door" ]
      pos [ 2 0 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb2:random20_DNARoot" [
     pos [ -160 -180 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -559,7 +556,7 @@ group "toontownCentral" [
     prop "prop_tree_large_brickbox_ul_DNARoot" [
      code [ "prop_tree_large_brickbox_ul" ]
      pos [ 12 -6 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      scale [ 0.8 0.8 0.8 ]
     ]
    ]
@@ -567,7 +564,7 @@ group "toontownCentral" [
     code [ "toon_landmark_TT_A3" ]
     title [ "Tout-sourire - Réparations dentaires" ]
     pos [ -180 -140 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     door [
      code [ "door_double_curved_ur" ]
      color [ 0.88 0.45 0.38 1 ]
@@ -691,12 +688,12 @@ group "toontownCentral" [
     prop "prop_dentist_DNARoot" [
      code [ "prop_dentist" ]
      pos [ 12.6 -2.98 11 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
     ]
    ]
    flat_building "tb1:random20_DNARoot" [
     pos [ -155 -140 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 15 ]
     wall [
      height [ 20 ]
@@ -717,7 +714,7 @@ group "toontownCentral" [
     code [ "toon_landmark_TT_B2" ]
     title [ "" ]
     pos [ -145 -180 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     door [
      code [ "door_double_square_ur" ]
      color [ 1 0.88 0.56 1 ]
@@ -725,12 +722,12 @@ group "toontownCentral" [
     prop "prop_post_office_sign_DNARoot" [
      code [ "prop_post_office_sign" ]
      pos [ 7.79 -2.96 11.07 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
     ]
    ]
    flat_building "tb1:random_DNARoot" [
     pos [ -140 -140 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -763,10 +760,17 @@ group "toontownCentral" [
   street "street_40x40_DNARoot" [
    code [ "street_40x40" ]
    pos [ -170 -180 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_trashcan" ]
+   anim [ "tt_a_ara_ttc_trashcan_idleHiccup0" ]
+   cell_id [ 0 ]
+   pos [ -143.024 -173.687 -7.62939e-06 ]
+   nhpr [ 180 0 -0 ]
   ]
  ]
  visgroup "2103" [
@@ -788,7 +792,7 @@ group "toontownCentral" [
    street "street_full_corner_DNARoot" [
     code [ "street_full_corner" ]
     pos [ -210 -180 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -796,7 +800,7 @@ group "toontownCentral" [
    street "street_sidewalk_40x40_DNARoot" [
     code [ "street_sidewalk_40x40" ]
     pos [ -250 -140 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -805,7 +809,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb3:random20_DNARoot" [
     pos [ -270 -180 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 20 ]
     wall [
      height [ 10 ]
@@ -830,17 +834,17 @@ group "toontownCentral" [
     prop "prop_tree_large_brickbox_ul_DNARoot" [
      code [ "prop_tree_large_brickbox_ul" ]
      pos [ 14.66 -8.44 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -90 0 -0 ]
     ]
     prop "prop_tree_small_brickbox_ul_DNARoot" [
      code [ "prop_tree_small_brickbox_ul" ]
      pos [ 9.75 -28.23 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -90 0 -0 ]
     ]
    ]
    flat_building "tb3:random20_DNARoot" [
     pos [ -210 -180 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     width [ 15.6 ]
     wall [
      height [ 20 ]
@@ -859,12 +863,12 @@ group "toontownCentral" [
     prop "prop_post_one_light_DNARoot" [
      code [ "prop_post_one_light" ]
      pos [ 1 -7.27 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb3:random20_DNARoot" [
     pos [ -225.5 -180 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 25 ]
     wall [
      height [ 10 ]
@@ -888,14 +892,14 @@ group "toontownCentral" [
     prop "prop_tree_large_brickbox_ur_DNARoot" [
      code [ "prop_tree_large_brickbox_ur" ]
      pos [ 41.5 -13 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -90 0 -0 ]
     ]
    ]
    landmark_building "tb3:toon_landmark_TT_C1_DNARoot" [
     code [ "toon_landmark_TT_C1" ]
     title [ "Mineurs Pince-sans-rire" ]
     pos [ -250 -180 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ 180 0 -0 ]
     door [
      code [ "door_double_curved_ur" ]
      color [ 1 0.88 0.56 1 ]
@@ -903,12 +907,12 @@ group "toontownCentral" [
     prop "prop_TT_safe_DNARoot" [
      code [ "prop_TT_safe" ]
      pos [ 7 -27 0 ]
-     hpr [ -105 0 0 ]
+     nhpr [ -105 0 -0 ]
     ]
     prop "prop_tree_small_brickbox_ur_DNARoot" [
      code [ "prop_tree_small_brickbox_ur" ]
      pos [ 7 -33 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -90 0 -0 ]
     ]
     sign [
      code [ "TTC_sign2" ]
@@ -1009,6 +1013,13 @@ group "toontownCentral" [
   ]
   group "props" [
   ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_trashcan" ]
+   anim [ "tt_a_ara_ttc_trashcan_idleHiccup0" ]
+   cell_id [ 0 ]
+   pos [ -226.56 -174.344 1.14441e-05 ]
+   nhpr [ 165 0 -0 ]
+  ]
  ]
  visgroup "2104" [
   vis [   "2103"   "2104"   "2105"   "2106"   "2107"   "2144"   "2102"   "2101"   "2108"   "2155"   ]
@@ -1030,7 +1041,7 @@ group "toontownCentral" [
    street "street_full_corner_DNARoot" [
     code [ "street_full_corner" ]
     pos [ -250 -100 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -1038,7 +1049,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ -200 -90 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -1046,7 +1057,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ -260 -90 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -1054,7 +1065,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x10_DNARoot" [
     code [ "street_sidewalk_10x10" ]
     pos [ -220 -90 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -1063,7 +1074,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb4:random20_DNARoot" [
     pos [ -200 -90 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 20 ]
     wall [
      height [ 10 ]
@@ -1090,7 +1101,7 @@ group "toontownCentral" [
     code [ "toon_landmark_TT_A3" ]
     title [ "Qui vivra, verrat" ]
     pos [ -250 -90 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     door [
      code [ "door_double_square_ur" ]
      color [ 1 0.63 0.38 1 ]
@@ -1098,7 +1109,7 @@ group "toontownCentral" [
     prop "prop_post_three_light_DNARoot" [
      code [ "prop_post_three_light" ]
      pos [ 5 -44.9989 0 ]
-     hpr [ 180 0 0 ]
+     nhpr [ -180 0 -0 ]
     ]
     sign [
      code [ "tunnel_sign_green" ]
@@ -1181,27 +1192,27 @@ group "toontownCentral" [
     prop "prop_facade_b_DNARoot" [
      code [ "prop_facade_b" ]
      pos [ 21.5237 -3.61752 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
     prop "cloth_1_DNARoot" [
      code [ "cloth_1" ]
      pos [ 21.2142 -4.21594 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
     prop "prop_facade_b_DNARoot" [
      code [ "prop_facade_b" ]
      pos [ 2.53918 -3.81876 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
     prop "cloth_DNARoot" [
      code [ "cloth" ]
      pos [ 1.76111 -3.92044 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb4:random20_DNARoot" [
     pos [ -210 -130 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -1230,13 +1241,13 @@ group "toontownCentral" [
     prop "neighborhood_sign_TT_DNARoot" [
      code [ "neighborhood_sign_TT" ]
      pos [ 4.99998 -1.99998 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      scale [ 1.5 1.5 1.5 ]
     ]
    ]
    flat_building "tb4:random_DNARoot" [
     pos [ -210 -90 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -1265,12 +1276,12 @@ group "toontownCentral" [
     prop "prop_tree_large_brickbox_ur_DNARoot" [
      code [ "prop_tree_large_brickbox_ur" ]
      pos [ 0.391785 -9.42938 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb4:random_DNARoot" [
     pos [ -200 -110 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 20 ]
     wall [
      height [ 20 ]
@@ -1289,17 +1300,17 @@ group "toontownCentral" [
     prop "prop_facade_c_DNARoot" [
      code [ "prop_facade_c" ]
      pos [ 9.48856 -2.76961 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
     prop "flower_shop_DNARoot" [
      code [ "flower_shop" ]
      pos [ 9.30518 -3.04431 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb4:random_DNARoot" [
     pos [ -200 -130 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -1328,7 +1339,7 @@ group "toontownCentral" [
    ]
    flat_building "tb4:random20_DNARoot" [
     pos [ -225 -90 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -1352,7 +1363,7 @@ group "toontownCentral" [
     prop "prop_trashcan_metal_DNARoot" [
      code [ "prop_trashcan_metal" ]
      pos [ 15.3961 -3.4534 0 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
     ]
    ]
   ]
@@ -1368,7 +1379,7 @@ group "toontownCentral" [
    street "street_40x40_DNARoot" [
     code [ "street_40x40" ]
     pos [ -250 -100 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -1377,7 +1388,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb4:random20_DNARoot" [
     pos [ -260 -90 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 20 ]
@@ -1396,13 +1407,13 @@ group "toontownCentral" [
     prop "neighborhood_sign_DG_DNARoot" [
      code [ "neighborhood_sign_DG" ]
      pos [ 6.97998 -14.504 0 ]
-     hpr [ -180 0 0 ]
+     nhpr [ 180 0 -0 ]
      scale [ 1.5 1.5 1.5 ]
     ]
    ]
    flat_building "tb4:random20_DNARoot" [
     pos [ -280 -100 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 20 ]
     wall [
      height [ 20 ]
@@ -1421,13 +1432,13 @@ group "toontownCentral" [
     prop "prop_chimney_DNARoot" [
      code [ "prop_chimney" ]
      pos [ 14.72 6.32 17.77 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      color [ 0.99 0.67 0.25 1 ]
     ]
     prop "prop_diner_entrance_DNARoot" [
      code [ "prop_diner_entrance" ]
      pos [ 10 -3 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ 0 0 0 ]
      sign [
       color [ 0.25 0.25 0.25 1 ]
       pos [ 0 0 0.39 ]
@@ -1524,7 +1535,7 @@ group "toontownCentral" [
    ]
    flat_building "tb4:random20_DNARoot" [
     pos [ -295 -100 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 15 ]
     wall [
      height [ 20 ]
@@ -1539,7 +1550,7 @@ group "toontownCentral" [
    ]
    flat_building "tb4:random_DNARoot" [
     pos [ -260 -100 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -1564,7 +1575,7 @@ group "toontownCentral" [
    ]
    flat_building "tb5:random_DNARoot" [
     pos [ -330 -125 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -1579,6 +1590,13 @@ group "toontownCentral" [
    ]
   ]
   group "props" [
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_trashcan" ]
+   anim [ "tt_a_ara_ttc_trashcan_idleHiccup0" ]
+   cell_id [ 0 ]
+   pos [ -283.922 -133.868 2.28882e-05 ]
+   nhpr [ 170.104 0 -0 ]
   ]
  ]
  visgroup "2106" [
@@ -1596,7 +1614,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ -340 -90 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -1604,7 +1622,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x20_DNARoot" [
     code [ "street_sidewalk_10x20" ]
     pos [ -340 -120 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -1612,7 +1630,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x10_DNARoot" [
     code [ "street_sidewalk_10x10" ]
     pos [ -340 -130 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -1621,7 +1639,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb5:random20_DNARoot" [
     pos [ -340 -125 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 25 ]
     wall [
      height [ 10 ]
@@ -1650,18 +1668,18 @@ group "toontownCentral" [
     prop "prop_tree_small_brickbox_ul_DNARoot" [
      code [ "prop_tree_small_brickbox_ul" ]
      pos [ 20 -5 0 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
      scale [ 0.8 0.8 0.8 ]
     ]
     prop "prop_cellar_door_DNARoot" [
      code [ "prop_cellar_door" ]
      pos [ 6 0 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb5:random20_DNARoot" [
     pos [ -330 -140 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -1685,18 +1703,13 @@ group "toontownCentral" [
     prop "prop_roof_access_DNARoot" [
      code [ "prop_roof_access" ]
      pos [ 1.54 4.33 19.41 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      color [ 1 0.9 0.33 1 ]
-    ]
-    prop "prop_mailbox_TT_DNARoot" [
-     code [ "prop_mailbox_TT" ]
-     pos [ 12 -8 0 ]
-     hpr [ -90 0 0 ]
     ]
    ]
    flat_building "tb5:random_DNARoot" [
     pos [ -340 -100 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -1721,7 +1734,7 @@ group "toontownCentral" [
    ]
    flat_building "tb5:random_DNARoot" [
     pos [ -340 -90 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -1746,7 +1759,7 @@ group "toontownCentral" [
    ]
    flat_building "tb5:random20_DNARoot" [
     pos [ -330 -90 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -1775,18 +1788,18 @@ group "toontownCentral" [
     prop "prop_facade_a_DNARoot" [
      code [ "prop_facade_a" ]
      pos [ 7 -3.99951 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      scale [ 1.52259 1.52259 1.52259 ]
     ]
     prop "art_store_DNARoot" [
      code [ "art_store" ]
      pos [ 6.82608 -4.96704 2.49765 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb5:random_DNARoot" [
     pos [ -315 -90 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -1811,7 +1824,7 @@ group "toontownCentral" [
    ]
    flat_building "tb4:random20_DNARoot" [
     pos [ -305 -100 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -1831,28 +1844,18 @@ group "toontownCentral" [
     prop "prop_stovepipe_DNARoot" [
      code [ "prop_stovepipe" ]
      pos [ 11.63 2.28187 18.95 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      color [ 1 0.88 0.8 1 ]
-    ]
-    prop "prop_mailbox_TT_DNARoot" [
-     code [ "prop_hydrant" ]
-     pos [ -5 -7 0 ]
-     hpr [ 0 0 0 ]
     ]
     prop "prop_post_three_light_DNARoot" [
      code [ "prop_post_three_light" ]
      pos [ 10 -35 0 ]
-     hpr [ -180 0 0 ]
-    ]
-    prop "prop_trashcan_metal_DNARoot" [
-     code [ "prop_trashcan_metal" ]
-     pos [ 10 -40 0 ]
-     hpr [ -180 0 0 ]
+     nhpr [ -180 0 -0 ]
     ]
    ]
    flat_building "tb5:random_DNARoot" [
     pos [ -305 -90 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -1876,10 +1879,17 @@ group "toontownCentral" [
   street "street_full_corner_DNARoot" [
    code [ "street_full_corner" ]
    pos [ -330 -140 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_hydrant" ]
+   anim [ "tt_a_ara_ttc_hydrant_fightBoost" ]
+   cell_id [ 0 ]
+   pos [ -309.922 -106.217 3.43323e-05 ]
+   nhpr [ -0 0 -0 ]
   ]
  ]
  visgroup "2107" [
@@ -1896,7 +1906,7 @@ group "toontownCentral" [
    street "street_40x40_DNARoot" [
     code [ "street_40x40" ]
     pos [ -330 -140 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -1905,7 +1915,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb5:random20_DNARoot" [
     pos [ -330 -180 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -1934,7 +1944,7 @@ group "toontownCentral" [
    ]
    flat_building "tb5:random20_DNARoot" [
     pos [ -330 -155 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -1963,18 +1973,16 @@ group "toontownCentral" [
     prop "prop_post_sign_DNARoot" [
      code [ "prop_post_sign" ]
      pos [ 5 -5 0 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
     ]
    ]
-   landmark_building "tb5:toon_landmark_TT_B2_DNARoot" [
-    code [ "toon_landmark_TT_B2" ]
+   anim_building "tb5:animated_building_phase_5_models_char__ttc_B2_DNARoot" [
+    code [ "animated_building_phase_5_models_char__ttc_B2" ]
+    building_type [ "animbldg" ]
     title [ "Usine à pancartes de Toontown" ]
-    pos [ -330 -170 0 ]
-    hpr [ 90 0 0 ]
-    door [
-     code [ "door_double_square_ur" ]
-     color [ 1 0.87 0.38 1 ]
-    ]
+    anim [ "tt_a_ara_ttc_B2_dance" ]
+    pos [ -331.374 -162 0 ]
+    nhpr [ 90 0 -0 ]
     sign [
      code [ "TTC_sign2" ]
      color [ 1 0.88 0.56 1 ]
@@ -2082,6 +2090,13 @@ group "toontownCentral" [
   ]
   group "props" [
   ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_mailbox_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_mailbox" ]
+   anim [ "tt_a_ara_ttc_mailbox_idle0" ]
+   cell_id [ 0 ]
+   pos [ -325.295 -144.489 7.62939e-06 ]
+   nhpr [ 75 0 0 ]
+  ]
  ]
  visgroup "2108" [
   vis [   "2107"   "2108"   "2109"   "2134"   "2133"   "2145"   "2110"   "2146"   "2104"   "2105"   "2106"   "2103"   "2155"   ]
@@ -2102,7 +2117,7 @@ group "toontownCentral" [
    street "street_full_corner_DNARoot" [
     code [ "street_full_corner" ]
     pos [ -290 -240 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -2110,7 +2125,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ -340 -240 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -2118,7 +2133,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ -290 -250 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -2126,7 +2141,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x10_DNARoot" [
     code [ "street_sidewalk_10x10" ]
     pos [ -340 -250 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -2135,7 +2150,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb6:random20_DNARoot" [
     pos [ -340 -225 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -2160,7 +2175,7 @@ group "toontownCentral" [
    ]
    flat_building "tb6:random20_DNARoot" [
     pos [ -290 -250 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -2186,20 +2201,15 @@ group "toontownCentral" [
       color [ 1 0.75 0.38 1 ]
      ]
     ]
-    prop "prop_mailbox_TT_DNARoot" [
-     code [ "prop_mailbox_TT" ]
-     pos [ 0 -15 0 ]
-     hpr [ -90 0 0 ]
-    ]
     prop "prop_post_one_light_DNARoot" [
      code [ "prop_post_one_light" ]
      pos [ 6 -44 0 ]
-     hpr [ 180 0 0 ]
+     nhpr [ -180 0 -0 ]
     ]
    ]
    flat_building "tb6:random20_DNARoot" [
     pos [ -340 -240 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 20 ]
@@ -2214,23 +2224,23 @@ group "toontownCentral" [
     prop "prop_facade_e_DNARoot" [
      code [ "prop_facade_e" ]
      pos [ 7.99989 -2.99973 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
     prop "music_inst_DNARoot" [
      code [ "music_inst" ]
      pos [ 7.67603 -2.97015 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
     prop "prop_chimney_DNARoot" [
      code [ "prop_chimney" ]
      pos [ 11.858 2.30066 19.66 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
      color [ 0.99 0.67 0.25 1 ]
     ]
    ]
    flat_building "tb6:random20_DNARoot" [
     pos [ -325 -250 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -2256,15 +2266,10 @@ group "toontownCentral" [
       color [ 0.35 0.69 0.49 1 ]
      ]
     ]
-    prop "prop_trashcan_metal_DNARoot" [
-     code [ "prop_trashcan_metal" ]
-     pos [ 6.99902 -5.9917 0 ]
-     hpr [ -90 0 0 ]
-    ]
    ]
    flat_building "tb6:random20_DNARoot" [
     pos [ -340 -215 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -2292,20 +2297,20 @@ group "toontownCentral" [
     prop "prop_tree_small_brickbox_ur_DNARoot" [
      code [ "prop_tree_small_brickbox_ur" ]
      pos [ 0.320007 -7.48996 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -90 0 -0 ]
      scale [ 0.8 0.8 0.8 ]
     ]
     prop "prop_billboard_DNARoot" [
      code [ "prop_billboard" ]
-     pos [ 1.88 0.13 21.54 ]
-     hpr [ 30 0 0 ]
+     pos [ 1.88 0.130005 21.54 ]
+     nhpr [ 30 0 -0 ]
      sign [
       color [ 0.25 0.25 0.25 1 ]
       baseline [
        code [ "TT_Comedy" ]
        color [ 0.623529 0 0 1 ]
        pos [ 0 0 1.16 ]
-       hpr [ 0 0 5 ]
+       nhpr [ -0 0 -5 ]
        scale [ 0.9 1 0.9 ]
        width [ 28.6 ]
        height [ 28.6 ]
@@ -2367,14 +2372,11 @@ group "toontownCentral" [
        text [
         letters [ " " ]
        ]
-       text [
-        letters [ " " ]
-       ]
       ]
       baseline [
        code [ "TT_Comedy" ]
        color [ 0 0 1 1 ]
-       hpr [ 0 0 4 ]
+       nhpr [ -0 0 -4 ]
        scale [ 1.1 1 1.1 ]
        width [ 34.1705 ]
        height [ 34.1705 ]
@@ -2404,7 +2406,7 @@ group "toontownCentral" [
        code [ "TT_Comedy" ]
        color [ 0 0 1 1 ]
        pos [ 0 0 -0.91 ]
-       hpr [ 0 0 4 ]
+       nhpr [ -0 0 -4 ]
        scale [ 0.688664 1 1.1 ]
        width [ 18.9858 ]
        height [ 18.9858 ]
@@ -2476,7 +2478,7 @@ group "toontownCentral" [
        code [ "TT_Comedy" ]
        color [ 0 0.25098 0.501961 1 ]
        pos [ 0 0 -2.15 ]
-       hpr [ 0 0 4 ]
+       nhpr [ -0 0 -4 ]
        scale [ 0.657732 1 0.9 ]
        width [ 44.48 ]
        height [ 44.48 ]
@@ -2558,7 +2560,7 @@ group "toontownCentral" [
    ]
    flat_building "tb6:random_DNARoot" [
     pos [ -340 -250 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -2583,7 +2585,7 @@ group "toontownCentral" [
    ]
    flat_building "tb6:random_DNARoot" [
     pos [ -340 -200 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -2614,7 +2616,7 @@ group "toontownCentral" [
     code [ "toon_landmark_TT_A2" ]
     title [ "" ]
     pos [ -300 -250 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     door [
      code [ "door_double_curved_ur" ]
      color [ 0.745098 0.792157 0.552941 1 ]
@@ -2622,13 +2624,20 @@ group "toontownCentral" [
     prop "prop_roman_entrance_DNARoot" [
      code [ "prop_roman_entrance" ]
      pos [ 12 -10 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      scale [ 1.1 1.1 1.1 ]
      color [ 0.33 0.73 0.43 1 ]
     ]
    ]
   ]
   group "props" [
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_trashcan" ]
+   anim [ "tt_a_ara_ttc_trashcan_idleHiccup0" ]
+   cell_id [ 0 ]
+   pos [ -326.337 -229.253 3.43323e-05 ]
+   nhpr [ 120 0 -0 ]
   ]
  ]
  visgroup "2109" [
@@ -2652,7 +2661,7 @@ group "toontownCentral" [
    street "street_divided_transition_DNARoot" [
     code [ "street_divided_transition" ]
     pos [ -290 -255 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -2661,7 +2670,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb7:random20_DNARoot" [
     pos [ -290 -200 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -2676,13 +2685,13 @@ group "toontownCentral" [
     prop "prop_tree_small_brickbox_ur_DNARoot" [
      code [ "prop_tree_small_brickbox_ur" ]
      pos [ 15.9999 -7 0 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
      scale [ 0.824743 0.824743 0.824743 ]
     ]
    ]
    flat_building "tb7:random20_DNARoot" [
     pos [ -280 -240 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -2711,7 +2720,7 @@ group "toontownCentral" [
    ]
    flat_building "tb7:random20_DNARoot" [
     pos [ -260 -255 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 20 ]
     wall [
      height [ 10 ]
@@ -2735,13 +2744,13 @@ group "toontownCentral" [
     prop "prop_roof_access_DNARoot" [
      code [ "prop_roof_access" ]
      pos [ 2.01 5.17 19.26 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      color [ 0.99 0.89 0.49 1 ]
     ]
    ]
    flat_building "tb49:random20_DNARoot" [
     pos [ -280 -185 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 20 ]
     wall [
      height [ 20 ]
@@ -2760,17 +2769,17 @@ group "toontownCentral" [
     prop "prop_cellar_door_DNARoot" [
      code [ "prop_cellar_door" ]
      pos [ 1 0 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
     prop "prop_stovepipe_DNARoot" [
      code [ "prop_stovepipe" ]
      pos [ 2.14 1.92 20.69 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb49:random_DNARoot" [
     pos [ -280 -200 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -2797,7 +2806,7 @@ group "toontownCentral" [
     code [ "toon_landmark_TT_B1" ]
     title [ "Haricots sauteurs" ]
     pos [ -245 -255 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ 180 0 -0 ]
     door [
      code [ "door_double_curved_ur" ]
      color [ 1 0.88 0.56 1 ]
@@ -2873,7 +2882,7 @@ group "toontownCentral" [
    ]
    flat_building "tb6:random_DNARoot" [
     pos [ -290 -240 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -2902,7 +2911,7 @@ group "toontownCentral" [
    ]
    flat_building "tb7:random_DNARoot" [
     pos [ -280 -255 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -2931,12 +2940,19 @@ group "toontownCentral" [
     prop "prop_tree_small_brickbox_ul_DNARoot" [
      code [ "prop_tree_small_brickbox_ul" ]
      pos [ 19.9998 -5.99992 0 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
      scale [ 0.879202 0.879202 0.879202 ]
     ]
    ]
   ]
   group "props" [
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_mailbox_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_mailbox" ]
+   anim [ "tt_a_ara_ttc_mailbox_idle0" ]
+   cell_id [ 0 ]
+   pos [ -287.008 -234.496 7.62939e-06 ]
+   nhpr [ 165 0 0 ]
   ]
  ]
  visgroup "2110" [
@@ -2959,7 +2975,7 @@ group "toontownCentral" [
    street "street_full_corner_DNARoot" [
     code [ "street_full_corner" ]
     pos [ -150 -200 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -2967,7 +2983,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ -150 -190 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -2975,7 +2991,7 @@ group "toontownCentral" [
    street "street_sidewalk_20x20_DNARoot" [
     code [ "street_sidewalk_20x20" ]
     pos [ -90 -190 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -2983,7 +2999,7 @@ group "toontownCentral" [
    street "street_sidewalk_20x20_DNARoot" [
     code [ "street_sidewalk_20x20" ]
     pos [ -90 -210 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -2991,7 +3007,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x10_DNARoot" [
     code [ "street_sidewalk_10x10" ]
     pos [ -100 -230 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -2999,7 +3015,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x10_DNARoot" [
     code [ "street_sidewalk_10x10" ]
     pos [ -90 -230 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -3008,7 +3024,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb10:random20_DNARoot" [
     pos [ -150 -190 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 20 ]
@@ -3027,7 +3043,7 @@ group "toontownCentral" [
    ]
    flat_building "tb10:random20_DNARoot" [
     pos [ -120 -190 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -3052,7 +3068,7 @@ group "toontownCentral" [
    ]
    flat_building "tb10:random20_DNARoot" [
     pos [ -90 -225 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -3080,7 +3096,7 @@ group "toontownCentral" [
    ]
    flat_building "tb10:random20_DNARoot" [
     pos [ -90 -200 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -3100,18 +3116,18 @@ group "toontownCentral" [
     prop "prop_facade_c_DNARoot" [
      code [ "prop_facade_a" ]
      pos [ 7.00002 -3.00001 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      scale [ 1.18114 1.18114 1.18114 ]
     ]
     prop "toys_DNARoot" [
      code [ "toys" ]
      pos [ 5.41241 -3.20669 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb10:random_DNARoot" [
     pos [ -90 -215 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -3136,7 +3152,7 @@ group "toontownCentral" [
    ]
    flat_building "tb10:random_DNARoot" [
     pos [ -90 -190 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -3165,7 +3181,7 @@ group "toontownCentral" [
    ]
    flat_building "tb10:random_DNARoot" [
     pos [ -150 -200 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 20 ]
@@ -3186,7 +3202,7 @@ group "toontownCentral" [
     code [ "toon_landmark_TT_A2" ]
     title [ "Dr. Tom Lepitre" ]
     pos [ -145 -190 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     door [
      code [ "door_double_curved_ur" ]
      color [ 1 0.88 0.56 1 ]
@@ -3256,16 +3272,23 @@ group "toontownCentral" [
     prop "neighborhood_sign_TT_DNARoot" [
      code [ "neighborhood_sign_TT" ]
      pos [ 35.4019 -3.30334 0 ]
-     hpr [ -180 0 0 ]
+     nhpr [ 180 0 -0 ]
      scale [ 1.5 1.5 1.5 ]
     ]
    ]
   ]
   group "props" [
+   interactive_prop "interactive_prop_phase_5_models_char__ttc_hydrant_DNARoot" [
+    code [ "interactive_prop_phase_5_models_char__ttc_hydrant" ]
+    anim [ "tt_a_ara_ttc_hydrant_fightBoost" ]
+    cell_id [ 0 ]
+    pos [ -145.162 -234.8 0 ]
+    nhpr [ -180 0 -0 ]
+   ]
   ]
   flat_building "tb10:20_DNARoot" [
    pos [ -110 -190 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 20 ]
    wall [
     height [ 10 ]
@@ -3295,7 +3318,7 @@ group "toontownCentral" [
   prop "prop_tree_large_brickbox_ur_DNARoot" [
    code [ "prop_tree_large_brickbox_ur" ]
    pos [ -103 -226 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
   ]
  ]
  visgroup "2111" [
@@ -3318,7 +3341,7 @@ group "toontownCentral" [
    street "street_full_corner_DNARoot" [
     code [ "street_full_corner" ]
     pos [ -110 -300 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -3327,7 +3350,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb11:random20_DNARoot" [
     pos [ -150 -300 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 20 ]
@@ -3346,7 +3369,7 @@ group "toontownCentral" [
    ]
    flat_building "tb11:random20_DNARoot" [
     pos [ -150 -270 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 20 ]
@@ -3361,7 +3384,7 @@ group "toontownCentral" [
    ]
    flat_building "tb63:random20_DNARoot" [
     pos [ -135 -300 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -3386,7 +3409,7 @@ group "toontownCentral" [
    ]
    flat_building "tb63:random20_DNARoot" [
     pos [ -110 -300 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 25 ]
     wall [
      height [ 10 ]
@@ -3414,21 +3437,21 @@ group "toontownCentral" [
     prop "prop_tree_small_brickbox_ur_DNARoot" [
      code [ "prop_tree_small_brickbox_ul" ]
      pos [ 1.7 -7.18 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -90 0 -0 ]
      scale [ 0.9 0.9 0.9 ]
      color [ 1 0.88 0.8 1 ]
     ]
     prop "prop_post_one_light_DNARoot" [
      code [ "prop_post_one_light" ]
      pos [ 7 -33 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -90 0 -0 ]
     ]
    ]
    landmark_building "tb11:toon_landmark_TT_B2_DNARoot" [
     code [ "toon_landmark_TT_B2" ]
     title [ "" ]
     pos [ -150 -285 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     door [
      code [ "door_double_round_ur" ]
      color [ 1 0.88 0.56 1 ]
@@ -3439,13 +3462,20 @@ group "toontownCentral" [
     prop "prop_roman_entrance_DNARoot" [
      code [ "prop_roman_entrance" ]
      pos [ 7.5 -8.4 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      scale [ 0.9 0.9 0.9 ]
      color [ 0.933333 0.588235 0.333333 1 ]
     ]
    ]
   ]
   group "props" [
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_mailbox_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_mailbox" ]
+   anim [ "tt_a_ara_ttc_mailbox_idle0" ]
+   cell_id [ 0 ]
+   pos [ -145.494 -263.481 3.8147e-06 ]
+   nhpr [ 60 0 0 ]
   ]
  ]
  visgroup "2112" [
@@ -3457,7 +3487,7 @@ group "toontownCentral" [
    street "street_40x40_DNARoot" [
     code [ "street_40x40" ]
     pos [ -110 -300 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -3466,7 +3496,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb63:random20_DNARoot" [
     pos [ -90 -300 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     width [ 20 ]
     wall [
      height [ 20 ]
@@ -3481,7 +3511,7 @@ group "toontownCentral" [
    ]
    flat_building "tb63:random20_DNARoot" [
     pos [ -80 -300 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -3506,7 +3536,7 @@ group "toontownCentral" [
    ]
    flat_building "tb62:10_10_DNARoot" [
     pos [ -90 -260 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -3531,11 +3561,18 @@ group "toontownCentral" [
     prop "prop_cellar_door_DNARoot" [
      code [ "prop_cellar_door" ]
      pos [ 5 0 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
   ]
   group "props" [
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_trashcan" ]
+   anim [ "tt_a_ara_ttc_trashcan_idleHiccup0" ]
+   cell_id [ 0 ]
+   pos [ -93.2397 -264.454 1.14441e-05 ]
+   nhpr [ -9.7442 0 -0 ]
   ]
  ]
  visgroup "2113" [
@@ -3557,7 +3594,7 @@ group "toontownCentral" [
    street "street_full_corner_DNARoot" [
     code [ "street_full_corner" ]
     pos [ -40 -260 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -3566,7 +3603,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb62:random20_DNARoot" [
     pos [ -25 -260 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -3591,17 +3628,12 @@ group "toontownCentral" [
     prop "prop_stovepipe_DNARoot" [
      code [ "prop_stovepipe" ]
      pos [ 1.07 1.83 19.4 ]
-     hpr [ 0 0 0 ]
-    ]
-    prop "prop_trashcan_metal_DNARoot" [
-     code [ "prop_trashcan_metal" ]
-     pos [ 4.6 -7.31 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb62:random20_DNARoot" [
     pos [ -10 -260 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -3626,7 +3658,7 @@ group "toontownCentral" [
    ]
    flat_building "tb64:random20_DNARoot" [
     pos [ 0 -285 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -3648,20 +3680,15 @@ group "toontownCentral" [
       count [ 1 ]
      ]
     ]
-    prop "prop_mailbox_TT_DNARoot" [
-     code [ "prop_mailbox_TT" ]
-     pos [ 11 -7 0 ]
-     hpr [ 90 0 0 ]
-    ]
     prop "prop_post_one_light_DNARoot" [
      code [ "prop_post_one_light" ]
      pos [ 7 -31.86 0 ]
-     hpr [ -180 0 0 ]
+     nhpr [ 180 0 -0 ]
     ]
    ]
    flat_building "tb64:random20_DNARoot" [
     pos [ 0 -260 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -3690,13 +3717,13 @@ group "toontownCentral" [
     prop "prop_tree_large_brickbox_ul_DNARoot" [
      code [ "prop_tree_large_brickbox_ul" ]
      pos [ 7 -8 0 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
      scale [ 0.8 0.8 0.8 ]
     ]
    ]
    flat_building "tb62:random20_DNARoot" [
     pos [ -40 -260 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -3721,15 +3748,10 @@ group "toontownCentral" [
       color [ 1 0.71 0.27 1 ]
      ]
     ]
-    prop "prop_hydrant_DNARoot" [
-     code [ "prop_hydrant" ]
-     pos [ 13 -8 0 ]
-     hpr [ 90 0 0 ]
-    ]
    ]
    flat_building "tb64:random20_DNARoot" [
     pos [ 0 -275 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -3754,12 +3776,19 @@ group "toontownCentral" [
     prop "prop_chimney_DNARoot" [
      code [ "prop_chimney" ]
      pos [ 5.37 3.36016 17.16 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      color [ 0.24 0.79 0.32 1 ]
     ]
    ]
   ]
   group "props" [
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_mailbox_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_mailbox" ]
+   anim [ "tt_a_ara_ttc_mailbox_idle0" ]
+   cell_id [ 0 ]
+   pos [ -5.89063 -294.379 -3.05176e-05 ]
+   nhpr [ -120 0 0 ]
   ]
  ]
  visgroup "2114" [
@@ -3771,7 +3800,7 @@ group "toontownCentral" [
    street "street_t_intersection_DNARoot" [
     code [ "street_t_intersection" ]
     pos [ -40 -310 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -3779,7 +3808,7 @@ group "toontownCentral" [
    street "street_10x40_DNARoot" [
     code [ "street_10x40" ]
     pos [ -40 -300 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -3787,7 +3816,7 @@ group "toontownCentral" [
    street "street_30x40_DNARoot" [
     code [ "street_30x40" ]
     pos [ -70 -350 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -3796,7 +3825,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb64:random20_DNARoot" [
     pos [ 0 -305 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 20 ]
     wall [
      height [ 10 ]
@@ -3819,8 +3848,8 @@ group "toontownCentral" [
     ]
     prop "prop_diner_entrance_DNARoot" [
      code [ "prop_diner_entrance" ]
-     pos [ 10 -3.5 0 ]
-     hpr [ 0 0 0 ]
+     pos [ 10 -3.49998 0 ]
+     nhpr [ -0 0 -0 ]
      sign [
       color [ 1 0.88 0.56 1 ]
       pos [ 0 0 0.39 ]
@@ -3927,7 +3956,7 @@ group "toontownCentral" [
    ]
    flat_building "tb64:random20_DNARoot" [
     pos [ 0 -325 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 5 ]
     wall [
      height [ 10 ]
@@ -3956,7 +3985,7 @@ group "toontownCentral" [
    ]
    flat_building "tb70:random20_DNARoot" [
     pos [ -70 -310 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 20 ]
     wall [
      height [ 10 ]
@@ -3985,18 +4014,18 @@ group "toontownCentral" [
     prop "prop_facade_b_DNARoot" [
      code [ "prop_facade_b" ]
      pos [ 8.99997 -1 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      scale [ 1.2923 1.2923 1.2923 ]
     ]
     prop "flower_shop_DNARoot" [
      code [ "flower_shop" ]
      pos [ 9.02122 -1.76929 0.846027 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb64:random_DNARoot" [
     pos [ 0 -330 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -4021,7 +4050,7 @@ group "toontownCentral" [
    ]
    flat_building "tb64:random20_DNARoot" [
     pos [ 0 -295 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 20 ]
@@ -4039,7 +4068,7 @@ group "toontownCentral" [
    ]
    flat_building "tb63:random20_DNARoot" [
     pos [ -40 -310 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -4054,7 +4083,7 @@ group "toontownCentral" [
    ]
    flat_building "tb70:random20_DNARoot" [
     pos [ -50 -310 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -4079,16 +4108,23 @@ group "toontownCentral" [
     prop "neighborhood_sign_TT_DNARoot" [
      code [ "neighborhood_sign_TT" ]
      pos [ 6 -2 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
     prop "neighborhood_sign_DG_DNARoot" [
      code [ "neighborhood_sign_DG" ]
      pos [ 2 -2 0 ]
-     hpr [ -180 0 0 ]
+     nhpr [ 180 0 -0 ]
     ]
    ]
   ]
   group "props" [
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_mailbox_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_mailbox" ]
+   anim [ "tt_a_ara_ttc_mailbox_idle0" ]
+   cell_id [ 0 ]
+   pos [ -39.3156 -345.371 -3.8147e-06 ]
+   nhpr [ -180 0 0 ]
   ]
  ]
  visgroup "2115" [
@@ -4107,7 +4143,7 @@ group "toontownCentral" [
    street "street_full_corner_DNARoot" [
     code [ "street_full_corner" ]
     pos [ 0 -370 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ -180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -4115,7 +4151,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ 10 -370 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -4123,7 +4159,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ -9.99999 -420 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -4131,7 +4167,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x20_DNARoot" [
     code [ "street_sidewalk_10x20" ]
     pos [ 10 -420 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -4140,7 +4176,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb16:random20_DNARoot" [
     pos [ 0 -420 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -4165,7 +4201,7 @@ group "toontownCentral" [
    ]
    flat_building "tb64:random20_DNARoot" [
     pos [ 10 -365 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 20 ]
     wall [
      height [ 20 ]
@@ -4184,17 +4220,17 @@ group "toontownCentral" [
     prop "prop_cellar_door_DNARoot" [
      code [ "prop_cellar_door" ]
      pos [ 5 0 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
     prop "prop_post_one_light_DNARoot" [
      code [ "prop_post_one_light" ]
      pos [ -20 -45 0 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
     ]
    ]
    flat_building "tb64:random20_DNARoot" [
     pos [ 10 -385 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -4219,22 +4255,12 @@ group "toontownCentral" [
     prop "prop_stovepipe_DNARoot" [
      code [ "prop_stovepipe" ]
      pos [ 3.91 1.64 18.99 ]
-     hpr [ 0 0 0 ]
-    ]
-    prop "prop_hydrant_DNARoot" [
-     code [ "prop_hydrant" ]
-     pos [ 0.00012207 -17 0 ]
-     hpr [ 0 0 0 ]
-    ]
-    prop "prop_trashcan_metal_DNARoot" [
-     code [ "prop_trashcan_metal" ]
-     pos [ -7.99991 -4.00003 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb16:random_DNARoot" [
     pos [ 10 -400 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 20 ]
     wall [
      height [ 10 ]
@@ -4263,12 +4289,12 @@ group "toontownCentral" [
     prop "prop_tree_fat_brickbox_ur_DNARoot" [
      code [ "prop_tree_fat_brickbox_ur" ]
      pos [ 2.00009 -11 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -90 0 -0 ]
     ]
    ]
    flat_building "tb16:random_DNARoot" [
     pos [ 10 -420 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -4297,14 +4323,14 @@ group "toontownCentral" [
     prop "prop_tree_large_brickbox_ul_DNARoot" [
      code [ "prop_tree_large_brickbox_ur" ]
      pos [ 45 -47 0 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
     ]
    ]
    landmark_building "tb16:toon_landmark_TT_A1_DNARoot" [
     code [ "toon_landmark_TT_A1" ]
     title [ "Barbefolle - Déguisements" ]
     pos [ -10 -420 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ -180 0 -0 ]
     door [
      code [ "door_double_curved_ur" ]
      color [ 1 0.87451 0.376471 1 ]
@@ -4313,12 +4339,12 @@ group "toontownCentral" [
      code [ "sign_general1" ]
      color [ 1 0.88 0.56 1 ]
      pos [ 0 0 -0.4 ]
-     hpr [ 0 0 2 ]
+     nhpr [ -0 0 -2 ]
      baseline [
       code [ "TT_Comedy" ]
       color [ 0 0.501961 0.25098 1 ]
       pos [ 0 0 0.96 ]
-      hpr [ 0 0 -2 ]
+      nhpr [ -0 0 2 ]
       scale [ 1.17606 1 1.92679 ]
       kern [ 0.086221 ]
       wiggle [ 2.16724 ]
@@ -4361,7 +4387,7 @@ group "toontownCentral" [
       code [ "TT_Comedy" ]
       color [ 0 0.533333 0.533333 1 ]
       pos [ 0 0 -0.58 ]
-      hpr [ 0 0 -2 ]
+      nhpr [ -0 0 2 ]
       scale [ 1.51757 1 1.81868 ]
       kern [ 0.198742 ]
       width [ 33.3333 ]
@@ -4409,6 +4435,13 @@ group "toontownCentral" [
   ]
   group "props" [
   ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_hydrant" ]
+   anim [ "tt_a_ara_ttc_hydrant_fightBoost" ]
+   cell_id [ 0 ]
+   pos [ -5.83831 -386.206 3.8147e-06 ]
+   nhpr [ -75 0 -0 ]
+  ]
  ]
  visgroup "2116" [
   vis [   "2115"   "2116"   "2117"   "2118"   "2148"   "2149"   "2154"   "2114"   "2119"   "2113"   ]
@@ -4427,7 +4460,7 @@ group "toontownCentral" [
    street "street_30x40_DNARoot" [
     code [ "street_30x40" ]
     pos [ -40 -370 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -4435,7 +4468,7 @@ group "toontownCentral" [
    street "street_sidewalk_20x20_DNARoot" [
     code [ "street_sidewalk_20x20" ]
     pos [ -70 -350 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -4443,7 +4476,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x10_DNARoot" [
     code [ "street_sidewalk_10x10" ]
     pos [ -50 -360 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -4451,7 +4484,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x10_DNARoot" [
     code [ "street_sidewalk_10x10" ]
     pos [ -50 -350 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -4460,7 +4493,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb16:random20_DNARoot" [
     pos [ -35 -420 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     width [ 15 ]
     wall [
      height [ 20 ]
@@ -4479,7 +4512,7 @@ group "toontownCentral" [
    ]
    flat_building "tb16:random20_DNARoot" [
     pos [ -50 -410 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 20 ]
     wall [
      height [ 10 ]
@@ -4503,19 +4536,14 @@ group "toontownCentral" [
     prop "prop_tree_small_brickbox_ul_DNARoot" [
      code [ "prop_tree_small_brickbox_ul" ]
      pos [ -5 -5 0 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
      scale [ 0.6 0.6 0.6 ]
      color [ 0.756863 0.729412 0.639216 1 ]
-    ]
-    prop "prop_mailbox_TT_DNARoot" [
-     code [ "prop_mailbox_TT" ]
-     pos [ -11 -67 0 ]
-     hpr [ -90 0 0 ]
     ]
    ]
    flat_building "tb16:random_DNARoot" [
     pos [ -50 -420 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -4546,7 +4574,7 @@ group "toontownCentral" [
    building_type [ "hq" ]
    title [ "Quartier général des Toons" ]
    pos [ -55 -350 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
   ]
  ]
  visgroup "2117" [
@@ -4571,7 +4599,7 @@ group "toontownCentral" [
    street "street_full_corner_DNARoot" [
     code [ "street_full_corner" ]
     pos [ -70 -410 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -4580,7 +4608,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb17:random20_DNARoot" [
     pos [ -70 -410 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 20 ]
@@ -4599,7 +4627,7 @@ group "toontownCentral" [
    ]
    flat_building "tb18:random20_DNARoot" [
     pos [ -110 -410 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -4621,26 +4649,21 @@ group "toontownCentral" [
       count [ 2 ]
      ]
     ]
-    prop "prop_trashcan_metal_DNARoot" [
-     code [ "prop_trashcan_metal" ]
-     pos [ 5 -3 0 ]
-     hpr [ -180 0 0 ]
-    ]
     prop "prop_post_one_light_DNARoot" [
      code [ "prop_post_one_light" ]
-     pos [ 13 -6 0 ]
-     hpr [ 180 0 0 ]
+     pos [ 16.7866 -6.00001 0 ]
+     nhpr [ -180 0 -0 ]
     ]
     prop "prop_chimney_DNARoot" [
      code [ "prop_chimney" ]
      pos [ 9.73 2.6 17.92 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      color [ 0.33 0.73 0.43 1 ]
     ]
    ]
    flat_building "tb18:random20_DNARoot" [
     pos [ -110 -395 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -4669,7 +4692,7 @@ group "toontownCentral" [
    ]
    flat_building "tb17:random20_DNARoot" [
     pos [ -95 -410 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -4699,7 +4722,7 @@ group "toontownCentral" [
     code [ "toon_landmark_TT_A3" ]
     title [ "Nouba & Co" ]
     pos [ -110 -385 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     door [
      code [ "door_double_curved_ur" ]
      color [ 0.88 0.45 0.38 1 ]
@@ -4707,7 +4730,7 @@ group "toontownCentral" [
     prop "prop_tree_small_brickbox_ul_DNARoot" [
      code [ "prop_tree_large_brickbox_ul" ]
      pos [ 13 -36 0 ]
-     hpr [ 180 0 0 ]
+     nhpr [ -180 0 -0 ]
      scale [ 0.8 0.8 0.8 ]
     ]
     sign [
@@ -4808,7 +4831,7 @@ group "toontownCentral" [
     code [ "toon_landmark_TT_B1" ]
     title [ "Cascades Comiques" ]
     pos [ -80 -410 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ -180 0 -0 ]
     door [
      code [ "door_double_square_ur" ]
      color [ 1 0.88 0.56 1 ]
@@ -4882,6 +4905,13 @@ group "toontownCentral" [
   ]
   group "props" [
   ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_trashcan" ]
+   anim [ "tt_a_ara_ttc_trashcan_idleHiccup0" ]
+   cell_id [ 0 ]
+   pos [ -105.1 -406.141 7.62939e-06 ]
+   nhpr [ 97.1931 0 -0 ]
+  ]
  ]
  visgroup "2118" [
   vis [   "2116"   "2117"   "2118"   "2119"   "2120"   "2149"   "2154"   "2150"   "2115"   "2114"   "2113"   "2148"   ]
@@ -4899,7 +4929,7 @@ group "toontownCentral" [
    street "street_t_intersection_DNARoot" [
     code [ "street_t_intersection" ]
     pos [ -110 -350 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -4908,7 +4938,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb70:random20_DNARoot" [
     pos [ -100 -310 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -4936,12 +4966,12 @@ group "toontownCentral" [
     prop "prop_post_one_light_DNARoot" [
      code [ "prop_post_one_light" ]
      pos [ 25 -35 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -90 0 -0 ]
     ]
    ]
    flat_building "tb70:random20_DNARoot" [
     pos [ -85 -310 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -4966,7 +4996,7 @@ group "toontownCentral" [
     prop "prop_tree_small_brickbox_ul_DNARoot" [
      code [ "prop_tree_small_brickbox_ul" ]
      pos [ 7 -6 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      scale [ 0.801187 0.801187 0.801187 ]
     ]
    ]
@@ -4989,7 +5019,7 @@ group "toontownCentral" [
    street "street_full_corner_DNARoot" [
     code [ "street_full_corner" ]
     pos [ -170 -350 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -4997,7 +5027,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x20_DNARoot" [
     code [ "street_sidewalk_10x20" ]
     pos [ -170 -310 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -5005,7 +5035,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x20_DNARoot" [
     code [ "street_sidewalk_10x20" ]
     pos [ -170 -300 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -5014,7 +5044,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb70:random20_DNARoot" [
     pos [ -145 -310 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -5043,12 +5073,12 @@ group "toontownCentral" [
     prop "prop_cellar_door_DNARoot" [
      code [ "prop_cellar_door" ]
      pos [ 6.24 -0.09 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb21:random20_DNARoot" [
     pos [ -170 -320 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -5073,7 +5103,7 @@ group "toontownCentral" [
    ]
    flat_building "tb21:random20_DNARoot" [
     pos [ -170 -350 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -5102,19 +5132,19 @@ group "toontownCentral" [
     prop "prop_tree_small_brickbox_ur_DNARoot" [
      code [ "prop_tree_small_brickbox_ur" ]
      pos [ -2.99994 -34 0 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
      scale [ 0.7 0.7 0.7 ]
     ]
     prop "neighborhood_sign_DG_DNARoot" [
      code [ "neighborhood_sign_DG" ]
      pos [ 8.87 -1.05 0 ]
-     hpr [ -180 0 0 ]
+     nhpr [ 180 0 -0 ]
      scale [ 1.5 1.5 1.5 ]
     ]
    ]
    flat_building "tb70:random20_DNARoot" [
     pos [ -160 -310 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -5139,19 +5169,19 @@ group "toontownCentral" [
     prop "prop_chimney_DNARoot" [
      code [ "prop_chimney" ]
      pos [ 4.11537 6.37085 16.72 ]
-     hpr [ 0 0.550004 0 ]
+     nhpr [ -0 0.550004 -0 ]
      color [ 0.93 0.59 0.33 1 ]
     ]
     prop "neighborhood_sign_TT_DNARoot" [
      code [ "neighborhood_sign_TT" ]
      pos [ 6.01 -1.18 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      scale [ 1.5 1.5 1.5 ]
     ]
    ]
    flat_building "tb38:10_10_DNARoot" [
     pos [ -200 -290 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -5176,7 +5206,7 @@ group "toontownCentral" [
    ]
    flat_building "tb38:10_10_DNARoot" [
     pos [ -190 -290 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -5201,7 +5231,7 @@ group "toontownCentral" [
    ]
    flat_building "tb38:10_10_DNARoot" [
     pos [ -180 -290 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 20 ]
     wall [
      height [ 20 ]
@@ -5220,7 +5250,7 @@ group "toontownCentral" [
    ]
    flat_building "tb57:random_DNARoot" [
     pos [ -170 -300 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     width [ 20 ]
     wall [
      height [ 20 ]
@@ -5241,7 +5271,7 @@ group "toontownCentral" [
     code [ "toon_landmark_TT_B1" ]
     title [ "Avions en papier " ]
     pos [ -170 -335 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     door [
      code [ "door_double_curved_ur" ]
      color [ 1 0.87451 0.376471 1 ]
@@ -5250,13 +5280,13 @@ group "toontownCentral" [
      code [ "sign_general1" ]
      color [ 1 0.88 0.56 1 ]
      pos [ 0 0 0.82 ]
-     hpr [ 0 0 3 ]
+     nhpr [ -0 0 -3 ]
      scale [ 0.8 1 0.8 ]
      baseline [
       code [ "TT_Comedy" ]
       color [ 0.501961 0 0.25098 1 ]
       pos [ 0 0 0.123575 ]
-      hpr [ 0 0 -2 ]
+      nhpr [ -0 0 2 ]
       scale [ 2 1 1.5 ]
       kern [ 0.116953 ]
       wiggle [ 3 ]
@@ -5323,7 +5353,7 @@ group "toontownCentral" [
       code [ "TT_Comedy" ]
       color [ 0.921569 0.00784314 0.0784314 1 ]
       pos [ 0 0 -0.87 ]
-      hpr [ 0 0 -4 ]
+      nhpr [ -0 0 4 ]
       scale [ 1 1 0.6 ]
       kern [ 0.064604 ]
       width [ 27.3309 ]
@@ -5384,17 +5414,12 @@ group "toontownCentral" [
     prop "prop_post_one_light_DNARoot" [
      code [ "prop_post_one_light" ]
      pos [ 16.43 -9.29 0 ]
-     hpr [ 90 0 0 ]
-    ]
-    prop "prop_mailbox_TT_DNARoot" [
-     code [ "prop_mailbox_TT" ]
-     pos [ -0.68 -8.69 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ 90 0 -0 ]
     ]
    ]
    flat_building "tb70:10_10_DNARoot" [
     pos [ -160 -290 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 20 ]
     wall [
      height [ 10 ]
@@ -5419,7 +5444,7 @@ group "toontownCentral" [
    ]
    flat_building "tb21:random20_DNARoot" [
     pos [ -170 -310 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 20 ]
@@ -5438,6 +5463,13 @@ group "toontownCentral" [
    ]
   ]
   group "props" [
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_mailbox_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_mailbox" ]
+   anim [ "tt_a_ara_ttc_mailbox_idle0" ]
+   cell_id [ 0 ]
+   pos [ -164.838 -335.02 7.24792e-05 ]
+   nhpr [ 90 0 0 ]
   ]
  ]
  visgroup "2120" [
@@ -5458,7 +5490,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb65:random20_DNARoot" [
     pos [ -170 -385 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 20 ]
     wall [
      height [ 10 ]
@@ -5484,15 +5516,10 @@ group "toontownCentral" [
       color [ 0.21 0.73 0.31 1 ]
      ]
     ]
-    prop "prop_trashcan_metal_DNARoot" [
-     code [ "prop_trashcan_metal" ]
-     pos [ 4.00012 -3.99993 0 ]
-     hpr [ -90 0 0 ]
-    ]
    ]
    flat_building "tb66:random20_DNARoot" [
     pos [ -130 -365 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 25 ]
     wall [
      height [ 20 ]
@@ -5511,7 +5538,7 @@ group "toontownCentral" [
    ]
    flat_building "tb21:random20_DNARoot" [
     pos [ -170 -365 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -5540,7 +5567,7 @@ group "toontownCentral" [
    ]
    flat_building "tb66:random20_DNARoot" [
     pos [ -130 -350 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -5572,15 +5599,17 @@ group "toontownCentral" [
   street "street_40x40_DNARoot" [
    code [ "street_40x40" ]
    pos [ -130 -390 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
   ]
-  prop "prop_hydrant_DNARoot" [
-   code [ "prop_hydrant" ]
-   pos [ -137 -386 0 ]
-   hpr [ 0 0 0 ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_hydrant" ]
+   anim [ "tt_a_ara_ttc_hydrant_fightBoost" ]
+   cell_id [ 0 ]
+   pos [ -135.869 -383.107 -3.8147e-06 ]
+   nhpr [ -90 0 -0 ]
   ]
  ]
  visgroup "2121" [
@@ -5602,7 +5631,7 @@ group "toontownCentral" [
    street "street_full_corner_DNARoot" [
     code [ "street_full_corner" ]
     pos [ -130 -470 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -5610,7 +5639,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ -180 -470 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -5618,7 +5647,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ -140 -480 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -5627,7 +5656,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb65:random20_DNARoot" [
     pos [ -180 -440 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -5656,7 +5685,7 @@ group "toontownCentral" [
    ]
    flat_building "tb24:random20_DNARoot" [
     pos [ -180 -460 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 20 ]
     wall [
      height [ 10 ]
@@ -5680,26 +5709,26 @@ group "toontownCentral" [
     prop "prop_post_one_light_DNARoot" [
      code [ "prop_post_one_light" ]
      pos [ -4.99997 -40 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -90 0 -0 ]
     ]
     prop "prop_tree_small_brickbox_ul_DNARoot" [
      code [ "prop_tree_small_brickbox_ul" ]
      pos [ -9.99997 -10 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -90 0 -0 ]
      scale [ 0.8 0.8 0.8 ]
      color [ 1 0.88 0.8 1 ]
     ]
     prop "prop_billboard_DNARoot" [
      code [ "prop_billboard" ]
-     pos [ 6.67 0.88 19.31 ]
-     hpr [ 30 0 0 ]
+     pos [ 6.67004 0.879974 19.31 ]
+     nhpr [ 30 0 -0 ]
      sign [
       color [ 1 0.88 0.56 1 ]
       baseline [
        code [ "TT_Comedy" ]
        color [ 0 0.501961 0 1 ]
        pos [ 0 0 0.78 ]
-       hpr [ 0 0 5 ]
+       nhpr [ -0 0 -5 ]
        scale [ 0.8 1 0.9 ]
        width [ 33.3333 ]
        height [ 33.3333 ]
@@ -5764,15 +5793,12 @@ group "toontownCentral" [
        text [
         letters [ " " ]
        ]
-       text [
-        letters [ " " ]
-       ]
       ]
       baseline [
        code [ "TT_Comedy" ]
        color [ 0.501961 0 0.501961 1 ]
        pos [ 0 0 -0.6 ]
-       hpr [ 0 0 6 ]
+       nhpr [ -0 0 -6 ]
        width [ 34.4021 ]
        height [ 34.4021 ]
        flags [ "b" ]
@@ -5823,7 +5849,7 @@ group "toontownCentral" [
        code [ "TT_Comedy" ]
        color [ 0 0.501961 1 1 ]
        pos [ 0 0 -1.82 ]
-       hpr [ 0 0 5 ]
+       nhpr [ -0 0 -5 ]
        scale [ 0.846997 1 1.23458 ]
        width [ 25 ]
        height [ 25 ]
@@ -5884,7 +5910,7 @@ group "toontownCentral" [
    ]
    flat_building "tb24:random20_DNARoot" [
     pos [ -165 -480 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -5904,7 +5930,7 @@ group "toontownCentral" [
    ]
    flat_building "tb24:random20_DNARoot" [
     pos [ -180 -480 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 20 ]
     wall [
      height [ 20 ]
@@ -5923,7 +5949,7 @@ group "toontownCentral" [
    ]
    flat_building "tb25:random20_DNARoot" [
     pos [ -140 -480 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 20 ]
@@ -5942,14 +5968,14 @@ group "toontownCentral" [
     prop "prop_post_one_light_DNARoot" [
      code [ "prop_post_one_light" ]
      pos [ -2.99999 -45 0 ]
-     hpr [ 180 0 0 ]
+     nhpr [ -180 0 -0 ]
     ]
    ]
    landmark_building "tb24:toon_landmark_TT_B1_DNARoot" [
     code [ "toon_landmark_TT_B1" ]
     title [ "Aux joyeux hooligans" ]
     pos [ -150 -480 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ 180 0 -0 ]
     door [
      code [ "door_double_curved_ur" ]
      color [ 1 0.88 0.56 1 ]
@@ -6050,7 +6076,7 @@ group "toontownCentral" [
    ]
    flat_building "tb65:random_DNARoot" [
     pos [ -180 -430 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -6108,7 +6134,7 @@ group "toontownCentral" [
    street "street_40x40_DNARoot" [
     code [ "street_40x40" ]
     pos [ -130 -470 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -6117,7 +6143,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb66:random20_DNARoot" [
     pos [ -130 -430 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 5 ]
     wall [
      height [ 10 ]
@@ -6132,7 +6158,7 @@ group "toontownCentral" [
    ]
    flat_building "tb66:random20_DNARoot" [
     pos [ -125 -430 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 20 ]
     wall [
      height [ 20 ]
@@ -6147,12 +6173,12 @@ group "toontownCentral" [
     prop "prop_cellar_door_DNARoot" [
      code [ "prop_cellar_door" ]
      pos [ 13 0 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb25:random20_DNARoot" [
     pos [ -90 -470 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -6180,7 +6206,7 @@ group "toontownCentral" [
    ]
    flat_building "tb26:random20_DNARoot" [
     pos [ -105 -430 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -6204,7 +6230,7 @@ group "toontownCentral" [
     prop "prop_chimney_DNARoot" [
      code [ "prop_chimney" ]
      pos [ 9.97 3.58 17.34 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      color [ 1 0.67 0.59 1 ]
     ]
    ]
@@ -6212,7 +6238,7 @@ group "toontownCentral" [
     code [ "toon_landmark_TT_A2" ]
     title [ "La maison du pâté raté" ]
     pos [ -105 -470 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ 180 0 -0 ]
     door [
      code [ "door_double_square_ur" ]
      color [ 1 0.87 0.38 1 ]
@@ -6403,7 +6429,7 @@ group "toontownCentral" [
    ]
    flat_building "tb25:10_10_DNARoot" [
     pos [ -130 -470 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -6428,7 +6454,7 @@ group "toontownCentral" [
    ]
    flat_building "tb25:10_10_DNARoot" [
     pos [ -140 -470 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -6454,6 +6480,13 @@ group "toontownCentral" [
   ]
   group "props" [
   ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_trashcan" ]
+   anim [ "tt_a_ara_ttc_trashcan_idleHiccup0" ]
+   cell_id [ 0 ]
+   pos [ -93.9726 -435.262 3.8147e-06 ]
+   nhpr [ -15 0 -0 ]
+  ]
  ]
  visgroup "2123" [
   vis [   "2121"   "2122"   "2123"   "2124"   "2125"   "2126"   "2143"   "2150"   "2151"   ]
@@ -6471,7 +6504,7 @@ group "toontownCentral" [
    street "street_full_corner_DNARoot" [
     code [ "street_full_corner" ]
     pos [ -90 -430 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -6480,7 +6513,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb26:random20_DNARoot" [
     pos [ -65 -430 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 15 ]
     wall [
      height [ 20 ]
@@ -6495,19 +6528,19 @@ group "toontownCentral" [
     prop "prop_tree_small_brickbox_ul_DNARoot" [
      code [ "prop_tree_large_brickbox_ur" ]
      pos [ 10 -20 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      scale [ 0.6 0.6 0.6 ]
     ]
     prop "neighborhood_sign_TT_DNARoot" [
      code [ "neighborhood_sign_TT" ]
      pos [ 7.16 -1.25 0 ]
-     hpr [ 180 0 0 ]
+     nhpr [ -180 0 -0 ]
      scale [ 1.5 1.5 1.5 ]
     ]
    ]
    flat_building "tb26:random20_DNARoot" [
     pos [ -50 -430 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 20 ]
     wall [
      height [ 10 ]
@@ -6536,13 +6569,13 @@ group "toontownCentral" [
     prop "neighborhood_sign_DG_DNARoot" [
      code [ "neighborhood_sign_DG" ]
      pos [ 8.66 -1.19 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      scale [ 1.5 1.5 1.5 ]
     ]
    ]
    flat_building "tb26:random20_DNARoot" [
     pos [ -90 -430 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 20 ]
@@ -6554,20 +6587,10 @@ group "toontownCentral" [
       count [ 2 ]
      ]
     ]
-    prop "prop_hydrant_DNARoot" [
-     code [ "prop_hydrant" ]
-     pos [ 8.83 -8.66 0 ]
-     hpr [ 0 0 0 ]
-    ]
-    prop "prop_trashcan_metal_DNARoot" [
-     code [ "prop_trashcan_metal" ]
-     pos [ 2.99 -5.58 0 ]
-     hpr [ -90 0 0 ]
-    ]
    ]
    flat_building "tb26:random20_DNARoot" [
     pos [ -50 -450 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 20 ]
@@ -6586,24 +6609,24 @@ group "toontownCentral" [
     prop "prop_cellar_door_DNARoot" [
      code [ "prop_cellar_door" ]
      pos [ 8.03 -0.25 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
     prop "prop_post_one_light_DNARoot" [
      code [ "prop_post_one_light" ]
      pos [ 12.77 -32.88 0 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
     ]
     prop "prop_billboard_DNARoot" [
      code [ "prop_billboard" ]
-     pos [ 5.05 0.82 20.99 ]
-     hpr [ 15 0 0 ]
+     pos [ 5.04996 0.820007 20.99 ]
+     nhpr [ 15 0 -0 ]
      sign [
       color [ 1 0.88 0.56 1 ]
       baseline [
        code [ "TT_Comedy" ]
        color [ 1 0.184314 0.592157 1 ]
        pos [ 0 0 0.73 ]
-       hpr [ 0 0 4 ]
+       nhpr [ -0 0 -4 ]
        scale [ 1.1 1 1.2 ]
        width [ 31.5746 ]
        height [ 31.5746 ]
@@ -6650,15 +6673,12 @@ group "toontownCentral" [
        text [
         letters [ "e" ]
        ]
-       text [
-        letters [ " " ]
-       ]
       ]
       baseline [
        code [ "TT_Comedy" ]
        color [ 1 0.184314 0.592157 1 ]
        pos [ 0 0 -0.614919 ]
-       hpr [ 0 0 5 ]
+       nhpr [ -0 0 -5 ]
        scale [ 1 1 1.22913 ]
        width [ 33.3333 ]
        height [ 33.3333 ]
@@ -6716,7 +6736,7 @@ group "toontownCentral" [
        code [ "TT_Comedy" ]
        color [ 0 0 0.627451 1 ]
        pos [ 0 0 -2.23 ]
-       hpr [ 0 0 2 ]
+       nhpr [ -0 0 -2 ]
        scale [ 0.616233 1 1.34113 ]
        kern [ 0.04 ]
        width [ 29.5194 ]
@@ -6801,7 +6821,7 @@ group "toontownCentral" [
     code [ "toon_landmark_TT_B2" ]
     title [ "Chez Jesse - Réparation de blagues" ]
     pos [ -80 -430 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     door [
      code [ "door_double_curved_ur" ]
      color [ 1 0.88 0.56 1 ]
@@ -6924,6 +6944,13 @@ group "toontownCentral" [
   ]
   group "props" [
   ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_hydrant" ]
+   anim [ "tt_a_ara_ttc_hydrant_fightBoost" ]
+   cell_id [ 0 ]
+   pos [ -80.3853 -436.265 -7.62939e-06 ]
+   nhpr [ -0 0 -0 ]
+  ]
  ]
  visgroup "2124" [
   vis [   "2121"   "2122"   "2123"   "2124"   "2125"   "2143"   "2150"   "2151"   "2126"   "2152"   "2135"   ]
@@ -6938,7 +6965,7 @@ group "toontownCentral" [
    street "street_10x40_DNARoot" [
     code [ "street_10x40" ]
     pos [ -90 -470 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -6946,7 +6973,7 @@ group "toontownCentral" [
    street "street_grass_transition_60x20_DNARoot" [
     code [ "street_grass_transition_60x20" ]
     pos [ -69.9992 -490 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -6954,7 +6981,7 @@ group "toontownCentral" [
    street "street_w_grass_30x10_DNARoot" [
     code [ "street_w_grass_30x10" ]
     pos [ -69.9992 -500 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -6962,7 +6989,7 @@ group "toontownCentral" [
    street "street_w_grass_30x10_DNARoot" [
     code [ "street_w_grass_30x10" ]
     pos [ -69.9992 -510 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -6971,7 +6998,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb25:random20_DNARoot" [
     pos [ -100 -495 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -6996,7 +7023,7 @@ group "toontownCentral" [
    ]
    flat_building "tb61:random20_DNARoot" [
     pos [ -40.0001 -495 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -7021,14 +7048,14 @@ group "toontownCentral" [
     prop "prop_tree_small_brickbox_ul_DNARoot" [
      code [ "prop_tree_small_ur" ]
      pos [ 5 -13.9999 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      scale [ 0.8 0.8 0.8 ]
      color [ 1 1 0.59 1 ]
     ]
    ]
    flat_building "tb67:random20_DNARoot" [
     pos [ -100 -510 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -7052,19 +7079,19 @@ group "toontownCentral" [
     prop "prop_roof_access_DNARoot" [
      code [ "prop_roof_access" ]
      pos [ 2.4 4.34 19.09 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      color [ 0.33 0.73 0.43 1 ]
     ]
     prop "prop_tree_large_brickbox_ul_DNARoot" [
      code [ "prop_tree_large_ul" ]
      pos [ 19 -14 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -90 0 -0 ]
      scale [ 0.8 0.8 0.8 ]
     ]
    ]
    flat_building "tb25:random20_DNARoot" [
     pos [ -90 -480 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 20 ]
@@ -7083,7 +7110,7 @@ group "toontownCentral" [
    ]
    flat_building "tb61:random20_DNARoot" [
     pos [ -50 -465 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 20 ]
@@ -7099,20 +7126,15 @@ group "toontownCentral" [
       count [ 4 ]
      ]
     ]
-    prop "prop_mailbox_TT_DNARoot" [
-     code [ "prop_mailbox_TT" ]
-     pos [ 1 -8 0 ]
-     hpr [ -90 0 0 ]
-    ]
     prop "prop_stovepipe_DNARoot" [
      code [ "prop_stovepipe" ]
      pos [ 2.89706 1.43344 20.7206 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb61:random_DNARoot" [
     pos [ -40 -480 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 20 ]
@@ -7131,7 +7153,7 @@ group "toontownCentral" [
    ]
    flat_building "tb25:random_DNARoot" [
     pos [ -100 -480 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 20 ]
@@ -7150,7 +7172,7 @@ group "toontownCentral" [
    ]
    flat_building "tb61:random_DNARoot" [
     pos [ -50 -480 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -7180,6 +7202,13 @@ group "toontownCentral" [
   ]
   group "props" [
   ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_mailbox_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_mailbox" ]
+   anim [ "tt_a_ara_ttc_mailbox_idle0" ]
+   cell_id [ 0 ]
+   pos [ -55.413 -472.677 7.62939e-06 ]
+   nhpr [ -60 0 0 ]
+  ]
  ]
  visgroup "2125" [
   vis [   "2123"   "2124"   "2125"   "2126"   "2127"   "2128"   "2136"   "2135"   "2122"   "2143"   "2151"   "2152"   "2137"   "2138"   "2156"   ]
@@ -7201,7 +7230,7 @@ group "toontownCentral" [
    street "street_exterior_whole_corner_w_grass_DNARoot" [
     code [ "street_exterior_whole_corner_w_grass" ]
     pos [ -69.9996 -570 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -7209,7 +7238,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ -29.9992 -550 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -7217,7 +7246,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ -29.9992 -590 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -7225,7 +7254,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ -39.9999 -630 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -7233,7 +7262,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x10_DNARoot" [
     code [ "street_sidewalk_10x10" ]
     pos [ -79.9999 -630 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -7241,7 +7270,7 @@ group "toontownCentral" [
    street "street_sidewalk_20x20_DNARoot" [
     code [ "street_sidewalk_20x20" ]
     pos [ -10 -575 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -7249,7 +7278,7 @@ group "toontownCentral" [
    street "street_sidewalk_20x20_DNARoot" [
     code [ "street_sidewalk_20x20" ]
     pos [ 10.0008 -575 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -7257,7 +7286,7 @@ group "toontownCentral" [
    street "street_sidewalk_20x20_DNARoot" [
     code [ "street_sidewalk_20x20" ]
     pos [ 30.0008 -615 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -7265,7 +7294,7 @@ group "toontownCentral" [
    street "street_sidewalk_20x20_DNARoot" [
     code [ "street_sidewalk_20x20" ]
     pos [ 30.0008 -575 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -7274,7 +7303,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb29:random20_DNARoot" [
     pos [ -79.9999 -630 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -7303,19 +7332,19 @@ group "toontownCentral" [
     prop "prop_post_one_light_DNARoot" [
      code [ "prop_post_one_light" ]
      pos [ 5 -55 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
     prop "prop_tree_large_ul_DNARoot" [
      code [ "prop_tree_large_ul" ]
      pos [ 4.99982 -24 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    landmark_building "tb29:toon_landmark_TT_B2_DNARoot" [
     code [ "toon_landmark_TT_B2" ]
     title [ "Le coin du rire" ]
     pos [ -64.9999 -630 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ -180 0 -0 ]
     door [
      code [ "door_double_square_ur" ]
      color [ 1 0.63 0.38 1 ]
@@ -7324,7 +7353,7 @@ group "toontownCentral" [
      code [ "TTC_sign3" ]
      color [ 1 0.88 0.56 1 ]
      pos [ 0 0 -0.98 ]
-     hpr [ 0 0 2 ]
+     nhpr [ -0 0 -2 ]
      baseline [
       code [ "mickey" ]
       color [ 1 0.356863 0.0509804 1 ]
@@ -7344,7 +7373,7 @@ group "toontownCentral" [
       code [ "mickey" ]
       color [ 1 0.356863 0.0509804 1 ]
       pos [ -0.1 0 -0.33 ]
-      hpr [ 0 0 -1 ]
+      nhpr [ -0 0 1 ]
       scale [ 1.34975 1 1.1 ]
       width [ 36.739 ]
       height [ 36.739 ]
@@ -7390,7 +7419,7 @@ group "toontownCentral" [
    ]
    flat_building "tb29:random20_DNARoot" [
     pos [ -45 -630 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 20 ]
     wall [
      height [ 10 ]
@@ -7414,12 +7443,12 @@ group "toontownCentral" [
     prop "prop_tree_small_brickbox_ul_DNARoot" [
      code [ "prop_tree_small_brickbox_ul" ]
      pos [ 8.5402 -23.684 0 ]
-     hpr [ 1.00179e-005 0 0 ]
+     nhpr [ 1.00179e-05 0 -0 ]
     ]
    ]
    flat_building "tb29:random_DNARoot" [
     pos [ -29.9999 -630 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -7429,7 +7458,7 @@ group "toontownCentral" [
    ]
    flat_building "tb29:random_DNARoot" [
     pos [ -29.9999 -595 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 20 ]
     wall [
      height [ 10 ]
@@ -7439,7 +7468,7 @@ group "toontownCentral" [
    ]
    flat_building "tb29:random_DNARoot" [
     pos [ -29.9999 -615 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -7449,7 +7478,7 @@ group "toontownCentral" [
    ]
    flat_building "tb29:random_DNARoot" [
     pos [ -14.9933 -595.028 -0.0229761 ]
-    hpr [ 180 0.0871985 0.0234833 ]
+    nhpr [ 180 0.0871985 0.0234833 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -7459,7 +7488,7 @@ group "toontownCentral" [
    ]
    flat_building "tb61:random_DNARoot" [
     pos [ -29.9991 -550 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -7469,7 +7498,7 @@ group "toontownCentral" [
    ]
    flat_building "tb61:random_DNARoot" [
     pos [ -29.9991 -560 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -7479,7 +7508,7 @@ group "toontownCentral" [
    ]
    flat_building "tb61:random_DNARoot" [
     pos [ -19.9991 -575 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -7489,7 +7518,7 @@ group "toontownCentral" [
    ]
    flat_building "tb61:random_DNARoot" [
     pos [ -29.9991 -575 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -7498,8 +7527,8 @@ group "toontownCentral" [
     ]
    ]
    flat_building "tb29:random_DNARoot" [
-    pos [ 9.91821e-005 -595 0 ]
-    hpr [ 180 0 0 ]
+    pos [ 9.91821e-05 -595 0 ]
+    nhpr [ -180 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -7509,7 +7538,7 @@ group "toontownCentral" [
    ]
    flat_building "tb29:random_DNARoot" [
     pos [ 10.0274 -595 0.0117475 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 4 ]
@@ -7548,7 +7577,7 @@ group "toontownCentral" [
    ]
    flat_building "tb29:random_DNARoot" [
     pos [ 0.0273991 -595 0.00888433 ]
-    hpr [ -90 89.9988 -89.9989 ]
+    nhpr [ -90 -0.000102453 -2.50448e-06 ]
     width [ 25 ]
     wall [
      height [ 4 ]
@@ -7587,7 +7616,7 @@ group "toontownCentral" [
    ]
    flat_building "tb29:random_DNARoot" [
     pos [ -45 -640 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -7612,7 +7641,7 @@ group "toontownCentral" [
    ]
    flat_building "tb29:random_DNARoot" [
     pos [ 10.0001 -615 0 ]
-    hpr [ 90 0.0883048 0.00134277 ]
+    nhpr [ 90 0.086962 5.86943e-11 ]
     width [ 20 ]
     wall [
      height [ 4 ]
@@ -7651,7 +7680,7 @@ group "toontownCentral" [
    ]
    flat_building "tb61:random_DNARoot" [
     pos [ 9.9995 -575 -0.140026 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 20 ]
     wall [
      height [ 20 ]
@@ -7670,7 +7699,7 @@ group "toontownCentral" [
    ]
    flat_building "tb61:20_DNARoot" [
     pos [ -9.99921 -550 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 25 ]
     wall [
      height [ 10 ]
@@ -7690,7 +7719,7 @@ group "toontownCentral" [
    ]
    flat_building "tb61:random_DNARoot" [
     pos [ -29.9992 -550 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 20 ]
     wall [
      height [ 10 ]
@@ -7710,7 +7739,7 @@ group "toontownCentral" [
    ]
    flat_building "tb61:random_DNARoot" [
     pos [ -9.9992 -575 0 ]
-    hpr [ 0 -0.0387139 0.00148312 ]
+    nhpr [ -1.00212e-06 -0.0387139 -0.00148312 ]
     width [ 20 ]
     wall [
      height [ 10 ]
@@ -7734,7 +7763,7 @@ group "toontownCentral" [
    ]
    flat_building "tb61:random_DNARoot" [
     pos [ 29.9995 -575 -0.140026 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -7763,7 +7792,7 @@ group "toontownCentral" [
    ]
    flat_building "tb61:random_DNARoot" [
     pos [ 29.9996 -590 -0.140026 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 25 ]
     wall [
      height [ 10 ]
@@ -7792,7 +7821,7 @@ group "toontownCentral" [
    ]
    flat_building "tb61:random_DNARoot" [
     pos [ 29.9997 -615 -0.140026 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -7821,7 +7850,7 @@ group "toontownCentral" [
    ]
    flat_building "tb29:random_DNARoot" [
     pos [ -5.00026 -615 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 15 ]
     wall [
      height [ 4 ]
@@ -7883,7 +7912,7 @@ group "toontownCentral" [
    street "street_w_grass_60x40_DNARoot" [
     code [ "street_w_grass_60x40" ]
     pos [ -120 -590 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -7892,7 +7921,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb29:random20_DNARoot" [
     pos [ -90 -620 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 25 ]
     wall [
      height [ 10 ]
@@ -7912,13 +7941,13 @@ group "toontownCentral" [
     prop "prop_smokestack_DNARoot" [
      code [ "prop_smokestack" ]
      pos [ 17.33 5.24 15.24 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      color [ 0.9 0.56 0.34 1 ]
     ]
     prop "prop_diner_entrance_DNARoot" [
      code [ "prop_diner_entrance" ]
      pos [ 13.24 -3.5 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      sign [
       color [ 1 0.88 0.56 1 ]
       pos [ 0 0 0.32 ]
@@ -8051,7 +8080,7 @@ group "toontownCentral" [
     code [ "toon_landmark_TT_A1" ]
     title [ "L'école des clowns" ]
     pos [ -135 -560 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     door [
      code [ "door_double_curved_ur" ]
      color [ 1 0.63 0.38 1 ]
@@ -8064,7 +8093,7 @@ group "toontownCentral" [
       code [ "TT_Comedy" ]
       color [ 0.807843 0.403922 0 1 ]
       pos [ 0 0 0.4 ]
-      hpr [ 0 0 -2 ]
+      nhpr [ -0 0 2 ]
       scale [ 2 1 1.5 ]
       kern [ 0.00514856 ]
       wiggle [ 3.46139 ]
@@ -8134,7 +8163,7 @@ group "toontownCentral" [
    ]
    flat_building "tb52:random20_DNARoot" [
     pos [ -125 -620 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 15 ]
     wall [
      height [ 20 ]
@@ -8144,12 +8173,12 @@ group "toontownCentral" [
     prop "prop_tree_small_ul_DNARoot" [
      code [ "prop_tree_small_ul" ]
      pos [ 6 -15 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb52:random20_DNARoot" [
     pos [ -115 -620 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -8170,15 +8199,10 @@ group "toontownCentral" [
       count [ 1 ]
      ]
     ]
-    prop "prop_trashcan_metal_DNARoot" [
-     code [ "prop_trashcan_metal" ]
-     pos [ 0.999695 -3.00003 0 ]
-     hpr [ -90 0 0 ]
-    ]
    ]
    flat_building "tb32:random20_DNARoot" [
     pos [ -110 -560 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -8202,12 +8226,12 @@ group "toontownCentral" [
     prop "prop_tree_large_ul_DNARoot" [
      code [ "prop_tree_large_ul" ]
      pos [ -3 -15 0 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
     ]
    ]
    flat_building "tb29:random_DNARoot" [
     pos [ -90 -630 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -8233,6 +8257,13 @@ group "toontownCentral" [
   ]
   group "props" [
   ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_trashcan" ]
+   anim [ "tt_a_ara_ttc_trashcan_idleHiccup0" ]
+   cell_id [ 0 ]
+   pos [ -113.407 -606.13 3.8147e-05 ]
+   nhpr [ -180 0 -0 ]
+  ]
  ]
  visgroup "2127" [
   vis [   "2125"   "2126"   "2127"   "2128"   "2129"   "2130"   "2135"   "2136"   "2137"   "2138"   "2139"   "2140"   "2141"   "2151"   "2152"   "2142"   "2143"   "2119"   ]
@@ -8257,7 +8288,7 @@ group "toontownCentral" [
    street "street_exterior_whole_corner_w_grass_DNARoot" [
     code [ "street_exterior_whole_corner_w_grass" ]
     pos [ -190 -590 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -8265,7 +8296,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ -170 -630 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -8273,7 +8304,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ -210 -630 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -8281,7 +8312,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ -250 -620 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -8289,7 +8320,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x10_DNARoot" [
     code [ "street_sidewalk_10x10" ]
     pos [ -250 -580 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -8298,7 +8329,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb33:random20_DNARoot" [
     pos [ -190 -630 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -8323,40 +8354,40 @@ group "toontownCentral" [
     prop "prop_chimney_DNARoot" [
      code [ "prop_chimney" ]
      pos [ 2.43 2.43 18.59 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      color [ 0.99 0.67 0.25 1 ]
     ]
     prop "prop_post_one_light_DNARoot" [
      code [ "prop_post_one_light" ]
      pos [ 6 -54.0004 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
     prop "neighborhood_sign_TT_DNARoot" [
      code [ "neighborhood_sign_TT" ]
      pos [ 45.1191 -1.61032 0 ]
-     hpr [ -180 0 0 ]
+     nhpr [ 180 0 -0 ]
      scale [ 1.5 1.5 1.5 ]
     ]
     prop "prop_tree_small_ur_DNARoot" [
      code [ "prop_tree_small_ur" ]
      pos [ 5.00043 -25 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      scale [ 0.923248 0.923248 0.923248 ]
     ]
     prop "prop_facade_a_DNARoot" [
      code [ "prop_facade_a" ]
      pos [ 8.4126 -1.2749 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
     prop "cloth_DNARoot" [
      code [ "cloth" ]
      pos [ 8.65364 -1.47711 1.2579 ]
-     hpr [ 0 0.811123 0 ]
+     nhpr [ -0 0.811123 -0 ]
     ]
    ]
    flat_building "tb54:random20_DNARoot" [
     pos [ -250 -580 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 20 ]
@@ -8375,13 +8406,13 @@ group "toontownCentral" [
     prop "prop_tree_small_brickbox_ul_DNARoot" [
      code [ "prop_tree_large_ur" ]
      pos [ 1 -25 0 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
      scale [ 1.00989 1.00989 1.00989 ]
     ]
    ]
    flat_building "tb33:random20_DNARoot" [
     pos [ -250 -610 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -8410,17 +8441,17 @@ group "toontownCentral" [
     prop "prop_facade_e_DNARoot" [
      code [ "prop_facade_e" ]
      pos [ 8.00024 -2.46463 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
     prop "cloth_DNARoot" [
      code [ "cloth" ]
      pos [ 6.74725 -3.57382 0.0444473 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb54:random20_DNARoot" [
     pos [ -250 -595 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -8448,19 +8479,19 @@ group "toontownCentral" [
     prop "prop_stovepipe_DNARoot" [
      code [ "prop_stovepipe" ]
      pos [ 10.85 2.02 19.26 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      color [ 1 0.92 0.59 1 ]
     ]
     prop "neighborhood_sign_DG_DNARoot" [
      code [ "neighborhood_sign_DG" ]
      pos [ 19 -1.00002 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      scale [ 1.5 1.5 1.5 ]
     ]
    ]
    flat_building "tb33:random20_DNARoot" [
     pos [ -220 -630 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 20 ]
@@ -8476,15 +8507,10 @@ group "toontownCentral" [
       color [ 1 1 0.592157 1 ]
      ]
     ]
-    prop "prop_hydrant_DNARoot" [
-     code [ "prop_hydrant" ]
-     pos [ 1.99969 -26 0 ]
-     hpr [ 0 0 0 ]
-    ]
    ]
    flat_building "tb0:random_DNARoot" [
     pos [ -265 -610 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -8513,7 +8539,7 @@ group "toontownCentral" [
    ]
    flat_building "tb54:random_DNARoot" [
     pos [ -250 -570 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 20 ]
@@ -8528,7 +8554,7 @@ group "toontownCentral" [
    ]
    flat_building "tb33:random_DNARoot" [
     pos [ -230 -630 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 20 ]
@@ -8545,11 +8571,102 @@ group "toontownCentral" [
      ]
     ]
    ]
+   flat_building "tb33:random_DNARoot" [
+    pos [ -230 -630 0 ]
+    nhpr [ 180 0 -0 ]
+    width [ 10 ]
+    wall [
+     height [ 10 ]
+     code [ "wall_woodflower_fence_ur" ]
+     color [ 1 1 1 1 ]
+    ]
+   ]
+   flat_building "tb33:random_DNARoot" [
+    pos [ -240 -630 0 ]
+    nhpr [ 180 0 -0 ]
+    width [ 10 ]
+    wall [
+     height [ 10 ]
+     code [ "wall_woodflower_fence_ur" ]
+     color [ 1 1 1 1 ]
+    ]
+    prop "prop_tree_large_ul_DNARoot" [
+     code [ "prop_tree_large_ul" ]
+     pos [ 10.0001 20.0002 0 ]
+     nhpr [ -90 0 -0 ]
+    ]
+   ]
+   flat_building "tb33:random_DNARoot" [
+    pos [ -250 -630 0 ]
+    nhpr [ 90 0 -0 ]
+    width [ 10 ]
+    wall [
+     height [ 10 ]
+     code [ "wall_woodflower_fence_ur" ]
+     color [ 1 1 1 1 ]
+    ]
+   ]
+   flat_building "tb33:random_DNARoot" [
+    pos [ -250 -620 0 ]
+    nhpr [ 90 0 -0 ]
+    width [ 10 ]
+    wall [
+     height [ 10 ]
+     code [ "wall_woodflower_fence_ur" ]
+     color [ 1 1 1 1 ]
+    ]
+    prop "prop_tree_small_ul_DNARoot" [
+     code [ "prop_tree_small_ul" ]
+     pos [ -10.0002 20 0 ]
+     nhpr [ -90 0 -0 ]
+    ]
+   ]
+   flat_building "tb33:20_DNARoot" [
+    pos [ -170 -630 0 ]
+    nhpr [ -180 0 -0 ]
+    width [ 20 ]
+    wall [
+     height [ 10 ]
+     code [ "wall_sm_brick_ur" ]
+     color [ 1 1 0.59 1 ]
+     flat_door [
+      code [ "door_garage_ur" ]
+      color [ 1 1 1 1 ]
+     ]
+    ]
+    wall [
+     height [ 10 ]
+     code [ "wall_md_blank_ur" ]
+     color [ 1 0.7 0.27 1 ]
+     windows [
+      code [ "window_sm_pointed_ul" ]
+      color [ 0.11 0.67 0.33 1 ]
+      count [ 2 ]
+     ]
+    ]
+    prop "prop_cellar_door_DNARoot" [
+     code [ "prop_cellar_door" ]
+     pos [ 14.9992 0 0 ]
+     nhpr [ -0 0 -0 ]
+    ]
+    prop "prop_tree_large_ur_DNARoot" [
+     code [ "prop_tree_large_ur" ]
+     pos [ -1.99957 -25 0 ]
+     nhpr [ -0 0 -0 ]
+     scale [ 0.96299 0.96299 0.96299 ]
+    ]
+    prop "prop_tree_large_brickbox_ul_DNARoot" [
+     code [ "prop_tree_large_ul" ]
+     pos [ 8.99957 -56.0001 0 ]
+     nhpr [ -180 0 -0 ]
+     scale [ 1.18965 1.18965 1.18965 ]
+    ]
+   ]
    landmark_building "tb33:toon_landmark_TT_B2_DNARoot" [
     code [ "toon_landmark_TT_B2" ]
     title [ "Thé-hier - Salon de thé " ]
     pos [ -205 -630 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ 180 0 -0 ]
     door [
      code [ "door_double_square_ur" ]
      color [ 1 0.63 0.38 1 ]
@@ -8637,105 +8754,18 @@ group "toontownCentral" [
       text [
        letters [ "é" ]
       ]
-      text [
-       letters [ " " ]
-      ]
      ]
-    ]
-   ]
-   flat_building "tb33:random_DNARoot" [
-    pos [ -230 -630 0 ]
-    hpr [ -180 0 0 ]
-    width [ 10 ]
-    wall [
-     height [ 10 ]
-     code [ "wall_woodflower_fence_ur" ]
-     color [ 1 1 1 1 ]
-    ]
-   ]
-   flat_building "tb33:random_DNARoot" [
-    pos [ -240 -630 0 ]
-    hpr [ -180 0 0 ]
-    width [ 10 ]
-    wall [
-     height [ 10 ]
-     code [ "wall_woodflower_fence_ur" ]
-     color [ 1 1 1 1 ]
-    ]
-    prop "prop_tree_large_ul_DNARoot" [
-     code [ "prop_tree_large_ul" ]
-     pos [ 10.0001 20.0002 0 ]
-     hpr [ -90 0 0 ]
-    ]
-   ]
-   flat_building "tb33:random_DNARoot" [
-    pos [ -250 -630 0 ]
-    hpr [ 90 0 0 ]
-    width [ 10 ]
-    wall [
-     height [ 10 ]
-     code [ "wall_woodflower_fence_ur" ]
-     color [ 1 1 1 1 ]
-    ]
-   ]
-   flat_building "tb33:random_DNARoot" [
-    pos [ -250 -620 0 ]
-    hpr [ 90 0 0 ]
-    width [ 10 ]
-    wall [
-     height [ 10 ]
-     code [ "wall_woodflower_fence_ur" ]
-     color [ 1 1 1 1 ]
-    ]
-    prop "prop_tree_small_ul_DNARoot" [
-     code [ "prop_tree_small_ul" ]
-     pos [ -10.0002 20 0 ]
-     hpr [ -90 0 0 ]
-    ]
-   ]
-   flat_building "tb33:20_DNARoot" [
-    pos [ -170 -630 0 ]
-    hpr [ 180 0 0 ]
-    width [ 20 ]
-    wall [
-     height [ 10 ]
-     code [ "wall_sm_brick_ur" ]
-     color [ 1 1 0.59 1 ]
-     flat_door [
-      code [ "door_garage_ur" ]
-      color [ 1 1 1 1 ]
-     ]
-    ]
-    wall [
-     height [ 10 ]
-     code [ "wall_md_blank_ur" ]
-     color [ 1 0.7 0.27 1 ]
-     windows [
-      code [ "window_sm_pointed_ul" ]
-      color [ 0.11 0.67 0.33 1 ]
-      count [ 2 ]
-     ]
-    ]
-    prop "prop_cellar_door_DNARoot" [
-     code [ "prop_cellar_door" ]
-     pos [ 14.9992 0 0 ]
-     hpr [ 0 0 0 ]
-    ]
-    prop "prop_tree_large_ur_DNARoot" [
-     code [ "prop_tree_large_ur" ]
-     pos [ -1.99957 -25 0 ]
-     hpr [ 0 0 0 ]
-     scale [ 0.96299 0.96299 0.96299 ]
-    ]
-    prop "prop_tree_large_brickbox_ul_DNARoot" [
-     code [ "prop_tree_large_ul" ]
-     pos [ 8.99957 -56.0001 0 ]
-     hpr [ 180 0 0 ]
-     scale [ 1.18965 1.18965 1.18965 ]
     ]
    ]
   ]
   group "props" [
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_hydrant" ]
+   anim [ "tt_a_ara_ttc_hydrant_fightBoost" ]
+   cell_id [ 0 ]
+   pos [ -223.047 -603.934 7.62939e-06 ]
+   nhpr [ 120 0 -0 ]
   ]
  ]
  visgroup "2128" [
@@ -8752,7 +8782,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb54:random20_DNARoot" [
     pos [ -240 -570 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 25 ]
     wall [
      height [ 20 ]
@@ -8768,20 +8798,15 @@ group "toontownCentral" [
       color [ 1 0.84 0.59 1 ]
      ]
     ]
-    prop "prop_trashcan_metal_DNARoot" [
-     code [ "prop_trashcan_metal" ]
-     pos [ 36 -6 0 ]
-     hpr [ 0 0 0 ]
-    ]
     prop "prop_tree_large_ur_DNARoot" [
      code [ "prop_tree_large_ur" ]
      pos [ 27.9999 -45 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -90 0 -0 ]
     ]
    ]
    flat_building "tb54:random20_DNARoot" [
     pos [ -240 -545 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -8806,7 +8831,7 @@ group "toontownCentral" [
     prop "prop_tree_small_ur_DNARoot" [
      code [ "prop_tree_small_ur" ]
      pos [ -3.00043 -15.0002 0 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
     ]
    ]
   ]
@@ -8815,7 +8840,7 @@ group "toontownCentral" [
   street "street_w_grass_30x20_DNARoot" [
    code [ "street_w_grass_30x20" ]
    pos [ -210 -540 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -8823,7 +8848,7 @@ group "toontownCentral" [
   street "street_w_grass_30x20_DNARoot" [
    code [ "street_w_grass_30x20" ]
    pos [ -210 -540 0 ]
-   hpr [ -180 0 0 ]
+   nhpr [ 180 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -8831,7 +8856,7 @@ group "toontownCentral" [
   street "street_w_grass_30x10_DNARoot" [
    code [ "street_w_grass_30x10" ]
    pos [ -210 -560 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -8839,10 +8864,17 @@ group "toontownCentral" [
   street "street_w_grass_30x10_DNARoot" [
    code [ "street_w_grass_30x10" ]
    pos [ -210 -550 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_mailbox_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_mailbox" ]
+   anim [ "tt_a_ara_ttc_mailbox_idle0" ]
+   cell_id [ 0 ]
+   pos [ -194.48 -555.395 -3.8147e-06 ]
+   nhpr [ -105 0 0 ]
   ]
  ]
  visgroup "2129" [
@@ -8867,7 +8899,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ -190 -290 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -8875,7 +8907,7 @@ group "toontownCentral" [
    street "street_20x20_DNARoot" [
     code [ "street_20x20" ]
     pos [ -210 -350 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -8883,7 +8915,7 @@ group "toontownCentral" [
    street "street_inner_corner_DNARoot" [
     code [ "street_inner_corner" ]
     pos [ -210 -330 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -8891,7 +8923,7 @@ group "toontownCentral" [
    street "street_20x20_DNARoot" [
     code [ "street_20x20" ]
     pos [ -230 -350 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -8899,7 +8931,7 @@ group "toontownCentral" [
    street "street_park_corner_DNARoot" [
     code [ "street_park_corner" ]
     pos [ -230 -370 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -8910,7 +8942,7 @@ group "toontownCentral" [
     code [ "toon_landmark_TT_A3" ]
     title [ "Théâtre de Toontown" ]
     pos [ -230 -330 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     door [
      code [ "door_double_square_ur" ]
      color [ 1 0.63 0.38 1 ]
@@ -8918,12 +8950,12 @@ group "toontownCentral" [
     prop "prop_post_one_light_DNARoot" [
      code [ "prop_post_one_light" ]
      pos [ 35 -15 0 ]
-     hpr [ 180 0 0 ]
+     nhpr [ -180 0 -0 ]
     ]
     prop "prop_marquee_DNARoot" [
      code [ "prop_marquee" ]
      pos [ 12.5 -3 4.38 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      sign [
       color [ 1 0.88 0.56 1 ]
       baseline [
@@ -9065,7 +9097,7 @@ group "toontownCentral" [
    ]
    flat_building "tb38:random20_DNARoot" [
     pos [ -200 -330 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -9090,7 +9122,7 @@ group "toontownCentral" [
    ]
    flat_building "tb57:random20_DNARoot" [
     pos [ -190 -330 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 25 ]
     wall [
      height [ 10 ]
@@ -9119,7 +9151,7 @@ group "toontownCentral" [
    ]
    flat_building "tb38:random20_DNARoot" [
     pos [ -205 -330 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 5 ]
     wall [
      height [ 10 ]
@@ -9144,7 +9176,7 @@ group "toontownCentral" [
    ]
    flat_building "tb38:10_10_DNARoot" [
     pos [ -200 -320 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -9169,7 +9201,7 @@ group "toontownCentral" [
    ]
    flat_building "tb38:10_10_DNARoot" [
     pos [ -200 -305 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -9194,7 +9226,7 @@ group "toontownCentral" [
    ]
    flat_building "tb57:10_10_DNARoot" [
     pos [ -190 -315 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -9223,7 +9255,7 @@ group "toontownCentral" [
    ]
    flat_building "tb57:10_10_DNARoot" [
     pos [ -190 -300 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 20 ]
@@ -9247,7 +9279,7 @@ group "toontownCentral" [
    code [ "toon_landmark_TT_A1" ]
    title [ "Pirouettes de Pierrette" ]
    pos [ -190 -350 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    door [
     code [ "door_double_curved_ur" ]
     color [ 1 0.88 0.56 1 ]
@@ -9336,6 +9368,13 @@ group "toontownCentral" [
     ]
    ]
   ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_hydrant" ]
+   anim [ "tt_a_ara_ttc_hydrant_fightBoost" ]
+   cell_id [ 0 ]
+   pos [ -225.262 -335.835 0 ]
+   nhpr [ 15 0 -0 ]
+  ]
  ]
  visgroup "2130" [
   vis [   "2142"   "2141"   "2140"   "2139"   "2138"   "2137"   "2136"   "2135"   "2131"   "2130"   "2129"   "2128"   "2127"   "2152"   "2153"   "2126"   ]
@@ -9354,7 +9393,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x20_DNARoot" [
     code [ "street_sidewalk_10x20" ]
     pos [ -274.999 -320 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -9362,7 +9401,7 @@ group "toontownCentral" [
    street "street_40x20_DNARoot" [
     code [ "street_40x20" ]
     pos [ -270 -350 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -9370,7 +9409,7 @@ group "toontownCentral" [
    street "street_10x20_DNARoot" [
     code [ "street_10x20" ]
     pos [ -280 -350 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -9378,7 +9417,7 @@ group "toontownCentral" [
    street "street_park_sidewalk_transitionR_DNARoot" [
     code [ "street_park_sidewalk_transitionR" ]
     pos [ -260 -370 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -9386,7 +9425,7 @@ group "toontownCentral" [
    street "street_park_straight_10_DNARoot" [
     code [ "street_park_straight_10" ]
     pos [ -260 -370 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -9394,7 +9433,7 @@ group "toontownCentral" [
    street "street_park_straight_20_DNARoot" [
     code [ "street_park_straight_20" ]
     pos [ -240 -370 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -9403,7 +9442,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb38:random20_DNARoot" [
     pos [ -255 -330 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -9428,7 +9467,7 @@ group "toontownCentral" [
    ]
    flat_building "tb38:random20_DNARoot" [
     pos [ -245 -330 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -9453,27 +9492,22 @@ group "toontownCentral" [
       color [ 1 0.75 0.38 1 ]
      ]
     ]
-    prop "prop_hydrant_DNARoot" [
-     code [ "prop_hydrant" ]
-     pos [ 16 -6 0 ]
-     hpr [ -150 0 0 ]
-    ]
     prop "prop_tree_small_brickbox_ur_DNARoot" [
      code [ "prop_tree_small_brickbox_ur" ]
      pos [ -1 -7 0 ]
-     hpr [ 180 0 0 ]
+     nhpr [ -180 0 -0 ]
      scale [ 0.8 0.8 0.8 ]
     ]
     prop "neighborhood_sign_DG_DNARoot" [
      code [ "neighborhood_sign_DG" ]
      pos [ -7 -2 0 ]
-     hpr [ 180 0 0 ]
+     nhpr [ -180 0 -0 ]
      scale [ 1.5 1.5 1.5 ]
     ]
    ]
    flat_building "tb39:random20_DNARoot" [
     pos [ -270 -320 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -9497,17 +9531,12 @@ group "toontownCentral" [
     prop "prop_stovepipe_DNARoot" [
      code [ "prop_stovepipe" ]
      pos [ 10.56 2.17 19.65 ]
-     hpr [ 0 0 0 ]
-    ]
-    prop "prop_mailbox_TT_DNARoot" [
-     code [ "prop_mailbox_TT" ]
-     pos [ 10.0002 -14.9998 0 ]
-     hpr [ 180 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
    flat_building "tb39:random_DNARoot" [
     pos [ -255 -320 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -9534,7 +9563,7 @@ group "toontownCentral" [
     code [ "toon_landmark_TT_B2" ]
     title [ "Monnaie de singe" ]
     pos [ -285 -320 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     door [
      code [ "door_double_square_ur" ]
      color [ 0.745098 0.792157 0.552941 1 ]
@@ -9610,11 +9639,18 @@ group "toontownCentral" [
     prop "prop_facade_a_DNARoot" [
      code [ "prop_facade_a" ]
      pos [ -7 -3 0 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
     ]
    ]
   ]
   group "props" [
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_mailbox_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_mailbox" ]
+   anim [ "tt_a_ara_ttc_mailbox_idle0" ]
+   cell_id [ 0 ]
+   pos [ -259.085 -334.696 -3.05176e-05 ]
+   nhpr [ 0 0 0 ]
   ]
  ]
  visgroup "2131" [
@@ -9634,7 +9670,7 @@ group "toontownCentral" [
    street "street_full_corner_DNARoot" [
     code [ "street_full_corner" ]
     pos [ -380 -370 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -9642,7 +9678,7 @@ group "toontownCentral" [
    street "street_30x40_DNARoot" [
     code [ "street_30x40" ]
     pos [ -380 -370 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -9650,7 +9686,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ -390 -405 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -9659,7 +9695,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb43:random20_DNARoot" [
     pos [ -390 -390 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 20 ]
@@ -9678,12 +9714,12 @@ group "toontownCentral" [
     prop "prop_post_one_light_DNARoot" [
      code [ "prop_post_one_light" ]
      pos [ 8.99994 -12.9999 0 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
     ]
    ]
    flat_building "tb43:random20_DNARoot" [
     pos [ -390 -400 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 20 ]
@@ -9698,7 +9734,7 @@ group "toontownCentral" [
    ]
    flat_building "tb43:random20_DNARoot" [
     pos [ -340 -380 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -9723,7 +9759,7 @@ group "toontownCentral" [
    ]
    flat_building "tb43:random20_DNARoot" [
     pos [ -340 -370 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -9743,7 +9779,7 @@ group "toontownCentral" [
    ]
    flat_building "tb69:random20_DNARoot" [
     pos [ -380 -330 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -9768,7 +9804,7 @@ group "toontownCentral" [
    ]
    flat_building "tb43:random20_DNARoot" [
     pos [ -380 -345 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -9789,15 +9825,10 @@ group "toontownCentral" [
       count [ 2 ]
      ]
     ]
-    prop "prop_hydrant_DNARoot" [
-     code [ "prop_hydrant" ]
-     pos [ 12 -8 0 ]
-     hpr [ 180 0 0 ]
-    ]
    ]
    flat_building "tb43:random20_DNARoot" [
     pos [ -340 -390 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -9823,7 +9854,7 @@ group "toontownCentral" [
    prop "linktunnel_dg_5138_DNARoot" [
     code [ "prop_neighborhood_tunnel" ]
     pos [ -360 -400 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     sign [
      code [ "tunnel_sign_green" ]
      pos [ 0 0 0.9 ]
@@ -9887,7 +9918,7 @@ group "toontownCentral" [
       code [ "mickey" ]
       color [ 1 1 0 1 ]
       pos [ 0 0 -2 ]
-      hpr [ 0 0 -1 ]
+      nhpr [ -0 0 1 ]
       scale [ 0.8 1 0.8 ]
       width [ 45.2059 ]
       height [ 45.2059 ]
@@ -9950,7 +9981,7 @@ group "toontownCentral" [
    ]
    flat_building "tb69:random20_DNARoot" [
     pos [ -365 -330 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 20 ]
     wall [
      height [ 10 ]
@@ -9974,19 +10005,19 @@ group "toontownCentral" [
     prop "prop_smokestack_DNARoot" [
      code [ "prop_smokestack" ]
      pos [ 4.62 3.03 12.73 ]
-     hpr [ 0 0 0 ]
+     nhpr [ -0 0 -0 ]
      color [ 1 0.9 0.33 1 ]
     ]
     prop "prop_tree_large_brickbox_ul_DNARoot" [
      code [ "prop_tree_large_brickbox_ul" ]
      pos [ 20 -6 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -90 0 -0 ]
      scale [ 0.7 0.7 0.7 ]
     ]
    ]
    flat_building "tb43:random20_DNARoot" [
     pos [ -390 -380 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -10011,7 +10042,7 @@ group "toontownCentral" [
    ]
    flat_building "tb43:random_DNARoot" [
     pos [ -380 -400 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -10040,7 +10071,7 @@ group "toontownCentral" [
    ]
    flat_building "tb69:random_DNARoot" [
     pos [ -345 -330 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 20 ]
@@ -10059,7 +10090,7 @@ group "toontownCentral" [
    ]
    flat_building "tb43:random_DNARoot" [
     pos [ -390 -365 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -10090,7 +10121,7 @@ group "toontownCentral" [
     code [ "toon_landmark_TT_B2" ]
     title [ "Bouteilles en boîte" ]
     pos [ -380.65 -359.48 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     door [
      code [ "door_double_curved_ur" ]
      color [ 1 0.88 0.56 1 ]
@@ -10178,7 +10209,7 @@ group "toontownCentral" [
    ]
    flat_building "tb43:random20_DNARoot" [
     pos [ -380 -365 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -10190,21 +10221,28 @@ group "toontownCentral" [
      code [ "wall_md_blank_dr" ]
      color [ 1 0.411765 0.266667 1 ]
     ]
-    prop "prop_trashcan_metal_DNARoot" [
-     code [ "prop_trashcan_metal" ]
-     pos [ -1 -3 0 ]
-     hpr [ 90 0 0 ]
-    ]
     prop "prop_post_one_light_DNARoot" [
      code [ "prop_tree_small_brickbox_ul" ]
      pos [ -0.999908 -35.0001 0 ]
-     hpr [ 90 0 0 ]
+     nhpr [ 90 0 -0 ]
      scale [ 0.8 0.8 0.8 ]
      color [ 0.88 0.88 0.88 1 ]
     ]
    ]
   ]
   group "props" [
+  ]
+  prop "prop_tt_m_ara_gen_tunnelAheadSign_DNARoot" [
+   code [ "prop_tt_m_ara_gen_tunnelAheadSign" ]
+   pos [ -368.577 -395.45 -0.499989 ]
+   nhpr [ 180 0 -0 ]
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_hydrant" ]
+   anim [ "tt_a_ara_ttc_hydrant_fightBoost" ]
+   cell_id [ 0 ]
+   pos [ -364.473 -336.494 0 ]
+   nhpr [ -0 0 -0 ]
   ]
  ]
  visgroup "2132" [
@@ -10223,7 +10261,7 @@ group "toontownCentral" [
    street "street_full_corner_DNARoot" [
     code [ "street_full_corner" ]
     pos [ -130 -120 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -10231,7 +10269,7 @@ group "toontownCentral" [
    street "street_20x40_DNARoot" [
     code [ "street_20x40" ]
     pos [ -130 -120 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -10239,7 +10277,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x40_DNARoot" [
     code [ "street_sidewalk_10x40" ]
     pos [ -140 -130 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -10247,7 +10285,7 @@ group "toontownCentral" [
    street "street_sidewalk_10x10_DNARoot" [
     code [ "street_sidewalk_10x10" ]
     pos [ -140 -90 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     texture [ "street_street_TT_tex" ]
     texture [ "street_sidewalk_TT_tex" ]
     texture [ "street_curb_TT_tex" ]
@@ -10258,7 +10296,7 @@ group "toontownCentral" [
   group "buildings" [
    flat_building "tb44:random20_DNARoot" [
     pos [ -110 -80 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 20 ]
     wall [
      height [ 10 ]
@@ -10283,7 +10321,7 @@ group "toontownCentral" [
    ]
    flat_building "tb44:random20_DNARoot" [
     pos [ -140 -110 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 20 ]
@@ -10298,13 +10336,13 @@ group "toontownCentral" [
     prop "prop_tree_small_brickbox_ur_DNARoot" [
      code [ "prop_tree_small_brickbox_ur" ]
      pos [ 11.52 -6.35 0 ]
-     hpr [ -90 0 0 ]
+     nhpr [ -90 0 -0 ]
      color [ 1 0.92 0.59 1 ]
     ]
    ]
    flat_building "tb44:random20_DNARoot" [
     pos [ -130 -80 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 20 ]
     wall [
      height [ 20 ]
@@ -10320,16 +10358,11 @@ group "toontownCentral" [
       count [ 4 ]
      ]
     ]
-    prop "prop_hydrant_DNARoot" [
-     code [ "prop_hydrant" ]
-     pos [ 19 -8 0 ]
-     hpr [ 180 0 0 ]
-    ]
    ]
    prop "linktunnel_tt_2000_DNARoot" [
     code [ "prop_safe_zone_entrance_tunnel" ]
     pos [ -90.03 -79.94 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     sign [
      code [ "tunnel_sign_orange" ]
      pos [ 0 0 -2.84 ]
@@ -10398,7 +10431,7 @@ group "toontownCentral" [
       code [ "mickey" ]
       color [ 0 0.501961 0.25098 1 ]
       pos [ 0 0 -1.94 ]
-      hpr [ 0 0 -1 ]
+      nhpr [ -0 0 1 ]
       scale [ 0.8 1 0.8 ]
       width [ 50 ]
       height [ 50 ]
@@ -10452,7 +10485,7 @@ group "toontownCentral" [
    ]
    flat_building "tb44:random20_DNARoot" [
     pos [ -140 -130 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 5 ]
     wall [
      height [ 10 ]
@@ -10477,7 +10510,7 @@ group "toontownCentral" [
    ]
    flat_building "tb44:random20_DNARoot" [
     pos [ -140 -95 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 15 ]
     wall [
      height [ 10 ]
@@ -10502,7 +10535,7 @@ group "toontownCentral" [
    ]
    flat_building "tb44:random_DNARoot" [
     pos [ -130 -140 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -10531,7 +10564,7 @@ group "toontownCentral" [
    ]
    flat_building "tb44:random_DNARoot" [
     pos [ -130 -130 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     width [ 10 ]
     wall [
      height [ 10 ]
@@ -10560,7 +10593,7 @@ group "toontownCentral" [
    ]
    flat_building "tb44:random_DNARoot" [
     pos [ -140 -80 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     width [ 10 ]
     wall [
      height [ 20 ]
@@ -10577,11 +10610,44 @@ group "toontownCentral" [
      ]
     ]
    ]
+   flat_building "tb44:random20_DNARoot" [
+    pos [ -90 -120 0 ]
+    nhpr [ -90 0 -0 ]
+    width [ 20 ]
+    wall [
+     height [ 10 ]
+     code [ "wall_md_pillars_ur" ]
+     color [ 1 1 0.592157 1 ]
+     flat_door [
+      code [ "door_single_round_ur" ]
+      color [ 0.05 0.75 0.27 1 ]
+     ]
+    ]
+    wall [
+     height [ 10 ]
+     code [ "wall_md_pillars_ur" ]
+     color [ 1 1 0.592157 1 ]
+     cornice [
+      code [ "cornice_brick_ur" ]
+      color [ 0.27 0.77 0.42 1 ]
+     ]
+     windows [
+      code [ "window_sm_pointed_ul" ]
+      color [ 0.11 0.67 0.33 1 ]
+      count [ 2 ]
+     ]
+    ]
+    prop "prop_post_one_light_DNARoot" [
+     code [ "prop_post_one_light" ]
+     pos [ -5 -5 0 ]
+     nhpr [ 90 0 -0 ]
+    ]
+   ]
    landmark_building "tb44:toon_landmark_TT_B1_DNARoot" [
     code [ "toon_landmark_TT_B1" ]
     title [ "Farces farcies" ]
     pos [ -140 -125 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     door [
      code [ "door_double_square_ur" ]
      color [ 1 0.88 0.56 1 ]
@@ -10628,9 +10694,6 @@ group "toontownCentral" [
       wiggle [ 4.08275 ]
       stumble [ 0.025965 ]
       text [
-       letters [ " " ]
-      ]
-      text [
        letters [ "F" ]
       ]
       text [
@@ -10654,39 +10717,18 @@ group "toontownCentral" [
      ]
     ]
    ]
-   flat_building "tb44:random20_DNARoot" [
-    pos [ -90 -120 0 ]
-    hpr [ -90 0 0 ]
-    width [ 20 ]
-    wall [
-     height [ 10 ]
-     code [ "wall_md_pillars_ur" ]
-     color [ 1 1 0.592157 1 ]
-     flat_door [
-      code [ "door_single_round_ur" ]
-      color [ 0.05 0.75 0.27 1 ]
-     ]
-    ]
-    wall [
-     height [ 10 ]
-     code [ "wall_md_pillars_ur" ]
-     color [ 1 1 0.592157 1 ]
-     cornice [
-      code [ "cornice_brick_ur" ]
-      color [ 0.27 0.77 0.42 1 ]
-     ]
-     windows [
-      code [ "window_sm_pointed_ul" ]
-      color [ 0.11 0.67 0.33 1 ]
-      count [ 2 ]
-     ]
-    ]
-    prop "prop_post_one_light_DNARoot" [
-     code [ "prop_post_one_light" ]
-     pos [ -5 -5 0 ]
-     hpr [ 90 0 0 ]
-    ]
-   ]
+  ]
+  prop "prop_tt_m_ara_gen_tunnelAheadSign_DNARoot" [
+   code [ "prop_tt_m_ara_gen_tunnelAheadSign" ]
+   pos [ -93.9915 -108.692 -0.500011 ]
+   nhpr [ -90.4703 0 -0 ]
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_hydrant" ]
+   anim [ "tt_a_ara_ttc_hydrant_fightBoost" ]
+   cell_id [ 0 ]
+   pos [ -108.243 -85.8131 1.90735e-06 ]
+   nhpr [ -0 0 -0 ]
   ]
  ]
  visgroup "2133" [
@@ -10696,7 +10738,7 @@ group "toontownCentral" [
   battle_cell [ 20 20 -228 -235 -0.5 ]
   flat_building "tb7:20_DNARoot" [
    pos [ -225 -255 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    width [ 20 ]
    wall [
     height [ 10 ]
@@ -10722,15 +10764,10 @@ group "toontownCentral" [
      color [ 1 1 0.59 1 ]
     ]
    ]
-   prop "prop_trashcan_metal_DNARoot" [
-    code [ "prop_trashcan_metal" ]
-    pos [ 15 -4 0 ]
-    hpr [ 180 0 0 ]
-   ]
   ]
   flat_building "tb49:20_DNARoot" [
    pos [ -260 -185 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 15 ]
    wall [
     height [ 20 ]
@@ -10749,17 +10786,17 @@ group "toontownCentral" [
    prop "prop_facade_d_DNARoot" [
     code [ "prop_facade_d" ]
     pos [ 7.99997 -3 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
    prop "gallery2_DNARoot" [
     code [ "gallery2" ]
     pos [ 8.00815 -3.62329 -1.03882 ]
-    hpr [ 0 0.902929 0.356175 ]
+    nhpr [ 0.00561342 0.902912 -0.356219 ]
    ]
   ]
   flat_building "tb60:20_DNARoot" [
    pos [ -205 -255 0 ]
-   hpr [ -180 0 0 ]
+   nhpr [ 180 0 -0 ]
    width [ 20 ]
    wall [
     height [ 10 ]
@@ -10788,40 +10825,40 @@ group "toontownCentral" [
    prop "prop_stovepipe_DNARoot" [
     code [ "prop_stovepipe" ]
     pos [ 12.67 2.45 21.57 ]
-    hpr [ 0 0 1 ]
+    nhpr [ -0 0 -1 ]
    ]
    prop "prop_post_one_light_DNARoot" [
     code [ "prop_post_one_light" ]
     pos [ 3 -7 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
    prop "prop_tree_small_brickbox_ul_DNARoot" [
     code [ "prop_tree_small_brickbox_ul" ]
-    pos [ 8 -34 0 ]
-    hpr [ -180 0 0 ]
+    pos [ 8 -35 0 ]
+    nhpr [ 180 0 -0 ]
    ]
    prop "prop_tree_fat_brickbox_ul_DNARoot" [
     code [ "prop_tree_fat_brickbox_ul" ]
-    pos [ 25 -34 0 ]
-    hpr [ -180 0 0 ]
+    pos [ 25 -35 0 ]
+    nhpr [ 180 0 0 ]
    ]
    prop "prop_tree_small_brickbox_ul_DNARoot" [
     code [ "prop_tree_small_brickbox_ul" ]
-    pos [ 41 -34 0 ]
-    hpr [ -180 0 0 ]
+    pos [ 41 -35 0 ]
+    nhpr [ 180 0 0 ]
    ]
   ]
   street "street_divided_40x70_DNARoot" [
    code [ "street_divided_40x70" ]
    pos [ -250 -255 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
   ]
   flat_building "tb49:20_DNARoot" [
    pos [ -225 -185 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -10846,12 +10883,12 @@ group "toontownCentral" [
    prop "prop_post_one_light_DNARoot" [
     code [ "prop_post_one_light" ]
     pos [ 8.78638 -6.67212 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
   ]
   flat_building "tb49:20_DNARoot" [
    pos [ -245 -185 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 20 ]
    wall [
     height [ 10 ]
@@ -10872,6 +10909,13 @@ group "toontownCentral" [
      color [ 1 0.75 0.38 1 ]
     ]
    ]
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_trashcan" ]
+   anim [ "tt_a_ara_ttc_trashcan_idleHiccup0" ]
+   cell_id [ 0 ]
+   pos [ -239.607 -249.971 -0.000110626 ]
+   nhpr [ 156.841 0 -0 ]
   ]
  ]
  visgroup "2134" [
@@ -10899,7 +10943,7 @@ group "toontownCentral" [
    code [ "toon_landmark_TT_B2" ]
    title [ "Magasin de jeux" ]
    pos [ -215 -185 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    door [
     code [ "door_double_curved_ur" ]
     color [ 1 0.88 0.56 1 ]
@@ -10970,7 +11014,7 @@ group "toontownCentral" [
   ]
   flat_building "tb60:20_DNARoot" [
    pos [ -170 -255 0 ]
-   hpr [ -180 0 0 ]
+   nhpr [ 180 0 -0 ]
    width [ 15.6 ]
    wall [
     height [ 20 ]
@@ -10989,7 +11033,7 @@ group "toontownCentral" [
    prop "prop_tree_small_brickbox_ul_DNARoot" [
     code [ "prop_tree_small_brickbox_ul" ]
     pos [ 12.0001 -18 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     scale [ 0.9 0.9 0.9 ]
    ]
   ]
@@ -10997,7 +11041,7 @@ group "toontownCentral" [
    code [ "toon_landmark_TT_C1" ]
    title [ "Machines à chatouilles" ]
    pos [ -185 -255 0 ]
-   hpr [ -180 0 0 ]
+   nhpr [ -180 0 -0 ]
    door [
     code [ "door_double_curved_ur" ]
     color [ 0.05 0.75 0.27 1 ]
@@ -11094,7 +11138,7 @@ group "toontownCentral" [
   ]
   flat_building "tb49:20_DNARoot" [
    pos [ -190 -185 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 20 ]
    wall [
     height [ 10 ]
@@ -11124,14 +11168,14 @@ group "toontownCentral" [
   street "street_divided_transition_DNARoot" [
    code [ "street_divided_transition" ]
    pos [ -170 -185 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
   ]
   flat_building "tb49:random_DNARoot" [
    pos [ -170 -185 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 15 ]
    wall [
     height [ 10 ]
@@ -11156,13 +11200,13 @@ group "toontownCentral" [
    prop "prop_tree_large_brickbox_ur_DNARoot" [
     code [ "prop_tree_small_brickbox_ul" ]
     pos [ 16 -13.0001 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     scale [ 1.01849 1.01849 1.01849 ]
    ]
   ]
   flat_building "tb60:random_DNARoot" [
    pos [ -170 -240 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 15 ]
    wall [
     height [ 10 ]
@@ -11187,7 +11231,7 @@ group "toontownCentral" [
   ]
   flat_building "tb49:20_DNARoot" [
    pos [ -200 -185 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -11213,6 +11257,13 @@ group "toontownCentral" [
     ]
    ]
   ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_hydrant" ]
+   anim [ "tt_a_ara_ttc_hydrant_fightBoost" ]
+   cell_id [ 0 ]
+   pos [ -175.337 -204.794 0 ]
+   nhpr [ -0 0 -0 ]
+  ]
  ]
  visgroup "2135" [
   vis [   "2136"   "2137"   "2138"   "2139"   "2140"   "2128"   "2129"   "2130"   "2141"   "2135"   "2125"   "2126"   "2127"   "2152"   "2151"   "2143"   "2142"   ]
@@ -11233,7 +11284,7 @@ group "toontownCentral" [
    code [ "toon_landmark_TT_A3" ]
    title [ "" ]
    pos [ -135 -620 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ 180 0 -0 ]
    door [
     code [ "door_double_square_ur" ]
     color [ 0.88 0.45 0.38 1 ]
@@ -11241,20 +11292,20 @@ group "toontownCentral" [
    prop "prop_anvil_sign_DNARoot" [
     code [ "prop_anvil_sign" ]
     pos [ 13 -3 12 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
    ]
    sign [
    ]
    prop "prop_tree_small_brickbox_ul_DNARoot" [
     code [ "prop_tree_small_ur" ]
     pos [ -4 -45 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     scale [ 1.01351 1.01351 1.01351 ]
    ]
   ]
   flat_building "tb52:20_DNARoot" [
    pos [ -160 -620 0 ]
-   hpr [ -180 0 0 ]
+   nhpr [ 180 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -11284,7 +11335,7 @@ group "toontownCentral" [
   street "street_w_grass_divided_30x20_DNARoot" [
    code [ "street_w_grass_divided_30x20" ]
    pos [ -150 -590 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -11292,7 +11343,7 @@ group "toontownCentral" [
   street "street_w_grass_30x20_DNARoot" [
    code [ "street_w_grass_30x20" ]
    pos [ -150 -590 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -11300,7 +11351,7 @@ group "toontownCentral" [
   street "street_w_grass_30x20_DNARoot" [
    code [ "street_w_grass_30x20" ]
    pos [ -170 -590 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -11308,14 +11359,14 @@ group "toontownCentral" [
   street "street_w_grass_30x20_DNARoot" [
    code [ "street_w_grass_30x20" ]
    pos [ -170 -590 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
   ]
   flat_building "tb33:random_DNARoot" [
    pos [ -170 -620 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -11344,7 +11395,7 @@ group "toontownCentral" [
   ]
   flat_building "tb53:20_DNARoot" [
    pos [ -150 -560 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 15 ]
    wall [
     height [ 10 ]
@@ -11382,7 +11433,7 @@ group "toontownCentral" [
    code [ "toon_landmark_TT_A2" ]
    title [ "" ]
    pos [ -150 -525 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    door [
     code [ "door_double_square_ur" ]
     color [ 0.05 0.75 0.27 1 ]
@@ -11390,13 +11441,13 @@ group "toontownCentral" [
    prop "prop_roman_entrance_DNARoot" [
     code [ "prop_roman_entrance" ]
     pos [ 11 -9 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     color [ 0.33 0.73 0.43 1 ]
    ]
   ]
   flat_building "tb53:20_DNARoot" [
    pos [ -150 -550 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -11412,15 +11463,10 @@ group "toontownCentral" [
      color [ 1 1 0.59 1 ]
     ]
    ]
-   prop "prop_post_sign_DNARoot" [
-    code [ "prop_mailbox_TT" ]
-    pos [ 5 -45 0 ]
-    hpr [ -90 0 0 ]
-   ]
   ]
   flat_building "tb53:20_DNARoot" [
    pos [ -165 -515 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 15 ]
    wall [
     height [ 10 ]
@@ -11445,12 +11491,12 @@ group "toontownCentral" [
    prop "prop_trashcan_metal_DNARoot" [
     code [ "prop_trashcan_metal" ]
     pos [ 4.71 -4.86 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
   ]
   flat_building "tb53:20_DNARoot" [
    pos [ -180 -515 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 15 ]
    wall [
     height [ 20 ]
@@ -11469,7 +11515,7 @@ group "toontownCentral" [
   ]
   flat_building "tb53:20_DNARoot" [
    pos [ -150 -515 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -11499,7 +11545,7 @@ group "toontownCentral" [
   street "street_sidewalk_40x40_DNARoot" [
    code [ "street_sidewalk_40x40" ]
    pos [ -180 -520 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -11507,7 +11553,7 @@ group "toontownCentral" [
   street "street_sidewalk_20x20_DNARoot" [
    code [ "street_sidewalk_20x20" ]
    pos [ -180 -500 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -11515,7 +11561,7 @@ group "toontownCentral" [
   street "street_sidewalk_20x20_DNARoot" [
    code [ "street_sidewalk_20x20" ]
    pos [ -160 -500 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -11538,7 +11584,7 @@ group "toontownCentral" [
   battle_cell [ 20 20 -210 -511 -0.5 ]
   flat_building "tb54:20_DNARoot" [
    pos [ -240 -505 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    width [ 20 ]
    wall [
     height [ 10 ]
@@ -11563,25 +11609,25 @@ group "toontownCentral" [
    prop "prop_cellar_door_DNARoot" [
     code [ "prop_cellar_door" ]
     pos [ 4 0 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
    prop "prop_chimney_DNARoot" [
     code [ "prop_chimney" ]
     pos [ 13.23 3.20621 18.81 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     color [ 1 0.42 0.27 1 ]
    ]
    prop "prop_tree_large_ul_DNARoot" [
     code [ "prop_tree_large_ul" ]
     pos [ 13.0001 -15.0004 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
    ]
   ]
   landmark_building "tb55:toon_landmark_TT_A2_DNARoot" [
    code [ "toon_landmark_TT_A2" ]
    title [ "Drôle d'argent - Caisse d'épargne" ]
    pos [ -180 -479 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    door [
     code [ "door_double_curved_ur" ]
     color [ 0.05 0.75 0.27 1 ]
@@ -11701,11 +11747,51 @@ group "toontownCentral" [
     ]
    ]
   ]
+  street "street_w_grass_60x40_DNARoot" [
+   code [ "street_w_grass_60x40" ]
+   pos [ -210 -510 0 ]
+   nhpr [ -0 0 -0 ]
+   texture [ "street_street_TT_tex" ]
+   texture [ "street_sidewalk_TT_tex" ]
+   texture [ "street_curb_TT_tex" ]
+  ]
+  flat_building "tb55:20_DNARoot" [
+   pos [ -180 -500 0 ]
+   nhpr [ -90 0 -0 ]
+   width [ 15 ]
+   wall [
+    height [ 10 ]
+    code [ "wall_md_blank_ul" ]
+    color [ 0.9 0.56 0.34 1 ]
+   ]
+   wall [
+    height [ 10 ]
+    code [ "wall_md_blank_dl" ]
+    color [ 0.9 0.56 0.34 1 ]
+    cornice [
+     code [ "cornice_marble_ur" ]
+     color [ 1 1 0.52 1 ]
+    ]
+   ]
+   prop "prop_tree_small_brickbox_ul_DNARoot" [
+    code [ "prop_tree_small_ul" ]
+    pos [ 15 -15 0 ]
+    nhpr [ -0 0 -0 ]
+    scale [ 1.08532 1.08532 1.08532 ]
+   ]
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_trashcan" ]
+   anim [ "tt_a_ara_ttc_trashcan_idleHiccup0" ]
+   cell_id [ 0 ]
+   pos [ -233.269 -526.938 3.8147e-05 ]
+   nhpr [ 96.7837 0 -0 ]
+  ]
   landmark_building "tb54:toon_landmark_TT_A3_DNARoot" [
    code [ "toon_landmark_TT_A3" ]
    title [ "Leçons de rire" ]
    pos [ -240 -530 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    door [
     code [ "door_double_square_ur" ]
     color [ 0.88 0.45 0.38 1 ]
@@ -11717,7 +11803,7 @@ group "toontownCentral" [
      code [ "mickey" ]
      color [ 0 0.501961 0.752941 1 ]
      pos [ 0 0 0.28 ]
-     hpr [ 0 0 -3 ]
+     nhpr [ -0 0 3 ]
      kern [ 0.177503 ]
      wiggle [ 2.7934 ]
      stomp [ 0.081645 ]
@@ -11749,9 +11835,6 @@ group "toontownCentral" [
      text [
       letters [ "e" ]
      ]
-     text [
-      letters [ " " ]
-     ]
     ]
     baseline [
      code [ "mickey" ]
@@ -11776,39 +11859,6 @@ group "toontownCentral" [
     ]
    ]
   ]
-  street "street_w_grass_60x40_DNARoot" [
-   code [ "street_w_grass_60x40" ]
-   pos [ -210 -510 0 ]
-   hpr [ 0 0 0 ]
-   texture [ "street_street_TT_tex" ]
-   texture [ "street_sidewalk_TT_tex" ]
-   texture [ "street_curb_TT_tex" ]
-  ]
-  flat_building "tb55:20_DNARoot" [
-   pos [ -180 -500 0 ]
-   hpr [ -90 0 0 ]
-   width [ 15 ]
-   wall [
-    height [ 10 ]
-    code [ "wall_md_blank_ul" ]
-    color [ 0.9 0.56 0.34 1 ]
-   ]
-   wall [
-    height [ 10 ]
-    code [ "wall_md_blank_dl" ]
-    color [ 0.9 0.56 0.34 1 ]
-    cornice [
-     code [ "cornice_marble_ur" ]
-     color [ 1 1 0.52 1 ]
-    ]
-   ]
-   prop "prop_tree_small_brickbox_ul_DNARoot" [
-    code [ "prop_tree_small_ul" ]
-    pos [ 15 -15 0 ]
-    hpr [ 0 0 0 ]
-    scale [ 1.08532 1.08532 1.08532 ]
-   ]
-  ]
  ]
  visgroup "2138" [
   vis [   "2138"   "2128"   "2127"   "2137"   "2136"   "2135"   "2139"   "2140"   "2141"   "2129"   "2130"   "2142"   "2152"   "2153"   "2119"   "2126"   ]
@@ -11817,7 +11867,7 @@ group "toontownCentral" [
   battle_cell [ 20 20 -210 -470 -0.5 ]
   flat_building "tb55:20_DNARoot" [
    pos [ -190 -460 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 10 ]
    wall [
     height [ 20 ]
@@ -11836,7 +11886,7 @@ group "toontownCentral" [
   ]
   flat_building "tb56:20_DNARoot" [
    pos [ -230 -470 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -11861,12 +11911,12 @@ group "toontownCentral" [
    prop "prop_stovepipe_DNARoot" [
     code [ "prop_stovepipe" ]
     pos [ 6.14999 2.2903 19.22 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
   ]
   flat_building "tb56:20_DNARoot" [
    pos [ -240 -485 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    width [ 15 ]
    wall [
     height [ 20 ]
@@ -11885,7 +11935,7 @@ group "toontownCentral" [
   ]
   flat_building "tb55:20_DNARoot" [
    pos [ -180 -470 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -11905,7 +11955,7 @@ group "toontownCentral" [
   ]
   flat_building "tb55:20_DNARoot" [
    pos [ -190 -445 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 15 ]
    wall [
     height [ 10 ]
@@ -11933,20 +11983,20 @@ group "toontownCentral" [
    prop "prop_roof_access_DNARoot" [
     code [ "prop_roof_access" ]
     pos [ 2.44 4.1 19.68 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     color [ 0.99 0.67 0.25 1 ]
    ]
    prop "prop_tree_small_brickbox_ul_DNARoot" [
     code [ "prop_tree_large_ur" ]
     pos [ 35 -5.00002 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     scale [ 0.8 0.8 0.8 ]
     color [ 0.88 0.88 0.88 1 ]
    ]
   ]
   flat_building "tb56:20_DNARoot" [
    pos [ -230 -460 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -11970,13 +12020,13 @@ group "toontownCentral" [
    prop "prop_post_one_light_DNARoot" [
     code [ "prop_post_one_light" ]
     pos [ 1.99997 -5.99998 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
    ]
   ]
   street "street_grass_transition_60x20_DNARoot" [
    code [ "street_grass_transition_60x20" ]
    pos [ -210 -480 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -11984,14 +12034,14 @@ group "toontownCentral" [
   street "street_20x40_DNARoot" [
    code [ "street_20x40" ]
    pos [ -190 -470 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
   ]
   flat_building "tb56:random_DNARoot" [
    pos [ -240 -470 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -12016,7 +12066,7 @@ group "toontownCentral" [
   ]
   flat_building "tb55:random_DNARoot" [
    pos [ -190 -470 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 10 ]
    wall [
     height [ 20 ]
@@ -12051,7 +12101,7 @@ group "toontownCentral" [
   battle_cell [ 20 20 -210 -430 -0.5 ]
   flat_building "tb57:20_DNARoot" [
    pos [ -190 -435 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -12076,7 +12126,7 @@ group "toontownCentral" [
   ]
   flat_building "tb57:20_DNARoot" [
    pos [ -190 -425 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -12101,7 +12151,7 @@ group "toontownCentral" [
   ]
   flat_building "tb57:20_DNARoot" [
    pos [ -190 -410 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 15 ]
    wall [
     height [ 10 ]
@@ -12125,7 +12175,7 @@ group "toontownCentral" [
    prop "prop_chimney_DNARoot" [
     code [ "prop_chimney" ]
     pos [ 9.17 3.85 16.47 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     color [ 0.24 0.79 0.32 1 ]
    ]
   ]
@@ -12133,7 +12183,7 @@ group "toontownCentral" [
    code [ "toon_landmark_TT_B1" ]
    title [ "Voitures de clown d'occasion" ]
    pos [ -230 -450 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    door [
     code [ "door_double_square_ur" ]
     color [ 0.75 0.79 0.55 1 ]
@@ -12142,13 +12192,13 @@ group "toontownCentral" [
     code [ "sign_general1" ]
     color [ 1 0.88 0.56 1 ]
     pos [ 0.08 0 0.95 ]
-    hpr [ 0 0 3 ]
+    nhpr [ -0 0 -3 ]
     scale [ 0.7 1 0.6 ]
     baseline [
      code [ "TT_Comedy" ]
      color [ 0 0.501961 0.752941 1 ]
      pos [ 0 0 -0.836067 ]
-     hpr [ 0 0 -2 ]
+     nhpr [ -0 0 2 ]
      scale [ 1.90536 1 1.81092 ]
      kern [ 0.075874 ]
      wiggle [ 2.84704 ]
@@ -12256,7 +12306,7 @@ group "toontownCentral" [
   street "street_20x40_DNARoot" [
    code [ "street_20x40" ]
    pos [ -190 -450 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -12264,14 +12314,14 @@ group "toontownCentral" [
   street "street_20x20_DNARoot" [
    code [ "street_20x20" ]
    pos [ -210 -410 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
   ]
   flat_building "tb56:20_DNARoot" [
    pos [ -230 -435 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    width [ 5 ]
    wall [
     height [ 10 ]
@@ -12287,7 +12337,7 @@ group "toontownCentral" [
   street "street_park_sidewalk_transitionL_DNARoot" [
    code [ "street_park_sidewalk_transitionL" ]
    pos [ -230 -430 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -12300,7 +12350,7 @@ group "toontownCentral" [
   battle_cell [ 20 20 -210 -390 -0.5 ]
   flat_building "tb57:20_DNARoot" [
    pos [ -190 -375 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 15 ]
    wall [
     height [ 10 ]
@@ -12325,12 +12375,12 @@ group "toontownCentral" [
    prop "prop_cellar_door_DNARoot" [
     code [ "prop_cellar_door" ]
     pos [ 10 0 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
   ]
   flat_building "tb57:20_DNARoot" [
    pos [ -190 -390 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 20 ]
    wall [
     height [ 20 ]
@@ -12350,7 +12400,7 @@ group "toontownCentral" [
   street "street_40x20_DNARoot" [
    code [ "street_40x20" ]
    pos [ -210 -370 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -12358,7 +12408,7 @@ group "toontownCentral" [
   street "street_park_straight_20_DNARoot" [
    code [ "street_park_straight_20" ]
    pos [ -230 -380 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -12366,7 +12416,7 @@ group "toontownCentral" [
   street "street_park_straight_20_DNARoot" [
    code [ "street_park_straight_20" ]
    pos [ -230 -400 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -12377,7 +12427,7 @@ group "toontownCentral" [
   street "street_park_straight_sidewalk_corner_DNARoot" [
    code [ "street_park_straight_sidewalk_corner" ]
    pos [ -270 -430 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -12385,7 +12435,7 @@ group "toontownCentral" [
   street "street_park_straight_sidewalk_20_DNARoot" [
    code [ "street_park_straight_sidewalk_20" ]
    pos [ -250 -430 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -12393,7 +12443,7 @@ group "toontownCentral" [
   street "street_park_straight_sidewalk_20_DNARoot" [
    code [ "street_park_straight_sidewalk_20" ]
    pos [ -280 -400 0 ]
-   hpr [ -180 0 0 ]
+   nhpr [ 180 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -12401,7 +12451,7 @@ group "toontownCentral" [
   street "street_park_interior_20x20_DNARoot" [
    code [ "street_park_interior_20x20" ]
    pos [ -250 -400 0 ]
-   hpr [ -180 0 0 ]
+   nhpr [ 180 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -12409,7 +12459,7 @@ group "toontownCentral" [
   street "street_park_straight_sidewalk_10_DNARoot" [
    code [ "street_park_straight_sidewalk_10" ]
    pos [ -280 -390 0 ]
-   hpr [ -180 0 0 ]
+   nhpr [ 180 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -12417,12 +12467,12 @@ group "toontownCentral" [
   prop "prop_tree_small_ul_DNARoot" [
    code [ "prop_tree_small_ul" ]
    pos [ -260 -380 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    scale [ 0.895649 0.895649 0.895649 ]
   ]
   flat_building "tb59:20_DNARoot" [
    pos [ -280 -390 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    width [ 20 ]
    wall [
     height [ 10 ]
@@ -12442,7 +12492,7 @@ group "toontownCentral" [
   ]
   flat_building "tb56:20_DNARoot" [
    pos [ -230 -430 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -12468,34 +12518,34 @@ group "toontownCentral" [
   prop "prop_tree_fat_ul_DNARoot" [
    code [ "prop_tree_fat_ul" ]
    pos [ -260 -410 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    scale [ 1.11655 1.11655 1.11655 ]
   ]
   prop "prop_tree_small_ur_DNARoot" [
    code [ "prop_tree_small_ur" ]
    pos [ -235 -395 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
   ]
   prop "prop_tree_large_ul_DNARoot" [
    code [ "prop_tree_large_ul" ]
    pos [ -250 -380 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
   ]
   prop "prop_tree_large_ur_DNARoot" [
    code [ "prop_tree_large_ur" ]
    pos [ -295 -420 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
   ]
   prop "prop_tree_large_ul_DNARoot" [
    code [ "prop_tree_large_ul" ]
    pos [ -280 -440 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    scale [ 1.27585 1.27585 1.27585 ]
   ]
   street "street_park_interior_20x20_DNARoot" [
    code [ "street_park_interior_20x20" ]
    pos [ -240 -380 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -12503,7 +12553,7 @@ group "toontownCentral" [
   street "street_park_interior_10x10_DNARoot" [
    code [ "street_park_interior_10x10" ]
    pos [ -250 -380 0 ]
-   hpr [ -180 0 0 ]
+   nhpr [ 180 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -12511,7 +12561,7 @@ group "toontownCentral" [
   street "street_park_interior_10x10_DNARoot" [
    code [ "street_park_interior_10x10" ]
    pos [ -250 -370 0 ]
-   hpr [ -180 0 0 ]
+   nhpr [ 180 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -12519,7 +12569,7 @@ group "toontownCentral" [
   street "street_park_interior_10x10_DNARoot" [
    code [ "street_park_interior_10x10" ]
    pos [ -230 -390 0 ]
-   hpr [ -180 0 0 ]
+   nhpr [ 180 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -12527,14 +12577,14 @@ group "toontownCentral" [
   street "street_park_interior_10x10_DNARoot" [
    code [ "street_park_interior_10x10" ]
    pos [ -230 -400 0 ]
-   hpr [ -180 0 0 ]
+   nhpr [ 180 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
   ]
   flat_building "tb56:random_DNARoot" [
    pos [ -240 -430 0 ]
-   hpr [ -135 0 0 ]
+   nhpr [ -135 0 -0 ]
    width [ 15 ]
    wall [
     height [ 10 ]
@@ -12559,7 +12609,7 @@ group "toontownCentral" [
   ]
   flat_building "tb56:random_DNARoot" [
    pos [ -240 -430 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -12569,7 +12619,7 @@ group "toontownCentral" [
   ]
   flat_building "tb56:random_DNARoot" [
    pos [ -250 -430 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -12579,7 +12629,7 @@ group "toontownCentral" [
   ]
   flat_building "tb56:random_DNARoot" [
    pos [ -260 -430 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -12589,7 +12639,7 @@ group "toontownCentral" [
   ]
   flat_building "tb56:random_DNARoot" [
    pos [ -270 -430 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -12599,7 +12649,7 @@ group "toontownCentral" [
   ]
   flat_building "tb56:random_DNARoot" [
    pos [ -280 -430 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -12609,7 +12659,7 @@ group "toontownCentral" [
   ]
   flat_building "tb56:random_DNARoot" [
    pos [ -280 -420 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -12619,7 +12669,7 @@ group "toontownCentral" [
   ]
   flat_building "tb59:random_DNARoot" [
    pos [ -300 -410 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 20 ]
    wall [
     height [ 20 ]
@@ -12638,7 +12688,7 @@ group "toontownCentral" [
   ]
   flat_building "tb59:random_DNARoot" [
    pos [ -280 -410 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    width [ 20 ]
    wall [
     height [ 20 ]
@@ -12675,7 +12725,7 @@ group "toontownCentral" [
   battle_cell [ 20 20 -290 -350 -0.5 ]
   flat_building "tb59:20_DNARoot" [
    pos [ -280 -370 0 ]
-   hpr [ -180 0 0 ]
+   nhpr [ 180 0 -0 ]
    width [ 5 ]
    wall [
     height [ 10 ]
@@ -12697,15 +12747,10 @@ group "toontownCentral" [
      count [ 1 ]
     ]
    ]
-   prop "prop_trashcan_metal_DNARoot" [
-    code [ "prop_trashcan_metal" ]
-    pos [ -5.00003 -5 0 ]
-    hpr [ 0 0 0 ]
-   ]
   ]
   flat_building "tb69:20_DNARoot" [
    pos [ -315 -320 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 15 ]
    wall [
     height [ 10 ]
@@ -12725,21 +12770,21 @@ group "toontownCentral" [
    prop "prop_tree_large_brickbox_ur_DNARoot" [
     code [ "prop_tree_large_brickbox_ur" ]
     pos [ 9.41016 -15.2698 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     scale [ 0.7 0.7 0.7 ]
    ]
   ]
   street "street_sidewalk_10x40_DNARoot" [
    code [ "street_sidewalk_10x40" ]
    pos [ -314.999 -319.999 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
   ]
   flat_building "tb59:20_DNARoot" [
    pos [ -285 -370 0 ]
-   hpr [ -180 0 0 ]
+   nhpr [ 180 0 -0 ]
    width [ 5 ]
    wall [
     height [ 20 ]
@@ -12750,14 +12795,14 @@ group "toontownCentral" [
   street "street_30x40_DNARoot" [
    code [ "street_30x40" ]
    pos [ -280 -330 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
   ]
   flat_building "tb39:20_DNARoot" [
    pos [ -300 -320 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 15 ]
    wall [
     height [ 20 ]
@@ -12771,19 +12816,19 @@ group "toontownCentral" [
    prop "house_needs_DNARoot" [
     code [ "house_needs" ]
     pos [ 8.116 -2.89508 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
    prop "cloth_DNARoot" [
     code [ "cloth" ]
     pos [ 7.92358 -3.6301 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
   ]
   landmark_building "tb59:toon_landmark_TT_A2_DNARoot" [
    code [ "toon_landmark_TT_A2" ]
    title [ "L'univers des vibrateurs" ]
    pos [ -290 -370 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ 180 0 -0 ]
    door [
     code [ "door_double_curved_ur" ]
     color [ 0.05 0.75 0.27 1 ]
@@ -12882,6 +12927,13 @@ group "toontownCentral" [
     ]
    ]
   ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_trashcan" ]
+   anim [ "tt_a_ara_ttc_trashcan_idleHiccup0" ]
+   cell_id [ 0 ]
+   pos [ -284.229 -365.871 -1.52588e-05 ]
+   nhpr [ 168.805 0 -0 ]
+  ]
  ]
  visgroup "2143" [
   vis [   "2143"   "2126"   "2125"   "2124"   "2123"   "2122"   "2135"   "2121"   "2120"   "2151"   "2150"   "2127"   "2128"   ]
@@ -12900,7 +12952,7 @@ group "toontownCentral" [
   battle_cell [ 20 20 -70 -530 -0.5 ]
   flat_building "tb61:20_DNARoot" [
    pos [ -40.0001 -510 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 15 ]
    wall [
     height [ 10 ]
@@ -12924,76 +12976,12 @@ group "toontownCentral" [
    prop "prop_tree_large_ur_DNARoot" [
     code [ "prop_tree_large_ur" ]
     pos [ 9.00003 -13.9999 0 ]
-    hpr [ 0 0 0 ]
-   ]
-  ]
-  landmark_building "tb61:toon_landmark_TT_B1_DNARoot" [
-   code [ "toon_landmark_TT_B1" ]
-   title [ "Daffy Taffy" ]
-   pos [ -40.0001 -525 0 ]
-   hpr [ -90 0 0 ]
-   door [
-    code [ "door_double_curved_ur" ]
-    color [ 1 0.88 0.56 1 ]
-   ]
-   sign [
-    code [ "TTC_sign2" ]
-    color [ 1 0.88 0.56 1 ]
-    pos [ 0 0 0.8 ]
-    scale [ 0.7 1 0.7 ]
-    baseline [
-     code [ "mickey" ]
-     color [ 1 0 0.501961 1 ]
-     pos [ 0.15 0 0.48 ]
-     scale [ 1.5 1 1.5 ]
-     kern [ 0.226735 ]
-     wiggle [ 5.94718 ]
-     stomp [ 0.071629 ]
-     text [
-      letters [ "D" ]
-     ]
-     text [
-      letters [ "A" ]
-     ]
-     text [
-      letters [ "F" ]
-     ]
-     text [
-      letters [ "F" ]
-     ]
-     text [
-      letters [ "Y" ]
-     ]
-    ]
-    baseline [
-     code [ "mickey" ]
-     color [ 1 0 0.501961 1 ]
-     pos [ 0 0 -0.99 ]
-     scale [ 1.5 1 1.5 ]
-     kern [ 0.214972 ]
-     wiggle [ 3.88838 ]
-     stomp [ 0.09369 ]
-     text [
-      letters [ "T" ]
-     ]
-     text [
-      letters [ "A" ]
-     ]
-     text [
-      letters [ "F" ]
-     ]
-     text [
-      letters [ "F" ]
-     ]
-     text [
-      letters [ "Y" ]
-     ]
-    ]
+    nhpr [ -0 0 -0 ]
    ]
   ]
   flat_building "tb61:20_DNARoot" [
    pos [ -40 -540 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 10 ]
    wall [
     height [ 20 ]
@@ -13009,21 +12997,16 @@ group "toontownCentral" [
      color [ 0.79 0.36 0.19 1 ]
     ]
    ]
-   prop "prop_trashcan_metal_DNARoot" [
-    code [ "prop_trashcan_metal" ]
-    pos [ 4.00006 -3.99957 0 ]
-    hpr [ -90 0 0 ]
-   ]
    prop "prop_tree_large_ur_DNARoot" [
     code [ "prop_tree_large_ul" ]
     pos [ 5.99988 -13.9996 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
   ]
   street "street_w_grass_30x10_DNARoot" [
    code [ "street_w_grass_30x10" ]
    pos [ -69.9992 -550 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -13031,7 +13014,7 @@ group "toontownCentral" [
   street "street_w_grass_30x10_DNARoot" [
    code [ "street_w_grass_30x10" ]
    pos [ -69.9992 -560 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -13039,14 +13022,14 @@ group "toontownCentral" [
   street "street_w_grass_60x40_DNARoot" [
    code [ "street_w_grass_60x40" ]
    pos [ -69.9992 -530 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
   ]
   flat_building "tb67:20_DNARoot" [
    pos [ -100 -560 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -13071,7 +13054,7 @@ group "toontownCentral" [
    prop "prop_tree_small_ur_DNARoot" [
     code [ "prop_tree_small_ur" ]
     pos [ 0 -14.9998 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     scale [ 0.86162 0.86162 0.86162 ]
    ]
   ]
@@ -13079,7 +13062,7 @@ group "toontownCentral" [
    code [ "toon_landmark_TT_A3" ]
    title [ "Au bon temps" ]
    pos [ -100 -550 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    door [
     code [ "door_double_curved_ur" ]
     color [ 0.88 0.45 0.38 1 ]
@@ -13181,7 +13164,7 @@ group "toontownCentral" [
   ]
   flat_building "tb67:20_DNARoot" [
    pos [ -100 -525 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    width [ 15 ]
    wall [
     height [ 10 ]
@@ -13206,12 +13189,12 @@ group "toontownCentral" [
    prop "prop_tree_small_ul_DNARoot" [
     code [ "prop_tree_small_ul" ]
     pos [ 4.00024 -15.0001 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
   ]
   flat_building "tb61:random_DNARoot" [
    pos [ -39.9992 -550 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 10 ]
    wall [
     height [ 20 ]
@@ -13228,6 +13211,77 @@ group "toontownCentral" [
     ]
    ]
   ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_trashcan" ]
+   anim [ "tt_a_ara_ttc_trashcan_idleHiccup0" ]
+   cell_id [ 0 ]
+   pos [ -92.9847 -529.502 -7.62939e-06 ]
+   nhpr [ 75 0 -0 ]
+  ]
+  landmark_building "tb61:toon_landmark_TT_B1_DNARoot" [
+   code [ "toon_landmark_TT_B1" ]
+   title [ "Daffy Taffy" ]
+   pos [ -40.0001 -525 0 ]
+   nhpr [ -90 0 -0 ]
+   door [
+    code [ "door_double_curved_ur" ]
+    color [ 1 0.88 0.56 1 ]
+   ]
+   sign [
+    code [ "TTC_sign2" ]
+    color [ 1 0.88 0.56 1 ]
+    pos [ 0 0 0.8 ]
+    scale [ 0.7 1 0.7 ]
+    baseline [
+     code [ "mickey" ]
+     color [ 1 0 0.501961 1 ]
+     pos [ 0.15 0 0.48 ]
+     scale [ 1.5 1 1.5 ]
+     kern [ 0.226735 ]
+     wiggle [ 5.94718 ]
+     stomp [ 0.071629 ]
+     text [
+      letters [ "D" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "F" ]
+     ]
+     text [
+      letters [ "F" ]
+     ]
+     text [
+      letters [ "Y" ]
+     ]
+    ]
+    baseline [
+     code [ "mickey" ]
+     color [ 1 0 0.501961 1 ]
+     pos [ 0 0 -0.99 ]
+     scale [ 1.5 1 1.5 ]
+     kern [ 0.214972 ]
+     wiggle [ 3.88838 ]
+     stomp [ 0.09369 ]
+     text [
+      letters [ "T" ]
+     ]
+     text [
+      letters [ "A" ]
+     ]
+     text [
+      letters [ "F" ]
+     ]
+     text [
+      letters [ "F" ]
+     ]
+     text [
+      letters [ "Y" ]
+     ]
+    ]
+   ]
+  ]
  ]
  visgroup "2144" [
   vis [   "2144"   "2102"   "2101"   "2132"   "2103"   "2104"   "2105"   "2106"   "2107"   "2155"   ]
@@ -13241,14 +13295,14 @@ group "toontownCentral" [
   street "street_40x40_DNARoot" [
    code [ "street_40x40" ]
    pos [ -210 -180 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
   ]
   flat_building "tb3:20_DNARoot" [
    pos [ -200 -180 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -13270,15 +13324,10 @@ group "toontownCentral" [
      count [ 1 ]
     ]
    ]
-   prop "prop_hydrant_DNARoot" [
-    code [ "prop_hydrant" ]
-    pos [ 5 -8 0 ]
-    hpr [ 0 -6 -3 ]
-   ]
   ]
   flat_building "tb3:20_DNARoot" [
    pos [ -185 -180 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    width [ 15 ]
    wall [
     height [ 10 ]
@@ -13300,15 +13349,10 @@ group "toontownCentral" [
      count [ 1 ]
     ]
    ]
-   prop "prop_trashcan_metal_DNARoot" [
-    code [ "prop_trashcan_metal" ]
-    pos [ 11 -6 0 ]
-    hpr [ 0 0 0 ]
-   ]
   ]
   flat_building "tb2:20_DNARoot" [
    pos [ -175 -180 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -13337,7 +13381,7 @@ group "toontownCentral" [
   ]
   flat_building "tb1:20_DNARoot" [
    pos [ -200 -140 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 20 ]
    wall [
     height [ 10 ]
@@ -13366,12 +13410,12 @@ group "toontownCentral" [
    prop "prop_post_one_light_DNARoot" [
     code [ "prop_post_one_light" ]
     pos [ 16 -7 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
    ]
   ]
   flat_building "tb1:20_DNARoot" [
    pos [ -210 -140 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -13400,10 +13444,17 @@ group "toontownCentral" [
    prop "prop_tree_small_brickbox_ul_DNARoot" [
     code [ "prop_tree_small_brickbox_ul" ]
     pos [ 3 -6 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     scale [ 0.7 0.7 0.7 ]
     color [ 0.88 0.88 0.88 1 ]
    ]
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_hydrant" ]
+   anim [ "tt_a_ara_ttc_hydrant_fightBoost" ]
+   cell_id [ 0 ]
+   pos [ -204.876 -172.969 3.8147e-06 ]
+   nhpr [ 180 0 -0 ]
   ]
  ]
  visgroup "2145" [
@@ -13418,14 +13469,14 @@ group "toontownCentral" [
   street "street_20x40_DNARoot" [
    code [ "street_20x40" ]
    pos [ -170 -240 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
   ]
   flat_building "tb10:20_DNARoot" [
    pos [ -170 -200 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 5 ]
    wall [
     height [ 10 ]
@@ -13447,15 +13498,10 @@ group "toontownCentral" [
      count [ 1 ]
     ]
    ]
-   prop "prop_trashcan_metal_DNARoot" [
-    code [ "prop_trashcan_metal" ]
-    pos [ 3 -4 0 ]
-    hpr [ -90 0 0 ]
-   ]
   ]
   flat_building "tb60:20_DNARoot" [
    pos [ -150 -240 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    width [ 20 ]
    wall [
     height [ 10 ]
@@ -13476,15 +13522,10 @@ group "toontownCentral" [
      count [ 2 ]
     ]
    ]
-   prop "prop_post_one_light_DNARoot" [
-    code [ "prop_hydrant" ]
-    pos [ -6.00006 -7 0 ]
-    hpr [ -180 0 0 ]
-   ]
   ]
   flat_building "tb10:20_DNARoot" [
    pos [ -165 -200 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 15 ]
    wall [
     height [ 20 ]
@@ -13503,19 +13544,26 @@ group "toontownCentral" [
    prop "prop_chimney_DNARoot" [
     code [ "prop_chimney" ]
     pos [ 10.26 3.63 15.56 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     color [ 0.99 0.67 0.25 1 ]
    ]
    prop "prop_facade_d_DNARoot" [
     code [ "prop_facade_d" ]
     pos [ 7.39088 -2.40546 -0.00119227 ]
-    hpr [ 0 0.168383 0 ]
+    nhpr [ -0 0.168383 -0 ]
    ]
    prop "gallery2_DNARoot" [
     code [ "gallery2" ]
     pos [ 7.6089 -3.01639 -1.23236 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_trashcan" ]
+   anim [ "tt_a_ara_ttc_trashcan_idleHiccup0" ]
+   cell_id [ 0 ]
+   pos [ -166.481 -205.755 3.43323e-05 ]
+   nhpr [ -14.1905 0 -0 ]
   ]
  ]
  visgroup "2146" [
@@ -13530,7 +13578,7 @@ group "toontownCentral" [
   street "street_20x40_DNARoot" [
    code [ "street_20x40" ]
    pos [ -110 -260 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -13538,14 +13586,14 @@ group "toontownCentral" [
   street "street_sidewalk_20x20_DNARoot" [
    code [ "street_sidewalk_20x20" ]
    pos [ -110 -260 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
   ]
   flat_building "tb62:20_DNARoot" [
    pos [ -90 -240 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 15 ]
    wall [
     height [ 10 ]
@@ -13567,30 +13615,25 @@ group "toontownCentral" [
      count [ 1 ]
     ]
    ]
-   prop "prop_trashcan_metal_DNARoot" [
-    code [ "prop_trashcan_metal" ]
-    pos [ 16 -4.00006 0 ]
-    hpr [ 180 0 0 ]
-   ]
    prop "prop_tree_small_brickbox_ur_DNARoot" [
     code [ "prop_tree_small_brickbox_ur" ]
     pos [ 22 -18 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
    prop "prop_facade_b_DNARoot" [
     code [ "prop_facade_e" ]
     pos [ 7.99594 -0.998199 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
    prop "sport_store_DNARoot" [
     code [ "sport_store" ]
     pos [ 8.74557 -1.57281 -0.340002 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
   ]
   flat_building "tb62:20_DNARoot" [
    pos [ -90 -255 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 5 ]
    wall [
     height [ 10 ]
@@ -13605,7 +13648,7 @@ group "toontownCentral" [
   ]
   flat_building "tb11:20_DNARoot" [
    pos [ -150 -255 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    width [ 15 ]
    wall [
     height [ 10 ]
@@ -13626,11 +13669,13 @@ group "toontownCentral" [
      count [ 2 ]
     ]
    ]
-   prop "prop_mailbox_TT_DNARoot" [
-    code [ "prop_mailbox_TT" ]
-    pos [ -3 -4 0 ]
-    hpr [ -90 0 0 ]
-   ]
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_hydrant" ]
+   anim [ "tt_a_ara_ttc_hydrant_fightBoost" ]
+   cell_id [ 0 ]
+   pos [ -114.113 -249.986 -1.52588e-05 ]
+   nhpr [ -90 0 -0 ]
   ]
  ]
  visgroup "2147" [
@@ -13651,7 +13696,7 @@ group "toontownCentral" [
   street "street_30x40_DNARoot" [
    code [ "street_30x40" ]
    pos [ -40 -260 0 ]
-   hpr [ -180 0 0 ]
+   nhpr [ 180 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -13660,7 +13705,7 @@ group "toontownCentral" [
    code [ "toon_landmark_TT_A3" ]
    title [ "Théâtre de Toontown" ]
    pos [ -55 -300 0 ]
-   hpr [ -180 0 0 ]
+   nhpr [ -180 0 -0 ]
    door [
     code [ "door_double_curved_ur" ]
     color [ 0.88 0.45 0.38 1 ]
@@ -13668,7 +13713,7 @@ group "toontownCentral" [
    prop "prop_roman_entrance_DNARoot" [
     code [ "prop_marquee" ]
     pos [ 12 -3 5 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
     color [ 1 0.88 0.8 1 ]
     sign [
      color [ 1 0.88 0.56 1 ]
@@ -13781,7 +13826,7 @@ group "toontownCentral" [
   ]
   flat_building "tb63:20_DNARoot" [
    pos [ -40 -300 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    width [ 15 ]
    wall [
     height [ 10 ]
@@ -13806,13 +13851,13 @@ group "toontownCentral" [
    prop "prop_tree_small_brickbox_ur_DNARoot" [
     code [ "prop_tree_small_brickbox_ur" ]
     pos [ 4 -5 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     scale [ 0.6 0.6 0.6 ]
    ]
   ]
   flat_building "tb62:20_DNARoot" [
    pos [ -75 -260 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 15.6 ]
    wall [
     height [ 10 ]
@@ -13835,11 +13880,18 @@ group "toontownCentral" [
     ]
    ]
   ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_hydrant" ]
+   anim [ "tt_a_ara_ttc_hydrant_fightBoost" ]
+   cell_id [ 0 ]
+   pos [ -59.2811 -267.189 -7.62939e-06 ]
+   nhpr [ -0 0 -0 ]
+  ]
   landmark_building "tb62:toon_landmark_TT_C1_DNARoot" [
    code [ "toon_landmark_TT_C1" ]
    title [ "Dr E. Phorique" ]
    pos [ -60 -260 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    door [
     code [ "door_double_curved_ur" ]
     color [ 1 0.87 0.38 1 ]
@@ -13906,6 +13958,9 @@ group "toontownCentral" [
      text [
       letters [ "R" ]
      ]
+     text [
+      letters [ "." ]
+     ]
     ]
    ]
   ]
@@ -13923,7 +13978,7 @@ group "toontownCentral" [
   battle_cell [ 20 20 -20 -360 -0.5 ]
   flat_building "tb64:20_DNARoot" [
    pos [ 10 -330 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -13942,7 +13997,7 @@ group "toontownCentral" [
    prop "prop_tree_fat_brickbox_ur_DNARoot" [
     code [ "prop_tree_small_brickbox_ur" ]
     pos [ 5.99994 -14 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     scale [ 0.73549 0.73549 0.73549 ]
    ]
   ]
@@ -13950,7 +14005,7 @@ group "toontownCentral" [
    code [ "toon_landmark_TT_A2" ]
    title [ "Les mimes marrants" ]
    pos [ 10 -340 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    door [
     code [ "door_double_curved_ur" ]
     color [ 0.88 0.45 0.38 1 ]
@@ -14038,7 +14093,7 @@ group "toontownCentral" [
   street "street_20x40_DNARoot" [
    code [ "street_20x40" ]
    pos [ -40 -350 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -14046,10 +14101,17 @@ group "toontownCentral" [
   street "street_sidewalk_10x40_DNARoot" [
    code [ "street_sidewalk_10x40" ]
    pos [ 10 -330 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_trashcan" ]
+   anim [ "tt_a_ara_ttc_trashcan_idleHiccup0" ]
+   cell_id [ 0 ]
+   pos [ 2.99183 -362.525 7.62939e-06 ]
+   nhpr [ -90 0 -0 ]
   ]
  ]
  visgroup "2149" [
@@ -14064,14 +14126,14 @@ group "toontownCentral" [
   street "street_20x40_DNARoot" [
    code [ "street_20x40" ]
    pos [ -70 -370 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
   ]
   flat_building "tb18:20_DNARoot" [
    pos [ -110 -360 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -14099,7 +14161,7 @@ group "toontownCentral" [
    prop "prop_tree_small_brickbox_ur_DNARoot" [
     code [ "prop_tree_small_brickbox_ur" ]
     pos [ 15 -4.00001 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     scale [ 0.921112 0.921112 0.921112 ]
    ]
   ]
@@ -14128,7 +14190,7 @@ group "toontownCentral" [
   street "street_40x40_DNARoot" [
    code [ "street_40x40" ]
    pos [ -130 -430 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -14137,7 +14199,7 @@ group "toontownCentral" [
    code [ "toon_landmark_TT_A3" ]
    title [ "Bouteilles de gaz hilarant" ]
    pos [ -130 -390 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    door [
     code [ "door_double_curved_ur" ]
     color [ 0.88 0.45 0.38 1 ]
@@ -14245,7 +14307,7 @@ group "toontownCentral" [
    code [ "toon_landmark_TT_A1" ]
    title [ "Le Manège - Agence de voyages" ]
    pos [ -170 -410 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    door [
     code [ "door_double_curved_ur" ]
     color [ 0.88 0.45 0.38 1 ]
@@ -14254,7 +14316,7 @@ group "toontownCentral" [
     code [ "TTC_sign1" ]
     color [ 1 0.88 0.56 1 ]
     pos [ 0 0 -0.29 ]
-    scale [ 0.851705 1 0.8 ]
+    scale [ 0.8 1 0.8 ]
     baseline [
      code [ "mickey" ]
      color [ 1 0 0 1 ]
@@ -14353,7 +14415,7 @@ group "toontownCentral" [
   ]
   flat_building "tb65:20_DNARoot" [
    pos [ -170 -430 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    width [ 20 ]
    wall [
     height [ 20 ]
@@ -14371,13 +14433,13 @@ group "toontownCentral" [
    prop "prop_tree_small_brickbox_ul_DNARoot" [
     code [ "prop_tree_large_brickbox_ur" ]
     pos [ -9.99997 0 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     scale [ 0.926619 0.926619 0.926619 ]
    ]
   ]
   flat_building "tb66:20_DNARoot" [
    pos [ -130 -415 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 15 ]
    wall [
     height [ 10 ]
@@ -14394,6 +14456,13 @@ group "toontownCentral" [
      count [ 2 ]
     ]
    ]
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_trashcan_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_trashcan" ]
+   anim [ "tt_a_ara_ttc_trashcan_idleHiccup0" ]
+   cell_id [ 0 ]
+   pos [ -165.761 -415.208 -5.34058e-05 ]
+   nhpr [ 75 0 -0 ]
   ]
  ]
  visgroup "2151" [
@@ -14420,14 +14489,14 @@ group "toontownCentral" [
   street "street_30x40_DNARoot" [
    code [ "street_30x40" ]
    pos [ -340 -370 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
   ]
   flat_building "tb59:20_DNARoot" [
    pos [ -315 -370 0 ]
-   hpr [ 180 0 0 ]
+   nhpr [ -180 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -14452,7 +14521,7 @@ group "toontownCentral" [
   ]
   flat_building "tb59:20_DNARoot" [
    pos [ -325 -370 0 ]
-   hpr [ -180 0 0 ]
+   nhpr [ 180 0 -0 ]
    width [ 15 ]
    wall [
     height [ 10 ]
@@ -14478,7 +14547,7 @@ group "toontownCentral" [
    code [ "toon_landmark_TT_A1" ]
    title [ "Chez Gaston - ballons pas folichons" ]
    pos [ -336 -320 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    door [
     code [ "door_double_curved_ur" ]
     color [ 0.88 0.45 0.38 1 ]
@@ -14486,12 +14555,12 @@ group "toontownCentral" [
    sign [
     code [ "TTC_sign3" ]
     color [ 1 0.88 0.56 1 ]
-    hpr [ 0 0 -1 ]
+    nhpr [ -0 0 1 ]
     baseline [
      code [ "mickey" ]
      color [ 0.72549 0.027451 0.27451 1 ]
      pos [ -0.12 0 1.06 ]
-     hpr [ 0 0 -1 ]
+     nhpr [ -0 0 1 ]
      scale [ 0.9 1 0.9 ]
      width [ 33.3333 ]
      height [ 33.3333 ]
@@ -14605,7 +14674,7 @@ group "toontownCentral" [
   ]
   flat_building "tb69:20_DNARoot" [
    pos [ -345 -320 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 10 ]
    wall [
     height [ 10 ]
@@ -14631,7 +14700,7 @@ group "toontownCentral" [
   street "street_sidewalk_10x40_DNARoot" [
    code [ "street_sidewalk_10x40" ]
    pos [ -354.999 -319.999 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -14651,14 +14720,14 @@ group "toontownCentral" [
   street "street_20x40_DNARoot" [
    code [ "street_20x40" ]
    pos [ -130 -350 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
   ]
   flat_building "tb70:random20_DNARoot" [
    pos [ -130 -310 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    width [ 5 ]
    wall [
     height [ 10 ]
@@ -14683,7 +14752,7 @@ group "toontownCentral" [
   ]
   flat_building "tb66:20_DNARoot" [
    pos [ -110 -350 0 ]
-   hpr [ -180 0 0 ]
+   nhpr [ 180 0 -0 ]
    width [ 20 ]
    wall [
     height [ 10 ]
@@ -14714,7 +14783,7 @@ group "toontownCentral" [
    code [ "toon_landmark_TT_A2" ]
    title [ "Fourchettes à soupe" ]
    pos [ -125 -310 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    door [
     code [ "door_double_curved_ur" ]
     color [ 0.88 0.45 0.38 1 ]
@@ -14798,22 +14867,22 @@ group "toontownCentral" [
    prop "prop_facade_aN_DNARoot" [
     code [ "prop_facade_a" ]
     pos [ 2 -4 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
    prop "prop_facade_eN_DNARoot" [
     code [ "prop_facade_a" ]
     pos [ 22 -3 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
    prop "house_needs_DNARoot" [
     code [ "house_needs" ]
     pos [ 21.9794 -3.51221 1.17856 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
    prop "cloth_DNARoot" [
     code [ "cloth" ]
     pos [ 3 -4 0 ]
-    hpr [ 0 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
   ]
  ]
@@ -14825,14 +14894,14 @@ group "toontownCentral" [
   street "street_20x40_DNARoot" [
    code [ "street_20x40" ]
    pos [ -290 -200 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
   ]
   flat_building "tb3:20_DNARoot" [
    pos [ -290 -180 0 ]
-   hpr [ -90 0 0 ]
+   nhpr [ -90 0 -0 ]
    width [ 20 ]
    wall [
     height [ 10 ]
@@ -14857,7 +14926,7 @@ group "toontownCentral" [
   ]
   flat_building "tb5:20_DNARoot" [
    pos [ -330 -200 0 ]
-   hpr [ 90 0 0 ]
+   nhpr [ 90 0 -0 ]
    width [ 20 ]
    wall [
     height [ 10 ]
@@ -14886,19 +14955,21 @@ group "toontownCentral" [
    prop "prop_cellar_door_DNARoot" [
     code [ "prop_cellar_door" ]
     pos [ 13.1309 -0.0579834 0 ]
-    hpr [ 0 0 0 ]
-   ]
-   prop "prop_hydrant_DNARoot" [
-    code [ "prop_hydrant" ]
-    pos [ 9.00002 -7 0 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -0 0 -0 ]
    ]
    prop "prop_smokestack_DNARoot" [
     code [ "prop_smokestack" ]
     pos [ 15.705 6.12888 14.14 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
     color [ 0.9 0.56 0.34 1 ]
    ]
+  ]
+  interactive_prop "interactive_prop_phase_5_models_char__ttc_hydrant_DNARoot" [
+   code [ "interactive_prop_phase_5_models_char__ttc_hydrant" ]
+   anim [ "tt_a_ara_ttc_hydrant_fightBoost" ]
+   cell_id [ 0 ]
+   pos [ -323.469 -190.811 0 ]
+   nhpr [ 90 0 -0 ]
   ]
  ]
  visgroup "2156" [
@@ -14906,7 +14977,7 @@ group "toontownCentral" [
   street "street_TT_pond_DNARoot" [
    code [ "street_TT_pond" ]
    pos [ 20.0004 -665 0 ]
-   hpr [ 0 0 0 ]
+   nhpr [ -0 0 -0 ]
    texture [ "street_street_TT_tex" ]
    texture [ "street_sidewalk_TT_tex" ]
    texture [ "street_curb_TT_tex" ]
@@ -14915,80 +14986,80 @@ group "toontownCentral" [
    prop "prop_tree_small_ur_DNARoot" [
     code [ "prop_tree_small_ur" ]
     pos [ 0 -625 0 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
    ]
    prop "prop_tree_small_ur_DNARoot" [
     code [ "prop_tree_small_ur" ]
     pos [ -21.6709 -664.913 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     scale [ 1.31765 1.31765 1.31765 ]
    ]
    prop "prop_tree_small_ur_DNARoot" [
     code [ "prop_tree_small_ur" ]
     pos [ 43.9344 -647.039 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
    ]
    prop "prop_tree_small_ur_DNARoot" [
     code [ "prop_tree_small_ur" ]
     pos [ 30.0001 -700 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     scale [ 1.06961 1.06961 1.06961 ]
    ]
    prop "prop_tree_small_ur_DNARoot" [
     code [ "prop_tree_small_ur" ]
     pos [ 60.0001 -665 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     scale [ 1.37669 1.37669 1.37669 ]
    ]
    prop "prop_tree_small_ur_DNARoot" [
     code [ "prop_tree_small_ur" ]
     pos [ 5 -700 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
    ]
    prop "prop_tree_small_ul_DNARoot" [
     code [ "prop_tree_small_ul" ]
     pos [ -3.50123 -684.431 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
     scale [ 1.22166 1.22166 1.22166 ]
    ]
    prop "prop_tree_small_ul_DNARoot" [
     code [ "prop_tree_small_ul" ]
     pos [ -3.05211 -646.89 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     scale [ 1.19081 1.19081 1.19081 ]
    ]
    prop "prop_tree_small_ul_DNARoot" [
     code [ "prop_tree_small_ul" ]
     pos [ 44.9775 -684.646 0 ]
-    hpr [ -180 0 0 ]
+    nhpr [ 180 0 -0 ]
    ]
    prop "prop_tree_small_ul_DNARoot" [
     code [ "prop_tree_small_ul" ]
     pos [ 40 -625 0 ]
-    hpr [ 180 0 0 ]
+    nhpr [ -180 0 -0 ]
     scale [ 1.14876 1.14876 1.14876 ]
    ]
    prop "prop_tree_fat_ur_DNARoot" [
     code [ "prop_tree_fat_ur" ]
     pos [ 74.2261 -633.947 6.12889 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     scale [ 1.65844 1.65844 1.65844 ]
    ]
    prop "prop_tree_fat_ur_DNARoot" [
     code [ "prop_tree_fat_ur" ]
     pos [ -21.8402 -619.825 5.49219 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
    ]
    prop "prop_tree_fat_ul_DNARoot" [
     code [ "prop_tree_fat_ul" ]
     pos [ 7.91282 -731.192 6.97894 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     scale [ 1.48928 1.48928 1.48928 ]
    ]
    prop "prop_tree_fat_ul_DNARoot" [
     code [ "prop_tree_fat_ul" ]
     pos [ 58.7126 -719.839 5.53402 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
     scale [ 1.65782 1.65782 1.65782 ]
    ]
   ]
@@ -14996,27 +15067,27 @@ group "toontownCentral" [
    prop "npc_fisherman_origin_0" [
     code [ "DCS" ]
     pos [ 11.4 -633 0 ]
-    hpr [ 273 0 0 ]
+    nhpr [ -87 0 -0 ]
    ]
    prop "fishing_spot_DNARoot" [
     code [ "fishing_spot" ]
     pos [ 35.2944 -672.413 0.445984 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
    ]
    prop "fishing_spot_DNARoot" [
     code [ "fishing_spot" ]
     pos [ 35.3701 -658.097 0.360748 ]
-    hpr [ 90 0 0 ]
+    nhpr [ 90 0 -0 ]
    ]
    prop "fishing_spot_DNARoot" [
     code [ "fishing_spot" ]
     pos [ 4.40166 -671.547 0.418176 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
    ]
    prop "fishing_spot_DNARoot" [
     code [ "fishing_spot" ]
     pos [ 4.45088 -658.174 0.431656 ]
-    hpr [ -90 0 0 ]
+    nhpr [ -90 0 -0 ]
    ]
   ]
  ]

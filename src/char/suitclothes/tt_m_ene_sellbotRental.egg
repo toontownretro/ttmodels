@@ -1,23 +1,23 @@
 <Comment> {
-  "egg-texture-cards -o tt_m_ene_sellbotRental.egg tt_t_ene_sellbotRental_sleeve.tif tt_t_ene_sellbotRental_shoe.tif tt_t_ene_sellbotRental_leg.tif tt_t_ene_sellbotRental_hand.tif tt_t_ene_sellbotRental_blazer.tif tt_t_ene_sellbotRental_arm.tif"
+  "egg-texture-cards -o tt_m_ene_sellbotRental.egg ../../maps/tt_t_ene_sellbotRental_sleeve.tif ../../maps/tt_t_ene_sellbotRental_shoe.tif ../../maps/tt_t_ene_sellbotRental_leg.tif ../../maps/tt_t_ene_sellbotRental_hand.tif ../../maps/tt_t_ene_sellbotRental_blazer.tif ../../maps/tt_t_ene_sellbotRental_arm.tif"
 }
 <Texture> tt_t_ene_sellbotRental_sleeve {
-  tt_t_ene_sellbotRental_sleeve.tif
+  ../../maps/tt_t_ene_sellbotRental_sleeve.tif
 }
 <Texture> tt_t_ene_sellbotRental_shoe {
-  tt_t_ene_sellbotRental_shoe.tif
+  ../../maps/tt_t_ene_sellbotRental_shoe.tif
 }
 <Texture> tt_t_ene_sellbotRental_leg {
-  tt_t_ene_sellbotRental_leg.tif
+  ../../maps/tt_t_ene_sellbotRental_leg.tif
 }
 <Texture> tt_t_ene_sellbotRental_hand {
-  tt_t_ene_sellbotRental_hand.tif
+  ../../maps/tt_t_ene_sellbotRental_hand.tif
 }
 <Texture> tt_t_ene_sellbotRental_blazer {
-  tt_t_ene_sellbotRental_blazer.tif
+  ../../maps/tt_t_ene_sellbotRental_blazer.tif
 }
 <Texture> tt_t_ene_sellbotRental_arm {
-  tt_t_ene_sellbotRental_arm.tif
+  ../../maps/tt_t_ene_sellbotRental_arm.tif
 }
 <Group> {
   <Switch> { 1 }
