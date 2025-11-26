@@ -381,9 +381,11 @@
 	tt_m_ara_pty_cogIceCreamWinter.egg tt_m_ara_pty_cogIceCreamVictory.egg \
 	tt_m_ara_pty_cogDoodleWinter.egg tt_m_ara_pty_cogDoodleVictory.egg \
 	tt_m_ara_pty_danceFloorValentine.egg \
-	tt_m_gui_pty_pieToss_balanceBar.egg tt_m_gui_pty_pieToss_controls.egg \
+	tt_m_gui_pty_pieToss_balanceBar.egg \
+  //tt_m_gui_pty_pieToss_controls.egg \
 	tt_m_ara_pty_hydrantWinter.egg tt_m_ara_pty_mailboxWinter.egg tt_m_ara_pty_trashcanWinter.egg \
-	tt_m_ara_pty_propStageWinter.egg tt_a_ara_pty_propsShow_dance.egg \
+  //tt_a_ara_pty_propsShow_dance.egg \
+	tt_m_ara_pty_propStageWinter.egg \
 	tt_m_ara_pty_partyCatchTreeWinter.egg tt_m_ara_pty_cogPieArenaWinter.egg
   #define PHASE 13
 #end install_egg

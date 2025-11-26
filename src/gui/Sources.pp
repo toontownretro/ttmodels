@@ -37,13 +37,11 @@
   #if $[LANGUAGE]
     #define SOURCES $[SOURCES] \
       feature_gui_$[LANGUAGE].egg members_only_gui_$[LANGUAGE].egg \
-	  tt_m_gui_mat_mainGui_$[LANGUAGE].egg tt_m_gui_ups_mainGui_$[LANGUAGE].egg \
-	  tt_m_gui_ups_logo_noText_$[LANGUAGE].egg
+	  tt_m_gui_ups_mainGui_$[LANGUAGE].egg tt_m_gui_ups_logo_noText_$[LANGUAGE].egg
   #else
     #define SOURCES $[SOURCES] \
       feature_gui_english.egg members_only_gui_english.egg \
-	  tt_m_gui_mat_mainGui_english.egg tt_m_gui_ups_mainGui_english.egg \
-	  tt_m_gui_ups_logo_noText_english.egg
+	  tt_m_gui_ups_mainGui_english.egg tt_m_gui_ups_logo_noText_english.egg
   #endif
   #define PHASE 3
 #end install_egg
