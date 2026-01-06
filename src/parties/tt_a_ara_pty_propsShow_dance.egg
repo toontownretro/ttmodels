@@ -1,0 +1,13 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg_client -no -fri 24 -uo ft -a chan -cn hydra -o tt_a_ara_pty_propsShow_dance.egg -sf 0 tt_a_ara_pty_propsShow_dance.mb"
+}
+<Table> {
+  <Bundle> hydra {
+    <Table> "<skeleton>" {
+    }
+    <Table> morph {
+    }
+  }
+}
