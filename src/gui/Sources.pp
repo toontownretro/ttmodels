@@ -28,6 +28,7 @@
     trashcan_gui.egg quit_button.egg chat_button_gui.egg \
     toon_council.egg cog_icons.egg \
     tt_m_gui_mat_spotlight.egg \
+    tt_m_gui_mat_mainGui.egg \
     tt_m_gui_pat_mainGui.egg \
     nameshop_gui.egg \
     ChatPanel.egg scroll_arrows_gui.egg tt_m_gui_ups_panelBg.egg
