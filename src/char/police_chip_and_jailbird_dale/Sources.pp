@@ -45,13 +45,9 @@
    tt_a_chr_csc_daleCostume_default.egg \ 
   $[matrix tt_a_chr_csc_daleCostume_,$[anims],.egg]
   #define OPTCHAR_OPTS \
-     -no -TR 0,180,0 -TS 3.0 \
-     -flag dale:eye_left=eyes \
-     -flag dale:eye_right=eyes \
-     -flag dale:eye_blink_right=blink \
-     -flag dale:eye_blink_left=blink \
-     -flag dale:pupil_left=pupil_left \
-     -flag dale:pupil_right=pupil_right
+//     -no -TR 0,180,0 -TS 3.0 \
+     -flag eyesOpen=eyesOpen \
+     -flag eyesClosed=eyesClosed
 #end optchar_egg
 
 #begin optchar_egg
@@ -60,13 +56,9 @@
    tt_a_chr_csc_chipCostume_default.egg \ 
   $[matrix tt_a_chr_csc_chipCostume_,$[anims],.egg]
   #define OPTCHAR_OPTS \
-     -no -TR 0,180,0 -TS 3.0 \
-     -flag chip:eye_left=eyes \
-     -flag chip:eye_right=eyes \
-     -flag chip:eye_blink_right=blink \
-     -flag chip:eye_blink_left=blink \
-     -flag chip:pupil_left=pupil_left \
-     -flag chip:pupil_right=pupil_right
+//     -no -TR 0,180,0 -TS 3.0 \
+     -flag eyesOpen=eyesOpen \
+     -flag eyesClosed=eyesClosed
 #end optchar_egg
 
 // INSTALL
