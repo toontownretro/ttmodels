@@ -39,18 +39,18 @@
 	tt_m_ara_cmg_quadrant4_old.egg \
 	tt_m_ara_cmg_quadrant5_old.egg \
 	tt_m_ara_cmg_quadrant6_old.egg \
-	//tt_m_ara_cmg_quadrant7_old.egg \
-	//tt_m_ara_cmg_quadrant8_old.egg \
-	//tt_m_ara_cmg_quadrant9_old.egg \
+	tt_m_ara_cmg_quadrant7_old.egg \
+	tt_m_ara_cmg_quadrant8_old.egg \
+	tt_m_ara_cmg_quadrant9_old.egg \
 	tt_m_ara_cmg_quadrant1.egg \
 	tt_m_ara_cmg_quadrant2.egg \
 	tt_m_ara_cmg_quadrant3.egg \
 	tt_m_ara_cmg_quadrant4.egg \
 	tt_m_ara_cmg_quadrant5.egg \
 	tt_m_ara_cmg_quadrant6.egg \
-	//tt_m_ara_cmg_quadrant7.egg \
-	//tt_m_ara_cmg_quadrant8.egg \
-	//tt_m_ara_cmg_quadrant9.egg \
+	tt_m_ara_cmg_quadrant7.egg \
+	tt_m_ara_cmg_quadrant8.egg \
+	tt_m_ara_cmg_quadrant9.egg \
 	tt_m_ara_cmg_splash.egg \
 	tt_m_ara_cmg_waterBalloon.egg \
 	tt_m_gui_cmg_bossCog.egg \
