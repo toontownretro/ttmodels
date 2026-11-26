@@ -152,7 +152,7 @@
 #begin maya_char_egg
   #define MAYA_PREFIX tt_a_ara_pty_hydra_
   #define EGG_PREFIX tt_a_ara_pty_hydra_
-  #define MODEL dance
+  #define MODEL default
   #define POLY_MODEL default
   #define ANIMS dance
   #define CHAR_NAME hydra
@@ -254,8 +254,7 @@
     tt_m_ara_pty_cannonVictory.egg
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS] \
     -dart structured \
-    -expose uvj_confetti \
-    -flag joint2 
+    -expose uvj_confetties
 #end optchar_egg
 
 #begin optchar_egg
@@ -288,7 +287,7 @@
 	tt_a_ara_pty_tubeCogVictory_wave.egg
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS] \
     -dart structured \
-	-keepall
+    -keepall
 #end optchar_egg
 
 #begin optchar_egg
@@ -298,7 +297,7 @@
     tt_a_ara_pty_hydra_dance.egg
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS] \
     -dart structured \
-	-keepall
+    -keepall
 #end optchar_egg
 
 #begin optchar_egg
@@ -307,7 +306,46 @@
     tt_r_ara_pty_winterProps.egg
   #define OPTCHAR_OPTS $[OPTCHAR_OPTS] \
     -dart structured \
-	-keepall
+    -keepall \
+    -p def_all,root \
+    -p hy_def_base,def_all \
+    -p hy_def_left_arm,hy_def_base \
+//    -p hy_dx_left_water,hy_def_left_arm \
+    -p hy_def_right_arm,hy_def_base \
+    -p hy_dx_right_water,hy_def_right_arm \
+    -p hy_def_shadow,hy_def_base \
+    -p hy_def_spine,hy_def_base \
+    -p hy_def_spinesquash,hy_def_spine \
+    -p hy_def_top,hy_def_spine \
+    -p hy_def_glasses,hy_def_top \
+    -p hy_def_hat,hy_def_top \
+    -p mb_def_base,def_all \
+    -p mb_def_boxPoleA,mb_def_base \
+    -p mb_def_boxPoleB,mb_def_boxPoleA \
+    -p mb_def_boxBase,mb_def_boxPoleB \
+    -p mb_def_boxDoor,mb_def_boxBase \
+    -p mb_def_boxFlag,mb_def_boxBase \
+    -p mb_def_pelBody,mb_def_base \
+    -p mb_def_innerTube,mb_def_pelBody \
+    -p mb_def_pelNeckA,mb_def_pelBody \
+    -p mb_def_pelNeckB,mb_def_pelNeckA \
+    -p mb_def_pelHead,mb_def_pelNeckB \
+    -p mb_def_hat,mb_def_pelHead \
+    -p mb_def_pouch,mb_def_pelHead \
+    -p mb_def_shadow,mb_def_base \
+    -p tc_def_base,def_all \
+    -p tc_def_shadow,tc_def_base \
+    -p tc_def_spine,tc_def_base \
+    -p tc_def_glasses,tc_def_spine \
+    -p tc_def_skirt,tc_def_spine \
+    -p tc_def_spinesquash,tc_def_spine \
+    -p tc_def_top,tc_def_spine \
+    -p tc_def_lid,tc_def_top \
+    -p tc_def_hat,tc_def_lid \
+    -p tc_def_trashApple,tc_def_spine \
+    -p tc_def_trashBone,tc_def_spine \
+    -p tc_def_trashCan,tc_def_spine \
+    -p tc_def_trashPaper,tc_def_spine
 #end optchar_egg
 
 
@@ -339,10 +377,9 @@
 
 // Phase 5.5 source eggs include the flappy cog model and wave animation
 #begin install_egg
-  #define INSTALL_TO models/estate
   #define SOURCES \
      optchar/tt_a_ara_pty_tubeCogVictory_default.egg \
-	 optchar/tt_a_ara_pty_tubeCogVictory_wave.egg
+     optchar/tt_a_ara_pty_tubeCogVictory_wave.egg
   #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
   #define PHASE 5.5
 #end install_egg
@@ -366,11 +403,11 @@
     optchar/tt_m_ara_pty_gagGlobe_model.egg  \
     optchar/tt_m_ara_pty_bannerJellybean_model.egg \
     optchar/tt_m_ara_pty_bannerValentine_model.egg \
-	optchar/tt_m_ara_pty_bannerVictory_model.egg \
+    optchar/tt_m_ara_pty_bannerVictory_model.egg \
     optchar/tt_m_ara_pty_heartWing_model.egg \
-	optchar/tt_m_ara_pty_cannonVictory_model.egg \
-	optchar/tt_a_ara_pty_hydra_default.egg \
-	optchar/tt_r_ara_pty_winterProps.egg \
+    optchar/tt_m_ara_pty_cannonVictory_model.egg \
+    optchar/tt_a_ara_pty_hydra_default.egg \
+    optchar/tt_r_ara_pty_winterProps.egg \
     tt_m_ara_pty_cakeTower.egg \
     //tt_m_ara_pty_heartWing.egg \
     //tt_m_ara_pty_bannerValentine.egg \
@@ -378,14 +415,14 @@
     optchar/cogPinata_actor.egg \
     cogPieArena_model.egg stretchingArrow.egg cogPinataHole.egg \
     cogTrackerGUI.egg tt_m_ara_pty_winterPresent.egg \
-	tt_m_ara_pty_cogIceCreamWinter.egg tt_m_ara_pty_cogIceCreamVictory.egg \
-	tt_m_ara_pty_cogDoodleWinter.egg tt_m_ara_pty_cogDoodleVictory.egg \
-	tt_m_ara_pty_danceFloorValentine.egg \
-	tt_m_gui_pty_pieToss_balanceBar.egg tt_m_gui_pty_pieToss_controls.egg \
-	tt_m_ara_pty_hydrantWinter.egg tt_m_ara_pty_mailboxWinter.egg tt_m_ara_pty_trashcanWinter.egg \
-  tt_a_ara_pty_propsShow_dance.egg \
-	tt_m_ara_pty_propStageWinter.egg \
-	tt_m_ara_pty_partyCatchTreeWinter.egg tt_m_ara_pty_cogPieArenaWinter.egg
+    tt_m_ara_pty_cogIceCreamWinter.egg tt_m_ara_pty_cogIceCreamVictory.egg \
+    tt_m_ara_pty_cogDoodleWinter.egg tt_m_ara_pty_cogDoodleVictory.egg \
+    tt_m_ara_pty_danceFloorValentine.egg \
+    tt_m_gui_pty_pieToss_balanceBar.egg tt_m_gui_pty_pieToss_controls.egg \
+    tt_m_ara_pty_hydrantWinter.egg tt_m_ara_pty_mailboxWinter.egg tt_m_ara_pty_trashcanWinter.egg \
+    tt_a_ara_pty_propsShow_dance.egg \
+    tt_m_ara_pty_propStageWinter.egg \
+    tt_m_ara_pty_partyCatchTreeWinter.egg tt_m_ara_pty_cogPieArenaWinter.egg
   #define PHASE 13
 #end install_egg
 
@@ -394,10 +431,10 @@
         optchar/tt_m_ara_pty_gagGlobe.egg  \
         optchar/tt_m_ara_pty_bannerJellybean.egg \
         optchar/tt_m_ara_pty_bannerValentine.egg \
-		optchar/tt_m_ara_pty_bannerVictory.egg \
+        optchar/tt_m_ara_pty_bannerVictory.egg \
         optchar/tt_m_ara_pty_heartWing.egg \
-		optchar/tt_m_ara_pty_cannonVictory.egg \
-		optchar/tt_a_ara_pty_hydra_dance.egg
+        optchar/tt_m_ara_pty_cannonVictory.egg \
+        optchar/tt_a_ara_pty_hydra_dance.egg
     #define EGG2BAM_OPTS $[EGG2BAM_OPTS] -NC
     #define PHASE 13
 #end install_egg
